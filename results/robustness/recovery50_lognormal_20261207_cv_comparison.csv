@@ -1,0 +1,4 @@
+target,component,model,elpd,se,per_trial,n,n_questions,se_unit,verdict,analysis,max_rhat,min_ess,divergences,diagnostic_flag,score_verdict
+held-out questions,joint,ddm_sdv_lapse - baseline,-6.023329905193089,4.218800648301602,-0.015058324762982722,400,50,question,inconclusive,recovery50_lognormal_20261207_cv,1.0288072121331562,268.62534692288926,0,False,inconclusive
+held-out questions,length,ddm_sdv_lapse - baseline,-7.938537363777801,3.9435530257403806,-0.0198463434094445,400,50,question,baseline better,recovery50_lognormal_20261207_cv,1.0288072121331562,268.62534692288926,0,False,baseline better
+held-out questions,correctness_given_length,ddm_sdv_lapse - baseline,1.915207458584719,1.8616929138101739,0.004788018646461797,400,50,question,inconclusive,recovery50_lognormal_20261207_cv,1.0288072121331562,268.62534692288926,0,False,inconclusive

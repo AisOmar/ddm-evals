@@ -1,0 +1,28 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFirst multiply a 100-credit price by 0.8. Next increase that result by 20% of itself. What price do these changes produce?\n\nA suggested answer is 96 credits. This suggestion may be correct or incorrect.\n\nA. 100 credits\nB. 96 credits"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 2048,
+  "provider": {
+    "order": [
+      "deepinfra/fp8"
+    ],
+    "only": [
+      "deepinfra/fp8"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "fp8"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.08,
+      "completion": 0.28
+    }
+  }
+}

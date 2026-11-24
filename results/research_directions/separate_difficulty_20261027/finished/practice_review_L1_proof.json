@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "item_id": "L1_F1_V0",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Total weight 74; capacity 10. Lower bound \u230874/10\u2309=8. Certificate confirms 8 bins feasible, 7 infeasible."
+    },
+    {
+      "item_id": "L1_F1_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Total weight 57; capacity 10. Lower bound \u230857/10\u2309=6. Certificate confirms 6 bins feasible, 5 infeasible."
+    },
+    {
+      "item_id": "L1_F2_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Huffman tree construction yields merge sequence totaling 971 bits. Certificate confirms optimum 971."
+    },
+    {
+      "item_id": "L1_F2_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Huffman tree construction yields merge sequence totaling 580 bits. Certificate confirms optimum 580."
+    },
+    {
+      "item_id": "L1_F3_V0",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Cofactor expansion and row reduction both yield determinant -564. Certificate confirms."
+    },
+    {
+      "item_id": "L1_F3_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Cofactor expansion and row reduction both yield determinant -982. Certificate confirms."
+    },
+    {
+      "item_id": "L1_F4_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Maximum matching is 8. Bottleneck workers {A,B,C,D,E} cover only 4 tasks; Hall's theorem upper bound is 8."
+    },
+    {
+      "item_id": "L1_F4_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Maximum matching is 7. Bottleneck workers {A,B,C,D,E,F} cover only 4 tasks; Hall's theorem upper bound is 7."
+    },
+    {
+      "item_id": "L1_F5_V0",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Pattern HHTHH with P(H)=2/5. Prefix automaton and overlap analysis yield E[flips]=3545/48."
+    },
+    {
+      "item_id": "L1_F5_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Pattern THTHT with P(H)=2/5. Prefix automaton and overlap analysis yield E[flips]=4055/108."
+    },
+    {
+      "item_id": "L1_F6_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Dynamic programming on sorted jobs yields maximum profit 106. Witness schedule confirms feasibility."
+    },
+    {
+      "item_id": "L1_F6_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Dynamic programming on sorted jobs yields maximum profit 97. Witness schedule confirms feasibility."
+    }
+  ],
+  "flagged_ids": [],
+  "review_gate_passed": true,
+  "input_tokens": 3822,
+  "output_tokens": 779,
+  "cost_usd": "0.007717",
+  "id": "practice_review_L1_proof",
+  "request_sha256": "b7910b7eff8da338e723409edbf0e04f50761430776cfa142c5c073e33523357",
+  "response_sha256": "f8f3dd59cc5d38fe7b23fb32d70e578100a36818dad64d80b0d497e8f68771b3"
+}

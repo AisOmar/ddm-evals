@@ -1,0 +1,20 @@
+{
+  "planned_resource_calls": 16,
+  "resource_items": 8,
+  "reasoning_types": 8,
+  "routes": {
+    "Qwen3": "deepinfra/fp8",
+    "gpt-oss": "dekallm/bf16"
+  },
+  "temperature": 0.7,
+  "max_tokens": 2048,
+  "timeout_seconds": 180,
+  "minimum_preparation_interval_seconds": 5,
+  "ceiling_usd": "0.10",
+  "order_seed": 20261022077,
+  "author_keys_checked": true,
+  "independent_review_complete": false,
+  "model_calls_launched": 0,
+  "pilot_calls_included": 0,
+  "original_study_remains_paused": true
+}

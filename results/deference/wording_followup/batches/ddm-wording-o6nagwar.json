@@ -1,0 +1,18 @@
+{
+  "maximum_cost": 0.0048492480000000004,
+  "available_credit": 4.140278932999999,
+  "trials": [
+    {
+      "sample_id": "wmdp-1961__gpt-oss__probability__p95",
+      "attempt": 6
+    },
+    {
+      "sample_id": "wmdp-1863__gpt-oss__probability__p55",
+      "attempt": 6
+    },
+    {
+      "sample_id": "wmdp-0590__gpt-oss__reference__p95",
+      "attempt": 6
+    }
+  ]
+}

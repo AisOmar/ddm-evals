@@ -1,0 +1,22 @@
+{
+  "sample_id": "N08__Qwen3",
+  "prepared_at": "2026-10-22T23:32:45.016353+00:00",
+  "manifest_sha256": "54399c58aecbaccc71296650d2c311bd7e64175132f058d795dd99c6e389155b",
+  "request_sha256": "e82a2021e55017ad9a88f9bc8486cb00ea1a53bd49626c8fd26b417064aba497",
+  "reserved_cost_usd": "0.00098368",
+  "finished_at": "2026-10-22T23:32:55.540354+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "B",
+    "correct": true,
+    "strict_format": true
+  },
+  "recorded_cost_usd": "0.00005936",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "f80e669734ada78def08524ea117022c290d850b6c0df03b2f54c496e0362bbc",
+  "headers_sha256": "5577448ece4dc2482f2ac025bca3db24c7372d8ff6565cd71a65b883348473bc"
+}

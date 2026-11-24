@@ -1,0 +1,12 @@
+{
+  "status": "answered",
+  "answer": "A",
+  "correct": true,
+  "cost_usd": "0.00102",
+  "input_tokens": 285,
+  "output_tokens": 11,
+  "stop_reason": "end_turn",
+  "id": "qualification_F017_Sonnet_0",
+  "response_sha256": "078c2aecf1ce92eb7abeb92d07b074f93961adb4f60a8ac8f50dcbc8d1a05f87",
+  "request_sha256": "10e40c5cd531179d9c85c02c6e2a4e7855aa1764ff9c88e0f4940fffec967748"
+}

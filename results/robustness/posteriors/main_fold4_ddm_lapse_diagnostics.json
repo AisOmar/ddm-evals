@@ -1,0 +1,14 @@
+{
+  "label": "main_fold4_ddm_lapse",
+  "seconds": 181.09271502494812,
+  "divergences": 0,
+  "max_rhat": 1.0198439437024986,
+  "min_ess": 81.17746651237758,
+  "draws": 400,
+  "chains": 2,
+  "tune": 500,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "settings_source": "Executed command and script defaults"
+}

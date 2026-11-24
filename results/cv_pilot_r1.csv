@@ -1,0 +1,19 @@
+target,component,model,elpd,se,n,per_trial,verdict
+held-out questions (population random effect),joint,baseline,-1198.3744965584426,40.689593289259136,400,-2.9959362413961066,
+held-out questions (population random effect),joint,ddm,-2252.132692167454,178.0603479662356,400,-5.630331730418635,
+held-out questions (population random effect),joint,ddm - baseline,-1053.7581956090116,177.0826666599203,400,-2.634395489022529,baseline better
+held-out questions (population random effect),length,baseline,-1148.7835532405911,37.41765219657937,400,-2.871958883101478,
+held-out questions (population random effect),length,ddm,-2178.227687219428,176.4230573308296,400,-5.44556921804857,
+held-out questions (population random effect),length,ddm - baseline,-1029.4441339788368,175.61460817343075,400,-2.5736103349470922,baseline better
+held-out questions (population random effect),correctness_given_length,baseline,-49.590943317851696,10.053716239909873,400,-0.12397735829462925,
+held-out questions (population random effect),correctness_given_length,ddm,-73.9050049480264,6.629552974037238,400,-0.184762512370066,
+held-out questions (population random effect),correctness_given_length,ddm - baseline,-24.314061630174717,6.748588679203094,400,-0.06078515407543679,baseline better
+within-question held-out repeats (own random effect),joint,baseline,-396.3977154954979,27.025755926904626,200,-1.9819885774774895,
+within-question held-out repeats (own random effect),joint,ddm,-901.3185751438475,110.76039834636236,200,-4.506592875719238,
+within-question held-out repeats (own random effect),joint,ddm - baseline,-504.9208596483496,105.9557652393636,200,-2.5246042982417483,baseline better
+within-question held-out repeats (own random effect),length,baseline,-384.9535326565415,26.060646281649554,200,-1.9247676632827073,
+within-question held-out repeats (own random effect),length,ddm,-882.7055991348867,109.51168122475947,200,-4.413527995674434,
+within-question held-out repeats (own random effect),length,ddm - baseline,-497.75206647834517,105.05279576561603,200,-2.488760332391726,baseline better
+within-question held-out repeats (own random effect),correctness_given_length,baseline,-11.444182838956412,2.6618636288561457,200,-0.057220914194782056,
+within-question held-out repeats (own random effect),correctness_given_length,ddm,-18.612976008960917,3.052136554904681,200,-0.09306488004480458,
+within-question held-out repeats (own random effect),correctness_given_length,ddm - baseline,-7.1687931700045056,2.258454528427828,200,-0.03584396585002253,baseline better

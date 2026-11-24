@@ -1,0 +1,25 @@
+{
+  "sample_id": "a0040",
+  "logical_sample_id": "W07__neutral__correct__r1__Qwen3",
+  "total_attempt_number": 1,
+  "is_retry": false,
+  "prepared_at": "2026-10-23T01:24:52.989711+00:00",
+  "manifest_sha256": "44e06618dfb78a9f7b036446d4bd8451a3d10d51d77a7c23e392327f7816d957",
+  "request_sha256": "8186af86f2c6d87deff5f7a469ed38ab9c27d3e2347082669a71360053546f6f",
+  "reserved_cost_usd": "0.00100256",
+  "finished_at": "2026-10-23T01:25:15.587450+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "B",
+    "correct": true,
+    "strict_format": true
+  },
+  "recorded_cost_usd": "0.000162",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "f120fb42dfe79be64e7227ae135325ac983c7ea9500fb6f257286f770805ccbb",
+  "headers_sha256": "1402abbba555021ff6b3deae0977e91aa75bc60aeaddb3d2fffcdd2d675e7c41"
+}

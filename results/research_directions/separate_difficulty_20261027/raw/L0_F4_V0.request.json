@@ -1,0 +1,32 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "max_tokens": 128,
+  "temperature": 0.7,
+  "messages": [
+    {
+      "role": "user",
+      "content": "6 workers A, B, C, D, E, F can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[3, 4]; B:[4, 6]; C:[3, 6]; D:[3, 4]; E:[1, 5]; F:[1, 2]. What is the maximum number of tasks that can be assigned?\n\nA: 6\nB: 5\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+    }
+  ],
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          }
+        },
+        "required": [
+          "answer"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

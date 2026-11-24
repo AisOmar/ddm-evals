@@ -1,0 +1,22 @@
+case,profile,replicate,cap,truth,component,delta,se,winner,correct_decisive,wrong_decisive,valid
+ddm_calibrated_00_cap32768,ddm_calibrated,0,32768,ddm,joint,553.8207124801093,71.67060184804801,ddm,True,False,True
+ddm_calibrated_00_cap32768,ddm_calibrated,0,32768,ddm,length,480.54671595120374,60.823622360910505,ddm,True,False,True
+ddm_calibrated_00_cap32768,ddm_calibrated,0,32768,ddm,correctness_given_length,73.27399652890554,30.12272937285428,ddm,True,False,True
+ddm_calibrated_00_cap8192,ddm_calibrated,0,8192,ddm,joint,462.6314823191035,64.15993573264711,ddm,True,False,True
+ddm_calibrated_00_cap8192,ddm_calibrated,0,8192,ddm,length,386.1278634917324,55.4778632577237,ddm,True,False,True
+ddm_calibrated_00_cap8192,ddm_calibrated,0,8192,ddm,correctness_given_length,76.50361882737121,25.88341133236226,ddm,True,False,True
+ddm_calibrated_01_cap32768,ddm_calibrated,1,32768,ddm,joint,704.3741914529319,69.46547884091753,fit failure,False,False,False
+ddm_calibrated_01_cap32768,ddm_calibrated,1,32768,ddm,length,543.6465239068232,58.4943032344916,fit failure,False,False,False
+ddm_calibrated_01_cap32768,ddm_calibrated,1,32768,ddm,correctness_given_length,160.7276675461088,29.013490609307016,fit failure,False,False,False
+ddm_question_time_00_cap32768,ddm_question_time,0,32768,ddm,joint,753.9325502557649,70.48245459366014,fit failure,False,False,False
+ddm_question_time_00_cap32768,ddm_question_time,0,32768,ddm,length,493.0207827896428,58.98324537154192,fit failure,False,False,False
+ddm_question_time_00_cap32768,ddm_question_time,0,32768,ddm,correctness_given_length,260.9117674661221,33.82239386256506,fit failure,False,False,False
+baseline_calibrated_00_cap32768,baseline_calibrated,0,32768,baseline,joint,-1731.1455114689375,135.44984385820743,baseline,True,False,True
+baseline_calibrated_00_cap32768,baseline_calibrated,0,32768,baseline,length,-1057.8198916543831,120.72626090921476,baseline,True,False,True
+baseline_calibrated_00_cap32768,baseline_calibrated,0,32768,baseline,correctness_given_length,-673.3256198145542,46.63996955778873,baseline,True,False,True
+baseline_calibrated_00_cap8192,baseline_calibrated,0,8192,baseline,joint,-1601.6081716615804,124.11461149845091,baseline,True,False,True
+baseline_calibrated_00_cap8192,baseline_calibrated,0,8192,baseline,length,-1122.7978284205676,120.16678319533305,baseline,True,False,True
+baseline_calibrated_00_cap8192,baseline_calibrated,0,8192,baseline,correctness_given_length,-478.81034324101284,38.719070810074335,baseline,True,False,True
+baseline_contaminated_00_cap32768,baseline_contaminated,0,32768,baseline,joint,-834.5717875575226,87.02275471647707,baseline,True,False,True
+baseline_contaminated_00_cap32768,baseline_contaminated,0,32768,baseline,length,-544.6204468525048,77.55634553615431,baseline,True,False,True
+baseline_contaminated_00_cap32768,baseline_contaminated,0,32768,baseline,correctness_given_length,-289.9513407050179,32.433186463309795,baseline,True,False,True

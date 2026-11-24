@@ -1,0 +1,14 @@
+{
+  "label": "augmented_fold1_two_process",
+  "seconds": 225.6250159740448,
+  "divergences": 0,
+  "max_rhat": 1.0072825663263276,
+  "min_ess": 733.8002777260804,
+  "draws": 2000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

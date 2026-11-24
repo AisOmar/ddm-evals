@@ -1,0 +1,22 @@
+{
+  "sample_id": "P03__r2__Tenstorrent",
+  "prepared_at": "2026-10-22T23:21:17.130015+00:00",
+  "manifest_sha256": "be52bdfdbdbf3605d51c2e81a13d1f9f63e98275de35649368d544d1a35aedf3",
+  "request_sha256": "e199ca54bdbaa9d66974f47f8b35882087d9f3c449fe69dac37b0c0136c5c887",
+  "reserved_cost_usd": "0.0015388",
+  "finished_at": "2026-10-22T23:21:23.822185+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "B",
+    "correct": true,
+    "strict_format": false
+  },
+  "recorded_cost_usd": "0.00011746",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "7b76c67d1de78ea3521606686d1784b60e4aa9dbdc9d7a16fc29c4522192f710",
+  "headers_sha256": "fde756cdb95e163f50039e9746544863b4fd85f9b12bfc9ef2ae7fbd2c2c0f1d"
+}

@@ -1,0 +1,88 @@
+{
+  "seed": 20261009,
+  "questions": 400,
+  "conditions": [
+    "plain_concise",
+    "plain_thorough",
+    "sbs_concise",
+    "sbs_thorough"
+  ],
+  "repeats": 2,
+  "folds": 3,
+  "replicates": 20,
+  "profiles": [
+    "ddm_calibrated",
+    "ddm_question_time",
+    "ddm_high_sdv",
+    "baseline_calibrated",
+    "baseline_correlated",
+    "baseline_contaminated"
+  ],
+  "caps_tokens": [
+    32768,
+    8192
+  ],
+  "code_prevalence": 0.44,
+  "generators": "Joint hyperparameter draws sampled uniformly from five R1 CV posterior fits; fresh question effects and trials per replicate.",
+  "stresses": {
+    "ddm_question_time": "Add independent question timing: median 150 prose / 750 code tokens, log SD 0.7; 3.75% independent early termination with uniform 10%-90% cap deadline.",
+    "ddm_high_sdv": "Multiply within-question drift SD by 4.",
+    "baseline_correlated": "Correlation +0.6 between question length and accuracy effects.",
+    "baseline_contaminated": "Replace 8% of trials with fair-answer lognormal lengths (median 2000 tokens, log SD 2)."
+  },
+  "option_position": "Two A/two B conditions per question per repeat, reversed on repeat two; no simulated position effect.",
+  "primary": "Joint held-out-question log predictive density; three grouped folds; question-cluster SE; abs(delta)>2*SE for a winner.",
+  "screening": "Population MAP with question effects integrated by adaptive piecewise Legendre quadrature (DDM) / 64-node adaptive Gaussian quadrature (baseline); point hyperparameter prediction. NOT full Bayesian power.",
+  "settings": {
+    "question_nodes": 16,
+    "tail_nodes": 64,
+    "maxiter": 350,
+    "starts": 2,
+    "baseline_nodes": 64
+  },
+  "uncertainty": "95% Wilson intervals across independent datasets; caps are paired. Invalid optimizations counted as failures.",
+  "readiness": "Screening target: correct decisive selection >=80% in both calibrated model families, wrong decisive selection <=5%; stresses reported separately. Finite-replicate intervals and Bayesian confirmation constrain conclusions.",
+  "bayesian_confirmation": "First replicate at 32768 for ddm_calibrated and baseline_calibrated, selected before outcome inspection; same three grouped folds.",
+  "source_artifacts": [
+    {
+      "path": "results/robustness/posteriors/main_fold0_baseline.nc",
+      "sha256": "d6f91ff51a08d69ac4f6a69888297cc1a579de9924c645166aa09af01c6a6861"
+    },
+    {
+      "path": "results/robustness/posteriors/main_fold1_baseline.nc",
+      "sha256": "46941367b46d9bbc11eed93ee883d5870833e110ab4fee58c21a54bc0ad64875"
+    },
+    {
+      "path": "results/robustness/posteriors/main_fold2_baseline.nc",
+      "sha256": "10c2cf144b05e9937f959259650511ce90ec312c8bcb06d7d82d179af9e77606"
+    },
+    {
+      "path": "results/robustness/posteriors/main_fold3_baseline.nc",
+      "sha256": "3aa4ba5325d2b52d92e02f1ca1ba23adcfe01ae6e1f271adde1eb34be0583e46"
+    },
+    {
+      "path": "results/robustness/posteriors/main_fold4_baseline.nc",
+      "sha256": "36482fb43e2f2d21d0306d56906e7cb064a9f7cd93bf83951dbb077ca49df67b"
+    },
+    {
+      "path": "results/robustness/posteriors/main_fold0_ddm_sdv_lapse.nc",
+      "sha256": "6f1e7bd220560367689f0c32dbd15cdc00dfbf7f66a10da474ab62049f984486"
+    },
+    {
+      "path": "results/robustness/posteriors/main_fold1_ddm_sdv_lapse.nc",
+      "sha256": "213cd059e610d35b6ec79edfa5c35660700e7a4e84b7edc9c03301a0bb060f50"
+    },
+    {
+      "path": "results/robustness/posteriors/main_fold2_ddm_sdv_lapse.nc",
+      "sha256": "559a01e34da0e890fc7f2f71049f03c7f52c005848a793ff5124e2705b9fd973"
+    },
+    {
+      "path": "results/robustness/posteriors/main_fold3_ddm_sdv_lapse.nc",
+      "sha256": "3644d3063c55ebe4b79f6c22e46ad79dce368bdbf6d5a460d6701d1d9d6352a4"
+    },
+    {
+      "path": "results/robustness/posteriors/main_fold4_ddm_sdv_lapse.nc",
+      "sha256": "fafb19e0f7672f3496710faa9111cc2331d235a49d7e3134080a75aee45a2215"
+    }
+  ]
+}

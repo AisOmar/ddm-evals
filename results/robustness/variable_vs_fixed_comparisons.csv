@@ -1,0 +1,19 @@
+target,component,model,elpd,se,per_trial,n,n_questions,se_unit,verdict,analysis,diagnostic_flag
+held-out questions,joint,ddm_sdv_lapse - ddm_lapse,3.1976235931380548,1.1322917159941925,0.029607625862389395,108,39,question,variable drift better,deepinfra_cv,False
+held-out questions,length,ddm_sdv_lapse - ddm_lapse,2.5316847265690905,0.9582422380697261,0.023441525246010095,108,39,question,variable drift better,deepinfra_cv,False
+held-out questions,correctness_given_length,ddm_sdv_lapse - ddm_lapse,0.6659388665689624,0.6231884029096365,0.006166100616379282,108,39,question,inconclusive,deepinfra_cv,False
+held-out questions,joint,ddm_sdv_lapse - ddm_lapse,16.107940755515134,4.96372612591374,0.04183880715718217,385,50,question,variable drift better,exclude_incomplete_cv,False
+held-out questions,length,ddm_sdv_lapse - ddm_lapse,12.078556704427358,4.9082558046269025,0.03137287455695418,385,50,question,variable drift better,exclude_incomplete_cv,False
+held-out questions,correctness_given_length,ddm_sdv_lapse - ddm_lapse,4.029384051087778,1.5394819446207992,0.010465932600227995,385,50,question,variable drift better,exclude_incomplete_cv,False
+held-out questions,joint,ddm_sdv_lapse - ddm_lapse,15.699698214034711,5.406369806459101,0.039249245535086776,400,50,question,variable drift better,provider_adjusted_cv,False
+held-out questions,length,ddm_sdv_lapse - ddm_lapse,11.784297785687173,5.199064611233975,0.029460744464217932,400,50,question,variable drift better,provider_adjusted_cv,False
+held-out questions,correctness_given_length,ddm_sdv_lapse - ddm_lapse,3.915400428347538,2.0521681694558613,0.009788501070868845,400,50,question,inconclusive,provider_adjusted_cv,False
+within-question repeats,joint,ddm_sdv_lapse - ddm_lapse,-1.8475951367975232,1.4363173113757175,-0.009237975683987616,200,50,question,inconclusive,main_within,False
+within-question repeats,length,ddm_sdv_lapse - ddm_lapse,-2.1365760891179923,1.3157848398394607,-0.010682880445589961,200,50,question,inconclusive,main_within,False
+within-question repeats,correctness_given_length,ddm_sdv_lapse - ddm_lapse,0.2889809523204675,0.3825705354527533,0.0014449047616023375,200,50,question,inconclusive,main_within,False
+held-out questions,joint,ddm_sdv_lapse - ddm_lapse,19.490680447570657,6.051713961890655,0.048726701118926644,400,50,question,variable drift better,main_cv,False
+held-out questions,length,ddm_sdv_lapse - ddm_lapse,15.50561076477181,5.667790102243987,0.038764026911929525,400,50,question,variable drift better,main_cv,False
+held-out questions,correctness_given_length,ddm_sdv_lapse - ddm_lapse,3.9850696827988474,2.2450606197145473,0.009962674206997119,400,50,question,inconclusive,main_cv,False
+held-out questions,joint,ddm_sdv_lapse - ddm_lapse,17.55426561008869,5.707926990503375,0.04388566402522173,400,50,question,variable drift better,hidden_only_cv,False
+held-out questions,length,ddm_sdv_lapse - ddm_lapse,13.90366302335862,5.525117363140646,0.03475915755839655,400,50,question,variable drift better,hidden_only_cv,False
+held-out questions,correctness_given_length,ddm_sdv_lapse - ddm_lapse,3.650602586730073,1.7369217988949726,0.009126506466825182,400,50,question,variable drift better,hidden_only_cv,False

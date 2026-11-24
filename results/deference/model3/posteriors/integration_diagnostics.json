@@ -1,0 +1,14 @@
+{
+  "label": "integration",
+  "seconds": 42.011581897735596,
+  "divergences": 0,
+  "max_rhat": 1.0034076506379634,
+  "min_ess": 1717.3335772378111,
+  "draws": 2000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

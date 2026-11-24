@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-10-22T23:35:50.619962+00:00",
+  "planned": 16,
+  "attempted": 16,
+  "resource_gate_passed": true,
+  "outcomes": {
+    "answered": 16
+  },
+  "strict_format": 16,
+  "reasoning_count_inconsistencies": 2,
+  "recorded_cost_usd": "0.00094809",
+  "missing_cost_metadata": 0,
+  "full_reserve_usd": "0.01210120",
+  "unsent_ids": [],
+  "pilot_calls": 0,
+  "original_study_remains_paused": true,
+  "factual_correctness_not_used_for_gate": true,
+  "manifest_sha256": "54399c58aecbaccc71296650d2c311bd7e64175132f058d795dd99c6e389155b"
+}

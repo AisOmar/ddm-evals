@@ -1,0 +1,12 @@
+{
+  "current_review_packet": "semantic_revision",
+  "n_calibration": 24,
+  "n_reserved": 24,
+  "author_visible_stem_checks_passed": 48,
+  "independent_review_complete": false,
+  "live_delivery_validated": false,
+  "delivery_canary_status": "stopped after first gpt-oss upstream 429",
+  "calibration_calls_launched": 0,
+  "calibration_authorized": false,
+  "original_study_remains_paused": true
+}

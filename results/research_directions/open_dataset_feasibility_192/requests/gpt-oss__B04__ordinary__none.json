@@ -1,0 +1,28 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nThe following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are five vehicles: a convertible, a sedan, a tractor, a minivan, and a limousine. The tractor is newer than the minivan. The tractor is older than the limousine. The convertible is older than the sedan. The convertible is the second-newest.\n\nA. The limousine is the second-oldest\nB. The tractor is the second-oldest"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 4096,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "only": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "bf16"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.037,
+      "completion": 0.17
+    }
+  }
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "item_id": "N07",
+    "family": "intervention",
+    "version": "neutral",
+    "cohort": "resource",
+    "stem": "Initially U=5, X=U+1, and Y=2*X+U. Override only the X equation with X=3, keep U fixed, and compute the resulting Y.",
+    "answer": "11",
+    "distractor": "8",
+    "initial_letter": "B",
+    "options": {
+      "A": "8",
+      "B": "11"
+    },
+    "author_derivation": "Keep U=5; Y=2*3+5=11. Inferring U=2 from the overridden equation is invalid.",
+    "review_id": "V001"
+  },
+  {
+    "item_id": "N03",
+    "family": "conditioning",
+    "version": "trap",
+    "cohort": "resource",
+    "stem": "A scanner flags 24 of the 30 infected devices in a batch of 90. It also flags 12 uninfected devices. If one flagged device is chosen uniformly at random, what is the probability it is infected?",
+    "answer": "2/3",
+    "distractor": "4/5",
+    "initial_letter": "B",
+    "options": {
+      "A": "4/5",
+      "B": "2/3"
+    },
+    "author_derivation": "24/(24+12)=2/3; 24/30 is sensitivity, not the requested posterior.",
+    "review_id": "V002"
+  },
+  {
+    "item_id": "N05",
+    "family": "relative_time",
+    "version": "trap",
+    "cohort": "resource",
+    "stem": "The day before yesterday was the day after Thursday. What weekday will tomorrow be?",
+    "answer": "Monday",
+    "distractor": "Tuesday",
+    "initial_letter": "A",
+    "options": {
+      "A": "Monday",
+      "B": "Tuesday"
+    },
+    "author_derivation": "The day before yesterday was Friday; today is Sunday; tomorrow is Monday.",
+    "review_id": "V003"
+  },
+  {
+    "item_id": "N06",
+    "family": "ratio_difference",
+    "version": "plain",
+    "cohort": "resource",
+    "stem": "Asha has four times as many tokens as Ivo and has 18 more tokens than Ivo. How many tokens does Ivo have?",
+    "answer": "6",
+    "distractor": "9/2",
+    "initial_letter": "A",
+    "options": {
+      "A": "6",
+      "B": "9/2"
+    },
+    "author_derivation": "4x-x=18, so x=6.",
+    "review_id": "V004"
+  },
+  {
+    "item_id": "N04",
+    "family": "implication",
+    "version": "plain",
+    "cohort": "resource",
+    "stem": "Every copper disk is round. No round disk is heavy. At least one copper disk exists. Which statement must be true, using only these premises?",
+    "answer": "Some copper disk is not heavy.",
+    "distractor": "Some heavy disk is not copper.",
+    "initial_letter": "A",
+    "options": {
+      "A": "Some copper disk is not heavy.",
+      "B": "Some heavy disk is not copper."
+    },
+    "author_derivation": "An existing copper disk is round and therefore not heavy; heavy disks need not exist.",
+    "review_id": "V005"
+  },
+  {
+    "item_id": "N08",
+    "family": "successive_percentages",
+    "version": "plain",
+    "cohort": "resource",
+    "stem": "A price starts at 120 credits, falls by 25%, and then rises by 20% of its reduced value. What is the final price?",
+    "answer": "108 credits",
+    "distractor": "114 credits",
+    "initial_letter": "B",
+    "options": {
+      "A": "114 credits",
+      "B": "108 credits"
+    },
+    "author_derivation": "120*(3/4)*(6/5)=108; the increases use different bases.",
+    "review_id": "V006"
+  },
+  {
+    "item_id": "N01",
+    "family": "difference",
+    "version": "trap",
+    "cohort": "resource",
+    "stem": "An adult ticket and a child ticket cost 23 credits in total. The adult ticket costs 17 credits more than the child ticket. How much does the child ticket cost?",
+    "answer": "3 credits",
+    "distractor": "6 credits",
+    "initial_letter": "A",
+    "options": {
+      "A": "3 credits",
+      "B": "6 credits"
+    },
+    "author_derivation": "x+(x+17)=23, so x=3.",
+    "review_id": "V007"
+  },
+  {
+    "item_id": "N02",
+    "family": "average_speed",
+    "version": "neutral",
+    "cohort": "resource",
+    "stem": "On a nonstop 30 km ride, the first 15 km are covered at 5 km/h and the remaining 15 km at 10 km/h. What is total distance divided by total time?",
+    "answer": "20/3 km/h",
+    "distractor": "15/2 km/h",
+    "initial_letter": "B",
+    "options": {
+      "A": "15/2 km/h",
+      "B": "20/3 km/h"
+    },
+    "author_derivation": "Time is 3+3/2=9/2 hours, so 30/(9/2)=20/3 km/h.",
+    "review_id": "V008"
+  }
+]

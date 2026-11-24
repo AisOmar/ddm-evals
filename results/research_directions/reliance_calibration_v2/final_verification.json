@@ -1,0 +1,14 @@
+{
+  "verified_at": "2026-10-21T01:09:38.261482+00:00",
+  "prior_artifacts_verified": 16919,
+  "initial_lock_verified": true,
+  "review_revision_lock_verified": true,
+  "unchanged_stems_keys_and_splits": true,
+  "masked_packets_verified": true,
+  "balanced_positions_each_split": true,
+  "offline_tests_passed": 62,
+  "model_calls_launched": 0,
+  "original_study_remains_paused": true,
+  "independent_review_complete": false,
+  "live_delivery_validated": false
+}

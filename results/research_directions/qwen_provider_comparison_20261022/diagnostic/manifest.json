@@ -1,0 +1,638 @@
+{
+  "created_at": "2026-10-22T23:18:50.729035+00:00",
+  "phase": "diagnostic",
+  "n_planned": 12,
+  "trials": [
+    {
+      "sample_id": "P01__r1__DeepInfra",
+      "item_id": "P01",
+      "repeat": 1,
+      "mode": "DeepInfra",
+      "model": "DeepInfra",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "26",
+        "B": "19"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA register starts at 6. First add 7 to its value, then double the result. What is its final value?\n\nA. 26\nB. 19"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "P01__r1__Tenstorrent",
+      "item_id": "P01",
+      "repeat": 1,
+      "mode": "Tenstorrent",
+      "model": "Tenstorrent",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "26",
+        "B": "19"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA register starts at 6. First add 7 to its value, then double the result. What is its final value?\n\nA. 26\nB. 19"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "P01__r2__DeepInfra",
+      "item_id": "P01",
+      "repeat": 2,
+      "mode": "DeepInfra",
+      "model": "DeepInfra",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "19",
+        "B": "26"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA register starts at 6. First add 7 to its value, then double the result. What is its final value?\n\nA. 19\nB. 26"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "P01__r2__Tenstorrent",
+      "item_id": "P01",
+      "repeat": 2,
+      "mode": "Tenstorrent",
+      "model": "Tenstorrent",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "19",
+        "B": "26"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA register starts at 6. First add 7 to its value, then double the result. What is its final value?\n\nA. 19\nB. 26"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "P02__r1__DeepInfra",
+      "item_id": "P02",
+      "repeat": 1,
+      "mode": "DeepInfra",
+      "model": "DeepInfra",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "6 km/h",
+        "B": "16/3 km/h"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA runner covers 8 km at 4 km/h and another 8 km at 8 km/h, without stopping. What is total distance divided by total time for the 16 km trip?\n\nA. 6 km/h\nB. 16/3 km/h"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "P02__r1__Tenstorrent",
+      "item_id": "P02",
+      "repeat": 1,
+      "mode": "Tenstorrent",
+      "model": "Tenstorrent",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "6 km/h",
+        "B": "16/3 km/h"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA runner covers 8 km at 4 km/h and another 8 km at 8 km/h, without stopping. What is total distance divided by total time for the 16 km trip?\n\nA. 6 km/h\nB. 16/3 km/h"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "P02__r2__DeepInfra",
+      "item_id": "P02",
+      "repeat": 2,
+      "mode": "DeepInfra",
+      "model": "DeepInfra",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "16/3 km/h",
+        "B": "6 km/h"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA runner covers 8 km at 4 km/h and another 8 km at 8 km/h, without stopping. What is total distance divided by total time for the 16 km trip?\n\nA. 16/3 km/h\nB. 6 km/h"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "P02__r2__Tenstorrent",
+      "item_id": "P02",
+      "repeat": 2,
+      "mode": "Tenstorrent",
+      "model": "Tenstorrent",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "16/3 km/h",
+        "B": "6 km/h"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA runner covers 8 km at 4 km/h and another 8 km at 8 km/h, without stopping. What is total distance divided by total time for the 16 km trip?\n\nA. 16/3 km/h\nB. 6 km/h"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "P03__r1__DeepInfra",
+      "item_id": "P03",
+      "repeat": 1,
+      "mode": "DeepInfra",
+      "model": "DeepInfra",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "No",
+        "B": "Yes"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery admitted visitor wears a wristband. This visitor wears no wristband. Using only these premises, could this visitor be admitted?\n\nA. No\nB. Yes"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "P03__r1__Tenstorrent",
+      "item_id": "P03",
+      "repeat": 1,
+      "mode": "Tenstorrent",
+      "model": "Tenstorrent",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "No",
+        "B": "Yes"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery admitted visitor wears a wristband. This visitor wears no wristband. Using only these premises, could this visitor be admitted?\n\nA. No\nB. Yes"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "P03__r2__Tenstorrent",
+      "item_id": "P03",
+      "repeat": 2,
+      "mode": "Tenstorrent",
+      "model": "Tenstorrent",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "Yes",
+        "B": "No"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery admitted visitor wears a wristband. This visitor wears no wristband. Using only these premises, could this visitor be admitted?\n\nA. Yes\nB. No"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "P03__r2__DeepInfra",
+      "item_id": "P03",
+      "repeat": 2,
+      "mode": "DeepInfra",
+      "model": "DeepInfra",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "Yes",
+        "B": "No"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery admitted visitor wears a wristband. This visitor wears no wristband. Using only these premises, could this visitor be admitted?\n\nA. Yes\nB. No"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    }
+  ],
+  "preflight_started_at": "2026-10-22T23:18:41.363054+00:00",
+  "endpoint_snapshot": {
+    "DeepInfra": {
+      "name": "DeepInfra | qwen/qwen3-32b-04-28",
+      "model_id": "qwen/qwen3-32b",
+      "model_name": "Qwen: Qwen3 32B",
+      "context_length": 40960,
+      "pricing": {
+        "prompt": "0.00000008",
+        "completion": "0.00000028",
+        "discount": 0
+      },
+      "provider_name": "DeepInfra",
+      "tag": "deepinfra/fp8",
+      "service_tier": null,
+      "quantization": "fp8",
+      "max_completion_tokens": 16384,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "stop",
+        "frequency_penalty",
+        "presence_penalty",
+        "repetition_penalty",
+        "top_k",
+        "seed",
+        "min_p",
+        "tools",
+        "tool_choice",
+        "structured_outputs",
+        "logit_bias",
+        "response_format"
+      ],
+      "supports_tool_choice": {
+        "none": true,
+        "auto": true,
+        "required": false,
+        "function": false
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 93.0507296733843,
+      "supports_implicit_caching": false,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    },
+    "Tenstorrent": {
+      "name": "Tenstorrent | qwen/qwen3-32b-04-28",
+      "model_id": "qwen/qwen3-32b",
+      "model_name": "Qwen: Qwen3 32B",
+      "context_length": 20000,
+      "pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.0000004",
+        "input_cache_read": "0.00000009",
+        "discount": 0
+      },
+      "provider_name": "Tenstorrent",
+      "tag": "tenstorrent/fp8",
+      "service_tier": null,
+      "quantization": "fp8",
+      "max_completion_tokens": 16400,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "temperature",
+        "repetition_penalty",
+        "top_p",
+        "stop",
+        "top_k",
+        "seed",
+        "min_p",
+        "max_tokens",
+        "top_a",
+        "frequency_penalty",
+        "logit_bias",
+        "presence_penalty",
+        "logprobs",
+        "top_logprobs",
+        "tools",
+        "tool_choice"
+      ],
+      "supports_tool_choice": {
+        "none": true,
+        "auto": true,
+        "required": true,
+        "function": true
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 99.90766389658357,
+      "supports_implicit_caching": true,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    }
+  },
+  "maximum_cost_usd": "0.01510896",
+  "cost_cap_usd": "0.05",
+  "execution_authorization": "User: do that, referring to testing another Qwen deployment with unchanged output requirements.",
+  "min_interval_seconds": 5,
+  "timeout_seconds": 180,
+  "max_attempts_per_trial": 1,
+  "automatic_retries": 0,
+  "question_review": "Self-contained author checks; no independent review claimed; correctness never gates delivery",
+  "original_study_remains_paused": true,
+  "wording_pilot_remains_stopped": true,
+  "input_hashes": {
+    "scripts/74_qwen_provider_comparison.py": "8015081df4ee657ad09ae6b31d7dadc6322278f0eab3de9b8a5c765fd18bd255",
+    "docs/QWEN_PROVIDER_COMPARISON_PROTOCOL.md": "5a9f253f7d600dff8daa7a21cdacb39fb9f2f18ca6868d60ea65213f20d35a36",
+    "scripts/75_qwen_provider_report.py": "279bd5f57127050ab2ee6e41a120f452289f0901f6207b8a5e678e7b44512b6f",
+    "scripts/73_qwen_diagnostic_report.py": "08f3e0ef3c6f68bd0b2febcde3dee32bd6ea61cd21ccc43792a8fd2140ca2441",
+    "scripts/72_qwen_delivery_diagnostic.py": "74a92ad40391bfa5dbe2834250e348dd04430a18864057f50de252560a3a820f",
+    "scripts/70_wording_collect.py": "f54283b3d8732081c569afdf7bc4e34108a5b32b3a5e3d2fd2119d0228dcb4a1",
+    "scripts/63_manageable_collect.py": "a8683c10ac4f39b821c3e35ebd8645f13122ad12ef5fff9b5dc049870030b738",
+    "scripts/60_calibrate_reviewed_packet.py": "e55913bc1001c85b4572af738fad73e2a5861829ab3bd22f29dd2969526f894d",
+    "scripts/58_alternate_provider_canary.py": "08e5ebb79db0dc17ac78bad2b3b805973649d76d01cf5aae6762e23e4d7134a0",
+    "scripts/56_reliance_canary.py": "efa96df014f012e7103f622366f3082e352c029b032c774b328e6a35f2dd686a",
+    "scripts/54_reliance_calibration.py": "6ff677727db294daa91e4dc89b791419a477dfa2be5daf87a072dbd79b8c23e4",
+    "scripts/50_open_dataset_feasibility.py": "4a9c10639e27400851e71d181bed006229a04d00b643665a4a56bcb1311b482a",
+    "results/research_directions/qwen_provider_comparison_20261022/selection_snapshot.json": "fdb7f095e8366536f75ffc58633f77dd8a1b53c222356576d83690b938fc1eaa",
+    "results/research_directions/qwen_visible_answer_diagnostic_20261022/final_artifact_hashes.json": "23c307eb8c674668036a040251895e487b3340116f530c9fb4c56cb8acf3b824"
+  }
+}

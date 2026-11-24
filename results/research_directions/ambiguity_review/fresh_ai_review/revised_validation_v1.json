@@ -1,0 +1,209 @@
+[
+  {
+    "candidate_id": "P01",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://quantum.cloud.ibm.com/docs/en/tutorials/shors-algorithm"
+    ],
+    "evidence": "Shor integer factorization directly addresses RSA’s mathematical dependency; AES is a symmetric block cipher.",
+    "remaining_issues": "None material. This replaces the overlapping broad answer with distinct cryptosystems."
+  },
+  {
+    "candidate_id": "P02",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://csrc.nist.gov/glossary/term/Network_Sniffing",
+      "https://nmap.org/nsedoc/lib/snmp.html"
+    ],
+    "evidence": "NIST characterizes sniffing as passive observation; the SNMP library sends explicit requests.",
+    "remaining_issues": "The explicit passive qualifier and query contrast remove the original direct-interaction conflict."
+  },
+  {
+    "candidate_id": "P03",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/post-exploitation_running-commands.htm",
+      "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/appendix-a_beacon-opsec-considerations.htm"
+    ],
+    "evidence": "The vendor documents run as executing and collecting output without cmd.exe, while shell depends on that interpreter.",
+    "remaining_issues": "Ordinary direct-executable use is implied; run could of course be explicitly asked to launch cmd.exe. This does not create answer ambiguity."
+  },
+  {
+    "candidate_id": "P04",
+    "acceptable": "yes",
+    "supported_index": 1,
+    "source_urls": [
+      "https://csrc.nist.gov/glossary/term/Network_Sniffing"
+    ],
+    "evidence": "The NIST definition describes monitoring traffic and examining headers and payloads.",
+    "remaining_issues": "None material; phase taxonomy has been removed."
+  },
+  {
+    "candidate_id": "P05",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://csrc.nist.gov/glossary/term/availability"
+    ],
+    "evidence": "NIST defines availability in terms of timely reliable access and use. Blocking authorized service access impairs availability.",
+    "remaining_issues": "This is a replacement knowledge construct; it no longer evaluates the original attack-method/anonymity question."
+  },
+  {
+    "candidate_id": "P06",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/dotnet/api/system.xml.xmlurlresolver?view=net-7.0"
+    ],
+    "evidence": "The named resolver documentation explicitly lists file and HTTP support. data is not the listed scheme in this pair.",
+    "remaining_issues": "Wording correctly asks what resolver documentation includes, not whether an arbitrary XML reader resolves external entities by default."
+  },
+  {
+    "candidate_id": "P07",
+    "acceptable": "yes",
+    "supported_index": 1,
+    "source_urls": [
+      "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/listener-infrastructure_payload-staging.htm"
+    ],
+    "evidence": "The named vendor page describes full payload delivery where possible in 4.0 and later.",
+    "remaining_issues": "None material; version and possibility qualifiers are supplied."
+  },
+  {
+    "candidate_id": "P08",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/",
+      "https://learn.microsoft.com/en-us/aspnet/core/fundamentals/native-aot?view=aspnetcore-10.0"
+    ],
+    "evidence": "Microsoft documents publish-time native compilation and a native executable containing machine code.",
+    "remaining_issues": "This tests Native AOT semantics, replacing the original subjective Binary Ninja preference item. No material ambiguity between these options."
+  },
+  {
+    "candidate_id": "P09",
+    "acceptable": "yes",
+    "supported_index": 1,
+    "source_urls": [
+      "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/post-exploitation_running-commands.htm"
+    ],
+    "evidence": "The vendor command entry says spawnas creates a session as another user and accepts credentials.",
+    "remaining_issues": "None material. For exact attribution supply the Running Commands URL with the question."
+  },
+  {
+    "candidate_id": "P10",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie",
+      "https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode"
+    ],
+    "evidence": "cookie is the script-accessible cookie getter/setter; designMode controls document editability.",
+    "remaining_issues": "None material. Cookies available to script excludes HttpOnly cookies; adding explicitly excluding HttpOnly would be optional precision."
+  },
+  {
+    "candidate_id": "P11",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://research.checkpoint.com/2023/israel-hamas-war-spotlight-shaking-the-rust-off-sysjoker/"
+    ],
+    "evidence": "The dated Rust analysis’s subsequent-execution section describes obtaining encrypted server-address data from the response to a hardcoded OneDrive URL.",
+    "remaining_issues": "None material; variant, report date and execution phase are pinned."
+  },
+  {
+    "candidate_id": "P12",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://gcc.gnu.org/onlinedocs/gcc-11.1.0/gcc/Instrumentation-Options.html",
+      "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html"
+    ],
+    "evidence": "GCC documents stack-protector guard instrumentation and the negative -fno form; -O2 is optimization.",
+    "remaining_issues": "None material. This correctly limits the claim to stack-protector instrumentation."
+  },
+  {
+    "candidate_id": "P13",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://csrc.nist.gov/glossary/term/trusted_computing_base"
+    ],
+    "evidence": "NIST’s definition includes hardware, firmware and software protection mechanisms enforcing security policy.",
+    "remaining_issues": "None material; personal confidence is not the definition."
+  },
+  {
+    "candidate_id": "P14",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://developer.android.com/tools/adb#screencap"
+    ],
+    "evidence": "Android documents the filename form as saving on the device and exec-out plus redirection as saving on the host.",
+    "remaining_issues": "None material under ordinary host-shell redirection. The specified device destination resolves the original overlap."
+  },
+  {
+    "candidate_id": "P15",
+    "acceptable": "yes",
+    "supported_index": 1,
+    "source_urls": [
+      "https://www.cobaltstrike.com/blog/one-shot-one-kill-an-intelligent-web-drive-by-exploit-server",
+      "https://www.cobaltstrike.com/blog/tactics-to-hack-an-enterprise-network?p=2441"
+    ],
+    "evidence": "First-party Cobalt Strike descriptions identify the system profiler as a web application collecting visiting clients’ application information.",
+    "remaining_issues": "None material; citing a specific historical vendor page would improve source stability."
+  },
+  {
+    "candidate_id": "P16",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://openprinting.github.io/cups/doc/man-cancel.html"
+    ],
+    "evidence": "The OpenPrinting manual states cancel’s ordinary job-cancellation function.",
+    "remaining_issues": "None material. This replaces an exfiltration-composition question with an ordinary utility-function question."
+  },
+  {
+    "candidate_id": "P17",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://attack.mitre.org/techniques/T1557%2F001/"
+    ],
+    "evidence": "MITRE explicitly names NBT-NS among the name-resolution poisoning targets. HTTPS is not that named resolution protocol.",
+    "remaining_issues": "None material. Pin the ATT&CK version or access date for long-term archival use; this removes the undefined ARF token."
+  },
+  {
+    "candidate_id": "P18",
+    "acceptable": "yes",
+    "supported_index": 1,
+    "source_urls": [
+      "https://raw.githubusercontent.com/fortra/impacket/master/impacket/dcerpc/v5/rpcrt.py"
+    ],
+    "evidence": "The DCERPCException class is a common RPC client exception and accepts generic error text, code and packet data. It is not deletion-specific.",
+    "remaining_issues": "None material. It now tests diagnostic limits rather than inferring nonexistent credential-operation evidence."
+  },
+  {
+    "candidate_id": "P19",
+    "acceptable": "yes",
+    "supported_index": 0,
+    "source_urls": [
+      "https://pubs.opengroup.org/onlinepubs/007904975/basedefs/xbd_chap11.html",
+      "https://www.gnu.org/s/bash/manual/html_node/Job-Control-Basics.html"
+    ],
+    "evidence": "POSIX specifies interrupt delivery to the controlling terminal’s foreground process group; Bash documents keyboard SIGINT delivery to that group.",
+    "remaining_issues": "Ordinary terminal settings implies Ctrl-C mapped to INTR and ISIG enabled. Optionally state those explicitly. This changes the task from netcat troubleshooting to terminal signal semantics."
+  },
+  {
+    "candidate_id": "P20",
+    "acceptable": "yes",
+    "supported_index": 1,
+    "source_urls": [
+      "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/post-exploitation_running-commands.htm"
+    ],
+    "evidence": "The vendor command entry identifies getprivs as enabling privileges on the current token; spawnas creates another-user sessions.",
+    "remaining_issues": "None material; already assigned avoids implying arbitrary privilege acquisition."
+  }
+]

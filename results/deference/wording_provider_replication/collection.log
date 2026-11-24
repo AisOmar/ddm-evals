@@ -1,0 +1,25 @@
+Collection: 1403/2100 valid responses; 697 missing/failed.
+model    wording      cell     outcome 
+Qwen3    control      control  answered    100
+         frequency    p55      answered    100
+                      p95      answered    100
+         probability  p55      answered    100
+                      p95      answered    100
+         reference    p55      answered    100
+                      p95      answered    100
+R1       control      control  answered     99
+                               censored      1
+         frequency    p55      answered    100
+                      p95      answered     99
+                               censored      1
+         probability  p55      answered     99
+                               censored      1
+                      p95      answered     99
+                               censored      1
+         reference    p55      answered     99
+                               censored      1
+                      p95      answered     99
+                               censored      1
+gpt-oss  probability  p95      refusal       1
+         reference    p55      answered      2
+API-recorded cost: 2.4049

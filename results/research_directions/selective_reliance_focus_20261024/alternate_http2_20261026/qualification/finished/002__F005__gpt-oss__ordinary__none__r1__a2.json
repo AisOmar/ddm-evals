@@ -1,0 +1,28 @@
+{
+  "attempt_id": "002__F005__gpt-oss__ordinary__none__r1__a2",
+  "sample_id": "F005__gpt-oss__ordinary__none__r1",
+  "attempt_number": 2,
+  "prepared_at": "2026-10-26T17:41:44.676879+00:00",
+  "request_sha256": "dd7657ce7173973cbbd6cafd88b0e3149884a046197358d94786d86ba4e04bc3",
+  "reserved_cost_usd": "0.000940552",
+  "finished_at": "2026-10-26T17:41:55.357248+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "A",
+    "correct": true,
+    "strict_format": true
+  },
+  "confirmed_429": false,
+  "retry_eligible": false,
+  "slot_finalized": true,
+  "fatal_stop": false,
+  "cooldown_seconds": 0,
+  "recorded_cost_usd": "0.000108781",
+  "cost_within_reserve": true,
+  "raw_sha256": "3cbcb5f011daa209d442b7e1e61d3d2a306366c5a26be386f2d418d5451fad22",
+  "headers_sha256": "f65b2655b119e6cc43992c42e3311ab1d4c2d2f32f6ee0c507230fd5ac2e048a",
+  "normalized_sha256": "39a0a84dbf46cbaf91e891f5bbe6306a5ba28da4dacbf0a7774206d729dfaa3f",
+  "parser_error": null
+}

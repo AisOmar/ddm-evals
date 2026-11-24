@@ -1,0 +1,28 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=19, x_1=1. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 5*x_(n-2) modulo 107. What is x_47?\n\nA. 100\nB. 101"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 4096,
+  "provider": {
+    "order": [
+      "deepinfra/fp8"
+    ],
+    "only": [
+      "deepinfra/fp8"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "fp8"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.08,
+      "completion": 0.28
+    }
+  }
+}

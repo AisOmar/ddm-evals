@@ -1,0 +1,22 @@
+{
+  "sample_id": "resource-recurrence-01__r1__Qwen3",
+  "prepared_at": "2026-10-22T00:06:28.174530+00:00",
+  "manifest_sha256": "38666d95a3879fbdd1500df86eb98dddbe73ac083252fb366d14267bff6ccade",
+  "request_sha256": "7a6bf061359832c306aa1147133a68744aea3d9ef4b579e2b55da8e18dbbe79a",
+  "reserved_cost_usd": "0.00236024",
+  "finished_at": "2026-10-22T00:07:06.171475+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "B",
+    "correct": true,
+    "strict_format": true
+  },
+  "recorded_cost_usd": "0.00048264",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "409abaaffe80d320f8f9b61cf851c2eb299a4d341c2aff06ff9d7b69864a545c",
+  "headers_sha256": "944510e61948263c90593ee6bd78f759c4c8958ed1104fd9a94370fdb8a8a6af"
+}

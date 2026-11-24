@@ -1,0 +1,14 @@
+{
+  "label": "dose_logit",
+  "seconds": 20.566198110580444,
+  "divergences": 0,
+  "max_rhat": 1.004896188310001,
+  "min_ess": 1547.2003933018268,
+  "draws": 2000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

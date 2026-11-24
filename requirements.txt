@@ -1,0 +1,17 @@
+inspect_ai>=0.3.277
+inspect_evals
+hssm>=0.5.0
+datasets
+pandas
+pyyaml
+arviz
+anthropic
+openai   # inspect_ai openrouter provider
+tokenizers   # count reasoning tokens with the study model's HF tokenizer
+numpyro      # offline robustness fits (PyMC's JAX NUTS backend)
+scikit-learn # offline grouped evaluation of exploratory trace monitors
+torch         # open-weights probe (scripts/112, 113): local generation with activation hooks
+transformers>=5
+accelerate
+matplotlib
+tabulate      # pandas to_markdown in the probe report

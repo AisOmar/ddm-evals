@@ -1,0 +1,19 @@
+{
+  "exploratory": true,
+  "collection_remains_paused": true,
+  "training_rows": 1195,
+  "training_questions": 100,
+  "test_rows": 259,
+  "test_questions": 171,
+  "text_overlap_exclusions": [],
+  "label": "observed wrong-key following, equivalent to benchmark error in these binary wrong-key trials; not a causal influence label",
+  "previous_test_exposure": "Analyst had inspected aggregate effects and selected qualitative examples before feature design",
+  "prefix": "First 80 whitespace-delimited words; only traces longer than 80 words. No future length is a feature.",
+  "inputs": {
+    "results/deference/wording_followup/runs.csv": "8fc2c54a31a25a04fc77e48aa20da99b019d46bc02aa39f8e9bf817991f1c4ee",
+    "results/deference/wording_followup/traces.jsonl": "0d1152250adb8b702091429b272e006b19ebdf33f5d721fe8c9d04d4f090d199",
+    "results/deference/trust_planning/exploratory/deep_20261019T210911Z/snapshot.csv": "f99d4dca5c9bb159930ea1bf6a7a5e9205f2bc08561123114d58709a5a3784e8",
+    "docs/THREE_DIRECTION_ANALYSIS_PLAN.md": "5210b92ee24b766a0e5121c6c84159d46aa0e1f1085b33eb877377bb76e1902f",
+    "scripts/38_monitor_feasibility.py": "277f69715ba14f5f9dbf69cd2de11c8b3b990b6153cae16c8e4c9308f34aeaf5"
+  }
+}

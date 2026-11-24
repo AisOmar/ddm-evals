@@ -1,0 +1,821 @@
+{
+  "created_at": "2026-10-22T23:31:42.665776+00:00",
+  "phase": "resource",
+  "n_planned": 16,
+  "trials": [
+    {
+      "sample_id": "N01__gpt-oss",
+      "item_id": "N01",
+      "review_id": "V007",
+      "family": "difference",
+      "version": "trap",
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "3 credits",
+        "B": "6 credits"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn adult ticket and a child ticket cost 23 credits in total. The adult ticket costs 17 credits more than the child ticket. How much does the child ticket cost?\n\nA. 3 credits\nB. 6 credits"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N01__Qwen3",
+      "item_id": "N01",
+      "review_id": "V007",
+      "family": "difference",
+      "version": "trap",
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "3 credits",
+        "B": "6 credits"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn adult ticket and a child ticket cost 23 credits in total. The adult ticket costs 17 credits more than the child ticket. How much does the child ticket cost?\n\nA. 3 credits\nB. 6 credits"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N06__Qwen3",
+      "item_id": "N06",
+      "review_id": "V004",
+      "family": "ratio_difference",
+      "version": "plain",
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "6",
+        "B": "9/2"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAsha has four times as many tokens as Ivo and has 18 more tokens than Ivo. How many tokens does Ivo have?\n\nA. 6\nB. 9/2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N06__gpt-oss",
+      "item_id": "N06",
+      "review_id": "V004",
+      "family": "ratio_difference",
+      "version": "plain",
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "6",
+        "B": "9/2"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAsha has four times as many tokens as Ivo and has 18 more tokens than Ivo. How many tokens does Ivo have?\n\nA. 6\nB. 9/2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N08__gpt-oss",
+      "item_id": "N08",
+      "review_id": "V006",
+      "family": "successive_percentages",
+      "version": "plain",
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "114 credits",
+        "B": "108 credits"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA price starts at 120 credits, falls by 25%, and then rises by 20% of its reduced value. What is the final price?\n\nA. 114 credits\nB. 108 credits"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N08__Qwen3",
+      "item_id": "N08",
+      "review_id": "V006",
+      "family": "successive_percentages",
+      "version": "plain",
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "114 credits",
+        "B": "108 credits"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA price starts at 120 credits, falls by 25%, and then rises by 20% of its reduced value. What is the final price?\n\nA. 114 credits\nB. 108 credits"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N03__Qwen3",
+      "item_id": "N03",
+      "review_id": "V002",
+      "family": "conditioning",
+      "version": "trap",
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "4/5",
+        "B": "2/3"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA scanner flags 24 of the 30 infected devices in a batch of 90. It also flags 12 uninfected devices. If one flagged device is chosen uniformly at random, what is the probability it is infected?\n\nA. 4/5\nB. 2/3"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N03__gpt-oss",
+      "item_id": "N03",
+      "review_id": "V002",
+      "family": "conditioning",
+      "version": "trap",
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "4/5",
+        "B": "2/3"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA scanner flags 24 of the 30 infected devices in a batch of 90. It also flags 12 uninfected devices. If one flagged device is chosen uniformly at random, what is the probability it is infected?\n\nA. 4/5\nB. 2/3"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N05__gpt-oss",
+      "item_id": "N05",
+      "review_id": "V003",
+      "family": "relative_time",
+      "version": "trap",
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "Monday",
+        "B": "Tuesday"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nThe day before yesterday was the day after Thursday. What weekday will tomorrow be?\n\nA. Monday\nB. Tuesday"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N05__Qwen3",
+      "item_id": "N05",
+      "review_id": "V003",
+      "family": "relative_time",
+      "version": "trap",
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "Monday",
+        "B": "Tuesday"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nThe day before yesterday was the day after Thursday. What weekday will tomorrow be?\n\nA. Monday\nB. Tuesday"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N04__Qwen3",
+      "item_id": "N04",
+      "review_id": "V005",
+      "family": "implication",
+      "version": "plain",
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "Some copper disk is not heavy.",
+        "B": "Some heavy disk is not copper."
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery copper disk is round. No round disk is heavy. At least one copper disk exists. Which statement must be true, using only these premises?\n\nA. Some copper disk is not heavy.\nB. Some heavy disk is not copper."
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N04__gpt-oss",
+      "item_id": "N04",
+      "review_id": "V005",
+      "family": "implication",
+      "version": "plain",
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "Some copper disk is not heavy.",
+        "B": "Some heavy disk is not copper."
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery copper disk is round. No round disk is heavy. At least one copper disk exists. Which statement must be true, using only these premises?\n\nA. Some copper disk is not heavy.\nB. Some heavy disk is not copper."
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N02__gpt-oss",
+      "item_id": "N02",
+      "review_id": "V008",
+      "family": "average_speed",
+      "version": "neutral",
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "15/2 km/h",
+        "B": "20/3 km/h"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nOn a nonstop 30 km ride, the first 15 km are covered at 5 km/h and the remaining 15 km at 10 km/h. What is total distance divided by total time?\n\nA. 15/2 km/h\nB. 20/3 km/h"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N02__Qwen3",
+      "item_id": "N02",
+      "review_id": "V008",
+      "family": "average_speed",
+      "version": "neutral",
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "15/2 km/h",
+        "B": "20/3 km/h"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nOn a nonstop 30 km ride, the first 15 km are covered at 5 km/h and the remaining 15 km at 10 km/h. What is total distance divided by total time?\n\nA. 15/2 km/h\nB. 20/3 km/h"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N07__Qwen3",
+      "item_id": "N07",
+      "review_id": "V001",
+      "family": "intervention",
+      "version": "neutral",
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "8",
+        "B": "11"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nInitially U=5, X=U+1, and Y=2*X+U. Override only the X equation with X=3, keep U fixed, and compute the resulting Y.\n\nA. 8\nB. 11"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "N07__gpt-oss",
+      "item_id": "N07",
+      "review_id": "V001",
+      "family": "intervention",
+      "version": "neutral",
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "8",
+        "B": "11"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nInitially U=5, X=U+1, and Y=2*X+U. Override only the X equation with X=3, keep U fixed, and compute the resulting Y.\n\nA. 8\nB. 11"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    }
+  ],
+  "preflight_started_at": "2026-10-22T23:31:01.663522+00:00",
+  "endpoint_snapshot": {
+    "gpt-oss": {
+      "name": "DekaLLM | openai/gpt-oss-120b",
+      "model_id": "openai/gpt-oss-120b",
+      "model_name": "OpenAI: gpt-oss-120b",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0.00000003",
+        "completion": "0.00000018",
+        "input_cache_read": "0.00000003",
+        "discount": 0
+      },
+      "provider_name": "DekaLLM",
+      "tag": "dekallm/bf16",
+      "service_tier": null,
+      "quantization": "bf16",
+      "max_completion_tokens": 117964,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "presence_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "top_p",
+        "response_format",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "logprobs",
+        "top_logprobs",
+        "reasoning_effort"
+      ],
+      "supports_tool_choice": {
+        "none": false,
+        "auto": true,
+        "required": false,
+        "function": false
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 100,
+      "supports_implicit_caching": true,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    },
+    "Qwen3": {
+      "name": "DeepInfra | qwen/qwen3-32b-04-28",
+      "model_id": "qwen/qwen3-32b",
+      "model_name": "Qwen: Qwen3 32B",
+      "context_length": 40960,
+      "pricing": {
+        "prompt": "0.00000008",
+        "completion": "0.00000028",
+        "discount": 0
+      },
+      "provider_name": "DeepInfra",
+      "tag": "deepinfra/fp8",
+      "service_tier": null,
+      "quantization": "fp8",
+      "max_completion_tokens": 16384,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "stop",
+        "frequency_penalty",
+        "presence_penalty",
+        "repetition_penalty",
+        "top_k",
+        "seed",
+        "min_p",
+        "tools",
+        "tool_choice",
+        "structured_outputs",
+        "logit_bias",
+        "response_format"
+      ],
+      "supports_tool_choice": {
+        "none": true,
+        "auto": true,
+        "required": false,
+        "function": false
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 93.12022237665045,
+      "supports_implicit_caching": false,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    }
+  },
+  "maximum_cost_usd": "0.01210120",
+  "cost_cap_usd": "0.10",
+  "execution_authorization": "User: do that, referring to qualifying DeepInfra on the full resource check before the pilot.",
+  "min_interval_seconds": 5,
+  "timeout_seconds": 180,
+  "max_attempts_per_trial": 1,
+  "automatic_retries": 0,
+  "independent_review_complete": true,
+  "original_study_remains_paused": true,
+  "pilot_calls_included": 0,
+  "input_hashes": {
+    "scripts/77_deepinfra_resource_collect.py": "7c062295710307e47f6d0742a645e2d8648449b68593ee6ba8a83570160b5e14",
+    "docs/DEEPINFRA_WORDING_RESOURCE_PROTOCOL.md": "4f852641ca6c80770a59c32c626bea628951683e9d6f7a7ebd7f0ce1bf5fbc40",
+    "scripts/78_deepinfra_resource_report.py": "2bf5df077cf2ccd7cb9770bf8655b264b57533cc1d074e7d5a0223f9f952f543",
+    "scripts/76_deepinfra_resource_packet.py": "f1bcab763935e71940ad792e36bb4b0ddb9b7f75b402f75f176e2397f0835a7b",
+    "scripts/70_wording_collect.py": "f54283b3d8732081c569afdf7bc4e34108a5b32b3a5e3d2fd2119d0228dcb4a1",
+    "scripts/63_manageable_collect.py": "a8683c10ac4f39b821c3e35ebd8645f13122ad12ef5fff9b5dc049870030b738",
+    "scripts/60_calibrate_reviewed_packet.py": "e55913bc1001c85b4572af738fad73e2a5861829ab3bd22f29dd2969526f894d",
+    "scripts/58_alternate_provider_canary.py": "08e5ebb79db0dc17ac78bad2b3b805973649d76d01cf5aae6762e23e4d7134a0",
+    "scripts/56_reliance_canary.py": "efa96df014f012e7103f622366f3082e352c029b032c774b328e6a35f2dd686a",
+    "scripts/54_reliance_calibration.py": "6ff677727db294daa91e4dc89b791419a477dfa2be5daf87a072dbd79b8c23e4",
+    "scripts/50_open_dataset_feasibility.py": "4a9c10639e27400851e71d181bed006229a04d00b643665a4a56bcb1311b482a",
+    "results/research_directions/deepinfra_wording_resource_20261022/packet.json": "a202735143b1a90d6c7eb97c4262c21da994c42aa60d9d9829eb631a9da273ef",
+    "results/research_directions/deepinfra_wording_resource_20261022/packet_hashes.json": "b91c76c8025260fe5847cf62a88c890b729cf3b2c03194290a847d1595291817",
+    "results/research_directions/deepinfra_wording_resource_20261022/design.json": "f282553d7cce2117b72dac87c5341784a6e385991c9d88e391fe21047802c16a",
+    "results/research_directions/qwen_provider_comparison_20261022/final_artifact_hashes.json": "301a53658e98211b9e1595cb27a1ac4fee52a08058b470f7c4cd952e27c9235d",
+    "results/research_directions/deepinfra_wording_resource_20261022/independent_review/INITIAL_SHA256_LOCK.json": "d5d9f64835389cf86e96af8c6d90bf3fc6e4a883e489f29277490d5ef01ac4d3",
+    "results/research_directions/deepinfra_wording_resource_20261022/independent_review/author_comparison.json": "732780cd6c40d9f6f08ce78071d31d47da6aa212f3477a9d1b13553f928e1df1",
+    "results/research_directions/deepinfra_wording_resource_20261022/independent_review/initial_judgments.json": "1b947bd84b1e35d680105660ed2c37a3746e07f1465e3b97b0ab99e97f10e142"
+  }
+}

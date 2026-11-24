@@ -1,0 +1,29 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA randomly chosen part is defective with probability 1/3. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?\n\nA. 3/7\nB. 3/5"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 4096,
+  "provider": {
+    "order": [
+      "deepinfra/fp8"
+    ],
+    "only": [
+      "deepinfra/fp8"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "fp8"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.08,
+      "completion": 0.28
+    }
+  },
+  "stream": true
+}

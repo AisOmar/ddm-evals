@@ -1,0 +1,38 @@
+[
+  {
+    "item_id": "resource-recurrence-01",
+    "family": "recurrence",
+    "stem": "An integer sequence starts x_0=5, x_1=4. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 3*x_(n-2) modulo 23. What is x_10?",
+    "options": {
+      "A": "9",
+      "B": "15"
+    }
+  },
+  {
+    "item_id": "resource-subset_count-01",
+    "family": "subset_count",
+    "stem": "Six distinct labeled objects have weights [3, 4, 10, 12, 14, 15] in label order. How many unordered subsets of exactly three objects have total weight at most 23 and congruent to 1 modulo 3? Each object is available once; count subsets, not ordered selections.",
+    "options": {
+      "A": "2",
+      "B": "1"
+    }
+  },
+  {
+    "item_id": "resource-shortest_path-01",
+    "family": "shortest_path",
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 6], [0, 3, 4], [0, 5, 11], [1, 2, 3], [1, 4, 9], [1, 5, 8], [2, 3, 7], [3, 4, 8], [4, 5, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "options": {
+      "A": "11",
+      "B": "13"
+    }
+  },
+  {
+    "item_id": "resource-urn_posterior-01",
+    "family": "urn_posterior",
+    "stem": "Choose urn U with probability 2/3, otherwise urn V. U contains 3 red and 6 blue balls; V contains 7 red and 6 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "options": {
+      "A": "72%",
+      "B": "74%"
+    }
+  }
+]

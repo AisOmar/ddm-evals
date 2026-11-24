@@ -1,0 +1,22 @@
+{
+  "sample_id": "resource-subset_count-01__r1__Qwen3",
+  "prepared_at": "2026-10-22T00:02:50.543565+00:00",
+  "manifest_sha256": "159bb9da9d92523f87f186ec8f0a9a58626222774cc4f48749ff20090cac102d",
+  "request_sha256": "8fa534d56005c02b0185ab0d8c8351fc3ddd55e6f7fc5e64023a473892bee767",
+  "reserved_cost_usd": "0.00160824",
+  "finished_at": "2026-10-22T00:03:51.163359+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "censored",
+    "choice": null,
+    "correct": null,
+    "strict_format": null
+  },
+  "recorded_cost_usd": "0.00083404",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "d549e10684f30d1a16f26eed5dd6f5ac05120ad40751fd200d5f7dbd1b644f41",
+  "headers_sha256": "0d9e127413262f7c2190acb6f7cf7d02139f403433d14c1ed47a5e383583ffd5"
+}

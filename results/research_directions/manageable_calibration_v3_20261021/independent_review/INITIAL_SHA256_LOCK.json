@@ -1,0 +1,15 @@
+{
+  "lock_type": "SHA256 initial masked-only review lock, before any author-key comparison",
+  "created_utc": "2026-10-21T23:59:10.518873+00:00",
+  "reviewer_statement": "Fresh-context AI reviewer. Never opened author keys. Not human expert or independent training.",
+  "input_sha256": {
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/manageable_calibration_v3_20261021/resource_masked_review.json": "4bb2e83b04edb4900db01363360a041eaa0c19dfd5629f78decb6e53ff459d2e",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/manageable_calibration_v3_20261021/calibration_masked_review.json": "857175a1c2520e5b2675de1db60bef798f85363e381079509f7ac8014cd36aff",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/manageable_calibration_v3_20261021/reserved_masked_review.json": "5f2801eb66aeba6ae219804473a630ff4b8a455e0464c96ed3279eec2a193dcc"
+  },
+  "output_sha256": {
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/manageable_calibration_v3_20261021/independent_review/fresh_solver.py": "9a1c900bf57b1ad46fde62ea72bfcde5198f1d56fcb364f483d13bec704e7501",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/manageable_calibration_v3_20261021/independent_review/initial_judgments.json": "f85a5abc79bd0a89cbb11a0450543ad37bbdac209a746aae6a7c1eb7f8e766c7",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/manageable_calibration_v3_20261021/independent_review/initial_summary.json": "14579869f5eee495061c92623755ce08b7ecbfe5e8db05bd5ca6001cba9af00f"
+  }
+}

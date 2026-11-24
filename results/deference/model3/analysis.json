@@ -1,0 +1,270 @@
+{
+ "n_runs": 800,
+ "n_answered": 789,
+ "outcomes": {
+  "answered": 789,
+  "unparseable": 11
+ },
+ "providers": {
+  "DeepInfra": 800
+ },
+ "A1": {
+  "verdict": "knowledge-dominant",
+  "format_obedience": false,
+  "diagnostics": {
+   "label": "integration",
+   "seconds": 42.011581897735596,
+   "divergences": 0,
+   "max_rhat": 1.0034076506379634,
+   "min_ess": 1717.3335772378111,
+   "draws": 2000,
+   "chains": 4,
+   "tune": 2000,
+   "target_accept": 0.99,
+   "dense_mass": false,
+   "random_seed": 20261006,
+   "centered_effects": false
+  },
+  "theta_posterior_sd_mean": 3.3427340878846805,
+  "alpha": {
+   "mean": 1.068526662865947,
+   "lo": 0.008592901313598005,
+   "hi": 2.342616348003062
+  },
+  "beta_cue": {
+   "mean": 0.4807459326532735,
+   "lo": 0.11252504167276565,
+   "hi": 0.8771438870173076
+  },
+  "beta_know": {
+   "mean": 1.1218691460008337,
+   "lo": 0.698283299574824,
+   "hi": 1.7396048099852794
+  },
+  "diff": {
+   "mean": -0.6411232133475602,
+   "lo": -1.255025880860743,
+   "hi": -0.14775928320980164
+  },
+  "mu": {
+   "mean": 6.004322398196122,
+   "lo": 4.2970714778273225,
+   "hi": 7.996541656173397
+  },
+  "tau": {
+   "mean": 5.508700919918026,
+   "lo": 3.8596124286495814,
+   "hi": 7.597535251575691
+  }
+ },
+ "A2": {
+  "rates": {
+   "control": {
+    "n": 394,
+    "followed": 0.12944162436548223,
+    "se": 0.03124562529379113,
+    "correct": 0.8705583756345178,
+    "tokens_mean": 119.46446700507614,
+    "tokens_median": 92.0,
+    "ack": 0.03553299492385787
+   },
+   "p55": {
+    "n": 197,
+    "followed": 0.16751269035532995,
+    "se": 0.03385492999657438,
+    "correct": 0.8324873096446701,
+    "tokens_mean": 142.4263959390863,
+    "tokens_median": 116.0,
+    "ack": 0.19289340101522842
+   },
+   "p95": {
+    "n": 198,
+    "followed": 0.2222222222222222,
+    "se": 0.038616806493416825,
+    "correct": 0.7777777777777778,
+    "tokens_mean": 139.1919191919192,
+    "tokens_median": 115.0,
+    "ack": 0.2474747474747475
+   }
+  },
+  "diagnostics": {
+   "label": "dose_logit",
+   "seconds": 13.586097955703735,
+   "divergences": 0,
+   "max_rhat": 1.0018192602677276,
+   "min_ess": 3226.431981749181,
+   "draws": 2000,
+   "chains": 4,
+   "tune": 2000,
+   "target_accept": 0.99,
+   "dense_mass": false,
+   "random_seed": 20261006,
+   "centered_effects": false
+  },
+  "intercept": {
+   "mean": -4.476469894471906,
+   "lo": -6.181706439041379,
+   "hi": -3.0428944379736897
+  },
+  "slope": {
+   "mean": 0.3235785687630861,
+   "lo": 0.008656582407844495,
+   "hi": 0.6558772875525022
+  },
+  "tau_question": {
+   "mean": 4.8435943419084415,
+   "lo": 3.366926834234616,
+   "hi": 6.725030873542192
+  }
+ },
+ "A4": {
+  "by_dose": {
+   "p55": {
+    "n_followed": 33,
+    "n_resisted": 164,
+    "median_followed": 181.0,
+    "median_resisted": 108.0,
+    "log_ratio_followed": -0.047573668880350556,
+    "log_ratio_resisted": 0.204910966861207,
+    "ack": 0.19289340101522842,
+    "ack_followed": 0.30303030303030304
+   },
+   "p95": {
+    "n_followed": 44,
+    "n_resisted": 154,
+    "median_followed": 137.5,
+    "median_resisted": 111.5,
+    "log_ratio_followed": -0.3367301843398368,
+    "log_ratio_resisted": 0.25583572451345676,
+    "ack": 0.2474747474747475,
+    "ack_followed": 0.36363636363636365
+   }
+  },
+  "follow_rate_all_control_correct": 0.060240963855421686,
+  "n_all_control_correct": 83,
+  "follow_rate_some_control_wrong": 0.8823529411764706,
+  "n_some_control_wrong": 17,
+  "spearman_ctrl_wrong_vs_follow": 0.7874939308291405
+ },
+ "A3": {
+  "verdict": "inconclusive",
+  "z_cue": 0.1852085478718525,
+  "z_cue_lo": 0.1047012528099075,
+  "z_cue_hi": 0.2640779927263231,
+  "v_cue": 0.0222025480186519,
+  "v_cue_lo": 0.0032254286165498,
+  "v_cue_hi": 0.0417694105071031,
+  "paired_loo": {
+   "Mz-Mv": [
+    40.57219813180208,
+    17.977869455308706
+   ],
+   "Mz-Mzv": [
+    -3.873064323454404,
+    2.605522181086166
+   ],
+   "Mv-Mz": [
+    -40.57219813180208,
+    17.977869455308706
+   ],
+   "Mv-Mzv": [
+    -44.445262455256476,
+    16.79317110594188
+   ],
+   "Mzv-Mz": [
+    3.873064323454404,
+    2.605522181086166
+   ],
+   "Mzv-Mv": [
+    44.445262455256476,
+    16.79317110594188
+   ]
+  },
+  "any_flagged": false
+ },
+ "A3_step": {
+  "Mv_step": {
+   "v_cue_present": 0.1622395322664531,
+   "v_cue_present_lo": 0.1226115346295588,
+   "v_cue_present_hi": 0.2027483178445946,
+   "a_cue_present": 0.011923184087249,
+   "elpd": -617.5072736761064,
+   "flagged": 0.0,
+   "z_cue_present": null,
+   "z_cue_present_lo": null,
+   "z_cue_present_hi": null
+  },
+  "Mz_step": {
+   "v_cue_present": null,
+   "v_cue_present_lo": null,
+   "v_cue_present_hi": null,
+   "a_cue_present": -0.0610493876074826,
+   "elpd": -568.6666472538038,
+   "flagged": 0.0,
+   "z_cue_present": 0.8192387170047968,
+   "z_cue_present_lo": 0.653165943076071,
+   "z_cue_present_hi": 0.990869241295398
+  },
+  "Mzv_step": {
+   "v_cue_present": 0.0667219142060216,
+   "v_cue_present_lo": 0.0185512580159762,
+   "v_cue_present_hi": 0.1171836898246562,
+   "a_cue_present": -0.0613459712329313,
+   "elpd": -565.4632537053917,
+   "flagged": 0.0,
+   "z_cue_present": 0.6703178725173239,
+   "z_cue_present_lo": 0.4577433555844828,
+   "z_cue_present_hi": 0.8737245250853902
+  },
+  "paired_loo": {
+   "Mv_step-Mz_step": [
+    -48.84062642230256,
+    17.91242218990788
+   ],
+   "Mv_step-Mzv_step": [
+    -52.044019970714686,
+    16.72682428248027
+   ],
+   "Mv_step-Mzv": [
+    -39.242286966761945,
+    17.41059772201303
+   ],
+   "Mz_step-Mv_step": [
+    48.84062642230256,
+    17.91242218990788
+   ],
+   "Mz_step-Mzv_step": [
+    -3.203393548412116,
+    2.853140394644185
+   ],
+   "Mz_step-Mzv": [
+    9.598339455540625,
+    9.993494752425505
+   ],
+   "Mzv_step-Mv_step": [
+    52.044019970714686,
+    16.72682428248027
+   ],
+   "Mzv_step-Mz_step": [
+    3.203393548412116,
+    2.853140394644185
+   ],
+   "Mzv_step-Mzv": [
+    12.80173300395274,
+    9.351448282507858
+   ],
+   "Mzv-Mv_step": [
+    39.242286966761945,
+    17.41059772201303
+   ],
+   "Mzv-Mz_step": [
+    -9.598339455540625,
+    9.993494752425505
+   ],
+   "Mzv-Mzv_step": [
+    -12.80173300395274,
+    9.351448282507858
+   ]
+  }
+ }
+}

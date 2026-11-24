@@ -1,0 +1,19 @@
+{
+  "prepared_at": "2026-10-21T00:52:22.785591+00:00",
+  "execution_decision_acknowledged": true,
+  "trials": [
+    "gpt-oss__G08__ordinary__none",
+    "Qwen3__G08__ordinary__correct",
+    "Qwen3__G08__ordinary__incorrect",
+    "gpt-oss__G08__explicit__none",
+    "Qwen3__G08__ordinary__none",
+    "gpt-oss__G08__explicit__incorrect",
+    "gpt-oss__G08__ordinary__incorrect",
+    "Qwen3__G08__explicit__none",
+    "Qwen3__G08__explicit__correct",
+    "gpt-oss__G08__ordinary__correct",
+    "gpt-oss__G08__explicit__correct",
+    "Qwen3__G08__explicit__incorrect"
+  ],
+  "reserved_usd": "0.247093848"
+}

@@ -1,0 +1,60 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "max_tokens": 1536,
+  "temperature": 0,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Independently solve each binary question. Check whether exactly one option is supported by the stated assumptions. Set unique=false and explain blockers for ambiguity or an invalid key. Use an empty blockers string if none. Give a brief mathematical reason for every answer. Do not use external tools.\n[{\"item_id\": \"U001\", \"family\": \"integer_bin_packing\", \"stem\": \"Ten indivisible objects have weights 11, 11, 8, 8, 5, 5, 4, 4, 4, 4. A bin holds total weight at most 13. What is the minimum number of bins? No object can be split.\", \"options\": {\"A\": \"6\", \"B\": \"5\"}}, {\"item_id\": \"U002\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"Seven symbols occur 2, 4, 7, 11, 18, 26, and 32 times. Assign a distinct binary codeword to each symbol, with no codeword a prefix of another and no alphabetical-order constraint. What is the smallest total number of bits to encode all 100 occurrences?\", \"options\": {\"A\": \"245\", \"B\": \"243\"}}, {\"item_id\": \"U003\", \"family\": \"rank_one_determinant\", \"stem\": \"Find the determinant of the 4 by 4 matrix whose rows are (5, -1, 1, -2), (2, 3, 1, -2), (2, -1, 6, -2), and (2, -1, 1, 6).\", \"options\": {\"A\": \"656\", \"B\": \"540\"}}, {\"item_id\": \"U004\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"Nine workers A through I can each take at most one task, and each task can have at most one worker. Eligible task sets are A:{1,2}, B:{2,3}, C:{3,4}, D:{1,4}, E:{1,2,3,4}, F:{5,6}, G:{6,7}, H:{7,8}, I:{8,9}. Workers may remain unassigned. What is the largest number of tasks that can be assigned?\", \"options\": {\"A\": \"9\", \"B\": \"8\"}}, {\"item_id\": \"U005\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independently flip a fair coin until the consecutive pattern HTHTH first appears. Overlapping candidate occurrences are allowed. Starting with no flips, what is the expected total number of flips, including the final five?\", \"options\": {\"A\": \"42\", \"B\": \"32\"}}, {\"item_id\": \"U006\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of jobs, each given as (start,end,profit): [(0, 4, 10), (1, 3, 9), (3, 5, 10), (4, 7, 16), (5, 8, 15), (7, 9, 13), (8, 11, 19), (9, 12, 20), (11, 13, 15)]. Jobs occupy [start,end), so finishing exactly when another starts is allowed. Jobs cannot be moved, split or repeated. What is the maximum total profit?\", \"options\": {\"A\": \"67\", \"B\": \"68\"}}]"
+    }
+  ],
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "item_id": {
+                  "type": "string"
+                },
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                },
+                "unique": {
+                  "type": "boolean"
+                },
+                "blockers": {
+                  "type": "string"
+                },
+                "reason": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "item_id",
+                "answer",
+                "unique",
+                "blockers",
+                "reason"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "items"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,2233 @@
+[
+  {
+    "item_id": "resource-recurrence-01",
+    "family": "recurrence",
+    "derived_answer": "15",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "9",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "15",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Sequence x_0 through x_10: [5, 4, 0, 12, 1, 15, 10, 19, 22, 9, 15]. Apply the given linear combination and least nonnegative residue at each step.",
+    "computational_details": {
+      "full_sequence": [
+        5,
+        4,
+        0,
+        12,
+        1,
+        15,
+        10,
+        19,
+        22,
+        9,
+        15
+      ],
+      "crosscheck": "memoized recursive definition agrees with forward iteration",
+      "modular_steps": 9
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy-to-moderate: 9 sequential modular updates; error propagation creates bookkeeping burden; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "resource-subset_count-01",
+    "family": "subset_count",
+    "derived_answer": "2",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "2",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "1",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate all C(6,3)=20 unordered labeled triples; retain those meeting both sum constraints. Valid triples (weights; total): [([3, 4, 12], 19), ([3, 4, 15], 22)].",
+    "computational_details": {
+      "valid_subsets": [
+        {
+          "labels_1_based": [
+            1,
+            2,
+            4
+          ],
+          "weights": [
+            3,
+            4,
+            12
+          ],
+          "total": 19
+        },
+        {
+          "labels_1_based": [
+            1,
+            2,
+            6
+          ],
+          "weights": [
+            3,
+            4,
+            15
+          ],
+          "total": 22
+        }
+      ],
+      "crosscheck": "combinations enumeration agrees with all 64 bit masks restricted to popcount 3"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: exhaustive check of at most 20 small triples; systematic bookkeeping matters; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "resource-shortest_path-01",
+    "family": "shortest_path",
+    "derived_answer": "11",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "11",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "13",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate every directed 0-to-5 path; minimum 11 attained by [[0, 5]]. All path costs: [11, 14, 23, 26, 35].",
+    "computational_details": {
+      "paths": [
+        {
+          "cost": 11,
+          "vertices": [
+            0,
+            5
+          ]
+        },
+        {
+          "cost": 14,
+          "vertices": [
+            0,
+            1,
+            5
+          ]
+        },
+        {
+          "cost": 23,
+          "vertices": [
+            0,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 26,
+          "vertices": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 35,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "distances_from_zero": [
+        0,
+        6,
+        9,
+        4,
+        12,
+        11
+      ],
+      "crosscheck": "full directed path enumeration agrees with five-pass edge relaxation"
+    },
+    "issues": [
+      {
+        "severity": "scope_note",
+        "issue": "Direct 0-to-5 edge is optimal; graph detail adds little necessary search. Valid item, but weak as a difficult planning task."
+      }
+    ],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy: visible direct or two-edge route; all costs positive, small acyclic directed graph; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "resource-urn_posterior-01",
+    "family": "urn_posterior",
+    "derived_answer": "74%",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "72%",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "74%",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "P(E|U)=C(3,1)C(6,2)/C(9,3)=15/28; P(E|V)=C(7,1)C(6,2)/C(13,3)=105/286. Bayes: (2/3*15/28)/[2/3*15/28+(1-2/3)*105/286]=143/192. Exact percent=3575/48 = 74.479166666667%; rounding interval [147/2, 149/2) gives 74% with half-up convention.",
+    "computational_details": {
+      "likelihood_U": "15/28",
+      "likelihood_V": "105/286",
+      "posterior_exact": "143/192",
+      "percent_exact": "3575/48",
+      "percent_decimal": 74.47916666666667,
+      "half_up_integer": 74,
+      "rounding_interval_percent": [
+        "147/2",
+        "149/2"
+      ],
+      "distance_to_nearest_rounding_boundary_percentage_points": "1/48",
+      "crosscheck": "hypergeometric likelihoods agree with enumeration of labeled ball combinations; exact rational interval verifies half-up rounding"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: two small hypergeometric likelihoods and Bayesian normalization, followed by explicit rounding; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-recurrence-01",
+    "family": "recurrence",
+    "derived_answer": "3",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "4",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "3",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Sequence x_0 through x_7: [3, 2, 11, 17, 12, 6, 4, 3]. Apply the given linear combination and least nonnegative residue at each step.",
+    "computational_details": {
+      "full_sequence": [
+        3,
+        2,
+        11,
+        17,
+        12,
+        6,
+        4,
+        3
+      ],
+      "crosscheck": "memoized recursive definition agrees with forward iteration",
+      "modular_steps": 6
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy-to-moderate: 6 sequential modular updates; error propagation creates bookkeeping burden; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-recurrence-02",
+    "family": "recurrence",
+    "derived_answer": "11",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "12",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "11",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Sequence x_0 through x_8: [2, 5, 11, 3, 13, 22, 15, 12, 11]. Apply the given linear combination and least nonnegative residue at each step.",
+    "computational_details": {
+      "full_sequence": [
+        2,
+        5,
+        11,
+        3,
+        13,
+        22,
+        15,
+        12,
+        11
+      ],
+      "crosscheck": "memoized recursive definition agrees with forward iteration",
+      "modular_steps": 7
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy-to-moderate: 7 sequential modular updates; error propagation creates bookkeeping burden; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-recurrence-03",
+    "family": "recurrence",
+    "derived_answer": "1",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "1",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "9",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Sequence x_0 through x_10: [4, 4, 3, 1, 11, 8, 15, 3, 0, 9, 1]. Apply the given linear combination and least nonnegative residue at each step.",
+    "computational_details": {
+      "full_sequence": [
+        4,
+        4,
+        3,
+        1,
+        11,
+        8,
+        15,
+        3,
+        0,
+        9,
+        1
+      ],
+      "crosscheck": "memoized recursive definition agrees with forward iteration",
+      "modular_steps": 9
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy-to-moderate: 9 sequential modular updates; error propagation creates bookkeeping burden; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-recurrence-04",
+    "family": "recurrence",
+    "derived_answer": "8",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "8",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "7",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Sequence x_0 through x_9: [3, 6, 18, 2, 17, 15, 18, 20, 7, 8]. Apply the given linear combination and least nonnegative residue at each step.",
+    "computational_details": {
+      "full_sequence": [
+        3,
+        6,
+        18,
+        2,
+        17,
+        15,
+        18,
+        20,
+        7,
+        8
+      ],
+      "crosscheck": "memoized recursive definition agrees with forward iteration",
+      "modular_steps": 8
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy-to-moderate: 8 sequential modular updates; error propagation creates bookkeeping burden; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-subset_count-01",
+    "family": "subset_count",
+    "derived_answer": "5",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "5",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "4",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate all C(6,3)=20 unordered labeled triples; retain those meeting both sum constraints. Valid triples (weights; total): [([4, 6, 7], 17), ([4, 7, 10], 21), ([5, 6, 10], 21), ([5, 7, 9], 21), ([6, 9, 10], 25)].",
+    "computational_details": {
+      "valid_subsets": [
+        {
+          "labels_1_based": [
+            1,
+            3,
+            4
+          ],
+          "weights": [
+            4,
+            6,
+            7
+          ],
+          "total": 17
+        },
+        {
+          "labels_1_based": [
+            1,
+            4,
+            6
+          ],
+          "weights": [
+            4,
+            7,
+            10
+          ],
+          "total": 21
+        },
+        {
+          "labels_1_based": [
+            2,
+            3,
+            6
+          ],
+          "weights": [
+            5,
+            6,
+            10
+          ],
+          "total": 21
+        },
+        {
+          "labels_1_based": [
+            2,
+            4,
+            5
+          ],
+          "weights": [
+            5,
+            7,
+            9
+          ],
+          "total": 21
+        },
+        {
+          "labels_1_based": [
+            3,
+            5,
+            6
+          ],
+          "weights": [
+            6,
+            9,
+            10
+          ],
+          "total": 25
+        }
+      ],
+      "crosscheck": "combinations enumeration agrees with all 64 bit masks restricted to popcount 3"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: exhaustive check of at most 20 small triples; systematic bookkeeping matters; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-subset_count-02",
+    "family": "subset_count",
+    "derived_answer": "5",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "5",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "7",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate all C(6,3)=20 unordered labeled triples; retain those meeting both sum constraints. Valid triples (weights; total): [([2, 4, 5], 11), ([2, 5, 7], 14), ([2, 5, 13], 20), ([4, 6, 7], 17), ([4, 6, 13], 23)].",
+    "computational_details": {
+      "valid_subsets": [
+        {
+          "labels_1_based": [
+            1,
+            2,
+            3
+          ],
+          "weights": [
+            2,
+            4,
+            5
+          ],
+          "total": 11
+        },
+        {
+          "labels_1_based": [
+            1,
+            3,
+            5
+          ],
+          "weights": [
+            2,
+            5,
+            7
+          ],
+          "total": 14
+        },
+        {
+          "labels_1_based": [
+            1,
+            3,
+            6
+          ],
+          "weights": [
+            2,
+            5,
+            13
+          ],
+          "total": 20
+        },
+        {
+          "labels_1_based": [
+            2,
+            4,
+            5
+          ],
+          "weights": [
+            4,
+            6,
+            7
+          ],
+          "total": 17
+        },
+        {
+          "labels_1_based": [
+            2,
+            4,
+            6
+          ],
+          "weights": [
+            4,
+            6,
+            13
+          ],
+          "total": 23
+        }
+      ],
+      "crosscheck": "combinations enumeration agrees with all 64 bit masks restricted to popcount 3"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: exhaustive check of at most 20 small triples; systematic bookkeeping matters; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-subset_count-03",
+    "family": "subset_count",
+    "derived_answer": "3",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "2",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "3",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate all C(6,3)=20 unordered labeled triples; retain those meeting both sum constraints. Valid triples (weights; total): [([2, 5, 7], 14), ([2, 6, 10], 18), ([5, 6, 7], 18)].",
+    "computational_details": {
+      "valid_subsets": [
+        {
+          "labels_1_based": [
+            1,
+            2,
+            4
+          ],
+          "weights": [
+            2,
+            5,
+            7
+          ],
+          "total": 14
+        },
+        {
+          "labels_1_based": [
+            1,
+            3,
+            5
+          ],
+          "weights": [
+            2,
+            6,
+            10
+          ],
+          "total": 18
+        },
+        {
+          "labels_1_based": [
+            2,
+            3,
+            4
+          ],
+          "weights": [
+            5,
+            6,
+            7
+          ],
+          "total": 18
+        }
+      ],
+      "crosscheck": "combinations enumeration agrees with all 64 bit masks restricted to popcount 3"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: exhaustive check of at most 20 small triples; systematic bookkeeping matters; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-subset_count-04",
+    "family": "subset_count",
+    "derived_answer": "3",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "4",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "3",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate all C(6,3)=20 unordered labeled triples; retain those meeting both sum constraints. Valid triples (weights; total): [([3, 6, 9], 18), ([3, 7, 8], 18), ([6, 7, 8], 21)].",
+    "computational_details": {
+      "valid_subsets": [
+        {
+          "labels_1_based": [
+            1,
+            2,
+            5
+          ],
+          "weights": [
+            3,
+            6,
+            9
+          ],
+          "total": 18
+        },
+        {
+          "labels_1_based": [
+            1,
+            3,
+            4
+          ],
+          "weights": [
+            3,
+            7,
+            8
+          ],
+          "total": 18
+        },
+        {
+          "labels_1_based": [
+            2,
+            3,
+            4
+          ],
+          "weights": [
+            6,
+            7,
+            8
+          ],
+          "total": 21
+        }
+      ],
+      "crosscheck": "combinations enumeration agrees with all 64 bit masks restricted to popcount 3"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: exhaustive check of at most 20 small triples; systematic bookkeeping matters; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-shortest_path-01",
+    "family": "shortest_path",
+    "derived_answer": "8",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "6",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "8",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate every directed 0-to-5 path; minimum 8 attained by [[0, 4, 5]]. All path costs: [8, 20, 27, 33].",
+    "computational_details": {
+      "paths": [
+        {
+          "cost": 8,
+          "vertices": [
+            0,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 20,
+          "vertices": [
+            0,
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "cost": 27,
+          "vertices": [
+            0,
+            1,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 33,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "distances_from_zero": [
+        0,
+        9,
+        17,
+        17,
+        4,
+        8
+      ],
+      "crosscheck": "full directed path enumeration agrees with five-pass edge relaxation"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy: visible direct or two-edge route; all costs positive, small acyclic directed graph; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-shortest_path-02",
+    "family": "shortest_path",
+    "derived_answer": "17",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "17",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "15",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate every directed 0-to-5 path; minimum 17 attained by [[0, 4, 5]]. All path costs: [17, 32].",
+    "computational_details": {
+      "paths": [
+        {
+          "cost": 17,
+          "vertices": [
+            0,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 32,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "distances_from_zero": [
+        0,
+        8,
+        18,
+        22,
+        12,
+        17
+      ],
+      "crosscheck": "full directed path enumeration agrees with five-pass edge relaxation"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy: visible direct or two-edge route; all costs positive, small acyclic directed graph; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-shortest_path-03",
+    "family": "shortest_path",
+    "derived_answer": "7",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "9",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "7",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate every directed 0-to-5 path; minimum 7 attained by [[0, 5]]. All path costs: [7, 12, 20, 32, 40].",
+    "computational_details": {
+      "paths": [
+        {
+          "cost": 7,
+          "vertices": [
+            0,
+            5
+          ]
+        },
+        {
+          "cost": 12,
+          "vertices": [
+            0,
+            3,
+            5
+          ]
+        },
+        {
+          "cost": 20,
+          "vertices": [
+            0,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 32,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "cost": 40,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "distances_from_zero": [
+        0,
+        4,
+        13,
+        3,
+        11,
+        7
+      ],
+      "crosscheck": "full directed path enumeration agrees with five-pass edge relaxation"
+    },
+    "issues": [
+      {
+        "severity": "scope_note",
+        "issue": "Direct 0-to-5 edge is optimal; graph detail adds little necessary search. Valid item, but weak as a difficult planning task."
+      }
+    ],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy: visible direct or two-edge route; all costs positive, small acyclic directed graph; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-shortest_path-04",
+    "family": "shortest_path",
+    "derived_answer": "7",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "7",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "5",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate every directed 0-to-5 path; minimum 7 attained by [[0, 4, 5]]. All path costs: [7, 22, 27, 39].",
+    "computational_details": {
+      "paths": [
+        {
+          "cost": 7,
+          "vertices": [
+            0,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 22,
+          "vertices": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 27,
+          "vertices": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 39,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "distances_from_zero": [
+        0,
+        10,
+        20,
+        25,
+        4,
+        7
+      ],
+      "crosscheck": "full directed path enumeration agrees with five-pass edge relaxation"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy: visible direct or two-edge route; all costs positive, small acyclic directed graph; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-urn_posterior-01",
+    "family": "urn_posterior",
+    "derived_answer": "41%",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "41%",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "39%",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "P(E|U)=C(6,1)C(6,2)/C(12,3)=9/22; P(E|V)=C(6,1)C(4,2)/C(10,3)=3/10. Bayes: (1/3*9/22)/[1/3*9/22+(1-1/3)*3/10]=15/37. Exact percent=1500/37 = 40.540540540541%; rounding interval [81/2, 83/2) gives 41% with half-up convention.",
+    "computational_details": {
+      "likelihood_U": "9/22",
+      "likelihood_V": "3/10",
+      "posterior_exact": "15/37",
+      "percent_exact": "1500/37",
+      "percent_decimal": 40.54054054054054,
+      "half_up_integer": 41,
+      "rounding_interval_percent": [
+        "81/2",
+        "83/2"
+      ],
+      "distance_to_nearest_rounding_boundary_percentage_points": "3/74",
+      "crosscheck": "hypergeometric likelihoods agree with enumeration of labeled ball combinations; exact rational interval verifies half-up rounding"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: two small hypergeometric likelihoods and Bayesian normalization, followed by explicit rounding; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-urn_posterior-02",
+    "family": "urn_posterior",
+    "derived_answer": "46%",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "42%",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "46%",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "P(E|U)=C(3,1)C(5,2)/C(8,3)=15/28; P(E|V)=C(7,1)C(5,2)/C(12,3)=7/22. Bayes: (1/3*15/28)/[1/3*15/28+(1-1/3)*7/22]=165/361. Exact percent=16500/361 = 45.706371191136%; rounding interval [91/2, 93/2) gives 46% with half-up convention.",
+    "computational_details": {
+      "likelihood_U": "15/28",
+      "likelihood_V": "7/22",
+      "posterior_exact": "165/361",
+      "percent_exact": "16500/361",
+      "percent_decimal": 45.70637119113574,
+      "half_up_integer": 46,
+      "rounding_interval_percent": [
+        "91/2",
+        "93/2"
+      ],
+      "distance_to_nearest_rounding_boundary_percentage_points": "149/722",
+      "crosscheck": "hypergeometric likelihoods agree with enumeration of labeled ball combinations; exact rational interval verifies half-up rounding"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: two small hypergeometric likelihoods and Bayesian normalization, followed by explicit rounding; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-urn_posterior-03",
+    "family": "urn_posterior",
+    "derived_answer": "38%",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "38%",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "37%",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "P(E|U)=C(4,1)C(3,1)/C(7,2)=4/7; P(E|V)=C(3,1)C(7,1)/C(10,2)=7/15. Bayes: (1/3*4/7)/[1/3*4/7+(1-1/3)*7/15]=30/79. Exact percent=3000/79 = 37.974683544304%; rounding interval [75/2, 77/2) gives 38% with half-up convention.",
+    "computational_details": {
+      "likelihood_U": "4/7",
+      "likelihood_V": "7/15",
+      "posterior_exact": "30/79",
+      "percent_exact": "3000/79",
+      "percent_decimal": 37.9746835443038,
+      "half_up_integer": 38,
+      "rounding_interval_percent": [
+        "75/2",
+        "77/2"
+      ],
+      "distance_to_nearest_rounding_boundary_percentage_points": "75/158",
+      "crosscheck": "hypergeometric likelihoods agree with enumeration of labeled ball combinations; exact rational interval verifies half-up rounding"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: two small hypergeometric likelihoods and Bayesian normalization, followed by explicit rounding; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "calibration-urn_posterior-04",
+    "family": "urn_posterior",
+    "derived_answer": "65%",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "66%",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "65%",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "P(E|U)=C(4,1)C(6,2)/C(10,3)=1/2; P(E|V)=C(3,1)C(6,2)/C(9,3)=15/28. Bayes: (2/3*1/2)/[2/3*1/2+(1-2/3)*15/28]=28/43. Exact percent=2800/43 = 65.116279069767%; rounding interval [129/2, 131/2) gives 65% with half-up convention.",
+    "computational_details": {
+      "likelihood_U": "1/2",
+      "likelihood_V": "15/28",
+      "posterior_exact": "28/43",
+      "percent_exact": "2800/43",
+      "percent_decimal": 65.11627906976744,
+      "half_up_integer": 65,
+      "rounding_interval_percent": [
+        "129/2",
+        "131/2"
+      ],
+      "distance_to_nearest_rounding_boundary_percentage_points": "33/86",
+      "crosscheck": "hypergeometric likelihoods agree with enumeration of labeled ball combinations; exact rational interval verifies half-up rounding"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: two small hypergeometric likelihoods and Bayesian normalization, followed by explicit rounding; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-recurrence-01",
+    "family": "recurrence",
+    "derived_answer": "12",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "21",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "12",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Sequence x_0 through x_9: [6, 5, 17, 4, 15, 0, 7, 7, 21, 12]. Apply the given linear combination and least nonnegative residue at each step.",
+    "computational_details": {
+      "full_sequence": [
+        6,
+        5,
+        17,
+        4,
+        15,
+        0,
+        7,
+        7,
+        21,
+        12
+      ],
+      "crosscheck": "memoized recursive definition agrees with forward iteration",
+      "modular_steps": 8
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy-to-moderate: 8 sequential modular updates; error propagation creates bookkeeping burden; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-recurrence-02",
+    "family": "recurrence",
+    "derived_answer": "14",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "14",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "4",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Sequence x_0 through x_10: [3, 2, 10, 7, 0, 14, 11, 16, 3, 4, 14]. Apply the given linear combination and least nonnegative residue at each step.",
+    "computational_details": {
+      "full_sequence": [
+        3,
+        2,
+        10,
+        7,
+        0,
+        14,
+        11,
+        16,
+        3,
+        4,
+        14
+      ],
+      "crosscheck": "memoized recursive definition agrees with forward iteration",
+      "modular_steps": 9
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy-to-moderate: 9 sequential modular updates; error propagation creates bookkeeping burden; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-recurrence-03",
+    "family": "recurrence",
+    "derived_answer": "18",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "18",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "4",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Sequence x_0 through x_10: [1, 4, 13, 5, 9, 13, 10, 5, 6, 4, 18]. Apply the given linear combination and least nonnegative residue at each step.",
+    "computational_details": {
+      "full_sequence": [
+        1,
+        4,
+        13,
+        5,
+        9,
+        13,
+        10,
+        5,
+        6,
+        4,
+        18
+      ],
+      "crosscheck": "memoized recursive definition agrees with forward iteration",
+      "modular_steps": 9
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy-to-moderate: 9 sequential modular updates; error propagation creates bookkeeping burden; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-recurrence-04",
+    "family": "recurrence",
+    "derived_answer": "10",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "1",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "10",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Sequence x_0 through x_8: [2, 2, 8, 7, 10, 18, 7, 1, 10]. Apply the given linear combination and least nonnegative residue at each step.",
+    "computational_details": {
+      "full_sequence": [
+        2,
+        2,
+        8,
+        7,
+        10,
+        18,
+        7,
+        1,
+        10
+      ],
+      "crosscheck": "memoized recursive definition agrees with forward iteration",
+      "modular_steps": 7
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy-to-moderate: 7 sequential modular updates; error propagation creates bookkeeping burden; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-subset_count-01",
+    "family": "subset_count",
+    "derived_answer": "3",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "2",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "3",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate all C(6,3)=20 unordered labeled triples; retain those meeting both sum constraints. Valid triples (weights; total): [([3, 4, 9], 16), ([3, 4, 13], 20), ([3, 6, 11], 20)].",
+    "computational_details": {
+      "valid_subsets": [
+        {
+          "labels_1_based": [
+            1,
+            2,
+            4
+          ],
+          "weights": [
+            3,
+            4,
+            9
+          ],
+          "total": 16
+        },
+        {
+          "labels_1_based": [
+            1,
+            2,
+            6
+          ],
+          "weights": [
+            3,
+            4,
+            13
+          ],
+          "total": 20
+        },
+        {
+          "labels_1_based": [
+            1,
+            3,
+            5
+          ],
+          "weights": [
+            3,
+            6,
+            11
+          ],
+          "total": 20
+        }
+      ],
+      "crosscheck": "combinations enumeration agrees with all 64 bit masks restricted to popcount 3"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: exhaustive check of at most 20 small triples; systematic bookkeeping matters; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-subset_count-02",
+    "family": "subset_count",
+    "derived_answer": "3",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "3",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "2",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate all C(6,3)=20 unordered labeled triples; retain those meeting both sum constraints. Valid triples (weights; total): [([3, 4, 10], 17), ([3, 6, 8], 17), ([4, 6, 10], 20)].",
+    "computational_details": {
+      "valid_subsets": [
+        {
+          "labels_1_based": [
+            1,
+            2,
+            5
+          ],
+          "weights": [
+            3,
+            4,
+            10
+          ],
+          "total": 17
+        },
+        {
+          "labels_1_based": [
+            1,
+            3,
+            4
+          ],
+          "weights": [
+            3,
+            6,
+            8
+          ],
+          "total": 17
+        },
+        {
+          "labels_1_based": [
+            2,
+            3,
+            5
+          ],
+          "weights": [
+            4,
+            6,
+            10
+          ],
+          "total": 20
+        }
+      ],
+      "crosscheck": "combinations enumeration agrees with all 64 bit masks restricted to popcount 3"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: exhaustive check of at most 20 small triples; systematic bookkeeping matters; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-subset_count-03",
+    "family": "subset_count",
+    "derived_answer": "3",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "1",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "3",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate all C(6,3)=20 unordered labeled triples; retain those meeting both sum constraints. Valid triples (weights; total): [([3, 4, 14], 21), ([3, 8, 14], 25), ([4, 8, 13], 25)].",
+    "computational_details": {
+      "valid_subsets": [
+        {
+          "labels_1_based": [
+            1,
+            2,
+            5
+          ],
+          "weights": [
+            3,
+            4,
+            14
+          ],
+          "total": 21
+        },
+        {
+          "labels_1_based": [
+            1,
+            3,
+            5
+          ],
+          "weights": [
+            3,
+            8,
+            14
+          ],
+          "total": 25
+        },
+        {
+          "labels_1_based": [
+            2,
+            3,
+            4
+          ],
+          "weights": [
+            4,
+            8,
+            13
+          ],
+          "total": 25
+        }
+      ],
+      "crosscheck": "combinations enumeration agrees with all 64 bit masks restricted to popcount 3"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: exhaustive check of at most 20 small triples; systematic bookkeeping matters; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-subset_count-04",
+    "family": "subset_count",
+    "derived_answer": "6",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "6",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "5",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate all C(6,3)=20 unordered labeled triples; retain those meeting both sum constraints. Valid triples (weights; total): [([2, 3, 8], 13), ([2, 3, 11], 16), ([2, 8, 9], 19), ([2, 9, 11], 22), ([3, 8, 11], 22), ([3, 9, 13], 25)].",
+    "computational_details": {
+      "valid_subsets": [
+        {
+          "labels_1_based": [
+            1,
+            2,
+            3
+          ],
+          "weights": [
+            2,
+            3,
+            8
+          ],
+          "total": 13
+        },
+        {
+          "labels_1_based": [
+            1,
+            2,
+            5
+          ],
+          "weights": [
+            2,
+            3,
+            11
+          ],
+          "total": 16
+        },
+        {
+          "labels_1_based": [
+            1,
+            3,
+            4
+          ],
+          "weights": [
+            2,
+            8,
+            9
+          ],
+          "total": 19
+        },
+        {
+          "labels_1_based": [
+            1,
+            4,
+            5
+          ],
+          "weights": [
+            2,
+            9,
+            11
+          ],
+          "total": 22
+        },
+        {
+          "labels_1_based": [
+            2,
+            3,
+            5
+          ],
+          "weights": [
+            3,
+            8,
+            11
+          ],
+          "total": 22
+        },
+        {
+          "labels_1_based": [
+            2,
+            4,
+            6
+          ],
+          "weights": [
+            3,
+            9,
+            13
+          ],
+          "total": 25
+        }
+      ],
+      "crosscheck": "combinations enumeration agrees with all 64 bit masks restricted to popcount 3"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: exhaustive check of at most 20 small triples; systematic bookkeeping matters; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-shortest_path-01",
+    "family": "shortest_path",
+    "derived_answer": "3",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "3",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "5",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate every directed 0-to-5 path; minimum 3 attained by [[0, 5]]. All path costs: [3, 14, 18, 26, 32].",
+    "computational_details": {
+      "paths": [
+        {
+          "cost": 3,
+          "vertices": [
+            0,
+            5
+          ]
+        },
+        {
+          "cost": 14,
+          "vertices": [
+            0,
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "cost": 18,
+          "vertices": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 26,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "cost": 32,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "distances_from_zero": [
+        0,
+        2,
+        9,
+        15,
+        10,
+        3
+      ],
+      "crosscheck": "full directed path enumeration agrees with five-pass edge relaxation"
+    },
+    "issues": [
+      {
+        "severity": "scope_note",
+        "issue": "Direct 0-to-5 edge is optimal; graph detail adds little necessary search. Valid item, but weak as a difficult planning task."
+      }
+    ],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy: visible direct or two-edge route; all costs positive, small acyclic directed graph; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-shortest_path-02",
+    "family": "shortest_path",
+    "derived_answer": "12",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "10",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "12",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate every directed 0-to-5 path; minimum 12 attained by [[0, 4, 5]]. All path costs: [12, 15, 27, 34, 46].",
+    "computational_details": {
+      "paths": [
+        {
+          "cost": 12,
+          "vertices": [
+            0,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 15,
+          "vertices": [
+            0,
+            3,
+            5
+          ]
+        },
+        {
+          "cost": 27,
+          "vertices": [
+            0,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 34,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "cost": 46,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "distances_from_zero": [
+        0,
+        9,
+        21,
+        10,
+        7,
+        12
+      ],
+      "crosscheck": "full directed path enumeration agrees with five-pass edge relaxation"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy: visible direct or two-edge route; all costs positive, small acyclic directed graph; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-shortest_path-03",
+    "family": "shortest_path",
+    "derived_answer": "12",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "10",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "12",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate every directed 0-to-5 path; minimum 12 attained by [[0, 4, 5]]. All path costs: [12, 13, 16, 20, 23, 30, 31, 32, 37, 44].",
+    "computational_details": {
+      "paths": [
+        {
+          "cost": 12,
+          "vertices": [
+            0,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 13,
+          "vertices": [
+            0,
+            2,
+            5
+          ]
+        },
+        {
+          "cost": 16,
+          "vertices": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 20,
+          "vertices": [
+            0,
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "cost": 23,
+          "vertices": [
+            0,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 30,
+          "vertices": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 31,
+          "vertices": [
+            0,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 32,
+          "vertices": [
+            0,
+            1,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 37,
+          "vertices": [
+            0,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 44,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "distances_from_zero": [
+        0,
+        6,
+        8,
+        12,
+        4,
+        12
+      ],
+      "crosscheck": "full directed path enumeration agrees with five-pass edge relaxation"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy: visible direct or two-edge route; all costs positive, small acyclic directed graph; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-shortest_path-04",
+    "family": "shortest_path",
+    "derived_answer": "2",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "2",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "4",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "Enumerate every directed 0-to-5 path; minimum 2 attained by [[0, 5]]. All path costs: [2, 11, 13, 15, 18, 21, 25, 25, 25, 29, 29, 30, 34].",
+    "computational_details": {
+      "paths": [
+        {
+          "cost": 2,
+          "vertices": [
+            0,
+            5
+          ]
+        },
+        {
+          "cost": 11,
+          "vertices": [
+            0,
+            2,
+            5
+          ]
+        },
+        {
+          "cost": 13,
+          "vertices": [
+            0,
+            3,
+            5
+          ]
+        },
+        {
+          "cost": 15,
+          "vertices": [
+            0,
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "cost": 18,
+          "vertices": [
+            0,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 21,
+          "vertices": [
+            0,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 25,
+          "vertices": [
+            0,
+            1,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 25,
+          "vertices": [
+            0,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "cost": 25,
+          "vertices": [
+            0,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 29,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "cost": 29,
+          "vertices": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 30,
+          "vertices": [
+            0,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        {
+          "cost": 34,
+          "vertices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "distances_from_zero": [
+        0,
+        10,
+        9,
+        5,
+        9,
+        2
+      ],
+      "crosscheck": "full directed path enumeration agrees with five-pass edge relaxation"
+    },
+    "issues": [
+      {
+        "severity": "scope_note",
+        "issue": "Direct 0-to-5 edge is optimal; graph detail adds little necessary search. Valid item, but weak as a difficult planning task."
+      }
+    ],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "easy: visible direct or two-edge route; all costs positive, small acyclic directed graph; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-urn_posterior-01",
+    "family": "urn_posterior",
+    "derived_answer": "34%",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "34%",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "35%",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "P(E|U)=C(5,1)C(6,2)/C(11,3)=5/11; P(E|V)=C(3,1)C(3,2)/C(6,3)=9/20. Bayes: (1/3*5/11)/[1/3*5/11+(1-1/3)*9/20]=50/149. Exact percent=5000/149 = 33.557046979866%; rounding interval [67/2, 69/2) gives 34% with half-up convention.",
+    "computational_details": {
+      "likelihood_U": "5/11",
+      "likelihood_V": "9/20",
+      "posterior_exact": "50/149",
+      "percent_exact": "5000/149",
+      "percent_decimal": 33.557046979865774,
+      "half_up_integer": 34,
+      "rounding_interval_percent": [
+        "67/2",
+        "69/2"
+      ],
+      "distance_to_nearest_rounding_boundary_percentage_points": "17/298",
+      "crosscheck": "hypergeometric likelihoods agree with enumeration of labeled ball combinations; exact rational interval verifies half-up rounding"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: two small hypergeometric likelihoods and Bayesian normalization, followed by explicit rounding; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-urn_posterior-02",
+    "family": "urn_posterior",
+    "derived_answer": "36%",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "34%",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "36%",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "P(E|U)=C(3,1)C(3,1)/C(6,2)=3/5; P(E|V)=C(6,1)C(4,1)/C(10,2)=8/15. Bayes: (1/3*3/5)/[1/3*3/5+(1-1/3)*8/15]=9/25. Exact percent=36 = 36.000000000000%; rounding interval [71/2, 73/2) gives 36% with half-up convention.",
+    "computational_details": {
+      "likelihood_U": "3/5",
+      "likelihood_V": "8/15",
+      "posterior_exact": "9/25",
+      "percent_exact": "36",
+      "percent_decimal": 36.0,
+      "half_up_integer": 36,
+      "rounding_interval_percent": [
+        "71/2",
+        "73/2"
+      ],
+      "distance_to_nearest_rounding_boundary_percentage_points": "1/2",
+      "crosscheck": "hypergeometric likelihoods agree with enumeration of labeled ball combinations; exact rational interval verifies half-up rounding"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: two small hypergeometric likelihoods and Bayesian normalization, followed by explicit rounding; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-urn_posterior-03",
+    "family": "urn_posterior",
+    "derived_answer": "15%",
+    "chosen_letter": "A",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "15%",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "18%",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      }
+    },
+    "derivation": "P(E|U)=C(7,1)C(3,2)/C(10,3)=7/40; P(E|V)=C(4,1)C(7,2)/C(11,3)=28/55. Bayes: (1/3*7/40)/[1/3*7/40+(1-1/3)*28/55]=11/75. Exact percent=44/3 = 14.666666666667%; rounding interval [29/2, 31/2) gives 15% with half-up convention.",
+    "computational_details": {
+      "likelihood_U": "7/40",
+      "likelihood_V": "28/55",
+      "posterior_exact": "11/75",
+      "percent_exact": "44/3",
+      "percent_decimal": 14.666666666666666,
+      "half_up_integer": 15,
+      "rounding_interval_percent": [
+        "29/2",
+        "31/2"
+      ],
+      "distance_to_nearest_rounding_boundary_percentage_points": "1/6",
+      "crosscheck": "hypergeometric likelihoods agree with enumeration of labeled ball combinations; exact rational interval verifies half-up rounding"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: two small hypergeometric likelihoods and Bayesian normalization, followed by explicit rounding; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  },
+  {
+    "item_id": "reserved-urn_posterior-04",
+    "family": "urn_posterior",
+    "derived_answer": "67%",
+    "chosen_letter": "B",
+    "unique_answer": true,
+    "must_fix": false,
+    "alternative_checks": {
+      "A": {
+        "displayed_value": "68%",
+        "matches_derived_answer": false,
+        "reason": "does not equal derived exact/rounded answer"
+      },
+      "B": {
+        "displayed_value": "67%",
+        "matches_derived_answer": true,
+        "reason": "equals uniquely derived exact/rounded answer"
+      }
+    },
+    "derivation": "P(E|U)=C(6,1)C(6,1)/C(12,2)=6/11; P(E|V)=C(6,1)C(4,1)/C(10,2)=8/15. Bayes: (2/3*6/11)/[2/3*6/11+(1-2/3)*8/15]=45/67. Exact percent=4500/67 = 67.164179104478%; rounding interval [133/2, 135/2) gives 67% with half-up convention.",
+    "computational_details": {
+      "likelihood_U": "6/11",
+      "likelihood_V": "8/15",
+      "posterior_exact": "45/67",
+      "percent_exact": "4500/67",
+      "percent_decimal": 67.16417910447761,
+      "half_up_integer": 67,
+      "rounding_interval_percent": [
+        "133/2",
+        "135/2"
+      ],
+      "distance_to_nearest_rounding_boundary_percentage_points": "45/134",
+      "crosscheck": "hypergeometric likelihoods agree with enumeration of labeled ball combinations; exact rational interval verifies half-up rounding"
+    },
+    "issues": [],
+    "disposition": "valid; retain for bounded computation/resource calibration",
+    "expected_difficulty": "moderate: two small hypergeometric likelihoods and Bayesian normalization, followed by explicit rounding; qualitative forecast only, empirical difficulty and resource sensitivity remain unknown"
+  }
+]

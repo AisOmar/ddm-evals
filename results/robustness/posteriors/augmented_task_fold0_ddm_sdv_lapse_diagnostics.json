@@ -1,0 +1,14 @@
+{
+  "label": "augmented_task_fold0_ddm_sdv_lapse",
+  "seconds": 872.5941739082336,
+  "divergences": 0,
+  "max_rhat": 1.009675940128362,
+  "min_ess": 605.9463458583224,
+  "draws": 1000,
+  "chains": 4,
+  "tune": 1000,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

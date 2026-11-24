@@ -1,0 +1,66 @@
+[
+  {
+    "review_id": "V001",
+    "stem": "Initially U=5, X=U+1, and Y=2*X+U. Override only the X equation with X=3, keep U fixed, and compute the resulting Y.",
+    "options": {
+      "A": "8",
+      "B": "11"
+    }
+  },
+  {
+    "review_id": "V002",
+    "stem": "A scanner flags 24 of the 30 infected devices in a batch of 90. It also flags 12 uninfected devices. If one flagged device is chosen uniformly at random, what is the probability it is infected?",
+    "options": {
+      "A": "4/5",
+      "B": "2/3"
+    }
+  },
+  {
+    "review_id": "V003",
+    "stem": "The day before yesterday was the day after Thursday. What weekday will tomorrow be?",
+    "options": {
+      "A": "Monday",
+      "B": "Tuesday"
+    }
+  },
+  {
+    "review_id": "V004",
+    "stem": "Asha has four times as many tokens as Ivo and has 18 more tokens than Ivo. How many tokens does Ivo have?",
+    "options": {
+      "A": "6",
+      "B": "9/2"
+    }
+  },
+  {
+    "review_id": "V005",
+    "stem": "Every copper disk is round. No round disk is heavy. At least one copper disk exists. Which statement must be true, using only these premises?",
+    "options": {
+      "A": "Some copper disk is not heavy.",
+      "B": "Some heavy disk is not copper."
+    }
+  },
+  {
+    "review_id": "V006",
+    "stem": "A price starts at 120 credits, falls by 25%, and then rises by 20% of its reduced value. What is the final price?",
+    "options": {
+      "A": "114 credits",
+      "B": "108 credits"
+    }
+  },
+  {
+    "review_id": "V007",
+    "stem": "An adult ticket and a child ticket cost 23 credits in total. The adult ticket costs 17 credits more than the child ticket. How much does the child ticket cost?",
+    "options": {
+      "A": "3 credits",
+      "B": "6 credits"
+    }
+  },
+  {
+    "review_id": "V008",
+    "stem": "On a nonstop 30 km ride, the first 15 km are covered at 5 km/h and the remaining 15 km at 10 km/h. What is total distance divided by total time?",
+    "options": {
+      "A": "15/2 km/h",
+      "B": "20/3 km/h"
+    }
+  }
+]

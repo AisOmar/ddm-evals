@@ -1,0 +1,16 @@
+{
+  "question_packet_version": 2,
+  "independent_ai_review_complete": true,
+  "n_unique_answer_items": 20,
+  "n_answer_agreements": 20,
+  "n_new_repairs": 0,
+  "n_conservative_local_families": 16,
+  "n_selected_feasibility_questions": 16,
+  "n_feasibility_draft_prompts": 192,
+  "human_expert_validation": false,
+  "collection_ready": false,
+  "model_calls_launched": 0,
+  "next_step": "Finalize live models, full budget and execution/scoring plan for a separate small feasibility run.",
+  "larger_study_sample_size_decided": false,
+  "interpretation": "Question-review gate passed. Difficulty/independence/safety validity is not established."
+}

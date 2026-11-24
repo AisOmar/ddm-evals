@@ -1,0 +1,28 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nOn a nonstop 36 km ride, the first 18 km are covered at 9 km/h and the remaining 18 km at 6 km/h. What is total distance divided by total time?\n\nA. 7.2 km/h\nB. 7.5 km/h"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 2048,
+  "provider": {
+    "order": [
+      "tenstorrent/fp8"
+    ],
+    "only": [
+      "tenstorrent/fp8"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "fp8"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.14,
+      "completion": 0.4
+    }
+  }
+}

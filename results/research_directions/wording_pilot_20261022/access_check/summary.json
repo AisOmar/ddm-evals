@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-22T21:30:36.303530+00:00",
+  "read_only": true,
+  "model_calls_launched": 0,
+  "matching_routes": {
+    "gpt-oss": {
+      "active": true,
+      "provider": "DekaLLM",
+      "quantization": "bf16",
+      "name": "DekaLLM | openai/gpt-oss-120b",
+      "pricing": {
+        "prompt": "0.00000003",
+        "completion": "0.00000018",
+        "input_cache_read": "0.00000003",
+        "discount": 0
+      }
+    },
+    "Qwen3": {
+      "active": true,
+      "provider": "Tenstorrent",
+      "quantization": "fp8",
+      "name": "Tenstorrent | qwen/qwen3-32b-04-28",
+      "pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.0000004",
+        "input_cache_read": "0.00000009",
+        "discount": 0
+      }
+    }
+  },
+  "credit_covers_one_dollar": true,
+  "key_covers_one_dollar": true
+}

@@ -1,0 +1,17 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIn an Android pentest, what specific adb command captures a screenshot from the device?\n\nA) adb shell screencap /sdcard/screenshot.png\nB) adb exec-out screencap -p > screenshot.png"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

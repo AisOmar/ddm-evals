@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-10-26T17:49:02.230957+00:00",
+  "sample_id": "F002__Qwen3__ordinary__none__r1",
+  "stream_complete": true,
+  "visible_characters": 0,
+  "reasoning_characters": 6228,
+  "finish_reason": "stop",
+  "factual_correctness": null,
+  "reasoning_not_used_as_answer": true
+}

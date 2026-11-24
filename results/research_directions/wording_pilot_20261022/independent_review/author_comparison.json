@@ -1,0 +1,14 @@
+{
+  "review_type": "fresh-context independent AI, not human expert validation",
+  "items_compared": 32,
+  "answer_agreements": 32,
+  "matched_sets_equivalent": 8,
+  "must_fix_blockers": 0,
+  "known_limitations": [
+    "Weak/overlapping wording manipulations in several sets",
+    "Detect/flag terminology has an ordinary-language interpretation",
+    "Expected questions mostly easy; no validated trap difficulty"
+  ],
+  "model_outcomes_used": false,
+  "review_locks_preserved": true
+}

@@ -1,0 +1,14 @@
+{
+  "label": "power_mixture_q100_s3_fold0_baseline",
+  "seconds": 12.805275201797485,
+  "divergences": 0,
+  "max_rhat": 1.024276490601098,
+  "min_ess": 303.1335637619468,
+  "draws": 400,
+  "chains": 2,
+  "tune": 500,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

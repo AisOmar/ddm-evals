@@ -1,0 +1,340 @@
+{
+  "reviewer": "independent_wording_review: fresh-context AI reviewer (Codex); not a human reviewer",
+  "date": "2026-10-22",
+  "stage": "Matched-set equivalence review after initial judgment lock",
+  "context_limitations": "Read masked_items.json and review_template.json before initial lock; then only matched_sets.json plus own saved judgments. No author keys, author packet, generators, proposal, or model outputs read. Independent AI review, not human review.",
+  "initial_lock_sha256": "2f074345f065d183dbaa0e3cbf16b2fb7939e473693143b8f5dc9ab1a66c421d",
+  "sets": [
+    {
+      "problem_id": "W01",
+      "versions": [
+        {
+          "review_id": "M004",
+          "version": "plain"
+        },
+        {
+          "review_id": "M018",
+          "version": "neutral"
+        },
+        {
+          "review_id": "M022",
+          "version": "trap"
+        }
+      ],
+      "equivalent": true,
+      "must_fix": false,
+      "same_supported_answer": true,
+      "same_underlying_facts": true,
+      "same_target": true,
+      "changed_information": false,
+      "assumptions": "Ordinary exact ticket prices; the first version presupposes that the two tickets are the adult and child subsequently named.",
+      "supported_answer": "Child price, 1 credit (B).",
+      "underlying_facts": "One adult and one child ticket total 11 credits, with the adult costing 9 more.",
+      "comments": [
+        "Equivalent under ordinary reference resolution.",
+        "Weak manipulation: plain M004 and trap M022 use almost the same sum-and-difference formulation. Trap wording does not clearly add a new source of linguistic misdirection. Neutral M018 uses combined price and price difference but preserves the algebra."
+      ],
+      "differences": [
+        "M004 says two tickets before identifying their types; M018 and M022 identify one of each explicitly.",
+        "Neutral nominalizes the difference; plain and trap state the comparative directly."
+      ],
+      "flags": [
+        "weak_plain_trap_separation"
+      ],
+      "semantic_equivalence_scope": "Relevant mathematical information under ordinary mathematical English; contextual wrappers and procedural cues may differ."
+    },
+    {
+      "problem_id": "W02",
+      "versions": [
+        {
+          "review_id": "M005",
+          "version": "neutral"
+        },
+        {
+          "review_id": "M011",
+          "version": "trap"
+        },
+        {
+          "review_id": "M031",
+          "version": "plain"
+        }
+      ],
+      "equivalent": true,
+      "must_fix": false,
+      "same_supported_answer": true,
+      "same_underlying_facts": true,
+      "same_target": true,
+      "changed_information": false,
+      "assumptions": "Average speed means total distance divided by elapsed time. Outbound and return use equal route lengths.",
+      "supported_answer": "Overall distance/time, 4 km/h (A).",
+      "underlying_facts": "Two 12 km legs at 6 and 3 km/h with no stops.",
+      "comments": [
+        "The return-trip wrapper changes geography but no relevant numerical information.",
+        "Neutral explicitly supplies the definition of average speed; this is a procedural cue, not a changed target or new quantitative fact. Plain and trap both permit the familiar arithmetic-mean error."
+      ],
+      "differences": [
+        "M011 uses an out-and-back trip on the same route; M005 and M031 use sequential legs.",
+        "M005 asks directly for total distance divided by total time; the others say average speed."
+      ],
+      "flags": [
+        "procedural_cue_in_neutral",
+        "overlapping_distractor_exposure"
+      ],
+      "semantic_equivalence_scope": "Relevant mathematical information under ordinary mathematical English; contextual wrappers and procedural cues may differ."
+    },
+    {
+      "problem_id": "W03",
+      "versions": [
+        {
+          "review_id": "M010",
+          "version": "neutral"
+        },
+        {
+          "review_id": "M026",
+          "version": "plain"
+        },
+        {
+          "review_id": "M028",
+          "version": "trap"
+        }
+      ],
+      "equivalent": true,
+      "must_fix": false,
+      "same_supported_answer": true,
+      "same_underlying_facts": true,
+      "same_target": true,
+      "changed_information": false,
+      "assumptions": "Detected infected devices are members of the flagged group; uniform sampling within that group.",
+      "supported_answer": "Infection probability among uniformly sampled flagged devices, 9/17 (A).",
+      "underlying_facts": "100 total devices, 20 infected, 18 infected flags and 16 uninfected flags.",
+      "comments": [
+        "Equivalent under the ordinary scanner convention that a detection is a flag.",
+        "Literal precision qualification: M028 switches from detects to flags without explicitly identifying them. With an artificial distinction between detected and flagged sets the flagged infected count would be missing; M010 and M026 do not require this lexical bridge.",
+        "The trap exposes 18/20 as a salient sensitivity fraction. Plain also gives the same numbers; the difference is their framing."
+      ],
+      "differences": [
+        "M010 presents the flagged composition directly.",
+        "M026 reports scanner flags directly.",
+        "M028 phrases infected detections as 18 of 20 before mentioning false-positive flags."
+      ],
+      "flags": [
+        "minor_detect_flag_lexical_bridge",
+        "overlapping_distractor_exposure"
+      ],
+      "semantic_equivalence_scope": "Relevant mathematical information under ordinary mathematical English; contextual wrappers and procedural cues may differ."
+    },
+    {
+      "problem_id": "W04",
+      "versions": [
+        {
+          "review_id": "M015",
+          "version": "neutral"
+        },
+        {
+          "review_id": "M027",
+          "version": "plain"
+        },
+        {
+          "review_id": "M029",
+          "version": "trap"
+        }
+      ],
+      "equivalent": true,
+      "must_fix": false,
+      "same_supported_answer": true,
+      "same_underlying_facts": true,
+      "same_target": true,
+      "changed_information": false,
+      "assumptions": "Required is a logical necessary condition, not a policy permitting violations. Unsealed and not sealed are equivalent in this context.",
+      "supported_answer": "Whether this parcel cannot be sealed; Yes (B).",
+      "underlying_facts": "Sealed implies labeled; the designated parcel is not labeled.",
+      "comments": [
+        "All three encode the same implication and its contrapositive.",
+        "M029 adds genuine polarity-tracking load through no ... lacks and impossible; it does not add a premise.",
+        "M015 uses required, which can sound normative outside an abstract logic task. This is a minor wording precision concern under ordinary mathematical reading."
+      ],
+      "differences": [
+        "M015 states a necessary condition.",
+        "M027 states a direct universal implication and explicitly restricts reasoning to premises.",
+        "M029 uses a negated existential and asks about impossibility."
+      ],
+      "flags": [
+        "minor_normative_reading_in_neutral",
+        "polarity_complexity_change"
+      ],
+      "semantic_equivalence_scope": "Relevant mathematical information under ordinary mathematical English; contextual wrappers and procedural cues may differ."
+    },
+    {
+      "problem_id": "W05",
+      "versions": [
+        {
+          "review_id": "M002",
+          "version": "neutral"
+        },
+        {
+          "review_id": "M003",
+          "version": "trap"
+        },
+        {
+          "review_id": "M021",
+          "version": "plain"
+        }
+      ],
+      "equivalent": true,
+      "must_fix": false,
+      "same_supported_answer": true,
+      "same_underlying_facts": true,
+      "same_target": true,
+      "changed_information": false,
+      "assumptions": "Ordinary seven-day weekday arithmetic with exact relative-day offsets.",
+      "supported_answer": "Tomorrow is Friday (A).",
+      "underlying_facts": "Today is Thursday in every version.",
+      "comments": [
+        "The apparent anchor changes are arithmetically equivalent: Monday three days ago and Tuesday two days ago both fix Thursday today.",
+        "Trap wording adds a nested day-after reference and day-before-yesterday offset. Plain and neutral are nearly identical, so their distinction is weak."
+      ],
+      "differences": [
+        "M002 and M021 anchor Monday three days before today.",
+        "M003 identifies Tuesday indirectly as the day after Monday and places it two days before today."
+      ],
+      "flags": [
+        "weak_plain_neutral_separation",
+        "additional_reference_resolution_step"
+      ],
+      "semantic_equivalence_scope": "Relevant mathematical information under ordinary mathematical English; contextual wrappers and procedural cues may differ."
+    },
+    {
+      "problem_id": "W06",
+      "versions": [
+        {
+          "review_id": "M007",
+          "version": "trap"
+        },
+        {
+          "review_id": "M017",
+          "version": "neutral"
+        },
+        {
+          "review_id": "M032",
+          "version": "plain"
+        }
+      ],
+      "equivalent": true,
+      "must_fix": false,
+      "same_supported_answer": true,
+      "same_underlying_facts": true,
+      "same_target": true,
+      "changed_information": false,
+      "assumptions": "Token counts are nonnegative; thus the unsigned difference in M017 is Lina minus Omar.",
+      "supported_answer": "Omar has 6 tokens (B).",
+      "underlying_facts": "Lina has twice Omar's count and exceeds it by 6 tokens.",
+      "comments": [
+        "No numerical or target change.",
+        "Weak manipulation: all versions directly provide the ratio and difference. M007 compresses them into a relative clause; it is not clearly more misleading than the other versions."
+      ],
+      "differences": [
+        "M032 uses two short sentences.",
+        "M007 uses which puts her 6 tokens ahead.",
+        "M017 uses a nominal unsigned difference, whose direction follows from nonnegative counts."
+      ],
+      "flags": [
+        "weak_trap_separation",
+        "ordinary_domain_assumption"
+      ],
+      "semantic_equivalence_scope": "Relevant mathematical information under ordinary mathematical English; contextual wrappers and procedural cues may differ."
+    },
+    {
+      "problem_id": "W07",
+      "versions": [
+        {
+          "review_id": "M006",
+          "version": "trap"
+        },
+        {
+          "review_id": "M020",
+          "version": "neutral"
+        },
+        {
+          "review_id": "M024",
+          "version": "plain"
+        }
+      ],
+      "equivalent": true,
+      "must_fix": false,
+      "same_supported_answer": true,
+      "same_underlying_facts": true,
+      "same_target": true,
+      "changed_information": false,
+      "assumptions": "The intervention replaces only the X equation and leaves the Y equation in force.",
+      "supported_answer": "Post-intervention Y=11 (B).",
+      "underlying_facts": "U=3, initial X=U+2, retained Y=2X+U; X is externally set to 4 with U fixed.",
+      "comments": [
+        "Every version explicitly communicates the intervention override and fixed U. No changed causal information.",
+        "Weak manipulation: the trap explicitly says instead of following its equation, while neutral says override only the X equation. Both strongly disambiguate the same operation, so condition separation is slight."
+      ],
+      "differences": [
+        "M006 says instead of following its equation.",
+        "M020 says override only the X equation.",
+        "M024 explicitly leaves both U and the Y equation unchanged."
+      ],
+      "flags": [
+        "weak_condition_separation",
+        "overlapping_override_cues"
+      ],
+      "semantic_equivalence_scope": "Relevant mathematical information under ordinary mathematical English; contextual wrappers and procedural cues may differ."
+    },
+    {
+      "problem_id": "W08",
+      "versions": [
+        {
+          "review_id": "M001",
+          "version": "plain"
+        },
+        {
+          "review_id": "M008",
+          "version": "trap"
+        },
+        {
+          "review_id": "M009",
+          "version": "neutral"
+        }
+      ],
+      "equivalent": true,
+      "must_fix": false,
+      "same_supported_answer": true,
+      "same_underlying_facts": true,
+      "same_target": true,
+      "changed_information": false,
+      "assumptions": "Each percentage is applied to its explicitly stated base; exact arithmetic.",
+      "supported_answer": "Final price 96 credits (A).",
+      "underlying_facts": "Start at 100 credits, reduce by 20%, then increase the reduced amount by 20%.",
+      "comments": [
+        "All versions explicitly identify the reduced-price base for the second percentage.",
+        "Weak manipulation: trap M008 adds same percentage, which may prime cancellation, but plain M001 also repeats equal 20% rates. Neutral M009 supplies the equivalent 0.8 multiplier, adding a procedural cue and reducing conversion work."
+      ],
+      "differences": [
+        "M001 states both percentages numerically.",
+        "M008 calls the rise the same percentage and immediately specifies its base.",
+        "M009 replaces the first percentage decrease with multiplication by 0.8."
+      ],
+      "flags": [
+        "weak_plain_trap_separation",
+        "procedural_cue_in_neutral"
+      ],
+      "semantic_equivalence_scope": "Relevant mathematical information under ordinary mathematical English; contextual wrappers and procedural cues may differ."
+    }
+  ],
+  "summary": {
+    "sets": 8,
+    "equivalent_under_ordinary_reading": 8,
+    "must_fix": 0,
+    "blocking_concerns": [],
+    "construct_validity_concern": "Several wording conditions are weakly separated. These items can test performance on the concrete paraphrases but this review does not validate a general neutral/plain/trap construct or guarantee a manipulation effect.",
+    "sets_with_minor_literal_precision_qualifications": [
+      "W01",
+      "W03",
+      "W04",
+      "W06"
+    ]
+  }
+}

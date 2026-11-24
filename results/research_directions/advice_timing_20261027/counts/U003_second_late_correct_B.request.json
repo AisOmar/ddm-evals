@@ -1,0 +1,38 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Find the determinant of the 4 by 4 matrix whose rows are (5, -1, 1, -2), (2, 3, 1, -2), (2, -1, 6, -2), and (2, -1, 1, 6).\n\nA: 656\nB: 540\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"answer\":\"B\"}"
+    },
+    {
+      "role": "user",
+      "content": "Advice source: an answer key.\nA supplied assessment assigns this source's recommendations a 0.95 probability of being correct and a 0.05 probability of being incorrect.\nRecommendation: A\n\nCheck the original question and your initial answer. Choose the answer best supported by the evidence. Return your selected option as the answer field of the required JSON object."
+    }
+  ],
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          }
+        },
+        "required": [
+          "answer"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

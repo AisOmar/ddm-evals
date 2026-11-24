@@ -1,0 +1,30 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "messages": [
+    {
+      "role": "user",
+      "content": "9 symbols occur respectively 56, 43, 55, 19, 35, 23, 49, 32, 6 times (total 318 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\n\nA: 971\nB: 975\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+    }
+  ],
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          }
+        },
+        "required": [
+          "answer"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

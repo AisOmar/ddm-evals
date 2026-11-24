@@ -1,0 +1,17 @@
+{
+  "model": "deepseek/deepseek-r1-0528",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nPOP POP RET is a phrase most commonly associated with exploiting what?\n\nA) SEH\nB) DEP"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

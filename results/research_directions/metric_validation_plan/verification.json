@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-20T16:29:11.428248+00:00",
+  "design_hashes_valid": true,
+  "scoring_script_and_power_inputs_match": true,
+  "n_fresh_candidates": 1447,
+  "n_prior_ids_excluded": 450,
+  "prior_id_overlap": 0,
+  "masked_queue_omits_key_indexes": true,
+  "independent_question_review_complete": false,
+  "exact_request_manifest_frozen": false,
+  "tests_passed": 31,
+  "old_study_frozen_inputs_and_623_response_hashes_valid": true,
+  "completed_pilot_240_response_hashes_valid": true,
+  "active_collection": false,
+  "new_model_calls": 0,
+  "design_spec_sha256": "39a84cbf0b10724ce4e9adffa310ddcf90df2f8f47d2d41dcad203e0d7c023bc"
+}

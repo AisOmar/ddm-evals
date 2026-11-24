@@ -1,0 +1,14 @@
+{
+  "label": "monitor_length_fold4",
+  "seconds": 9.277206897735596,
+  "divergences": 0,
+  "max_rhat": 1.006066699338548,
+  "min_ess": 2345.379680604119,
+  "draws": 1000,
+  "chains": 4,
+  "tune": 1000,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

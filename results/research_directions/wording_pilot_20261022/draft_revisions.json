@@ -1,0 +1,9 @@
+[
+  {
+    "problem_id": "W03",
+    "version": "neutral",
+    "before": "A 100-device batch has 20 infections. The flagged group contains 18 infected and 16 uninfected devices. What fraction of a uniform random sample of one flagged device is the probability of infection?",
+    "after": "A batch contains 100 devices, of which 20 are infected. The flagged group contains 18 infected and 16 uninfected devices. One flagged device is sampled uniformly at random. What is its probability of being infected?",
+    "reason": "Repair the already-disclosed awkward probability wording before first masked review. No model outcomes used."
+  }
+]

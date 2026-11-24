@@ -1,0 +1,8 @@
+{
+  "sample_id": "F005__gpt-oss__ordinary__none__r1",
+  "prepared_at": "2026-10-25T22:02:14.044606+00:00",
+  "manifest_sha256": "2c949e62ce03770df192f4f512a14f1d23454cd7aa54b95eac5a9f8e56aa9c6e",
+  "request_sha256": "40f7108bb2f62d59a19c68328d6f6f73e6e9d68414b252e07d2e7854af14f445",
+  "reserved_cost_usd": "0.00091188",
+  "curl_no_buffer": true
+}

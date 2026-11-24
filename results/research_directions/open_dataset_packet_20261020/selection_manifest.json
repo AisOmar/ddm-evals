@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-10-20T21:19:01.820562+00:00",
+  "seed": "20261020:open-dataset-review-v1",
+  "scope": "20-item cross-domain development packet; not a confirmatory collection manifest",
+  "dataset_counts": {
+    "GSM8K": 10,
+    "BBH": 10
+  },
+  "bbh_tasks": [
+    "boolean_expressions",
+    "date_understanding",
+    "dyck_languages",
+    "logical_deduction_five_objects",
+    "multistep_arithmetic_two",
+    "navigate",
+    "object_counting",
+    "reasoning_about_colored_objects",
+    "tracking_shuffled_objects_five_objects",
+    "word_sorting"
+  ],
+  "selection_rule": "GSM: first ten SHA256 ranks, excluding index 0 exposed during discovery. BBH: minimum SHA256 rank per task. No evaluated-model outcomes used.",
+  "pinned_commits": {
+    "GSM8K": "3101c7d5072418e28b9008a6636bde82a006892c",
+    "BBH": "9ee07bd481feebf959a6b59d61ea57bdcf30964d"
+  },
+  "source_hashes": {
+    "BBH_LICENSE": "4ef2ff4295d26ab6211235039c132697408cec5391d2c091b41e983771978db8",
+    "GSM8K_LICENSE": "86bbb73e855821d7c401912fd4bf82e34313e6e3b6fd6f909f2b6cc9e209a53b",
+    "bbh_commit.json": "dd96f7c8d2b9cd16370348c56ac3e7fe173b5f02707fe247340d3e7cb6cd443d",
+    "boolean_expressions.json": "ea6c754ec005e2d3f2d085d349a740f593b5764f32ea4638ffed4cfc0061b12a",
+    "date_understanding.json": "0148d4ac5fca05b2f82373e5fef7208e15363b9c6079493034d77b3dab496bf5",
+    "dyck_languages.json": "3f9badedf15c2be1ce53d94fdf016299bb30ba231ef087ab9f51a7ed6d0bdc25",
+    "gsm8k_test.jsonl": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+    "gsm_commit.json": "9c624cd9998a349c44f9d70b41c2b0c003ba3b1b5f3b90d5b7b3c4c094f90a5a",
+    "logical_deduction_five_objects.json": "d2df31394b903b7f0e085d42a69572a092987856eac076799017d70ef266fa8f",
+    "multistep_arithmetic_two.json": "c9d5a6433c9b78256422a15c78463949c8bec8d85607aa28b52d7234ad4a8595",
+    "navigate.json": "b7944dfd3c81da5c4815bd75b00d6fa3c64140823498e78ed496f4c3d36f7f0d",
+    "object_counting.json": "8acef14dbbdd40d2326ef7755750b6b5fe919fef06276af1bab3f1c297f022ff",
+    "reasoning_about_colored_objects.json": "0a8850cf95166020fce7a78244026ceedd7ea839302471512b4f8744e85a6a49",
+    "tracking_shuffled_objects_five_objects.json": "2063a46a4fb484236ed4310523606543a3e1dd4a4dc34eda65d407910ece25a5",
+    "word_sorting.json": "2a6132d2c99f00d0d2eb1113ac6b4a918bd969d863c48749210d969713db8d43"
+  },
+  "licenses": {
+    "GSM8K": "MIT; see sources/GSM8K_LICENSE",
+    "BBH": "MIT; see sources/BBH_LICENSE"
+  },
+  "bbh_canary": "Preserved in original source files; data intended for evaluation, not model training.",
+  "masked_questions_sha256": "5e7c036070a209b72582e3c985a347296811c2d104a617f6b5a2f0f907a3767f",
+  "official_keys_sidecar_sha256": "76c3d102c317ee3b2ee99f35bf0ea79eb43e17fde00d9e4d5095091d66dae82c",
+  "script_sha256": "18b2c5e9488768ea065f9f71b4efe576820c79fb115581ce1c8a3697c0a248bc",
+  "collection_ready": false,
+  "independent_review_complete": false,
+  "model_calls_launched": 0,
+  "limitations": [
+    "Public datasets may have appeared in model training.",
+    "Dataset source keys are proposals pending review.",
+    "This development set does not inherit the frozen cybersecurity design or power assumptions.",
+    "No human or separate fresh-context AI reviewer has reviewed this packet."
+  ]
+}

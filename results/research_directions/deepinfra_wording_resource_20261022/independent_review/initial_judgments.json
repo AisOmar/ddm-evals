@@ -1,0 +1,87 @@
+{
+  "reviewer": "Fresh-context independent AI reviewer (Codex subagent)",
+  "date": "2026-10-22",
+  "prior_exposure": "This review used only review/masked_items.json and review/review_template.json before recording these judgments. No author keys, packet, generator/source scripts, protocol, prior outcomes, or other reports were accessed. Familiarity with general arithmetic and logic problem forms is possible; this is fresh-context AI review, not human validation.",
+  "items": [
+    {
+      "review_id": "V001",
+      "chosen_letter": "B",
+      "derived_answer": "11",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "With U held at 5 and the X equation replaced by X=3, the retained Y equation gives Y=2*3+5=11.",
+      "alternative_assessment": "A (8) does not follow from Y=2*X+U with the stated fixed U and replacement X.",
+      "wording_concerns": "The explicit equation replacement and fixed U provide enough information. \u201cInitially\u201d introduces no missing temporal rule because the requested resulting Y is defined by the retained equation. No material ambiguity or option cue identified."
+    },
+    {
+      "review_id": "V002",
+      "chosen_letter": "B",
+      "derived_answer": "2/3",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "There are 24 flagged infected devices and 12 flagged uninfected devices, hence 36 flagged devices. Uniform selection among them gives 24/36=2/3.",
+      "alternative_assessment": "A (4/5) equals 24/30, the fraction of infected devices flagged, rather than the infected fraction of flagged devices.",
+      "wording_concerns": "The sampling pool and uniformity are explicit. Ordinary binary infected/uninfected categories suffice. No missing assumption or material ambiguity identified."
+    },
+    {
+      "review_id": "V003",
+      "chosen_letter": "A",
+      "derived_answer": "Monday",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "The day after Thursday is Friday. If the day before yesterday was Friday, yesterday was Saturday, today is Sunday, and tomorrow is Monday.",
+      "alternative_assessment": "B (Tuesday) would put the day before yesterday on Saturday and contradict the stated Friday.",
+      "wording_concerns": "Uses the ordinary seven-day weekday cycle and a single reference day. Those conventions are sufficient; no material ambiguity identified."
+    },
+    {
+      "review_id": "V004",
+      "chosen_letter": "A",
+      "derived_answer": "6",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Let I be Ivo\u2019s token count. Asha has 4I and also I+18, so 4I=I+18, 3I=18, and I=6.",
+      "alternative_assessment": "B (9/2) gives Asha 18 by the four-times relation but only a 13.5-token difference, contradicting the 18-token difference.",
+      "wording_concerns": "\u201cFour times as many\u201d is a clear ratio, not an additive \u201cfour times more\u201d phrase. A fractional-token distractor may supply an incidental discreteness cue, although its algebraic inconsistency already excludes it. This is a nonblocking cue concern."
+    },
+    {
+      "review_id": "V005",
+      "chosen_letter": "A",
+      "derived_answer": "Some copper disk is not heavy.",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Choose the copper disk guaranteed to exist. Every copper disk is round, and no round disk is heavy, so that witness is a copper disk that is not heavy.",
+      "alternative_assessment": "B (Some heavy disk is not copper.) is possible but not entailed. A model with one copper round nonheavy disk and no heavy disks satisfies all premises while making B false.",
+      "wording_concerns": "The existential premise avoids dependence on existential import of universal statements. \u201cRound disk\u201d applies directly to the copper disk witness. No missing assumption or material ambiguity identified."
+    },
+    {
+      "review_id": "V006",
+      "chosen_letter": "B",
+      "derived_answer": "108 credits",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "After the fall the price is 120*(1-0.25)=90 credits. The rise adds 20% of 90, namely 18, yielding 108 credits.",
+      "alternative_assessment": "A (114 credits) does not result from the specified sequential percentages; it would add 24 credits to the reduced price, using the initial value as the rise base.",
+      "wording_concerns": "The reduced-value percentage base is explicit. No material ambiguity or missing assumption identified."
+    },
+    {
+      "review_id": "V007",
+      "chosen_letter": "A",
+      "derived_answer": "3 credits",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Let C be the child price and A the adult price. A+C=23 and A-C=17. Subtraction yields 2C=6, so C=3 credits and A=20 credits.",
+      "alternative_assessment": "B (6 credits) would imply an adult price of 17 credits from the total, giving an 11-credit difference rather than 17.",
+      "wording_concerns": "Both prices refer to single tickets and share the same currency; no extra assumptions are needed. No material ambiguity identified."
+    },
+    {
+      "review_id": "V008",
+      "chosen_letter": "B",
+      "derived_answer": "20/3 km/h",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "The first segment takes 15/5=3 hours and the second takes 15/10=1.5 hours. Total time is 4.5 hours, so total distance divided by total time is 30/4.5=20/3 km/h.",
+      "alternative_assessment": "A (15/2 km/h) is the arithmetic mean of 5 and 10; these speeds apply over equal distances rather than equal times, so that mean does not give the requested ratio.",
+      "wording_concerns": "\u201cNonstop\u201d and the two segment speeds specify all elapsed riding time. The requested quantity is explicitly distance divided by time. No material ambiguity identified."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "phase": "offline development; blocked from calibration collection",
+  "n_calibration": 24,
+  "n_reserved": 24,
+  "n_provisional_families": 4,
+  "independent_review_complete": false,
+  "live_delivery_validated": false,
+  "exact_request_manifest_frozen": false,
+  "model_calls_launched": 0,
+  "old_study_remains_paused": true,
+  "safety_metric_validated": false,
+  "calibration_draft_calls": 96,
+  "calibration_design": "24 items x 2 models x 2 no-advice repeats",
+  "calibration_requires": [
+    "masked semantic review",
+    "live canary gate",
+    "live bounded budget",
+    "exact request freeze"
+  ],
+  "evaluation_sample_size": null,
+  "reserved_items_are_confirmatory": false
+}

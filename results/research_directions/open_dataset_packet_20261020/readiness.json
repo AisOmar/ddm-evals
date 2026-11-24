@@ -1,0 +1,17 @@
+{
+  "current_version": 2,
+  "current_packet": "v2/reviewer_packet/QUESTIONS.md",
+  "review_preparation_complete": true,
+  "independent_review_complete": false,
+  "n_collection_approved": 0,
+  "collection_ready": false,
+  "next_step": "Separate masked review, with initial judgments locked before answer checks or source keys.",
+  "unresolved_gates": [
+    "Independent review and adjudication",
+    "Final difficulty/content-family assessment",
+    "Any collection decision, exact model/endpoint/budget and scoring/stopping plan"
+  ],
+  "sample_size_decided": false,
+  "n_draft_prompts_per_model": 120,
+  "n_model_calls_launched": 0
+}

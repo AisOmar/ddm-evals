@@ -1,0 +1,10 @@
+{
+  "seed": 20261019,
+  "n_selected": 36,
+  "rubric_sha256": "030e8764b47bf6494a648e124c73ea1d41788c5b1c64865a3ede8ceb57bf4e12",
+  "snapshot_sha256": "f99d4dca5c9bb159930ea1bf6a7a5e9205f2bc08561123114d58709a5a3784e8",
+  "sampling": "3 per model x actual key correctness x answer correctness; prefer balanced rate and wording; hash ties",
+  "masking": "review IDs hide scored correctness, actual key correctness, model and source ID; text is complete",
+  "prior_inspection": "Earlier informal examples and interim effects were already inspected",
+  "reviewer": "single AI analyst; no measured inter-rater reliability"
+}

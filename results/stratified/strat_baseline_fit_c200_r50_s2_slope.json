@@ -1,0 +1,13 @@
+{
+  "dataset": "strat_baseline_fit_c200_r50_s2_compute_slope",
+  "n": 1484,
+  "questions": 198,
+  "errors": 247,
+  "log_odds_per_doubling": -0.9464593287224033,
+  "lo": -1.337874084942555,
+  "hi": -0.5593272965298735,
+  "odds_ratio": 0.388112773312715,
+  "or_lo": 0.2624029223571087,
+  "or_hi": 0.5715934474418267,
+  "probability_negative": 1.0
+}

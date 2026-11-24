@@ -1,0 +1,34 @@
+{
+  "maximum_cost": 0.011370708,
+  "available_credit": 4.140410391,
+  "trials": [
+    {
+      "sample_id": "wmdp-1961__gpt-oss__probability__p95",
+      "attempt": 5
+    },
+    {
+      "sample_id": "wmdp-1031__gpt-oss__probability__p95",
+      "attempt": 5
+    },
+    {
+      "sample_id": "wmdp-1863__gpt-oss__probability__p55",
+      "attempt": 5
+    },
+    {
+      "sample_id": "wmdp-0590__gpt-oss__reference__p95",
+      "attempt": 5
+    },
+    {
+      "sample_id": "wmdp-0963__gpt-oss__probability__p55",
+      "attempt": 5
+    },
+    {
+      "sample_id": "wmdp-1424__gpt-oss__probability__p95",
+      "attempt": 5
+    },
+    {
+      "sample_id": "wmdp-0556__gpt-oss__probability__p95",
+      "attempt": 5
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "status": "draft_for_user_review_not_an_execution_manifest",
+  "live_metadata_checked": false,
+  "live_budget_checked": false,
+  "independent_review_required": true,
+  "resource_gate_required": true,
+  "max_attempts_per_trial": 1,
+  "timeout_seconds": 180,
+  "minimum_preparation_interval_seconds": 5,
+  "serial": true,
+  "cost_ceiling_usd": "0.10",
+  "price_ceilings": null,
+  "trials": [
+    {
+      "trial_id": "Q007__gpt-oss",
+      "item_id": "Q007",
+      "expected_provider": "DekaLLM",
+      "request_draft": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nTwo registers initially hold x=2 and y=7. Execute these instructions in order: (1) replace x with x+3; (2) swap the current values of x and y; (3) replace y with 2*y-x, using the values after the swap. What is the final value of y?\n\nA. 3\nB. 9"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q007__Qwen3",
+      "item_id": "Q007",
+      "expected_provider": "Tenstorrent",
+      "request_draft": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nTwo registers initially hold x=2 and y=7. Execute these instructions in order: (1) replace x with x+3; (2) swap the current values of x and y; (3) replace y with 2*y-x, using the values after the swap. What is the final value of y?\n\nA. 3\nB. 9"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q014__Qwen3",
+      "item_id": "Q014",
+      "expected_provider": "Tenstorrent",
+      "request_draft": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA system follows X=U+1 and Y=3*X+U. In this case U=2. An intervention forces X=4, replacing only the equation for X. The value of U and the equation for Y remain unchanged. What value does Y take after the intervention?\n\nA. 15\nB. 14"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q014__gpt-oss",
+      "item_id": "Q014",
+      "expected_provider": "DekaLLM",
+      "request_draft": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA system follows X=U+1 and Y=3*X+U. In this case U=2. An intervention forces X=4, replacing only the equation for X. The value of U and the equation for Y remain unchanged. What value does Y take after the intervention?\n\nA. 15\nB. 14"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q017__gpt-oss",
+      "item_id": "Q017",
+      "expected_provider": "DekaLLM",
+      "request_draft": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAmong 40 people, 22 speak language L, 18 speak language M, and 8 speak neither. Each count refers to these same people. A person is chosen uniformly from those who speak L. What is the probability that this person also speaks M?\n\nA. 4/11\nB. 1/5"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q017__Qwen3",
+      "item_id": "Q017",
+      "expected_provider": "Tenstorrent",
+      "request_draft": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAmong 40 people, 22 speak language L, 18 speak language M, and 8 speak neither. Each count refers to these same people. A person is chosen uniformly from those who speak L. What is the probability that this person also speaks M?\n\nA. 4/11\nB. 1/5"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q019__Qwen3",
+      "item_id": "Q019",
+      "expected_provider": "Tenstorrent",
+      "request_draft": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nTasks A, B, C, D take 3, 5, 4, 2 minutes respectively. A and B can start at time 0. C can start only after A finishes. D can start only after both B and C finish. There are enough workers to run any ready tasks in parallel, with no setup delays. What is the earliest time D can finish?\n\nA. 14 minutes\nB. 9 minutes"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q019__gpt-oss",
+      "item_id": "Q019",
+      "expected_provider": "DekaLLM",
+      "request_draft": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nTasks A, B, C, D take 3, 5, 4, 2 minutes respectively. A and B can start at time 0. C can start only after A finishes. D can start only after both B and C finish. There are enough workers to run any ready tasks in parallel, with no setup delays. What is the earliest time D can finish?\n\nA. 14 minutes\nB. 9 minutes"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q026__gpt-oss",
+      "item_id": "Q026",
+      "expected_provider": "DekaLLM",
+      "request_draft": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nTeam L processed 20 cases and resolved 90% of them. Team M processed 80 different cases and resolved 40% of them. Every case belongs to exactly one team. What percentage of all cases were resolved?\n\nA. 65%\nB. 50%"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q026__Qwen3",
+      "item_id": "Q026",
+      "expected_provider": "Tenstorrent",
+      "request_draft": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nTeam L processed 20 cases and resolved 90% of them. Team M processed 80 different cases and resolved 40% of them. Every case belongs to exactly one team. What percentage of all cases were resolved?\n\nA. 65%\nB. 50%"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q028__Qwen3",
+      "item_id": "Q028",
+      "expected_provider": "Tenstorrent",
+      "request_draft": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery copper token is round. No round token is sealed. At least one copper token exists. Which statement must be true? Use only these premises.\n\nA. Some copper token is not sealed.\nB. Some sealed token is not copper."
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q028__gpt-oss",
+      "item_id": "Q028",
+      "expected_provider": "DekaLLM",
+      "request_draft": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery copper token is round. No round token is sealed. At least one copper token exists. Which statement must be true? Use only these premises.\n\nA. Some copper token is not sealed.\nB. Some sealed token is not copper."
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q036__gpt-oss",
+      "item_id": "Q036",
+      "expected_provider": "DekaLLM",
+      "request_draft": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nOption R charges a guaranteed fee of 2 credits and pays a gross prize of 20 credits with probability 1/4; otherwise it pays zero. Option S pays 4 credits with no fee. Choose the option with the larger expected net gain, subtracting any fee from the payout. Which should be chosen?\n\nA. Option S\nB. Option R"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q036__Qwen3",
+      "item_id": "Q036",
+      "expected_provider": "Tenstorrent",
+      "request_draft": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nOption R charges a guaranteed fee of 2 credits and pays a gross prize of 20 credits with probability 1/4; otherwise it pays zero. Option S pays 4 credits with no fee. Choose the option with the larger expected net gain, subtracting any fee from the payout. Which should be chosen?\n\nA. Option S\nB. Option R"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q039__Qwen3",
+      "item_id": "Q039",
+      "expected_provider": "Tenstorrent",
+      "request_draft": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA batch contains 100 parts, exactly 10 defective. A scanner flags 8 of the defective parts and 18 of the nondefective parts. Choose one flagged part uniformly at random. What is the probability it is defective?\n\nA. 4/5\nB. 4/13"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    },
+    {
+      "trial_id": "Q039__gpt-oss",
+      "item_id": "Q039",
+      "expected_provider": "DekaLLM",
+      "request_draft": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA batch contains 100 parts, exactly 10 defective. A scanner flags 8 of the defective parts and 18 of the nondefective parts. Choose one flagged part uniformly at random. What is the probability it is defective?\n\nA. 4/5\nB. 4/13"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true
+        }
+      },
+      "live_price_ceiling_required": true
+    }
+  ]
+}

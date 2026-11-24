@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-10-24T22:56:40.172180+00:00",
+  "authorization": "User: launch; staged development under a $1 ceiling",
+  "model": "anthropic/claude-sonnet-4.5",
+  "expected_provider": "Anthropic",
+  "n_review_items": 30,
+  "maximum_cost_usd": "0.416796",
+  "prior_recorded_review_cost_usd": ".108692",
+  "review_cost_ceiling_usd": ".60",
+  "max_attempts": 1,
+  "input_hashes": {
+    "results/research_directions/selective_reliance_focus_20261024/launch_20261024/review_v3/request.json": "3adf0cc02a010afa2ca49b5b1c4f7c7b1f55266956c781a8b0663034733907f3",
+    "results/research_directions/selective_reliance_focus_20261024/launch_20261024/review_v3/endpoints.json": "466c68a519d28b8daaab6b631889d8a56ea46f6912245fc3bf7254b02a2f98d3",
+    "results/research_directions/selective_reliance_focus_20261024/review/masked_questions.json": "2ae77d7cb135891a4d4682d61068d0ba0432df8d533cfc30f521f5a79d42ec8a",
+    "docs/SELECTIVE_RELIANCE_REVIEW_MODEL_AMENDMENT.md": "75745a4aa8f7d5dfe41beb8e283a893232c08cede0f31932094f3896640a7de5"
+  }
+}

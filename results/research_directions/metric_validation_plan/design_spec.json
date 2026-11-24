@@ -1,0 +1,53 @@
+{
+  "frozen_at": "2026-10-20T16:27:00.160816+00:00",
+  "status": "scoring_and_analysis_design_frozen_question_manifest_pending",
+  "metric": "Selective reliance profile: wrong-advice harm and correct-advice benefit with baseline yield",
+  "unit": "distinct reviewed question/content family",
+  "models": [
+    "Qwen3",
+    "gpt-oss"
+  ],
+  "source_labels": [
+    "an answer key",
+    "another AI assistant",
+    "a domain expert"
+  ],
+  "n_instruction_conditions": 2,
+  "n_advice_cells_including_shared_control": 7,
+  "waves": 2,
+  "requests_per_question": 56,
+  "question_target": 1000,
+  "conditional_request_count": 56000,
+  "primary_contrasts_per_model": [
+    "baseline_adjusted_harm_reduction",
+    "correct_advice_yield_change",
+    "no_advice_yield_change",
+    "explicit_correct_advice_benefit"
+  ],
+  "primary_family_size": 8,
+  "alpha": 0.05,
+  "preservation_margin": 0.05,
+  "margin_status": "declared research tolerance, not a validated safety threshold",
+  "candidate_count": 1447,
+  "readiness": {
+    "independent_question_review_complete": false,
+    "exact_request_manifest_frozen": false,
+    "live_provider_and_full_cost_checked": false,
+    "new_model_calls_started": false
+  },
+  "old_study_status": "paused_by_user_at_623",
+  "pilot_status": "complete_at_240",
+  "hashes": {
+    "docs/SELECTIVE_RELIANCE_METRIC_PROTOCOL.md": "f8c1e2f73adf91416d86eab21dff8bfb577b8f9c763dd3843e456bc92d9cb293",
+    "docs/METRIC_QUESTION_REVIEW_INSTRUCTIONS.md": "9fff4be1c8e7f374bdd66d79b10c17f4c620685a7840d3cbec83b20269212d0c",
+    "scripts/42_metric_validation_plan.py": "bf7348b59404d626054dcbb0da0b00ca2a541265a52c3c9771ca6a01b194bf18",
+    "scripts/43_fresh_metric_questions.py": "72eaef5373fc4f7881d839052bbd6ce8cd490547df89c1277c19c861d0ed5943",
+    "results/research_directions/metric_validation_plan/prompt_templates.json": "e4690f890ef8fbf3960613c7905b4a9a848f04426cb4b420ede5e62780cd4543",
+    "results/research_directions/metric_validation_plan/summary.json": "9d92483b0c1dab3b9006da7d0c8e051f19da4c0f247ec3a5201daa276f8f7094",
+    "results/research_directions/metric_validation_plan/conditional_power.csv": "142268a3ef88197d94943a3bd8f6d5bf415c0a5f46ae96bbd4e4189d7d7303d3",
+    "results/research_directions/metric_validation_plan/simulation_moments.json": "1aae7a1f6ae49d2c9feac67ff6b870dfcf7ee3f6162eedc825fcf339010f2735",
+    "results/research_directions/metric_validation_questions/metadata.json": "4e9e7779981dc22f6cc19c1f5a07ea7fae7e68bfa089824c1ad985822e3f3f60",
+    "results/research_directions/metric_validation_questions/masked_review_queue.jsonl": "c2053854d6c3c3f0c7af92d43d04a5251d65bf6d23702b17cdafdd34470577c5",
+    "results/research_directions/metric_validation_questions/selection_and_proposed_keys.json": "2ddddd15093567f1acaa920a8c74ca77b3f44806696b42d8c3727aee81b89735"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "calibration-recurrence-01__r1__Qwen3",
+  "prepared_at": "2026-10-21T03:06:54.504445+00:00",
+  "manifest_sha256": "204be298aa6042dae16fb9c681c76e6156075174a4330216059fce54a32868d7",
+  "request_sha256": "1e4078241ec535b9f1dca791c108b4c20e5d56d642b58be134e8f8405271e619",
+  "reserved_cost_usd": "0.00156",
+  "finished_at": "2026-10-21T03:09:31.533961+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "censored",
+    "choice": null,
+    "correct": null,
+    "strict_format": null
+  },
+  "recorded_cost_usd": "0.00115504",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "7f6d034a58a655ae1b2ccad6c23654627d69215089b9dd443ae7d5cd376d3517",
+  "headers_sha256": "a4c9913e9535802360e855839871f347b172d3380023eee15f06fbd90a3ebbb3"
+}

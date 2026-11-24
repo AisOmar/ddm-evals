@@ -1,0 +1,14 @@
+{
+  "arithmetic_checks.json": "9f186bf6415e5dca01ef843c651b69a578ed0210fb6147fcd605b529927eeab8",
+  "initial_item_review.csv": "c3345272c5c865d62434e550323d7f3bd68d263520ed501d260020a7b12afc22",
+  "initial_item_review.json": "c2b6efeb7777bd2a62b6445d5f00f3843124b7343c3e512d9e88e189ca9fbd5d",
+  "initial_review_lock.json": "b3f64666140cd19399bd00ab22b58a9a2ee48938e50eb4aab7d36243769844fd",
+  "masked_repairs_v1.jsonl": "ea58e699be715c19050d40083af97dd100c59045095c0e60b0cbddabb205fcd7",
+  "proposed_repairs_v1.json": "dc8b1b3c3bb791f2eb4562636f9383b1bf5b2800848728012b4cbbea298c8755",
+  "protected_inputs_before.json": "5d9f09c7ea0980742b06e0e391e8fa5d4abca159c7ff50e6dccea8eb37a39693",
+  "readiness.json": "4c76acd7372176320daf176391d339d131c5e75681033e6c9abf2e0289403f7a",
+  "review_ledger.jsonl": "74d8d41c20653ff74c52e0feffd33db99c787554399085a704249212777799f5",
+  "screen_summary.json": "d0bb258993b4277d4a5ff10a68b75965eb117ae455f906748c3792126a1aa103",
+  "structural_screen.jsonl": "90132d38a5529157b2e718153790b436e73e4178bffdb3b2589cbb6a2a21f801",
+  "verification.json": "e2f94cc3c0354d17e53766f4cf57182ae8af459cccd7e0c95d211bf2217920b9"
+}

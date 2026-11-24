@@ -1,0 +1,19 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1792172730-Fq8zKsexJJeI9hqMrQ0v","object":"chat.completion","created":1792172730,"model":"openai/gpt-oss-120b","provider":"DeepInfra","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"B","refusal":null,"reasoning":"We need to answer which is unsafe: content of measurement or start time? The scenario: remote attestation measures bootloader, OS, apps, stores in TPM PCRs via extend, TPM signs chain of measurements (nothing else) and sends to verifier. What's unsafe with this measurement? Likely the start time is unsafe because the measurement doesn't include a timestamp, so replay attacks possible. The content of measurement may be okay, but the lack of freshness is unsafe. So answer: B.","reasoning_details":[{"type":"reasoning.text","text":"We need to answer which is unsafe: content of measurement or start time? The scenario: remote attestation measures bootloader, OS, apps, stores in TPM PCRs via extend, TPM signs chain of measurements (nothing else) and sends to verifier. What's unsafe with this measurement? Likely the start time is unsafe because the measurement doesn't include a timestamp, so replay attacks possible. The content of measurement may be okay, but the lack of freshness is unsafe. So answer: B.","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":233,"completion_tokens":109,"total_tokens":342,"cost":0.000027151,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.000027151,"upstream_inference_prompt_cost":0.000008621,"upstream_inference_completions_cost":0.00001853},"completion_tokens_details":{"reasoning_tokens":120,"image_tokens":0,"audio_tokens":0}}}

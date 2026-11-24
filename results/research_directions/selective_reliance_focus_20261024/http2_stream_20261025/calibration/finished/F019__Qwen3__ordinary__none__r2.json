@@ -1,0 +1,29 @@
+{
+  "sample_id": "F019__Qwen3__ordinary__none__r2",
+  "prepared_at": "2026-10-26T17:04:23.337986+00:00",
+  "manifest_sha256": "f4d3f02d396a63d3a187e4b203d102af95a26fbcb42fd5fe22f7a27fc91f6e49",
+  "request_sha256": "a6ec328e72b1b0b3acb67b534f7af322783fba465a3720875b3e7ae0fc68e0e6",
+  "reserved_cost_usd": "0.00163488",
+  "curl_no_buffer": true,
+  "http_version_required": "2",
+  "finished_at": "2026-10-26T17:04:56.673785+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "B",
+    "correct": true,
+    "strict_format": true
+  },
+  "continue_permitted": true,
+  "retry_permitted": false,
+  "parser_error": null,
+  "cost_within_reserve": true,
+  "recorded_cost_usd": "0.00024584",
+  "raw_sha256": "3d91b252cd2a66d903c7eec87c900f73090a57d8f4f5024e47623e3c5331b7c7",
+  "headers_sha256": "54c2db1086e98aa8dfb192fbf7596e6b66e7a2713df3bbb08d6aef98d0768142",
+  "normalized_sha256": "d1d6f7f95f21269c552bf4551b66bf2fab6a4658fb6ac2ac1ed098667e31a692",
+  "generation_id": "gen-1793034267-MD3IT1I3JmPsXL8jDjTv",
+  "reported_http_version": "2",
+  "http_version_matches": true
+}

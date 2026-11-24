@@ -1,0 +1,28 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFour switches J, K, L, M are each on or off. Exactly two are on. If J is on, K is on. If K is on, L is off. M is on if and only if exactly one of J and L is on. Which statement must be true in every configuration satisfying these rules?\n\nA. J and K are both on.\nB. L and M are both on."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 4096,
+  "provider": {
+    "order": [
+      "deepinfra/fp8"
+    ],
+    "only": [
+      "deepinfra/fp8"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "fp8"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.08,
+      "completion": 0.28
+    }
+  }
+}

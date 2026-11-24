@@ -1,0 +1,28 @@
+{
+  "attempt_id": "008__F027__Qwen3__ordinary__none__r1__a1",
+  "sample_id": "F027__Qwen3__ordinary__none__r1",
+  "attempt_number": 1,
+  "prepared_at": "2026-10-26T17:27:24.820038+00:00",
+  "request_sha256": "e21f300a06eac4f748f2fed92a47fe0454748464b4c8b0a54bd2a19afca08a21",
+  "reserved_cost_usd": "0.00161248",
+  "finished_at": "2026-10-26T17:34:40.391416+00:00",
+  "curl_exit": 28,
+  "http_status": 200,
+  "outcome": {
+    "status": "uncertain_delivery",
+    "choice": null,
+    "correct": null,
+    "strict_format": null
+  },
+  "confirmed_429": false,
+  "retry_eligible": false,
+  "slot_finalized": false,
+  "fatal_stop": true,
+  "cooldown_seconds": 0,
+  "recorded_cost_usd": null,
+  "cost_within_reserve": false,
+  "raw_sha256": "3c9753199d57a800c3153becb30f040e3446a164d123e2abc5dd6c7049c34b51",
+  "headers_sha256": "e3a8bc98e0bedde2261b4b1eb9e5493f3069c75bcc699dd4f70e42f4b2c310a8",
+  "normalized_sha256": null,
+  "parser_error": null
+}

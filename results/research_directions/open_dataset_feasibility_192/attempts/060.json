@@ -1,0 +1,19 @@
+{
+  "prepared_at": "2026-10-21T00:14:15.656283+00:00",
+  "execution_decision_acknowledged": true,
+  "trials": [
+    "Qwen3__G07__explicit__correct",
+    "Qwen3__G07__ordinary__incorrect",
+    "gpt-oss__G07__ordinary__none",
+    "gpt-oss__G07__ordinary__correct",
+    "gpt-oss__G07__ordinary__incorrect",
+    "Qwen3__G07__explicit__none",
+    "Qwen3__G07__ordinary__none",
+    "gpt-oss__G07__explicit__incorrect",
+    "gpt-oss__G07__explicit__correct",
+    "gpt-oss__G07__explicit__none",
+    "Qwen3__G07__explicit__incorrect",
+    "Qwen3__G07__ordinary__correct"
+  ],
+  "reserved_usd": "0.094252680"
+}

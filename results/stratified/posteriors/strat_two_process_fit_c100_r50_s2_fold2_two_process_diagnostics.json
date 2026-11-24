@@ -1,0 +1,14 @@
+{
+  "label": "strat_two_process_fit_c100_r50_s2_fold2_two_process",
+  "seconds": 232.1245858669281,
+  "divergences": 0,
+  "max_rhat": 1.0119842696063803,
+  "min_ess": 527.5254528819745,
+  "draws": 1500,
+  "chains": 4,
+  "tune": 1000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

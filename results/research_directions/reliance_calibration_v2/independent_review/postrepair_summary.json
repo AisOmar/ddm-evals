@@ -1,0 +1,137 @@
+{
+  "review_type": "Follow-up by the same fresh-context AI reviewer, not human expert review or independent model training. Only revised masked inputs, original masked inputs, and this reviewer's own previously locked artifacts were read. No author keys, packets, or position_plan opened.",
+  "status": "PASS: position-only revision preserves all 48 independent numerical solutions and resolves the specific universal suffix-parity cue.",
+  "items_checked": 48,
+  "unique_matching_answers": 48,
+  "unchanged_stems": 48,
+  "unchanged_option_value_multisets": 48,
+  "new_mathematics_required": false,
+  "checks": {
+    "all_blocks_non_alternating": true,
+    "each_split_family_3A_3B": true,
+    "each_suffix_within_split_2A_2B_across_families": true,
+    "all_eight_block_sequences_distinct": true,
+    "previous_locks_verified": true
+  },
+  "block_sequences": {
+    "calibration-recurrence": "AABBAB",
+    "calibration-subset_count": "BABAAB",
+    "calibration-shortest_path": "ABABBA",
+    "calibration-urn_posterior": "BBAABA",
+    "reserved-recurrence": "BABBAA",
+    "reserved-subset_count": "ABAABB",
+    "reserved-shortest_path": "ABBABA",
+    "reserved-urn_posterior": "BAABAB"
+  },
+  "family_balance": {
+    "calibration-recurrence": {
+      "A": 3,
+      "B": 3
+    },
+    "calibration-subset_count": {
+      "B": 3,
+      "A": 3
+    },
+    "calibration-shortest_path": {
+      "A": 3,
+      "B": 3
+    },
+    "calibration-urn_posterior": {
+      "B": 3,
+      "A": 3
+    },
+    "reserved-recurrence": {
+      "B": 3,
+      "A": 3
+    },
+    "reserved-subset_count": {
+      "A": 3,
+      "B": 3
+    },
+    "reserved-shortest_path": {
+      "A": 3,
+      "B": 3
+    },
+    "reserved-urn_posterior": {
+      "B": 3,
+      "A": 3
+    }
+  },
+  "suffix_balance": {
+    "calibration-01": {
+      "A": 2,
+      "B": 2
+    },
+    "calibration-02": {
+      "A": 2,
+      "B": 2
+    },
+    "calibration-03": {
+      "B": 2,
+      "A": 2
+    },
+    "calibration-04": {
+      "B": 2,
+      "A": 2
+    },
+    "calibration-05": {
+      "A": 2,
+      "B": 2
+    },
+    "calibration-06": {
+      "B": 2,
+      "A": 2
+    },
+    "reserved-01": {
+      "B": 2,
+      "A": 2
+    },
+    "reserved-02": {
+      "A": 2,
+      "B": 2
+    },
+    "reserved-03": {
+      "B": 2,
+      "A": 2
+    },
+    "reserved-04": {
+      "B": 2,
+      "A": 2
+    },
+    "reserved-05": {
+      "A": 2,
+      "B": 2
+    },
+    "reserved-06": {
+      "A": 2,
+      "B": 2
+    }
+  },
+  "split_balance": {
+    "calibration": {
+      "A": 12,
+      "B": 12
+    },
+    "reserved": {
+      "B": 12,
+      "A": 12
+    }
+  },
+  "position_letter_changes": 24,
+  "substantive_dispositions": {
+    "repair": 36,
+    "retain": 12
+  },
+  "specific_position_dispositions": {
+    "retain": 48
+  },
+  "remaining_concerns": [
+    "All 48 tasks remain mostly computation, with near-neighbour numerical alternatives testing exact arithmetic.",
+    "Recurrence and subset items remain burdensome without tools; urn items need exact rational arithmetic; shortest-path items are comparatively accessible.",
+    "Four repeated templates still create within-family overlap and potential procedural transfer from calibration to reserved items.",
+    "The two shortest-path items with optimal direct source-target edges remain calibration-shortest_path-06 and reserved-shortest_path-01.",
+    "Difficulty expectations are qualitative and require empirical piloting.",
+    "Passing these specified balance and pattern checks does not establish absence of every possible answer cue. Fixed per-family balance can constrain remaining letters if prior answers are known."
+  ],
+  "interpretation": "The former option-position blocker is resolved. This position-only repair does not address or invalidate the earlier computation, difficulty, distractor, or family-overlap concerns. No question-text changes are needed for arithmetic validity."
+}

@@ -1,0 +1,14 @@
+{
+  "label": "baseline_calibrated_00_cap32768_centered_fold0_baseline",
+  "seconds": 89.90244507789612,
+  "divergences": 0,
+  "max_rhat": 1.137506119585785,
+  "min_ess": 16.12083830402917,
+  "draws": 500,
+  "chains": 2,
+  "tune": 1000,
+  "target_accept": 0.97,
+  "dense_mass": false,
+  "random_seed": 20261009,
+  "centered_effects": true
+}

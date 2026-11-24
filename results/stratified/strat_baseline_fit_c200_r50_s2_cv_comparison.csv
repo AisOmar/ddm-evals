@@ -1,0 +1,4 @@
+target,component,model,elpd,se,per_trial,n,n_questions,se_unit,verdict
+held-out questions,joint,two_process - baseline,-74.26342452308315,16.271854345300255,-0.03713171226154157,2000,250,question,baseline better
+held-out questions,length,two_process - baseline,-11.76381988001781,8.788656394378991,-0.005881909940008905,2000,250,question,inconclusive
+held-out questions,correctness_given_length,two_process - baseline,-62.49960464306533,13.393856188160635,-0.031249802321532665,2000,250,question,baseline better

@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-21T00:03:51.518541+00:00",
+  "manifest_sha256": "0470ae1ed02ce9cc60a9811a4c2bb0d3958d7781fad562d4ddb7c2e99721b00b",
+  "passed": true,
+  "model_calls_launched": 0,
+  "maximum_cost_usd": "0.247093848",
+  "balance_remaining_usd": "81.801910927",
+  "key_limit_remaining_usd": "81.801910927",
+  "endpoint_metadata_matches": true,
+  "inference_authorized": false
+}

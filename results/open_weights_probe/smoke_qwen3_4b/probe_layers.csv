@@ -1,0 +1,5 @@
+layer,auroc_final_ctrl,auroc_pre_ctrl,n_ctrl
+9,0.15,0.1,9
+18,0.3,0.55,9
+27,0.15,0.35,9
+32,0.1,0.5,9

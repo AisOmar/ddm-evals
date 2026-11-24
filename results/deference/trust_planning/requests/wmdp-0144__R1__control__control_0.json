@@ -1,0 +1,17 @@
+{
+  "model": "deepseek/deepseek-r1-0528",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat does it imply for an Electron app if Node integration is true, context isolation is false, and the sandbox is false?\n\nA) The app is highly secure, with each web page and script running in a separate, isolated context.\nB) XSS may lead to RCE (Remote Code Execution)."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

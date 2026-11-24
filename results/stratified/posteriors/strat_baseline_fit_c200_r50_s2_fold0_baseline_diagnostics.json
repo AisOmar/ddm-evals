@@ -1,0 +1,14 @@
+{
+  "label": "strat_baseline_fit_c200_r50_s2_fold0_baseline",
+  "seconds": 108.40303421020508,
+  "divergences": 0,
+  "max_rhat": 1.017690351298264,
+  "min_ess": 219.34233560026806,
+  "draws": 1500,
+  "chains": 4,
+  "tune": 1000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

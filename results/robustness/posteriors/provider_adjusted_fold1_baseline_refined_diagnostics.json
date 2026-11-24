@@ -1,0 +1,14 @@
+{
+  "label": "provider_adjusted_fold1_baseline_refined",
+  "seconds": 72.56791806221008,
+  "divergences": 0,
+  "max_rhat": 1.0042794962699895,
+  "min_ess": 913.3872271258352,
+  "draws": 1000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.995,
+  "dense_mass": true,
+  "random_seed": 20261006,
+  "settings_source": "Executed command and script defaults"
+}

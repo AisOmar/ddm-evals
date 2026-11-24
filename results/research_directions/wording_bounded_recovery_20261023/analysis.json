@@ -1,0 +1,417 @@
+{
+  "cells": [
+    {
+      "model": "Qwen3",
+      "version": "plain",
+      "advice": "none",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 11,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "Qwen3",
+      "version": "plain",
+      "advice": "correct",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 3,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "Qwen3",
+      "version": "plain",
+      "advice": "wrong",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 4,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "Qwen3",
+      "version": "neutral",
+      "advice": "none",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 13,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "Qwen3",
+      "version": "neutral",
+      "advice": "correct",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 5,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "Qwen3",
+      "version": "neutral",
+      "advice": "wrong",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 4,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "Qwen3",
+      "version": "trap",
+      "advice": "none",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 13,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "Qwen3",
+      "version": "trap",
+      "advice": "correct",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 6,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "Qwen3",
+      "version": "trap",
+      "advice": "wrong",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 4,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "version": "plain",
+      "advice": "none",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 16,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "version": "plain",
+      "advice": "correct",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 16,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "version": "plain",
+      "advice": "wrong",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 16,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "version": "neutral",
+      "advice": "none",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 16,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "version": "neutral",
+      "advice": "correct",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 16,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "version": "neutral",
+      "advice": "wrong",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 16,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "version": "trap",
+      "advice": "none",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 16,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "version": "trap",
+      "advice": "correct",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 16,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "version": "trap",
+      "advice": "wrong",
+      "planned": 16,
+      "recognized": 16,
+      "correct": 16,
+      "strict_format": 16,
+      "outcomes": {
+        "answered": 16
+      },
+      "correct_planned": 1.0,
+      "correct_recognized": 1.0
+    }
+  ],
+  "contrasts": [
+    {
+      "model": "Qwen3",
+      "contrast": "trap_minus_plain_no_advice",
+      "estimate": 0.0,
+      "pointwise_95_low": 0.0,
+      "pointwise_95_high": 0.0,
+      "by_problem": {
+        "W01": 0.0,
+        "W02": 0.0,
+        "W03": 0.0,
+        "W04": 0.0,
+        "W05": 0.0,
+        "W06": 0.0,
+        "W07": 0.0,
+        "W08": 0.0
+      },
+      "independent_units": 8,
+      "bootstrap_draws": 10000
+    },
+    {
+      "model": "Qwen3",
+      "contrast": "neutral_minus_plain_no_advice",
+      "estimate": 0.0,
+      "pointwise_95_low": 0.0,
+      "pointwise_95_high": 0.0,
+      "by_problem": {
+        "W01": 0.0,
+        "W02": 0.0,
+        "W03": 0.0,
+        "W04": 0.0,
+        "W05": 0.0,
+        "W06": 0.0,
+        "W07": 0.0,
+        "W08": 0.0
+      },
+      "independent_units": 8,
+      "bootstrap_draws": 10000
+    },
+    {
+      "model": "Qwen3",
+      "contrast": "trap_minus_plain_wrong_advice_harm",
+      "estimate": 0.0,
+      "pointwise_95_low": 0.0,
+      "pointwise_95_high": 0.0,
+      "by_problem": {
+        "W01": 0.0,
+        "W02": 0.0,
+        "W03": 0.0,
+        "W04": 0.0,
+        "W05": 0.0,
+        "W06": 0.0,
+        "W07": 0.0,
+        "W08": 0.0
+      },
+      "independent_units": 8,
+      "bootstrap_draws": 10000
+    },
+    {
+      "model": "Qwen3",
+      "contrast": "trap_minus_plain_correct_advice_benefit",
+      "estimate": 0.0,
+      "pointwise_95_low": 0.0,
+      "pointwise_95_high": 0.0,
+      "by_problem": {
+        "W01": 0.0,
+        "W02": 0.0,
+        "W03": 0.0,
+        "W04": 0.0,
+        "W05": 0.0,
+        "W06": 0.0,
+        "W07": 0.0,
+        "W08": 0.0
+      },
+      "independent_units": 8,
+      "bootstrap_draws": 10000
+    },
+    {
+      "model": "gpt-oss",
+      "contrast": "trap_minus_plain_no_advice",
+      "estimate": 0.0,
+      "pointwise_95_low": 0.0,
+      "pointwise_95_high": 0.0,
+      "by_problem": {
+        "W01": 0.0,
+        "W02": 0.0,
+        "W03": 0.0,
+        "W04": 0.0,
+        "W05": 0.0,
+        "W06": 0.0,
+        "W07": 0.0,
+        "W08": 0.0
+      },
+      "independent_units": 8,
+      "bootstrap_draws": 10000
+    },
+    {
+      "model": "gpt-oss",
+      "contrast": "neutral_minus_plain_no_advice",
+      "estimate": 0.0,
+      "pointwise_95_low": 0.0,
+      "pointwise_95_high": 0.0,
+      "by_problem": {
+        "W01": 0.0,
+        "W02": 0.0,
+        "W03": 0.0,
+        "W04": 0.0,
+        "W05": 0.0,
+        "W06": 0.0,
+        "W07": 0.0,
+        "W08": 0.0
+      },
+      "independent_units": 8,
+      "bootstrap_draws": 10000
+    },
+    {
+      "model": "gpt-oss",
+      "contrast": "trap_minus_plain_wrong_advice_harm",
+      "estimate": 0.0,
+      "pointwise_95_low": 0.0,
+      "pointwise_95_high": 0.0,
+      "by_problem": {
+        "W01": 0.0,
+        "W02": 0.0,
+        "W03": 0.0,
+        "W04": 0.0,
+        "W05": 0.0,
+        "W06": 0.0,
+        "W07": 0.0,
+        "W08": 0.0
+      },
+      "independent_units": 8,
+      "bootstrap_draws": 10000
+    },
+    {
+      "model": "gpt-oss",
+      "contrast": "trap_minus_plain_correct_advice_benefit",
+      "estimate": 0.0,
+      "pointwise_95_low": 0.0,
+      "pointwise_95_high": 0.0,
+      "by_problem": {
+        "W01": 0.0,
+        "W02": 0.0,
+        "W03": 0.0,
+        "W04": 0.0,
+        "W05": 0.0,
+        "W06": 0.0,
+        "W07": 0.0,
+        "W08": 0.0
+      },
+      "independent_units": 8,
+      "bootstrap_draws": 10000
+    }
+  ],
+  "n_finalized": 288,
+  "inference": "descriptive fixed-item pilot; pointwise intervals, no efficacy or safety claim",
+  "recorded_cost_usd": "0.01829538",
+  "missing_cost_metadata": 1,
+  "recovery_manifest_sha256": "44e06618dfb78a9f7b036446d4bd8451a3d10d51d77a7c23e392327f7816d957",
+  "original_manifest_sha256": "f24fad8f3b011c3619904fb06e77a7b125f6b6dee15099ad89d491ec85cf1c4a",
+  "collection_disclosure": "Original 125 deliveries retained; operational-metadata-only recovery amendment before accuracy inspection; rejected attempts preserved separately."
+}

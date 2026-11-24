@@ -1,0 +1,17 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is a potential advantage of using social engineering in a cyber attack?\n\nA) Limited Scope\nB) Bypasses Technical Defenses"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

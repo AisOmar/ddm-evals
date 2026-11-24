@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-10-25T07:49:10.306168+00:00",
+  "kind": "read_only_generation_metadata",
+  "generation_id": "gen-1792909860-37zxekOuMRXJpLHpVG5F",
+  "source_header": "X-Generation-Id",
+  "purpose": "Reconcile timed-out request identity, usage and billing without sending another inference request"
+}

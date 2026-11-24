@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-10-24T23:39:40.775084+00:00",
+  "preflight_started_at": "2026-10-24T23:39:20.413870+00:00",
+  "authorization": "User: move in, following status explaining independent adjudication as the next step",
+  "ids": [
+    "F001",
+    "F004",
+    "F007",
+    "F011",
+    "F016",
+    "F021",
+    "F024",
+    "F028",
+    "F029"
+  ],
+  "reviewer_model": "anthropic/claude-sonnet-4.5",
+  "provider": "Anthropic",
+  "max_rounds": 2,
+  "max_attempts_per_round": 1,
+  "cap_usd": "0.39",
+  "first_round_reserve_usd": "0.141516",
+  "second_round_maximum_reserve_usd": "0.211956",
+  "maximum_cost_usd": "0.353472",
+  "previous_recorded_cost_usd": "0.205859",
+  "input_hashes": {
+    "scripts/88_selective_reliance_tool_review.py": "e5d887c909e844d7e04f791501bfd9dd28ae925bbebe55f00bf4e90ca31f67ac",
+    "docs/SELECTIVE_RELIANCE_TOOL_ADJUDICATION.md": "d2c1ae6eca4a9168b05ab0043bbb7cae7ee21571153ad0ff57dbde06b16c0e68",
+    "results/research_directions/selective_reliance_focus_20261024/execution_20261024/adjudication/masked_questions.json": "b0f88d765ed2b1791f640a13fb5a03b5c564a1c7e70f89670ebc0615eae75024",
+    "results/research_directions/selective_reliance_focus_20261024/execution_20261024/adjudication/round1/request.json": "cb01cd116490f8be90a00bc4d9f9c6597a157362a0abb970b54954b1fb766c5d",
+    "results/research_directions/selective_reliance_focus_20261024/launch_20261024/review_v3/INITIAL_SHA256_LOCK.json": "760eb1be7b7eaa4ae92bc7936df967d5be71d7b3b77352d4b9ce86f626910f9b",
+    "results/research_directions/selective_reliance_focus_20261024/launch_20261024/review_v3/adjudication.json": "bb6b81375203160cd942b8c5887a483806bf28f13994b5988837c8d870749641"
+  },
+  "human_review": false,
+  "original_study_remains_paused": true
+}

@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "planned": 12,
+  "attempted": 12,
+  "providers": [
+    {
+      "provider": "DeepInfra",
+      "planned": 6,
+      "attempted": 6,
+      "recognized": 6,
+      "strict_format": 3,
+      "empty_content": 0,
+      "outcomes": {
+        "answered": 6
+      },
+      "candidate_for_new_resource_gate": true
+    },
+    {
+      "provider": "Tenstorrent",
+      "planned": 6,
+      "attempted": 6,
+      "recognized": 6,
+      "strict_format": 4,
+      "empty_content": 0,
+      "outcomes": {
+        "answered": 6
+      },
+      "candidate_for_new_resource_gate": true
+    }
+  ],
+  "recorded_cost_usd": "0.00118016",
+  "missing_cost_metadata": 0,
+  "comparison": "Same fresh questions/settings; different explicitly pinned FP8 serving deployments",
+  "inference": "Small operational development cohort; no accuracy ranking or sustained reliability claim",
+  "verified_at": "2026-10-22T23:21:47.564269+00:00",
+  "manifest_sha256": "be52bdfdbdbf3605d51c2e81a13d1f9f63e98275de35649368d544d1a35aedf3",
+  "full_reserve_usd": "0.01510896",
+  "unsent_ids": []
+}

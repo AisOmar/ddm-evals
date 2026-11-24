@@ -1,0 +1,7 @@
+{
+  "sample_id": "P02__r2__Tenstorrent",
+  "prepared_at": "2026-10-22T23:20:41.719233+00:00",
+  "manifest_sha256": "be52bdfdbdbf3605d51c2e81a13d1f9f63e98275de35649368d544d1a35aedf3",
+  "request_sha256": "5864be1c0e6367fcc5a020b13d23e9fa3d20cd85fc9134a0c72d0ac9a3c823d5",
+  "reserved_cost_usd": "0.00154888"
+}

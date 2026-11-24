@@ -1,0 +1,13 @@
+model,wording,key_correct,n,delta,improvements,deteriorations
+Qwen3,frequency,False,1,0.0,0,0
+Qwen3,frequency,True,0,,0,0
+Qwen3,probability,False,2,0.0,0,0
+Qwen3,probability,True,1,0.0,0,0
+R1,frequency,False,1,0.0,0,0
+R1,frequency,True,1,-1.0,0,1
+R1,probability,False,3,0.0,0,0
+R1,probability,True,5,0.0,0,0
+gpt-oss,frequency,False,6,0.0,0,0
+gpt-oss,frequency,True,2,0.0,0,0
+gpt-oss,probability,False,3,0.3333333333333333,1,0
+gpt-oss,probability,True,1,0.0,0,0

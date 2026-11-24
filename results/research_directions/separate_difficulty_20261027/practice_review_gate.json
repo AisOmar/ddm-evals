@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-10-27T01:50:21.242841+00:00",
+  "passed": true,
+  "basis": {
+    "0": "practice_review_L0_proof",
+    "1": "practice_review_L1_proof",
+    "2": "practice_review_L2_proof"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-10-21T00:57:03.900758+00:00",
+  "manifest_sha256": "0470ae1ed02ce9cc60a9811a4c2bb0d3958d7781fad562d4ddb7c2e99721b00b",
+  "exact_saved_requests_verified": 192,
+  "unique_attempts": 192,
+  "finalized_attempts": 192,
+  "raw_files": 192,
+  "protected_prior_files_verified": 2633,
+  "changed_prior_files": [],
+  "preparation_snapshot_verified": true,
+  "earlier_manifests_verified": [
+    "31_trust_collect.py",
+    "41_reviewed_pilot.py"
+  ],
+  "diagnostic_script_lock_verified": true,
+  "active_batch": false,
+  "private_curl_configs_remaining": 0,
+  "offline_test_command": "MPLCONFIGDIR=/private/tmp/ddm-feasibility-mpl .venv/bin/python -m unittest discover -s tests -q",
+  "offline_tests_passed": 57,
+  "python_version": "3.13.11 (main, Dec  5 2025, 16:06:33) [Clang 17.0.0 (clang-1700.4.4.1)]",
+  "old_study_remains_paused": true
+}

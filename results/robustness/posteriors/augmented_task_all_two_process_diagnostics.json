@@ -1,0 +1,14 @@
+{
+  "label": "augmented_task_all_two_process",
+  "seconds": 205.84243893623352,
+  "divergences": 0,
+  "max_rhat": 1.0357479010433852,
+  "min_ess": 76.04745474571716,
+  "draws": 2000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

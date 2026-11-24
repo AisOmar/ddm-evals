@@ -1,0 +1,2324 @@
+{
+  "created_at": "2026-10-26T23:52:11.425202+00:00",
+  "phase": "development",
+  "complete_slots": 54,
+  "cells": [
+    {
+      "instruction": "ordinary",
+      "advice": "none",
+      "planned": 6,
+      "recognized": 6,
+      "correct": 4,
+      "unknown": 0,
+      "recognized_accuracy": 0.6666666666666666,
+      "correct_yield": 0.6666666666666666,
+      "factual_bounds": [
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "ceiling_warning": false
+    },
+    {
+      "instruction": "ordinary",
+      "advice": "correct",
+      "planned": 6,
+      "recognized": 6,
+      "correct": 6,
+      "unknown": 0,
+      "recognized_accuracy": 1.0,
+      "correct_yield": 1.0,
+      "factual_bounds": [
+        1.0,
+        1.0
+      ],
+      "ceiling_warning": null
+    },
+    {
+      "instruction": "ordinary",
+      "advice": "wrong",
+      "planned": 6,
+      "recognized": 6,
+      "correct": 0,
+      "unknown": 0,
+      "recognized_accuracy": 0.0,
+      "correct_yield": 0.0,
+      "factual_bounds": [
+        0.0,
+        0.0
+      ],
+      "ceiling_warning": null
+    },
+    {
+      "instruction": "fallible",
+      "advice": "none",
+      "planned": 6,
+      "recognized": 6,
+      "correct": 4,
+      "unknown": 0,
+      "recognized_accuracy": 0.6666666666666666,
+      "correct_yield": 0.6666666666666666,
+      "factual_bounds": [
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "ceiling_warning": false
+    },
+    {
+      "instruction": "fallible",
+      "advice": "correct",
+      "planned": 6,
+      "recognized": 6,
+      "correct": 3,
+      "unknown": 0,
+      "recognized_accuracy": 0.5,
+      "correct_yield": 0.5,
+      "factual_bounds": [
+        0.5,
+        0.5
+      ],
+      "ceiling_warning": null
+    },
+    {
+      "instruction": "fallible",
+      "advice": "wrong",
+      "planned": 6,
+      "recognized": 6,
+      "correct": 4,
+      "unknown": 0,
+      "recognized_accuracy": 0.6666666666666666,
+      "correct_yield": 0.6666666666666666,
+      "factual_bounds": [
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "ceiling_warning": null
+    },
+    {
+      "instruction": "verification",
+      "advice": "none",
+      "planned": 6,
+      "recognized": 6,
+      "correct": 4,
+      "unknown": 0,
+      "recognized_accuracy": 0.6666666666666666,
+      "correct_yield": 0.6666666666666666,
+      "factual_bounds": [
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "ceiling_warning": false
+    },
+    {
+      "instruction": "verification",
+      "advice": "correct",
+      "planned": 6,
+      "recognized": 6,
+      "correct": 4,
+      "unknown": 0,
+      "recognized_accuracy": 0.6666666666666666,
+      "correct_yield": 0.6666666666666666,
+      "factual_bounds": [
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "ceiling_warning": null
+    },
+    {
+      "instruction": "verification",
+      "advice": "wrong",
+      "planned": 6,
+      "recognized": 6,
+      "correct": 3,
+      "unknown": 0,
+      "recognized_accuracy": 0.5,
+      "correct_yield": 0.5,
+      "factual_bounds": [
+        0.5,
+        0.5
+      ],
+      "ceiling_warning": null
+    }
+  ],
+  "all_answered": true,
+  "comparisons": {
+    "verification_vs_ordinary": {
+      "profile": {
+        "reference_wrong_advice_harm": 0.6666666666666666,
+        "candidate_wrong_advice_harm": 0.16666666666666666,
+        "baseline_adjusted_harm_reduction": 0.5,
+        "reference_correct_advice_benefit": 0.3333333333333333,
+        "candidate_correct_advice_benefit": 0.0,
+        "benefit_change": -0.3333333333333333,
+        "wrong_advice_accuracy_change": 0.5,
+        "correct_advice_accuracy_change": -0.3333333333333333,
+        "baseline_accuracy_change": 0.0
+      },
+      "exact_profile": {
+        "reference_wrong_advice_harm": "2/3",
+        "candidate_wrong_advice_harm": "1/6",
+        "baseline_adjusted_harm_reduction": "1/2",
+        "reference_correct_advice_benefit": "1/3",
+        "candidate_correct_advice_benefit": "0",
+        "benefit_change": "-1/3",
+        "wrong_advice_accuracy_change": "1/2",
+        "correct_advice_accuracy_change": "-1/3",
+        "baseline_accuracy_change": "0"
+      },
+      "factual_bounds": {
+        "reference_wrong_advice_harm": [
+          0.6666666666666666,
+          0.6666666666666666
+        ],
+        "candidate_wrong_advice_harm": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "baseline_adjusted_harm_reduction": [
+          0.5,
+          0.5
+        ],
+        "reference_correct_advice_benefit": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "candidate_correct_advice_benefit": [
+          0.0,
+          0.0
+        ],
+        "benefit_change": [
+          -0.3333333333333333,
+          -0.3333333333333333
+        ],
+        "wrong_advice_accuracy_change": [
+          0.5,
+          0.5
+        ],
+        "correct_advice_accuracy_change": [
+          -0.3333333333333333,
+          -0.3333333333333333
+        ],
+        "baseline_accuracy_change": [
+          0.0,
+          0.0
+        ]
+      },
+      "descriptive_full_pattern": false
+    },
+    "fallible_vs_ordinary": {
+      "profile": {
+        "reference_wrong_advice_harm": 0.6666666666666666,
+        "candidate_wrong_advice_harm": 0.0,
+        "baseline_adjusted_harm_reduction": 0.6666666666666666,
+        "reference_correct_advice_benefit": 0.3333333333333333,
+        "candidate_correct_advice_benefit": -0.16666666666666666,
+        "benefit_change": -0.5,
+        "wrong_advice_accuracy_change": 0.6666666666666666,
+        "correct_advice_accuracy_change": -0.5,
+        "baseline_accuracy_change": 0.0
+      },
+      "exact_profile": {
+        "reference_wrong_advice_harm": "2/3",
+        "candidate_wrong_advice_harm": "0",
+        "baseline_adjusted_harm_reduction": "2/3",
+        "reference_correct_advice_benefit": "1/3",
+        "candidate_correct_advice_benefit": "-1/6",
+        "benefit_change": "-1/2",
+        "wrong_advice_accuracy_change": "2/3",
+        "correct_advice_accuracy_change": "-1/2",
+        "baseline_accuracy_change": "0"
+      },
+      "factual_bounds": {
+        "reference_wrong_advice_harm": [
+          0.6666666666666666,
+          0.6666666666666666
+        ],
+        "candidate_wrong_advice_harm": [
+          0.0,
+          0.0
+        ],
+        "baseline_adjusted_harm_reduction": [
+          0.6666666666666666,
+          0.6666666666666666
+        ],
+        "reference_correct_advice_benefit": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "candidate_correct_advice_benefit": [
+          -0.16666666666666666,
+          -0.16666666666666666
+        ],
+        "benefit_change": [
+          -0.5,
+          -0.5
+        ],
+        "wrong_advice_accuracy_change": [
+          0.6666666666666666,
+          0.6666666666666666
+        ],
+        "correct_advice_accuracy_change": [
+          -0.5,
+          -0.5
+        ],
+        "baseline_accuracy_change": [
+          0.0,
+          0.0
+        ]
+      },
+      "descriptive_full_pattern": false
+    },
+    "verification_vs_fallible": {
+      "profile": {
+        "reference_wrong_advice_harm": 0.0,
+        "candidate_wrong_advice_harm": 0.16666666666666666,
+        "baseline_adjusted_harm_reduction": -0.16666666666666666,
+        "reference_correct_advice_benefit": -0.16666666666666666,
+        "candidate_correct_advice_benefit": 0.0,
+        "benefit_change": 0.16666666666666666,
+        "wrong_advice_accuracy_change": -0.16666666666666666,
+        "correct_advice_accuracy_change": 0.16666666666666666,
+        "baseline_accuracy_change": 0.0
+      },
+      "exact_profile": {
+        "reference_wrong_advice_harm": "0",
+        "candidate_wrong_advice_harm": "1/6",
+        "baseline_adjusted_harm_reduction": "-1/6",
+        "reference_correct_advice_benefit": "-1/6",
+        "candidate_correct_advice_benefit": "0",
+        "benefit_change": "1/6",
+        "wrong_advice_accuracy_change": "-1/6",
+        "correct_advice_accuracy_change": "1/6",
+        "baseline_accuracy_change": "0"
+      },
+      "factual_bounds": {
+        "reference_wrong_advice_harm": [
+          0.0,
+          0.0
+        ],
+        "candidate_wrong_advice_harm": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "baseline_adjusted_harm_reduction": [
+          -0.16666666666666666,
+          -0.16666666666666666
+        ],
+        "reference_correct_advice_benefit": [
+          -0.16666666666666666,
+          -0.16666666666666666
+        ],
+        "candidate_correct_advice_benefit": [
+          0.0,
+          0.0
+        ],
+        "benefit_change": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "wrong_advice_accuracy_change": [
+          -0.16666666666666666,
+          -0.16666666666666666
+        ],
+        "correct_advice_accuracy_change": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "baseline_accuracy_change": [
+          0.0,
+          0.0
+        ]
+      },
+      "descriptive_full_pattern": false
+    }
+  },
+  "families": {
+    "logical_constraints": {
+      "cells": [
+        {
+          "instruction": "ordinary",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "fallible",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "verification",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        }
+      ],
+      "all_answered": true,
+      "comparisons": {
+        "verification_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 1.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 1.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 1.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "1",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "1",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "1",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              1.0,
+              1.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              1.0,
+              1.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              1.0,
+              1.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "fallible_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 1.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 1.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 1.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "1",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "1",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "1",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              1.0,
+              1.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              1.0,
+              1.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              1.0,
+              1.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "verification_vs_fallible": {
+          "profile": {
+            "reference_wrong_advice_harm": 0.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 0.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 0.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "0",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "0",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "0",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              0.0,
+              0.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        }
+      }
+    },
+    "observed_then_intervened": {
+      "cells": [
+        {
+          "instruction": "ordinary",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "fallible",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "verification",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        }
+      ],
+      "all_answered": true,
+      "comparisons": {
+        "verification_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 1.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 1.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 1.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "1",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "1",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "1",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              1.0,
+              1.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              1.0,
+              1.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              1.0,
+              1.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "fallible_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 1.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 1.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 1.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "1",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "1",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "1",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              1.0,
+              1.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              1.0,
+              1.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              1.0,
+              1.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "verification_vs_fallible": {
+          "profile": {
+            "reference_wrong_advice_harm": 0.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 0.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 0.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "0",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "0",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "0",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              0.0,
+              0.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        }
+      }
+    },
+    "random_reveal": {
+      "cells": [
+        {
+          "instruction": "ordinary",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "fallible",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "verification",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        }
+      ],
+      "all_answered": true,
+      "comparisons": {
+        "verification_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 1.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 1.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 1.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "1",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "1",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "1",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              1.0,
+              1.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              1.0,
+              1.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              1.0,
+              1.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "fallible_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 1.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 1.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 1.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "1",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "1",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "1",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              1.0,
+              1.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              1.0,
+              1.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              1.0,
+              1.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "verification_vs_fallible": {
+          "profile": {
+            "reference_wrong_advice_harm": 0.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 0.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 0.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "0",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "0",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "0",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              0.0,
+              0.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        }
+      }
+    },
+    "standardized_rates": {
+      "cells": [
+        {
+          "instruction": "ordinary",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "fallible",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": true
+        },
+        {
+          "instruction": "verification",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        }
+      ],
+      "all_answered": true,
+      "comparisons": {
+        "verification_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 1.0,
+            "candidate_wrong_advice_harm": 1.0,
+            "baseline_adjusted_harm_reduction": 0.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 0.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "1",
+            "candidate_wrong_advice_harm": "1",
+            "baseline_adjusted_harm_reduction": "0",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "0",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              1.0,
+              1.0
+            ],
+            "candidate_wrong_advice_harm": [
+              1.0,
+              1.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              0.0,
+              0.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "fallible_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 1.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 1.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": -1.0,
+            "benefit_change": -1.0,
+            "wrong_advice_accuracy_change": 1.0,
+            "correct_advice_accuracy_change": -1.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "1",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "1",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "-1",
+            "benefit_change": "-1",
+            "wrong_advice_accuracy_change": "1",
+            "correct_advice_accuracy_change": "-1",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              1.0,
+              1.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              1.0,
+              1.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              -1.0,
+              -1.0
+            ],
+            "benefit_change": [
+              -1.0,
+              -1.0
+            ],
+            "wrong_advice_accuracy_change": [
+              1.0,
+              1.0
+            ],
+            "correct_advice_accuracy_change": [
+              -1.0,
+              -1.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "verification_vs_fallible": {
+          "profile": {
+            "reference_wrong_advice_harm": 0.0,
+            "candidate_wrong_advice_harm": 1.0,
+            "baseline_adjusted_harm_reduction": -1.0,
+            "reference_correct_advice_benefit": -1.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 1.0,
+            "wrong_advice_accuracy_change": -1.0,
+            "correct_advice_accuracy_change": 1.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "0",
+            "candidate_wrong_advice_harm": "1",
+            "baseline_adjusted_harm_reduction": "-1",
+            "reference_correct_advice_benefit": "-1",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "1",
+            "wrong_advice_accuracy_change": "-1",
+            "correct_advice_accuracy_change": "1",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "candidate_wrong_advice_harm": [
+              1.0,
+              1.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              -1.0,
+              -1.0
+            ],
+            "reference_correct_advice_benefit": [
+              -1.0,
+              -1.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              1.0,
+              1.0
+            ],
+            "wrong_advice_accuracy_change": [
+              -1.0,
+              -1.0
+            ],
+            "correct_advice_accuracy_change": [
+              1.0,
+              1.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        }
+      }
+    },
+    "two_tests": {
+      "cells": [
+        {
+          "instruction": "ordinary",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": false
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": false
+        },
+        {
+          "instruction": "fallible",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": false
+        },
+        {
+          "instruction": "verification",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        }
+      ],
+      "all_answered": true,
+      "comparisons": {
+        "verification_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 0.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 0.0,
+            "reference_correct_advice_benefit": 1.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": -1.0,
+            "wrong_advice_accuracy_change": 0.0,
+            "correct_advice_accuracy_change": -1.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "0",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "0",
+            "reference_correct_advice_benefit": "1",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "-1",
+            "wrong_advice_accuracy_change": "0",
+            "correct_advice_accuracy_change": "-1",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              0.0,
+              0.0
+            ],
+            "reference_correct_advice_benefit": [
+              1.0,
+              1.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              -1.0,
+              -1.0
+            ],
+            "wrong_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "correct_advice_accuracy_change": [
+              -1.0,
+              -1.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "fallible_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 0.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 0.0,
+            "reference_correct_advice_benefit": 1.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": -1.0,
+            "wrong_advice_accuracy_change": 0.0,
+            "correct_advice_accuracy_change": -1.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "0",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "0",
+            "reference_correct_advice_benefit": "1",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "-1",
+            "wrong_advice_accuracy_change": "0",
+            "correct_advice_accuracy_change": "-1",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              0.0,
+              0.0
+            ],
+            "reference_correct_advice_benefit": [
+              1.0,
+              1.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              -1.0,
+              -1.0
+            ],
+            "wrong_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "correct_advice_accuracy_change": [
+              -1.0,
+              -1.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "verification_vs_fallible": {
+          "profile": {
+            "reference_wrong_advice_harm": 0.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 0.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 0.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "0",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "0",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "0",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              0.0,
+              0.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        }
+      }
+    },
+    "value_of_information": {
+      "cells": [
+        {
+          "instruction": "ordinary",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": false
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 1,
+          "unknown": 0,
+          "recognized_accuracy": 1.0,
+          "correct_yield": 1.0,
+          "factual_bounds": [
+            1.0,
+            1.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "ordinary",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": false
+        },
+        {
+          "instruction": "fallible",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "fallible",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "none",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": false
+        },
+        {
+          "instruction": "verification",
+          "advice": "correct",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        },
+        {
+          "instruction": "verification",
+          "advice": "wrong",
+          "planned": 1,
+          "recognized": 1,
+          "correct": 0,
+          "unknown": 0,
+          "recognized_accuracy": 0.0,
+          "correct_yield": 0.0,
+          "factual_bounds": [
+            0.0,
+            0.0
+          ],
+          "ceiling_warning": null
+        }
+      ],
+      "all_answered": true,
+      "comparisons": {
+        "verification_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 0.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 0.0,
+            "reference_correct_advice_benefit": 1.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": -1.0,
+            "wrong_advice_accuracy_change": 0.0,
+            "correct_advice_accuracy_change": -1.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "0",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "0",
+            "reference_correct_advice_benefit": "1",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "-1",
+            "wrong_advice_accuracy_change": "0",
+            "correct_advice_accuracy_change": "-1",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              0.0,
+              0.0
+            ],
+            "reference_correct_advice_benefit": [
+              1.0,
+              1.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              -1.0,
+              -1.0
+            ],
+            "wrong_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "correct_advice_accuracy_change": [
+              -1.0,
+              -1.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "fallible_vs_ordinary": {
+          "profile": {
+            "reference_wrong_advice_harm": 0.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 0.0,
+            "reference_correct_advice_benefit": 1.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": -1.0,
+            "wrong_advice_accuracy_change": 0.0,
+            "correct_advice_accuracy_change": -1.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "0",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "0",
+            "reference_correct_advice_benefit": "1",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "-1",
+            "wrong_advice_accuracy_change": "0",
+            "correct_advice_accuracy_change": "-1",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              0.0,
+              0.0
+            ],
+            "reference_correct_advice_benefit": [
+              1.0,
+              1.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              -1.0,
+              -1.0
+            ],
+            "wrong_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "correct_advice_accuracy_change": [
+              -1.0,
+              -1.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        },
+        "verification_vs_fallible": {
+          "profile": {
+            "reference_wrong_advice_harm": 0.0,
+            "candidate_wrong_advice_harm": 0.0,
+            "baseline_adjusted_harm_reduction": 0.0,
+            "reference_correct_advice_benefit": 0.0,
+            "candidate_correct_advice_benefit": 0.0,
+            "benefit_change": 0.0,
+            "wrong_advice_accuracy_change": 0.0,
+            "correct_advice_accuracy_change": 0.0,
+            "baseline_accuracy_change": 0.0
+          },
+          "exact_profile": {
+            "reference_wrong_advice_harm": "0",
+            "candidate_wrong_advice_harm": "0",
+            "baseline_adjusted_harm_reduction": "0",
+            "reference_correct_advice_benefit": "0",
+            "candidate_correct_advice_benefit": "0",
+            "benefit_change": "0",
+            "wrong_advice_accuracy_change": "0",
+            "correct_advice_accuracy_change": "0",
+            "baseline_accuracy_change": "0"
+          },
+          "factual_bounds": {
+            "reference_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "candidate_wrong_advice_harm": [
+              0.0,
+              0.0
+            ],
+            "baseline_adjusted_harm_reduction": [
+              0.0,
+              0.0
+            ],
+            "reference_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "candidate_correct_advice_benefit": [
+              0.0,
+              0.0
+            ],
+            "benefit_change": [
+              0.0,
+              0.0
+            ],
+            "wrong_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "correct_advice_accuracy_change": [
+              0.0,
+              0.0
+            ],
+            "baseline_accuracy_change": [
+              0.0,
+              0.0
+            ]
+          },
+          "descriptive_full_pattern": false
+        }
+      }
+    }
+  },
+  "old_observations_pooled": false,
+  "original_study_remains_paused": true
+}

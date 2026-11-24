@@ -1,0 +1,10 @@
+{
+  "items_compared": 8,
+  "answer_agreements": 8,
+  "must_fix_blockers": 0,
+  "review_type": "fresh-context AI, not human validation",
+  "nonblocking_notes": [
+    "Reviewer noted a fractional-token distractor cue in V004; correctness does not gate qualification."
+  ],
+  "model_outcomes_used": false
+}

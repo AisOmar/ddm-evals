@@ -1,0 +1,17 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhich technique did ALLANITE leverage to gain access to utilities in the US and UK?\n\nA) Watering hole\nB) XSS injection"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

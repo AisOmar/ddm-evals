@@ -1,0 +1,12 @@
+{
+  "status": "answered",
+  "answer": "B",
+  "correct": true,
+  "cost_usd": "0.001149",
+  "input_tokens": 328,
+  "output_tokens": 11,
+  "stop_reason": "end_turn",
+  "id": "transfer_T005_fallible_correct",
+  "response_sha256": "8f22b7691352bbe6e774cc6b58a8e9e64ef7045ad662a6453f6f21fb1b33c83d",
+  "request_sha256": "65d4c719f920fc013e9ac65105238d618b61931160ffb16a31618f6b50e3b94e"
+}

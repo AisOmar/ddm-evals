@@ -1,0 +1,65 @@
+{
+  "reason": "Remove conflicting fraction-output instruction",
+  "repairs": [
+    {
+      "item_id": "calibration-urn_posterior-01",
+      "before": "Choose urn U with prior probability 2/7, otherwise urn V. U has 12 red and 9 blue balls; V has 5 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 2 red and 4 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 2/7, otherwise urn V. U has 12 red and 9 blue balls; V has 5 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 2 red and 4 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    },
+    {
+      "item_id": "calibration-urn_posterior-02",
+      "before": "Choose urn U with prior probability 3/7, otherwise urn V. U has 8 red and 8 blue balls; V has 8 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 3/7, otherwise urn V. U has 8 red and 8 blue balls; V has 8 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    },
+    {
+      "item_id": "calibration-urn_posterior-03",
+      "before": "Choose urn U with prior probability 4/7, otherwise urn V. U has 10 red and 6 blue balls; V has 7 red and 12 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 4/7, otherwise urn V. U has 10 red and 6 blue balls; V has 7 red and 12 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    },
+    {
+      "item_id": "calibration-urn_posterior-04",
+      "before": "Choose urn U with prior probability 4/7, otherwise urn V. U has 12 red and 5 blue balls; V has 4 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 4/7, otherwise urn V. U has 12 red and 5 blue balls; V has 4 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    },
+    {
+      "item_id": "calibration-urn_posterior-05",
+      "before": "Choose urn U with prior probability 5/7, otherwise urn V. U has 10 red and 5 blue balls; V has 5 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 5/7, otherwise urn V. U has 10 red and 5 blue balls; V has 5 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    },
+    {
+      "item_id": "calibration-urn_posterior-06",
+      "before": "Choose urn U with prior probability 3/7, otherwise urn V. U has 7 red and 6 blue balls; V has 8 red and 15 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 3/7, otherwise urn V. U has 7 red and 6 blue balls; V has 8 red and 15 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    },
+    {
+      "item_id": "reserved-urn_posterior-01",
+      "before": "Choose urn U with prior probability 4/7, otherwise urn V. U has 14 red and 6 blue balls; V has 7 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 4/7, otherwise urn V. U has 14 red and 6 blue balls; V has 7 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    },
+    {
+      "item_id": "reserved-urn_posterior-02",
+      "before": "Choose urn U with prior probability 5/7, otherwise urn V. U has 10 red and 6 blue balls; V has 5 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 5/7, otherwise urn V. U has 10 red and 6 blue balls; V has 5 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    },
+    {
+      "item_id": "reserved-urn_posterior-03",
+      "before": "Choose urn U with prior probability 2/7, otherwise urn V. U has 9 red and 9 blue balls; V has 6 red and 9 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 2 red and 4 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 2/7, otherwise urn V. U has 9 red and 9 blue balls; V has 6 red and 9 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 2 red and 4 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    },
+    {
+      "item_id": "reserved-urn_posterior-04",
+      "before": "Choose urn U with prior probability 4/7, otherwise urn V. U has 13 red and 5 blue balls; V has 4 red and 12 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 4/7, otherwise urn V. U has 13 red and 5 blue balls; V has 4 red and 12 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    },
+    {
+      "item_id": "reserved-urn_posterior-05",
+      "before": "Choose urn U with prior probability 2/7, otherwise urn V. U has 14 red and 6 blue balls; V has 4 red and 9 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 2/7, otherwise urn V. U has 14 red and 6 blue balls; V has 4 red and 9 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    },
+    {
+      "item_id": "reserved-urn_posterior-06",
+      "before": "Choose urn U with prior probability 2/7, otherwise urn V. U has 8 red and 8 blue balls; V has 7 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. What is the posterior probability that U was chosen? Give an exact fraction.",
+      "after": "Choose urn U with prior probability 2/7, otherwise urn V. U has 8 red and 8 blue balls; V has 7 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?"
+    }
+  ]
+}

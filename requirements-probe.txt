@@ -1,0 +1,13 @@
+# Minimal install for the open-weights probe only (scripts/112_probe_collect.py, scripts/113_probe_analyze.py),
+# used by scripts/gpu_bootstrap.sh on a rented GPU box so that the HSSM/inspect stack is not built there.
+torch
+transformers>=5
+accelerate
+huggingface_hub
+numpy
+pandas
+pyyaml
+scikit-learn
+scipy
+matplotlib
+tabulate

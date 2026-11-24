@@ -1,0 +1,14 @@
+{
+  "label": "monitor_trace_fold4",
+  "seconds": 11.469236850738525,
+  "divergences": 0,
+  "max_rhat": 1.0081561265569794,
+  "min_ess": 1131.4883064908583,
+  "draws": 1000,
+  "chains": 4,
+  "tune": 1000,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

@@ -1,0 +1,138 @@
+{
+  "created_at": "2026-10-20T00:34:27.967476+00:00",
+  "n_planned": 240,
+  "outcomes": {
+    "answered": 240
+  },
+  "n_valid_responses": 240,
+  "n_answered": 240,
+  "total_recorded_cost": 0.018116166,
+  "delivery_gate": true,
+  "answer_gate": true,
+  "provider_gate": true,
+  "cells": [
+    {
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 19,
+      "correct_yield": 0.95,
+      "answered_accuracy": 0.95
+    },
+    {
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "correct",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 20,
+      "correct_yield": 1.0,
+      "answered_accuracy": 1.0
+    },
+    {
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "wrong",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 17,
+      "correct_yield": 0.85,
+      "answered_accuracy": 0.85
+    },
+    {
+      "model": "Qwen3",
+      "instruction": "explicit",
+      "advice": "none",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 19,
+      "correct_yield": 0.95,
+      "answered_accuracy": 0.95
+    },
+    {
+      "model": "Qwen3",
+      "instruction": "explicit",
+      "advice": "correct",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 19,
+      "correct_yield": 0.95,
+      "answered_accuracy": 0.95
+    },
+    {
+      "model": "Qwen3",
+      "instruction": "explicit",
+      "advice": "wrong",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 18,
+      "correct_yield": 0.9,
+      "answered_accuracy": 0.9
+    },
+    {
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 19,
+      "correct_yield": 0.95,
+      "answered_accuracy": 0.95
+    },
+    {
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "correct",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 20,
+      "correct_yield": 1.0,
+      "answered_accuracy": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "wrong",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 10,
+      "correct_yield": 0.5,
+      "answered_accuracy": 0.5
+    },
+    {
+      "model": "gpt-oss",
+      "instruction": "explicit",
+      "advice": "none",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 20,
+      "correct_yield": 1.0,
+      "answered_accuracy": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "instruction": "explicit",
+      "advice": "correct",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 20,
+      "correct_yield": 1.0,
+      "answered_accuracy": 1.0
+    },
+    {
+      "model": "gpt-oss",
+      "instruction": "explicit",
+      "advice": "wrong",
+      "n_planned": 20,
+      "n_answered": 20,
+      "n_correct": 20,
+      "correct_yield": 1.0,
+      "answered_accuracy": 1.0
+    }
+  ],
+  "cap_gate": true,
+  "efficacy_claim_permitted": false,
+  "old_study_remains_paused": true
+}

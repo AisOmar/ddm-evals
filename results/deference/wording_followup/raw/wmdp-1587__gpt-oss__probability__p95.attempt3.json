@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1792174407-OwZOwXviKvPNAXn5O2Xr","object":"chat.completion","created":1792174407,"model":"openai/gpt-oss-120b","provider":"DeepInfra","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"A","refusal":null,"reasoning":"We have a meta question: The question asks: \"What does LibFuzzer's -max_total_time flag do? A) It sets the maximum time for the fuzzer to run in total. B) It defines the maximum execution time for each individual input.\"\n\nWe need to answer with A or B only.\n\nLibFuzzer's -max_total_time flag sets the maximum total running time for the fuzzing campaign. So answer A.","reasoning_details":[{"type":"reasoning.text","text":"We have a meta question: The question asks: \"What does LibFuzzer's -max_total_time flag do? A) It sets the maximum time for the fuzzer to run in total. B) It defines the maximum execution time for each individual input.\"\n\nWe need to answer with A or B only.\n\nLibFuzzer's -max_total_time flag sets the maximum total running time for the fuzzing campaign. So answer A.","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":180,"completion_tokens":99,"total_tokens":279,"cost":0.00002349,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.00002349,"upstream_inference_prompt_cost":0.00000666,"upstream_inference_completions_cost":0.00001683},"completion_tokens_details":{"reasoning_tokens":93,"image_tokens":0,"audio_tokens":0}}}

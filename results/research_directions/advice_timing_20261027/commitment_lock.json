@@ -1,0 +1,97 @@
+{
+  "created_at": "2026-10-27T01:16:19.959621+00:00",
+  "manifest_sha256": "3b646a35001d81ba969bcbe66ad71bd8f38cfedbb58af7ff3554c51493a351b7",
+  "first_answers": {
+    "U001_first_wrong": {
+      "answer": "B",
+      "finished_sha256": "8818098e51634e2f81274f9ce48c44f35d7817388694ffef51ad07534678de56",
+      "response_sha256": "857a4778751b2a2722a2b906667907ffa0b621aadbda24df1088676af7109daa"
+    },
+    "U001_first_none": {
+      "answer": "A",
+      "finished_sha256": "6050c3ea3249430cb8355d94185baf6164fd08736487c0669c3ca9142c479594",
+      "response_sha256": "431b76ef6dc06b22e649329e95600e28680a88652cfbc16c88e3b4d03f97c3dc"
+    },
+    "U004_first_correct": {
+      "answer": "B",
+      "finished_sha256": "650f83fbddfe633392ede0fbd4e005e8902d0eda901502c0bbfed754af2f38be",
+      "response_sha256": "4da16c3ffbb8decfa52aff33eb900ddf968e9e7c57a2f0b57f09fefb9f1181b5"
+    },
+    "U006_first_correct": {
+      "answer": "B",
+      "finished_sha256": "0fe5e53702617167d0252503c078df21ea46b194c044813802b7736ab1030a95",
+      "response_sha256": "cd57ce49ce436a86a28c9e1b56a14237abcbb2ad6a7e35920fa088ce1708269d"
+    },
+    "U002_first_correct": {
+      "answer": "B",
+      "finished_sha256": "28b2e84014bb2d734e6c8a9c4c0edc967573b82da01c654a0d313c27350d0825",
+      "response_sha256": "8b48bde89b4167d25cc22d3a8a1d9e01ee13f27746323a229bd05ad9e0f2f4d5"
+    },
+    "U003_first_none": {
+      "answer": "A",
+      "finished_sha256": "8c8716ab6946ed7f0bb7924587686c339a0167ca4123c0d99a45fd83597da326",
+      "response_sha256": "c715fbc54fdd9d563d20aba417738490d90d888d7e92c8683f391a2ae2479379"
+    },
+    "U002_first_none": {
+      "answer": "B",
+      "finished_sha256": "da432ff3bfb77aec07388fc920b93a6c9f49195841f06f39a81625a0fbe96050",
+      "response_sha256": "e7e524e0c62f1a5a110b6d28ca40f7e72e4184927c0de310b5cf9ae044faa9d6"
+    },
+    "U004_first_none": {
+      "answer": "B",
+      "finished_sha256": "f9a2865f02f1040fa455554e37c803c5f073e6712b2196b1a01ccdec82cc77d1",
+      "response_sha256": "dcc129ae14201575dcc626d13cbeac0642de7a9ceab663906609064ca4b28547"
+    },
+    "U005_first_none": {
+      "answer": "A",
+      "finished_sha256": "28aec2323c3d202fd86384215dc1c8c9cc02b872e87b0c9c245d35d3cb3dcce1",
+      "response_sha256": "4e5fb48b8efbddcf450c2a5ec38db1159cb7190876dcb47ebe5ca8f0ec003790"
+    },
+    "U001_first_correct": {
+      "answer": "A",
+      "finished_sha256": "8e6f77659108e205f2bb9cb5e13078b9366f11ebe87f6082f264c4059d277da7",
+      "response_sha256": "7d34deb62f085820c3aefebeb117e950247cc097610d314f3dfb3844d4b29a21"
+    },
+    "U006_first_none": {
+      "answer": "B",
+      "finished_sha256": "f316a5f1ae64ef705971ba6f0ffb08c9662e82ad8b5d81add73772cec6701798",
+      "response_sha256": "f2a0a0f9cde067618e0e44d86f17df983d151d8d4b9a03b3d8a0da202e0a5db3"
+    },
+    "U003_first_correct": {
+      "answer": "A",
+      "finished_sha256": "2aec262c5238d95a556ee38c74a962a44a464984b4bc6fe48c4d9d2ac0b79c4d",
+      "response_sha256": "7de170b91300e3bd0edd05f4b600e61ec30454054fb47700f6deca55c2e84d17"
+    },
+    "U003_first_wrong": {
+      "answer": "A",
+      "finished_sha256": "3d5519e467d3e7a305f1f466039e89157436ba4bf14695a81d843304bf0e5ae1",
+      "response_sha256": "2dd1884c223da722db50da9afe517a918f1751991f2e274de0319893e2d9877e"
+    },
+    "U005_first_correct": {
+      "answer": "A",
+      "finished_sha256": "c247f2b3af47f00c26988b2ff1d5942ff5f6bb7cbe1279f014ee315d8ffc9653",
+      "response_sha256": "683f46150d8a1b8e3303edd6a1fb5b96d309c3567afe8b65e90d00d60e2811d8"
+    },
+    "U006_first_wrong": {
+      "answer": "A",
+      "finished_sha256": "8734d7254742f37bdbab04633758450fe3ab15b4ea045b2de9d02b8967c6d76d",
+      "response_sha256": "cbb626277ee767dc50831328f2356dd076edb148512dd2f8a4ba4bda22ab2254"
+    },
+    "U004_first_wrong": {
+      "answer": "A",
+      "finished_sha256": "0e116825b549487d94d07607f30362c4bd67ea149e742d414440f09d73b1a217",
+      "response_sha256": "f3c95e799758caf21a3fbe6478c05839d943530492bcdbd89489a10432e74033"
+    },
+    "U002_first_wrong": {
+      "answer": "A",
+      "finished_sha256": "122142f82804c2a767a8f065cbb341cf58801daa9dd41bec624dccf1b74b4e45",
+      "response_sha256": "3307d9229d7ffab44b513fce72a5a0c7839c91cda91d23ca22e805b063dc9177"
+    },
+    "U005_first_wrong": {
+      "answer": "A",
+      "finished_sha256": "4054b9225e0db487d8058a0deef158feeb9e1feccac9cca0fbbe370acdb2f0f4",
+      "response_sha256": "fa76bb34198697f22bb79123e3c662733adc64e4c68e9bdc9c5f75f0c569e80d"
+    }
+  },
+  "second_requests_dispatched": 0
+}

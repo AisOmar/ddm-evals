@@ -1,0 +1,11 @@
+{
+  "scripts/90_selective_reliance_label_adapter.py": "5837f433a4f8cb5801f63dc510dfad81240f0752f94563b40e1c64cd19c9484b",
+  "docs/SELECTIVE_RELIANCE_CALCULATOR_LABEL_ADAPTER.md": "c8364af2fd76a02315083d16981f91c2d47e3a62418d7bc60c0f7eea3f98bda9",
+  "results/research_directions/selective_reliance_focus_20261024/execution_20261024/adjudication/round1/request.json": "cb01cd116490f8be90a00bc4d9f9c6597a157362a0abb970b54954b1fb766c5d",
+  "results/research_directions/selective_reliance_focus_20261024/execution_20261024/adjudication/round1/raw.json": "20eedf29244b6f66405d3dd0dfccff3489224940e52b66b2bfc5dc2b13aa3f67",
+  "results/research_directions/selective_reliance_focus_20261024/execution_20261024/adjudication/round1/delivery.json": "7b32be3c6ddace1553069ab49e5889c9747b58758667bafb2e2ec52ef9f93c46",
+  "results/research_directions/selective_reliance_focus_20261024/execution_20261024/adjudication/calculator_arguments.json": "e3320cffff4d055ee9aebde1ef287723864e6a86afdd6005c7f29e14f12c3dd9",
+  "results/research_directions/selective_reliance_focus_20261024/execution_20261024/adjudication/calculator_all_results.json": "bcb86368fa3569a7e43b28f6f900e8679ab42d31ed65e208acf18eb5f1352648",
+  "results/research_directions/selective_reliance_focus_20261024/execution_20261024/adjudication/calculator_result.json": "3271209cc8d4f71cc1d8ba37ec43ac9d0360ca4eeccab692c477189f842e2128",
+  "results/research_directions/selective_reliance_focus_20261024/execution_20261024/adjudication/label_adapter.json": "d59ea384953d8eb88677c0da80c3668b22614c60da408d810bd82d4ea0bad60d"
+}

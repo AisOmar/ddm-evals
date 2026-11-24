@@ -1,0 +1,708 @@
+{
+  "reviewer_identity": {
+    "role": "separate fresh-context AI reviewer",
+    "agent_task": "/root/open_packet_blind_review",
+    "provider": "OpenAI Codex",
+    "model_identifier": "not independently exposed by this session; no specific model version claimed",
+    "human_expert_validation": false
+  },
+  "review_timestamp_utc": "2026-10-20T23:48:51.805208+00:00",
+  "input_files": [
+    {
+      "path": "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/open_dataset_packet_20261020/v2/reviewer_packet/INSTRUCTIONS.md",
+      "sha256": "b6f73f0cb024eece8dd638ef2b15fce388a3d5b2d407bd7cb58daeffaf762e57"
+    },
+    {
+      "path": "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/open_dataset_packet_20261020/v2/reviewer_packet/questions.jsonl",
+      "sha256": "6cbb8443aea2886d76c35c180846472bab2803963d25e425c916a9a41a7c6aaa"
+    }
+  ],
+  "exposure_disclosure": {
+    "prior_task_specific_exposure": "Only the parent task instructions and the two allowed packet files were available to this review before lock. I did not inspect source datasets, official answers, analyst answers, model results, other agents outputs, project scripts, or other project files. QUESTIONS.md was not needed or read.",
+    "general_model_exposure": "Public GSM8K/BBH items may have appeared in model pretraining; I cannot certify decontamination or independence from latent memorization.",
+    "checks": "Used only self-authored Python: bracket matching, all 120 order permutations, player swaps, selected arithmetic, input hashing and serialization. No dataset-provided code executed. No model experiments, external services, or people contacted.",
+    "authority_limit": "This is independent task-context AI reasoning, not human expert validation and not evidence of model safety."
+  },
+  "review_scope": "Initial frozen review of the exact twenty v2 question texts and A/B alternatives identified by the input hashes. No source or key reconciliation undertaken.",
+  "difficulty_scale": "very_easy: direct or one short operation; easy: a few elementary steps; moderate: extended tracking with plausible bookkeeping error. These are qualitative human-facing task estimates, not measured model difficulty.",
+  "judgments": [
+    {
+      "review_id": "G01",
+      "question_version": 2,
+      "question_sha256": "909a18e55fcc6620e61cd2b9ad3dd327f23cfcc4915edec436f60874e4148cb0",
+      "options": [
+        "$120.00",
+        "$113.00"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "B",
+      "supported_answer": "$113.00",
+      "derivation": "The return leaves 85 - 15 = 70 dollars. The pan costs 20(1 - .20) = 16 and the towels cost 30(1 - .10) = 27. Balance = 70 + 16 + 27 = 113 dollars.",
+      "alternative_analysis": {
+        "B": "Supported: The return leaves 85 - 15 = 70 dollars. The pan costs 20(1 - .20) = 16 and the towels cost 30(1 - .10) = 27. Balance = 70 + 16 + 27 = 113 dollars.",
+        "A": "Rejected: $120.00 equals 85 - 15 + 20 + 30 and ignores both discounts."
+      },
+      "missing_assumptions_or_overlap": "The clarification fixes the starting balance and excludes fees, taxes, interest and other transactions; no material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "Two discounts and a return require several short arithmetic steps.",
+      "semantic_family": "F01_percent_adjusted_cost_aggregation",
+      "potential_near_duplicate_relationships": [
+        "G06",
+        "G10"
+      ]
+    },
+    {
+      "review_id": "G02",
+      "question_version": 2,
+      "question_sha256": "1d3773160865dabd96a1f3e11f2421329523d39e72b161a79a09314c29013fdd",
+      "options": [
+        "10 tablespoons",
+        "5 tablespoons"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "A",
+      "supported_answer": "10 tablespoons",
+      "derivation": "80 meatballs / (16 meatballs per pound) = 5 pounds; 5 pounds times 2 tablespoons per pound = 10 tablespoons.",
+      "alternative_analysis": {
+        "A": "Supported: 80 meatballs / (16 meatballs per pound) = 5 pounds; 5 pounds times 2 tablespoons per pound = 10 tablespoons.",
+        "B": "Rejected: 5 is the required number of pounds, not the number of tablespoons."
+      },
+      "missing_assumptions_or_overlap": "Assumes the stated yield and seasoning ratio apply linearly; ordinary recipe interpretation. No overlapping alternatives.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "Two successive rate conversions with exact integer division.",
+      "semantic_family": "F02_rate_conversion",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "G03",
+      "question_version": 2,
+      "question_sha256": "d55219a2f651cfcb3c6095c6de608295ab913571bc83914f2ead12779cca484b",
+      "options": [
+        "$101.00",
+        "$96.00"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "A",
+      "supported_answer": "$101.00",
+      "derivation": "Chicken: 10 times 6.50 = 65 dollars. Pasta: 6 times 6 = 36 dollars. Total = 65 + 36 = 101 dollars.",
+      "alternative_analysis": {
+        "A": "Supported: Chicken: 10 times 6.50 = 65 dollars. Pasta: 6 times 6 = 36 dollars. Total = 65 + 36 = 101 dollars.",
+        "B": "Rejected: $96.00 charges all 16 guests six dollars and omits the chicken price premium."
+      },
+      "missing_assumptions_or_overlap": "The stated per-person costs describe the requested catering total; taxes or additional fees are not introduced. Under ordinary word-problem scope no material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "A two-term count-times-price sum.",
+      "semantic_family": "F03_weighted_count_totals",
+      "potential_near_duplicate_relationships": [
+        "G04",
+        "G07"
+      ]
+    },
+    {
+      "review_id": "G04",
+      "question_version": 2,
+      "question_sha256": "728cffe726dda09485952f5ea9e2c2f313b7ea952c80bc0a33d1c9cb9816f09b",
+      "options": [
+        "4000 chair-rental instances",
+        "4480 chair-rental instances"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "A",
+      "supported_answer": "4000 chair-rental instances",
+      "derivation": "Each complete week gives 5 times 60 + 2 times 100 = 500 rentals. Eight complete weeks give 8 times 500 = 4000.",
+      "alternative_analysis": {
+        "A": "Supported: Each complete week gives 5 times 60 + 2 times 100 = 500 rentals. Eight complete weeks give 8 times 500 = 4000.",
+        "B": "Rejected: 4480 would imply 560 rentals each week, inconsistent with the specified five weekday and two weekend counts."
+      },
+      "missing_assumptions_or_overlap": "The clarification fixes exactly eight complete weeks and distinguishes instances from physical inventory; no material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "A weekly weighted sum followed by a period multiplier.",
+      "semantic_family": "F03_weighted_count_totals",
+      "potential_near_duplicate_relationships": [
+        "G03",
+        "G07"
+      ]
+    },
+    {
+      "review_id": "G05",
+      "question_version": 2,
+      "question_sha256": "f049d28a77888c2a6928a908646e10f4c69e2a99aa767928f4cb12b0b60824ca",
+      "options": [
+        "6 boxes in total",
+        "9 boxes in total"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "B",
+      "supported_answer": "9 boxes in total",
+      "derivation": "Three full boxes contain 26 - 2 = 24 pencils, so capacity is 24/3 = 8 pencils per box. Combined pencils = 26 + 46 = 72. Required total capacity uses 72/8 = 9 boxes, including the three existing boxes.",
+      "alternative_analysis": {
+        "B": "Supported: Three full boxes contain 26 - 2 = 24 pencils, so capacity is 24/3 = 8 pencils per box. Combined pencils = 26 + 46 = 72. Required total capacity uses 72/8 = 9 boxes, including the three existing boxes.",
+        "A": "Rejected: Six boxes hold only 48 pencils. Six is the additional number of boxes needed after the three existing boxes, whereas the clarification asks for the total."
+      },
+      "missing_assumptions_or_overlap": "Needs is interpreted as the minimum number of boxes needed to store all pencils; this is conventional and the division is exact. Unlimited extra empty boxes would not be a competing answer to need. No material overlap.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "Infer capacity, combine holdings, then divide; total versus additional boxes is explicitly resolved.",
+      "semantic_family": "F04_capacity_inference",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "G06",
+      "question_version": 2,
+      "question_sha256": "ab96521fc040cb7353c3c07d9d45bd173ed16a8be94e5449d6790233c562b0ac",
+      "options": [
+        "$1066.00",
+        "$1198.00"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "B",
+      "supported_answer": "$1198.00",
+      "derivation": "Each etched frame costs 20 + .20 times 20 = 24 dollars. All frames cost 44 times 24 = 1056. Pins cost 2 times 5 = 10. Officers number 44/4 = 11 and cords cost 11 times 12 = 132. Total = 1056 + 10 + 132 = 1198.",
+      "alternative_analysis": {
+        "B": "Supported: Each etched frame costs 20 + .20 times 20 = 24 dollars. All frames cost 44 times 24 = 1056. Pins cost 2 times 5 = 10. Officers number 44/4 = 11 and cords cost 11 times 12 = 132. Total = 1056 + 10 + 132 = 1198.",
+        "A": "Rejected: $1066.00 is 1056 + 10 and omits all 132 dollars for officer cords."
+      },
+      "missing_assumptions_or_overlap": "Etching percentage applies to the stated per-frame base price, as the wording says; officers receive cords in addition to their frames. No material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "Several additive categories and one percentage surcharge, all exact arithmetic.",
+      "semantic_family": "F01_percent_adjusted_cost_aggregation",
+      "potential_near_duplicate_relationships": [
+        "G01",
+        "G10"
+      ]
+    },
+    {
+      "review_id": "G07",
+      "question_version": 2,
+      "question_sha256": "5b8d1531eee71134737c2a47ef0b8c5b4cf686a7def60dcdab21168ed4746218",
+      "options": [
+        "$23.50",
+        "$31.00"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "B",
+      "supported_answer": "$31.00",
+      "derivation": "Quarter value = 32 times .25 = 8.00; dimes = 95 times .10 = 9.50; nickels = 120 times .05 = 6.00; pennies = 750 times .01 = 7.50. Sum = 31.00 dollars.",
+      "alternative_analysis": {
+        "B": "Supported: Quarter value = 32 times .25 = 8.00; dimes = 95 times .10 = 9.50; nickels = 120 times .05 = 6.00; pennies = 750 times .01 = 7.50. Sum = 31.00 dollars.",
+        "A": "Rejected: $23.50 equals the first three coin subtotals and omits the pennies."
+      },
+      "missing_assumptions_or_overlap": "All coin values are explicitly specified; no material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "Four count-times-value products and their sum.",
+      "semantic_family": "F03_weighted_count_totals",
+      "potential_near_duplicate_relationships": [
+        "G03",
+        "G04"
+      ]
+    },
+    {
+      "review_id": "G08",
+      "question_version": 2,
+      "question_sha256": "58ec0a5922910f99687099ea3c69127578a6d153d419fb33ccc0b97dab9b347a",
+      "options": [
+        "$32.00",
+        "$48.00"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "A",
+      "supported_answer": "$32.00",
+      "derivation": "Total spending = 12 + 43 + 15 + 4 + 22 = 96 dollars. The three people split it equally: 96/3 = 32 dollars each.",
+      "alternative_analysis": {
+        "A": "Supported: Total spending = 12 + 43 + 15 + 4 + 22 = 96 dollars. The three people split it equally: 96/3 = 32 dollars each.",
+        "B": "Rejected: $48.00 divides by two, but the wording says three ways: Isabelle and her two parents."
+      },
+      "missing_assumptions_or_overlap": "The three-way equal division is explicit. No material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "Add five amounts then divide by the explicitly stated number of people.",
+      "semantic_family": "F05_equal_cost_sharing",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "G09",
+      "question_version": 2,
+      "question_sha256": "38bdd73bd14b5fa9dffd32a1d75ff7494cdfb37d9d61f7437db0f5e6b5f8052c",
+      "options": [
+        "$36.00",
+        "$52.00"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "A",
+      "supported_answer": "$36.00",
+      "derivation": "December price = 40 times 1.80 = 72 dollars. January price = 72 times .50 = 36 dollars.",
+      "alternative_analysis": {
+        "A": "Supported: December price = 40 times 1.80 = 72 dollars. January price = 72 times .50 = 36 dollars.",
+        "B": "Rejected: $52.00 uses the net percentage 80% - 50% = 30% on the original 40 dollars, but the January decrease applies to the December price."
+      },
+      "missing_assumptions_or_overlap": "Each price change applies to the immediately preceding price, as conventional sequential price wording indicates; no material ambiguity.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "Two multiplicative percentage updates with different bases.",
+      "semantic_family": "F06_successive_percentage_changes",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "G10",
+      "question_version": 2,
+      "question_sha256": "4cd3e2b0b51ed2d16b6ca12727e5522b9015391d88489849a1c351d762505efd",
+      "options": [
+        "$1380.00",
+        "$1430.00"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "B",
+      "supported_answer": "$1430.00",
+      "derivation": "Material plus construction cost = 500 + 800 = 1300 dollars. Insurance = .10 times 1300 = 130 dollars. Total = 1430 dollars.",
+      "alternative_analysis": {
+        "B": "Supported: Material plus construction cost = 500 + 800 = 1300 dollars. Insurance = .10 times 1300 = 130 dollars. Total = 1430 dollars.",
+        "A": "Rejected: $1380.00 equals 500 + 800 + .10 times 800, applying insurance only to construction contrary to the clarification."
+      },
+      "missing_assumptions_or_overlap": "The clarification fixes the insurance base as combined material and construction charges. No material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "Sum two costs, take a percentage, and add the surcharge.",
+      "semantic_family": "F01_percent_adjusted_cost_aggregation",
+      "potential_near_duplicate_relationships": [
+        "G01",
+        "G06"
+      ]
+    },
+    {
+      "review_id": "B01",
+      "question_version": 2,
+      "question_sha256": "3f098252d263bd784df39cd2d13b5a2bcea296353db1a52a048f631aaafd2470",
+      "options": [
+        "True",
+        "False"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "A",
+      "supported_answer": "True",
+      "derivation": "not(False) is True. True or False is True.",
+      "alternative_analysis": {
+        "A": "Supported: not(False) is True. True or False is True.",
+        "B": "Rejected: False contradicts the truth table for a disjunction with a True operand."
+      },
+      "missing_assumptions_or_overlap": "Uses ordinary Boolean not and inclusive or; parentheses fix evaluation. No overlapping answers.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "very_easy",
+      "difficulty_rationale": "Only negation and one disjunction.",
+      "semantic_family": "F07_boolean_evaluation",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "B02",
+      "question_version": 2,
+      "question_sha256": "4bc853e47f93a0088d640465316b20f9626cdac280a48299c2e59efcf2ef4496",
+      "options": [
+        "03/02/1973",
+        "03/12/1973"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "B",
+      "supported_answer": "03/12/1973",
+      "derivation": "March 5, 1973 plus seven days is March 12, 1973, formatted 03/12/1973.",
+      "alternative_analysis": {
+        "B": "Supported: March 5, 1973 plus seven days is March 12, 1973, formatted 03/12/1973.",
+        "A": "Rejected: 03/02/1973 is three days before March 5, not one week afterward."
+      },
+      "missing_assumptions_or_overlap": "The clarification specifies Gregorian March 5 and the output format; the meteor-shower clause is irrelevant. No material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "very_easy",
+      "difficulty_rationale": "Add seven days without crossing a month boundary.",
+      "semantic_family": "F08_calendar_offset",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "B03",
+      "question_version": 2,
+      "question_sha256": "de1ae32c78222b5fbc1c3ee0b7bea7b94ab983523abfb25ce30ecf16ef3e4bbf",
+      "options": [
+        "> >",
+        "} >"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "A",
+      "supported_answer": "> >",
+      "derivation": "Scanning left to right with a bracket stack, every encountered closer matches its last unmatched opener. The unmatched opening stack at end, from oldest to newest, is [<, <]. The shortest legal completion pops these two openers as > >.",
+      "alternative_analysis": {
+        "A": "Supported: Scanning left to right with a bracket stack, every encountered closer matches its last unmatched opener. The unmatched opening stack at end, from oldest to newest, is [<, <]. The shortest legal completion pops these two openers as > >.",
+        "B": "Rejected: The first proposed closer } in } > cannot close the last unmatched opener <; it mismatches immediately."
+      },
+      "missing_assumptions_or_overlap": "Only closing brackets may be appended, spaces are insignificant, and shortest completion is explicitly required. No material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "moderate",
+      "difficulty_rationale": "A long mixed-bracket prefix requires precise stack tracking despite a two-character answer.",
+      "semantic_family": "F09_bracket_stack_completion",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "B04",
+      "question_version": 2,
+      "question_sha256": "f6c642bcea59c7a6feae5af9afe600da01e036ae5c53d63c7ace13cb2e3a70af",
+      "options": [
+        "The limousine is the second-oldest",
+        "The tractor is the second-oldest"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "B",
+      "supported_answer": "The tractor is the second-oldest",
+      "derivation": "Write the order from oldest to newest. Convertible is fourth, and sedan is newer than convertible, so sedan is fifth. Minivan < tractor < limousine must occupy the first three positions in that order. Complete order: minivan, tractor, limousine, convertible, sedan.",
+      "alternative_analysis": {
+        "B": "Supported: Write the order from oldest to newest. Convertible is fourth, and sedan is newer than convertible, so sedan is fifth. Minivan < tractor < limousine must occupy the first three positions in that order. Complete order: minivan, tractor, limousine, convertible, sedan.",
+        "A": "Rejected: The limousine is third-oldest (also third-newest), not second-oldest."
+      },
+      "missing_assumptions_or_overlap": "A fixed order of the five vehicles is understood to have distinct positions; this is stated by the ordering setup. No missing material assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "The fixed second-newest rank pins down the remaining three-object chain.",
+      "semantic_family": "F10_linear_order_constraints",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "B05",
+      "question_version": 2,
+      "question_sha256": "593e6f2e8fbec47dd3bbf1c931a87b3130521bb97f49ddb3092bbca7f9ebf9f3",
+      "options": [
+        "-858",
+        "702"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "B",
+      "supported_answer": "702",
+      "derivation": "First factor: (-7)(-9) + 8(-3) = 63 - 24 = 39. Second factor: 5 - 7 - 4(-5) = 5 - 7 + 20 = 18. Product = 39 times 18 = 702.",
+      "alternative_analysis": {
+        "B": "Supported: First factor: (-7)(-9) + 8(-3) = 63 - 24 = 39. Second factor: 5 - 7 - 4(-5) = 5 - 7 + 20 = 18. Product = 39 times 18 = 702.",
+        "A": "Rejected: -858 is 39 times -22, which results from treating subtraction of -20 as subtraction of +20 in the second factor."
+      },
+      "missing_assumptions_or_overlap": "Standard arithmetic precedence and signed integer operations; fully parenthesized factor structure. No material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "Several sign-sensitive multiplications and subtractions followed by one product.",
+      "semantic_family": "F11_signed_arithmetic_expression",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "B06",
+      "question_version": 2,
+      "question_sha256": "ffd9b9e5d712551196a7d4de07b8d2dff381e7b8dcc04741eb485e1614a0451c",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "A",
+      "supported_answer": "Yes",
+      "derivation": "Let right be +x and forward be +y. Net horizontal displacement = 6 - 10 + 4 = 0. Net vertical displacement = 1 + 8 - 9 = 0. Final location equals the start.",
+      "alternative_analysis": {
+        "A": "Supported: Let right be +x and forward be +y. Net horizontal displacement = 6 - 10 + 4 = 0. Net vertical displacement = 1 + 8 - 9 = 0. Final location equals the start.",
+        "B": "Rejected: No would require nonzero net displacement on at least one axis, but both sums vanish."
+      },
+      "missing_assumptions_or_overlap": "Fixed heading and equal step length are explicit; no material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "easy",
+      "difficulty_rationale": "Sum signed steps independently along two fixed axes.",
+      "semantic_family": "F12_grid_displacement",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "B07",
+      "question_version": 2,
+      "question_sha256": "dade8dffe45bb0a556280b2f56207996aeb74d894aa54787fed3ce6578608193",
+      "options": [
+        "8",
+        "13"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "B",
+      "supported_answer": "13",
+      "derivation": "Count objects by the stated multiplicities: stove 1 + bed 1 + cars 5 + couch 1 + toaster 1 + fridges 2 + chair 1 + lamp 1 = 13.",
+      "alternative_analysis": {
+        "B": "Supported: Count objects by the stated multiplicities: stove 1 + bed 1 + cars 5 + couch 1 + toaster 1 + fridges 2 + chair 1 + lamp 1 = 13.",
+        "A": "Rejected: 8 counts listed categories rather than all individual objects."
+      },
+      "missing_assumptions_or_overlap": "Each listed item counts as an object; quantities apply as written. No material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "very_easy",
+      "difficulty_rationale": "A short sum with two plural quantities.",
+      "semantic_family": "F13_object_multiplicity_counting",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "B08",
+      "question_version": 2,
+      "question_sha256": "cb0fc2463c9e8e48b4279a2661b8734a9d7b4a33539a3e616a9762ff820e9d74",
+      "options": [
+        "zero",
+        "one"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "A",
+      "supported_answer": "zero",
+      "derivation": "The row starts with the yellow cat toy. No objects are to its left, so the count satisfying non-teal and left-of-yellow is zero.",
+      "alternative_analysis": {
+        "A": "Supported: The row starts with the yellow cat toy. No objects are to its left, so the count satisfying non-teal and left-of-yellow is zero.",
+        "B": "Rejected: One incorrectly counts some object that is not left of the yellow toy, or includes the yellow toy itself; left-of is strict."
+      },
+      "missing_assumptions_or_overlap": "The listed row order is read left to right, the ordinary convention for these row descriptions. All stated colors are non-teal, but that does not change the empty left region. No material ambiguity.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "very_easy",
+      "difficulty_rationale": "The queried position is the first element, making the qualifying region empty.",
+      "semantic_family": "F14_positional_attribute_counting",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "B09",
+      "question_version": 2,
+      "question_sha256": "e297f293f573be560015a5a1f9a365366a1e146b6ac022894f3ef636e8b2f3d0",
+      "options": [
+        "right midfielder",
+        "left midfielder"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "B",
+      "supported_answer": "left midfielder",
+      "derivation": "Track Dave and the holders interacting with him. After Eve/Claire: Eve has left midfielder, Claire goalkeeper. After Alice/Dave: Dave has cheerleader, Alice left winger. After Bob/Eve: Bob has left midfielder, Eve right midfielder. After Dave/Bob: Dave has left midfielder, Bob cheerleader. Final Bob/Eve swap does not involve Dave, so Dave remains left midfielder.",
+      "alternative_analysis": {
+        "B": "Supported: Track Dave and the holders interacting with him. After Eve/Claire: Eve has left midfielder, Claire goalkeeper. After Alice/Dave: Dave has cheerleader, Alice left winger. After Bob/Eve: Bob has left midfielder, Eve right midfielder. After Dave/Bob: Dave has left midfielder, Bob cheerleader. Final Bob/Eve swap does not involve Dave, so Dave remains left midfielder.",
+        "A": "Rejected: Right midfielder belongs to Eve before the final swap and to Bob afterward; Dave never receives it."
+      },
+      "missing_assumptions_or_overlap": "Swaps exchange current positions between the named players, as explicit in the story. No material missing assumption; the unusual soccer role cheerleader does not change the abstract permutation.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "moderate",
+      "difficulty_rationale": "Five named entities and five swaps require maintaining current assignments.",
+      "semantic_family": "F15_assignment_permutation_tracking",
+      "potential_near_duplicate_relationships": []
+    },
+    {
+      "review_id": "B10",
+      "question_version": 2,
+      "question_sha256": "0f0fc0208326ee39c99990c1f8b4352c4d37a1b9dbdcb3b35cfb02abf99bd5b1",
+      "options": [
+        "blest buxton consternate proximity quizzes sound tariff xerxes",
+        "blest buxton consternate quizzes proximity sound tariff xerxes"
+      ],
+      "exactly_one_supported": true,
+      "supported_letter": "A",
+      "supported_answer": "blest buxton consternate proximity quizzes sound tariff xerxes",
+      "derivation": "The words have initial letters s,c,t,b,p,q,x,b. Alphabetic order of initial groups is b,c,p,q,s,t,x. Within b, blest precedes buxton because l precedes u. Thus blest buxton consternate proximity quizzes sound tariff xerxes.",
+      "alternative_analysis": {
+        "A": "Supported: The words have initial letters s,c,t,b,p,q,x,b. Alphabetic order of initial groups is b,c,p,q,s,t,x. Within b, blest precedes buxton because l precedes u. Thus blest buxton consternate proximity quizzes sound tariff xerxes.",
+        "B": "Rejected: The other sequence places quizzes before proximity, but p precedes q."
+      },
+      "missing_assumptions_or_overlap": "Ordinary English lexicographic ordering; all words use lower-case Latin letters with no locale-sensitive distinctions. No material missing assumption.",
+      "answer_overlap": false,
+      "disposition": "retain",
+      "repair_proposal": null,
+      "difficulty": "very_easy",
+      "difficulty_rationale": "Almost every comparison is determined by the first letter.",
+      "semantic_family": "F16_lexicographic_sorting",
+      "potential_near_duplicate_relationships": []
+    }
+  ],
+  "family_assignment": {
+    "status": "provisional",
+    "frozen_scope": "The following 16 mechanism-family assignments are frozen for this initial review of these twenty exact items only. They are not settled across any broader dataset or future rewrite.",
+    "families": {
+      "F01_percent_adjusted_cost_aggregation": [
+        "G01",
+        "G06",
+        "G10"
+      ],
+      "F02_rate_conversion": [
+        "G02"
+      ],
+      "F03_weighted_count_totals": [
+        "G03",
+        "G04",
+        "G07"
+      ],
+      "F04_capacity_inference": [
+        "G05"
+      ],
+      "F05_equal_cost_sharing": [
+        "G08"
+      ],
+      "F06_successive_percentage_changes": [
+        "G09"
+      ],
+      "F07_boolean_evaluation": [
+        "B01"
+      ],
+      "F08_calendar_offset": [
+        "B02"
+      ],
+      "F09_bracket_stack_completion": [
+        "B03"
+      ],
+      "F10_linear_order_constraints": [
+        "B04"
+      ],
+      "F11_signed_arithmetic_expression": [
+        "B05"
+      ],
+      "F12_grid_displacement": [
+        "B06"
+      ],
+      "F13_object_multiplicity_counting": [
+        "B07"
+      ],
+      "F14_positional_attribute_counting": [
+        "B08"
+      ],
+      "F15_assignment_permutation_tracking": [
+        "B09"
+      ],
+      "F16_lexicographic_sorting": [
+        "B10"
+      ]
+    },
+    "relationship_analysis": [
+      {
+        "members": [
+          "G03",
+          "G07"
+        ],
+        "assessment": "Closest genuine template-level overlap: sum category counts times category values. Surface domain and number of categories differ, but the computational skeleton is the same. Treat these as a potential near-duplicate dependency for split design, although the exact texts are not near-identical."
+      },
+      {
+        "members": [
+          "G03",
+          "G04",
+          "G07"
+        ],
+        "assessment": "Same weighted-count-total family. G04 adds a complete-week repetition factor; this is an extra step, so it is not an exact template clone, but independence should not be assumed."
+      },
+      {
+        "members": [
+          "G01",
+          "G06",
+          "G10"
+        ],
+        "assessment": "Shared component-wise percentage-adjusted cost aggregation. G06 and G10 share surcharge-plus-other-cost structure; G06 adds subset counting and several gifts, G10 first combines the insurance base. G01 uses two discounts and a credit. Potential family dependence, not a claim of near-identical questions."
+      },
+      {
+        "members": [
+          "B07",
+          "G03",
+          "G04",
+          "G07"
+        ],
+        "assessment": "Cross-family arithmetic overlap: B07 also aggregates multiplicities but does not apply per-unit values or a time repetition factor. Shared addition skill alone is not evidence of near-identical template dependence."
+      },
+      {
+        "members": [
+          "G09",
+          "G01",
+          "G06",
+          "G10"
+        ],
+        "assessment": "Cross-family percentage skill. G09 is successive changes to a running amount; others apply percentages to distinct named cost components. Same broad skill does not make the templates identical."
+      },
+      {
+        "members": [
+          "B04",
+          "B08",
+          "B09",
+          "B10"
+        ],
+        "assessment": "All involve order or position at a broad level. Constraint deduction, static positional filtering, dynamic swaps, and lexicographic sorting are materially different mechanisms; no near-identical template dependence found among these."
+      }
+    ],
+    "cross_family_independence_limits": "Family labels do not establish statistical independence. Arithmetic primitives, short two-choice format, author/source provenance, lexical cues, and possible pretraining exposure are shared across families. The twenty-item packet is too small to estimate residual dependence or to justify strong family-generalization claims. No public-source template search or wider-pool comparison was performed because it was outside this blinded scope."
+  },
+  "summary": {
+    "items": 20,
+    "unique_supported_answers": 20,
+    "dispositions": {
+      "retain": 20,
+      "repair": 0,
+      "exclude": 0,
+      "unresolved": 0
+    },
+    "supported_letters": {
+      "G01": "B",
+      "G02": "A",
+      "G03": "A",
+      "G04": "A",
+      "G05": "B",
+      "G06": "B",
+      "G07": "B",
+      "G08": "A",
+      "G09": "A",
+      "G10": "B",
+      "B01": "A",
+      "B02": "B",
+      "B03": "A",
+      "B04": "B",
+      "B05": "B",
+      "B06": "A",
+      "B07": "B",
+      "B08": "A",
+      "B09": "B",
+      "B10": "A"
+    },
+    "letter_counts": {
+      "A": 10,
+      "B": 10
+    },
+    "difficulty_counts": {
+      "very_easy": 5,
+      "easy": 13,
+      "moderate": 2
+    },
+    "provisional_family_count": 16,
+    "repairs": "None proposed. Original questions and initial judgments are preserved; any later repair requires separate revalidation without overwriting this review.",
+    "concerns": [
+      "Most items are elementary; suitability for distinguishing advanced research-development capability is unestablished.",
+      "Potential template dependence in the weighted-total family, especially G03/G07; shared percentage-cost mechanisms also warrant grouped analysis.",
+      "Public benchmark pretraining exposure cannot be ruled out.",
+      "A/B distribution and twenty observations cannot support strong measurement or safety conclusions."
+    ]
+  }
+}

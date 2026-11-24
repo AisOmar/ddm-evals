@@ -1,0 +1,22 @@
+{
+  "sample_id": "D01__r1__default",
+  "prepared_at": "2026-10-22T23:12:22.125826+00:00",
+  "manifest_sha256": "da9a1a575120d91f43fa2379312983b322abc7ab5152fa5d8bfb3c4665b8451a",
+  "request_sha256": "e8e0595dbcefd9fe3562aa85ea3804489d822eb0cdfedb6052b445a13566c055",
+  "reserved_cost_usd": "0.00151864",
+  "finished_at": "2026-10-22T23:12:25.664425+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "A",
+    "correct": true,
+    "strict_format": true
+  },
+  "recorded_cost_usd": "0.00006882",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "81bb454a2ecdab3d696871163b32ed3a134682b26143cd0a87fabaaec5fc5e7f",
+  "headers_sha256": "6c836725685009a2f96c107a2d881ac63b3250289560efe1565bc4540990068a"
+}

@@ -1,0 +1,9 @@
+{
+  "scripts/54_reliance_calibration.py": "6ff677727db294daa91e4dc89b791419a477dfa2be5daf87a072dbd79b8c23e4",
+  "docs/RELIANCE_CALIBRATION_V2.md": "a7ab5ecb671af93006b796ae01a4d31a9280d0db1df24b7b9622b4fd6eef4d0b",
+  "results/research_directions/reliance_calibration_v2/packet.json": "cbc2775fca5a00da6de9ddd40f0cc4ca5de103bab05c9963f860aead78494d89",
+  "results/research_directions/reliance_calibration_v2/calibration_masked_review.json": "b3fd4443b038dc6300c10e4a49ffb0bcd05448255e1bde7431cefe6833117629",
+  "results/research_directions/reliance_calibration_v2/reserved_masked_review.json": "0b17fc0d12cd08e3185eaeb0dae55b02cf6754c61fef465c389552c363bad6dd",
+  "results/research_directions/reliance_calibration_v2/delivery_canary_draft.json": "373d20c0cf4c808517be5621ce86213216fc60d8bf2b6437f3c49352b257877f",
+  "results/research_directions/reliance_calibration_v2/readiness.json": "056e118d5774f16ff34f5b1ead346747589014510290b8ceea8cd9c2817335e7"
+}

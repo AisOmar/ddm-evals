@@ -1,0 +1,9 @@
+{
+  "design_plan": "../plan.json",
+  "replicates": 20,
+  "questions": 400,
+  "folds": 3,
+  "method": "Composite likelihood MAP of trial marginals, with priors from 08. This is approximate screening; within-question covariance is omitted from fitting, retained in generation and question-level uncertainty.",
+  "validation": "Hierarchical MAP for first replicate of all six scenarios; full Bayesian comparison for first replicate of both calibrated scenarios, chosen in the design plan.",
+  "diagnostics": "Two starts; optimizer convergence, max gradient <0.5, objective spread <2 nats. Failures stay in rate denominators."
+}

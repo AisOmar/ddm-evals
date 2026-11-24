@@ -1,0 +1,14 @@
+{
+  "label": "strat_two_process_weak_c200_r50_s1_fold0_baseline",
+  "seconds": 95.37839102745056,
+  "divergences": 0,
+  "max_rhat": 1.0133988560370557,
+  "min_ess": 309.7969459644107,
+  "draws": 1500,
+  "chains": 4,
+  "tune": 1000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

@@ -1,0 +1,7 @@
+case,delta,se,valid,winner,composite_winner
+ddm_calibrated_00_cap32768,553.8207124801093,71.67060184804801,True,ddm,ddm
+ddm_calibrated_00_cap8192,462.6314823191035,64.15993573264711,True,ddm,ddm
+ddm_question_time_00_cap32768,753.9325502557649,70.48245459366014,False,fit failure,ddm
+baseline_calibrated_00_cap32768,-1731.1455114689375,135.44984385820743,True,baseline,baseline
+baseline_calibrated_00_cap8192,-1601.6081716615804,124.11461149845091,True,baseline,baseline
+baseline_contaminated_00_cap32768,-834.5717875575226,87.02275471647707,True,baseline,baseline

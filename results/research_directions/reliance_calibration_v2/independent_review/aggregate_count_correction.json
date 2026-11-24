@@ -1,0 +1,6 @@
+{
+  "status": "POST-LOCK FACTUAL CORRECTION; NO KEYS OPENED",
+  "corrects": "final_audit_summary.json: expected_difficulty_without_tools.shortest_path",
+  "correction": "Two items, not three, have an optimal direct 0-to-8 edge: calibration-shortest_path-06 and reserved-shortest_path-01. All per-item evidence is correct; this corrects only the aggregate prose count.",
+  "review_type": "Fresh-context AI review, not human expert or independently trained model."
+}

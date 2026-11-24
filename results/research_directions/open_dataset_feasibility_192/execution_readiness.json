@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-10-21T00:57:03.900758+00:00",
+  "status": "completed_192_attempts",
+  "execution_authorized": true,
+  "n_attempted": 192,
+  "n_raw": 192,
+  "n_strictly_answered": 157,
+  "n_strictly_correct": 156,
+  "analysis_complete": true,
+  "outcomes": {
+    "answered": 157,
+    "api_error": 26,
+    "format_error": 7,
+    "censored": 2
+  },
+  "recorded_cost_usd": "0.024711689",
+  "missing_cost_metadata_responses": 26,
+  "full_attempt_reserve_usd": "0.247093848",
+  "safety_metric_validated": false,
+  "efficacy_claim_permitted": false,
+  "old_study_remains_paused": true,
+  "active_batch": false,
+  "further_inference_queued": false,
+  "preparation_readiness_preserved_as_history": true,
+  "results_report": "docs/OPEN_DATASET_FEASIBILITY_RESULTS.md",
+  "recommended_next_step": "Resolve delivery reliability and review a harder separately calibrated packet before scaling."
+}

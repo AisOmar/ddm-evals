@@ -1,0 +1,22 @@
+{
+  "stage": "prepared_for_review",
+  "item_count": 40,
+  "family_count": 8,
+  "splits": {
+    "calibration": 16,
+    "reserved": 16,
+    "resource": 8
+  },
+  "author_checks_passed": 40,
+  "independent_review_complete": false,
+  "resource_gate_passed": false,
+  "resource_planned_calls": 16,
+  "resource_attempted": 0,
+  "calibration_candidate_calls": 64,
+  "calibration_attempted": 0,
+  "advice_attempted": 0,
+  "original_study_remains_paused": true,
+  "live_preflight_complete": false,
+  "execution_ready": false,
+  "paid_requests_launched": 0
+}

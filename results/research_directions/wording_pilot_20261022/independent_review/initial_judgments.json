@@ -1,0 +1,563 @@
+{
+  "reviewer": "independent_wording_review: fresh-context AI reviewer (Codex); not a human reviewer",
+  "date": "2026-10-22",
+  "prior_exposure": {
+    "before_initial_lock": [
+      "review/masked_items.json",
+      "review/review_template.json"
+    ],
+    "excluded": [
+      "author keys",
+      "author packet",
+      "generator scripts",
+      "proposal",
+      "matched_sets.json",
+      "model outputs"
+    ],
+    "independence_limits": "A separate agent was tasked with this review. No author answer/context was supplied. All anonymous items are visible together, so repeated content can be noticed naturally. This is an independent AI review, not human validation."
+  },
+  "interpretation_policy": "Assess literal entailment under ordinary mathematical English, while recording minor lexical conventions separately. unique_answer means one option is supported by that reading; strict wording qualifications remain visible in wording_concerns.",
+  "items": [
+    {
+      "review_id": "M001",
+      "chosen_letter": "A",
+      "derived_answer": "96 credits",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "100*(1-0.20)=80; 80*(1+0.20)=96.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B incorrectly treats equal percentage changes on different bases as canceling."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M002",
+      "chosen_letter": "A",
+      "derived_answer": "Friday",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Monday plus three days is Thursday (today); the next day is Friday.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B would require today to be Friday, four days after Monday."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M003",
+      "chosen_letter": "A",
+      "derived_answer": "Friday",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "The day after Monday is Tuesday. If Tuesday was two days ago, today is Thursday and tomorrow is Friday.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B is one day too late; the offsets from Tuesday to tomorrow total three days."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M004",
+      "chosen_letter": "B",
+      "derived_answer": "1 credit",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Let child price be c and adult price c+9. Then 2c+9=11, hence c=1.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A=2 gives an adult price of 11 and a total of 13, violating the total."
+      },
+      "wording_concerns": [
+        "The definite adult/child references conventionally identify the two tickets; explicitly saying one adult and one child would remove a very minor referential presupposition."
+      ],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English; see wording_concerns for lexical qualifications."
+    },
+    {
+      "review_id": "M005",
+      "chosen_letter": "A",
+      "derived_answer": "4 km/h",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Times are 12/6=2 hours and 12/3=4 hours. Total distance/time=24/6=4 km/h.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B is the unweighted arithmetic mean of the two speeds, which is inappropriate for equal distances with unequal times."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M006",
+      "chosen_letter": "B",
+      "derived_answer": "11",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "The intervention replaces the X equation, so X=4 and U=3. Y=2*4+3=11.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A=10 does not satisfy the retained Y equation with the stated post-intervention values."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M007",
+      "chosen_letter": "B",
+      "derived_answer": "6",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "If Omar has o tokens, Lina has 2o and their difference is o=6.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A=3 gives Lina 6 and a difference of only 3."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M008",
+      "chosen_letter": "A",
+      "derived_answer": "96 credits",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "The reduced price is 100*0.8=80; the increase is 0.2*80=16, producing 96 credits.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B incorrectly cancels equal percentage changes despite their different bases."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M009",
+      "chosen_letter": "A",
+      "derived_answer": "96 credits",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "100*0.8=80; increasing this by 20% gives 80+0.2*80=96.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B would require adding 20 credits, whereas 20% of the result is 16."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M010",
+      "chosen_letter": "A",
+      "derived_answer": "9/17",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "There are 18+16=34 flagged devices, of which 18 are infected. The probability is 18/34=9/17.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B=9/10 is 18/20, the fraction of infected devices flagged, a different conditioning event."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M011",
+      "chosen_letter": "A",
+      "derived_answer": "4 km/h",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "The outbound and return distances are each 12 km. Times are 12/6=2 and 12/3=4 hours; average speed=24/(2+4)=4 km/h.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B is the unweighted mean of speeds and ignores the longer time spent returning."
+      },
+      "wording_concerns": [
+        "\"Same 12 km route\" is naturally the one-way route length. Even if treated as total length, equal outbound/return distances still imply the same average speed."
+      ],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English; see wording_concerns for lexical qualifications."
+    },
+    {
+      "review_id": "M012",
+      "chosen_letter": "A",
+      "derived_answer": "2/5",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Treat scanner detections as flags: 12 infected and 18 uninfected devices are flagged. Probability=12/(12+18)=2/5.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B=3/4 is 12/16, the detection rate among infected devices, not infection probability among flagged devices."
+      },
+      "wording_concerns": [
+        "Uses \"detects\" for infected devices and \"flags\" for uninfected ones. Ordinary scanner usage makes detected devices flagged, but literal precision would use \"flags\" consistently or explicitly equate the terms."
+      ],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English; see wording_concerns for lexical qualifications."
+    },
+    {
+      "review_id": "M013",
+      "chosen_letter": "A",
+      "derived_answer": "Sunday",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Two days after Tuesday is Thursday. If Thursday was the day before yesterday, today is Saturday and tomorrow is Sunday.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B is one day too late."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M014",
+      "chosen_letter": "B",
+      "derived_answer": "75 credits",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "80*(1-0.25)=60; 60*(1+0.25)=75 credits.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A incorrectly treats equal percentage changes on different bases as canceling."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M015",
+      "chosen_letter": "B",
+      "derived_answer": "Yes",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Sealed implies labeled. The parcel is not labeled, so by contraposition it is not sealed.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A rejects an entailment that follows directly from the stated necessary condition."
+      },
+      "wording_concerns": [
+        "\"Required\" is read as the universal necessary condition given in the first sentence. A real-world policy-with-violations reading would weaken the premise, but is not the natural reading of this abstract logic item."
+      ],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English; see wording_concerns for lexical qualifications."
+    },
+    {
+      "review_id": "M016",
+      "chosen_letter": "B",
+      "derived_answer": "5",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Let Ben have b tokens; Nora has 3b and 3b-b=10. Therefore 2b=10 and b=5.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A=10/3 treats 10 as Nora's total rather than the difference; it gives difference 20/3."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M017",
+      "chosen_letter": "B",
+      "derived_answer": "6",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Let Omar have o tokens. Lina has 2o, and token counts are nonnegative, so the difference is 2o-o=o=6.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A=3 yields a difference of only 3."
+      },
+      "wording_concerns": [
+        "The unsigned \"difference\" relies on ordinary nonnegative token counts to fix direction; this is supplied by the token-count domain. No extra assumption is missing in ordinary usage."
+      ],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English; see wording_concerns for lexical qualifications."
+    },
+    {
+      "review_id": "M018",
+      "chosen_letter": "B",
+      "derived_answer": "1 credit",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "With child price c, adult price is c+9. Their sum gives 2c+9=11, so c=1.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A=2 leads to adult price 11 and total 13."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M019",
+      "chosen_letter": "B",
+      "derived_answer": "Some insulated pipe is not wet.",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Choose the insulated pipe guaranteed to exist. It is dry, and no dry pipe is wet, so it is an insulated pipe that is not wet.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A needs at least one wet pipe. A model containing just one insulated dry nonwet pipe satisfies every premise but makes A false."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M020",
+      "chosen_letter": "B",
+      "derived_answer": "11",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Only the X equation is replaced. Substitute X=4 and U=3 into Y=2X+U to get 11.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A=10 does not obey the retained equation for Y."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M021",
+      "chosen_letter": "A",
+      "derived_answer": "Friday",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Three days after Monday is Thursday, so tomorrow is Friday.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B puts today on Friday and violates the three-day offset."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M022",
+      "chosen_letter": "B",
+      "derived_answer": "1 credit",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "If the child price is c, adult price is c+9. Thus c+(c+9)=11 and c=1.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A=2 gives a combined price of 13."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M023",
+      "chosen_letter": "A",
+      "derived_answer": "7.2 km/h",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Times are 18/9=2 hours and 18/6=3 hours. Average speed=36/(2+3)=7.2 km/h.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B=7.5 is the unweighted mean of speeds and ignores unequal travel times."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M024",
+      "chosen_letter": "B",
+      "derived_answer": "11",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Force X=4 while U=3 and Y=2X+U remains in effect: Y=8+3=11.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A=10 is inconsistent with the fixed U and retained Y equation."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M025",
+      "chosen_letter": "B",
+      "derived_answer": "10",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "The intervention gives X=2 while U=4. The retained equation gives Y=3*2+4=10.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A=5 does not satisfy the retained equation under the intervention."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M026",
+      "chosen_letter": "A",
+      "derived_answer": "9/17",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "The flagged group has 18+16=34 devices and 18 infected devices. Uniform sampling gives 18/34=9/17.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B=18/20=9/10 describes the fraction of infected devices flagged, not the fraction infected among flags."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M027",
+      "chosen_letter": "B",
+      "derived_answer": "Yes",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Every sealed parcel is labeled; this one is not labeled. Contraposition implies it is not sealed.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A denies a consequence of the universal premise."
+      },
+      "wording_concerns": [
+        "\"Unsealed\" is interpreted in its usual binary opposition to sealed; no third state is introduced by the premises."
+      ],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English; see wording_concerns for lexical qualifications."
+    },
+    {
+      "review_id": "M028",
+      "chosen_letter": "A",
+      "derived_answer": "9/17",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Taking detections to be scanner flags, the flagged set has 18 infected plus 16 uninfected devices. Probability=18/34=9/17.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B=9/10 is scanner sensitivity, 18/20, rather than the requested conditional probability."
+      },
+      "wording_concerns": [
+        "Uses \"detects\" and \"flags\" for the two groups. Ordinary usage links these, but strict explicitness would say \"flags\" in both clauses."
+      ],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English; see wording_concerns for lexical qualifications."
+    },
+    {
+      "review_id": "M029",
+      "chosen_letter": "B",
+      "derived_answer": "Yes",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "No sealed parcel lacks a label. This parcel lacks one, so assuming it sealed contradicts the universal premise. Sealing is impossible under these premises.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A permits a state explicitly excluded by the universal premise."
+      },
+      "wording_concerns": [
+        "The yes/no question uses \"impossible\" and a negated universal, increasing polarity tracking without adding a substantive premise."
+      ],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English; see wording_concerns for lexical qualifications."
+    },
+    {
+      "review_id": "M030",
+      "chosen_letter": "A",
+      "derived_answer": "2 credits",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Let child price be c. Then adult price=c+13 and 2c+13=17, so c=2.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B=4 leads to adult price 17 and total 21."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M031",
+      "chosen_letter": "A",
+      "derived_answer": "4 km/h",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "The travel times are 12/6=2 and 12/3=4 hours. Average speed is 24/6=4 km/h.",
+      "alternative_assessment": {
+        "A": "Supported by the derivation.",
+        "B": "B is the unweighted arithmetic mean, which is wrong for equal-distance legs at unequal speeds."
+      },
+      "wording_concerns": [],
+      "expected_steps": 3,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    },
+    {
+      "review_id": "M032",
+      "chosen_letter": "B",
+      "derived_answer": "6",
+      "unique_answer": true,
+      "must_fix": false,
+      "derivation": "Let Omar have o tokens; Lina has 2o and 2o-o=6, so o=6.",
+      "alternative_assessment": {
+        "B": "Supported by the derivation.",
+        "A": "A=3 produces Lina=6 and a difference of 3."
+      },
+      "wording_concerns": [],
+      "expected_steps": 2,
+      "difficulty": "easy",
+      "literal_uniqueness": "Unique under ordinary mathematical English."
+    }
+  ],
+  "summary": {
+    "items": 32,
+    "unique_answers": 32,
+    "must_fix": 0,
+    "blocking_concerns": [],
+    "optional_precision_concerns": [
+      "M004",
+      "M012",
+      "M015",
+      "M028"
+    ],
+    "note": "M012 and M028 rely on the ordinary scanner convention that detected devices are flagged. This is a precision concern rather than a second mathematically supported option."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "sample_id": "F025__gpt-oss__ordinary__none__r1",
+  "prepared_at": "2026-10-24T23:47:13.551617+00:00",
+  "manifest_sha256": "2f1066d53dea2d2ac999226af99acbb3ed24cc8bb0b21fa425f4da1462626508",
+  "request_sha256": "4d06c3aa49d1d82b4ad3fd60eb54013fff7d05eb0c369abfa719123b3967f911",
+  "reserved_cost_usd": "0.00055164",
+  "finished_at": "2026-10-24T23:47:15.895345+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "B",
+    "correct": true,
+    "strict_format": true
+  },
+  "recorded_cost_usd": "0.00005457",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "b606d62256a8d5a3da2f8fd46933a92b6a432175ff6327c769726d35425c9a7f",
+  "headers_sha256": "765b70b4ebf049d7c0c3fb313cc85ec383c7a60e7aaac9b6325acf4a2feb2393",
+  "retry_permitted": false,
+  "minimum_429_cooldown_seconds": null
+}

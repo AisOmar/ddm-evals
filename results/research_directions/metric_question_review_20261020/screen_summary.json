@@ -1,0 +1,67 @@
+{
+  "created_at": "2026-10-20T20:55:18.032158+00:00",
+  "masked_source_sha256": "c2053854d6c3c3f0c7af92d43d04a5251d65bf6d23702b17cdafdd34470577c5",
+  "script_sha256": "fdbacfcfa2992dee65738f6b904fa5735e5557760a5be463e457fff490c54830",
+  "n_items": 1447,
+  "structural_flag_counts": {
+    "compiler_extension_needs_environment_review": 51,
+    "requested_number_visible_in_field_label": 27,
+    "missing_wasm_function_body": 5,
+    "shared_exact_packet_bytes": 24
+  },
+  "n_packet_questions": 289,
+  "n_distinct_exact_packet_payloads": 274,
+  "repeated_packet_families": [
+    [
+      "F0165",
+      "F0423",
+      "F1163",
+      "F1259"
+    ],
+    [
+      "F0314",
+      "F1024",
+      "F1183",
+      "F1192"
+    ],
+    [
+      "F0363",
+      "F0441",
+      "F0531"
+    ],
+    [
+      "F0369",
+      "F0717"
+    ],
+    [
+      "F0447",
+      "F1040"
+    ],
+    [
+      "F0489",
+      "F1433"
+    ],
+    [
+      "F0920",
+      "F1046"
+    ],
+    [
+      "F1033",
+      "F1096"
+    ],
+    [
+      "F1217",
+      "F1301",
+      "F1436"
+    ]
+  ],
+  "independent_review_complete": false,
+  "collection_ready": false,
+  "limitations": [
+    "Screening is not an answer, difficulty, or semantic-family review.",
+    "No flag does not mean valid. A flag is not automatically an exclusion.",
+    "Shared bytes establish a conservative dependency group, not equivalence of questions.",
+    "Field-label checks do not independently verify the decoded packet value.",
+    "Compiler-extension checks do not prove every affected program is invalid."
+  ]
+}

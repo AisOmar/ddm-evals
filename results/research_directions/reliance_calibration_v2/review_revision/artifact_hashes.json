@@ -1,0 +1,10 @@
+{
+  "scripts/55_repair_calibration_options.py": "b94600e702b42762e02adc7cccd0a2e14aa559a4d73f1ec546d55d71742840f2",
+  "docs/RELIANCE_CALIBRATION_REVIEW.md": "2584ba86f0a9ea462ccac4f34993ba626ba7fbec61ffad43f2e455d3aa31a717",
+  "results/research_directions/reliance_calibration_v2/artifact_hashes.json": "f5f6cdd6c48e0f1cca04e2bcce63fc01125cb486b6ce0517c1d8329a1165ce34",
+  "results/research_directions/reliance_calibration_v2/review_revision/packet.json": "822d6bd65341e45ca540cb5b9873aeb9de70ce4a4649fd465601610d437e351a",
+  "results/research_directions/reliance_calibration_v2/review_revision/repair_log.json": "f56dd442ab3d34e849c1f695ce0aabdadd77a024f664b61f3a2a86583312b0c5",
+  "results/research_directions/reliance_calibration_v2/review_revision/calibration_masked_review.json": "6c5be255515771e9eb0ac31943c59fa8f2b9e68f06937b85cfc3057f8d479037",
+  "results/research_directions/reliance_calibration_v2/review_revision/reserved_masked_review.json": "9fd2693989ea29c2f66f935b1985530cdad6759f464cec7bc8dd656394a45a4d",
+  "results/research_directions/reliance_calibration_v2/review_revision/readiness.json": "d3aed700dba71d537321e36fafb63d68512683dfa4970e2f645f1ddc9872fb0d"
+}

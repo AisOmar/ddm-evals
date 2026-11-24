@@ -1,0 +1,10 @@
+{
+  "n_resource": 4,
+  "n_calibration": 16,
+  "n_reserved": 16,
+  "independent_review_complete": false,
+  "resource_gate_passed": false,
+  "calibration_planned_calls": 64,
+  "calibration_calls_launched": 0,
+  "original_study_remains_paused": true
+}

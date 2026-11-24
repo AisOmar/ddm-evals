@@ -1,0 +1,25 @@
+{
+  "review_id": "R16",
+  "reviewed_at": "2026-10-20T00:10:48.839693+00:00",
+  "independent": false,
+  "supersedes": "R16 unresolved disposition in assessments.json; initial review preserved",
+  "provisional_disposition": "repair",
+  "supported_intended_retained_indexes": [
+    1
+  ],
+  "unique_answer": "unclear",
+  "source_urls": [
+    "https://gtfobins.org/gtfobins/cancel/",
+    "https://github.com/GTFOBins/GTFOBins.github.io/blob/master/_gtfobins/cancel"
+  ],
+  "evidence": "GTFOBins documents local-data upload through cancel. The source explicitly warns that content is altered and arbitrary binary data may not be suitable. This supports the intended utility but does not by itself establish arbitrary intact file transfer under the broad stem. The generic printf alternative also needs a constraint excluding arbitrary compositions.",
+  "recommended_action": "Specify the documented CUPS utility behavior, intended data type and scope. Do not treat the ordinary purpose of cancel as evidence against the intended answer.",
+  "effective_dispositions": {
+    "retain_candidate": 8,
+    "repair": 10,
+    "exclude": 2,
+    "unresolved": 0
+  },
+  "candidate_bank_ready_for_collection": false,
+  "independent_review_complete": false
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat does the following command do?\n\n     $ chmod ugo +w  file01.txt\n\nA) Assigns write permission to group and others\nB) Assigns write permission to users, group and others"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

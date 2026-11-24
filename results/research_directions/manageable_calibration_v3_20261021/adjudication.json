@@ -1,0 +1,18 @@
+{
+  "n_reviewed": 36,
+  "n_answer_agreements": 36,
+  "n_unique_answers": 36,
+  "must_fix_blockers": 0,
+  "review_type": "Fresh-context AI; not human expert or independent training",
+  "author_keys_compared_after_review_lock": true,
+  "authoritative_review_lock": "independent_review/INITIAL_SHA256_LOCK.json",
+  "scope": "Bounded numerical difficulty/resource calibration only",
+  "known_limitations": [
+    "Four shared templates",
+    "Unknown empirical difficulty",
+    "Arithmetic and bookkeeping remain",
+    "Local assignment structure remains; IDs not shown to models"
+  ],
+  "resource_questions_separate_from_calibration": true,
+  "old_study_remains_paused": true
+}

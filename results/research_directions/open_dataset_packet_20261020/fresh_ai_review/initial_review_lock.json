@@ -1,0 +1,19 @@
+{
+  "lock_type": "initial_review_sha256",
+  "created_utc": "2026-10-20T23:48:51.805855+00:00",
+  "review_path": "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/open_dataset_packet_20261020/fresh_ai_review/initial_review.json",
+  "review_sha256": "5cd4c35d1534d2891ffd5912e6da6e4527f2b327b4553a2e843220f812d624d4",
+  "input_files": [
+    {
+      "path": "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/open_dataset_packet_20261020/v2/reviewer_packet/INSTRUCTIONS.md",
+      "sha256": "b6f73f0cb024eece8dd638ef2b15fce388a3d5b2d407bd7cb58daeffaf762e57"
+    },
+    {
+      "path": "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/open_dataset_packet_20261020/v2/reviewer_packet/questions.jsonl",
+      "sha256": "6cbb8443aea2886d76c35c180846472bab2803963d25e425c916a9a41a7c6aaa"
+    }
+  ],
+  "scope": "Locks the initial judgments and provisional family map before any key/analyst/model-result comparison. No such comparison occurred.",
+  "overwrite_policy": "Initial review and initial lock must never be overwritten; subsequent reconciliation must use separate files.",
+  "limitation": "This local hash lock detects changed bytes if the stored hash is trusted; it is not a third-party timestamp or cryptographic signature."
+}

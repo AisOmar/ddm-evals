@@ -1,0 +1,22 @@
+{
+  "sample_id": "W08__trap__wrong__r2__Qwen3",
+  "prepared_at": "2026-10-22T23:52:05.548713+00:00",
+  "manifest_sha256": "f24fad8f3b011c3619904fb06e77a7b125f6b6dee15099ad89d491ec85cf1c4a",
+  "request_sha256": "4ef9625a4ad96ce353695c1fcf084763824695244f96a63de1655a7fcd3b152e",
+  "reserved_cost_usd": "0.00101376",
+  "finished_at": "2026-10-22T23:52:13.918020+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "B",
+    "correct": true,
+    "strict_format": false
+  },
+  "recorded_cost_usd": "0.00006904",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "0d6f2fac4ab271021f50a5c78a7b4fc1963aa437656094a2e0bcd2423a8211bb",
+  "headers_sha256": "129625954ca6e8c2ef17d1cee2c4a89f9ef47887767049f56dc7f3a75b3dc170"
+}

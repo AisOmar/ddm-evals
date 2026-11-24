@@ -1,0 +1,17 @@
+{
+  "verified_at": "2026-10-20T21:02:03.900679+00:00",
+  "protected_files_checked": 2572,
+  "protected_files_changed": [],
+  "initial_judgments_hash_lock_matches": true,
+  "masked_queue_hash_matches": true,
+  "frozen_trust_and_pilot_manifest_checks_passed": true,
+  "initial_review_coverage_matches": true,
+  "repair_packet_has_no_proposed_keys": true,
+  "arithmetic_checks_passed": true,
+  "offline_tests_passed": 36,
+  "original_study_status": "paused_by_user",
+  "no_active_collection_batches": true,
+  "collection_ready": false,
+  "n_original_raw_files": 687,
+  "n_pilot_raw_files": 240
+}

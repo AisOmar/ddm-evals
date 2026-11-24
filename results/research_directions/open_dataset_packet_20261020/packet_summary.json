@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-10-20T21:23:30.666917+00:00",
+  "packet_kind": "cross-domain review/development packet",
+  "n_questions": 20,
+  "dataset_counts": {
+    "GSM8K": 10,
+    "BBH": 10
+  },
+  "n_bbh_task_types": 10,
+  "n_analyst_reviewed": 20,
+  "n_programmatic_cross_checked": 20,
+  "n_official_key_agreements": 20,
+  "n_stems_with_explicit_clarifications": 8,
+  "correct_letter_counts": {
+    "A": 10,
+    "B": 10
+  },
+  "n_instructions": 2,
+  "n_advice_conditions": 3,
+  "n_draft_prompts_per_model": 120,
+  "n_model_calls_launched": 0,
+  "collection_ready": false,
+  "independent_review_complete": false,
+  "collection_approved_questions": 0,
+  "sample_size_decided": false,
+  "limitations": [
+    "Key agreement is not independent evidence of uniquely correct originals.",
+    "Clarified binary variants are adaptations, not official GSM8K/BBH benchmark scores.",
+    "No separate fresh-context AI or human review has been performed.",
+    "This is reasoning under suggestions, not a direct tool-permission or policy-compliance benchmark.",
+    "Many items may be easy for the selected models; difficulty ratings are analyst judgments, not measured accuracy.",
+    "Public dataset training exposure is unknown; parameter changes do not guarantee decontamination.",
+    "Twenty items are not established as twenty statistically independent content-family units.",
+    "No endpoint, model, budget or execution manifest has been configured."
+  ]
+}

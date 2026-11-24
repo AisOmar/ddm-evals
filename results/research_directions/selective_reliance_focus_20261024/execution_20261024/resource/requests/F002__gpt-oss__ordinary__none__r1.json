@@ -1,0 +1,28 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFour switches P, Q, R, S are each on or off. Exactly two are on. If P is on, Q is on. If Q is on, R is off. S is on if and only if exactly one of P and R is on. Which statement must be true in every configuration satisfying these rules?\n\nA. P and Q are both on.\nB. R and S are both on."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 2048,
+  "provider": {
+    "order": [
+      "dekallm/bf16"
+    ],
+    "only": [
+      "dekallm/bf16"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "bf16"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.03,
+      "completion": 0.18
+    }
+  }
+}

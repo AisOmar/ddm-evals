@@ -1,0 +1,11 @@
+{
+  "draws": 600,
+  "tune": 1200,
+  "chains": 4,
+  "target_accept": 0.95,
+  "dense_mass": true,
+  "centered_effects": true,
+  "population_initialization": "Median of joint public R1 posterior draws, independent of simulated truth.",
+  "prediction": "Analytic population Normal convolution, 64-node logistic-Normal quadrature, 128-node survival.",
+  "diagnostics": "No divergences; max Rhat <=1.05; min bulk ESS >=50."
+}

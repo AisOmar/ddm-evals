@@ -1,0 +1,16 @@
+{
+  "phase": "resource",
+  "n_planned": 8,
+  "n_attempted": 3,
+  "n_finalized": 3,
+  "outcomes": {
+    "censored": 1,
+    "answered": 2
+  },
+  "stopped": true,
+  "phase_deliveries_complete": false,
+  "recorded_cost_usd": "0.00145058",
+  "active_attempt": false,
+  "accuracy_not_reported": true,
+  "original_study_remains_paused": true
+}

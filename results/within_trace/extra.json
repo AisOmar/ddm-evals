@@ -1,0 +1,31 @@
+{
+  "answered_runs": 297,
+  "unanswered_runs": 165,
+  "unanswered_with_leaning": 0.5151515151515151,
+  "unanswered_leaning_correct": 0.4588235294117647,
+  "first_leaning_correct_then_correct": 0.9315789473684211,
+  "first_leaning_wrong_then_correct": 0.9158878504672897,
+  "wrong_answers_with_correct_value_in_trace": 0.8636363636363636,
+  "by_task": {
+    "n": {
+      "compute": 137,
+      "recall": 160
+    },
+    "acc": {
+      "compute": 0.9051094890510949,
+      "recall": 0.94375
+    },
+    "tokens": {
+      "compute": 7326.0,
+      "recall": 711.0
+    },
+    "stuck": {
+      "compute": 1.7664233576642336,
+      "recall": 0.46875
+    },
+    "flips": {
+      "compute": 4.583941605839416,
+      "recall": 4.31875
+    }
+  }
+}

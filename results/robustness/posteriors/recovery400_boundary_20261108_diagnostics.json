@@ -1,0 +1,14 @@
+{
+  "label": "recovery400_boundary_20261108",
+  "seconds": 519.5576901435852,
+  "divergences": 0,
+  "max_rhat": 1.011905701408142,
+  "min_ess": 137.57992477407964,
+  "draws": 800,
+  "chains": 2,
+  "tune": 1500,
+  "target_accept": 0.98,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "settings_source": "Executed command and script defaults"
+}

@@ -1,0 +1,16 @@
+{
+  "locked_at_utc": "2026-10-22T21:33:51.261670+00:00",
+  "stage": "equivalence after initial lock",
+  "preserved_initial_lock_sha256": "2f074345f065d183dbaa0e3cbf16b2fb7939e473693143b8f5dc9ab1a66c421d",
+  "inputs": {
+    "review/matched_sets.json": "8fce70e106ff8505963fd49f8427051e5b949635316a6ca3dadd890c6daca0bd",
+    "independent_review/initial_judgments.json": "ae029adca3861ba03ada6b3121b841c85959bde1427ef3d1d93eb0c0ec24a2c2",
+    "independent_review/INITIAL_SHA256_LOCK.json": "2f074345f065d183dbaa0e3cbf16b2fb7939e473693143b8f5dc9ab1a66c421d",
+    "review/masked_items.json": "bf78be4eab0696cdafa831718ddac431640ad3163bdc5d87461137881fa51203"
+  },
+  "outputs": {
+    "independent_review/equivalence_judgments.json": "3d94e567a65e9f53f0dc53276d9b128a18033cca25c4ebca9bd8020ecfeaba9b",
+    "independent_review/equivalence_solver.py": "69f9da48ae0441301f3f84f31f797f701bb044a2c4a8d593674f767ec1a0270f"
+  },
+  "prohibited_inputs_read": false
+}

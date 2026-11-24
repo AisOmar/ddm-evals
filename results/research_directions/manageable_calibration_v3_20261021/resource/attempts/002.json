@@ -1,0 +1,7 @@
+{
+  "sample_id": "resource-recurrence-01__r1__Qwen3",
+  "prepared_at": "2026-10-22T00:02:11.809082+00:00",
+  "manifest_sha256": "159bb9da9d92523f87f186ec8f0a9a58626222774cc4f48749ff20090cac102d",
+  "request_sha256": "64a20bb47612dbd88e55a1c0ccc0fcebf7d12af9eae4c5cb67b5cb15ea6b113f",
+  "reserved_cost_usd": "0.00154104"
+}

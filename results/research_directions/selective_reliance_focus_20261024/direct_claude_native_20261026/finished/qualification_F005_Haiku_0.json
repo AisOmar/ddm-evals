@@ -1,0 +1,12 @@
+{
+  "status": "answered",
+  "answer": "A",
+  "correct": true,
+  "cost_usd": "0.000359",
+  "input_tokens": 289,
+  "output_tokens": 14,
+  "stop_reason": "end_turn",
+  "id": "qualification_F005_Haiku_0",
+  "response_sha256": "d658af16f5cca477ba16306ead7e6a8fd1daf12f58d23b84ef712bb0db2765bd",
+  "request_sha256": "ee769dc95f4cd1fbc344f4159fe1ea2e5bddb3dabb4a7ffa4b25dc897606cb0e"
+}

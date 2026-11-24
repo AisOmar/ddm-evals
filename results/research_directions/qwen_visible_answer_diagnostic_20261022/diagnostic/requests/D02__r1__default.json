@@ -1,0 +1,28 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA cyclist covers 10 km at 5 km/h and another 10 km at 10 km/h, without stopping. What is total distance divided by total time for the 20 km trip?\n\nA. 15/2 km/h\nB. 20/3 km/h"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 2048,
+  "provider": {
+    "order": [
+      "tenstorrent/fp8"
+    ],
+    "only": [
+      "tenstorrent/fp8"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "fp8"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.14,
+      "completion": 0.4
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "sample_id": "resource-subset_count-01__r1__Qwen3",
+  "prepared_at": "2026-10-22T00:02:50.543565+00:00",
+  "manifest_sha256": "159bb9da9d92523f87f186ec8f0a9a58626222774cc4f48749ff20090cac102d",
+  "request_sha256": "8fa534d56005c02b0185ab0d8c8351fc3ddd55e6f7fc5e64023a473892bee767",
+  "reserved_cost_usd": "0.00160824"
+}

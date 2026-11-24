@@ -1,0 +1,16 @@
+{
+  "comparisons": 960,
+  "independent_datasets": 160,
+  "code_sha256": {
+    "12_design_recovery.py": "f433c809a0ada3a37cc2fe2c6f094d84ad46f9b9b402263a0546507941c542e0",
+    "recovery_marginal.py": "ab77134b37b1a8839befa1de9918eeacd4d2f4b379b7405a828f4df40e08eb3a",
+    "16_report_design_recovery.py": "6c9f6298d76202e68338506c30fdb2cbcf1a5f41b1a41bf8dad8595afe429cab",
+    "14_recovery_screen.py": "c2772b38e92213a0e85cb4147ca1eeb5db68f3767e4588a0fb3723d8459af70a",
+    "13_validate_design_recovery.py": "a2fac8c345d232b84bdf81a9e186d93fc18f531b04e4d3782b2c5e5f02500c2e",
+    "15_bayesian_design_recovery.py": "021c12bd4131a6796d02ded5fa3c38654bcd04cd18cc8bdf02476b8a81301b63",
+    "05_recovery.py": "a76b35ce137c26cea85f2e3d55cf18ba645c6973de4c929e4b8fef0ac656507e",
+    "08_robustness.py": "3671ea1586c37d46821fe1ac0cb6e30e3b78b5717f6fac93fb43310262aa1e78",
+    "design.py": "fc84e50545a8bc7eba0eb1b4e03e7cb0f73b56f76520d2a7341b718a9736a4f1",
+    "diffusion_likelihood.py": "ea658b2b9f3bbbc72f43f8b567836e915a28ad52f0f2c2825a60cbf17212a09f"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "n_pilot_problems": 8,
+  "n_pilot_versions": 24,
+  "n_reviewed_candidates": 32,
+  "n_resource_problems": 8,
+  "resource_calls": 16,
+  "pilot_calls": 288,
+  "repetitions": 2,
+  "advice": [
+    "none",
+    "correct",
+    "wrong"
+  ],
+  "versions": [
+    "plain",
+    "neutral",
+    "trap"
+  ],
+  "max_tokens": 2048,
+  "timeout_seconds": 180,
+  "min_preparation_interval_seconds": 5,
+  "temperature": 0.7,
+  "resource_ceiling_usd": "0.10",
+  "pilot_ceiling_usd": "0.90",
+  "total_ceiling_usd": "1.00",
+  "order_seed": 20261022070,
+  "independent_review_complete": false,
+  "model_calls_launched": 0,
+  "authorization": "User: pksy readu tp run, interpreted in context as okay ready to run the proposed wording pilot.",
+  "ambiguous_question_arm_included": false,
+  "original_study_remains_paused": true
+}

@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-10-21T03:15:06.698971+00:00",
+  "independent_ai_initial_review_complete": true,
+  "initial_numerical_agreements": 48,
+  "postrepair_masked_validation_complete": true,
+  "postrepair_agreements": 48,
+  "question_limitations_preserved": true,
+  "alternate_provider_canary_passed": true,
+  "canary_attempts": 12,
+  "calibration_planned": 96,
+  "calibration_attempted": 3,
+  "calibration_finalized": 3,
+  "calibration_stopped": true,
+  "calibration_outcomes": {
+    "answered": 1,
+    "censored": 1,
+    "uncertain_delivery": 1
+  },
+  "calibration_accuracy_analyzed": false,
+  "calibration_analysis_guard_passed": true,
+  "dispatch_stop_guard_passed": true,
+  "recorded_new_cost_usd": "0.00203288",
+  "uncertain_timeout_missing_cost_metadata": true,
+  "offline_tests_passed": 83,
+  "prior_artifacts_verified": 16919,
+  "all_review_locks_verified": true,
+  "all_attempt_requests_and_hashes_verified": true,
+  "private_configs_removed": true,
+  "original_study_remains_paused": true
+}

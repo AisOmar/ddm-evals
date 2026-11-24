@@ -1,0 +1,15 @@
+# Provider-amended wording replication
+
+Recorded 2026-10-16 during collection, before any treatment-effect analysis of the new data. This is a prospective endpoint amendment to `CROSS_MODEL_FOLLOWUP.md`, not the originally planned all-DeepInfra experiment.
+
+DeepInfra's shared GPT pool repeatedly returned zero-usage HTTP 429 `engine_overloaded` responses, including after 15-minute cooldowns and serial requests. The completed R1 and Qwen3 blocks each contain all 700 planned provider responses. Preserve the original collection under `results/deference/wording_followup/` as incomplete; do not fill its missing GPT cells from another provider.
+
+Create a separate dataset under `results/deference/wording_provider_replication/`: reuse all 1,400 R1/Qwen3 responses, with source-file hashes, and recollect **all 700 GPT trials** on DekaLLM through OpenRouter, pinned with fallbacks disabled. The advertised model remains `openai/gpt-oss-120b` and precision bf16. Keep all original prompts, option positions, 100 question IDs, three wordings, two doses, fresh-control design, temperature 0.7, output cap 8,192 and default reasoning effort. No original GPT response enters this replacement dataset. DekaLLM was selected from the current endpoint listing for healthy status, bf16, adequate output capacity and lowest advertised completion price among compatible alternatives; no response effect informed selection. Advertised prices at selection were $0.03/M input and $0.18/M output. These metadata do not guarantee identical serving behavior across providers.
+
+The first six GPT requests in the frozen original order are an operational probe, included in the 700. Check only actual provider/model, errors, returned reasoning, cap and usage. Retain raw responses and all failed attempts. Use the budget, cooldown and retry controls in the two existing operational amendments. No additional credit purchase.
+
+All statistical estimands, hypotheses, complete-answer cohort rule (at least 80 questions), 20,000 paired question-bootstrap draws, multiplicity corrections and completeness guard from `CROSS_MODEL_FOLLOWUP.md` remain unchanged. This amended analysis compares **model-serving configurations**: R1/DeepInfra, Qwen3/DeepInfra and GPT/DekaLLM. R1–Qwen is still a comparison on the same provider. GPT contrasts include provider differences; do not attribute them solely to model weights or claim provider invariance. Reference and control responses for GPT are also recollected on DekaLLM, so its within-provider wording comparisons remain matched.
+
+Freeze a new manifest referencing this amendment and the original protocol, retain the original manifest hash, and record hashes of all reused responses before the first DekaLLM call. Report the provider amendment prominently alongside any results. No follow-up treatment-effect estimates have been computed or inspected before this amendment.
+
+Run the same stages with `DEFERENCE_WORDING_VARIANT=provider_replication`. The original variant remains the default and its artifacts are preserved.

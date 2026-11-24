@@ -1,0 +1,33 @@
+{
+  "profile": "ddm_lognormal_questions",
+  "replicate": 6,
+  "seed": 20321015,
+  "posterior_fold": 1,
+  "posterior_draw": 385,
+  "generator": "ddm_sdv_lapse",
+  "theta": [
+    1.4884926164864096,
+    0.0035016877252285823,
+    -0.009765881655158124,
+    0.10494204582156808,
+    -0.6975519763923024,
+    2.58915151152807,
+    0.1550976752941744,
+    0.19389379647550228,
+    0.18342056058676734,
+    0.9897559293936924,
+    -2.423469995590314,
+    -0.6980140494136345,
+    1.043889436022254,
+    -2.5675433680549893,
+    0.07183787011036108,
+    -0.2386826410499165,
+    -2.7697531882641786,
+    -1.5276820128108792,
+    -2.5060181980447735
+  ],
+  "baseline_centre": 0.0,
+  "overrides": {
+    "question_drift": "Moment-matched multiplicative lognormal, code-specific log SD; conditional mean drift floored at 0.05 before multiplication."
+  }
+}

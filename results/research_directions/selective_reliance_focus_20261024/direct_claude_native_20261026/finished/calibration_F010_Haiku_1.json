@@ -1,0 +1,12 @@
+{
+  "status": "answered",
+  "answer": "B",
+  "correct": false,
+  "cost_usd": "0.000319",
+  "input_tokens": 274,
+  "output_tokens": 9,
+  "stop_reason": "end_turn",
+  "id": "calibration_F010_Haiku_1",
+  "response_sha256": "fa0db08bf72b75cdb819f8bf967c3e4c810999061c6e2bb382c577bcf0e20843",
+  "request_sha256": "4505da2d025c93d0b51e6be247db7d86157db3ed984357840a322210960fb8f7"
+}

@@ -1,0 +1,13 @@
+{
+  "locked_at_utc": "2026-10-22T21:32:48.512936+00:00",
+  "stage": "initial judgments before any matched-set inspection",
+  "inputs": {
+    "review/masked_items.json": "bf78be4eab0696cdafa831718ddac431640ad3163bdc5d87461137881fa51203",
+    "review/review_template.json": "e94de9bfcb79d06d4437b7ddf66324c60186d76d7671996e553ae458d3276a38"
+  },
+  "outputs": {
+    "independent_review/initial_judgments.json": "ae029adca3861ba03ada6b3121b841c85959bde1427ef3d1d93eb0c0ec24a2c2",
+    "independent_review/independent_solver.py": "2ac91f0cda47beb47cec918c803abb1705e9a89413d0b9199d5c77b3d5ff61fc"
+  },
+  "prohibited_inputs_read": false
+}

@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-26T17:49:02.217113+00:00",
+  "read_only": true,
+  "records": [
+    {
+      "generation_id": "gen-1793034803-JVOcZVx7fDVPLfNzNPe4",
+      "source_finished": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration_completion/finished/F008__gpt-oss__ordinary__none__r2.json",
+      "reserved_cost_usd": "0.00092472",
+      "cost_usd": null,
+      "lookup_error_code": 404,
+      "answer_recovered": false,
+      "metadata_sha256": "d179f60f76a280a23b329a96f327f3b191c428a565a7d2bd31e342a842d843a7"
+    },
+    {
+      "generation_id": "gen-1793035514-owwlhEP5aQW66v1o7seV",
+      "source_finished": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration_rate_recovery/finished/004__F001__gpt-oss__ordinary__none__r1__a2.json",
+      "reserved_cost_usd": "0.00091752",
+      "cost_usd": null,
+      "lookup_error_code": 404,
+      "answer_recovered": false,
+      "metadata_sha256": "37dda897169ab10e69f8b5c258bea631fa005c3ee3ff81c24c7b2948c1792ed6"
+    },
+    {
+      "generation_id": "gen-1793035453-4FuBu5qOuSX1aJP8YV2L",
+      "source_finished": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration_rate_recovery/finished/003__F001__gpt-oss__ordinary__none__r1__a1.json",
+      "reserved_cost_usd": "0.00091752",
+      "cost_usd": null,
+      "lookup_error_code": 404,
+      "answer_recovered": false,
+      "metadata_sha256": "ac3bbcf8d5b5165d33f287068c049578057938e0a5ebf463cf458d42a8a3d866"
+    },
+    {
+      "generation_id": "gen-1793035337-Fgabhw9HPimOkjGMzYT9",
+      "source_finished": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration_rate_recovery/finished/001__F008__gpt-oss__ordinary__none__r2__a2.json",
+      "reserved_cost_usd": "0.00092472",
+      "cost_usd": null,
+      "lookup_error_code": 404,
+      "answer_recovered": false,
+      "metadata_sha256": "61275f8f2750075ddf98a8225d30965cad7289665ac49a8bc41167e48a7721ae"
+    },
+    {
+      "generation_id": "gen-1793035644-IG2cTjY4hXvcTZpEUCFA",
+      "source_finished": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration_rate_recovery/finished/008__F027__Qwen3__ordinary__none__r1__a1.json",
+      "reserved_cost_usd": "0.00161248",
+      "cost_usd": "0.0004",
+      "lookup_error_code": null,
+      "answer_recovered": false,
+      "metadata_sha256": "576606bcaa1d16afad9e16689a64ef3c3a0c8cf744108dc6339ff702130ccc60"
+    },
+    {
+      "generation_id": "gen-1793036442-NqmDlS69eeTQyjDwjDGq",
+      "source_finished": "results/research_directions/selective_reliance_focus_20261024/alternate_http2_20261026/qualification/finished/001__F005__gpt-oss__ordinary__none__r1__a1.json",
+      "reserved_cost_usd": "0.000940552",
+      "cost_usd": null,
+      "lookup_error_code": 404,
+      "answer_recovered": false,
+      "metadata_sha256": "6ba98b1cf39c02ed14b00c680286b01c56a7fe44fbc769e099edfc57e9f604f3"
+    }
+  ],
+  "unreconciled": 5,
+  "missing_cost_not_assumed_zero": true
+}

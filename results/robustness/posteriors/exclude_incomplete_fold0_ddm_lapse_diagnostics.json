@@ -1,0 +1,14 @@
+{
+  "label": "exclude_incomplete_fold0_ddm_lapse",
+  "seconds": 226.25068473815918,
+  "divergences": 0,
+  "max_rhat": 1.0209709150935056,
+  "min_ess": 116.9930226933997,
+  "draws": 400,
+  "chains": 2,
+  "tune": 500,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "settings_source": "Executed command and script defaults"
+}

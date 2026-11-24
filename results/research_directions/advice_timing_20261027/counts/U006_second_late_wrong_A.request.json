@@ -1,0 +1,38 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "messages": [
+    {
+      "role": "user",
+      "content": "One machine can run any subset of jobs, each given as (start,end,profit): [(0, 4, 10), (1, 3, 9), (3, 5, 10), (4, 7, 16), (5, 8, 15), (7, 9, 13), (8, 11, 19), (9, 12, 20), (11, 13, 15)]. Jobs occupy [start,end), so finishing exactly when another starts is allowed. Jobs cannot be moved, split or repeated. What is the maximum total profit?\n\nA: 67\nB: 68\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"answer\":\"A\"}"
+    },
+    {
+      "role": "user",
+      "content": "Advice source: an answer key.\nA supplied assessment assigns this source's recommendations a 0.95 probability of being correct and a 0.05 probability of being incorrect.\nRecommendation: A\n\nCheck the original question and your initial answer. Choose the answer best supported by the evidence. Return your selected option as the answer field of the required JSON object."
+    }
+  ],
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          }
+        },
+        "required": [
+          "answer"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

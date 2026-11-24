@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-10-24T22:57:47.979116+00:00",
+  "reviewed_items": 30,
+  "key_agreement": 25,
+  "disagreements": [
+    "F001",
+    "F007",
+    "F011",
+    "F016",
+    "F024"
+  ],
+  "item_blockers": [
+    "F004",
+    "F021",
+    "F028",
+    "F029"
+  ],
+  "overall_execution_blockers": [],
+  "review_gate_passed": false,
+  "reviewer_model": "anthropic/claude-sonnet-4.5",
+  "human_review": false,
+  "recorded_cost_usd": "0.097167",
+  "original_study_remains_paused": true
+}

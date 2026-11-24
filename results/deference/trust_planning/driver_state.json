@@ -1,0 +1,9 @@
+{
+  "pid": 71902,
+  "started_at": "2026-10-19T14:38:02.405093+00:00",
+  "status": "stopped_incomplete",
+  "driver_sha256": "4f954f3be8a2a282ee1df764be75ca2dc094933b4a172402ee5e777c40c4c369",
+  "analysis_sha256": "7196e4298943ccbb6c487672d2261278a1133841bc4a6daa3a0404a9f809a2bc",
+  "stopped_at": "2026-10-19T14:38:02.571179+00:00",
+  "error": "Read-only preflight fetch failed; no model batch launched"
+}

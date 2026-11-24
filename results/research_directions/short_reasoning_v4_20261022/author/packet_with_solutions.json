@@ -1,0 +1,1032 @@
+[
+  {
+    "family": "expected_value",
+    "variant": 2,
+    "stem": "Option R charges a guaranteed fee of 3 credits and pays a gross prize of 15 credits with probability 2/5; otherwise it pays zero. Option S pays 4 credits with no fee. Choose the option with the larger expected net gain, subtracting any fee from the payout. Which should be chosen?",
+    "answer": "Option S",
+    "distractor": "Option R",
+    "parameters": {
+      "probability": "2/5",
+      "gross_prize": 15,
+      "fee": 3,
+      "sure_gain": 4
+    },
+    "author_derivation": "R has expected net gain 3 credits; S has 4. Compare expected values, not maximum prizes.",
+    "author_check": "Expected-net-gain expression and elementary-outcome payoff average.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "B",
+    "options": {
+      "A": "Option R",
+      "B": "Option S"
+    },
+    "item_id": "Q001"
+  },
+  {
+    "family": "base_rate",
+    "variant": 1,
+    "stem": "A batch contains 200 parts, exactly 40 defective. A scanner flags 30 of the defective parts and 20 of the nondefective parts. Choose one flagged part uniformly at random. What is the probability it is defective?",
+    "answer": "3/5",
+    "distractor": "3/4",
+    "parameters": {
+      "n": 200,
+      "defective": 40,
+      "flagged_defective": 30,
+      "flagged_nondefective": 20
+    },
+    "author_derivation": "There are 50 flagged parts, of which 30 are defective. The alternative divides by all defective parts.",
+    "author_check": "Flagged-population fraction and Bayes formula using exact rational arithmetic.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "A",
+    "options": {
+      "A": "3/5",
+      "B": "3/4"
+    },
+    "item_id": "Q002"
+  },
+  {
+    "family": "weighted_rate",
+    "variant": 1,
+    "stem": "Team L processed 30 cases and resolved 80% of them. Team M processed 70 different cases and resolved 60% of them. Every case belongs to exactly one team. What percentage of all cases were resolved?",
+    "answer": "66%",
+    "distractor": "70%",
+    "parameters": {
+      "n1": 30,
+      "n2": 70,
+      "percent1": 80,
+      "percent2": 60
+    },
+    "author_derivation": "Add the resolved counts, then divide by 100; do not give the teams equal weight.",
+    "author_check": "Weighted percentage and explicit case-level success accounting.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "B",
+    "options": {
+      "A": "70%",
+      "B": "66%"
+    },
+    "item_id": "Q003"
+  },
+  {
+    "family": "implication",
+    "variant": 3,
+    "stem": "Every striped token is small. Some small tokens are tagged. No striped token is tagged. Which statement must be true? Use only these premises.",
+    "answer": "Some small token is not striped.",
+    "distractor": "No small token is striped.",
+    "parameters": {
+      "properties": [
+        "striped",
+        "small",
+        "tagged"
+      ],
+      "n_satisfying_worlds": 16
+    },
+    "author_derivation": "The second-and-third-kind witness cannot be first-kind. Other second-kind tokens can still be first-kind.",
+    "author_check": "Entailment and explicit countermodel search over eight possible token types.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "B",
+    "options": {
+      "A": "No small token is striped.",
+      "B": "Some small token is not striped."
+    },
+    "item_id": "Q004"
+  },
+  {
+    "family": "intervention",
+    "variant": 2,
+    "stem": "A system follows X=U+1 and Y=2*X+U. In this case U=4. An intervention forces X=7, replacing only the equation for X. The value of U and the equation for Y remain unchanged. What value does Y take after the intervention?",
+    "answer": "18",
+    "distractor": "20",
+    "parameters": {
+      "U": 4,
+      "add": 1,
+      "multiplier": 2,
+      "forced_X": 7
+    },
+    "author_derivation": "Keep U=4; substitute the forced X=7 into Y. The alternative incorrectly infers a new U.",
+    "author_check": "Direct substitution under an intervention and structural-equation evaluation.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "B",
+    "options": {
+      "A": "20",
+      "B": "18"
+    },
+    "item_id": "Q005"
+  },
+  {
+    "family": "dependencies",
+    "variant": 4,
+    "stem": "Tasks A, B, C, D take 3, 7, 6, 2 minutes respectively. A and B can start at time 0. C can start only after A finishes. D can start only after both B and C finish. There are enough workers to run any ready tasks in parallel, with no setup delays. What is the earliest time D can finish?",
+    "answer": "11 minutes",
+    "distractor": "18 minutes",
+    "parameters": {
+      "durations": {
+        "A": 3,
+        "B": 7,
+        "C": 6,
+        "D": 2
+      },
+      "parents": {
+        "A": [],
+        "B": [],
+        "C": [
+          "A"
+        ],
+        "D": [
+          "B",
+          "C"
+        ]
+      }
+    },
+    "author_derivation": "C ends at 9; D waits until max(7, 9), then takes 2 minutes.",
+    "author_check": "Critical-path equation and discrete event simulation.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "A",
+    "options": {
+      "A": "11 minutes",
+      "B": "18 minutes"
+    },
+    "item_id": "Q006"
+  },
+  {
+    "family": "state_updates",
+    "variant": 0,
+    "stem": "Two registers initially hold x=2 and y=7. Execute these instructions in order: (1) replace x with x+3; (2) swap the current values of x and y; (3) replace y with 2*y-x, using the values after the swap. What is the final value of y?",
+    "answer": "3",
+    "distractor": "9",
+    "parameters": {
+      "x": 2,
+      "y": 7,
+      "increment": 3
+    },
+    "author_derivation": "After the swap x=7, y=5; the final assignment gives 3. The alternative skips the swap.",
+    "author_check": "Symbolic substitution and imperative register execution.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "resource",
+    "correct_letter": "A",
+    "options": {
+      "A": "3",
+      "B": "9"
+    },
+    "item_id": "Q007"
+  },
+  {
+    "family": "expected_value",
+    "variant": 4,
+    "stem": "Option R charges a guaranteed fee of 3 credits and pays a gross prize of 20 credits with probability 3/10; otherwise it pays zero. Option S pays 4 credits with no fee. Choose the option with the larger expected net gain, subtracting any fee from the payout. Which should be chosen?",
+    "answer": "Option S",
+    "distractor": "Option R",
+    "parameters": {
+      "probability": "3/10",
+      "gross_prize": 20,
+      "fee": 3,
+      "sure_gain": 4
+    },
+    "author_derivation": "R has expected net gain 3 credits; S has 4. Compare expected values, not maximum prizes.",
+    "author_check": "Expected-net-gain expression and elementary-outcome payoff average.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "A",
+    "options": {
+      "A": "Option S",
+      "B": "Option R"
+    },
+    "item_id": "Q008"
+  },
+  {
+    "family": "dependencies",
+    "variant": 3,
+    "stem": "Tasks A, B, C, D take 5, 4, 2, 3 minutes respectively. A and B can start at time 0. C can start only after A finishes. D can start only after both B and C finish. There are enough workers to run any ready tasks in parallel, with no setup delays. What is the earliest time D can finish?",
+    "answer": "10 minutes",
+    "distractor": "14 minutes",
+    "parameters": {
+      "durations": {
+        "A": 5,
+        "B": 4,
+        "C": 2,
+        "D": 3
+      },
+      "parents": {
+        "A": [],
+        "B": [],
+        "C": [
+          "A"
+        ],
+        "D": [
+          "B",
+          "C"
+        ]
+      }
+    },
+    "author_derivation": "C ends at 7; D waits until max(4, 7), then takes 3 minutes.",
+    "author_check": "Critical-path equation and discrete event simulation.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "A",
+    "options": {
+      "A": "10 minutes",
+      "B": "14 minutes"
+    },
+    "item_id": "Q009"
+  },
+  {
+    "family": "state_updates",
+    "variant": 2,
+    "stem": "Two registers initially hold x=3 and y=8. Execute these instructions in order: (1) replace x with x+4; (2) swap the current values of x and y; (3) replace y with 2*y-x, using the values after the swap. What is the final value of y?",
+    "answer": "6",
+    "distractor": "9",
+    "parameters": {
+      "x": 3,
+      "y": 8,
+      "increment": 4
+    },
+    "author_derivation": "After the swap x=8, y=7; the final assignment gives 6. The alternative skips the swap.",
+    "author_check": "Symbolic substitution and imperative register execution.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "A",
+    "options": {
+      "A": "6",
+      "B": "9"
+    },
+    "item_id": "Q010"
+  },
+  {
+    "family": "weighted_rate",
+    "variant": 2,
+    "stem": "Team L processed 40 cases and resolved 25% of them. Team M processed 60 different cases and resolved 75% of them. Every case belongs to exactly one team. What percentage of all cases were resolved?",
+    "answer": "55%",
+    "distractor": "50%",
+    "parameters": {
+      "n1": 40,
+      "n2": 60,
+      "percent1": 25,
+      "percent2": 75
+    },
+    "author_derivation": "Add the resolved counts, then divide by 100; do not give the teams equal weight.",
+    "author_check": "Weighted percentage and explicit case-level success accounting.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "A",
+    "options": {
+      "A": "55%",
+      "B": "50%"
+    },
+    "item_id": "Q011"
+  },
+  {
+    "family": "implication",
+    "variant": 1,
+    "stem": "Every silver token is flat. Some flat tokens are marked. No silver token is marked. Which statement must be true? Use only these premises.",
+    "answer": "Some flat token is not silver.",
+    "distractor": "No flat token is silver.",
+    "parameters": {
+      "properties": [
+        "silver",
+        "flat",
+        "marked"
+      ],
+      "n_satisfying_worlds": 16
+    },
+    "author_derivation": "The second-and-third-kind witness cannot be first-kind. Other second-kind tokens can still be first-kind.",
+    "author_check": "Entailment and explicit countermodel search over eight possible token types.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "B",
+    "options": {
+      "A": "No flat token is silver.",
+      "B": "Some flat token is not silver."
+    },
+    "item_id": "Q012"
+  },
+  {
+    "family": "expected_value",
+    "variant": 1,
+    "stem": "Option R charges a guaranteed fee of 1 credits and pays a gross prize of 18 credits with probability 1/3; otherwise it pays zero. Option S pays 4 credits with no fee. Choose the option with the larger expected net gain, subtracting any fee from the payout. Which should be chosen?",
+    "answer": "Option R",
+    "distractor": "Option S",
+    "parameters": {
+      "probability": "1/3",
+      "gross_prize": 18,
+      "fee": 1,
+      "sure_gain": 4
+    },
+    "author_derivation": "R has expected net gain 5 credits; S has 4. Compare expected values, not maximum prizes.",
+    "author_check": "Expected-net-gain expression and elementary-outcome payoff average.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "B",
+    "options": {
+      "A": "Option S",
+      "B": "Option R"
+    },
+    "item_id": "Q013"
+  },
+  {
+    "family": "intervention",
+    "variant": 0,
+    "stem": "A system follows X=U+1 and Y=3*X+U. In this case U=2. An intervention forces X=4, replacing only the equation for X. The value of U and the equation for Y remain unchanged. What value does Y take after the intervention?",
+    "answer": "14",
+    "distractor": "15",
+    "parameters": {
+      "U": 2,
+      "add": 1,
+      "multiplier": 3,
+      "forced_X": 4
+    },
+    "author_derivation": "Keep U=2; substitute the forced X=4 into Y. The alternative incorrectly infers a new U.",
+    "author_check": "Direct substitution under an intervention and structural-equation evaluation.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "resource",
+    "correct_letter": "B",
+    "options": {
+      "A": "15",
+      "B": "14"
+    },
+    "item_id": "Q014"
+  },
+  {
+    "family": "intervention",
+    "variant": 4,
+    "stem": "A system follows X=U+2 and Y=3*X+U. In this case U=5. An intervention forces X=9, replacing only the equation for X. The value of U and the equation for Y remain unchanged. What value does Y take after the intervention?",
+    "answer": "32",
+    "distractor": "34",
+    "parameters": {
+      "U": 5,
+      "add": 2,
+      "multiplier": 3,
+      "forced_X": 9
+    },
+    "author_derivation": "Keep U=5; substitute the forced X=9 into Y. The alternative incorrectly infers a new U.",
+    "author_check": "Direct substitution under an intervention and structural-equation evaluation.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "B",
+    "options": {
+      "A": "34",
+      "B": "32"
+    },
+    "item_id": "Q015"
+  },
+  {
+    "family": "implication",
+    "variant": 2,
+    "stem": "Every green token is heavy. No heavy token is polished. At least one green token exists. Which statement must be true? Use only these premises.",
+    "answer": "Some green token is not polished.",
+    "distractor": "Some polished token is not green.",
+    "parameters": {
+      "properties": [
+        "green",
+        "heavy",
+        "polished"
+      ],
+      "n_satisfying_worlds": 8
+    },
+    "author_derivation": "An existing first-kind token is second-kind, so it cannot be third-kind. No third-kind existence is implied.",
+    "author_check": "Entailment and explicit countermodel search over eight possible token types.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "A",
+    "options": {
+      "A": "Some green token is not polished.",
+      "B": "Some polished token is not green."
+    },
+    "item_id": "Q016"
+  },
+  {
+    "family": "set_overlap",
+    "variant": 0,
+    "stem": "Among 40 people, 22 speak language L, 18 speak language M, and 8 speak neither. Each count refers to these same people. A person is chosen uniformly from those who speak L. What is the probability that this person also speaks M?",
+    "answer": "4/11",
+    "distractor": "1/5",
+    "parameters": {
+      "n": 40,
+      "L": 22,
+      "M": 18,
+      "neither": 8
+    },
+    "author_derivation": "8 speak both languages by inclusion-exclusion. The sampling population has 22 people, not 40.",
+    "author_check": "Inclusion-exclusion and unique disjoint-group reconstruction.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "resource",
+    "correct_letter": "A",
+    "options": {
+      "A": "4/11",
+      "B": "1/5"
+    },
+    "item_id": "Q017"
+  },
+  {
+    "family": "weighted_rate",
+    "variant": 4,
+    "stem": "Team L processed 60 cases and resolved 75% of them. Team M processed 40 different cases and resolved 25% of them. Every case belongs to exactly one team. What percentage of all cases were resolved?",
+    "answer": "55%",
+    "distractor": "50%",
+    "parameters": {
+      "n1": 60,
+      "n2": 40,
+      "percent1": 75,
+      "percent2": 25
+    },
+    "author_derivation": "Add the resolved counts, then divide by 100; do not give the teams equal weight.",
+    "author_check": "Weighted percentage and explicit case-level success accounting.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "A",
+    "options": {
+      "A": "55%",
+      "B": "50%"
+    },
+    "item_id": "Q018"
+  },
+  {
+    "family": "dependencies",
+    "variant": 0,
+    "stem": "Tasks A, B, C, D take 3, 5, 4, 2 minutes respectively. A and B can start at time 0. C can start only after A finishes. D can start only after both B and C finish. There are enough workers to run any ready tasks in parallel, with no setup delays. What is the earliest time D can finish?",
+    "answer": "9 minutes",
+    "distractor": "14 minutes",
+    "parameters": {
+      "durations": {
+        "A": 3,
+        "B": 5,
+        "C": 4,
+        "D": 2
+      },
+      "parents": {
+        "A": [],
+        "B": [],
+        "C": [
+          "A"
+        ],
+        "D": [
+          "B",
+          "C"
+        ]
+      }
+    },
+    "author_derivation": "C ends at 7; D waits until max(5, 7), then takes 2 minutes.",
+    "author_check": "Critical-path equation and discrete event simulation.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "resource",
+    "correct_letter": "B",
+    "options": {
+      "A": "14 minutes",
+      "B": "9 minutes"
+    },
+    "item_id": "Q019"
+  },
+  {
+    "family": "set_overlap",
+    "variant": 2,
+    "stem": "Among 60 people, 34 speak language L, 28 speak language M, and 12 speak neither. Each count refers to these same people. A person is chosen uniformly from those who speak L. What is the probability that this person also speaks M?",
+    "answer": "7/17",
+    "distractor": "7/30",
+    "parameters": {
+      "n": 60,
+      "L": 34,
+      "M": 28,
+      "neither": 12
+    },
+    "author_derivation": "14 speak both languages by inclusion-exclusion. The sampling population has 34 people, not 60.",
+    "author_check": "Inclusion-exclusion and unique disjoint-group reconstruction.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "B",
+    "options": {
+      "A": "7/30",
+      "B": "7/17"
+    },
+    "item_id": "Q020"
+  },
+  {
+    "family": "base_rate",
+    "variant": 2,
+    "stem": "A batch contains 150 parts, exactly 30 defective. A scanner flags 24 of the defective parts and 12 of the nondefective parts. Choose one flagged part uniformly at random. What is the probability it is defective?",
+    "answer": "2/3",
+    "distractor": "4/5",
+    "parameters": {
+      "n": 150,
+      "defective": 30,
+      "flagged_defective": 24,
+      "flagged_nondefective": 12
+    },
+    "author_derivation": "There are 36 flagged parts, of which 24 are defective. The alternative divides by all defective parts.",
+    "author_check": "Flagged-population fraction and Bayes formula using exact rational arithmetic.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "A",
+    "options": {
+      "A": "2/3",
+      "B": "4/5"
+    },
+    "item_id": "Q021"
+  },
+  {
+    "family": "expected_value",
+    "variant": 3,
+    "stem": "Option R charges a guaranteed fee of 1 credits and pays a gross prize of 30 credits with probability 1/5; otherwise it pays zero. Option S pays 4 credits with no fee. Choose the option with the larger expected net gain, subtracting any fee from the payout. Which should be chosen?",
+    "answer": "Option R",
+    "distractor": "Option S",
+    "parameters": {
+      "probability": "1/5",
+      "gross_prize": 30,
+      "fee": 1,
+      "sure_gain": 4
+    },
+    "author_derivation": "R has expected net gain 5 credits; S has 4. Compare expected values, not maximum prizes.",
+    "author_check": "Expected-net-gain expression and elementary-outcome payoff average.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "A",
+    "options": {
+      "A": "Option R",
+      "B": "Option S"
+    },
+    "item_id": "Q022"
+  },
+  {
+    "family": "state_updates",
+    "variant": 3,
+    "stem": "Two registers initially hold x=5 and y=11. Execute these instructions in order: (1) replace x with x+3; (2) swap the current values of x and y; (3) replace y with 2*y-x, using the values after the swap. What is the final value of y?",
+    "answer": "5",
+    "distractor": "14",
+    "parameters": {
+      "x": 5,
+      "y": 11,
+      "increment": 3
+    },
+    "author_derivation": "After the swap x=11, y=8; the final assignment gives 5. The alternative skips the swap.",
+    "author_check": "Symbolic substitution and imperative register execution.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "B",
+    "options": {
+      "A": "14",
+      "B": "5"
+    },
+    "item_id": "Q023"
+  },
+  {
+    "family": "base_rate",
+    "variant": 4,
+    "stem": "A batch contains 180 parts, exactly 60 defective. A scanner flags 45 of the defective parts and 30 of the nondefective parts. Choose one flagged part uniformly at random. What is the probability it is defective?",
+    "answer": "3/5",
+    "distractor": "3/4",
+    "parameters": {
+      "n": 180,
+      "defective": 60,
+      "flagged_defective": 45,
+      "flagged_nondefective": 30
+    },
+    "author_derivation": "There are 75 flagged parts, of which 45 are defective. The alternative divides by all defective parts.",
+    "author_check": "Flagged-population fraction and Bayes formula using exact rational arithmetic.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "B",
+    "options": {
+      "A": "3/4",
+      "B": "3/5"
+    },
+    "item_id": "Q024"
+  },
+  {
+    "family": "set_overlap",
+    "variant": 4,
+    "stem": "Among 80 people, 45 speak language L, 38 speak language M, and 17 speak neither. Each count refers to these same people. A person is chosen uniformly from those who speak L. What is the probability that this person also speaks M?",
+    "answer": "4/9",
+    "distractor": "1/4",
+    "parameters": {
+      "n": 80,
+      "L": 45,
+      "M": 38,
+      "neither": 17
+    },
+    "author_derivation": "20 speak both languages by inclusion-exclusion. The sampling population has 45 people, not 80.",
+    "author_check": "Inclusion-exclusion and unique disjoint-group reconstruction.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "A",
+    "options": {
+      "A": "4/9",
+      "B": "1/4"
+    },
+    "item_id": "Q025"
+  },
+  {
+    "family": "weighted_rate",
+    "variant": 0,
+    "stem": "Team L processed 20 cases and resolved 90% of them. Team M processed 80 different cases and resolved 40% of them. Every case belongs to exactly one team. What percentage of all cases were resolved?",
+    "answer": "50%",
+    "distractor": "65%",
+    "parameters": {
+      "n1": 20,
+      "n2": 80,
+      "percent1": 90,
+      "percent2": 40
+    },
+    "author_derivation": "Add the resolved counts, then divide by 100; do not give the teams equal weight.",
+    "author_check": "Weighted percentage and explicit case-level success accounting.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "resource",
+    "correct_letter": "B",
+    "options": {
+      "A": "65%",
+      "B": "50%"
+    },
+    "item_id": "Q026"
+  },
+  {
+    "family": "intervention",
+    "variant": 1,
+    "stem": "A system follows X=U+2 and Y=2*X+U. In this case U=3. An intervention forces X=6, replacing only the equation for X. The value of U and the equation for Y remain unchanged. What value does Y take after the intervention?",
+    "answer": "15",
+    "distractor": "16",
+    "parameters": {
+      "U": 3,
+      "add": 2,
+      "multiplier": 2,
+      "forced_X": 6
+    },
+    "author_derivation": "Keep U=3; substitute the forced X=6 into Y. The alternative incorrectly infers a new U.",
+    "author_check": "Direct substitution under an intervention and structural-equation evaluation.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "A",
+    "options": {
+      "A": "15",
+      "B": "16"
+    },
+    "item_id": "Q027"
+  },
+  {
+    "family": "implication",
+    "variant": 0,
+    "stem": "Every copper token is round. No round token is sealed. At least one copper token exists. Which statement must be true? Use only these premises.",
+    "answer": "Some copper token is not sealed.",
+    "distractor": "Some sealed token is not copper.",
+    "parameters": {
+      "properties": [
+        "copper",
+        "round",
+        "sealed"
+      ],
+      "n_satisfying_worlds": 8
+    },
+    "author_derivation": "An existing first-kind token is second-kind, so it cannot be third-kind. No third-kind existence is implied.",
+    "author_check": "Entailment and explicit countermodel search over eight possible token types.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "resource",
+    "correct_letter": "A",
+    "options": {
+      "A": "Some copper token is not sealed.",
+      "B": "Some sealed token is not copper."
+    },
+    "item_id": "Q028"
+  },
+  {
+    "family": "base_rate",
+    "variant": 3,
+    "stem": "A batch contains 120 parts, exactly 20 defective. A scanner flags 15 of the defective parts and 25 of the nondefective parts. Choose one flagged part uniformly at random. What is the probability it is defective?",
+    "answer": "3/8",
+    "distractor": "3/4",
+    "parameters": {
+      "n": 120,
+      "defective": 20,
+      "flagged_defective": 15,
+      "flagged_nondefective": 25
+    },
+    "author_derivation": "There are 40 flagged parts, of which 15 are defective. The alternative divides by all defective parts.",
+    "author_check": "Flagged-population fraction and Bayes formula using exact rational arithmetic.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "B",
+    "options": {
+      "A": "3/4",
+      "B": "3/8"
+    },
+    "item_id": "Q029"
+  },
+  {
+    "family": "state_updates",
+    "variant": 1,
+    "stem": "Two registers initially hold x=4 and y=9. Execute these instructions in order: (1) replace x with x+2; (2) swap the current values of x and y; (3) replace y with 2*y-x, using the values after the swap. What is the final value of y?",
+    "answer": "3",
+    "distractor": "12",
+    "parameters": {
+      "x": 4,
+      "y": 9,
+      "increment": 2
+    },
+    "author_derivation": "After the swap x=9, y=6; the final assignment gives 3. The alternative skips the swap.",
+    "author_check": "Symbolic substitution and imperative register execution.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "A",
+    "options": {
+      "A": "3",
+      "B": "12"
+    },
+    "item_id": "Q030"
+  },
+  {
+    "family": "weighted_rate",
+    "variant": 3,
+    "stem": "Team L processed 80 cases and resolved 50% of them. Team M processed 20 different cases and resolved 100% of them. Every case belongs to exactly one team. What percentage of all cases were resolved?",
+    "answer": "60%",
+    "distractor": "75%",
+    "parameters": {
+      "n1": 80,
+      "n2": 20,
+      "percent1": 50,
+      "percent2": 100
+    },
+    "author_derivation": "Add the resolved counts, then divide by 100; do not give the teams equal weight.",
+    "author_check": "Weighted percentage and explicit case-level success accounting.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "B",
+    "options": {
+      "A": "75%",
+      "B": "60%"
+    },
+    "item_id": "Q031"
+  },
+  {
+    "family": "intervention",
+    "variant": 3,
+    "stem": "A system follows X=U+3 and Y=4*X+U. In this case U=2. An intervention forces X=7, replacing only the equation for X. The value of U and the equation for Y remain unchanged. What value does Y take after the intervention?",
+    "answer": "30",
+    "distractor": "32",
+    "parameters": {
+      "U": 2,
+      "add": 3,
+      "multiplier": 4,
+      "forced_X": 7
+    },
+    "author_derivation": "Keep U=2; substitute the forced X=7 into Y. The alternative incorrectly infers a new U.",
+    "author_check": "Direct substitution under an intervention and structural-equation evaluation.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "A",
+    "options": {
+      "A": "30",
+      "B": "32"
+    },
+    "item_id": "Q032"
+  },
+  {
+    "family": "state_updates",
+    "variant": 4,
+    "stem": "Two registers initially hold x=6 and y=13. Execute these instructions in order: (1) replace x with x+2; (2) swap the current values of x and y; (3) replace y with 2*y-x, using the values after the swap. What is the final value of y?",
+    "answer": "3",
+    "distractor": "18",
+    "parameters": {
+      "x": 6,
+      "y": 13,
+      "increment": 2
+    },
+    "author_derivation": "After the swap x=13, y=8; the final assignment gives 3. The alternative skips the swap.",
+    "author_check": "Symbolic substitution and imperative register execution.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "B",
+    "options": {
+      "A": "18",
+      "B": "3"
+    },
+    "item_id": "Q033"
+  },
+  {
+    "family": "implication",
+    "variant": 4,
+    "stem": "Every blue token is square. No square token is coated. At least one blue token exists. Which statement must be true? Use only these premises.",
+    "answer": "Some blue token is not coated.",
+    "distractor": "Some coated token is not blue.",
+    "parameters": {
+      "properties": [
+        "blue",
+        "square",
+        "coated"
+      ],
+      "n_satisfying_worlds": 8
+    },
+    "author_derivation": "An existing first-kind token is second-kind, so it cannot be third-kind. No third-kind existence is implied.",
+    "author_check": "Entailment and explicit countermodel search over eight possible token types.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "A",
+    "options": {
+      "A": "Some blue token is not coated.",
+      "B": "Some coated token is not blue."
+    },
+    "item_id": "Q034"
+  },
+  {
+    "family": "dependencies",
+    "variant": 1,
+    "stem": "Tasks A, B, C, D take 4, 3, 5, 2 minutes respectively. A and B can start at time 0. C can start only after A finishes. D can start only after both B and C finish. There are enough workers to run any ready tasks in parallel, with no setup delays. What is the earliest time D can finish?",
+    "answer": "11 minutes",
+    "distractor": "14 minutes",
+    "parameters": {
+      "durations": {
+        "A": 4,
+        "B": 3,
+        "C": 5,
+        "D": 2
+      },
+      "parents": {
+        "A": [],
+        "B": [],
+        "C": [
+          "A"
+        ],
+        "D": [
+          "B",
+          "C"
+        ]
+      }
+    },
+    "author_derivation": "C ends at 9; D waits until max(3, 9), then takes 2 minutes.",
+    "author_check": "Critical-path equation and discrete event simulation.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "A",
+    "options": {
+      "A": "11 minutes",
+      "B": "14 minutes"
+    },
+    "item_id": "Q035"
+  },
+  {
+    "family": "expected_value",
+    "variant": 0,
+    "stem": "Option R charges a guaranteed fee of 2 credits and pays a gross prize of 20 credits with probability 1/4; otherwise it pays zero. Option S pays 4 credits with no fee. Choose the option with the larger expected net gain, subtracting any fee from the payout. Which should be chosen?",
+    "answer": "Option S",
+    "distractor": "Option R",
+    "parameters": {
+      "probability": "1/4",
+      "gross_prize": 20,
+      "fee": 2,
+      "sure_gain": 4
+    },
+    "author_derivation": "R has expected net gain 3 credits; S has 4. Compare expected values, not maximum prizes.",
+    "author_check": "Expected-net-gain expression and elementary-outcome payoff average.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "resource",
+    "correct_letter": "A",
+    "options": {
+      "A": "Option S",
+      "B": "Option R"
+    },
+    "item_id": "Q036"
+  },
+  {
+    "family": "set_overlap",
+    "variant": 1,
+    "stem": "Among 50 people, 30 speak language L, 25 speak language M, and 10 speak neither. Each count refers to these same people. A person is chosen uniformly from those who speak L. What is the probability that this person also speaks M?",
+    "answer": "1/2",
+    "distractor": "3/10",
+    "parameters": {
+      "n": 50,
+      "L": 30,
+      "M": 25,
+      "neither": 10
+    },
+    "author_derivation": "15 speak both languages by inclusion-exclusion. The sampling population has 30 people, not 50.",
+    "author_check": "Inclusion-exclusion and unique disjoint-group reconstruction.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "B",
+    "options": {
+      "A": "3/10",
+      "B": "1/2"
+    },
+    "item_id": "Q037"
+  },
+  {
+    "family": "set_overlap",
+    "variant": 3,
+    "stem": "Among 45 people, 24 speak language L, 21 speak language M, and 9 speak neither. Each count refers to these same people. A person is chosen uniformly from those who speak L. What is the probability that this person also speaks M?",
+    "answer": "3/8",
+    "distractor": "1/5",
+    "parameters": {
+      "n": 45,
+      "L": 24,
+      "M": 21,
+      "neither": 9
+    },
+    "author_derivation": "9 speak both languages by inclusion-exclusion. The sampling population has 24 people, not 45.",
+    "author_check": "Inclusion-exclusion and unique disjoint-group reconstruction.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "reserved",
+    "correct_letter": "B",
+    "options": {
+      "A": "1/5",
+      "B": "3/8"
+    },
+    "item_id": "Q038"
+  },
+  {
+    "family": "base_rate",
+    "variant": 0,
+    "stem": "A batch contains 100 parts, exactly 10 defective. A scanner flags 8 of the defective parts and 18 of the nondefective parts. Choose one flagged part uniformly at random. What is the probability it is defective?",
+    "answer": "4/13",
+    "distractor": "4/5",
+    "parameters": {
+      "n": 100,
+      "defective": 10,
+      "flagged_defective": 8,
+      "flagged_nondefective": 18
+    },
+    "author_derivation": "There are 26 flagged parts, of which 8 are defective. The alternative divides by all defective parts.",
+    "author_check": "Flagged-population fraction and Bayes formula using exact rational arithmetic.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "resource",
+    "correct_letter": "B",
+    "options": {
+      "A": "4/5",
+      "B": "4/13"
+    },
+    "item_id": "Q039"
+  },
+  {
+    "family": "dependencies",
+    "variant": 2,
+    "stem": "Tasks A, B, C, D take 2, 6, 3, 4 minutes respectively. A and B can start at time 0. C can start only after A finishes. D can start only after both B and C finish. There are enough workers to run any ready tasks in parallel, with no setup delays. What is the earliest time D can finish?",
+    "answer": "10 minutes",
+    "distractor": "15 minutes",
+    "parameters": {
+      "durations": {
+        "A": 2,
+        "B": 6,
+        "C": 3,
+        "D": 4
+      },
+      "parents": {
+        "A": [],
+        "B": [],
+        "C": [
+          "A"
+        ],
+        "D": [
+          "B",
+          "C"
+        ]
+      }
+    },
+    "author_derivation": "C ends at 5; D waits until max(6, 5), then takes 4 minutes.",
+    "author_check": "Critical-path equation and discrete event simulation.",
+    "author_checks_agree": true,
+    "empirical_difficulty": "unmeasured",
+    "split": "calibration",
+    "correct_letter": "B",
+    "options": {
+      "A": "15 minutes",
+      "B": "10 minutes"
+    },
+    "item_id": "Q040"
+  }
+]

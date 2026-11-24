@@ -1,0 +1,13 @@
+{
+  "status": "answered",
+  "answer": "A",
+  "correct": true,
+  "cost_usd": "0.00117",
+  "input_tokens": 350,
+  "output_tokens": 8,
+  "stop_reason": "end_turn",
+  "id": "U003_second_late_correct",
+  "request_sha256": "f0a6ca7d810a5dfa563be15c3b0c1ec0d482b74dc9b8a2930e185caeef7165a9",
+  "response_sha256": "12a13059bb4c4d8b7a67845b1913e393b3f30b497bfcaf3aa55ef6a6db36652f",
+  "dependency_answer": "A"
+}

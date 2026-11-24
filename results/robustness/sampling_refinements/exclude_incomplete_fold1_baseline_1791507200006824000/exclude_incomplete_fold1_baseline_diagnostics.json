@@ -1,0 +1,9 @@
+{
+  "label": "exclude_incomplete_fold1_baseline",
+  "seconds": 8.66245412826538,
+  "divergences": 0,
+  "max_rhat": 1.042613249628127,
+  "min_ess": 42.40958652605834,
+  "draws": 400,
+  "chains": 2
+}

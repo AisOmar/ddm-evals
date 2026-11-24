@@ -1,0 +1,14 @@
+{
+  "label": "power_baseline_fit_q100_s2_fold2_ddm_sdv_lapse",
+  "seconds": 360.25173687934875,
+  "divergences": 0,
+  "max_rhat": 1.1361271235552661,
+  "min_ess": 13.385016863517633,
+  "draws": 400,
+  "chains": 2,
+  "tune": 500,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

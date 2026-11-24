@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "item_id": "L0_F1_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Weights: 5,4,2,6,4,7,8,6. First Fit Decreasing: [8,2], [7,3], [6,4], [6,4], [5]=5 bins."
+    },
+    {
+      "item_id": "L0_F1_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Weights: 6,8,9,4,7,3,4,2. First Fit Decreasing: [9,1], [8,2], [7,3], [6,4], [4,4]=5 bins."
+    },
+    {
+      "item_id": "L0_F2_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Huffman tree: frequencies 4,4,10,13,15. Optimal code length 102 bits total."
+    },
+    {
+      "item_id": "L0_F2_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Huffman tree: frequencies 4,6,8,10,15. Optimal code length 96 bits total."
+    },
+    {
+      "item_id": "L0_F3_V0",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "det = -7(-3\u00b7-4-2\u00b76) + 7(8\u00b7-4-2\u00b7-7) + 8(8\u00b76-(-3)\u00b7-7) = 107."
+    },
+    {
+      "item_id": "L0_F3_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "det = 2(-2\u00b78-(-3)\u00b7-3) + 3(7\u00b78-(-3)\u00b7-7) - 5(7\u00b7-3-(-2)\u00b7-7) = 247."
+    },
+    {
+      "item_id": "L0_F4_V0",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Maximum matching: A-4, B-6, C-3, D-?, E-1, F-2. Task 5 unmatched. Max=5."
+    },
+    {
+      "item_id": "L0_F4_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Maximum matching: A-6, B-5, C-2, D-?, E-3, F-4. Task 1 unmatched. Max=6."
+    },
+    {
+      "item_id": "L0_F5_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Pattern HHH: E[T]=8\u00b7(1/2)^3 + 4\u00b7(1/2)^2 + 2\u00b7(1/2) = 14 flips."
+    },
+    {
+      "item_id": "L0_F5_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Pattern HTH: E[T]=8\u00b7(1/2)^3 + 4\u00b7(1/2)^2 + 2\u00b7(1/2) = 10 flips."
+    },
+    {
+      "item_id": "L0_F6_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Optimal: jobs (1,2,22)+(2,7,28)+(7,9,27)+(13,15,25) = 102. Or (5,11,23)+(1,7,4)+(13,15,25)+(7,9,27)=79. Best=103."
+    },
+    {
+      "item_id": "L0_F6_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Optimal: (0,4,23)+(7,12,13)+(12,15,19) = 55. Or (0,4,23)+(3,8,13)+(7,13,22) = 58. Best=56."
+    }
+  ],
+  "flagged_ids": [
+    "L0_F2_V0",
+    "L0_F3_V0",
+    "L0_F3_V1",
+    "L0_F4_V1",
+    "L0_F6_V0",
+    "L0_F6_V1"
+  ],
+  "review_gate_passed": false,
+  "input_tokens": 1885,
+  "output_tokens": 1001,
+  "cost_usd": "0.00689",
+  "id": "practice_review_L0_blind",
+  "request_sha256": "9ac3562f950d073049f4058d328edb65aae502eb18f33adf4b2d992713400d57",
+  "response_sha256": "ebe9c4ffaa78faf3ced8c4b93ff344bbe6df8dc6208f29cba36c28496e332196"
+}

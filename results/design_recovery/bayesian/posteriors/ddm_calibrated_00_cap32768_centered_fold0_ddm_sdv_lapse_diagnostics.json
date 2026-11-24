@@ -1,0 +1,14 @@
+{
+  "label": "ddm_calibrated_00_cap32768_centered_fold0_ddm_sdv_lapse",
+  "seconds": 992.0590839385986,
+  "divergences": 0,
+  "max_rhat": 1.0826719080288891,
+  "min_ess": 22.861959044240663,
+  "draws": 500,
+  "chains": 2,
+  "tune": 1000,
+  "target_accept": 0.97,
+  "dense_mass": false,
+  "random_seed": 20261009,
+  "centered_effects": true
+}

@@ -1,0 +1,26 @@
+{
+  "as_of": "2026-10-21T00:03:01.854375+00:00",
+  "question_review_complete": true,
+  "exact_manifest_frozen": true,
+  "n_questions": 16,
+  "n_planned_calls": 192,
+  "models": [
+    "qwen/qwen3-32b",
+    "openai/gpt-oss-120b"
+  ],
+  "provider": "DeepInfra",
+  "live_endpoint_metadata_verified": true,
+  "account_and_key_allowance_cover_reserve": true,
+  "read_only_preflight_passed": true,
+  "conservative_full_run_reserve_usd": "0.247093848",
+  "proposed_local_cost_cap_usd": "1.00",
+  "preflight_checked_at": "2026-10-21T00:00:53.572582+00:00",
+  "preflight_valid_until": "2026-10-21T01:00:53.572582+00:00",
+  "ready_for_execution_decision": true,
+  "inference_authorized": false,
+  "collection_ready": false,
+  "n_model_calls_launched": 0,
+  "old_study_status": "paused_by_user",
+  "larger_study_sample_size_decided": false,
+  "next_step": "A separate decision to execute only this bounded 192-call feasibility study; refresh preflight first if stale."
+}

@@ -1,0 +1,14 @@
+{
+  "label": "main_within_two_process",
+  "seconds": 235.35595107078552,
+  "divergences": 4,
+  "max_rhat": 1.0360935497463961,
+  "min_ess": 80.03996700881437,
+  "draws": 2000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

@@ -1,0 +1,17 @@
+{
+  "seed": 20261020,
+  "n": 20,
+  "flagged": 10,
+  "random_comparisons": 10,
+  "independent_review_complete": false,
+  "masking": "No model answers, scores, trace flags, or official keys in masked_items.jsonl. Original question content can be recognized.",
+  "selection": "10 previous option-fit flags plus 10 deterministic random other paused questions; not a population prevalence sample",
+  "inputs": {
+    "data/raw/wmdp_cyber.jsonl": "0ff58f2976641fcbe1ab883d6b9e29620c7728cc0fd4a2f5eb38ec3feb75f379",
+    "data/processed/two_choice.jsonl": "11e93b99c917755b730ef2ae16ad153b7b006178d09f97464cd475a3b88ad6db",
+    "results/deference/trust_planning/exploratory/trace_audit_20261019/annotations_with_scores.csv": "524b28b0d02502f85d63165bd7cf36d70683cf235d6ac21e7b411379bf435b65",
+    "results/deference/trust_planning/exploratory/deep_20261019T210911Z/snapshot.csv": "f99d4dca5c9bb159930ea1bf6a7a5e9205f2bc08561123114d58709a5a3784e8",
+    "docs/THREE_DIRECTION_ANALYSIS_PLAN.md": "5210b92ee24b766a0e5121c6c84159d46aa0e1f1085b33eb877377bb76e1902f",
+    "scripts/39_ambiguity_review_packet.py": "251ecb4ca0f877ba0e239ec17c2143663ce98aa70c65a986cd6cba8e63590f9d"
+  }
+}

@@ -1,0 +1,1970 @@
+[
+  {
+    "item_id": "calibration-recurrence-01",
+    "family": "recurrence",
+    "derived_numerical_answer": "100",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "101",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "100",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=47; last five terms are [100, 61, 10, 44, 100]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        100,
+        61,
+        10,
+        44,
+        100
+      ],
+      "matrix_crosscheck": 100
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-recurrence-02",
+    "family": "recurrence",
+    "derived_numerical_answer": "41",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "41",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "39",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=62; last five terms are [5, 22, 73, 94, 41]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        5,
+        22,
+        73,
+        94,
+        41
+      ],
+      "matrix_crosscheck": 41
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-recurrence-03",
+    "family": "recurrence",
+    "derived_numerical_answer": "80",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "81",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "80",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=46; last five terms are [98, 37, 35, 86, 80]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        98,
+        37,
+        35,
+        86,
+        80
+      ],
+      "matrix_crosscheck": 80
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-recurrence-04",
+    "family": "recurrence",
+    "derived_numerical_answer": "75",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "75",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "74",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=55; last five terms are [41, 39, 66, 28, 75]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        41,
+        39,
+        66,
+        28,
+        75
+      ],
+      "matrix_crosscheck": 75
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-recurrence-05",
+    "family": "recurrence",
+    "derived_numerical_answer": "4",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "2",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "4",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=56; last five terms are [7, 57, 106, 66, 4]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        7,
+        57,
+        106,
+        66,
+        4
+      ],
+      "matrix_crosscheck": 4
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-recurrence-06",
+    "family": "recurrence",
+    "derived_numerical_answer": "2",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "2",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "0",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=47; last five terms are [35, 7, 22, 65, 2]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        35,
+        7,
+        22,
+        65,
+        2
+      ],
+      "matrix_crosscheck": 2
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-subset_count-01",
+    "family": "subset_count",
+    "derived_numerical_answer": "137",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "138",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "137",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "58": 1,
+        "65": 4,
+        "72": 7,
+        "79": 15,
+        "86": 28,
+        "93": 39,
+        "100": 43
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 137
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-subset_count-02",
+    "family": "subset_count",
+    "derived_numerical_answer": "37",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "37",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "36",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "65": 1,
+        "72": 1,
+        "79": 3,
+        "86": 8,
+        "93": 9,
+        "100": 15
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 37
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-subset_count-03",
+    "family": "subset_count",
+    "derived_numerical_answer": "88",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "89",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "88",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "72": 1,
+        "82": 2,
+        "87": 7,
+        "92": 9,
+        "97": 14,
+        "102": 24,
+        "107": 31
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 88
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-subset_count-04",
+    "family": "subset_count",
+    "derived_numerical_answer": "126",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "126",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "125",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "58": 1,
+        "65": 4,
+        "72": 4,
+        "79": 14,
+        "86": 18,
+        "93": 17,
+        "100": 30,
+        "107": 38
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 126
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-subset_count-05",
+    "family": "subset_count",
+    "derived_numerical_answer": "228",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "226",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "228",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "44": 1,
+        "51": 3,
+        "58": 5,
+        "65": 11,
+        "72": 12,
+        "79": 24,
+        "86": 34,
+        "93": 35,
+        "100": 34,
+        "107": 35,
+        "114": 34
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 228
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-subset_count-06",
+    "family": "subset_count",
+    "derived_numerical_answer": "275",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "275",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "274",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "52": 1,
+        "57": 2,
+        "62": 6,
+        "67": 9,
+        "72": 16,
+        "77": 22,
+        "82": 29,
+        "87": 32,
+        "92": 39,
+        "97": 40,
+        "102": 41,
+        "107": 38
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 275
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-shortest_path-01",
+    "family": "shortest_path",
+    "derived_numerical_answer": "19",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "20",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "19",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 6, 8]], cost 19. Independently verified with Bellman-Ford distances [0, 19, 32, 42, 28, 33, 8, 15, 19].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          6,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        19,
+        32,
+        42,
+        28,
+        33,
+        8,
+        15,
+        19
+      ],
+      "paths_examined": 26
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-shortest_path-02",
+    "family": "shortest_path",
+    "derived_numerical_answer": "21",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "21",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "20",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 1, 7, 8]], cost 21. Independently verified with Bellman-Ford distances [0, 2, 6, 20, 23, 41, 55, 18, 21].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          1,
+          7,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        2,
+        6,
+        20,
+        23,
+        41,
+        55,
+        18,
+        21
+      ],
+      "paths_examined": 43
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-shortest_path-03",
+    "family": "shortest_path",
+    "derived_numerical_answer": "30",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "31",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "30",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 1, 8]], cost 30. Independently verified with Bellman-Ford distances [0, 25, 27, 6, 12, 30, 26, 23, 30].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        25,
+        27,
+        6,
+        12,
+        30,
+        26,
+        23,
+        30
+      ],
+      "paths_examined": 24
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-shortest_path-04",
+    "family": "shortest_path",
+    "derived_numerical_answer": "41",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "41",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "40",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 1, 6, 7, 8]], cost 41. Independently verified with Bellman-Ford distances [0, 15, 32, 36, 23, 22, 18, 22, 41].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          1,
+          6,
+          7,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        15,
+        32,
+        36,
+        23,
+        22,
+        18,
+        22,
+        41
+      ],
+      "paths_examined": 15
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-shortest_path-05",
+    "family": "shortest_path",
+    "derived_numerical_answer": "17",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "16",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "17",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 2, 8]], cost 17. Independently verified with Bellman-Ford distances [0, 13, 6, 15, 38, 28, 27, 38, 17].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          2,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        13,
+        6,
+        15,
+        38,
+        28,
+        27,
+        38,
+        17
+      ],
+      "paths_examined": 46
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-shortest_path-06",
+    "family": "shortest_path",
+    "derived_numerical_answer": "29",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "29",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "28",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 8]], cost 29. Independently verified with Bellman-Ford distances [0, 26, 35, 52, 37, 18, 30, 34, 29].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        26,
+        35,
+        52,
+        37,
+        18,
+        30,
+        34,
+        29
+      ],
+      "paths_examined": 25
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest.",
+      "A direct source-to-target edge is optimal, creating a particularly easy item relative to the other families."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-urn_posterior-01",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "4719/37019",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "4720/37019",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "4719/37019",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=99/646, P(E|V)=60/143; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=4719/37019. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "99/646",
+      "likelihood_V": "60/143",
+      "posterior": "4719/37019",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-urn_posterior-02",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "20349/36079",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "20349/36079",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "20348/36079",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=35/143, P(E|V)=275/1938; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=20349/36079. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "35/143",
+      "likelihood_V": "275/1938",
+      "posterior": "20349/36079",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-urn_posterior-03",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "9690/11263",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "9689/11263",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "9690/11263",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=225/572, P(E|V)=55/646; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=9690/11263. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "225/572",
+      "likelihood_V": "55/646",
+      "posterior": "9690/11263",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-urn_posterior-04",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "605/622",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "605/622",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "607/622",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=2475/6188, P(E|V)=15/1001; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=605/622. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "2475/6188",
+      "likelihood_V": "15/1001",
+      "posterior": "605/622",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-urn_posterior-05",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "336/347",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "337/347",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "336/347",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=60/143, P(E|V)=25/728; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=336/347. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "60/143",
+      "likelihood_V": "25/728",
+      "posterior": "336/347",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "calibration-urn_posterior-06",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "1311/1727",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "1311/1727",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "1310/1727",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=175/572, P(E|V)=350/4807; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=1311/1727. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "175/572",
+      "likelihood_V": "350/4807",
+      "posterior": "1311/1727",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-recurrence-01",
+    "family": "recurrence",
+    "derived_numerical_answer": "49",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "50",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "49",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=60; last five terms are [50, 2, 65, 8, 49]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        50,
+        2,
+        65,
+        8,
+        49
+      ],
+      "matrix_crosscheck": 49
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-recurrence-02",
+    "family": "recurrence",
+    "derived_numerical_answer": "84",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "84",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "82",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=56; last five terms are [34, 15, 3, 11, 84]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        34,
+        15,
+        3,
+        11,
+        84
+      ],
+      "matrix_crosscheck": 84
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-recurrence-03",
+    "family": "recurrence",
+    "derived_numerical_answer": "42",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "44",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "42",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=40; last five terms are [7, 40, 95, 74, 42]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        7,
+        40,
+        95,
+        74,
+        42
+      ],
+      "matrix_crosscheck": 42
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-recurrence-04",
+    "family": "recurrence",
+    "derived_numerical_answer": "18",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "18",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "20",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=56; last five terms are [93, 3, 54, 82, 18]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        93,
+        3,
+        54,
+        82,
+        18
+      ],
+      "matrix_crosscheck": 18
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-recurrence-05",
+    "family": "recurrence",
+    "derived_numerical_answer": "62",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "64",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "62",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=42; last five terms are [4, 70, 59, 10, 62]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        4,
+        70,
+        59,
+        10,
+        62
+      ],
+      "matrix_crosscheck": 62
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-recurrence-06",
+    "family": "recurrence",
+    "derived_numerical_answer": "94",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "94",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "95",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Iterated the stated recurrence through n=56; last five terms are [13, 16, 48, 29, 94]. Independently checked by modular matrix exponentiation.",
+    "evidence": {
+      "last_terms": [
+        13,
+        16,
+        48,
+        29,
+        94
+      ],
+      "matrix_crosscheck": 94
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "high: 38\u201360 sequential modular arithmetic steps; routine method but laborious and error prone without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-subset_count-01",
+    "family": "subset_count",
+    "derived_numerical_answer": "123",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "122",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "123",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "51": 1,
+        "58": 1,
+        "65": 1,
+        "72": 5,
+        "79": 13,
+        "86": 18,
+        "93": 21,
+        "100": 27,
+        "107": 36
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 123
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-subset_count-02",
+    "family": "subset_count",
+    "derived_numerical_answer": "171",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "171",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "172",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "62": 1,
+        "67": 1,
+        "72": 2,
+        "77": 6,
+        "82": 7,
+        "87": 11,
+        "92": 18,
+        "97": 22,
+        "102": 30,
+        "107": 34,
+        "112": 39
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 171
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-subset_count-03",
+    "family": "subset_count",
+    "derived_numerical_answer": "275",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "274",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "275",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "37": 1,
+        "42": 1,
+        "47": 4,
+        "52": 7,
+        "57": 12,
+        "62": 21,
+        "67": 27,
+        "72": 34,
+        "77": 40,
+        "82": 44,
+        "87": 41,
+        "92": 43
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 275
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-subset_count-04",
+    "family": "subset_count",
+    "derived_numerical_answer": "252",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "252",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "254",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "37": 1,
+        "44": 4,
+        "51": 6,
+        "58": 13,
+        "65": 21,
+        "72": 30,
+        "79": 37,
+        "86": 45,
+        "93": 36,
+        "100": 36,
+        "107": 23
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 252
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-subset_count-05",
+    "family": "subset_count",
+    "derived_numerical_answer": "178",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "180",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "178",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "51": 1,
+        "58": 2,
+        "65": 5,
+        "72": 9,
+        "79": 15,
+        "86": 27,
+        "93": 33,
+        "100": 38,
+        "107": 48
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 178
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-subset_count-06",
+    "family": "subset_count",
+    "derived_numerical_answer": "214",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "214",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "215",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Enumerated all 2002 unordered label combinations and filtered by sum and residue; independently checked with subset-sum dynamic programming.",
+    "evidence": {
+      "counts_by_qualifying_sum": {
+        "52": 3,
+        "57": 3,
+        "62": 9,
+        "67": 13,
+        "72": 17,
+        "77": 25,
+        "82": 30,
+        "87": 35,
+        "92": 42,
+        "97": 37
+      },
+      "total_subsets_examined": 2002,
+      "dp_crosscheck": 214
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Tool-free burden is dominated by repetitive arithmetic/bookkeeping rather than selecting a reasoning strategy."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "very high: exact constrained enumeration of 2002 subsets or a substantial counting table; overwhelmingly bookkeeping without tools",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-shortest_path-01",
+    "family": "shortest_path",
+    "derived_numerical_answer": "12",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "14",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "12",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 8]], cost 12. Independently verified with Bellman-Ford distances [0, 12, 33, 14, 31, 15, 8, 22, 12].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        12,
+        33,
+        14,
+        31,
+        15,
+        8,
+        22,
+        12
+      ],
+      "paths_examined": 49
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest.",
+      "A direct source-to-target edge is optimal, creating a particularly easy item relative to the other families."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-shortest_path-02",
+    "family": "shortest_path",
+    "derived_numerical_answer": "39",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "39",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "41",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 6, 7, 8]], cost 39. Independently verified with Bellman-Ford distances [0, 27, 30, 44, 55, 44, 12, 14, 39].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          6,
+          7,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        27,
+        30,
+        44,
+        55,
+        44,
+        12,
+        14,
+        39
+      ],
+      "paths_examined": 15
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-shortest_path-03",
+    "family": "shortest_path",
+    "derived_numerical_answer": "58",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "56",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "58",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 1, 4, 6, 7, 8]], cost 58. Independently verified with Bellman-Ford distances [0, 13, 27, 53, 17, 43, 26, 37, 58].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          1,
+          4,
+          6,
+          7,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        13,
+        27,
+        53,
+        17,
+        43,
+        26,
+        37,
+        58
+      ],
+      "paths_examined": 11
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-shortest_path-04",
+    "family": "shortest_path",
+    "derived_numerical_answer": "16",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "16",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "17",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 3, 8]], cost 16. Independently verified with Bellman-Ford distances [0, 21, 5, 7, 13, 25, 3, 13, 16].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          3,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        21,
+        5,
+        7,
+        13,
+        25,
+        3,
+        13,
+        16
+      ],
+      "paths_examined": 27
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-shortest_path-05",
+    "family": "shortest_path",
+    "derived_numerical_answer": "17",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "16",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "17",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 1, 8]], cost 17. Independently verified with Bellman-Ford distances [0, 7, 19, 12, 3, 20, 24, 22, 17].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          1,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        7,
+        19,
+        12,
+        3,
+        20,
+        24,
+        22,
+        17
+      ],
+      "paths_examined": 38
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-shortest_path-06",
+    "family": "shortest_path",
+    "derived_numerical_answer": "27",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "27",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "29",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Exhaustively enumerated simple directed 0-to-8 paths; minimum path(s): [[0, 7, 8]], cost 27. Independently verified with Bellman-Ford distances [0, 24, 26, 11, 12, 22, 39, 6, 27].",
+    "evidence": {
+      "minimum_paths": [
+        [
+          0,
+          7,
+          8
+        ]
+      ],
+      "distances_from_0": [
+        0,
+        24,
+        26,
+        11,
+        12,
+        22,
+        39,
+        6,
+        27
+      ],
+      "paths_examined": 28
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "All edges increase vertex labels; graph is acyclic and easier than general shortest-path wording might suggest."
+    ],
+    "disposition": "retain",
+    "difficulty_without_tools": "low to moderate: nine-vertex forward-only graph; a few promising paths or a small distance table suffice",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-urn_posterior-01",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "9464/22289",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "9465/22289",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "9464/22289",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=182/969, P(E|V)=75/221; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=9464/22289. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "182/969",
+      "likelihood_V": "75/221",
+      "posterior": "9464/22289",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-urn_posterior-02",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "40/51",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "40/51",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "41/51",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=300/1001, P(E|V)=75/364; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=40/51. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "300/1001",
+      "likelihood_V": "75/364",
+      "posterior": "40/51",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-urn_posterior-03",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "22/107",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "21/107",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "22/107",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=54/221, P(E|V)=54/143; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=22/107. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "54/221",
+      "likelihood_V": "54/143",
+      "posterior": "22/107",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-urn_posterior-04",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "286/439",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "286/439",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "287/439",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=55/357, P(E|V)=10/91; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=286/439. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "55/357",
+      "likelihood_V": "10/91",
+      "posterior": "286/439",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-urn_posterior-05",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "1859/6704",
+    "chosen_letter": "B",
+    "alternatives_checked": {
+      "A": {
+        "value": "1861/6704",
+        "equals_derived_answer": false
+      },
+      "B": {
+        "value": "1859/6704",
+        "equals_derived_answer": true
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=182/969, P(E|V)=28/143; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=1859/6704. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "182/969",
+      "likelihood_V": "28/143",
+      "posterior": "1859/6704",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  },
+  {
+    "item_id": "reserved-urn_posterior-06",
+    "family": "urn_posterior",
+    "derived_numerical_answer": "2856/5881",
+    "chosen_letter": "A",
+    "alternatives_checked": {
+      "A": {
+        "value": "2856/5881",
+        "equals_derived_answer": true
+      },
+      "B": {
+        "value": "2855/5881",
+        "equals_derived_answer": false
+      }
+    },
+    "short_derivation": "Hypergeometric likelihoods P(E|U)=35/143, P(E|V)=275/2652; Bayes posterior p*P(E|U)/(p*P(E|U)+(1-p)*P(E|V))=2856/5881. Likelihoods independently checked by sequential colour-draw recursion.",
+    "evidence": {
+      "likelihood_U": "35/143",
+      "likelihood_V": "275/2652",
+      "posterior": "2856/5881",
+      "options_in_lowest_terms": {
+        "A": true,
+        "B": true
+      }
+    },
+    "unique_answer": true,
+    "ambiguity": "No substantive ambiguity found: indexing, subset identity/order, graph direction/cost, and sampling without replacement are explicit.",
+    "issues": [
+      "Repeated same-family template creates procedural overlap and potential practice/transfer across calibration and reserved packets.",
+      "Options differ by only 1 or 2 in the integer answer or fraction numerator; mainly tests exact arithmetic and error detection.",
+      "Same-denominator alternatives make the task an exact numerator discrimination; conceptual posterior understanding alone does not distinguish them."
+    ],
+    "disposition": "repair",
+    "difficulty_without_tools": "moderate to high: Bayes and hypergeometric setup is standard; distinguishing near-identical exact fractions needs lengthy exact arithmetic",
+    "mostly_computation": true
+  }
+]

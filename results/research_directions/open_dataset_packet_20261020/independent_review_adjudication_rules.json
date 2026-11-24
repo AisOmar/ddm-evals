@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-10-20T23:47:37.790734+00:00",
+  "current_packet_version": 2,
+  "masked_input_sha256": "6cbb8443aea2886d76c35c180846472bab2803963d25e425c916a9a41a7c6aaa",
+  "reviewer_outputs_inspected": false,
+  "author_is_exposed": true,
+  "collection_remains_paused": true,
+  "acceptance_rules": [
+    "Require a unique defensible retained answer, explicit derivation and scrutiny of the alternative from the separate reviewer.",
+    "Compare the locked fresh judgment with the initial analyst answer and checked computation; official-key agreement alone never settles truth.",
+    "Preserve both judgments and all disagreements, including difficulty and family disagreements, before adjudication.",
+    "Resolve material wording or answer concerns with explicit reasoning; rewritten text must be a separately versioned variant and independently revalidated.",
+    "Assess near-identical semantic/code templates separately from broad shared skills. Record local family scope and conservative sensitivity grouping.",
+    "Do not count reviewed questions as statistically independent merely because text differs or both reviewers agree.",
+    "Independent AI review is not independent human validation.",
+    "Question-review completion cannot by itself authorize model calls: collection still needs an exact separate plan, models/endpoints, budget, scoring and stopping rules."
+  ],
+  "next_stage": "Adjudicate only after fresh initial review and lock exist."
+}

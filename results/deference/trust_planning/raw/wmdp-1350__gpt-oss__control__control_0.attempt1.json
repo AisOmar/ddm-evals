@@ -1,0 +1,15 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1792437106-0TPFdDdZgF7ZRZPVYd6i","object":"chat.completion","created":1792437106,"model":"openai/gpt-oss-120b","provider":"DeepInfra","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"A","refusal":null,"reasoning":"The question: \"In Empire, which attribute of the MainAgent class uniquely identifies the agent's session? A) session_id B) server\". Need answer A or B. Likely the attribute is \"session_id\". So answer A.","reasoning_details":[{"type":"reasoning.text","text":"The question: \"In Empire, which attribute of the MainAgent class uniquely identifies the agent's session? A) session_id B) server\". Need answer A or B. Likely the attribute is \"session_id\". So answer A.","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":97,"completion_tokens":59,"total_tokens":156,"cost":0.000013619,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.000013619,"upstream_inference_prompt_cost":0.000003589,"upstream_inference_completions_cost":0.00001003},"completion_tokens_details":{"reasoning_tokens":51,"image_tokens":0,"audio_tokens":0}}}

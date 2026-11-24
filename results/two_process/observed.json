@@ -1,0 +1,19 @@
+{
+  "step1": {
+    "censored": 0.4275,
+    "censored_prose": 0.25892857142857145,
+    "censored_code": 0.6420454545454546,
+    "acc_answered": 0.9563318777292577,
+    "median_prose": 887.0000000000001,
+    "median_code": 4895.0
+  },
+  "cap_experiment": {
+    "finished": 0.8064516129032258,
+    "acc_answered": 0.76,
+    "median_finish": 15944.0,
+    "acc_0_12k": 1.0,
+    "acc_12_16k": 0.8,
+    "acc_16_20k": 0.6666666666666666,
+    "acc_20_24k": 0.6
+  }
+}

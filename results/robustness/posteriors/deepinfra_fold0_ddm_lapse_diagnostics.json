@@ -1,0 +1,14 @@
+{
+  "label": "deepinfra_fold0_ddm_lapse",
+  "seconds": 97.10410690307617,
+  "divergences": 0,
+  "max_rhat": 1.0388366287185329,
+  "min_ess": 114.85088030106898,
+  "draws": 400,
+  "chains": 2,
+  "tune": 500,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "settings_source": "Executed command and script defaults"
+}

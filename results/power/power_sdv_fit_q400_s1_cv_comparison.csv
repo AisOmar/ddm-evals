@@ -1,0 +1,4 @@
+target,component,model,elpd,se,per_trial,n,n_questions,se_unit,verdict
+held-out questions,joint,ddm_sdv_lapse - baseline,687.0824732234897,64.04492550033562,0.21471327288234054,3200,400,question,candidate better
+held-out questions,length,ddm_sdv_lapse - baseline,428.70967382448686,52.48445192956696,0.13397177307015215,3200,400,question,candidate better
+held-out questions,correctness_given_length,ddm_sdv_lapse - baseline,258.37279939900293,29.30212267180743,0.08074149981218842,3200,400,question,candidate better

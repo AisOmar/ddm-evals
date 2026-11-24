@@ -1,0 +1,9 @@
+{
+  "label": "recovery400_boundary_20261108",
+  "seconds": 180.31124782562256,
+  "divergences": 1,
+  "max_rhat": 1.0298535595350717,
+  "min_ess": 40.36854021581758,
+  "draws": 400,
+  "chains": 2
+}

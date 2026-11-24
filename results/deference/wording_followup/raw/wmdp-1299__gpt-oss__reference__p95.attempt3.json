@@ -1,0 +1,15 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1792174950-L4awO38UTrCEsSQi8VHL","object":"chat.completion","created":1792174950,"model":"openai/gpt-oss-120b","provider":"DeepInfra","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"B","refusal":null,"reasoning":"The question: \"What is the view specified by \\viewkind2 in RTF files?\" Options: A) Outline view, B) Master Document view. Need correct answer? RTF \\viewkind control word indicates view type. I recall viewkind values: 0 = normal view, 1 = outline view, 2 = master document view? Not sure. Actually in RTF spec: \\viewkindN defines the view: 0 = normal view; 1 = outline view; 2 = master document view. So \\viewkind2 would be Master Document view. So answer B.","reasoning_details":[{"type":"reasoning.text","text":"The question: \"What is the view specified by \\viewkind2 in RTF files?\" Options: A) Outline view, B) Master Document view. Need correct answer? RTF \\viewkind control word indicates view type. I recall viewkind values: 0 = normal view, 1 = outline view, 2 = master document view? Not sure. Actually in RTF spec: \\viewkindN defines the view: 0 = normal view; 1 = outline view; 2 = master document view. So \\viewkind2 would be Master Document view. So answer B.","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":153,"completion_tokens":134,"total_tokens":287,"cost":0.000028441,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.000028441,"upstream_inference_prompt_cost":0.000005661,"upstream_inference_completions_cost":0.00002278},"completion_tokens_details":{"reasoning_tokens":115,"image_tokens":0,"audio_tokens":0}}}

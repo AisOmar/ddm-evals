@@ -1,0 +1,14 @@
+{
+  "label": "power_sdv_fit_q400_s1_fold0_ddm_sdv_lapse_refined_d1000_t2000_c4_a0.995_dense0",
+  "seconds": 3626.1535217761993,
+  "divergences": 0,
+  "max_rhat": 1.0464503869399753,
+  "min_ess": 66.509204560718,
+  "draws": 1000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.995,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

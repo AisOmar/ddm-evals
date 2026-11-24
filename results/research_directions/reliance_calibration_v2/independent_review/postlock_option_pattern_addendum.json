@@ -1,0 +1,79 @@
+{
+  "review_type": "Fresh-context AI review; not human expert review or independent model training.",
+  "sequence": "Written after initial judgments and hashes were locked, following inspection of the independently derived letter sequences. No answer keys or additional question artifacts opened. Initial artifacts unchanged.",
+  "critical_finding": "In every one of the eight packet-by-family blocks, odd suffixes 01/03/05 have answer B and even suffixes 02/04/06 have answer A. Thus suffix parity predicts all 48 independently derived answers. Balanced marginal A/B counts conceal a complete position cue.",
+  "observed_sequences": {
+    "calibration-recurrence": [
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A"
+    ],
+    "calibration-subset_count": [
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A"
+    ],
+    "calibration-shortest_path": [
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A"
+    ],
+    "calibration-urn_posterior": [
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A"
+    ],
+    "reserved-recurrence": [
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A"
+    ],
+    "reserved-subset_count": [
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A"
+    ],
+    "reserved-shortest_path": [
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A"
+    ],
+    "reserved-urn_posterior": [
+      "B",
+      "A",
+      "B",
+      "A",
+      "B",
+      "A"
+    ]
+  },
+  "required_repair": "Independently randomize answer positions before any calibration and regenerate the locked masked packets and corresponding keys consistently. Avoid deterministic alternation within families or packets. Re-review the final displayed order for cues.",
+  "disposition_revision": "All 48 items require repair of answer-position assignment before calibration. This overrides the initial retain/repair recommendation for readiness; the initial per-item mathematical and difficulty judgments remain valid.",
+  "readiness": "Not ready for calibration in this displayed order.",
+  "additional_option_check": "All 24 displayed urn fractions (12 pairs) are in lowest terms; no differential reducibility cue was found.",
+  "family_overlap": "Four templates, 12 parameter variants each, including six calibration and six reserved. All 48 are mostly computation; reserved questions provide procedural repetition rather than structural novelty.",
+  "numerical_validation": "48/48 answers are unique and match one shown alternative, with two computational methods per item. No mathematical errors or substantive stem ambiguities found.",
+  "initial_lock_sha256": "381bd2099b469cebff5c74f927eff3edbf6eb91777f51afcf57f96cb82b2c325",
+  "initial_manifest_verified": true
+}

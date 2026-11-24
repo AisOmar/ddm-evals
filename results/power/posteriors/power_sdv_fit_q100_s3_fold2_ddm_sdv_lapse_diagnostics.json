@@ -1,0 +1,14 @@
+{
+  "label": "power_sdv_fit_q100_s3_fold2_ddm_sdv_lapse",
+  "seconds": 120.20320987701416,
+  "divergences": 0,
+  "max_rhat": 1.0435596194383114,
+  "min_ess": 59.427812220939444,
+  "draws": 400,
+  "chains": 2,
+  "tune": 500,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

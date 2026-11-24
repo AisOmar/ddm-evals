@@ -1,0 +1,10 @@
+{
+  "annotated_at": "2026-10-19T21:20:27.504563+00:00",
+  "reviewer": "single AI analyst",
+  "method": "full masked explanations read; correctness and model metadata not consulted during first pass",
+  "rubric_sha256": "9e1a28150c2ce7ef1b516511393dc101c61a6b16a2a4180dbcb0f57ccdb17cbf",
+  "masked_review_sha256": "d16523b26bf7f1d976195b11f50d529a6545febdcbccecfd0cab1bb2569ee3d4",
+  "annotations_sha256": "c25f93ce59a6e1a9e2019fd1f23ab3e2457d1121b61fc46fe12c9e8a316f826d",
+  "auxiliary_code_timing": "option_fit_concern added after masked reading, before score unmasking",
+  "independent_reliability_assessed": false
+}

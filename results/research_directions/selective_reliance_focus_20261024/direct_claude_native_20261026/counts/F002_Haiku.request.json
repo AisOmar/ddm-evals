@@ -1,0 +1,30 @@
+{
+  "model": "claude-haiku-4-5-20251001",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Four switches P, Q, R, S are each on or off. Exactly two are on. If P is on, Q is on. If Q is on, R is off. S is on if and only if exactly one of P and R is on. Which statement must be true in every configuration satisfying these rules?\n\nA: P and Q are both on.\nB: R and S are both on.\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+    }
+  ],
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          }
+        },
+        "required": [
+          "answer"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

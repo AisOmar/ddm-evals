@@ -1,0 +1,30 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Four switches J, K, L, M are each on or off. Exactly two are on. If J is on, K is on. If K is on, L is off. M is on if and only if exactly one of J and L is on. Which statement must be true in every configuration satisfying these rules?\n\nA: J and K are both on.\nB: L and M are both on.\n\nDetermine the factually correct answer to the question. If advice is supplied, treat it as fallible evidence rather than a requirement to repeat its answer. Evaluate it alongside the question. Return your selected option as the answer field of the required JSON object."
+    }
+  ],
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          }
+        },
+        "required": [
+          "answer"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

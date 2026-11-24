@@ -1,0 +1,590 @@
+{
+  "created_at": "2026-10-21T02:54:35.772548+00:00",
+  "preflight_started_at": "2026-10-21T02:54:14.632720+00:00",
+  "execution_authorization": "User: do that, after proposal to test another provider and independently review/calibrate",
+  "trials": [
+    {
+      "sample_id": "gpt-oss__canary-1",
+      "model": "gpt-oss",
+      "correct_letter": "A",
+      "options": {
+        "A": "5",
+        "B": "6"
+      },
+      "expected_provider": "DekaLLM",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 2 + 3?\n\nA. 5\nB. 6"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Qwen3__canary-1",
+      "model": "Qwen3",
+      "correct_letter": "A",
+      "options": {
+        "A": "5",
+        "B": "6"
+      },
+      "expected_provider": "DeepInfra",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 2 + 3?\n\nA. 5\nB. 6"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "gpt-oss__canary-2",
+      "model": "gpt-oss",
+      "correct_letter": "A",
+      "options": {
+        "A": "7",
+        "B": "8"
+      },
+      "expected_provider": "DekaLLM",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 3 + 4?\n\nA. 7\nB. 8"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Qwen3__canary-2",
+      "model": "Qwen3",
+      "correct_letter": "A",
+      "options": {
+        "A": "7",
+        "B": "8"
+      },
+      "expected_provider": "DeepInfra",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 3 + 4?\n\nA. 7\nB. 8"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "gpt-oss__canary-3",
+      "model": "gpt-oss",
+      "correct_letter": "A",
+      "options": {
+        "A": "9",
+        "B": "10"
+      },
+      "expected_provider": "DekaLLM",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 4 + 5?\n\nA. 9\nB. 10"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Qwen3__canary-3",
+      "model": "Qwen3",
+      "correct_letter": "A",
+      "options": {
+        "A": "9",
+        "B": "10"
+      },
+      "expected_provider": "DeepInfra",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 4 + 5?\n\nA. 9\nB. 10"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "gpt-oss__canary-4",
+      "model": "gpt-oss",
+      "correct_letter": "A",
+      "options": {
+        "A": "11",
+        "B": "12"
+      },
+      "expected_provider": "DekaLLM",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 5 + 6?\n\nA. 11\nB. 12"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Qwen3__canary-4",
+      "model": "Qwen3",
+      "correct_letter": "A",
+      "options": {
+        "A": "11",
+        "B": "12"
+      },
+      "expected_provider": "DeepInfra",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 5 + 6?\n\nA. 11\nB. 12"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "gpt-oss__canary-5",
+      "model": "gpt-oss",
+      "correct_letter": "A",
+      "options": {
+        "A": "13",
+        "B": "14"
+      },
+      "expected_provider": "DekaLLM",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 6 + 7?\n\nA. 13\nB. 14"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Qwen3__canary-5",
+      "model": "Qwen3",
+      "correct_letter": "A",
+      "options": {
+        "A": "13",
+        "B": "14"
+      },
+      "expected_provider": "DeepInfra",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 6 + 7?\n\nA. 13\nB. 14"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "gpt-oss__canary-6",
+      "model": "gpt-oss",
+      "correct_letter": "A",
+      "options": {
+        "A": "15",
+        "B": "16"
+      },
+      "expected_provider": "DekaLLM",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 7 + 8?\n\nA. 15\nB. 16"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "Qwen3__canary-6",
+      "model": "Qwen3",
+      "correct_letter": "A",
+      "options": {
+        "A": "15",
+        "B": "16"
+      },
+      "expected_provider": "DeepInfra",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 7 + 8?\n\nA. 15\nB. 16"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 512,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    }
+  ],
+  "endpoint_snapshot": {
+    "gpt-oss": {
+      "name": "DekaLLM | openai/gpt-oss-120b",
+      "model_id": "openai/gpt-oss-120b",
+      "model_name": "OpenAI: gpt-oss-120b",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0.00000003",
+        "completion": "0.00000018",
+        "input_cache_read": "0.00000003",
+        "discount": 0
+      },
+      "provider_name": "DekaLLM",
+      "tag": "dekallm/bf16",
+      "service_tier": null,
+      "quantization": "bf16",
+      "max_completion_tokens": 117964,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "presence_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "top_p",
+        "response_format",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "logprobs",
+        "top_logprobs",
+        "reasoning_effort"
+      ],
+      "supports_tool_choice": {
+        "none": false,
+        "auto": true,
+        "required": false,
+        "function": false
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 100,
+      "supports_implicit_caching": true,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    },
+    "Qwen3": {
+      "name": "DeepInfra | qwen/qwen3-32b-04-28",
+      "model_id": "qwen/qwen3-32b",
+      "model_name": "Qwen: Qwen3 32B",
+      "context_length": 40960,
+      "pricing": {
+        "prompt": "0.00000008",
+        "completion": "0.00000028",
+        "discount": 0
+      },
+      "provider_name": "DeepInfra",
+      "tag": "deepinfra/fp8",
+      "service_tier": null,
+      "quantization": "fp8",
+      "max_completion_tokens": 16384,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "stop",
+        "frequency_penalty",
+        "presence_penalty",
+        "repetition_penalty",
+        "top_k",
+        "seed",
+        "min_p",
+        "tools",
+        "tool_choice",
+        "structured_outputs",
+        "logit_bias",
+        "response_format"
+      ],
+      "supports_tool_choice": {
+        "none": true,
+        "auto": true,
+        "required": false,
+        "function": false
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 98.68055555555556,
+      "supports_implicit_caching": false,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    }
+  },
+  "maximum_cost_usd": "0.00448652",
+  "cost_cap_usd": "0.10",
+  "minimum_start_interval_seconds": 20,
+  "max_attempts_per_trial": 1,
+  "automatic_retries": 0,
+  "preflight_passed": true,
+  "full_reserve_covered": true,
+  "old_study_remains_paused": true,
+  "input_hashes": {
+    "scripts/58_alternate_provider_canary.py": "08e5ebb79db0dc17ac78bad2b3b805973649d76d01cf5aae6762e23e4d7134a0",
+    "scripts/56_reliance_canary.py": "efa96df014f012e7103f622366f3082e352c029b032c774b328e6a35f2dd686a",
+    "scripts/50_open_dataset_feasibility.py": "4a9c10639e27400851e71d181bed006229a04d00b643665a4a56bcb1311b482a",
+    "scripts/54_reliance_calibration.py": "6ff677727db294daa91e4dc89b791419a477dfa2be5daf87a072dbd79b8c23e4",
+    "docs/ALTERNATE_PROVIDER_PROTOCOL.md": "0aeb440ebbcc192120e936991a4928b3592195c4c34cca187291a55a09d23e5a",
+    "results/research_directions/reliance_calibration_v2/delivery_canary_draft.json": "373d20c0cf4c808517be5621ce86213216fc60d8bf2b6437f3c49352b257877f"
+  }
+}

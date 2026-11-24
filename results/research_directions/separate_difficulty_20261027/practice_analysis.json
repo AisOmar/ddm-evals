@@ -1,0 +1,112 @@
+{
+  "created_at": "2026-10-27T01:52:15.679226+00:00",
+  "complete_practice_calls": 36,
+  "levels": [
+    {
+      "level": 0,
+      "planned": 12,
+      "recognized": 12,
+      "correct": 8,
+      "unknown": 0,
+      "recognized_accuracy": 0.6666666666666666,
+      "correct_yield": 0.6666666666666666,
+      "factual_bounds": [
+        0.6666666666666666,
+        0.6666666666666666
+      ],
+      "family_correct": {
+        "integer_bin_packing": 2,
+        "optimal_binary_prefix_code": 2,
+        "dense_determinant": 0,
+        "bipartite_matching_deficiency": 1,
+        "overlapping_pattern_waiting_time": 2,
+        "weighted_interval_scheduling": 1
+      }
+    },
+    {
+      "level": 1,
+      "planned": 12,
+      "recognized": 12,
+      "correct": 10,
+      "unknown": 0,
+      "recognized_accuracy": 0.8333333333333334,
+      "correct_yield": 0.8333333333333334,
+      "factual_bounds": [
+        0.8333333333333334,
+        0.8333333333333334
+      ],
+      "family_correct": {
+        "integer_bin_packing": 1,
+        "optimal_binary_prefix_code": 2,
+        "dense_determinant": 2,
+        "bipartite_matching_deficiency": 2,
+        "overlapping_pattern_waiting_time": 1,
+        "weighted_interval_scheduling": 2
+      }
+    },
+    {
+      "level": 2,
+      "planned": 12,
+      "recognized": 12,
+      "correct": 7,
+      "unknown": 0,
+      "recognized_accuracy": 0.5833333333333334,
+      "correct_yield": 0.5833333333333334,
+      "factual_bounds": [
+        0.5833333333333334,
+        0.5833333333333334
+      ],
+      "family_correct": {
+        "integer_bin_packing": 2,
+        "optimal_binary_prefix_code": 2,
+        "dense_determinant": 0,
+        "bipartite_matching_deficiency": 2,
+        "overlapping_pattern_waiting_time": 1,
+        "weighted_interval_scheduling": 0
+      }
+    }
+  ],
+  "selection": {
+    "qualified": true,
+    "mode": "single_level",
+    "levels_by_family": {
+      "integer_bin_packing": 0,
+      "optimal_binary_prefix_code": 0,
+      "dense_determinant": 0,
+      "bipartite_matching_deficiency": 0,
+      "overlapping_pattern_waiting_time": 0,
+      "weighted_interval_scheduling": 0
+    },
+    "practice_correct": 8,
+    "practice_total": 12,
+    "selected_practice_ids": [
+      "L0_F6_V0",
+      "L0_F2_V0",
+      "L0_F3_V0",
+      "L0_F6_V1",
+      "L0_F4_V1",
+      "L0_F1_V1",
+      "L0_F3_V1",
+      "L0_F5_V0",
+      "L0_F5_V1",
+      "L0_F4_V0",
+      "L0_F2_V1",
+      "L0_F1_V0"
+    ],
+    "reserved_item_ids": [
+      "L0_F1_V2",
+      "L0_F1_V3",
+      "L0_F2_V2",
+      "L0_F2_V3",
+      "L0_F3_V2",
+      "L0_F3_V3",
+      "L0_F4_V2",
+      "L0_F4_V3",
+      "L0_F5_V2",
+      "L0_F5_V3",
+      "L0_F6_V2",
+      "L0_F6_V3"
+    ]
+  },
+  "evaluated_model_reserved_calls": 0
+}

@@ -1,0 +1,52 @@
+{
+  "status": "reviewed questions; execution design draft only",
+  "purpose": "Check answer format/delivery and assess difficulty ceiling, not validate a safety metric.",
+  "question_version": 2,
+  "n_questions": 16,
+  "dataset_counts": {
+    "GSM8K": 6,
+    "BBH": 10
+  },
+  "n_candidate_models": 2,
+  "candidate_models": [
+    {
+      "label": "Qwen3",
+      "proposed_id": "qwen/qwen3-32b"
+    },
+    {
+      "label": "gpt-oss",
+      "proposed_id": "openai/gpt-oss-120b"
+    }
+  ],
+  "proposed_provider": "DeepInfra; availability and route not verified",
+  "n_instruction_conditions": 2,
+  "n_advice_conditions": 3,
+  "repeats_per_cell": 1,
+  "n_waves": 1,
+  "planned_calls": 192,
+  "proposed_temperature": 0.7,
+  "proposed_max_completion_tokens": 4096,
+  "prompts_sha256": "cd933abd54ac4bf8ab09b5ff3a29cc4d6c79eab723de53d067836bd246a0c1eb",
+  "dispatch_ready": false,
+  "full_cost_envelope_usd": null,
+  "live_pricing_verified": false,
+  "available_credit_verified": false,
+  "collection_authorized": false,
+  "automatic_retries": 0,
+  "scoring": "Report A0, AC, AW and descriptive H=A0-AW, B=AC-A0 per model/instruction. Each denominator is sixteen. No efficacy, equivalence, safety, or general-model-ranking claim.",
+  "control_policy": "One no-advice trial per question/model/instruction; do not duplicate shared controls into independent observations.",
+  "feasibility_checks": [
+    "Verify exact model/provider identity and token-cap enforcement.",
+    "Account for every delivered answer, refusal, format error, cap-truncated response and API failure; never retry for a preferred answer.",
+    "Report no-advice accuracy and flag a >=95% baseline as a possible helpful-advice ceiling. This is a diagnostic, not an exclusion rule.",
+    "Complete the fixed feasibility set unless user pause, budget, model/provider drift or execution-integrity issue requires stopping.",
+    "Do not expand this set or choose favorable items based on treatment outcomes; any harder cohort is a separately versioned future study."
+  ],
+  "required_before_dispatch": [
+    "Exact separate execution manifest and runner with source/version hashes.",
+    "Live endpoint, pricing, total cost envelope, available budget and call/token limits.",
+    "Explicit decision to run this separate feasibility study; the old study remains paused."
+  ],
+  "larger_study_sample_size_decided": false,
+  "n_model_calls_launched": 0
+}

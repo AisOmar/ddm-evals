@@ -1,0 +1,28 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nOn a nonstop 30 km ride, the first 15 km are covered at 5 km/h and the remaining 15 km at 10 km/h. What is total distance divided by total time?\n\nA. 15/2 km/h\nB. 20/3 km/h"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 2048,
+  "provider": {
+    "order": [
+      "deepinfra/fp8"
+    ],
+    "only": [
+      "deepinfra/fp8"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "fp8"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.08,
+      "completion": 0.28
+    }
+  }
+}

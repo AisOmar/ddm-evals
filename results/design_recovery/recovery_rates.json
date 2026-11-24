@@ -1,0 +1,104 @@
+[
+  {
+    "profile": "baseline_calibrated",
+    "cap": 8192,
+    "n": 1,
+    "correct": 1,
+    "wrong": 0,
+    "inconclusive": 0,
+    "failures": 0,
+    "correct_ci": [
+      0.20654931437723745,
+      1
+    ],
+    "wrong_ci": [
+      0,
+      0.7934506856227626
+    ]
+  },
+  {
+    "profile": "baseline_calibrated",
+    "cap": 32768,
+    "n": 1,
+    "correct": 1,
+    "wrong": 0,
+    "inconclusive": 0,
+    "failures": 0,
+    "correct_ci": [
+      0.20654931437723745,
+      1
+    ],
+    "wrong_ci": [
+      0,
+      0.7934506856227626
+    ]
+  },
+  {
+    "profile": "baseline_contaminated",
+    "cap": 32768,
+    "n": 1,
+    "correct": 1,
+    "wrong": 0,
+    "inconclusive": 0,
+    "failures": 0,
+    "correct_ci": [
+      0.20654931437723745,
+      1
+    ],
+    "wrong_ci": [
+      0,
+      0.7934506856227626
+    ]
+  },
+  {
+    "profile": "ddm_calibrated",
+    "cap": 8192,
+    "n": 1,
+    "correct": 1,
+    "wrong": 0,
+    "inconclusive": 0,
+    "failures": 0,
+    "correct_ci": [
+      0.20654931437723745,
+      1
+    ],
+    "wrong_ci": [
+      0,
+      0.7934506856227626
+    ]
+  },
+  {
+    "profile": "ddm_calibrated",
+    "cap": 32768,
+    "n": 2,
+    "correct": 1,
+    "wrong": 0,
+    "inconclusive": 0,
+    "failures": 1,
+    "correct_ci": [
+      0.09453120573423074,
+      0.9054687942657693
+    ],
+    "wrong_ci": [
+      0,
+      0.6576197724933469
+    ]
+  },
+  {
+    "profile": "ddm_question_time",
+    "cap": 32768,
+    "n": 1,
+    "correct": 0,
+    "wrong": 0,
+    "inconclusive": 0,
+    "failures": 1,
+    "correct_ci": [
+      0,
+      0.7934506856227626
+    ],
+    "wrong_ci": [
+      0,
+      0.7934506856227626
+    ]
+  }
+]

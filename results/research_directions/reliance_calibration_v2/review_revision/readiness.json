@@ -1,0 +1,16 @@
+{
+  "current_review_packet": "review_revision",
+  "supersedes_initial_options_only": true,
+  "n_calibration": 24,
+  "n_reserved": 24,
+  "independent_review_complete": false,
+  "live_delivery_validated": false,
+  "exact_request_manifest_frozen": false,
+  "model_calls_launched": 0,
+  "old_study_remains_paused": true,
+  "remaining_gates": [
+    "masked semantic review",
+    "live delivery canary",
+    "budget and exact calibration request freeze"
+  ]
+}

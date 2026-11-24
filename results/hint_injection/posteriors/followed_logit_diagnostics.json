@@ -1,0 +1,14 @@
+{
+  "label": "followed_logit",
+  "seconds": 929.2580831050873,
+  "divergences": 0,
+  "max_rhat": 1.0031528422717833,
+  "min_ess": 3243.5311105671767,
+  "draws": 2000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

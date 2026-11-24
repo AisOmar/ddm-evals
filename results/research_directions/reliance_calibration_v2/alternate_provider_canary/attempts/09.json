@@ -1,0 +1,7 @@
+{
+  "sample_id": "gpt-oss__canary-5",
+  "prepared_at": "2026-10-21T03:03:14.469114+00:00",
+  "manifest_sha256": "7252224a644c39fcbdfe38f363bda8b7efe16feffd34916034dde9e8a9e1e411",
+  "request_sha256": "13e94eece498fd3ad68d9c37f6855dca70d0f4323e14e8fa9bada1f37885dfb1",
+  "reserved_cost_usd": "0.00023196"
+}

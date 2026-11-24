@@ -1,0 +1,10 @@
+{
+  "sample_id": "a0128",
+  "logical_sample_id": "W01__plain__wrong__r1__gpt-oss",
+  "total_attempt_number": 1,
+  "is_retry": false,
+  "prepared_at": "2026-10-23T01:37:48.576981+00:00",
+  "manifest_sha256": "44e06618dfb78a9f7b036446d4bd8451a3d10d51d77a7c23e392327f7816d957",
+  "request_sha256": "7220e784cb9784d26d77c1e04f667af45b91a5b208c99d4e7961aa546a1dea6b",
+  "reserved_cost_usd": "0.00053448"
+}

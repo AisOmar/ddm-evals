@@ -1,0 +1,22 @@
+{
+  "sample_id": "N07__gpt-oss",
+  "prepared_at": "2026-10-22T23:34:59.108962+00:00",
+  "manifest_sha256": "54399c58aecbaccc71296650d2c311bd7e64175132f058d795dd99c6e389155b",
+  "request_sha256": "b4b90db7170a706a940407893895ba2e410421c9a6ed7ab081f93c4480c4713a",
+  "reserved_cost_usd": "0.00052056",
+  "finished_at": "2026-10-22T23:35:00.318809+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "B",
+    "correct": true,
+    "strict_format": true
+  },
+  "recorded_cost_usd": "0.00002202",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "8723bddf104f968c5a855ca81dc1fc1df74e7f050e8c193669cb8cc5efacc0d5",
+  "headers_sha256": "5d250a64e271761711cc051dd3ad73c72dda869e3f621c3aeba631e50d7080c7"
+}

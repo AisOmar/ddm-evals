@@ -1,0 +1,9 @@
+{
+  "label": "main_fold4_baseline",
+  "seconds": 6.629363059997559,
+  "divergences": 400,
+  "max_rhat": 2.286119329722746,
+  "min_ess": 2.570974661278694,
+  "draws": 400,
+  "chains": 2
+}

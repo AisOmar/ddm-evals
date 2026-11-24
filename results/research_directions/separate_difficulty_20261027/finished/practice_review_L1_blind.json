@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "item_id": "L1_F1_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "First Fit Decreasing: 8,8,8,8,5,5,4,3,3,2,9. Bins: [8,2],[8],[8],[8],[5,5],[4,3],[3],[9]. Total 7 bins."
+    },
+    {
+      "item_id": "L1_F1_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Sorted: 7,7,6,5,5,5,5,3,2,2,2. FFD packing yields 6 bins minimum."
+    },
+    {
+      "item_id": "L1_F2_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Huffman tree on frequencies 56,43,55,19,35,23,49,32,6 yields 971 bits."
+    },
+    {
+      "item_id": "L1_F2_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Huffman coding on frequencies 48,45,40,26,19,11,7,5,5 gives 584 bits."
+    },
+    {
+      "item_id": "L1_F3_V0",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Cofactor expansion along row 2 yields determinant -564."
+    },
+    {
+      "item_id": "L1_F3_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Cofactor expansion and row operations yield determinant -948."
+    },
+    {
+      "item_id": "L1_F4_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Maximum bipartite matching: tasks 1,2,3,4,5,6,7,9 assigned. Maximum 8."
+    },
+    {
+      "item_id": "L1_F4_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Maximum matching: A-9, B-4, C-3, D-1, G-5, H-2, I-6. Maximum 7."
+    },
+    {
+      "item_id": "L1_F5_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Conway leading number for HHTHH: 3125/48 expected flips."
+    },
+    {
+      "item_id": "L1_F5_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Conway leading number for THTHT: 4055/108 expected flips."
+    },
+    {
+      "item_id": "L1_F6_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Dynamic programming: optimal subset yields profit 106."
+    },
+    {
+      "item_id": "L1_F6_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Weighted interval scheduling DP yields maximum profit 99."
+    }
+  ],
+  "flagged_ids": [
+    "L1_F1_V0",
+    "L1_F2_V1",
+    "L1_F3_V1",
+    "L1_F5_V0",
+    "L1_F6_V1"
+  ],
+  "review_gate_passed": false,
+  "input_tokens": 2150,
+  "output_tokens": 755,
+  "cost_usd": "0.005925",
+  "id": "practice_review_L1_blind",
+  "request_sha256": "dc3cbec2a0153b761f71b1090434d77dff3d0588824b5e29dafb87fcf74b5337",
+  "response_sha256": "d457d1d15ba66596e07222bcbe229d7ca8eabe175e85ebb8a75ca0fe6009fadf"
+}

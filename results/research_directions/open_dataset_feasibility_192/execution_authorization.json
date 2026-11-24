@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-10-21T00:03:47.075514+00:00",
+  "user_instruction": "do that",
+  "authorized_action": "Execute the separate frozen 192-call feasibility study and summarize; original study stays paused.",
+  "manifest_sha256": "0470ae1ed02ce9cc60a9811a4c2bb0d3958d7781fad562d4ddb7c2e99721b00b",
+  "maximum_trials": 192,
+  "maximum_attempts_per_trial": 1,
+  "conservative_reserve_usd": "0.247093848",
+  "no_automatic_retries": true,
+  "old_study_resume_authorized": false
+}

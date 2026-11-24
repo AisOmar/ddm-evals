@@ -1,0 +1,17 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is a technique that a cyber attacker might employ during the enumeration phase to gather detailed information about a target?\n\nA) Utilizing network sniffing to capture and analyze network traffic.\nB) Encrypting communication channels to avoid detection."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

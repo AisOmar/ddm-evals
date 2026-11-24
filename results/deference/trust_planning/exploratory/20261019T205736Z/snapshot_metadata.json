@@ -1,0 +1,2220 @@
+{
+  "created_at": "2026-10-19T20:57:36.551042+00:00",
+  "analysis_type": "User-requested exploratory interim inspection; not frozen confirmatory analysis",
+  "authorization": "User: can we analyze based on outputs we have so fatr",
+  "n_responses": 550,
+  "manifest_sha256": "924bec4172591feb1bdef0acd5c533ef9e2f7a36d5ff6c1e94db61df071f2d00",
+  "sources": [
+    {
+      "path": "raw/wmdp-0083__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "8861f2ab8fd6ad3fba12067d253c3710903a07d07fc2f6c27212817fca26c655"
+    },
+    {
+      "path": "raw/wmdp-1957__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "3a13821a835c504cea0f7cae5fed70392dc3ec1794cbd4b59e76ff182f0e2c89"
+    },
+    {
+      "path": "raw/wmdp-0026__R1__control__control_0.attempt1.json",
+      "sha256": "3a5a03aee3ae985e35b15cc24188f3fa16749d52169c0dfe41b01fa21bb5ac1a"
+    },
+    {
+      "path": "raw/wmdp-0550__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "f1006e535f775509a4c0db8a1ee4afa6c0b70e8a89b4c077135f3d0937795586"
+    },
+    {
+      "path": "raw/wmdp-0401__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "ec8c31a5ce19afce2aece427e10f39491da1becef30cea8e8af64f9aac271657"
+    },
+    {
+      "path": "raw/wmdp-1615__R1__probability__wrong_55.attempt1.json",
+      "sha256": "b5bb751f2322033d597630cb6320d0b0bbfc6d4ab33c6dac8a0200b1a1be6112"
+    },
+    {
+      "path": "raw/wmdp-0455__Qwen3__control__control_1.attempt1.json",
+      "sha256": "7f736c1025eef9e81247d0f34f00e826e17b6843a56eb40495ad6cd1875a7db6"
+    },
+    {
+      "path": "raw/wmdp-1072__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "3727a3c98ce3ef005de501f160cc639d6147c716cd0a6147019687ff80ce5882"
+    },
+    {
+      "path": "raw/wmdp-1066__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "16b889990359deece9fe30f40a42cc6d9d56123839d740698149bc8deb0be331"
+    },
+    {
+      "path": "raw/wmdp-0841__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "85427801562c57f4558f884edd5735f8a29f539e763946cc9417f7e9bb1de4f7"
+    },
+    {
+      "path": "raw/wmdp-1363__Qwen3__control__control_0.attempt1.json",
+      "sha256": "22d67dc3e85e0774f74ea1062685987858cf5f4ec922a17d93a5b8047425500a"
+    },
+    {
+      "path": "raw/wmdp-1091__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "33b1106710dac9c10da89dd6481653b3ce1eb85b0ccb05b74b6aa8da4c3cfc04"
+    },
+    {
+      "path": "raw/wmdp-1678__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "ee18bee25df94beeefd922c1ceff2cb5a3b983d7b63ff5b7dca888f5b1dd30e5"
+    },
+    {
+      "path": "raw/wmdp-1201__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "53d5ea3c0c6986be8ffb81c4102000c7712b10d424845209648aee570bfd6de1"
+    },
+    {
+      "path": "raw/wmdp-1468__Qwen3__control__control_1.attempt1.json",
+      "sha256": "a49ab4c992494c10d27c6f32894fc9705d530fdcb00f023a4ee0365d6c2be599"
+    },
+    {
+      "path": "raw/wmdp-1674__R1__probability__wrong_95.attempt1.json",
+      "sha256": "745d6188fc50698f8dd077b014f1dec8919773b68a4d4037b0837031363608cf"
+    },
+    {
+      "path": "raw/wmdp-0256__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "9fd0ca57941d83abe09fee669e4d46990b3e08d0c5847722492a1812eebaef9c"
+    },
+    {
+      "path": "raw/wmdp-1350__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "0825dea8aeeebb5a9a1d905e6303f3d0950af97286f2dfe2fb6849b991223dbd"
+    },
+    {
+      "path": "raw/wmdp-0907__R1__control__control_0.attempt1.json",
+      "sha256": "ff144ba42aaee250c4b687f96d69ba2b23f5e3280b1ccfdfa1c8031660c1aa69"
+    },
+    {
+      "path": "raw/wmdp-1164__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "efc573404eb1eae5d55f0b802f6806b9a7f2c6bd44edcb6215aaf8d9c537d178"
+    },
+    {
+      "path": "raw/wmdp-1209__R1__control__control_1.attempt1.json",
+      "sha256": "9d511b935ec974678da53b7664731cc1b458ff43d47298e41fde75516e7dc006"
+    },
+    {
+      "path": "raw/wmdp-0505__Qwen3__control__control_0.attempt1.json",
+      "sha256": "8906ac1c9fc85a3441791262f21546d820fc592b406f915c18cf9e6445753603"
+    },
+    {
+      "path": "raw/wmdp-1072__R1__frequency__correct_95.attempt1.json",
+      "sha256": "b9f95e4665a49a5a194a35fee4ad64cfe8fb37658a8a7c72c443ab36e42d83a5"
+    },
+    {
+      "path": "raw/wmdp-0907__R1__probability__correct_55.attempt1.json",
+      "sha256": "738a4d157c113c6c7db2754b59137db54387c963de3cb36b3927a77be2ebc374"
+    },
+    {
+      "path": "raw/wmdp-0601__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "eb1000d02ee494622d4f56725cfc4821616b76e503932b75c01e9a9073c7b391"
+    },
+    {
+      "path": "raw/wmdp-0075__R1__control__control_1.attempt1.json",
+      "sha256": "3ec5396be9299371d1092731746f9a7992c39cc27fd594e9d9c893894e34b02b"
+    },
+    {
+      "path": "raw/wmdp-0955__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "932e8c6c2fa0c2de30155dfd8a40d29583adfbd9ad243a23c45237b886be82a9"
+    },
+    {
+      "path": "raw/wmdp-1289__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "d8835ea73856fe186e37a819dbdd9b9c239faebc22a9bedf296750a3e486b6ab"
+    },
+    {
+      "path": "raw/wmdp-1209__Qwen3__probability__correct_95.attempt2.json",
+      "sha256": "93c3a919a601a1453a5ec2ed24fb4982bcac112f35f2b8c45d7d0d92b425645f"
+    },
+    {
+      "path": "raw/wmdp-1293__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "fd35bf71d26a9d4274c2d9c44ae0d4d310d5dc2d784ae69916a17040eb27ecf6"
+    },
+    {
+      "path": "raw/wmdp-1321__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "007c025ea20b48c12fee31b6be5310fbe329d766c00c99ac9d71f59698612de9"
+    },
+    {
+      "path": "raw/wmdp-0682__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "b9ef2486468a955700220d1b37417d6529418f190c147be25550da516fb2fb13"
+    },
+    {
+      "path": "raw/wmdp-0601__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "0b935614de6da06973cf080719b1e7ae1b5d7e2c3e7f4ee6889334a6bf557965"
+    },
+    {
+      "path": "raw/wmdp-0714__R1__probability__wrong_95.attempt1.json",
+      "sha256": "ec9cb41955aed2cdadb5734bc633401a895a4636950fe54584d5134486bc2b03"
+    },
+    {
+      "path": "raw/wmdp-0806__R1__control__control_1.attempt1.json",
+      "sha256": "d59dc6323bb2997c3769c19545e7d5e264b5fe5b8193ef0d422804a9fe84dd81"
+    },
+    {
+      "path": "raw/wmdp-1164__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "77d0a612b3bab9e721837c4a0a37ec49063a7d6bf982dd70ccd2187a00b5f4be"
+    },
+    {
+      "path": "raw/wmdp-0013__Qwen3__frequency__wrong_55.attempt2.json",
+      "sha256": "034136b76723f9b586e91a54b4e06f78de7b4f8d7d528538886cc215c34216d0"
+    },
+    {
+      "path": "raw/wmdp-1620__R1__probability__wrong_95.attempt1.json",
+      "sha256": "93a0c881760d840db073e848aec283e4390b3ccea19f0799167dcbe78164db80"
+    },
+    {
+      "path": "raw/wmdp-0951__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "6c1b0537df731a9184689e54a6655cdfddf136b9a18af141b7009fe7b61400cc"
+    },
+    {
+      "path": "raw/wmdp-0041__R1__probability__wrong_95.attempt2.json",
+      "sha256": "9c9227e24c9fa3b505b7e06338909624a9085f75760fd15e8d5636a346669452"
+    },
+    {
+      "path": "raw/wmdp-0206__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "21a19aa7c91fa4ca717cdcd5f05bf50fa4c4e765db00b723908ca0c23a84e050"
+    },
+    {
+      "path": "raw/wmdp-0401__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "297b04e4251f73a56c9bfcd04e787ae632318dff6a6350b72a505ecdc1104c63"
+    },
+    {
+      "path": "raw/wmdp-1737__Qwen3__control__control_0.attempt1.json",
+      "sha256": "47d718ed1b348d35a118beefae793d63a6f4234fdef6ab1989b2755715d8b557"
+    },
+    {
+      "path": "raw/wmdp-1858__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "1388e698548be688020db93eaaca0c09f56e9c680f8930146b1b47a135ca6f50"
+    },
+    {
+      "path": "raw/wmdp-0726__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "03c6ac234d4757fbf82156a156cf099cbf1d5fee83b0b038ff2788163b0fb10e"
+    },
+    {
+      "path": "raw/wmdp-0747__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "909fffbc6f9edaad9173cc550d834d3a0b8d1448879eddcfe3c2da6e13cc4e77"
+    },
+    {
+      "path": "raw/wmdp-0480__Qwen3__control__control_1.attempt2.json",
+      "sha256": "83af5cfe8c33015103e6e5cde44ffe68277a7c9efbf00e1460adf7ee374311bd"
+    },
+    {
+      "path": "raw/wmdp-1360__gpt-oss__control__control_1.attempt2.json",
+      "sha256": "3853c343a34f451266746d29d1250aa30f1366d67a92afad41684a614fc54a83"
+    },
+    {
+      "path": "raw/wmdp-0443__Qwen3__control__control_0.attempt2.json",
+      "sha256": "7a30361bd35be9c531c3703b0f9d9b095e2111f4a8531b748829522b3e0c3791"
+    },
+    {
+      "path": "raw/wmdp-0144__R1__control__control_1.attempt1.json",
+      "sha256": "2596cb2fc29ea01bdf5dc956711528e045ba9c9c4a5b6264c2f805b5d9d2d911"
+    },
+    {
+      "path": "raw/wmdp-1963__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "9a076600697a8a8ab504406fdb83b1bc74c0f814ac63088231297486b06fbfbf"
+    },
+    {
+      "path": "raw/wmdp-1939__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "bc8903cb460e90a79d92f7cd11103c56ebed90cc2df4bd5c0f733a8ef2d2a383"
+    },
+    {
+      "path": "raw/wmdp-1079__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "f13d9afcc0a2d74f888e2233f405489960622f35e94a15d60e14457b47055e23"
+    },
+    {
+      "path": "raw/wmdp-0009__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "fdad7ab1cabb3bf7f66cc74410994e7f9685a7a35c93b230ad3ba853c55e4075"
+    },
+    {
+      "path": "raw/wmdp-0654__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "e79eaa1ce47abe5d9165a65ec927b8109c1c18045533934e5b8aa9dc2d167698"
+    },
+    {
+      "path": "raw/wmdp-1581__Qwen3__control__control_0.attempt1.json",
+      "sha256": "63926f9cfb24f8fbd1e80946e752da05cae8b8abe169c085034b3b72e54f98ab"
+    },
+    {
+      "path": "raw/wmdp-0601__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "ea5fcb882ac0e0e19e74bea4738903662c7741ef6533cf3815d4614afc2fab09"
+    },
+    {
+      "path": "raw/wmdp-1271__R1__probability__correct_55.attempt1.json",
+      "sha256": "a77098536d344e33896d14926dced7df9d910243b669029efec9abcde4d9b878"
+    },
+    {
+      "path": "raw/wmdp-0315__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "a8f11c6cde8cc69b92b28f65358afc1710531a20379a269a58546ba2009e6002"
+    },
+    {
+      "path": "raw/wmdp-1469__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "1adaf78b6ef6a45756153bd3fc7e6685648d8c45f961f30e46b11251c9ae3c82"
+    },
+    {
+      "path": "raw/wmdp-0366__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "5a41b19da51ff7ad85f03cf716216926045ddd0809eb802a9d12dbaa65d7eb3a"
+    },
+    {
+      "path": "raw/wmdp-1477__gpt-oss__probability__correct_55.attempt2.json",
+      "sha256": "1073101e6c72f5e45a39195d9a10d08727885ec4e6bd23899ab26f4bebd5cf5e"
+    },
+    {
+      "path": "raw/wmdp-1129__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "625918c4fba89fe6c3f9839a2426683da50e28469a9b27cbacf8f9fb3761a0ec"
+    },
+    {
+      "path": "raw/wmdp-1433__Qwen3__control__control_1.attempt1.json",
+      "sha256": "64c66d481826a3d6cf614eacaa8e6ee2ee31aef56c8cfebfb411ce7d46899315"
+    },
+    {
+      "path": "raw/wmdp-0143__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "bbbeb9bf1b2c0a4639fb8a34ce9635a62a6f72ef0759655b8b51363c8a3bcff7"
+    },
+    {
+      "path": "raw/wmdp-1809__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "1ea7c94efe6be6f0b3d140197bab80c741491e2edf02c2ffa93e1d6031d8578a"
+    },
+    {
+      "path": "raw/wmdp-0254__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "0471bc38652efc69d5508694aabf3435fb8b3e5590ed9aa36e40bc62e5ec5c45"
+    },
+    {
+      "path": "raw/wmdp-0199__R1__control__control_1.attempt1.json",
+      "sha256": "7475762217ed3f48e09b89e4c6302ea850b15cdb373200b9fd70078b70e5ec2e"
+    },
+    {
+      "path": "raw/wmdp-1204__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "c88d58d6e1ef2021d4b41e96b143163e56ae45f174b0991f572dfc9f4d675877"
+    },
+    {
+      "path": "raw/wmdp-1706__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "b475ec610a4529aa24aa98cc9973c88ee19ff17f0cdd47872c67a44dec96f419"
+    },
+    {
+      "path": "raw/wmdp-0446__R1__probability__wrong_95.attempt1.json",
+      "sha256": "b3584a35dd6ed53bde579442ac6f95eb967208b19eb7bc9dcbb1eba9fe08b690"
+    },
+    {
+      "path": "raw/wmdp-0550__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "e72b920b980c0f76dfacaf6829769ff28bbf3d1eacf41a921d8ef7665bfa3b84"
+    },
+    {
+      "path": "raw/wmdp-1565__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "983c00c1dec6306bddae1aa9f39fda7966b95fd04ac4dad8e9308759b451fea4"
+    },
+    {
+      "path": "raw/wmdp-1209__R1__frequency__correct_95.attempt1.json",
+      "sha256": "8ea5e0b09558605edcc92b1e057aa899d8483a9c4ce527639c881eb597913b65"
+    },
+    {
+      "path": "raw/wmdp-1878__Qwen3__control__control_1.attempt1.json",
+      "sha256": "fe38f8498a9cda3f095b53d42a383c2172e277b67acbc9603e6743d1474948d6"
+    },
+    {
+      "path": "raw/wmdp-0075__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "4eacec4dd9863f0ae810150537693fe1d541235a54fc05d23cfaa69f9889fbcb"
+    },
+    {
+      "path": "raw/wmdp-1187__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "6424d062fd5050ba31a73c7e94fbf73290b0f7f7d5b713e1559be8a6c70bad9a"
+    },
+    {
+      "path": "raw/wmdp-0548__R1__frequency__correct_95.attempt1.json",
+      "sha256": "792679617fc78b741003f6783ce89c3b1b97a2cd35c0c0dc591af2752c15d8d8"
+    },
+    {
+      "path": "raw/wmdp-0784__R1__frequency__correct_95.attempt1.json",
+      "sha256": "ead05fd8e75de4c6026e91ff11b64e35006241d8ab5688debbba64a509ee33fc"
+    },
+    {
+      "path": "raw/wmdp-0714__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "457020dca1ad75d6cb237cc6ee36263cb9856f9287545845f3bb020d34880e76"
+    },
+    {
+      "path": "raw/wmdp-0726__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "a2e9ffbabed53dd2727ef920ff8e07352fa7ba16fdaca27346c7d85ea69f7e60"
+    },
+    {
+      "path": "raw/wmdp-1956__R1__probability__correct_55.attempt1.json",
+      "sha256": "457b079150e464fc10da214ffd749b637d8f59fe44e936c060b8016205ec7a1a"
+    },
+    {
+      "path": "raw/wmdp-0261__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "fc1a18bbf8e2a5457b42d541201816126a3cf7202be08a523310d75e0c13e24d"
+    },
+    {
+      "path": "raw/wmdp-0494__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "476f33323cc7d71a297fba3fccb8c0499d46d8982bd632d9fdae97bb6cb6ba72"
+    },
+    {
+      "path": "raw/wmdp-0060__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "c957be4cf094531da7134fd22782012c3c8b7775d280cb967dfb4a648b9e1aa6"
+    },
+    {
+      "path": "raw/wmdp-0432__R1__frequency__correct_95.attempt1.json",
+      "sha256": "6426eee0662ed50f504e12cbb817fe1c67c6f8115e9bf2017fa2c6e4b0a38e1f"
+    },
+    {
+      "path": "raw/wmdp-1297__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "ea20e22dbf5a0119467beee1b788cd79b7ec8f7bdfa374e8ed8ce3a853190a5a"
+    },
+    {
+      "path": "raw/wmdp-1244__R1__control__control_0.attempt1.json",
+      "sha256": "827301be7ccc1bddacf0e2e8fa97d0a13f705f8769f2b87ca392840bd9e5baef"
+    },
+    {
+      "path": "raw/wmdp-0401__R1__frequency__wrong_55.attempt1.json",
+      "sha256": "95456a55b07d3403b38d4c159930af4568382621bfb29b512b85f9fb8eefd45f"
+    },
+    {
+      "path": "raw/wmdp-0199__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "2a7dba1621bcb11485fb28363f0dc64bd6d02721820fd50bcf0a4eebc2ddba03"
+    },
+    {
+      "path": "raw/wmdp-0630__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "59536c35239c448ba2d36a605cd2b5b66c1b811ebb2357decfe6844edcfa51a8"
+    },
+    {
+      "path": "raw/wmdp-0515__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "45e5e823d4b0f83f5c9e2be167ffa290fb3b8920c6420cb8f796221448a277c4"
+    },
+    {
+      "path": "raw/wmdp-1602__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "ca4108d9d7d58785211577dfea3309da54b56fa78ff8be13e37e8a847faabe60"
+    },
+    {
+      "path": "raw/wmdp-0671__R1__probability__correct_95.attempt1.json",
+      "sha256": "62fcb733d603cb4f345d1c7c1fa077df13be276f11fd7a0db156c0c96d3fb366"
+    },
+    {
+      "path": "raw/wmdp-1956__R1__probability__correct_95.attempt1.json",
+      "sha256": "ccdb41f086a4754a79e41f277fbb75112994a3e94e2075dbcf3755af24309245"
+    },
+    {
+      "path": "raw/wmdp-0601__R1__probability__correct_95.attempt1.json",
+      "sha256": "024583c380019450e93a3a9e63e74bc714ce55dce841ac78ec17981d6e5e7116"
+    },
+    {
+      "path": "raw/wmdp-0001__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "cfe2ed31786fceffc7f504fb664173a987bf278108807f02c0e217bea43baec8"
+    },
+    {
+      "path": "raw/wmdp-0426__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "af5d651f23a2d1cf7af926170771b4cdc92b89780899b409301bf47c2287b39f"
+    },
+    {
+      "path": "raw/wmdp-1878__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "851de0ad92822706d33f60643e1c28a0687d7ecb433a19d5a79eac15d38d35c9"
+    },
+    {
+      "path": "raw/wmdp-0675__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "8188aea5934266d1e32a784f47269d0012c5dcf9163af4bc89fd0e166c0254d5"
+    },
+    {
+      "path": "raw/wmdp-1965__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "26636aef0bc5939b952be40948f059d4d56bf190ba8d8a7e4316d51cc35c7eec"
+    },
+    {
+      "path": "raw/wmdp-1420__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "323cc3064b808bcffe914a149bf1e32592ce12846dff4dce202271dd6ad8ca70"
+    },
+    {
+      "path": "raw/wmdp-0499__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "8be38d1118a51e066d410da38fd7667195d61d277b94b66c773aacaad34567a8"
+    },
+    {
+      "path": "raw/wmdp-1621__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "10dc0734a9d8173bc608fe85bc4ed469670d22b1c8e5d44597f8cc3daef0a5ab"
+    },
+    {
+      "path": "raw/wmdp-0645__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "e11de5f1907d68707673137aac5e1937f6db3d9e9f1d0ef1708923337bda3ecb"
+    },
+    {
+      "path": "raw/wmdp-0806__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "993cee6562e07ddd591aad9465dd4aa13f27235429039f06dcaa27c6e2790f39"
+    },
+    {
+      "path": "raw/wmdp-0660__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "c8556054f9d87f41c555b74ff8483a8a22107bf3073be7c3be6fe6c778767487"
+    },
+    {
+      "path": "raw/wmdp-1017__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "8da005b0854845219458c2275e76718bbcda8d3b42af6ba75790580d174df494"
+    },
+    {
+      "path": "raw/wmdp-0505__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "4910dff195dd3835957fd50d52eda5098b1d4de171d1b7bb5fb42f19314594b9"
+    },
+    {
+      "path": "raw/wmdp-0001__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "a83ce5012a13a9e10dc13cb88e0ff74ec7406f7a6c39ba7df88a7e76a4117b65"
+    },
+    {
+      "path": "raw/wmdp-0366__Qwen3__control__control_1.attempt1.json",
+      "sha256": "df3d697cd889b146fe6e3b04944c394b5e66ecb1d95186b0d2f12aa5ec91bca7"
+    },
+    {
+      "path": "raw/wmdp-1150__Qwen3__control__control_1.attempt1.json",
+      "sha256": "244e628a7ac0d219a13f6c836f1a5636d4ebc94018fbe774ea71039df16d5e67"
+    },
+    {
+      "path": "raw/wmdp-0778__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "385ee76872cd270a553fb65d6fb6802c62a22586cb9f10dcfd93837aae0cb087"
+    },
+    {
+      "path": "raw/wmdp-0069__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "2c72246d7b82d6a04f320c01ec612024eff027dfe1cd61a1340ef6074a0813a5"
+    },
+    {
+      "path": "raw/wmdp-1562__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "2b5f38cbadda21d079afa42a6e6d29bb847e02f38c49aa60053f722631dec8ad"
+    },
+    {
+      "path": "raw/wmdp-0679__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "349a61f251229f77a30395a398f0688173c53ccbe1a3bc51159dc144aefb76fa"
+    },
+    {
+      "path": "raw/wmdp-0584__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "ca0e77b29bb7ab81632a663f1bc0dbea99c50e11681db0c62b77d0aeeac3057c"
+    },
+    {
+      "path": "raw/wmdp-1739__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "53432d0967da50e700582324233611c0774f24356411330153ef2fcdc0d4a86e"
+    },
+    {
+      "path": "raw/wmdp-1201__R1__probability__wrong_55.attempt2.json",
+      "sha256": "3a0e800df8b610866e6c197421760b33940d09bcef0cb8032c3cb0f56531417b"
+    },
+    {
+      "path": "raw/wmdp-1615__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "0afe5ef61d12b02c735518595ad4f6904475332430393833af6ee32665a57f00"
+    },
+    {
+      "path": "raw/wmdp-1096__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "0493e35bbea611dc51f9840063af0804dac90646568b42546e4021f86dadae9e"
+    },
+    {
+      "path": "raw/wmdp-1296__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "92ad849495c45fcd76840386d20890ee51d461a01624dc45d98b986919398366"
+    },
+    {
+      "path": "raw/wmdp-1570__Qwen3__control__control_1.attempt1.json",
+      "sha256": "7a382650dc83123c64d13353bb4eb0ca1a7cc5d5ea04ee049ed17fe31a8f8f49"
+    },
+    {
+      "path": "raw/wmdp-1965__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "ffd556f718ed19218302743cae5841656ba314cf9ff61012d43676668b015db7"
+    },
+    {
+      "path": "raw/wmdp-1360__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "255d1886081f840bef474852e9db5c3783eea63a7f85c2cf52f59fcaecef64ab"
+    },
+    {
+      "path": "raw/wmdp-0515__R1__probability__correct_95.attempt1.json",
+      "sha256": "7d149f95bc6d6ce0d891f0383df2394cb4b039ca3611149c3fadcbd1709cd7e0"
+    },
+    {
+      "path": "raw/wmdp-1350__R1__probability__wrong_55.attempt1.json",
+      "sha256": "a347393a816c0b259bef5dc1b219cb5f6b8040be8c3e7f3ff8f8649a7554de7c"
+    },
+    {
+      "path": "raw/wmdp-0254__R1__frequency__correct_55.attempt1.json",
+      "sha256": "8b8fa18022479cc999440b8cceeb75941c5a9141d00a3c8c3b87a5ec729f542c"
+    },
+    {
+      "path": "raw/wmdp-0102__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "ea1cdfcc71448b9948c4ec02d6bb52607a1c91b5b0819977c8b7e0c439f61d06"
+    },
+    {
+      "path": "raw/wmdp-0469__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "e0f1b94d0588ead31429a6325086cc48c763c0b824ff0213641d40200d9214b8"
+    },
+    {
+      "path": "raw/wmdp-1739__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "621c24b5d8d939e6862bd8a31b92a9d01ac0deb3447986e55de22f6689a3c00b"
+    },
+    {
+      "path": "raw/wmdp-0143__R1__frequency__correct_55.attempt2.json",
+      "sha256": "df347dc59ff364dfcbbdd02319b286f5fd6209718a34e9e494ffe9cf29e9223f"
+    },
+    {
+      "path": "raw/wmdp-1542__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "0730f5c57b8c34b1a438b0e5d2f86b10052162051b806ee9aadc0f64ffba6dad"
+    },
+    {
+      "path": "raw/wmdp-1166__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "bf3de830ffffcf63ddb9ee735d1a8effccc80195cfaf7e1e68fd5409825e4f9d"
+    },
+    {
+      "path": "raw/wmdp-0575__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "203a7def40d323fb38334c64c3727460b65f75d1f905c1fe64d11fbe41e2c983"
+    },
+    {
+      "path": "raw/wmdp-1956__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "aaa78f300382e6842219e26383be48db0c16666e3c256b222f24f51f5ab336ed"
+    },
+    {
+      "path": "raw/wmdp-1461__R1__probability__wrong_95.attempt2.json",
+      "sha256": "2589084e77f23418af129c65004ce39392755ef571136fe333e7ec0d97f9ca30"
+    },
+    {
+      "path": "raw/wmdp-1150__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "0fb2ed2890e4c3afd96bbfff2f2738c762d082429bd92508c905bbfbde588fc4"
+    },
+    {
+      "path": "raw/wmdp-1201__Qwen3__probability__wrong_55.attempt2.json",
+      "sha256": "769111bcf929e093a8b6db3fe5f1a834bedaa41256b6bff80d989ac657016059"
+    },
+    {
+      "path": "raw/wmdp-1081__Qwen3__control__control_0.attempt2.json",
+      "sha256": "763269b97a7b6c6d1632a623e0994c7d37f95c8d1898406326f73447bffb17da"
+    },
+    {
+      "path": "raw/wmdp-1474__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "42bc2685e98c3901e59b534c98e7bf61c03e8f8bca0690f1d7f2a8e58993f984"
+    },
+    {
+      "path": "raw/wmdp-1223__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "032715cbf7efb65e996979df990c13689186eb4ea9bbb6bf3cce32007aa5ef2e"
+    },
+    {
+      "path": "raw/wmdp-1636__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "efa737d092576b471ab5289a7a5f5ee25e4216d153214173c71c2317a064cdbb"
+    },
+    {
+      "path": "raw/wmdp-0589__R1__frequency__correct_55.attempt1.json",
+      "sha256": "2f1c44745d32a177b3731fdb5f6eed3e095fdfd435d5f259fcb3fd39424f3cf6"
+    },
+    {
+      "path": "raw/wmdp-1420__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "a6d0812a750a4a97a54cd781a3bface127e1395eca05f5fff3aa15c9ed7003e5"
+    },
+    {
+      "path": "raw/wmdp-0719__Qwen3__control__control_1.attempt1.json",
+      "sha256": "66915eb560c3cdd6fb770d85ce198895262ec225ad23dd7f4593ee1271e7a5a3"
+    },
+    {
+      "path": "raw/wmdp-0290__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "e55221725f772df0df35f9eecb6244c71f6b7fdf8810f1e13ab78f2eba902439"
+    },
+    {
+      "path": "raw/wmdp-1142__R1__frequency__correct_55.attempt1.json",
+      "sha256": "15dde1811088b7354cc6c5e3a612beebb10944f7f5787b2a3ffa33ade478135c"
+    },
+    {
+      "path": "raw/wmdp-0542__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "99498ce8384e779c9900096744c3bd76e51fb0434c3317821aa1c692b596bf53"
+    },
+    {
+      "path": "raw/wmdp-1939__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "0444db4b17056205004b6c5b99b7b5d638f7afbafc8077326249b872a8ca665f"
+    },
+    {
+      "path": "raw/wmdp-0220__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "8256b3fad0912b9a806e030f5def2d2b9c132b38d19b36f5161cfc36280883fb"
+    },
+    {
+      "path": "raw/wmdp-1678__Qwen3__control__control_1.attempt1.json",
+      "sha256": "f679fd21d8f925ae2bf761df62f174c5ca2ffb16fdbd6d372e6523486714e92d"
+    },
+    {
+      "path": "raw/wmdp-0443__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "5aa31064f9a1ec52562e526828acc7bbfb2e2004b9fff89fae215d7d853ff74e"
+    },
+    {
+      "path": "raw/wmdp-1790__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "b702475885e664b6edcabe109a232e9d1f6e3a394a1064670b9872d2d20b80e5"
+    },
+    {
+      "path": "raw/wmdp-0102__Qwen3__control__control_0.attempt1.json",
+      "sha256": "0ee5c6cbbad288ecafd7c50fd56b7983d5093dd3659b034fd2263370a61a6dd9"
+    },
+    {
+      "path": "raw/wmdp-1039__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "c219c27380af7806e09ce3977ef285e8270fa5b2352c175800b22309c8ad61d0"
+    },
+    {
+      "path": "raw/wmdp-0845__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "00e8464acec490bfb51e4b65944715306c080f2e41f369f4da11f761f3e18738"
+    },
+    {
+      "path": "raw/wmdp-1120__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "5ebd0da7492a99bbcbb7e489981f229393a6aa4f591159f3bbb8ac4840da9f4b"
+    },
+    {
+      "path": "raw/wmdp-0976__R1__control__control_0.attempt1.json",
+      "sha256": "785ba6fdb992ca156d0f758b333b70fbdc7ea57e7b54cab9f70f3d8d64c106a2"
+    },
+    {
+      "path": "raw/wmdp-0464__Qwen3__control__control_1.attempt1.json",
+      "sha256": "65971d44bb0e3300a51b28f99df71f34a15d78e121d41002fbed6420d62bb421"
+    },
+    {
+      "path": "raw/wmdp-1878__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "85050f68bffbcb54f83e4d3be77dfb8d1b92743dbf69c5b852469f2a53ab0704"
+    },
+    {
+      "path": "raw/wmdp-0772__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "dac2d5e0961a5891269467297658e92e0834efd20965042ebaaa4adb0dcfff5b"
+    },
+    {
+      "path": "raw/wmdp-1163__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "bb1dfd2b52fb2af26481e009b4334906daa3b4ae5ad57ebfd9f13e370a3f03eb"
+    },
+    {
+      "path": "raw/wmdp-1374__Qwen3__control__control_0.attempt1.json",
+      "sha256": "9fe963b0661a9ad84994c459b947b33247eb7a6556d29561f52cde173e9a2397"
+    },
+    {
+      "path": "raw/wmdp-1764__R1__probability__correct_55.attempt1.json",
+      "sha256": "364b0d82c09af26db84edd5231efe202f173440d95483e18255343a2520cf0a3"
+    },
+    {
+      "path": "raw/wmdp-0678__Qwen3__control__control_0.attempt1.json",
+      "sha256": "9c6828f6e83cc6714e6ecae00944183022cf6f69fc72fa112f782e42415a8284"
+    },
+    {
+      "path": "raw/wmdp-0601__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "2fd6ad71f7af678aeb32ef0f49e8129d924e42a75bb966404e4832176bc3cf4c"
+    },
+    {
+      "path": "raw/wmdp-1223__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "639ee6093942085f53e9cdadf591f6f492b9693e88999d4faf2ca2911217323a"
+    },
+    {
+      "path": "raw/wmdp-1813__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "b251ea4b8cf73584b2a5911316691ac79ba9359c95b40272ca68fc03cab99f1b"
+    },
+    {
+      "path": "raw/wmdp-0845__R1__control__control_1.attempt1.json",
+      "sha256": "869dbbdbed82a1c9923eb9d4a01cf412ed241a6578520fdde2df787466ffa173"
+    },
+    {
+      "path": "raw/wmdp-1572__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "d3c96f16ea3b61b118b9fe7f83a1471b0c331e141161334e3cf6aa45bc1d9ffd"
+    },
+    {
+      "path": "raw/wmdp-1965__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "df1294f731c94e966d5144f6684c8ca6f1c0f0e84451496091432338f11eaea5"
+    },
+    {
+      "path": "raw/wmdp-0920__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "1cdd99580bf7b1007c97a9cfb8e2d696027232a031be123655fabb85f1f2a2a4"
+    },
+    {
+      "path": "raw/wmdp-0222__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "5b72d709a97d9d92b26cc5a53ec28218fed7e2f58e30d2f36e9d70e08ca3673a"
+    },
+    {
+      "path": "raw/wmdp-1459__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "a1654f95e225eabb368bd80a3180fac234a8484a448f4e8bf0eb4e9eb8151d08"
+    },
+    {
+      "path": "raw/wmdp-1468__R1__probability__correct_55.attempt1.json",
+      "sha256": "663963d333600377156780ddfddeb1afe0e6db2f4d26b22b08745fe7cdd46e58"
+    },
+    {
+      "path": "raw/wmdp-0583__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "dfbdf7a92f9f786610fcd45174d7ce8cc83e2385783440d41fc9c886518e075e"
+    },
+    {
+      "path": "raw/wmdp-1307__Qwen3__control__control_1.attempt1.json",
+      "sha256": "43ad48eff2aa9e28e690b7d30da2508982b332d4b590b0e83ee884ccf1594888"
+    },
+    {
+      "path": "raw/wmdp-0660__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "408f2fe451cca249ec410a9d8f95ab41b1088f2f0283e26d794416f10c8c9eb2"
+    },
+    {
+      "path": "raw/wmdp-1570__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "7e845a2a898dfa24873d3ff3d9839f96a278408bf1d20d6271c009d13ddc28ab"
+    },
+    {
+      "path": "raw/wmdp-1397__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "e176a9681d70afda4841336b46dbbc535c0a0ba61c5d590f08cc01dce116496d"
+    },
+    {
+      "path": "raw/wmdp-1805__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "185f3f9f59e6dd490025c2e044bdc3e1290135a13a41424b5f779ba599d3d0e2"
+    },
+    {
+      "path": "raw/wmdp-1615__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "292580c4b866865e5b6f9fa568720966c5d1a11c6c6e4a69d1d692cec6fbb3c8"
+    },
+    {
+      "path": "raw/wmdp-0719__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "c5a94c074cdb1f5c23465f8ae0026d155b0c51021b05d49ed18fd36db6c9cd18"
+    },
+    {
+      "path": "raw/wmdp-0075__R1__probability__correct_55.attempt1.json",
+      "sha256": "3c1fc61a6ec5d40e41f9062763e5b062b0a5ea3852744864e0a5d60daa3276aa"
+    },
+    {
+      "path": "raw/wmdp-0290__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "1e01264970fbf323d5095b858b94ca32580546d3d1fe57638140b9e8f67774be"
+    },
+    {
+      "path": "raw/wmdp-0504__R1__frequency__correct_95.attempt2.json",
+      "sha256": "7e112a7c443234ad8bd25630781a047cd531039e2e534968df807fa21274319c"
+    },
+    {
+      "path": "raw/wmdp-1142__R1__control__control_1.attempt2.json",
+      "sha256": "51b6302c01be3494c0d319e2d31e3d50d7b81edf892a71d4ef9b7a8a9e6b9ea7"
+    },
+    {
+      "path": "raw/wmdp-1969__R1__frequency__correct_95.attempt2.json",
+      "sha256": "f8db965ca11d86b9b0b4604c02696b88905df769c1b2f18efb827b1a0e661763"
+    },
+    {
+      "path": "raw/wmdp-0198__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "df71dbafdcdbb41a265f7022defb0041538519284e393045b214712727105ea8"
+    },
+    {
+      "path": "raw/wmdp-0075__R1__frequency__correct_95.attempt2.json",
+      "sha256": "d7de8507d9bf7eb1b26c5cf387f94c37d29ca34a91338f17a8a0e025a6e2046c"
+    },
+    {
+      "path": "raw/wmdp-1274__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "6f06d1c713a17f4fc8c155e8f4cfdd6eef33c9fd280e32cdd6732af4f4a09c42"
+    },
+    {
+      "path": "raw/wmdp-1954__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "0a3b75886313f3ebb60e4e3f7fbc1788874264e6418da25df019a860f3eebfe8"
+    },
+    {
+      "path": "raw/wmdp-1883__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "2ff2ae9b075feb004ebf4f7c23a7e760f387621a25ce51ce42c2341896b5c89c"
+    },
+    {
+      "path": "raw/wmdp-0256__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "c536245896498fbdf51c762b07f11f3807ea4ce90e8ed878152cc7a7b6f1936d"
+    },
+    {
+      "path": "raw/wmdp-1209__R1__probability__correct_55.attempt2.json",
+      "sha256": "65ce00b1e80ae056ebc78d528511ecbffef9c710fdd7f2720256c648397437f9"
+    },
+    {
+      "path": "raw/wmdp-0951__Qwen3__control__control_1.attempt1.json",
+      "sha256": "3de2c3e64243e966eb98cc0d4fb3e97eadddea44f801221dd1c21d5cb00d58aa"
+    },
+    {
+      "path": "raw/wmdp-1420__R1__probability__correct_55.attempt1.json",
+      "sha256": "1685fd20836d803ce7d38f0684d25e666c36b5aa66bd3ca9b789eff349ec9b10"
+    },
+    {
+      "path": "raw/wmdp-1500__R1__control__control_1.attempt1.json",
+      "sha256": "a64a1537f46992ec160ab55de092947d4aaabb18e2cdfef1ffdc47afd806073f"
+    },
+    {
+      "path": "raw/wmdp-0004__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "b8b131edff33093864dcad853934490049763045bd2ef0e7e1ef569dd994ee11"
+    },
+    {
+      "path": "raw/wmdp-1602__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "0a9066c6bcd53fb2ec8655a3d615c1ba99742763cbfa2eee6f5e9f3e72ae648d"
+    },
+    {
+      "path": "raw/wmdp-0177__R1__control__control_1.attempt1.json",
+      "sha256": "0747f3570f459ace8648053df17f9029f5ea0f02009186abddac78e4490c8f7a"
+    },
+    {
+      "path": "raw/wmdp-1957__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "579ac74aceb3470868a81ea12708e738b3a26ecc4c563541670869386565d6ab"
+    },
+    {
+      "path": "raw/wmdp-0009__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "bb5d4e3458541208926b28f3c70cb6691eed6707974dc2b648f7591c71be76ba"
+    },
+    {
+      "path": "raw/wmdp-1456__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "ab3baa8d10af00450fcc5bd872f7dc78e1ebbdb2effb978b3ed29887ebfc1ce7"
+    },
+    {
+      "path": "raw/wmdp-0369__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "ddb50755085732bbc0eb202fbbc089616798ebb7bc9803e76c77787b4a057680"
+    },
+    {
+      "path": "raw/wmdp-0096__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "d108f42d64f5dc031048368ff865b0fe821f139c6a58ed82ba4ae12302c37610"
+    },
+    {
+      "path": "raw/wmdp-0575__R1__frequency__wrong_95.attempt2.json",
+      "sha256": "8d7057ff630afbb7f9380d9b628af11c4747bf119655bfd06765d56ae73ad9b5"
+    },
+    {
+      "path": "raw/wmdp-0096__Qwen3__control__control_1.attempt1.json",
+      "sha256": "0e8b7b64acab469919859da898460eed5b97637f55303ab27f8d8a3ffc243b11"
+    },
+    {
+      "path": "raw/wmdp-1855__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "b76fcf4e175feae8df042ead817bb50dd583ea00387016a2931de42d657980e3"
+    },
+    {
+      "path": "raw/wmdp-1728__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "680eeb6d530d4f6a0e37b2ceb0102720a5d11685109e14e16d1e50181864569a"
+    },
+    {
+      "path": "raw/wmdp-1936__R1__probability__wrong_55.attempt2.json",
+      "sha256": "8134911ace8acfbc276d077f15d6c178246c2edc283c9c64130e25b9b716246b"
+    },
+    {
+      "path": "raw/wmdp-0841__R1__frequency__correct_55.attempt1.json",
+      "sha256": "fe3497003e2c18ee19d3b75864a7bda2a5b822b2b26bc681154a49761980483b"
+    },
+    {
+      "path": "raw/wmdp-1072__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "b682366f1811600f9d65d222e43c41f1042adf0a3fece914373182b9af8e1739"
+    },
+    {
+      "path": "raw/wmdp-0241__R1__probability__wrong_95.attempt2.json",
+      "sha256": "852bff654334f396f63566787d5de000b870b9f6fa7c2551f38006dfddee6523"
+    },
+    {
+      "path": "raw/wmdp-1346__R1__frequency__correct_55.attempt2.json",
+      "sha256": "d2f690bbc3eb7c9ef0852792a5bc77cbdb5f8beb6e3cece5fbf22106cc43056f"
+    },
+    {
+      "path": "raw/wmdp-1184__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "cd9d43c7fff22c2e3e18c6e407f7fc5f2bb1af352a5ed625649fdd28e48d6c81"
+    },
+    {
+      "path": "raw/wmdp-1734__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "34699f2a660170a9393cd917e21a46dfd71eed77ed63c2001796fc345375b74f"
+    },
+    {
+      "path": "raw/wmdp-0122__R1__probability__correct_55.attempt2.json",
+      "sha256": "314d4eaa96dc5c5733bb3c338d44f97c182ca0abd6b8f368648159c4a866dc41"
+    },
+    {
+      "path": "raw/wmdp-1276__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "531a850bf8a056a34a38640d7b72979e0c41f163b44e59e5883b0b29e6a60429"
+    },
+    {
+      "path": "raw/wmdp-1456__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "cda162b6ba4684969192325205212ce1414a78bc0385d87701e1a293d73f0b59"
+    },
+    {
+      "path": "raw/wmdp-1674__R1__probability__wrong_55.attempt2.json",
+      "sha256": "c667acec6ffde58a12701fecea09b0d20915cc1a8d553260ae5d9dd1e8033a6b"
+    },
+    {
+      "path": "raw/wmdp-0747__R1__frequency__wrong_95.attempt2.json",
+      "sha256": "fcd015784ab7bc2db0545c5da1e0ac24c4e366dfeb09748bc024f291495532c9"
+    },
+    {
+      "path": "raw/wmdp-0936__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "1e96b1eb1702ebf4c9d0ab103ae95f9a7dadc9a57cd4923100671baa5f45759b"
+    },
+    {
+      "path": "raw/wmdp-0861__Qwen3__control__control_1.attempt1.json",
+      "sha256": "fc52e7a6b94debca1846cd229743ad3092d4242652d2a7a487038a5a88128bda"
+    },
+    {
+      "path": "raw/wmdp-0143__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "b03932f0b5cb90ed5016c6a2618e493ebdfd965550af526531cb6e544422fd12"
+    },
+    {
+      "path": "raw/wmdp-1570__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "3cf3c1007a8d28adec7bc7c5014114ff8555b8bb51bf60f761b33c7e5c4d64b0"
+    },
+    {
+      "path": "raw/wmdp-1129__R1__probability__wrong_55.attempt1.json",
+      "sha256": "6a9a63aad457f445ddfec02e22782b6bfffb3be3906d7141990f7b2409198462"
+    },
+    {
+      "path": "raw/wmdp-1643__Qwen3__control__control_1.attempt1.json",
+      "sha256": "f4a4cfedc67db4e0f269dc9a972092877c7715e8d163318301565cac3281c0cc"
+    },
+    {
+      "path": "raw/wmdp-1129__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "ba14e5b78c7b9d402eebeff7baa77ba158d9dded6a6268cf576d82044094add7"
+    },
+    {
+      "path": "raw/wmdp-0609__R1__probability__wrong_55.attempt1.json",
+      "sha256": "203aede2f4a70d2cf78500362d7996d0a62fcb94828ecc825a6ec921535334cf"
+    },
+    {
+      "path": "raw/wmdp-0401__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "7af881fc9d8136d5c0be1abc4f8e707aed6653ce55d4ce09ba5bc68da546432d"
+    },
+    {
+      "path": "raw/wmdp-1429__R1__frequency__correct_95.attempt1.json",
+      "sha256": "b1b8cc1c586bc07b5b39f1927677136a008655e889d075d923d1e80771547aff"
+    },
+    {
+      "path": "raw/wmdp-0254__R1__probability__wrong_55.attempt2.json",
+      "sha256": "aa3d9e89fd8148dd600d02548e7db78bd1ef821014c508f2b164217e99b6032d"
+    },
+    {
+      "path": "raw/wmdp-0841__Qwen3__control__control_0.attempt1.json",
+      "sha256": "9468f55abecf5136d9086ccef79bdcfdf225abdb92e5e3d497247611b538989c"
+    },
+    {
+      "path": "raw/wmdp-1276__R1__probability__wrong_95.attempt1.json",
+      "sha256": "4a997e6f3dc2e5267b1d9beedd2ce934d659ca2fbdc578fa9bf123a6e15a994a"
+    },
+    {
+      "path": "raw/wmdp-0041__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "b7aa92f484472be9451262889d96d136f0955bf41932a384b5351035436f58f2"
+    },
+    {
+      "path": "raw/wmdp-1072__R1__probability__wrong_55.attempt1.json",
+      "sha256": "89738c7b323cdbc89e1047acaec0d6abc8eb6e430052e0c73559f0bed883697a"
+    },
+    {
+      "path": "raw/wmdp-1878__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "8de7ea0c0634403a7742ef40c37b8777c11e3e8324c71fc96653233cfd8aa69d"
+    },
+    {
+      "path": "raw/wmdp-1271__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "40da1a5582b4041d80f1afcb04b14388e8cb80026cf3e2a558711c1dcbf3f836"
+    },
+    {
+      "path": "raw/wmdp-0654__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "4d51296cb80ce1df45b2c5651a40e770bddc465e5e5bc803b5b828764505c46a"
+    },
+    {
+      "path": "raw/wmdp-1096__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "377b56318527868b88ee6f6bd3f56bab08bdf730af50dd3f7a0b85e176895410"
+    },
+    {
+      "path": "raw/wmdp-1223__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "bdcf92db35ebf855f6dcf391397fd4ccb147d58229a764356c6fa841be043be5"
+    },
+    {
+      "path": "raw/wmdp-0711__R1__probability__wrong_55.attempt1.json",
+      "sha256": "d92dbf5d0df0e5fd9830517c52308cc0f755ab6a835a37da74a086b5f25d7886"
+    },
+    {
+      "path": "raw/wmdp-1830__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "73e2dda6f9cb513c34aca2b287515b1ae8fa066cb4f24d26f6344d841b5e1a5d"
+    },
+    {
+      "path": "raw/wmdp-0256__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "1c5aab4204255c14f83c737e9612556891a0998b378990808ed0a21508652c6f"
+    },
+    {
+      "path": "raw/wmdp-1121__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "a0f374cdeb5952530da95060ff80da9fb95636a2ad92c63bd8e0ecf530e424e6"
+    },
+    {
+      "path": "raw/wmdp-0131__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "ed2fe16afb0fbc9a9b11d9a36d381f09ce793f43e8698764add01cec3250df3d"
+    },
+    {
+      "path": "raw/wmdp-1574__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "2bbd8ba874ed8663d7c3cfedec0ac01741692e7f99ff6e522b74202a7d986a90"
+    },
+    {
+      "path": "raw/wmdp-1141__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "02cf9fd0a2bf1ca38e5c031140445b7cc59d61af8d29904aeca9c373c046e458"
+    },
+    {
+      "path": "raw/wmdp-0678__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "e7cedaf68ead23aef66a3a493b9d61f25b8c052169234e73ad6d29220d63fa8e"
+    },
+    {
+      "path": "raw/wmdp-1211__R1__probability__correct_95.attempt1.json",
+      "sha256": "61c8439f76c69506013a609c3611b95455cc4259df4fd044f9e51aa263bb8d15"
+    },
+    {
+      "path": "raw/wmdp-1191__R1__probability__correct_95.attempt1.json",
+      "sha256": "4b917d5081b87ff3e1455f20a9344a6fc38869cd8917e5990b92e8dfb91510a5"
+    },
+    {
+      "path": "raw/wmdp-0366__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "00a7f3245fd9a34b5a8d8013d67dd95fdba933db143a4fb621a3522c60cd54e7"
+    },
+    {
+      "path": "raw/wmdp-0009__R1__probability__wrong_95.attempt1.json",
+      "sha256": "30ced43b0f00f1c250c5052c84fe3ed5c928ae71f2c46538200217c0eb7aa525"
+    },
+    {
+      "path": "raw/wmdp-1963__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "ab7c6512c359e9a359eb6b416662193a5c5bbd352e9f2ab39b0a650188c0c0f1"
+    },
+    {
+      "path": "raw/wmdp-1565__R1__probability__correct_55.attempt1.json",
+      "sha256": "51fc3c0df9f032bcb1a03cd71e3cddbfa5dc5bc797a137c5bf5851db8ae127a6"
+    },
+    {
+      "path": "raw/wmdp-0550__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "6100abe58ae5565b5cfd2f071659f34ecb7c08bdd4a80fa6ba32f445f69559f2"
+    },
+    {
+      "path": "raw/wmdp-1072__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "3f82deb7dbb0126912fb77ddda71ef6653286dae278689f71290b88777641f6a"
+    },
+    {
+      "path": "raw/wmdp-0730__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "5aad0eb5eb6789e23893acfbf362bbdc9c10ab14bf8769e2eccb2220eb6b5816"
+    },
+    {
+      "path": "raw/wmdp-1913__R1__probability__correct_95.attempt1.json",
+      "sha256": "cadbc580109910f0b99a5f1ac5ce6a1535fe7441b0f9fa34c8624218351f6e4c"
+    },
+    {
+      "path": "raw/wmdp-1797__R1__probability__correct_95.attempt1.json",
+      "sha256": "bbf87396b09f35504ec312a1e15ef228002968e80795e2ffa166b8d5457827fd"
+    },
+    {
+      "path": "raw/wmdp-0497__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "72e08f310f8d3a576d9e858e0da1e205a3891e5ae902fd7433d3272125f239ec"
+    },
+    {
+      "path": "raw/wmdp-1484__R1__probability__correct_55.attempt1.json",
+      "sha256": "1e4c8bba89c7afa0a53302e9b92a9bd94bfa7c8e2bf112615903bf161d3b026b"
+    },
+    {
+      "path": "raw/wmdp-1544__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "8bb0e908c8ed62e737d782107d208100bef0b2262391eac52b52696bad0b55d9"
+    },
+    {
+      "path": "raw/wmdp-1809__R1__probability__correct_55.attempt1.json",
+      "sha256": "d22910496d94918018ce303b5b8925a11e96f2f33f2b6bfb245e2a5827f0f373"
+    },
+    {
+      "path": "raw/wmdp-1293__Qwen3__control__control_1.attempt1.json",
+      "sha256": "89bc03868288c3e8d8000023f14bc53752ebaa1fc0fc79c567dfd13e71d6ad3f"
+    },
+    {
+      "path": "raw/wmdp-1060__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "f844108c132d2e2f58bfc90b8060581fb15dc1718f9c8d171a5c78cdfab06fc8"
+    },
+    {
+      "path": "raw/wmdp-0075__R1__probability__correct_95.attempt1.json",
+      "sha256": "5e53c615df10c413efef7a1c081c47926b1f375a4427e81646baebb7748aca2d"
+    },
+    {
+      "path": "raw/wmdp-1813__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "d3366488329a53f6385354cce0ca8babb761976e1ca77c46f0e45005151d9845"
+    },
+    {
+      "path": "raw/wmdp-0512__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "36228f049da4ea4625a0fbf4150f565fd95fcadb400783b5770fdb6beb442a62"
+    },
+    {
+      "path": "raw/wmdp-1209__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "1ff62e330ce257a5c0ca5582d3334d234c72348fa3df65aab56160dbf2e81bec"
+    },
+    {
+      "path": "raw/wmdp-1936__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "e5a9269d4471712f19180433b38a06c94cfddebee4902c0c7db8ef0a8bcc87e6"
+    },
+    {
+      "path": "raw/wmdp-1883__R1__probability__wrong_55.attempt1.json",
+      "sha256": "e9026a5aa0f64547286384112599ca90789e9a6bc510071872d52a0066ab9da2"
+    },
+    {
+      "path": "raw/wmdp-1849__R1__control__control_0.attempt1.json",
+      "sha256": "43680790399d308aed8789a5dba5f93192ab67dbb8b56c5fb55acbb58474ab54"
+    },
+    {
+      "path": "raw/wmdp-1532__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "25911651ee5a8519d1e22956f3c0dac949d838a1b37547468b258e0472afa958"
+    },
+    {
+      "path": "raw/wmdp-0526__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "8a07a086cc86915a728df8bf6046158ce45d10398279c9fd1717f9398f7cfd55"
+    },
+    {
+      "path": "raw/wmdp-0504__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "e9833e43ce3566f5631769bed01c7a887efff4ce56fa0ff8ee8795f50f6f274b"
+    },
+    {
+      "path": "raw/wmdp-0472__R1__probability__correct_95.attempt1.json",
+      "sha256": "ccd0c69268865d57fe7fdc32888c2d74067d3d436de10854df8510f903e97d40"
+    },
+    {
+      "path": "raw/wmdp-0060__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "0353133c7d9aadc2423cee9a9111c511b56e08890e1f09da330ed59c5ac839ad"
+    },
+    {
+      "path": "raw/wmdp-0647__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "bdb78956c9410a1400985c6cc52353550bb50f5cb60c44838465dc8c0b337a6f"
+    },
+    {
+      "path": "raw/wmdp-1469__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "4075cc48eeb5fb3cb19d729dc83451e7bd579703f0b7fb02a2340eccb1b840dc"
+    },
+    {
+      "path": "raw/wmdp-0069__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "cd2daa324fa35221ace5fe93cb74561330da50e4127c973f54b28c7156485e6a"
+    },
+    {
+      "path": "raw/wmdp-0209__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "e40b3839bfa073aac94dda87d7de9620646c350adef7c5353278cb7cdf88d4cc"
+    },
+    {
+      "path": "raw/wmdp-0730__Qwen3__control__control_1.attempt1.json",
+      "sha256": "516e9a895ae74d2a9fb985a8993e56bf7a82dd8e3e56c0576144701c3588ba90"
+    },
+    {
+      "path": "raw/wmdp-0494__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "864433ebd76fc96537ec04b6a587ca01f0d54373e105797b98e8bf21c605a47a"
+    },
+    {
+      "path": "raw/wmdp-1141__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "cc8e9079542c79e3a2db5c6e04a62d2a6617260f75afdb69ae71541586d8aaef"
+    },
+    {
+      "path": "raw/wmdp-1252__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "2d33eeafc924fe5331553b18dbb6562fe7866decd08fa3d0caaccc23b60ba145"
+    },
+    {
+      "path": "raw/wmdp-1459__R1__control__control_0.attempt1.json",
+      "sha256": "56b82e582040da814481e4627162fcc4647490fc2a2d8e3799e61e18030e7db0"
+    },
+    {
+      "path": "raw/wmdp-0682__R1__probability__wrong_95.attempt1.json",
+      "sha256": "4d9007ebaa04f5d76fe76eb15e1009082dfe3db8954f6ad25c9c6b041313eae1"
+    },
+    {
+      "path": "raw/wmdp-0180__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "6022a5b58cc8f1992dc6ca85674229bd30e0d8ad73535a7cffaeac537d95c86d"
+    },
+    {
+      "path": "raw/wmdp-1685__R1__probability__wrong_95.attempt1.json",
+      "sha256": "aef9c2e34e71da3b9016a76b3b97dd2b0edd02b82dbcc15ae354318bbfbb3514"
+    },
+    {
+      "path": "raw/wmdp-0861__R1__probability__correct_55.attempt1.json",
+      "sha256": "564521f720fcc69318acd216e08cd259c3d79d8a2cb7975d23060133b47d34be"
+    },
+    {
+      "path": "raw/wmdp-1624__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "b213ec949f0924da32dde21b42c3cdfcd12041dfae8cb5273510795e8a890277"
+    },
+    {
+      "path": "raw/wmdp-0573__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "588bb75a02d9fd66b33aba3b8b419b0a4947954a077f57c74ca70f5b38bd443e"
+    },
+    {
+      "path": "raw/wmdp-0504__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "7fb45b9764d209bf1978a57d85eceefb119a832a1876992f01ca6d2e7fbe6b22"
+    },
+    {
+      "path": "raw/wmdp-0719__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "9dc24a672f25eda8998791064e5d2417588bd38fe11a7bb083dd7536092422d2"
+    },
+    {
+      "path": "raw/wmdp-0432__Qwen3__control__control_1.attempt1.json",
+      "sha256": "bbdc88fe2bd299c5f609df531c22d2fa22dd7d56b2dc270cbcfa100d08eb34be"
+    },
+    {
+      "path": "raw/wmdp-1096__R1__probability__wrong_55.attempt1.json",
+      "sha256": "4091e94129a7708b2ddfcb6475ed10776c0f4278e75a4ecc8474fe1147656219"
+    },
+    {
+      "path": "raw/wmdp-1204__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "fb6fc928566b1e883f327d0818631aa8103c5d9c2ff971123e66aa23f222d760"
+    },
+    {
+      "path": "raw/wmdp-0719__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "ff42c791769f3682b47b078973c9148f785bb4a3e0b6b35c8504fe0cf585467e"
+    },
+    {
+      "path": "raw/wmdp-0896__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "bbfe005709970558957ddffbc7f605c5d125fb09df50dc38daac0b91d188323a"
+    },
+    {
+      "path": "raw/wmdp-1474__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "a21329ba650f6e678511de1feb4e8cb0d64bba5d328c404d5c170f1ec817d457"
+    },
+    {
+      "path": "raw/wmdp-1743__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "db55016118701d3a13b484bcc644a6ad4015563ee9d4f1cb9018cea7d71d948d"
+    },
+    {
+      "path": "raw/wmdp-0075__Qwen3__control__control_0.attempt1.json",
+      "sha256": "196beb1691eec00c24749796df2045f15e2acee7a84461c648566b2f0e427763"
+    },
+    {
+      "path": "raw/wmdp-0927__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "65b648bdb54e21454fb8fc90c7ad560b89e113e7dbc8b97bbd73a45c88978697"
+    },
+    {
+      "path": "raw/wmdp-0896__R1__probability__wrong_55.attempt1.json",
+      "sha256": "0ce17db6c599b57e4f8a8f4b99f57da248369b4ca3837f0dc764c7b9eeea2bc0"
+    },
+    {
+      "path": "raw/wmdp-1572__Qwen3__control__control_1.attempt1.json",
+      "sha256": "dd7846a83c53ae9c81ba4516035502f65c0c94efb6d932f2042ad4257ed1a637"
+    },
+    {
+      "path": "raw/wmdp-1943__Qwen3__control__control_1.attempt1.json",
+      "sha256": "e9c502083c419c49d7ff6c1447ed96a0272eb7e860f33632fa0d7318d32fa1ec"
+    },
+    {
+      "path": "raw/wmdp-0718__R1__probability__correct_55.attempt1.json",
+      "sha256": "7cbe50787391c8a3ee733e0acbb6650884b26c469d12e77186b762b163dde1f9"
+    },
+    {
+      "path": "raw/wmdp-1715__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "4f5bd60e64ad5c39f1f4570a86871b276aafe206189d20deade9d61250f3ec83"
+    },
+    {
+      "path": "raw/wmdp-1839__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "9074bc9f8cb34b20fda40275bea16f7400196ed9e178fce1b623f98000b56764"
+    },
+    {
+      "path": "raw/wmdp-0645__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "690d419a4cba44c0bf7fc51a0476c8f29db4130d5601741b9785da9027185d6b"
+    },
+    {
+      "path": "raw/wmdp-1655__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "90f6e9aabbfce1625433ab70701b75105b46be7780d80d16d7596fccbb900645"
+    },
+    {
+      "path": "raw/wmdp-0027__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "213820280539ddf42baf026ffdbb113eebe6e44add072cd54b63385afa23fff8"
+    },
+    {
+      "path": "raw/wmdp-0096__R1__control__control_0.attempt1.json",
+      "sha256": "276f31e243fda694cf23a65dd68222068f474179544e6e359003a73bd379491d"
+    },
+    {
+      "path": "raw/wmdp-1017__R1__probability__correct_95.attempt1.json",
+      "sha256": "edc46d1e09686512039c730852a0885ea7a726dce10ff1a6cee630467088cf1e"
+    },
+    {
+      "path": "raw/wmdp-0548__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "d56bc578c5f60250e00e35ecdc764b88d9cbce66a113d4aa0963d7cd70df28f2"
+    },
+    {
+      "path": "raw/wmdp-1477__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "65937c50e8bdfd1af8c6fe1e4c9a9e71c8c9f3a231c552c8f9a3d6ec80e07019"
+    },
+    {
+      "path": "raw/wmdp-0714__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "1abd2571857f7d81d0ae13f5ba06172748164365d0fc1cca49908ddf47434978"
+    },
+    {
+      "path": "raw/wmdp-1181__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "63a420d3e515d8c68ce99004317942e6815d0eadced8f449f64f247f814696da"
+    },
+    {
+      "path": "raw/wmdp-0241__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "66ec8ed0901e4460963c36ec60176001784b04d3ecfeeba30273a93474ddcf1a"
+    },
+    {
+      "path": "raw/wmdp-0719__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "24658f3a9139986ec25fbfbdc37a4970584f05edf09f70ac36b1dccecfae0617"
+    },
+    {
+      "path": "raw/wmdp-0647__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "7235b57c760b2fff7bdfe1644aa42b16018a85bab2581da3d124caab379184cc"
+    },
+    {
+      "path": "raw/wmdp-1096__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "01eca760b9dfd5cbc4a379d45b1a28c50cca00e13c7f2f31e6bca5b2a8c6f782"
+    },
+    {
+      "path": "raw/wmdp-0292__Qwen3__control__control_1.attempt1.json",
+      "sha256": "fdc583ec268dc6e82a3488300a8e13b4f9476a182adaedc1f83e55c177914493"
+    },
+    {
+      "path": "raw/wmdp-1635__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "3e4d9d22e1c0cfa8a4480b470fe19fcbf66e68b8aab67183b3d6572a3f42b1de"
+    },
+    {
+      "path": "raw/wmdp-1141__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "34dfd9f2e3cc8b83401854c6ed63e5ee95e404c97c61a439c659eb50ddee7f5f"
+    },
+    {
+      "path": "raw/wmdp-0349__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "9a0dad1d2c32c4ba12946b1e33ef45ca32595e2567de0b1c179853cbea73bd6f"
+    },
+    {
+      "path": "raw/wmdp-0609__R1__control__control_1.attempt1.json",
+      "sha256": "725e83c498e351be8c6959edbdfa6c7d828ce54286aad0db315cdf7f6b30b7ec"
+    },
+    {
+      "path": "raw/wmdp-0515__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "94f2d278f87578b6f927d32935e77afb260646fba17e4705f44569a981b30ee4"
+    },
+    {
+      "path": "raw/wmdp-0469__R1__probability__wrong_55.attempt1.json",
+      "sha256": "7b4a9fd69c3a0ac41fe3612f53d571ab21fb6304d5d4aba17cd0445895b5cbd6"
+    },
+    {
+      "path": "raw/wmdp-0718__R1__control__control_0.attempt1.json",
+      "sha256": "d488b1e004a76589ce78b4fdf1142f82678d047cd7c66767c8e381c865282ffc"
+    },
+    {
+      "path": "raw/wmdp-0102__R1__control__control_1.attempt1.json",
+      "sha256": "177f67f835995f49451afd07ddb1909cce15fd436c9b09f5991e5834429de14d"
+    },
+    {
+      "path": "raw/wmdp-1528__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "012ea1358fb23374cb905d87f9ba5521c1dd04a20329fa3893a20787277fe98b"
+    },
+    {
+      "path": "raw/wmdp-0916__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "f2c4b7283ac9e34ad165bddd8d43e2b51c83a1de4b86a6ca87732e4b37a51759"
+    },
+    {
+      "path": "raw/wmdp-0137__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "8fe5f3950fa3baceb54892cbaedc05f0cfde54530397b1ece684b690b339c73f"
+    },
+    {
+      "path": "raw/wmdp-1957__R1__frequency__correct_55.attempt1.json",
+      "sha256": "0747c0c8aa99181621cf92474a2a1f5cc33377fe8538764d50eafb6dbcf9191d"
+    },
+    {
+      "path": "raw/wmdp-1164__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "65cce359b808c930d016299c1563fe916812136e0471abc022298120036d4ae6"
+    },
+    {
+      "path": "raw/wmdp-1809__R1__probability__wrong_95.attempt1.json",
+      "sha256": "08cff78fbacba2e4c1ebba416cb826084fc3d5b5244dd684dc87047fb5ecae2b"
+    },
+    {
+      "path": "raw/wmdp-1435__R1__probability__correct_55.attempt1.json",
+      "sha256": "db4fc826a4c5c3ab8732d14e61b30fea8ccc23be508f2fefec1d94cbb25735a1"
+    },
+    {
+      "path": "raw/wmdp-0261__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "0e85e96033cc7fe8c9ecb78ca1fef9771ee415236eed6be7aafc4af912d11161"
+    },
+    {
+      "path": "raw/wmdp-0719__R1__probability__correct_55.attempt1.json",
+      "sha256": "cd3dd3fd82948b7924825416e537e3949cf472ad39a6c1c0ebc99e1f9c0f0fa8"
+    },
+    {
+      "path": "raw/wmdp-0203__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "d19f026040d89d45ae2f2a87f2dc9270e92ff62562486df6dc1c61117de7b782"
+    },
+    {
+      "path": "raw/wmdp-1956__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "54a68f3191c470daacea0d6eeabfaac6fe73fcfe99e9cb6191a5bc109d628266"
+    },
+    {
+      "path": "raw/wmdp-1743__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "2dd6238be4cf50e213f8fb6cf109180634c4b34fbfe2f29628f2a9ef3a7401e7"
+    },
+    {
+      "path": "raw/wmdp-0504__R1__frequency__correct_55.attempt1.json",
+      "sha256": "ad0db6c7111bc6d0b8a86155e5a293cbe5badc063ebbf3e64668d4e287edb120"
+    },
+    {
+      "path": "raw/wmdp-1079__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "1213df8a341c1bed31a1a8a630f977ea7fb7e0f9343ac603733c740b3045fa81"
+    },
+    {
+      "path": "raw/wmdp-1309__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "9667173d06b9f77d5bb836e0d64327e54a3a9801c19e61bc480f70d6db242c70"
+    },
+    {
+      "path": "raw/wmdp-1336__R1__control__control_1.attempt1.json",
+      "sha256": "b269ae51ad19c3742edd3175e315c37b5c1e443d4956db2f3a3fb38acf2b9b1b"
+    },
+    {
+      "path": "raw/wmdp-0512__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "4aee2f0782d0fac58ab6c29827fb02391438317cf8d4fd0d4e6e2a6d95c313f8"
+    },
+    {
+      "path": "raw/wmdp-0936__R1__frequency__correct_55.attempt1.json",
+      "sha256": "8accc2de40d4d749eb0a6beb457dc6cfa75795ca5e3baea8fcd6ea092cce6548"
+    },
+    {
+      "path": "raw/wmdp-0751__R1__frequency__correct_95.attempt1.json",
+      "sha256": "e9f7c63366a241ac5d792c8d82ad21d666cf94f429caac78755568c2ab50a242"
+    },
+    {
+      "path": "raw/wmdp-1636__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "2f6c2c6053cc3985b1137db7fca99ef888bef40e27b1ff488372a8dafdcf10b7"
+    },
+    {
+      "path": "raw/wmdp-0060__R1__control__control_1.attempt1.json",
+      "sha256": "04a33efdebf03be9e240985e3045889981093ef9848f02d5cbf7e75b7a4203df"
+    },
+    {
+      "path": "raw/wmdp-1939__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "95a06600cf5f21968c52409cfae62a2cf84bf795afe7de53bde63f2509bc6f19"
+    },
+    {
+      "path": "raw/wmdp-1715__R1__probability__wrong_95.attempt1.json",
+      "sha256": "a5bad8ef783af969988310f0dacdce3525de187845285c70bd69ab7cc22d54df"
+    },
+    {
+      "path": "raw/wmdp-0443__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "dcb92083fb140fd8e7c71e3830fd0a5f08fc0d4d6837420c2cb11cef8aec32c6"
+    },
+    {
+      "path": "raw/wmdp-1956__R1__frequency__wrong_95.attempt2.json",
+      "sha256": "963175482bfd18de6675d1a929ed3500938457377aa62f5a2b10b0ed01cb81d7"
+    },
+    {
+      "path": "raw/wmdp-0504__Qwen3__control__control_0.attempt1.json",
+      "sha256": "2fd8d110aee75dee5eaa3e3dd0aaabfb7d3e092db3f38edafe52396a33f1a8d5"
+    },
+    {
+      "path": "raw/wmdp-0550__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "acaf830660e9f38b28c28c8c75c24b2bfa86e8704d8b956299ba9cb94e737791"
+    },
+    {
+      "path": "raw/wmdp-1643__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "cfe1e32d8165450937eeea4e3aac625614d9aa52f2f5c549bbd789d74d554a33"
+    },
+    {
+      "path": "raw/wmdp-0075__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "3ab81dacaeb8e37d22cab403cc16f6a60fe5fefa11f74d4d076788c305718972"
+    },
+    {
+      "path": "raw/wmdp-1065__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "44f648f59d0f0f57922d0e3a9a89f84e947edfe39fd50886ae35461376a1bbaa"
+    },
+    {
+      "path": "raw/wmdp-1542__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "68abee2d24bcdda1f279db4330c0c139fb2d0cf5195cebbc5416aa721cf5b712"
+    },
+    {
+      "path": "raw/wmdp-0206__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "79209d6e547002e8c5e8ab6078945aac608129bd4f94fd1720cdbeda45da002b"
+    },
+    {
+      "path": "raw/wmdp-0861__R1__probability__wrong_95.attempt1.json",
+      "sha256": "751d3f2e1ccccb722a20e002aa2c840d36a8acfce0d4e40752653ffd9027d934"
+    },
+    {
+      "path": "raw/wmdp-0732__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "8865b85453516a438de030b2bb326a8598c68f96652a8aa5459a7728aba9f96a"
+    },
+    {
+      "path": "raw/wmdp-0464__R1__probability__wrong_55.attempt1.json",
+      "sha256": "43984e6735c9cbaeb8e9b965dadb5e92b9e6ad8705e080a1babc7a0df7a07ec6"
+    },
+    {
+      "path": "raw/wmdp-0645__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "72770e7af64231a13887343ae7868a747b8e4e7801818887790ed29c4d74291f"
+    },
+    {
+      "path": "raw/wmdp-0443__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "9759bbb04b3f10643906a00a34bcdaffdd79155e7452fe615593b9fe1f0ab991"
+    },
+    {
+      "path": "raw/wmdp-1350__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "6c47dbb49664abac18f666aa2f19a758e1c0c4a7ee711a0b40560d637f8beb67"
+    },
+    {
+      "path": "raw/wmdp-0366__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "90847bdace2ac0d0e78bc11d63b39d43a5e68f10778a87987890becd60a4d4ea"
+    },
+    {
+      "path": "raw/wmdp-1307__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "f15d71884b685552eb76e1afb35269ac5d9dfc39b88d6da85e94fc187d8847d9"
+    },
+    {
+      "path": "raw/wmdp-1544__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "caa530334bd1d37b4e675f7fde717e1970a47c9e38661eacd31d301089556977"
+    },
+    {
+      "path": "raw/wmdp-0144__R1__probability__correct_95.attempt1.json",
+      "sha256": "22389576046d2f3b561f7f2f31510d136395dcded77d00cc076cd1708a27b4f8"
+    },
+    {
+      "path": "raw/wmdp-1350__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "16f8f212432924f19c6a6cae0f6a6139362ce0ac0ffe07cdc705ffe34544303a"
+    },
+    {
+      "path": "raw/wmdp-0026__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "829a4a6c16fd22ae7ea30b855cf0e5ccca2ab25a7c19a277d03fd76556d4cd75"
+    },
+    {
+      "path": "raw/wmdp-0190__R1__control__control_0.attempt1.json",
+      "sha256": "fea8f0973389506054c0781ee1105f73bfa73694f7dc2f051f378915d9cf5e8f"
+    },
+    {
+      "path": "raw/wmdp-0645__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "94adb024d6b53ce4b652676587e4259da562702374d21ab4ff809a8e5a6ca76d"
+    },
+    {
+      "path": "raw/wmdp-1737__R1__frequency__correct_95.attempt1.json",
+      "sha256": "e15aee5bb916d7d8aadf12216938366c918d5cfb183cc874134a14abb18c762c"
+    },
+    {
+      "path": "raw/wmdp-1685__R1__probability__wrong_55.attempt1.json",
+      "sha256": "ecab32d3955e71d9525ad5f2e4e727ca1a14f293fc2901e11ecf05566718aecb"
+    },
+    {
+      "path": "raw/wmdp-0053__R1__frequency__wrong_55.attempt1.json",
+      "sha256": "8cacfffd9ad11bfcf0d56127c9de6c68c755d68cd1b140013dffccdefe91a6b4"
+    },
+    {
+      "path": "raw/wmdp-0924__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "52f54fac7234e9acac12d613dac62e88bbea967c997b18f667de4ace3607d055"
+    },
+    {
+      "path": "raw/wmdp-1096__R1__frequency__correct_95.attempt1.json",
+      "sha256": "6ae3f977a0bd93f19f750aca111b4501ebd1f03a56befc26b3b6dffb2453e7ce"
+    },
+    {
+      "path": "raw/wmdp-0928__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "90c00d4e654bb7d40ebdd2cef3ed9843f3b16ba14ac1b836164a3502e3b79123"
+    },
+    {
+      "path": "raw/wmdp-0678__R1__control__control_1.attempt1.json",
+      "sha256": "265b2cf438ded23c4bd1ae4fd6c094a268d2b3a52ca1725ed8bd9a0661eebdf2"
+    },
+    {
+      "path": "raw/wmdp-0443__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "0ec373f2b2820071413ec67ba15f5ac04aa3e7360a9427709d1d3b447d8587d0"
+    },
+    {
+      "path": "raw/wmdp-0630__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "694190659e322d5fe18f6ba4b92851a3e1ac5783a368663a35057589d15a793f"
+    },
+    {
+      "path": "raw/wmdp-0075__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "0cb340d910dec5a830474344d637fd95e6f62524be86f45fc55af1d19653554c"
+    },
+    {
+      "path": "raw/wmdp-0916__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "47d1112358ffb5ea7b883ff3c16625952252e9699e046f548356564f39c3b99c"
+    },
+    {
+      "path": "raw/wmdp-0209__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "01b6c11ce9440e08cdc3f3ed7f843573788a3075cd8b6e99538673fd360098b3"
+    },
+    {
+      "path": "raw/wmdp-1878__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "77246bbcbd70dda18be5e43227aa0acaf70cd38343d60b76590315b08353ce36"
+    },
+    {
+      "path": "raw/wmdp-1466__R1__control__control_1.attempt1.json",
+      "sha256": "6d1b63fcb83141d492fc14efa2dbc180e6a86833a4035a9f57aa3248615bff7f"
+    },
+    {
+      "path": "raw/wmdp-1550__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "9b8e37e1469f99ef70af1bbeb063ae3f80c5f2dd44c2413e5aa3d1692260c1aa"
+    },
+    {
+      "path": "raw/wmdp-0455__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "5630f6f8d313421019dff89e03ca2c63bfd0aa06880c45a5948241eb45abf6fc"
+    },
+    {
+      "path": "raw/wmdp-1544__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "fce06eb3214c281ac463597280713e1691df31918f7289c3d2372c110d14c0bf"
+    },
+    {
+      "path": "raw/wmdp-1123__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "266162530b0d19e36849f44a035063d3900e382ba2028c8fb6b560743c0fdea9"
+    },
+    {
+      "path": "raw/wmdp-0241__Qwen3__control__control_1.attempt1.json",
+      "sha256": "8bab73920ba4a54af805319150b89c37f02b2bce3e5ef47d4b606d4dd995dbc8"
+    },
+    {
+      "path": "raw/wmdp-1685__R1__frequency__wrong_55.attempt1.json",
+      "sha256": "36f9f0a721d517e2613dab494d36061725acab32ab8fce0f1a521d063910a037"
+    },
+    {
+      "path": "raw/wmdp-0976__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "d28c71fa193d772067db826f327d76fc852a40b5183508e5db9f9b62728cb19a"
+    },
+    {
+      "path": "raw/wmdp-0675__R1__frequency__correct_95.attempt1.json",
+      "sha256": "ff5f91ed59b1d6f399881933cbd53a11daef8eb0e8d48e6eb0feffc6bd36b004"
+    },
+    {
+      "path": "raw/wmdp-1643__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "0d3206144153b144f9fa17d314594891ae7cdf12795164adcd86477647979e1a"
+    },
+    {
+      "path": "raw/wmdp-1141__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "c52a8adc53e0b0a4f423ea19bc146f3c4f7bb91fe083edcdc323fcb1be2102fd"
+    },
+    {
+      "path": "raw/wmdp-1209__R1__probability__wrong_55.attempt1.json",
+      "sha256": "3dc88c8f0a8234d774b494a296c735199b5ae8cd31112ad48b4fd264cf8dbc9f"
+    },
+    {
+      "path": "raw/wmdp-0550__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "bd80e612e9d006bd9c0361028c1abe10e29852d764a719f30e761db309ddf7d4"
+    },
+    {
+      "path": "raw/wmdp-1466__R1__frequency__correct_55.attempt1.json",
+      "sha256": "8373a8feaee08c361dc4e326f72dcb06c060be91ed08008c2d1bb275fe10673e"
+    },
+    {
+      "path": "raw/wmdp-0806__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "d9b8540deb9a2c772b54082ceced89df72cb5ac4d3c5e3a1547ec090b157bdf0"
+    },
+    {
+      "path": "raw/wmdp-1081__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "32ce85751de5018dca20415d9031aa862a08d0a862159b21025944dc44f7d7e4"
+    },
+    {
+      "path": "raw/wmdp-1577__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "d3d1d09615510f3aa931f7e73026e171e0610234505df8a7e9b200a35a8aa543"
+    },
+    {
+      "path": "raw/wmdp-1209__R1__probability__correct_95.attempt1.json",
+      "sha256": "9e73d86cf91cfc63cd46dbd22084fc1b032bc5fdad3a90d1a5507839294055df"
+    },
+    {
+      "path": "raw/wmdp-1674__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "aff7f98d5ad9a8bf3460707c8c8a7f01e9875d00edb1037aaa15adb90c1d6fb7"
+    },
+    {
+      "path": "raw/wmdp-1363__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "157bf23b0bb0ae6afbbb96dd65d483e4e83608401636dc7600898fe2354384b3"
+    },
+    {
+      "path": "raw/wmdp-1317__Qwen3__control__control_1.attempt1.json",
+      "sha256": "93bd286a0c8442d6121a3f0c73e0fec3fae7180cedc846a42bf19c8a7d0c2e65"
+    },
+    {
+      "path": "raw/wmdp-1813__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "5b033b81372dc5518542c35f220af8d741ddf8f691ab5cbdf0b122856bd716c6"
+    },
+    {
+      "path": "raw/wmdp-1643__R1__frequency__correct_55.attempt1.json",
+      "sha256": "094df0a996ad9568354d860492c1b140c5c5dfd28845e7b2054df62fdbe36fa9"
+    },
+    {
+      "path": "raw/wmdp-1289__R1__frequency__wrong_55.attempt1.json",
+      "sha256": "f5533fd33d1f77a777203542c91bf884f3e67b1bfffa4cc315d52830a9157339"
+    },
+    {
+      "path": "raw/wmdp-1674__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "204469ed2dc430b5b38ae5f42f98c5f12c12b99c4d72b261708032018e6f3cec"
+    },
+    {
+      "path": "raw/wmdp-0180__R1__probability__wrong_55.attempt1.json",
+      "sha256": "01b8c35c3ee8d744f03299f27e95c0c3e8362caf927d8126810e578f1f5315b4"
+    },
+    {
+      "path": "raw/wmdp-1544__R1__probability__wrong_55.attempt1.json",
+      "sha256": "9a21a9d016f8e5b32dc215446694720dc753220768e1d41d0d779f812fd95bdc"
+    },
+    {
+      "path": "raw/wmdp-1735__R1__probability__wrong_95.attempt1.json",
+      "sha256": "9058b74c614751e7ed66f1229f6858b1c6f2b3952bc219950ce0a1bb23116a5a"
+    },
+    {
+      "path": "raw/wmdp-0075__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "92f8e5da6f60c65005630e46dd76a26cd603f0949362680d05c1701fad81ff09"
+    },
+    {
+      "path": "raw/wmdp-0144__R1__control__control_0.attempt1.json",
+      "sha256": "d61215b7d3123c888afdc1401204b909d5e7b3e00cd11ecb74f098287d5022aa"
+    },
+    {
+      "path": "raw/wmdp-1089__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "d2977b8ba7578cfc19e8de8f8273d42a49ba10a18f1fcbde88caf4479eed8c76"
+    },
+    {
+      "path": "raw/wmdp-0142__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "3b434494c918a7513779570c5e2c4e4d8ed6153def1d7ec8b97ebddd122eb259"
+    },
+    {
+      "path": "raw/wmdp-1219__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "7a7d873d803b0cdef510f5b2060000a535ce1a2d481bbd2da0bca888d24f0549"
+    },
+    {
+      "path": "raw/wmdp-1615__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "078a216aeccf67844b73169604d82b52e86d19dfe0cfcb468de1a0909c0881b3"
+    },
+    {
+      "path": "raw/wmdp-1279__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "1f6287880e3a0716198d757404f53e7d776c6fdef0642a4cce470fe355edb778"
+    },
+    {
+      "path": "raw/wmdp-1956__gpt-oss__probability__wrong_95.attempt2.json",
+      "sha256": "3e6caae43ae2cdba9eda6a7441db6fc04527d0d7e88726b75777b09f584f6586"
+    },
+    {
+      "path": "raw/wmdp-1739__gpt-oss__probability__correct_55.attempt1.json",
+      "sha256": "a7400626f135ce8293e4121968645eb53fa09526d50ddecb68d180acea43acf9"
+    },
+    {
+      "path": "raw/wmdp-1296__R1__probability__correct_55.attempt1.json",
+      "sha256": "3644b43b9215b44e8a4f6c93e2d6e67d135343be0716735458bd8fe99f8d5ff0"
+    },
+    {
+      "path": "raw/wmdp-0825__R1__frequency__correct_95.attempt1.json",
+      "sha256": "b1005611cf080f9312d93f94de891bad24e7f36aacf476d63439d438ec719061"
+    },
+    {
+      "path": "raw/wmdp-0177__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "2fa74da1f08e38e5a08a65087f6f97798d8f9f7375fe7ee47cedee5c356cb135"
+    },
+    {
+      "path": "raw/wmdp-1374__R1__probability__wrong_95.attempt1.json",
+      "sha256": "cf17d2cc778980b378a20458f2d8509d305b740eee98edd7e3887efb619a1cb1"
+    },
+    {
+      "path": "raw/wmdp-1954__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "89cdebb4744d93d05fd13d3ddadcc65fa8dc17cd2d286f20fea174e9fabd40f6"
+    },
+    {
+      "path": "raw/wmdp-0687__R1__control__control_1.attempt2.json",
+      "sha256": "049e6b978e8e0961910739fade187a71b65327d6e01e18599d50caa1db694df6"
+    },
+    {
+      "path": "raw/wmdp-1346__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "4361708a22eaed72b802dcfe081bba5b2a250687a2eb9c7d513c2a3adf4ee885"
+    },
+    {
+      "path": "raw/wmdp-1550__gpt-oss__frequency__wrong_55.attempt2.json",
+      "sha256": "f009d339cd4e5925a48c292fc3ed135d78bff5fb003302265eef588dc9585992"
+    },
+    {
+      "path": "raw/wmdp-1586__gpt-oss__frequency__wrong_95.attempt2.json",
+      "sha256": "e7a92f1a6af6b46b520dd376a5c8d83a580cc9a2b042cca100c1f5a6bafd6ad0"
+    },
+    {
+      "path": "raw/wmdp-1017__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "0f2493d7c91a67e4335069fbfd74c205d99d4c351852f41d773f2bb16ba0e810"
+    },
+    {
+      "path": "raw/wmdp-1636__gpt-oss__control__control_0.attempt2.json",
+      "sha256": "dbdfe75846dfd0d4ddce2e9dc303d0209c967327830d989cde9068cdf0a99f67"
+    },
+    {
+      "path": "raw/wmdp-1216__gpt-oss__frequency__correct_95.attempt2.json",
+      "sha256": "9daababd4a6590545dd5a5498c5e06f43b5e6ef8b192facbff445231ad62d74c"
+    },
+    {
+      "path": "raw/wmdp-1813__gpt-oss__frequency__wrong_55.attempt2.json",
+      "sha256": "59b95454dfd1c6427cdbe9fd2d09b2e62e8f080802dcce0c3c40b8c57c7711c0"
+    },
+    {
+      "path": "raw/wmdp-1655__Qwen3__frequency__correct_55.attempt1.json",
+      "sha256": "20875df5efde7a08d7f9f09685578a728f3322ff12b0e4fc245425830bd115d4"
+    },
+    {
+      "path": "raw/wmdp-1567__R1__frequency__correct_95.attempt1.json",
+      "sha256": "422a588410a425c9d070d3294c721e1885cf492ba06cc4ded02abb741959db8b"
+    },
+    {
+      "path": "raw/wmdp-1112__R1__frequency__wrong_55.attempt1.json",
+      "sha256": "2fde6d1b7d08df4bc95ebf2bec3697bc0125d5524df290de9d92cf815bc0bed0"
+    },
+    {
+      "path": "raw/wmdp-0916__R1__probability__wrong_95.attempt1.json",
+      "sha256": "779291b0de4ffe1b089687a5f2f846854ff51956d09c875c908193b3f19d30ab"
+    },
+    {
+      "path": "raw/wmdp-0142__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "51585d5d290950b0b806a6e11dbe2c8c40adf84df9f291f889c74c633db4f2ee"
+    },
+    {
+      "path": "raw/wmdp-1586__gpt-oss__control__control_0.attempt2.json",
+      "sha256": "62f14be1236610a4b47fb6578a941a9e1d878bb2a8a97e5c05ec0ba14f0ac367"
+    },
+    {
+      "path": "raw/wmdp-0041__gpt-oss__probability__correct_95.attempt2.json",
+      "sha256": "693ee5b1104d62573b188e08f7b5232a7945f55ea5c5126452b0676bd74208d7"
+    },
+    {
+      "path": "raw/wmdp-1735__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "fa582141d7c630a34b191f3d7893e0e5c2d4df5613bc0edc29975270abd6e43a"
+    },
+    {
+      "path": "raw/wmdp-0366__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "bb36ecfaf05acaadb673ad99b77cf3ce4115ab250937fda9df435fa6121792b7"
+    },
+    {
+      "path": "raw/wmdp-0464__Qwen3__frequency__wrong_95.attempt2.json",
+      "sha256": "e852596c347a6a54eddedb23da0916012aaa8d3d670a3d061dcead19af095d6f"
+    },
+    {
+      "path": "raw/wmdp-0220__Qwen3__probability__correct_55.attempt2.json",
+      "sha256": "045ea1e8ad505f7b9016d42c2c1283f87d3b49367ac650fb51db0feac930b85e"
+    },
+    {
+      "path": "raw/wmdp-1773__Qwen3__control__control_1.attempt2.json",
+      "sha256": "b3dda9ee41051682c7cd080b6f5a2c8a05840186568a780087a9050669510568"
+    },
+    {
+      "path": "raw/wmdp-1807__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "c361f068ae37021c17886ea636ebfd0dba2f99294a270309e99abc24d6c53e7f"
+    },
+    {
+      "path": "raw/wmdp-0480__gpt-oss__probability__correct_55.attempt2.json",
+      "sha256": "4a0078b536afd41b568acbe8755b187d404c929ed00d66e0851f8b149ac4a93c"
+    },
+    {
+      "path": "raw/wmdp-0144__R1__probability__correct_55.attempt2.json",
+      "sha256": "62e6fbe0f5be38de83074bc7fbb8dabb3bbdb34e8230b95b54500b5deaa6493c"
+    },
+    {
+      "path": "raw/wmdp-1858__R1__frequency__correct_55.attempt1.json",
+      "sha256": "8c815166969aa12675b4ce6d96a5c43408faee0fc723656d2fd5395cbabfe5a6"
+    },
+    {
+      "path": "raw/wmdp-0955__gpt-oss__frequency__wrong_55.attempt2.json",
+      "sha256": "a0292573229c1eee89d1d5e548fd6fdbdb0e9c2c6b29b89e6fa4db9dcd28ab15"
+    },
+    {
+      "path": "raw/wmdp-0190__R1__frequency__correct_95.attempt1.json",
+      "sha256": "84a548d8481fefc4e9680a3b6e21c4c83017060b7189ef647c0a9525a9442524"
+    },
+    {
+      "path": "raw/wmdp-1120__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "ce1d507dc8cb38f39b983563b9b3d0120a9154794073d6ae0994ce942e777aee"
+    },
+    {
+      "path": "raw/wmdp-1484__Qwen3__control__control_1.attempt1.json",
+      "sha256": "9f2d34962b9b44e982a06c7e4f61590d224aa181d05e4c1836f2932c758140b2"
+    },
+    {
+      "path": "raw/wmdp-0629__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "91ca8b9509e97dd2f279d014bc60724a7f91ba2de74c9ffad87d575cc5101ad2"
+    },
+    {
+      "path": "raw/wmdp-0053__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "b14b8415adac542628f9e438fd3a52a5f24b54bcf0ed74a63d9de1e59d60aaa5"
+    },
+    {
+      "path": "raw/wmdp-0609__Qwen3__control__control_1.attempt1.json",
+      "sha256": "c456740b50dc875f7c57ce4de384f9a660651ebbac47954c010e4a4b4c2fe544"
+    },
+    {
+      "path": "raw/wmdp-0366__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "43c69b8b45d4bed3727aca6defc5e378849e01b3ca6c51f85d11309d7bbd719d"
+    },
+    {
+      "path": "raw/wmdp-0845__R1__frequency__correct_55.attempt1.json",
+      "sha256": "de79cdd44a5764e7769d0274a745de042cd1641fd4d41eee0bcf32475a5444f4"
+    },
+    {
+      "path": "raw/wmdp-1969__R1__probability__correct_95.attempt1.json",
+      "sha256": "b820d82ccd7020f68d3ae5b8fb3cfb04792c44d83ce29a8879e1c599d882dcd5"
+    },
+    {
+      "path": "raw/wmdp-0548__R1__control__control_1.attempt1.json",
+      "sha256": "66135f58339da8200364f07cb1ccf8aad7c4499132f1c12bdf32c276ad9b4be9"
+    },
+    {
+      "path": "raw/wmdp-0660__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "33e58c9849bd2e3a3a9dfa8a63990378e268901dd2f9bab47c62a67ff87880a9"
+    },
+    {
+      "path": "raw/wmdp-1279__R1__probability__correct_55.attempt1.json",
+      "sha256": "389eda37bd6334ef905db1699cad170b51867fc4581dd34541ea42bb0d608596"
+    },
+    {
+      "path": "raw/wmdp-1643__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "1e00044558a8de334b0c6492385614bd2e06979a31699477daf007e04dfb5b2b"
+    },
+    {
+      "path": "raw/wmdp-1350__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "5f047d26567c04bd60b9006a0b9587a2b0bb19321024c1afe8d799ac65b6b608"
+    },
+    {
+      "path": "raw/wmdp-1142__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "2d05ddc76a4d8cebbcf1bf21c2b5cc394304a5ddeabc39dd6b2025e3060b5fe9"
+    },
+    {
+      "path": "raw/wmdp-1033__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "e3d33c82adb76a16085a6f46d9dee5e8d5108b825205146aa04d86e9009ac5e5"
+    },
+    {
+      "path": "raw/wmdp-1223__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "f11f64f3306f9f85687713e574f02b7890f0315baed4ca83c7bf831a3f391058"
+    },
+    {
+      "path": "raw/wmdp-0131__gpt-oss__control__control_1.attempt2.json",
+      "sha256": "96e5f00f866515012edece06e3b9a6025c1add6afce266a095a2bcd4d4476f4e"
+    },
+    {
+      "path": "raw/wmdp-1878__R1__frequency__correct_95.attempt1.json",
+      "sha256": "5ff91a33edc512e63db0c9798fdfd795c4829b745cb73690dcda9a0ec015c81e"
+    },
+    {
+      "path": "raw/wmdp-0678__gpt-oss__probability__wrong_55.attempt2.json",
+      "sha256": "a7e8567d14028347c4aee404d764ea2f55ddfa7b46ff2494324f5277ab7cbd51"
+    },
+    {
+      "path": "raw/wmdp-1562__Qwen3__frequency__correct_95.attempt1.json",
+      "sha256": "c32790dd2fccfab672f179960ccb97c0b8cc0857ed82d516c77a4d2233c7ca34"
+    },
+    {
+      "path": "raw/wmdp-0916__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "4ebdf3ff93a50d13d811454cb42df3ac02b050ff9f1a7ecd0ef3660805c8d081"
+    },
+    {
+      "path": "raw/wmdp-1937__R1__probability__wrong_55.attempt1.json",
+      "sha256": "75b117e7847b4953c3c584988e897a3ff17656ad0b23b4a4168fd8a3ff1fca9e"
+    },
+    {
+      "path": "raw/wmdp-1528__R1__frequency__correct_55.attempt1.json",
+      "sha256": "5eb8e359c4378f0b8927c4b321c4ce3e1b9641d5c6da66bb84fef391d0b04ff7"
+    },
+    {
+      "path": "raw/wmdp-0584__gpt-oss__probability__wrong_55.attempt2.json",
+      "sha256": "aed26d515bd3b98c009d5bee5e6b4ca490a9b176d82d30d22e409a0cfd63aa3a"
+    },
+    {
+      "path": "raw/wmdp-1171__R1__control__control_0.attempt1.json",
+      "sha256": "83c5289db8ede91304b126d45b550454d927475011ab7cd2b4adc32a86ceaea5"
+    },
+    {
+      "path": "raw/wmdp-1643__gpt-oss__frequency__correct_55.attempt2.json",
+      "sha256": "bab46870d9e3c1a6226e3db7be1d162b8949dd99ff57f83c63b171f3781a1b85"
+    },
+    {
+      "path": "raw/wmdp-1542__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "29571950feb9db594ba270060bab8d3f66aa12e812a0405a61f76c355c091c60"
+    },
+    {
+      "path": "raw/wmdp-1429__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "412e3c73a4f94b810e8bd1b03c7592f05d53d96e0444117f6a4e2081d36fdfe3"
+    },
+    {
+      "path": "raw/wmdp-0859__gpt-oss__probability__wrong_95.attempt2.json",
+      "sha256": "de2d2a1629b6019bfe772e56d4012fc3574b1160914f66a36ae17b6982aa9687"
+    },
+    {
+      "path": "raw/wmdp-1350__Qwen3__control__control_1.attempt1.json",
+      "sha256": "39e6b3e327cc91e7e4705e426a3d58ee3505fa74b844c80e48d72317a3e06516"
+    },
+    {
+      "path": "raw/wmdp-1764__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "bf5b13af7685c11715ff10004887f2407e191aaa651e6ca7084b13f23c08c083"
+    },
+    {
+      "path": "raw/wmdp-0366__gpt-oss__frequency__wrong_55.attempt2.json",
+      "sha256": "d2c0210a31c91407a7f72723dc0f6833d6d6cb8cafb73db64cce48aa74730298"
+    },
+    {
+      "path": "raw/wmdp-1493__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "58deebdb112c55dfb932eb75a59430853895edd2adec4955501363ac30b9eb0b"
+    },
+    {
+      "path": "raw/wmdp-1878__Qwen3__frequency__wrong_95.attempt2.json",
+      "sha256": "6d91dd53dd598143265e3fb9d315b46a83231e2039fdf18839ebc6f9f4eab87b"
+    },
+    {
+      "path": "raw/wmdp-1150__R1__frequency__wrong_55.attempt1.json",
+      "sha256": "ef527dcc67c9826b406f749963c1a9c9094db8cfb14740664ea7538d68d85360"
+    },
+    {
+      "path": "raw/wmdp-0337__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "e118546624c74b5c857f97461dabef1e0678f783a1085968e8881f3c934c004b"
+    },
+    {
+      "path": "raw/wmdp-0955__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "ed393dfb29c9a24972636b7f1e79309d378071c7d879bacaa7fe4f56792b0011"
+    },
+    {
+      "path": "raw/wmdp-1289__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "5b548ec4882cd1b9a171113de357546fdb9c270577defe0da681bd7827f12f20"
+    },
+    {
+      "path": "raw/wmdp-1939__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "4bdd7fc6b1d762ca1eaaa577a607cd630db52fdb86c7907702c45eeae8a12518"
+    },
+    {
+      "path": "raw/wmdp-1643__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "96e83ef353a034c0fddc298f083e72ba0a56682d345dae1e3a802302a40c3b8a"
+    },
+    {
+      "path": "raw/wmdp-1620__R1__frequency__correct_55.attempt1.json",
+      "sha256": "916c70f971bde76e67026385c1f2d267db454bfcc29dd7ea8eeddc9d0fed12d2"
+    },
+    {
+      "path": "raw/wmdp-1079__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "202d9dbfa6d7560d89877d81d9e3e2da0281b4ecfe5063e64678131ed5cbb846"
+    },
+    {
+      "path": "raw/wmdp-1276__gpt-oss__frequency__correct_95.attempt1.json",
+      "sha256": "9dda8f74c7e1ca097c697ec082ed44bf63410f1a952e59ab45009b968b531d38"
+    },
+    {
+      "path": "raw/wmdp-0542__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "68f6b6e2ad887f905469f8637319b63f8f761e609a4d699b5e52d1425d0387a0"
+    },
+    {
+      "path": "raw/wmdp-1773__R1__frequency__wrong_95.attempt2.json",
+      "sha256": "da47536ba8a0a6be3d91e5aa2656b654e86644e45ac3b5de6617a574384bc11a"
+    },
+    {
+      "path": "raw/wmdp-0425__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "1294cf95f4f7f48f70d132aa2a1aec8c57e80274424e237b85c5d47471ae3239"
+    },
+    {
+      "path": "raw/wmdp-0791__R1__frequency__correct_55.attempt1.json",
+      "sha256": "8fd2cdf3a97ab76335145c416d44d2d1e0f6417a0c53e4b176b80ed2a21cdd91"
+    },
+    {
+      "path": "raw/wmdp-0589__Qwen3__control__control_0.attempt1.json",
+      "sha256": "faee1608041684aed96628ab5bc89ef9953aa24552d748eb353511787dc908d4"
+    },
+    {
+      "path": "raw/wmdp-1461__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "93b910313c961f16337f761d42c04a5caf910d9639435bc0b4fcc58d1a96dc5c"
+    },
+    {
+      "path": "raw/wmdp-0480__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "6ed26220d0545f1bfa49bc8ed28263f0613632eaacb838e91a74a2b85b88e44c"
+    },
+    {
+      "path": "raw/wmdp-0751__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "755a41005751d68862449da53ab39500821bd4d297c7e6724fc0dfa31e831c7c"
+    },
+    {
+      "path": "raw/wmdp-0388__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "2532da011e28ceb75222ed24200ec18c0710d7c54ba4be918d535851cbc70d22"
+    },
+    {
+      "path": "raw/wmdp-1096__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "372e604153da49535d4886eccb334383ac19fd14349a91ed1c7c2d9123468008"
+    },
+    {
+      "path": "raw/wmdp-1636__gpt-oss__frequency__wrong_55.attempt1.json",
+      "sha256": "cc2eea64918e9baf7b4b62aec5ed460e456939ee5eb6bf89e7a08a4b13cc6738"
+    },
+    {
+      "path": "raw/wmdp-1219__R1__probability__correct_95.attempt1.json",
+      "sha256": "8f809c82ea0f729c413a7275e85d24a43a9231e1be9eea34122acde916595f27"
+    },
+    {
+      "path": "raw/wmdp-1728__Qwen3__control__control_1.attempt1.json",
+      "sha256": "a69a0b638f4b1ebf38c278f22129a62ba299c8ffbfcc1a9aa67a11dafeecddaf"
+    },
+    {
+      "path": "raw/wmdp-1141__Qwen3__probability__wrong_95.attempt1.json",
+      "sha256": "a852e6744e6072797610ab3760a6e54220c62a1f98358c9156dc97333d943958"
+    },
+    {
+      "path": "raw/wmdp-1297__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "14c37130145fa42166ca6366c84674b36cbef445a613cb40cebb29689617475b"
+    },
+    {
+      "path": "raw/wmdp-1622__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "8892aa24fe114bc1ce829925024f2bda029a56222bd99b79e35bd263b9b03b13"
+    },
+    {
+      "path": "raw/wmdp-1586__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "64234259f29a327b197ad5ac3ff0b328202228978de08cd6f063956118de6454"
+    },
+    {
+      "path": "raw/wmdp-1965__gpt-oss__control__control_0.attempt1.json",
+      "sha256": "323c961cc525e9ba41214aea4a7481b365a28522805ce745060fb15b93da6129"
+    },
+    {
+      "path": "raw/wmdp-1577__Qwen3__frequency__wrong_55.attempt1.json",
+      "sha256": "3ce915e0578ba0b648c7fd191104f3de9a3975611f2fdb113eb5cad33937e74a"
+    },
+    {
+      "path": "raw/wmdp-0083__R1__frequency__correct_95.attempt1.json",
+      "sha256": "69655b8a1403371228b0a164ba9a5edfd16fa717fefe626c920cbe7900b0d61c"
+    },
+    {
+      "path": "raw/wmdp-1066__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "6cd505142b5efaac0a3a095eaae3aeab44846a0ab1e4d9b4739e07f279ffafdb"
+    },
+    {
+      "path": "raw/wmdp-0494__R1__frequency__correct_95.attempt1.json",
+      "sha256": "726c951e735fb79ec6b7b16269f61c6c0cf82e65bc3fe9ac90413a1e43dece19"
+    },
+    {
+      "path": "raw/wmdp-1074__R1__frequency__correct_95.attempt1.json",
+      "sha256": "cdf6324e40ba385a174fb405db130a706259cc0977aa1d67d40c9808720b0bad"
+    },
+    {
+      "path": "raw/wmdp-0401__Qwen3__control__control_0.attempt1.json",
+      "sha256": "d67e95f424517a4de27201aa9376d83de8b1ce7f446d7a0aa1e896682cf9048d"
+    },
+    {
+      "path": "raw/wmdp-0615__R1__probability__wrong_55.attempt1.json",
+      "sha256": "97ac3b0ff55934e5217688c1a7326ab7e7c936191e0a796572d62ddff1d5fae8"
+    },
+    {
+      "path": "raw/wmdp-1252__Qwen3__frequency__wrong_95.attempt1.json",
+      "sha256": "376f91f5472cb437a101833f6c2b649c9761cb8b6d0307a48beac45481c85112"
+    },
+    {
+      "path": "raw/wmdp-1730__R1__frequency__wrong_95.attempt1.json",
+      "sha256": "970f9459e1f3624a7e096e7a5666e19cfee95f0d1c723a17e6135a3758db45ee"
+    },
+    {
+      "path": "raw/wmdp-0064__R1__probability__wrong_55.attempt1.json",
+      "sha256": "3d37d5fc3d946d8ae203f78ce74fb3940bd988b5491405bff968616fbf2f6d1c"
+    },
+    {
+      "path": "raw/wmdp-0009__Qwen3__control__control_1.attempt1.json",
+      "sha256": "c3a1e9ec9a2d8ba0dd6f26e2a54236ba04c9a572987ee577cda4381bc76e5cb2"
+    },
+    {
+      "path": "raw/wmdp-0455__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "6047801e3c20e3b692bea1a2be3d3ba79f8a111496b96c54b92e2b1aa6e2282a"
+    },
+    {
+      "path": "raw/wmdp-0645__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "052b27d59f2d41d921579a0713613824270fbdeb0b56c6993aa5886622b4cbde"
+    },
+    {
+      "path": "raw/wmdp-0102__gpt-oss__probability__correct_95.attempt1.json",
+      "sha256": "be1da968d345a2488b4a3395ab4cead95c71c69942bf5d672a3cbe8670d4e273"
+    },
+    {
+      "path": "raw/wmdp-1466__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "e57b779e159569fc48e715c8ba4d02ddde0b8d77e6262c237974c9ff1c3f14dc"
+    },
+    {
+      "path": "raw/wmdp-0515__Qwen3__probability__correct_55.attempt1.json",
+      "sha256": "faa7aafab82240927179bd7f7b6ec09e142b78a53f20145bf2de751c05243e8f"
+    },
+    {
+      "path": "raw/wmdp-1739__R1__control__control_1.attempt1.json",
+      "sha256": "e610a75f135a541cce5ffdf27232e63869f7829599d0ccd1a71ea6ce1e3c268f"
+    },
+    {
+      "path": "raw/wmdp-1972__R1__frequency__correct_55.attempt1.json",
+      "sha256": "974a79797b5484624c9f2ff09b50f0f9cb99b029339cac73a09547b737088cef"
+    },
+    {
+      "path": "raw/wmdp-0560__Qwen3__probability__correct_95.attempt1.json",
+      "sha256": "214ba2669ae9000eeb7ea011ac6256b98eb7d31610c26a224d44a7fb2a3b5b7d"
+    },
+    {
+      "path": "raw/wmdp-0630__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "fd801d8654502b839354592fcd5b1f62521c1f8ba4eeb9b4ab8496f5db7df093"
+    },
+    {
+      "path": "raw/wmdp-1456__gpt-oss__probability__wrong_55.attempt1.json",
+      "sha256": "41bdeea2f31889922995458ed289c994c58babe7e61372b641fc5619d7064fbb"
+    },
+    {
+      "path": "raw/wmdp-0446__Qwen3__probability__wrong_55.attempt1.json",
+      "sha256": "dcf6edcbf9c294acefcba713cbd60fd2cadc5c7911d7df72d40be725237771af"
+    },
+    {
+      "path": "raw/wmdp-1636__gpt-oss__frequency__wrong_95.attempt1.json",
+      "sha256": "931aad81bb9432596896e3d96d52941a8fc8e4415444cd2fbf8400d3b3250151"
+    },
+    {
+      "path": "raw/wmdp-1404__Qwen3__control__control_1.attempt1.json",
+      "sha256": "16c93b393c87475309b4ae29fea1536d7fe8c63d37584e28713486ada90b5212"
+    },
+    {
+      "path": "raw/wmdp-0560__Qwen3__control__control_1.attempt1.json",
+      "sha256": "b130e751d5cd3b1c5610480aac9c701f847aa2613086f0aac7f7d59a6e2d4454"
+    },
+    {
+      "path": "raw/wmdp-1730__gpt-oss__control__control_1.attempt1.json",
+      "sha256": "91cf84de7c04871bcedd333e16e312108a500ddf7cf3c386de6d152a98463f6c"
+    },
+    {
+      "path": "raw/wmdp-1307__gpt-oss__probability__wrong_95.attempt1.json",
+      "sha256": "17f25706dd9e3d40eaf411aa8e9699f39748e7f4980b2a21ba6e2c13ecd50342"
+    },
+    {
+      "path": "raw/wmdp-0220__gpt-oss__frequency__correct_55.attempt1.json",
+      "sha256": "282c32ebd1069125b640da8e85e3e76f715c3ec4197035284b97c0d50aab2817"
+    }
+  ],
+  "complete_questions_by_model": {
+    "R1": 0,
+    "Qwen3": 0,
+    "gpt-oss": 0
+  },
+  "complete_all_model_questions": 0,
+  "limitations": [
+    "Sparse randomized partial collection; unmatched cells can contain different questions",
+    "No confirmatory inference or stopping decision",
+    "Treatment effects inspected at user request before full collection; disclose in final report"
+  ]
+}

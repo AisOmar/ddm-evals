@@ -1,0 +1,33 @@
+{
+  "finished_at": "2026-10-21T01:58:28.191934+00:00",
+  "n_attempted": 1,
+  "curl_exit": 0,
+  "http_status": 429,
+  "outcome": {
+    "status": "rate_limited",
+    "choice": null,
+    "correct": null,
+    "strict_format": null
+  },
+  "recorded_cost_usd": null,
+  "missing_cost_metadata": true,
+  "cost_valid": false,
+  "single_request_succeeded": false,
+  "full_delivery_gate_passed": false,
+  "provider_error": {
+    "message": "Provider returned error",
+    "code": 429,
+    "metadata": {
+      "raw": "openai/gpt-oss-120b is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations",
+      "provider_name": "DeepInfra",
+      "is_byok": false,
+      "provider_error_code": "engine_overloaded",
+      "limit_source": "upstream_provider_shared_pool",
+      "remedy_hint": "Retry shortly, add your own provider key (https://openrouter.ai/settings/integrations), or route to another provider with provider routing: https://openrouter.ai/docs/features/provider-routing"
+    }
+  },
+  "raw_sha256": "4a84735646bc8f3f0e6692a5a3db4d93b2ee00c51878d7690e4fd778ea2e10b6",
+  "headers_sha256": "aed689a2490c352f33eb85579a3071769e27ddc87e233a8bf611b013a4486e49",
+  "old_study_remains_paused": true,
+  "calibration_calls_launched": 0
+}

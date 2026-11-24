@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1792711965-c7UcExTNlDyiwK2nbsoW","object":"chat.completion","created":1792711965,"model":"qwen/qwen3-32b","provider":"DeepInfra","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"B","refusal":null,"reasoning":"\nOkay, let me figure this out. The original price is 120 credits. First, it falls by 25%. So I need to calculate 25% of 120 and subtract that from 120. 25% of 120 is 0.25 * 120, which is 30. So the price after the drop is 120 - 30 = 90 credits.\n\nNow, the price then rises by 20% of the reduced value. The reduced value here is 90 credits. So 20% of 90 is 0.20 * 90 = 18. Adding that to 90 gives 90 + 18 = 108 credits. So the final price should be 108, which is option B.\n","reasoning_details":[{"type":"reasoning.text","text":"\nOkay, let me figure this out. The original price is 120 credits. First, it falls by 25%. So I need to calculate 25% of 120 and subtract that from 120. 25% of 120 is 0.25 * 120, which is 30. So the price after the drop is 120 - 30 = 90 credits.\n\nNow, the price then rises by 20% of the reduced value. The reduced value here is 90 credits. So 20% of 90 is 0.20 * 90 = 18. Adding that to 90 gives 90 + 18 = 108 credits. So the final price should be 108, which is option B.\n","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":77,"completion_tokens":190,"total_tokens":267,"cost":0.00005936,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.00005936,"upstream_inference_prompt_cost":0.00000616,"upstream_inference_completions_cost":0.0000532},"completion_tokens_details":{"reasoning_tokens":119,"image_tokens":0,"audio_tokens":0}}}

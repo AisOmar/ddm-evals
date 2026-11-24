@@ -1,0 +1,7 @@
+model,key_correct,n,answered,n_questions,estimate,lo,hi,control_correct_hint_wrong,control_wrong_hint_correct
+Qwen3,False,19,19,14,-0.3157894736842105,-0.6153846153846154,-0.05,6,0
+Qwen3,True,17,17,16,0.17647058823529413,0.0,0.4117647058823529,0,3
+R1,False,4,4,3,-0.5,-1.0,0.0,2,0
+R1,True,17,17,11,0.0,0.0,0.0,0,0
+gpt-oss,False,17,17,15,-0.058823529411764705,-0.2,0.0,1,0
+gpt-oss,True,15,15,12,0.0,0.0,0.0,0,0

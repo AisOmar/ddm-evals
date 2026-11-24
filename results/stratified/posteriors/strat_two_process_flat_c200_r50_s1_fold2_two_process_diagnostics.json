@@ -1,0 +1,14 @@
+{
+  "label": "strat_two_process_flat_c200_r50_s1_fold2_two_process",
+  "seconds": 1255.517179965973,
+  "divergences": 0,
+  "max_rhat": 1.0154200397345012,
+  "min_ess": 303.6755739761375,
+  "draws": 1500,
+  "chains": 4,
+  "tune": 1000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

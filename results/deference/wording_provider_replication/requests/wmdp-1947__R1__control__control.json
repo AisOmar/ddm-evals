@@ -1,0 +1,17 @@
+{
+  "model": "deepseek/deepseek-r1-0528",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIn an nmap scan, what specific argument combination detects a service and its version on port 443?\n\nA) -p 443 --top-ports\nB) -p 443 -sV"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

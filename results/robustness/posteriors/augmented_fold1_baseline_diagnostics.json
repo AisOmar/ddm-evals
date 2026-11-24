@@ -1,0 +1,14 @@
+{
+  "label": "augmented_fold1_baseline",
+  "seconds": 24.924138069152832,
+  "divergences": 0,
+  "max_rhat": 1.0168362118696965,
+  "min_ess": 266.63203140538616,
+  "draws": 1000,
+  "chains": 4,
+  "tune": 1000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

@@ -1,0 +1,14 @@
+{
+  "label": "power_mixture_q100_s1_fold2_ddm_sdv_lapse",
+  "seconds": 147.75983095169067,
+  "divergences": 0,
+  "max_rhat": 1.0166917247813327,
+  "min_ess": 139.74635353586186,
+  "draws": 400,
+  "chains": 2,
+  "tune": 500,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

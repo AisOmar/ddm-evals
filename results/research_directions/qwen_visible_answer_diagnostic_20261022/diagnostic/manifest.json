@@ -1,0 +1,846 @@
+{
+  "created_at": "2026-10-22T23:11:56.681283+00:00",
+  "phase": "diagnostic",
+  "n_planned": 18,
+  "trials": [
+    {
+      "sample_id": "D01__r1__reasoning_disabled",
+      "item_id": "D01",
+      "mode": "reasoning_disabled",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "26",
+        "B": "21"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA register starts at 8. First add 5 to its value, then double the result. What is its final value?\n\nA. 26\nB. 21"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        },
+        "reasoning": {
+          "enabled": false
+        }
+      }
+    },
+    {
+      "sample_id": "D01__r1__default",
+      "item_id": "D01",
+      "mode": "default",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "26",
+        "B": "21"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA register starts at 8. First add 5 to its value, then double the result. What is its final value?\n\nA. 26\nB. 21"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "D01__r1__soft_no_think",
+      "item_id": "D01",
+      "mode": "soft_no_think",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "26",
+        "B": "21"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA register starts at 8. First add 5 to its value, then double the result. What is its final value?\n\nA. 26\nB. 21\n\n/no_think"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "D01__r2__reasoning_disabled",
+      "item_id": "D01",
+      "mode": "reasoning_disabled",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "21",
+        "B": "26"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA register starts at 8. First add 5 to its value, then double the result. What is its final value?\n\nA. 21\nB. 26"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        },
+        "reasoning": {
+          "enabled": false
+        }
+      }
+    },
+    {
+      "sample_id": "D01__r2__soft_no_think",
+      "item_id": "D01",
+      "mode": "soft_no_think",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "21",
+        "B": "26"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA register starts at 8. First add 5 to its value, then double the result. What is its final value?\n\nA. 21\nB. 26\n\n/no_think"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "D01__r2__default",
+      "item_id": "D01",
+      "mode": "default",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "21",
+        "B": "26"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA register starts at 8. First add 5 to its value, then double the result. What is its final value?\n\nA. 21\nB. 26"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "D02__r1__reasoning_disabled",
+      "item_id": "D02",
+      "mode": "reasoning_disabled",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "15/2 km/h",
+        "B": "20/3 km/h"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA cyclist covers 10 km at 5 km/h and another 10 km at 10 km/h, without stopping. What is total distance divided by total time for the 20 km trip?\n\nA. 15/2 km/h\nB. 20/3 km/h"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        },
+        "reasoning": {
+          "enabled": false
+        }
+      }
+    },
+    {
+      "sample_id": "D02__r1__default",
+      "item_id": "D02",
+      "mode": "default",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "15/2 km/h",
+        "B": "20/3 km/h"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA cyclist covers 10 km at 5 km/h and another 10 km at 10 km/h, without stopping. What is total distance divided by total time for the 20 km trip?\n\nA. 15/2 km/h\nB. 20/3 km/h"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "D02__r1__soft_no_think",
+      "item_id": "D02",
+      "mode": "soft_no_think",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "15/2 km/h",
+        "B": "20/3 km/h"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA cyclist covers 10 km at 5 km/h and another 10 km at 10 km/h, without stopping. What is total distance divided by total time for the 20 km trip?\n\nA. 15/2 km/h\nB. 20/3 km/h\n\n/no_think"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "D02__r2__soft_no_think",
+      "item_id": "D02",
+      "mode": "soft_no_think",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "20/3 km/h",
+        "B": "15/2 km/h"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA cyclist covers 10 km at 5 km/h and another 10 km at 10 km/h, without stopping. What is total distance divided by total time for the 20 km trip?\n\nA. 20/3 km/h\nB. 15/2 km/h\n\n/no_think"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "D02__r2__reasoning_disabled",
+      "item_id": "D02",
+      "mode": "reasoning_disabled",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "20/3 km/h",
+        "B": "15/2 km/h"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA cyclist covers 10 km at 5 km/h and another 10 km at 10 km/h, without stopping. What is total distance divided by total time for the 20 km trip?\n\nA. 20/3 km/h\nB. 15/2 km/h"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        },
+        "reasoning": {
+          "enabled": false
+        }
+      }
+    },
+    {
+      "sample_id": "D02__r2__default",
+      "item_id": "D02",
+      "mode": "default",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "20/3 km/h",
+        "B": "15/2 km/h"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA cyclist covers 10 km at 5 km/h and another 10 km at 10 km/h, without stopping. What is total distance divided by total time for the 20 km trip?\n\nA. 20/3 km/h\nB. 15/2 km/h"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "D03__r1__default",
+      "item_id": "D03",
+      "mode": "default",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "No",
+        "B": "Yes"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery approved crate has a stamp. This crate has no stamp. Using only these premises, could this crate be approved?\n\nA. No\nB. Yes"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "D03__r1__soft_no_think",
+      "item_id": "D03",
+      "mode": "soft_no_think",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "No",
+        "B": "Yes"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery approved crate has a stamp. This crate has no stamp. Using only these premises, could this crate be approved?\n\nA. No\nB. Yes\n\n/no_think"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "D03__r1__reasoning_disabled",
+      "item_id": "D03",
+      "mode": "reasoning_disabled",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "No",
+        "B": "Yes"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery approved crate has a stamp. This crate has no stamp. Using only these premises, could this crate be approved?\n\nA. No\nB. Yes"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        },
+        "reasoning": {
+          "enabled": false
+        }
+      }
+    },
+    {
+      "sample_id": "D03__r2__reasoning_disabled",
+      "item_id": "D03",
+      "mode": "reasoning_disabled",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "Yes",
+        "B": "No"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery approved crate has a stamp. This crate has no stamp. Using only these premises, could this crate be approved?\n\nA. Yes\nB. No"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        },
+        "reasoning": {
+          "enabled": false
+        }
+      }
+    },
+    {
+      "sample_id": "D03__r2__soft_no_think",
+      "item_id": "D03",
+      "mode": "soft_no_think",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "Yes",
+        "B": "No"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery approved crate has a stamp. This crate has no stamp. Using only these premises, could this crate be approved?\n\nA. Yes\nB. No\n\n/no_think"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "D03__r2__default",
+      "item_id": "D03",
+      "mode": "default",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "Yes",
+        "B": "No"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery approved crate has a stamp. This crate has no stamp. Using only these premises, could this crate be approved?\n\nA. Yes\nB. No"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    }
+  ],
+  "preflight_started_at": "2026-10-22T23:11:45.099476+00:00",
+  "endpoint_snapshot": {
+    "Qwen3": {
+      "name": "Tenstorrent | qwen/qwen3-32b-04-28",
+      "model_id": "qwen/qwen3-32b",
+      "model_name": "Qwen: Qwen3 32B",
+      "context_length": 20000,
+      "pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.0000004",
+        "input_cache_read": "0.00000009",
+        "discount": 0
+      },
+      "provider_name": "Tenstorrent",
+      "tag": "tenstorrent/fp8",
+      "service_tier": null,
+      "quantization": "fp8",
+      "max_completion_tokens": 16400,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "temperature",
+        "repetition_penalty",
+        "top_p",
+        "stop",
+        "top_k",
+        "seed",
+        "min_p",
+        "max_tokens",
+        "top_a",
+        "frequency_penalty",
+        "logit_bias",
+        "presence_penalty",
+        "logprobs",
+        "top_logprobs",
+        "tools",
+        "tool_choice"
+      ],
+      "supports_tool_choice": {
+        "none": true,
+        "auto": true,
+        "required": true,
+        "function": true
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 99.90774907749078,
+      "supports_implicit_caching": true,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    }
+  },
+  "maximum_cost_usd": "0.02764464",
+  "cost_cap_usd": "0.05",
+  "execution_authorization": "User: do that, referring to diagnosing Qwen missing final answers.",
+  "min_interval_seconds": 5,
+  "timeout_seconds": 180,
+  "max_attempts_per_trial": 1,
+  "automatic_retries": 0,
+  "question_review": "self-contained diagnostic author checks; not independent review; correctness never gates success",
+  "original_study_remains_paused": true,
+  "wording_pilot_remains_stopped": true,
+  "input_hashes": {
+    "scripts/72_qwen_delivery_diagnostic.py": "74a92ad40391bfa5dbe2834250e348dd04430a18864057f50de252560a3a820f",
+    "docs/QWEN_VISIBLE_ANSWER_DIAGNOSTIC_PROTOCOL.md": "281980c2e3b052aec5e1204fbfb69693bf2431995bc4515c6c0fbe801ae3f847",
+    "scripts/73_qwen_diagnostic_report.py": "08f3e0ef3c6f68bd0b2febcde3dee32bd6ea61cd21ccc43792a8fd2140ca2441",
+    "scripts/70_wording_collect.py": "f54283b3d8732081c569afdf7bc4e34108a5b32b3a5e3d2fd2119d0228dcb4a1",
+    "scripts/63_manageable_collect.py": "a8683c10ac4f39b821c3e35ebd8645f13122ad12ef5fff9b5dc049870030b738",
+    "scripts/60_calibrate_reviewed_packet.py": "e55913bc1001c85b4572af738fad73e2a5861829ab3bd22f29dd2969526f894d",
+    "scripts/58_alternate_provider_canary.py": "08e5ebb79db0dc17ac78bad2b3b805973649d76d01cf5aae6762e23e4d7134a0",
+    "scripts/56_reliance_canary.py": "efa96df014f012e7103f622366f3082e352c029b032c774b328e6a35f2dd686a",
+    "scripts/54_reliance_calibration.py": "6ff677727db294daa91e4dc89b791419a477dfa2be5daf87a072dbd79b8c23e4",
+    "scripts/50_open_dataset_feasibility.py": "4a9c10639e27400851e71d181bed006229a04d00b643665a4a56bcb1311b482a",
+    "results/research_directions/wording_pilot_20261022/final_artifact_hashes.json": "baa3ad9d0a0d11b7495bf284bc010cab0552897689da86174730a84885908105",
+    "results/research_directions/wording_pilot_20261022/resource/raw/R02__neutral__none__r1__Qwen3.json": "0964aab35193c14222237394a53e92cf9ca227482e541cf954618324f32d77af"
+  }
+}

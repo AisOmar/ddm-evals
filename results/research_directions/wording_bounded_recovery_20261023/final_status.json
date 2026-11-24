@@ -1,0 +1,38 @@
+{
+  "verified_at": "2026-10-23T01:47:53.071820+00:00",
+  "logical_planned": 288,
+  "logical_completed": 288,
+  "retained_original": 125,
+  "new_attempts": 163,
+  "new_retries": 1,
+  "total_attempts_including_original": 289,
+  "total_rate_limit_errors": 1,
+  "new_rate_limit_errors": 0,
+  "correct_responses": 288,
+  "correct_by_model": {
+    "Qwen3": 144,
+    "gpt-oss": 144
+  },
+  "strict_format_by_model": {
+    "Qwen3": 63,
+    "gpt-oss": 144
+  },
+  "recorded_new_recovery_cost_usd": "0.01068678",
+  "recorded_total_pilot_cost_usd": "0.01829538",
+  "missing_cost_records": 1,
+  "recovery_reserve_usd": "0.14447352",
+  "reserved_attempt_costs_usd": "0.12427496",
+  "recovery_elapsed_seconds": 1529.3681,
+  "no_interim_accuracy_inspection": true,
+  "final_analysis_complete": true,
+  "complete_lineage_verified": true,
+  "old_failed_attempt_preserved": true,
+  "prior_artifact_hashes_verified": true,
+  "optional_reasoning_token_inconsistencies": 31,
+  "offline_tests_passed": 123,
+  "no_active_requests": true,
+  "private_configs_removed": true,
+  "no_extra_delivered_trials": true,
+  "original_study_remains_paused": true,
+  "interpretation": "accuracy ceiling on eight fixed development problems; no equivalence or safety conclusion"
+}

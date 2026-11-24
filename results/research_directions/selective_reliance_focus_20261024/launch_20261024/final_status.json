@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-24T22:59:11.139682+00:00",
+  "stage": "stopped_at_independent_review_gate",
+  "review_attempts": 4,
+  "review_deliveries": [
+    {
+      "path": "results/research_directions/selective_reliance_focus_20261024/launch_20261024/review/delivery.json",
+      "cost_usd": "0.063988",
+      "delivery_valid": false
+    },
+    {
+      "path": "results/research_directions/selective_reliance_focus_20261024/launch_20261024/review_v2/batch1/delivery.json",
+      "cost_usd": "0.020867",
+      "delivery_valid": true
+    },
+    {
+      "path": "results/research_directions/selective_reliance_focus_20261024/launch_20261024/review_v2/batch2/delivery.json",
+      "cost_usd": "0.023837",
+      "delivery_valid": false
+    },
+    {
+      "path": "results/research_directions/selective_reliance_focus_20261024/launch_20261024/review_v3/delivery.json",
+      "cost_usd": "0.097167",
+      "delivery_valid": true
+    }
+  ],
+  "recorded_total_cost_usd": "0.205859",
+  "missing_cost_records": 0,
+  "final_review_key_agreement": "25/30",
+  "final_review_key_disagreements": 5,
+  "final_review_uncertain_items": 4,
+  "author_exact_audit_matches_original_keys": "9/9 flagged cases",
+  "independent_adjudication_pending": true,
+  "resource_calls_attempted": 0,
+  "calibration_calls_attempted": 0,
+  "advice_calls_attempted": 0,
+  "unlaunched_planned_calls": {
+    "resource": 12,
+    "calibration": 48,
+    "pilot": 288
+  },
+  "active_requests": false,
+  "private_curl_configs_remaining": false,
+  "original_study_remains_paused": true,
+  "original_study_completed": 623,
+  "prior_protected_files_verified": 210
+}

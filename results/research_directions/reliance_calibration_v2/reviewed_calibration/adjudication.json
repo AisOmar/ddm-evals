@@ -1,0 +1,263 @@
+{
+  "n_independent_numerical_agreements": 48,
+  "independent_review_type": "Fresh-context AI; not human or independent training",
+  "initial_reviewer_dispositions": {
+    "repair": 36,
+    "retain": 12
+  },
+  "final_reviewer_dispositions": "All 48 repair because of option-position cue",
+  "repair": "Balanced irregular positions; every family 3 A / 3 B; no alternating or grouped pattern; split-level suffix parity balanced",
+  "seed": 20261021059,
+  "position_mapping": [
+    {
+      "item_id": "calibration-recurrence-01",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-recurrence-02",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-recurrence-03",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-recurrence-04",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-recurrence-05",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-recurrence-06",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-subset_count-01",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-subset_count-02",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-subset_count-03",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-subset_count-04",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-subset_count-05",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-subset_count-06",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-shortest_path-01",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-shortest_path-02",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-shortest_path-03",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-shortest_path-04",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-shortest_path-05",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-shortest_path-06",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-urn_posterior-01",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-urn_posterior-02",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-urn_posterior-03",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-urn_posterior-04",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-urn_posterior-05",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-urn_posterior-06",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-recurrence-01",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-recurrence-02",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-recurrence-03",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-recurrence-04",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-recurrence-05",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-recurrence-06",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-subset_count-01",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-subset_count-02",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-subset_count-03",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-subset_count-04",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-subset_count-05",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-subset_count-06",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-shortest_path-01",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-shortest_path-02",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-shortest_path-03",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-shortest_path-04",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-shortest_path-05",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-shortest_path-06",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-urn_posterior-01",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-urn_posterior-02",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-urn_posterior-03",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-urn_posterior-04",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-urn_posterior-05",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-urn_posterior-06",
+      "before": "A",
+      "after": "A"
+    }
+  ],
+  "unchanged_stems_and_numerical_alternatives": true,
+  "design_concerns_preserved": [
+    "mostly computation",
+    "four shared templates",
+    "uneven difficulty",
+    "near-neighbour alternatives"
+  ],
+  "author_decision": "Retain numerical content for descriptive difficulty calibration only; do not claim broad reasoning or safety coverage",
+  "review_after_repair_required": true,
+  "model_calls_on_packet": 0
+}

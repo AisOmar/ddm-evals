@@ -1,0 +1,61 @@
+{
+  "verified_at": "2026-10-22T23:15:58.626969+00:00",
+  "diagnostic_planned": 18,
+  "diagnostic_attempted": 18,
+  "diagnostic_complete": true,
+  "modes": [
+    {
+      "mode": "default",
+      "planned": 6,
+      "attempted": 6,
+      "visible_recognized": 5,
+      "strict_format": 2,
+      "empty_visible_content": 0,
+      "reasoning_present": 6,
+      "outcomes": {
+        "answered": 5,
+        "ambiguous_format": 1
+      },
+      "candidate_for_new_qualification": false
+    },
+    {
+      "mode": "reasoning_disabled",
+      "planned": 6,
+      "attempted": 6,
+      "visible_recognized": 3,
+      "strict_format": 0,
+      "empty_visible_content": 0,
+      "reasoning_present": 0,
+      "outcomes": {
+        "ambiguous_format": 3,
+        "answered": 3
+      },
+      "candidate_for_new_qualification": false
+    },
+    {
+      "mode": "soft_no_think",
+      "planned": 6,
+      "attempted": 6,
+      "visible_recognized": 3,
+      "strict_format": 0,
+      "empty_visible_content": 0,
+      "reasoning_present": 6,
+      "outcomes": {
+        "answered": 3,
+        "ambiguous_format": 3
+      },
+      "candidate_for_new_qualification": false
+    }
+  ],
+  "recorded_new_cost_usd": "0.00104148",
+  "missing_cost_metadata": 0,
+  "reliable_fix_qualified": false,
+  "empty_content_failure_reproduced": false,
+  "format_failures": 7,
+  "prior_wording_and_v4_hashes_verified_unchanged": true,
+  "offline_tests_passed": 107,
+  "no_active_requests": true,
+  "private_configs_removed": true,
+  "wording_pilot_calls": 0,
+  "original_study_remains_paused": true
+}

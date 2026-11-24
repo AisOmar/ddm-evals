@@ -1,0 +1,14 @@
+{
+  "label": "exclude_incomplete_fold1_baseline_refined",
+  "seconds": 58.68448805809021,
+  "divergences": 0,
+  "max_rhat": 1.002771836740169,
+  "min_ess": 908.4685861966357,
+  "draws": 1000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.995,
+  "dense_mass": true,
+  "random_seed": 20261006,
+  "settings_source": "Executed command and script defaults"
+}

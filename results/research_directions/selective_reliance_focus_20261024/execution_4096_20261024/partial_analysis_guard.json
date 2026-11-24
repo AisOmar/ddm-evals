@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-10-25T07:51:18.566251+00:00",
+  "rejected_incomplete_calibration": true,
+  "error": "Previous phase incomplete",
+  "cohort_planned": 48,
+  "cohort_finalized": 2,
+  "accuracy_analyzed": false
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "P01__r2__DeepInfra",
+  "prepared_at": "2026-10-22T23:19:24.224490+00:00",
+  "manifest_sha256": "be52bdfdbdbf3605d51c2e81a13d1f9f63e98275de35649368d544d1a35aedf3",
+  "request_sha256": "0d977d756f14b6dff01053d789b40a5124a23b129be90b3a04e4cc5a655cfc59",
+  "reserved_cost_usd": "0.00097312",
+  "finished_at": "2026-10-22T23:19:30.535092+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "B",
+    "correct": true,
+    "strict_format": false
+  },
+  "recorded_cost_usd": "0.00004264",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "6868e1ee4473a4e2df6c9a60cd65a9b3de120f8b826040ea663ae0163ad802a7",
+  "headers_sha256": "8dcdd85d1e5590576591ae75e8878e29fcaaeb7c941ae0f3b47059730202d5f0"
+}

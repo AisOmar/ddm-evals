@@ -1,0 +1,18 @@
+{
+  "n_planned": 12,
+  "n_attempted": 2,
+  "n_finalized": 2,
+  "outcomes": {
+    "answered": 1,
+    "rate_limited": 1
+  },
+  "n_correct": 1,
+  "n_strict_format": 1,
+  "missing_cost_metadata": 1,
+  "recorded_cost_usd": "0.00004188",
+  "full_reserve_usd": "0.004651380",
+  "gate_passed": false,
+  "active_attempt": false,
+  "calibration_authorized": false,
+  "original_study_remains_paused": true
+}

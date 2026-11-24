@@ -1,0 +1,119 @@
+{
+  "masked_source_sha256": "c2053854d6c3c3f0c7af92d43d04a5251d65bf6d23702b17cdafdd34470577c5",
+  "script_sha256": "2e7f50a98b3f9ae8ef28d80f54d2690a8f61df0015394579ccdaf2704de2cbca",
+  "evidence_kind": "Analyst-authored fixed arithmetic checks, not independent validation.",
+  "proofs": {
+    "F0001": {
+      "conditional_checksum": "0xb045ed5aa1c7e22",
+      "assumptions": "Two-complement 32-bit signed initializer; uint64 arithmetic; no argv=1; corrected format/compiler context still needed."
+    },
+    "F0002": {
+      "original_results": [
+        "0xb8",
+        "0xa0",
+        "0xf9",
+        "0xa1"
+      ],
+      "supported_original_indexes": [
+        2
+      ],
+      "assumptions": "First two inputs supply r0/r1 as in the reviewed trace; ABI/signature must be pinned."
+    },
+    "F0007": {
+      "outer_loop_entered": false,
+      "result": "0x75049aeb8ccb30e7",
+      "assumptions": "Conventional 8/16/32/64-bit integer widths and C++ conversion semantics."
+    },
+    "F0008": {
+      "icmp_offset": 54,
+      "flags_offset": 59,
+      "flags": "0xc0",
+      "home_agent_mask": "0x20",
+      "decoded_home_agent_flag": 0,
+      "assumptions": "Ethernet-II plus fixed IPv6 header; H flag mapped using RFC 6275 and Wireshark field documentation."
+    },
+    "F0016": {
+      "algebra": "inverse(encode(s)) = s ^ (s >> 32) = s for 0 <= s < 2**32",
+      "numerical_checks": 65540,
+      "negative_domain_collision": [
+        -1,
+        0
+      ],
+      "repaired_domain": "0 <= secret < 400000000; built-in Python 3 int",
+      "note": "Sample checks supplement the algebra; they are not exhaustive over the domain."
+    },
+    "F0020": {
+      "complemented_low32": "0x6b639d4",
+      "added_low32": "0x4513",
+      "result": "0x6b67ee7",
+      "supported_retained_indexes": [
+        1
+      ]
+    },
+    "F0025": {
+      "http_version_token_in_supplied_bytes": false,
+      "limitation": "Does not prove the reassembled stream lacks a version; the missing earlier bytes are the problem."
+    },
+    "F0031": {
+      "original_traces": [
+        {
+          "base": "0x6411bf591b6e0933",
+          "intermediate": "0xfe000001",
+          "dividend_before_sign_extension": "0xd44463f6",
+          "divisor": 1,
+          "remainder": 0,
+          "final_boolean": 0,
+          "result": "0x6411bf591b6e0933"
+        },
+        {
+          "base": "0x6411bf591b6e0933",
+          "intermediate": "0xfe000001",
+          "dividend_before_sign_extension": "0x46c176a7",
+          "divisor": 1,
+          "remainder": 0,
+          "final_boolean": 0,
+          "result": "0x6411bf591b6e0933"
+        },
+        {
+          "base": "0x6411bf591b6e0933",
+          "intermediate": "0xfe000001",
+          "dividend_before_sign_extension": "0x126644df1",
+          "divisor": 1,
+          "remainder": 0,
+          "final_boolean": 0,
+          "result": "0x6411bf591b6e0933"
+        },
+        {
+          "base": "0x6411bf591b6e0933",
+          "intermediate": "0xfe000001",
+          "dividend_before_sign_extension": "0xd354c2c1274a",
+          "divisor": 1,
+          "remainder": 0,
+          "final_boolean": 0,
+          "result": "0x6411bf591b6e0933"
+        }
+      ],
+      "supported_original_indexes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "supported_retained_indexes": [
+        0,
+        1
+      ],
+      "proposed_new_distractor": "test(0xd354c2c1274a,0x1a0a77249e2c,0x8a03a39c,0x243772,0x12e64292,0x0,0x12e7ad2f)",
+      "new_distractor_trace": {
+        "base": "0x6411bf591b6e0933",
+        "intermediate": "0xfe000001",
+        "dividend_before_sign_extension": "0xd354c2c1274a",
+        "divisor": 1,
+        "remainder": 0,
+        "final_boolean": 1,
+        "result": "0x6411bf591b6e0934"
+      },
+      "assumptions": "Arguments directly initialize a0..a6; apply shown load/store widths and return a0; valid stack memory."
+    }
+  }
+}

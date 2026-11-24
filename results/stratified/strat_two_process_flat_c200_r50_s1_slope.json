@@ -1,0 +1,13 @@
+{
+  "dataset": "strat_two_process_flat_c200_r50_s1_compute_slope",
+  "n": 1543,
+  "questions": 199,
+  "errors": 227,
+  "log_odds_per_doubling": -0.04829353807139316,
+  "lo": -0.42860233765745237,
+  "hi": 0.32564986017519226,
+  "odds_ratio": 0.9528540470830442,
+  "or_lo": 0.6514189224563671,
+  "or_hi": 1.384930364692836,
+  "probability_negative": 0.5966666666666667
+}

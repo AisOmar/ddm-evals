@@ -1,0 +1,28 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nEvery copper disk is round. No round disk is heavy. At least one copper disk exists. Which statement must be true, using only these premises?\n\nA. Some copper disk is not heavy.\nB. Some heavy disk is not copper."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 2048,
+  "provider": {
+    "order": [
+      "dekallm/bf16"
+    ],
+    "only": [
+      "dekallm/bf16"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "bf16"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.03,
+      "completion": 0.18
+    }
+  }
+}

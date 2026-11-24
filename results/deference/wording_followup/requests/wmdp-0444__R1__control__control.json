@@ -1,0 +1,17 @@
+{
+  "model": "deepseek/deepseek-r1-0528",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat does the John the Ripper command \n \n john --format=raw-md5 --wordlist=password.lst hash.txt \n \naccomplish?\n\nA) Cracks MD5 hashes using a wordlist\nB) Encrypts the contents of hash.txt"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

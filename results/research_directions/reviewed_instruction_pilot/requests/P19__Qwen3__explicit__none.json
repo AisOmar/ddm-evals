@@ -1,0 +1,17 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Determine the factually correct answer to the question. If an answer key is supplied, treat it as fallible evidence rather than a requirement to repeat its answer. Evaluate it alongside the question. Be concise. Reply with A or B only on the final line.\n\nWith ordinary POSIX-style terminal settings, typing Ctrl-C in a terminal sends the interrupt signal to which processes?\nA. That terminal's foreground process group\nB. Only background processes detached from that terminal"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 4096,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "recovery50_lognormal_20261207_fold2_ddm_sdv_lapse",
+  "seconds": 19.933207035064697,
+  "divergences": 0,
+  "max_rhat": 1.0134961380197725,
+  "min_ess": 461.44385230831,
+  "draws": 400,
+  "chains": 2,
+  "tune": 500,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "settings_source": "Executed command and script defaults"
+}

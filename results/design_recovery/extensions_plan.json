@@ -1,0 +1,17 @@
+{
+  "stage": "Exploratory extension, frozen before extension fits; original six profiles preserved.",
+  "seed": 20261009,
+  "replicates": 20,
+  "questions": 400,
+  "repeats": 2,
+  "caps_tokens": [
+    32768,
+    8192
+  ],
+  "profiles": {
+    "ddm_lognormal_questions": "Use positive lognormal question drift multipliers with mean one and code-specific log SD moment-matched to the R1 Normal-effect mean/SD; same trial drift SD and contaminant. Tests the latent Normal assumption. Neither fitted candidate is exactly true.",
+    "ddm_low_variation": "Set question drift SD=0.08, trial drift SD=0 and contamination=0; retain pilot population coefficients. A deliberately homogeneous, high-accuracy limit, not an estimate of the R1 population."
+  },
+  "rationale": "Calibrated generators test exact candidate families. Positive skew and a homogeneous limit test dependence on latent-effect assumptions and parameter regime, as required before a mechanism interpretation.",
+  "primary": "Same composite screening, grouped folds and question-level SE; all inconclusive/failed outcomes retained."
+}

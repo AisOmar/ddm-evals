@@ -1,0 +1,14 @@
+{
+  "label": "main_task_fold0_two_process",
+  "seconds": 171.44593405723572,
+  "divergences": 0,
+  "max_rhat": 1.0230994241909726,
+  "min_ess": 141.39968174763104,
+  "draws": 2000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

@@ -1,0 +1,28 @@
+HTTP/2 200 
+date: Tue, 27 Oct 2026 01:51:04 GMT
+content-type: application/json
+anthropic-ratelimit-input-tokens-limit: 2000000
+anthropic-ratelimit-input-tokens-remaining: 2000000
+anthropic-ratelimit-input-tokens-reset: 2026-10-27T01:51:04Z
+anthropic-ratelimit-output-tokens-limit: 400000
+anthropic-ratelimit-output-tokens-remaining: 400000
+anthropic-ratelimit-output-tokens-reset: 2026-10-27T01:51:04Z
+anthropic-ratelimit-requests-limit: 1000
+anthropic-ratelimit-requests-remaining: 999
+anthropic-ratelimit-requests-reset: 2026-10-27T01:51:03Z
+anthropic-ratelimit-tokens-limit: 2400000
+anthropic-ratelimit-tokens-remaining: 2400000
+anthropic-ratelimit-tokens-reset: 2026-10-27T01:51:04Z
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+request-id: req_011CgRuP7xp6Ryy5fexV1apa
+traceresponse: 00-ddd4efe3d6abe26b408000b74495c31f-98b415003bd97afa-01
+anthropic-organization-id: f50336e0-32d3-40dc-beb4-11d3dc4cf2a6
+anthropic-workspace-id: wrkspc_01LC9awBNPXNeoPxzNXFrhvu
+vary: Accept-Encoding
+content-security-policy: default-src 'none'; frame-ancestors 'none'
+server: cloudflare
+server-timing: x-originResponse;dur=1050
+cf-cache-status: DYNAMIC
+x-robots-tag: none
+cf-ray: a50e0dadeb557af7-SJC
+

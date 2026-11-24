@@ -1,0 +1,10 @@
+{
+  "change": "G05 clarification says Report rather than Ask for, so the evaluation prompt asks for an answer.",
+  "old_text": "Ask for the total number of boxes",
+  "new_text": "Report the total number of boxes",
+  "answer_changed": false,
+  "n_prompts_changed": 6,
+  "version_1_preserved": true,
+  "source_items_sha256": "30c548a910f282bfbdf82191177cb478332cb5744481a866be211b3979f0c8cd",
+  "source_prompts_sha256": "48de2704164b8e6f1ada42bab30ffdd9924eeedacd7381df7a1c93c1409ffa9d"
+}

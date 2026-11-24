@@ -1,0 +1,149 @@
+{
+ "n_runs": 600,
+ "n_answered": 594,
+ "outcomes": {
+  "answered": 594,
+  "censored": 6
+ },
+ "providers": {
+  "DeepInfra": 600
+ },
+ "A1": {
+  "verdict": "inconclusive",
+  "format_obedience": false,
+  "diagnostics": {
+   "label": "integration",
+   "seconds": 26.5136501789093,
+   "divergences": 0,
+   "max_rhat": 1.0021081910292722,
+   "min_ess": 1502.8793777557844,
+   "draws": 2000,
+   "chains": 4,
+   "tune": 2000,
+   "target_accept": 0.99,
+   "dense_mass": false,
+   "random_seed": 20261006,
+   "centered_effects": false
+  },
+  "theta_posterior_sd_mean": 2.878385344118474,
+  "alpha": {
+   "mean": 1.2331518873073413,
+   "lo": -0.08610846054439297,
+   "hi": 2.9368227978271655
+  },
+  "beta_cue": {
+   "mean": 1.0565964611181464,
+   "lo": 0.547231511237313,
+   "hi": 1.724034160594653
+  },
+  "beta_know": {
+   "mean": 0.8987497790229538,
+   "lo": 0.4608718993608735,
+   "hi": 1.6013866464828441
+  },
+  "diff": {
+   "mean": 0.15784668209519248,
+   "lo": -0.35349376492651846,
+   "hi": 0.6375855515528911
+  },
+  "mu": {
+   "mean": 6.164003789021466,
+   "lo": 4.440612130859105,
+   "hi": 8.273405160210174
+  },
+  "tau": {
+   "mean": 4.717772333659692,
+   "lo": 3.2753631587156784,
+   "hi": 6.582583496625683
+  }
+ },
+ "A2": {
+  "rates": {
+   "control": {
+    "n": 397,
+    "followed": 0.0982367758186398,
+    "se": 0.027279980755125176,
+    "correct": 0.9017632241813602,
+    "tokens_mean": 884.1360201511335,
+    "tokens_median": 656.0,
+    "ack": 0.05037783375314862
+   },
+   "p55": {
+    "n": 99,
+    "followed": 0.1717171717171717,
+    "se": 0.03744802744762928,
+    "correct": 0.8282828282828283,
+    "tokens_mean": 1381.3737373737374,
+    "tokens_median": 1095.0,
+    "ack": 1.0
+   },
+   "p95": {
+    "n": 98,
+    "followed": 0.37755102040816324,
+    "se": 0.04827509392924628,
+    "correct": 0.6224489795918368,
+    "tokens_mean": 1600.7244897959183,
+    "tokens_median": 1379.5,
+    "ack": 1.0
+   }
+  },
+  "diagnostics": {
+   "label": "dose_logit",
+   "seconds": 286.51030802726746,
+   "divergences": 0,
+   "max_rhat": 1.0041346274467766,
+   "min_ess": 2490.7743178634623,
+   "draws": 2000,
+   "chains": 4,
+   "tune": 2000,
+   "target_accept": 0.99,
+   "dense_mass": false,
+   "random_seed": 20261006,
+   "centered_effects": false
+  },
+  "intercept": {
+   "mean": -3.658316400619157,
+   "lo": -5.446037932578957,
+   "hi": -2.2525277587814903
+  },
+  "slope": {
+   "mean": 0.881539932359427,
+   "lo": 0.44063799128955133,
+   "hi": 1.4160323797715932
+  },
+  "tau_question": {
+   "mean": 3.575152774480537,
+   "lo": 2.0550426409992113,
+   "hi": 5.644086700308309
+  }
+ },
+ "A4": {
+  "by_dose": {
+   "p55": {
+    "n_followed": 17,
+    "n_resisted": 82,
+    "median_followed": 1355.0,
+    "median_resisted": 1019.5,
+    "log_ratio_followed": 0.22423254028606923,
+    "log_ratio_resisted": 0.5589964666547657,
+    "ack": 1.0,
+    "ack_followed": 1.0
+   },
+   "p95": {
+    "n_followed": 37,
+    "n_resisted": 61,
+    "median_followed": 1566.0,
+    "median_resisted": 1328.0,
+    "log_ratio_followed": 0.43571161656730534,
+    "log_ratio_resisted": 0.8762260078302047,
+    "ack": 1.0,
+    "ack_followed": 1.0
+   }
+  },
+  "follow_rate_all_control_correct": 0.19186046511627908,
+  "n_all_control_correct": 87,
+  "follow_rate_some_control_wrong": 0.8461538461538461,
+  "n_some_control_wrong": 13,
+  "spearman_ctrl_wrong_vs_follow": 0.5352302093064081
+ }
+}

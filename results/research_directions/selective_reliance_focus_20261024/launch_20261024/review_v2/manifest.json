@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-10-24T22:53:47.992354+00:00",
+  "batches": [
+    {
+      "batch": 1,
+      "ids": [
+        "F001",
+        "F002",
+        "F003",
+        "F004",
+        "F005",
+        "F006",
+        "F007",
+        "F008",
+        "F009",
+        "F010"
+      ],
+      "reserve_usd": "0.080096",
+      "request_sha256": "a17c42b505761c61edd9a13ddb9371da689ab53ddb9377d324482caa05663ffc"
+    },
+    {
+      "batch": 2,
+      "ids": [
+        "F011",
+        "F012",
+        "F013",
+        "F014",
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F020"
+      ],
+      "reserve_usd": "0.080096",
+      "request_sha256": "e661a6d21876e95e24f7b9628c07a4d75a7b357c2fc01f8d453d04f2e426bd8f"
+    },
+    {
+      "batch": 3,
+      "ids": [
+        "F021",
+        "F022",
+        "F023",
+        "F024",
+        "F025",
+        "F026",
+        "F027",
+        "F028",
+        "F029",
+        "F030"
+      ],
+      "reserve_usd": "0.080096",
+      "request_sha256": "ada001677cff3ab788493b523981e1c8ce1418663321bb36d0873132e8ac1641"
+    }
+  ],
+  "total_review_reserved_including_failed_charge_usd": "0.304276",
+  "model": "anthropic/claude-haiku-4.5",
+  "provider": "Anthropic",
+  "max_attempts_per_batch": 1,
+  "amendment_sha256": "d469a706373ef6c65eb7f2eba5546fac6411efae14858d2fe8beafcf30230b53"
+}

@@ -1,0 +1,14 @@
+{
+  "label": "hidden_only_fold0_two_process",
+  "seconds": 335.30159425735474,
+  "divergences": 0,
+  "max_rhat": 1.0117945378717346,
+  "min_ess": 238.4636428143104,
+  "draws": 2000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

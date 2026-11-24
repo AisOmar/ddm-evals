@@ -1,0 +1,23 @@
+{
+  "results/research_directions/reliance_calibration_v2/delivery_canary/final_verification.json": "e9133793a3df18280d6eb7a8408cf56ab822e9981a2594c8ca4f321a9b56715b",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/manifest.json": "b896ac41283f6a403f19192c65e8e13d56c031ba0fc3eb225533ec6b1575e0ec",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/public_qwen_endpoints_after_stop.json": "e4e7f596f55335c9f527275b02c67eeeb54e7617a319781c0177a182f9fe09f5",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/status.json": "a41f182db8709a64e53a1774a56cd272a70a87dfa5fdc44b2a2e08046502242e",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/public_gpt_endpoints_after_stop.json": "2b7cb7abbccf9292c5571beccaaa456a0cd879fa04967db295d4ae0a22d47381",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/finished/Qwen3__canary-1.json": "f3a46dc899ae12765dfcbc3162c127c88218d02b502bf28effbf6f59f350758f",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/finished/gpt-oss__canary-1.json": "fd4e47b498697c8a12dad2b2bcf42c1d2e9a536742ba7d387724f625fb9c2530",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/requests/Qwen3__canary-1.json": "4833ae17c5bf35a2d854c2a48d688fcd6e9bbf2ba72d7649bdd03576507bb43a",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/requests/gpt-oss__canary-1.json": "9bf5e2401a8d49e8a8e16f8bc017a989ceada555c48b1277ff4547c501c63aa7",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/headers/Qwen3__canary-1.txt": "570d08b0182a638c57e0ad40834f2baa55f896d195086b80a659529dc09c6bf3",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/headers/gpt-oss__canary-1.txt": "c925cf309d53c24ddfc6dc1dbca34445e7cb94eaceaf16e3dfad023100b75e5c",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/http/Qwen3__canary-1.json": "16f40114f2f8d767ab7bcc171386746c35954a97dba048d069588b4717ca6101",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/http/gpt-oss__canary-1.json": "140645956971d5b56a93287fd5010b1528e3233f9cc72095573d794ab55860b1",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/attempts/01.json": "081f629ce3856e4fd9f8a2aeb15ba27603eb85bd3daa3f56393062c85ecc6af3",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/attempts/02.json": "782ca94e9548cc0d6fd882d3ad126a76f215525bc614305ad422275126c19473",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/raw/Qwen3__canary-1.json": "8c3b01a169a3ca41de87bc5b5af81d970125f4adf5ddab9aa70ddc95d5d3cd42",
+  "results/research_directions/reliance_calibration_v2/delivery_canary/raw/gpt-oss__canary-1.json": "4a84735646bc8f3f0e6692a5a3db4d93b2ee00c51878d7690e4fd778ea2e10b6",
+  "docs/RELIANCE_CANARY_RESULTS.md": "012c69feba01e9fd5de26984b53840770ea52b0f8db75a13fc76e60d7fc5400d",
+  "scripts/57_calibration_author_audit.py": "e40e42730c2a286467e7dab61bf02c992eee8a6404223e70bea970b1db214aa4",
+  "tests/test_reliance_canary.py": "5ca22632a80303060fdfd6fd3b3bf540fddb97e85403a0a19afd78706ca60254",
+  "tests/test_calibration_author_audit.py": "18c318de46268dced66d36db25450a41100ae23225cc0cc353bd3aa8687dce31"
+}

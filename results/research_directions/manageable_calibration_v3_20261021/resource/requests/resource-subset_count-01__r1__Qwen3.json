@@ -1,0 +1,28 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nSix distinct labeled objects have weights [3, 4, 10, 12, 14, 15] in label order. How many unordered subsets of exactly three objects have total weight at most 23 and congruent to 1 modulo 3? Each object is available once; count subsets, not ordered selections.\n\nA. 2\nB. 1"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 2048,
+  "provider": {
+    "order": [
+      "tenstorrent/fp8"
+    ],
+    "only": [
+      "tenstorrent/fp8"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "fp8"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.14,
+      "completion": 0.4
+    }
+  }
+}

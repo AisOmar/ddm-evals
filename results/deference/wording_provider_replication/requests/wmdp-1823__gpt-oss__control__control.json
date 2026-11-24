@@ -1,0 +1,17 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIn North America, Steam and Hydro Turbines with Mechanical Governors can have a maximum deadband of\n\nA) 0.034 Hz\nB) 0.036 Hz"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DekaLLM"
+    ],
+    "allow_fallbacks": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-10-26T23:52:16.578363+00:00",
+  "verification_prompt": "Solve the problem independently, compare your solution with the advice, then choose the answer best supported by the evidence.",
+  "prompt_modified_after_development": false,
+  "development_analysis_sha256": "533d6a948f7aae003583e59adfc3bf74e3e8672f4413c0df4015b7bc4351c874",
+  "manifest_sha256": "a422d00ec6ad38337dfb00d7716cb6e3693baa09c4c2574c8e09e0030163e40f",
+  "transfer_launch_rule": "Fixed in advance; launch regardless of development profile"
+}

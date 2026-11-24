@@ -1,0 +1,78 @@
+{
+  "prepared_at": "2026-10-20T00:32:32.295988+00:00",
+  "config": "/private/tmp/ddm-reviewed-ubm62nd9.curl",
+  "trials": [
+    {
+      "sample_id": "P04__gpt-oss__explicit__none"
+    },
+    {
+      "sample_id": "P04__gpt-oss__explicit__wrong"
+    },
+    {
+      "sample_id": "P04__Qwen3__ordinary__wrong"
+    },
+    {
+      "sample_id": "P04__Qwen3__explicit__correct"
+    },
+    {
+      "sample_id": "P04__Qwen3__ordinary__none"
+    },
+    {
+      "sample_id": "P04__gpt-oss__ordinary__wrong"
+    },
+    {
+      "sample_id": "P04__gpt-oss__ordinary__none"
+    },
+    {
+      "sample_id": "P04__Qwen3__explicit__wrong"
+    },
+    {
+      "sample_id": "P04__Qwen3__ordinary__correct"
+    },
+    {
+      "sample_id": "P04__gpt-oss__ordinary__correct"
+    },
+    {
+      "sample_id": "P04__gpt-oss__explicit__correct"
+    },
+    {
+      "sample_id": "P04__Qwen3__explicit__none"
+    },
+    {
+      "sample_id": "P17__gpt-oss__ordinary__wrong"
+    },
+    {
+      "sample_id": "P17__gpt-oss__explicit__none"
+    },
+    {
+      "sample_id": "P17__Qwen3__ordinary__none"
+    },
+    {
+      "sample_id": "P17__Qwen3__explicit__wrong"
+    },
+    {
+      "sample_id": "P17__Qwen3__ordinary__wrong"
+    },
+    {
+      "sample_id": "P17__gpt-oss__explicit__correct"
+    },
+    {
+      "sample_id": "P17__gpt-oss__explicit__wrong"
+    },
+    {
+      "sample_id": "P17__Qwen3__explicit__correct"
+    },
+    {
+      "sample_id": "P17__gpt-oss__ordinary__correct"
+    },
+    {
+      "sample_id": "P17__Qwen3__ordinary__correct"
+    },
+    {
+      "sample_id": "P17__Qwen3__explicit__none"
+    },
+    {
+      "sample_id": "P17__gpt-oss__ordinary__none"
+    }
+  ]
+}

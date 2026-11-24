@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-10-27T01:52:15.679520+00:00",
+  "qualified": true,
+  "mode": "single_level",
+  "levels_by_family": {
+    "integer_bin_packing": 0,
+    "optimal_binary_prefix_code": 0,
+    "dense_determinant": 0,
+    "bipartite_matching_deficiency": 0,
+    "overlapping_pattern_waiting_time": 0,
+    "weighted_interval_scheduling": 0
+  },
+  "practice_correct": 8,
+  "practice_total": 12,
+  "selected_practice_ids": [
+    "L0_F6_V0",
+    "L0_F2_V0",
+    "L0_F3_V0",
+    "L0_F6_V1",
+    "L0_F4_V1",
+    "L0_F1_V1",
+    "L0_F3_V1",
+    "L0_F5_V0",
+    "L0_F5_V1",
+    "L0_F4_V0",
+    "L0_F2_V1",
+    "L0_F1_V0"
+  ],
+  "reserved_item_ids": [
+    "L0_F1_V2",
+    "L0_F1_V3",
+    "L0_F2_V2",
+    "L0_F2_V3",
+    "L0_F3_V2",
+    "L0_F3_V3",
+    "L0_F4_V2",
+    "L0_F4_V3",
+    "L0_F5_V2",
+    "L0_F5_V3",
+    "L0_F6_V2",
+    "L0_F6_V3"
+  ],
+  "practice_analysis_sha256": "5746cce339841a9bd4f563984d4411185c70727a4fd2f63e8501208e9d988ced",
+  "author_pool_sha256": "d56d51f2f6e7e253438ec30b4e62d31c85e6b38681fe031e7ec58a779d0d7827"
+}

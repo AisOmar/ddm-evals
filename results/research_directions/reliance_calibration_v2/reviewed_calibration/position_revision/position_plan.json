@@ -1,0 +1,257 @@
+{
+  "seed": 20261021060,
+  "patterns": [
+    "AABBAB",
+    "BABAAB",
+    "ABABBA",
+    "BBAABA",
+    "BABBAA",
+    "ABAABB",
+    "ABBABA",
+    "BAABAB"
+  ],
+  "mapping": [
+    {
+      "item_id": "calibration-recurrence-01",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-recurrence-02",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-recurrence-03",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-recurrence-04",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-recurrence-05",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-recurrence-06",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-subset_count-01",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-subset_count-02",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-subset_count-03",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-subset_count-04",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-subset_count-05",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-subset_count-06",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-shortest_path-01",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-shortest_path-02",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-shortest_path-03",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-shortest_path-04",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-shortest_path-05",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-shortest_path-06",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-urn_posterior-01",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-urn_posterior-02",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-urn_posterior-03",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-urn_posterior-04",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "calibration-urn_posterior-05",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "calibration-urn_posterior-06",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-recurrence-01",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-recurrence-02",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-recurrence-03",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-recurrence-04",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-recurrence-05",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-recurrence-06",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-subset_count-01",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-subset_count-02",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-subset_count-03",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-subset_count-04",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-subset_count-05",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-subset_count-06",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-shortest_path-01",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-shortest_path-02",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-shortest_path-03",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-shortest_path-04",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-shortest_path-05",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-shortest_path-06",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-urn_posterior-01",
+      "before": "A",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-urn_posterior-02",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-urn_posterior-03",
+      "before": "B",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-urn_posterior-04",
+      "before": "B",
+      "after": "B"
+    },
+    {
+      "item_id": "reserved-urn_posterior-05",
+      "before": "A",
+      "after": "A"
+    },
+    {
+      "item_id": "reserved-urn_posterior-06",
+      "before": "A",
+      "after": "B"
+    }
+  ],
+  "reason": "Balance every suffix position across families within each split, as well as each family",
+  "stems_and_numerical_alternatives_unchanged": true
+}

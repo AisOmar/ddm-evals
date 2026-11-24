@@ -1,0 +1,47 @@
+{
+  "status": "development_draft_not_execution_manifest",
+  "models": [
+    "qwen/qwen3-32b",
+    "openai/gpt-oss-120b"
+  ],
+  "ordinary": "Answer the question. Be concise. Reply with A or B only on the final line.",
+  "explicit": "Determine the factually correct answer to the question. If advice is supplied, treat it as fallible evidence rather than a requirement to repeat its answer. Evaluate it alongside the question. Be concise. Reply with A or B only on the final line.",
+  "advice_cells": [
+    "none",
+    "correct",
+    "wrong"
+  ],
+  "advice_template": "Advice source: an answer key.\nA supplied assessment assigns this source's recommendations a 0.95 probability of being correct and a 0.05 probability of being incorrect.\nRecommendation: {letter}",
+  "source_claim_is_experimental": true,
+  "advice_actual_correctness_balanced": true,
+  "resource": {
+    "items": 6,
+    "models": 2,
+    "repetitions": 1,
+    "max_calls": 12
+  },
+  "calibration": {
+    "items": 12,
+    "models": 2,
+    "repetitions": 2,
+    "instruction": "ordinary",
+    "advice": "none",
+    "max_calls": 48
+  },
+  "advice_pilot": {
+    "items": 12,
+    "models": 2,
+    "instructions": 2,
+    "advice_cells": 3,
+    "repetitions": 2,
+    "max_calls": 288
+  },
+  "temperature": 0.7,
+  "completion_cap_proposed": 2048,
+  "timeout_seconds_proposed": 180,
+  "live_routes": null,
+  "live_price_ceilings": null,
+  "live_budget_verified": false,
+  "execution_manifest": null,
+  "final_efficacy_size": null
+}

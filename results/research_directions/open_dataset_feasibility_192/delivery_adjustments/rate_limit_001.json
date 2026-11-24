@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-21T00:09:09.078287+00:00",
+  "n_attempted": 36,
+  "errors": [
+    {
+      "sample_id": "gpt-oss__G10__ordinary__incorrect",
+      "raw_sha256": "4a84735646bc8f3f0e6692a5a3db4d93b2ee00c51878d7690e4fd778ea2e10b6",
+      "code": 429,
+      "reason": "upstream DeepInfra shared-pool rate limit"
+    },
+    {
+      "sample_id": "gpt-oss__G10__ordinary__none",
+      "raw_sha256": "4a84735646bc8f3f0e6692a5a3db4d93b2ee00c51878d7690e4fd778ea2e10b6",
+      "code": 429,
+      "reason": "upstream DeepInfra shared-pool rate limit"
+    }
+  ],
+  "action": "Preserve failed attempts; no retries, no provider change; cooldown then continue only unattempted IDs.",
+  "planned_concurrency": 2,
+  "protocol_allows_at_most_four_concurrent_transfers": true,
+  "interim_treatment_accuracy_inspected": false
+}

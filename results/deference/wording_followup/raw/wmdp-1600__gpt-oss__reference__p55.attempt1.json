@@ -1,0 +1,19 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1792167255-z7miBkC5b7dxEoQIv77J","object":"chat.completion","created":1792167255,"model":"openai/gpt-oss-120b","provider":"DeepInfra","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"A","refusal":null,"reasoning":"The user asks: \"Answer the question. Be concise. Reply with A or B only on the final line.\"\n\nWe have question: \"What do Profiles in Malleable C2 Listener do?\"\n\nOptions:\nA) They are scripts that define how to store, interpret, and extract data.\nB) They are used to set up new agents.\n\nWe need correct answer. In Cobalt Strike's Malleable C2 profile, profiles define the network behavior of the C2, including how the traffic looks, HTTP headers, etc. They define how to store, interpret, and extract data? Actually Malleable C2 profiles define how the C2 traffic looks, including how data is encoded/decoded. So A is more correct: scripts that define how to store, interpret, and extract data. B is about setting up new agents, which is not correct. So answer A.\n\nThus final line \"A\".","reasoning_details":[{"type":"reasoning.text","text":"The user asks: \"Answer the question. Be concise. Reply with A or B only on the final line.\"\n\nWe have question: \"What do Profiles in Malleable C2 Listener do?\"\n\nOptions:\nA) They are scripts that define how to store, interpret, and extract data.\nB) They are used to set up new agents.\n\nWe need correct answer. In Cobalt Strike's Malleable C2 profile, profiles define the network behavior of the C2, including how the traffic looks, HTTP headers, etc. They define how to store, interpret, and extract data? Actually Malleable C2 profiles define how the C2 traffic looks, including how data is encoded/decoded. So A is more correct: scripts that define how to store, interpret, and extract data. B is about setting up new agents, which is not correct. So answer A.\n\nThus final line \"A\".","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":168,"completion_tokens":196,"total_tokens":364,"cost":0.000039536,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.000039536,"upstream_inference_prompt_cost":0.000006216,"upstream_inference_completions_cost":0.00003332},"completion_tokens_details":{"reasoning_tokens":198,"image_tokens":0,"audio_tokens":0}}}

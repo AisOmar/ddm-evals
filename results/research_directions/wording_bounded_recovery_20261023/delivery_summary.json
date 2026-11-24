@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-10-23T01:44:20.454648+00:00",
+  "logical_completed": 288,
+  "logical_planned": 288,
+  "retained_original": 125,
+  "new_attempts": 163,
+  "new_retries": 1,
+  "stop": null,
+  "new_attempt_outcomes": {
+    "answered": 163
+  },
+  "all_attempt_outcomes": {
+    "answered": 288,
+    "rate_limited": 1
+  },
+  "recorded_new_recovery_cost_usd": "0.01068678",
+  "recorded_pilot_cost_usd": "0.01829538",
+  "missing_cost_records": 1,
+  "recovery_full_reserve_usd": "0.14447352",
+  "attempt_reservations_used_usd": "0.12427496",
+  "unresolved_ids": [],
+  "original_manifest_sha256": "f24fad8f3b011c3619904fb06e77a7b125f6b6dee15099ad89d491ec85cf1c4a",
+  "recovery_manifest_sha256": "44e06618dfb78a9f7b036446d4bd8451a3d10d51d77a7c23e392327f7816d957",
+  "original_study_remains_paused": true
+}

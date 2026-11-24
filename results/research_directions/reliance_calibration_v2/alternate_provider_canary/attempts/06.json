@@ -1,0 +1,7 @@
+{
+  "sample_id": "Qwen3__canary-3",
+  "prepared_at": "2026-10-21T02:59:26.564995+00:00",
+  "manifest_sha256": "7252224a644c39fcbdfe38f363bda8b7efe16feffd34916034dde9e8a9e1e411",
+  "request_sha256": "3afdd8539d180b6cf95c125e4d9d72a97ea2e8af30d54c8a423a7d8bcb74cc52",
+  "reserved_cost_usd": "0.00051584"
+}

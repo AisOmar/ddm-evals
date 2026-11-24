@@ -1,0 +1,15 @@
+{
+  "n_planned": 96,
+  "n_attempted": 3,
+  "n_finalized": 3,
+  "outcomes": {
+    "uncertain_delivery": 1,
+    "censored": 1,
+    "answered": 1
+  },
+  "stopped": true,
+  "active_attempt": false,
+  "recorded_cost_usd": "0.00160672",
+  "accuracy_not_reported": true,
+  "original_study_remains_paused": true
+}

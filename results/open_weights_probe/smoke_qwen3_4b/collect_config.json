@@ -1,0 +1,13 @@
+{
+ "model": "Qwen/Qwen3-4B",
+ "device": "mps",
+ "max_new_tokens": 2048,
+ "temperature": 0.7,
+ "top_p": 0.95,
+ "top_k": 20,
+ "batch_size": 4,
+ "seed": 20261006,
+ "design": "/Users/aisuluomar/Downloads/ddm-evals/data/processed/deference_model2_design.csv",
+ "smoke": true,
+ "started": "2026-11-21T08:51:49"
+}

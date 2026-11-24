@@ -1,0 +1,12 @@
+{
+  "status": "answered",
+  "answer": "B",
+  "correct": true,
+  "cost_usd": "0.001053",
+  "input_tokens": 301,
+  "output_tokens": 10,
+  "stop_reason": "end_turn",
+  "id": "F019_ordinary_none_r1",
+  "request_sha256": "5d379eee4ef467f9ace9b79554cdfe1fff77243d769e40b1f2654fef9f8d686c",
+  "response_sha256": "1d4e08a4ca7bacbddfbfee2cced55726a8f3eb5c4c582348cf750a648cce75c3"
+}

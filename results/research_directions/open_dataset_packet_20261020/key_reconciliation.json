@@ -1,0 +1,168 @@
+{
+  "initial_review_sha256": "69500acf8d770c146c301f2985ba19af17a2b42369d2658bffc05f0f263edb91",
+  "initial_lock_sha256": "83f344dc765520a082041fd766fadcabfbf1e78c34629660df7bb75b591766ac",
+  "comparison_performed_after_lock": true,
+  "all_agree": true,
+  "items": [
+    {
+      "review_id": "G01",
+      "analyst_answer": "113",
+      "official_answer": "113",
+      "agrees": true,
+      "caveat": "Opening balance and other charges are implicit in the original; clarification pins scope.",
+      "disposition": "clarify_then_retain_candidate"
+    },
+    {
+      "review_id": "G02",
+      "analyst_answer": "10",
+      "official_answer": "10",
+      "agrees": true,
+      "caveat": "Pounds and tablespoons are distinct units; no variable rounding.",
+      "disposition": "retain_candidate"
+    },
+    {
+      "review_id": "G03",
+      "analyst_answer": "101",
+      "official_answer": "101",
+      "agrees": true,
+      "caveat": "Question asks only the quoted catering charges.",
+      "disposition": "retain_candidate"
+    },
+    {
+      "review_id": "G04",
+      "analyst_answer": "4000",
+      "official_answer": "4000",
+      "agrees": true,
+      "caveat": "Clarifies repeated-chair counting and artificial four-week-month convention.",
+      "disposition": "clarify_then_retain_candidate"
+    },
+    {
+      "review_id": "G05",
+      "analyst_answer": "9",
+      "official_answer": "9",
+      "agrees": true,
+      "caveat": "Original does not explicitly require equal capacities or distinguish total from additional boxes.",
+      "disposition": "clarify_then_retain_candidate"
+    },
+    {
+      "review_id": "G06",
+      "analyst_answer": "1198",
+      "official_answer": "1198",
+      "agrees": true,
+      "caveat": "Each listed charge is additive; officers and pin recipients still receive frames.",
+      "disposition": "retain_candidate"
+    },
+    {
+      "review_id": "G07",
+      "analyst_answer": "31",
+      "official_answer": "31",
+      "agrees": true,
+      "caveat": "Pins currency denominations instead of depending on unstated locale knowledge.",
+      "disposition": "clarify_then_retain_candidate"
+    },
+    {
+      "review_id": "G08",
+      "analyst_answer": "32",
+      "official_answer": "32",
+      "agrees": true,
+      "caveat": "The stem explicitly says three-way split.",
+      "disposition": "retain_candidate"
+    },
+    {
+      "review_id": "G09",
+      "analyst_answer": "36",
+      "official_answer": "36",
+      "agrees": true,
+      "caveat": "January discount applies to the December price.",
+      "disposition": "retain_candidate"
+    },
+    {
+      "review_id": "G10",
+      "analyst_answer": "1430",
+      "official_answer": "1430",
+      "agrees": true,
+      "caveat": "The phrase 10% of that could instead refer to the most recent $800 charge. Pin the intended base.",
+      "disposition": "clarify_then_retain_candidate"
+    },
+    {
+      "review_id": "B01",
+      "analyst_answer": "True",
+      "official_answer": "True",
+      "agrees": true,
+      "caveat": "Standard Boolean meaning of not and or.",
+      "disposition": "retain_candidate"
+    },
+    {
+      "review_id": "B02",
+      "analyst_answer": "03/12/1973",
+      "official_answer": "03/12/1973",
+      "agrees": true,
+      "caveat": "Explicitly resolves the input date convention and strips irrelevant meteor-shower context only if rewritten.",
+      "disposition": "clarify_then_retain_candidate"
+    },
+    {
+      "review_id": "B03",
+      "analyst_answer": "> >",
+      "official_answer": "> >",
+      "agrees": true,
+      "caveat": "Arbitrary extra balanced pairs would otherwise permit many longer completions.",
+      "disposition": "clarify_then_retain_candidate"
+    },
+    {
+      "review_id": "B04",
+      "analyst_answer": "The tractor is the second-oldest",
+      "official_answer": "The tractor is the second-oldest",
+      "agrees": true,
+      "caveat": "All five positions are determined, not merely the requested answer.",
+      "disposition": "retain_candidate"
+    },
+    {
+      "review_id": "B05",
+      "analyst_answer": "702",
+      "official_answer": "702",
+      "agrees": true,
+      "caveat": "Unary negative signs and standard multiplication precedence.",
+      "disposition": "retain_candidate"
+    },
+    {
+      "review_id": "B06",
+      "analyst_answer": "Yes",
+      "official_answer": "Yes",
+      "agrees": true,
+      "caveat": "Makes explicit the stem instruction to always face forward.",
+      "disposition": "clarify_then_retain_candidate"
+    },
+    {
+      "review_id": "B07",
+      "analyst_answer": "13",
+      "official_answer": "13",
+      "agrees": true,
+      "caveat": "Count individual objects, not eight named categories.",
+      "disposition": "retain_candidate"
+    },
+    {
+      "review_id": "B08",
+      "analyst_answer": "zero",
+      "official_answer": "zero",
+      "agrees": true,
+      "caveat": "Other colors do not affect an empty left prefix.",
+      "disposition": "retain_candidate"
+    },
+    {
+      "review_id": "B09",
+      "analyst_answer": "left midfielder",
+      "official_answer": "left midfielder",
+      "agrees": true,
+      "caveat": "Track all assignments to ensure each swap preserves the bijection.",
+      "disposition": "retain_candidate"
+    },
+    {
+      "review_id": "B10",
+      "analyst_answer": "blest buxton consternate proximity quizzes sound tariff xerxes",
+      "official_answer": "blest buxton consternate proximity quizzes sound tariff xerxes",
+      "agrees": true,
+      "caveat": "All words are distinct lowercase ASCII; ordinary alphabetical order is unique.",
+      "disposition": "retain_candidate"
+    }
+  ]
+}

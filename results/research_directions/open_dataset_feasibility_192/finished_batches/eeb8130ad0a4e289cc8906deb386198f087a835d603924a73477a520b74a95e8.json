@@ -1,0 +1,31 @@
+{
+  "finished_at": "2026-10-21T00:08:16.833946+00:00",
+  "attempted": [
+    "Qwen3__G10__explicit__incorrect",
+    "gpt-oss__G10__ordinary__none",
+    "Qwen3__G10__ordinary__incorrect",
+    "Qwen3__G10__ordinary__none",
+    "Qwen3__G10__ordinary__correct",
+    "Qwen3__G10__explicit__none",
+    "gpt-oss__G10__explicit__incorrect",
+    "gpt-oss__G10__ordinary__incorrect",
+    "Qwen3__G10__explicit__correct",
+    "gpt-oss__G10__explicit__none",
+    "gpt-oss__G10__ordinary__correct",
+    "gpt-oss__G10__explicit__correct"
+  ],
+  "raw_exists": {
+    "Qwen3__G10__explicit__incorrect": true,
+    "gpt-oss__G10__ordinary__none": true,
+    "Qwen3__G10__ordinary__incorrect": true,
+    "Qwen3__G10__ordinary__none": true,
+    "Qwen3__G10__ordinary__correct": true,
+    "Qwen3__G10__explicit__none": true,
+    "gpt-oss__G10__explicit__incorrect": true,
+    "gpt-oss__G10__ordinary__incorrect": true,
+    "Qwen3__G10__explicit__correct": true,
+    "gpt-oss__G10__explicit__none": true,
+    "gpt-oss__G10__ordinary__correct": true,
+    "gpt-oss__G10__explicit__correct": true
+  }
+}

@@ -1,0 +1,4076 @@
+{
+  "created_at": "2026-10-21T03:05:46.805074+00:00",
+  "preflight_started_at": "2026-10-21T03:05:38.552019+00:00",
+  "trials": [
+    {
+      "sample_id": "calibration-recurrence-01__r1__gpt-oss",
+      "item_id": "calibration-recurrence-01",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "100",
+        "B": "101"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=19, x_1=1. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 5*x_(n-2) modulo 107. What is x_47?\n\nA. 100\nB. 101"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-01__r1__Qwen3",
+      "item_id": "calibration-recurrence-01",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "100",
+        "B": "101"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=19, x_1=1. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 5*x_(n-2) modulo 107. What is x_47?\n\nA. 100\nB. 101"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-01__r2__Qwen3",
+      "item_id": "calibration-recurrence-01",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "100",
+        "B": "101"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=19, x_1=1. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 5*x_(n-2) modulo 107. What is x_47?\n\nA. 100\nB. 101"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-01__r2__gpt-oss",
+      "item_id": "calibration-recurrence-01",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "100",
+        "B": "101"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=19, x_1=1. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 5*x_(n-2) modulo 107. What is x_47?\n\nA. 100\nB. 101"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-02__r1__Qwen3",
+      "item_id": "calibration-recurrence-02",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "41",
+        "B": "39"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=19, x_1=10. For n >= 2, x_n is the least nonnegative residue of 7*x_(n-1) + 4*x_(n-2) modulo 101. What is x_62?\n\nA. 41\nB. 39"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-02__r1__gpt-oss",
+      "item_id": "calibration-recurrence-02",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "41",
+        "B": "39"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=19, x_1=10. For n >= 2, x_n is the least nonnegative residue of 7*x_(n-1) + 4*x_(n-2) modulo 101. What is x_62?\n\nA. 41\nB. 39"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-02__r2__gpt-oss",
+      "item_id": "calibration-recurrence-02",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "41",
+        "B": "39"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=19, x_1=10. For n >= 2, x_n is the least nonnegative residue of 7*x_(n-1) + 4*x_(n-2) modulo 101. What is x_62?\n\nA. 41\nB. 39"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-02__r2__Qwen3",
+      "item_id": "calibration-recurrence-02",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "41",
+        "B": "39"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=19, x_1=10. For n >= 2, x_n is the least nonnegative residue of 7*x_(n-1) + 4*x_(n-2) modulo 101. What is x_62?\n\nA. 41\nB. 39"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-03__r1__gpt-oss",
+      "item_id": "calibration-recurrence-03",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "81",
+        "B": "80"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=7, x_1=18. For n >= 2, x_n is the least nonnegative residue of 4*x_(n-1) + 4*x_(n-2) modulo 101. What is x_46?\n\nA. 81\nB. 80"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-03__r1__Qwen3",
+      "item_id": "calibration-recurrence-03",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "81",
+        "B": "80"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=7, x_1=18. For n >= 2, x_n is the least nonnegative residue of 4*x_(n-1) + 4*x_(n-2) modulo 101. What is x_46?\n\nA. 81\nB. 80"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-03__r2__Qwen3",
+      "item_id": "calibration-recurrence-03",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "81",
+        "B": "80"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=7, x_1=18. For n >= 2, x_n is the least nonnegative residue of 4*x_(n-1) + 4*x_(n-2) modulo 101. What is x_46?\n\nA. 81\nB. 80"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-03__r2__gpt-oss",
+      "item_id": "calibration-recurrence-03",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "81",
+        "B": "80"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=7, x_1=18. For n >= 2, x_n is the least nonnegative residue of 4*x_(n-1) + 4*x_(n-2) modulo 101. What is x_46?\n\nA. 81\nB. 80"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-04__r1__Qwen3",
+      "item_id": "calibration-recurrence-04",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "74",
+        "B": "75"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=3, x_1=10. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 3*x_(n-2) modulo 97. What is x_55?\n\nA. 74\nB. 75"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-04__r1__gpt-oss",
+      "item_id": "calibration-recurrence-04",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "74",
+        "B": "75"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=3, x_1=10. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 3*x_(n-2) modulo 97. What is x_55?\n\nA. 74\nB. 75"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-04__r2__gpt-oss",
+      "item_id": "calibration-recurrence-04",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "74",
+        "B": "75"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=3, x_1=10. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 3*x_(n-2) modulo 97. What is x_55?\n\nA. 74\nB. 75"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-04__r2__Qwen3",
+      "item_id": "calibration-recurrence-04",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "74",
+        "B": "75"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=3, x_1=10. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 3*x_(n-2) modulo 97. What is x_55?\n\nA. 74\nB. 75"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-05__r1__gpt-oss",
+      "item_id": "calibration-recurrence-05",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "4",
+        "B": "2"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=8, x_1=7. For n >= 2, x_n is the least nonnegative residue of 5*x_(n-1) + 5*x_(n-2) modulo 107. What is x_56?\n\nA. 4\nB. 2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-05__r1__Qwen3",
+      "item_id": "calibration-recurrence-05",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "4",
+        "B": "2"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=8, x_1=7. For n >= 2, x_n is the least nonnegative residue of 5*x_(n-1) + 5*x_(n-2) modulo 107. What is x_56?\n\nA. 4\nB. 2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-05__r2__Qwen3",
+      "item_id": "calibration-recurrence-05",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "4",
+        "B": "2"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=8, x_1=7. For n >= 2, x_n is the least nonnegative residue of 5*x_(n-1) + 5*x_(n-2) modulo 107. What is x_56?\n\nA. 4\nB. 2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-05__r2__gpt-oss",
+      "item_id": "calibration-recurrence-05",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "4",
+        "B": "2"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=8, x_1=7. For n >= 2, x_n is the least nonnegative residue of 5*x_(n-1) + 5*x_(n-2) modulo 107. What is x_56?\n\nA. 4\nB. 2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-06__r1__Qwen3",
+      "item_id": "calibration-recurrence-06",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "0",
+        "B": "2"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=5, x_1=16. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 3*x_(n-2) modulo 97. What is x_47?\n\nA. 0\nB. 2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-06__r1__gpt-oss",
+      "item_id": "calibration-recurrence-06",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "0",
+        "B": "2"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=5, x_1=16. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 3*x_(n-2) modulo 97. What is x_47?\n\nA. 0\nB. 2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-06__r2__gpt-oss",
+      "item_id": "calibration-recurrence-06",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "0",
+        "B": "2"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=5, x_1=16. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 3*x_(n-2) modulo 97. What is x_47?\n\nA. 0\nB. 2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-recurrence-06__r2__Qwen3",
+      "item_id": "calibration-recurrence-06",
+      "family": "recurrence",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "0",
+        "B": "2"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence has x_0=5, x_1=16. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 3*x_(n-2) modulo 97. What is x_47?\n\nA. 0\nB. 2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-01__r1__gpt-oss",
+      "item_id": "calibration-subset_count-01",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "138",
+        "B": "137"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [6, 8, 11, 13, 14, 19, 21, 23, 25, 26, 29, 30, 32, 37] in label order. How many unordered subsets of exactly 5 objects have total weight at most 104 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 138\nB. 137"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-01__r1__Qwen3",
+      "item_id": "calibration-subset_count-01",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "138",
+        "B": "137"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [6, 8, 11, 13, 14, 19, 21, 23, 25, 26, 29, 30, 32, 37] in label order. How many unordered subsets of exactly 5 objects have total weight at most 104 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 138\nB. 137"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-01__r2__Qwen3",
+      "item_id": "calibration-subset_count-01",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "138",
+        "B": "137"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [6, 8, 11, 13, 14, 19, 21, 23, 25, 26, 29, 30, 32, 37] in label order. How many unordered subsets of exactly 5 objects have total weight at most 104 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 138\nB. 137"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-01__r2__gpt-oss",
+      "item_id": "calibration-subset_count-01",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "138",
+        "B": "137"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [6, 8, 11, 13, 14, 19, 21, 23, 25, 26, 29, 30, 32, 37] in label order. How many unordered subsets of exactly 5 objects have total weight at most 104 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 138\nB. 137"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-02__r1__Qwen3",
+      "item_id": "calibration-subset_count-02",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "37",
+        "B": "36"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [4, 10, 11, 12, 24, 25, 28, 30, 31, 33, 34, 35, 37, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 104 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 37\nB. 36"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-02__r1__gpt-oss",
+      "item_id": "calibration-subset_count-02",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "37",
+        "B": "36"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [4, 10, 11, 12, 24, 25, 28, 30, 31, 33, 34, 35, 37, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 104 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 37\nB. 36"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-02__r2__gpt-oss",
+      "item_id": "calibration-subset_count-02",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "37",
+        "B": "36"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [4, 10, 11, 12, 24, 25, 28, 30, 31, 33, 34, 35, 37, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 104 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 37\nB. 36"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-02__r2__Qwen3",
+      "item_id": "calibration-subset_count-02",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "37",
+        "B": "36"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [4, 10, 11, 12, 24, 25, 28, 30, 31, 33, 34, 35, 37, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 104 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 37\nB. 36"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-03__r1__gpt-oss",
+      "item_id": "calibration-subset_count-03",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "89",
+        "B": "88"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [8, 9, 17, 18, 20, 24, 26, 27, 28, 29, 31, 32, 35, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 107 and congruent to 2 modulo 5? Count subsets, not ordered selections; each object is available once.\n\nA. 89\nB. 88"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-03__r1__Qwen3",
+      "item_id": "calibration-subset_count-03",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "89",
+        "B": "88"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [8, 9, 17, 18, 20, 24, 26, 27, 28, 29, 31, 32, 35, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 107 and congruent to 2 modulo 5? Count subsets, not ordered selections; each object is available once.\n\nA. 89\nB. 88"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-03__r2__Qwen3",
+      "item_id": "calibration-subset_count-03",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "89",
+        "B": "88"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [8, 9, 17, 18, 20, 24, 26, 27, 28, 29, 31, 32, 35, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 107 and congruent to 2 modulo 5? Count subsets, not ordered selections; each object is available once.\n\nA. 89\nB. 88"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-03__r2__gpt-oss",
+      "item_id": "calibration-subset_count-03",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "89",
+        "B": "88"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [8, 9, 17, 18, 20, 24, 26, 27, 28, 29, 31, 32, 35, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 107 and congruent to 2 modulo 5? Count subsets, not ordered selections; each object is available once.\n\nA. 89\nB. 88"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-04__r1__Qwen3",
+      "item_id": "calibration-subset_count-04",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "126",
+        "B": "125"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [6, 7, 8, 9, 12, 24, 26, 27, 29, 30, 31, 32, 38, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 109 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 126\nB. 125"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-04__r1__gpt-oss",
+      "item_id": "calibration-subset_count-04",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "126",
+        "B": "125"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [6, 7, 8, 9, 12, 24, 26, 27, 29, 30, 31, 32, 38, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 109 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 126\nB. 125"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-04__r2__gpt-oss",
+      "item_id": "calibration-subset_count-04",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "126",
+        "B": "125"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [6, 7, 8, 9, 12, 24, 26, 27, 29, 30, 31, 32, 38, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 109 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 126\nB. 125"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-04__r2__Qwen3",
+      "item_id": "calibration-subset_count-04",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "126",
+        "B": "125"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [6, 7, 8, 9, 12, 24, 26, 27, 29, 30, 31, 32, 38, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 109 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 126\nB. 125"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-05__r1__gpt-oss",
+      "item_id": "calibration-subset_count-05",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "228",
+        "B": "226"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [3, 4, 9, 11, 12, 13, 14, 23, 27, 28, 31, 32, 34, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 115 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 228\nB. 226"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-05__r1__Qwen3",
+      "item_id": "calibration-subset_count-05",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "228",
+        "B": "226"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [3, 4, 9, 11, 12, 13, 14, 23, 27, 28, 31, 32, 34, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 115 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 228\nB. 226"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-05__r2__Qwen3",
+      "item_id": "calibration-subset_count-05",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "228",
+        "B": "226"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [3, 4, 9, 11, 12, 13, 14, 23, 27, 28, 31, 32, 34, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 115 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 228\nB. 226"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-05__r2__gpt-oss",
+      "item_id": "calibration-subset_count-05",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "228",
+        "B": "226"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [3, 4, 9, 11, 12, 13, 14, 23, 27, 28, 31, 32, 34, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 115 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.\n\nA. 228\nB. 226"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-06__r1__Qwen3",
+      "item_id": "calibration-subset_count-06",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "274",
+        "B": "275"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [4, 9, 11, 12, 14, 15, 16, 19, 23, 26, 28, 29, 35, 38] in label order. How many unordered subsets of exactly 5 objects have total weight at most 111 and congruent to 2 modulo 5? Count subsets, not ordered selections; each object is available once.\n\nA. 274\nB. 275"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-06__r1__gpt-oss",
+      "item_id": "calibration-subset_count-06",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "274",
+        "B": "275"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [4, 9, 11, 12, 14, 15, 16, 19, 23, 26, 28, 29, 35, 38] in label order. How many unordered subsets of exactly 5 objects have total weight at most 111 and congruent to 2 modulo 5? Count subsets, not ordered selections; each object is available once.\n\nA. 274\nB. 275"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-06__r2__gpt-oss",
+      "item_id": "calibration-subset_count-06",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "274",
+        "B": "275"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [4, 9, 11, 12, 14, 15, 16, 19, 23, 26, 28, 29, 35, 38] in label order. How many unordered subsets of exactly 5 objects have total weight at most 111 and congruent to 2 modulo 5? Count subsets, not ordered selections; each object is available once.\n\nA. 274\nB. 275"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-subset_count-06__r2__Qwen3",
+      "item_id": "calibration-subset_count-06",
+      "family": "subset_count",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "274",
+        "B": "275"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFourteen distinct labeled objects have weights [4, 9, 11, 12, 14, 15, 16, 19, 23, 26, 28, 29, 35, 38] in label order. How many unordered subsets of exactly 5 objects have total weight at most 111 and congruent to 2 modulo 5? Count subsets, not ordered selections; each object is available once.\n\nA. 274\nB. 275"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-01__r1__gpt-oss",
+      "item_id": "calibration-shortest_path-01",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "19",
+        "B": "20"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 19], [0, 4, 28], [0, 6, 8], [0, 7, 15], [1, 2, 13], [1, 5, 14], [1, 6, 21], [1, 7, 17], [1, 8, 14], [2, 3, 10], [2, 5, 30], [2, 7, 5], [3, 4, 9], [3, 7, 18], [3, 8, 10], [4, 5, 29], [4, 6, 24], [4, 7, 18], [4, 8, 24], [5, 6, 5], [6, 7, 7], [6, 8, 11], [7, 8, 14]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 19\nB. 20"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-01__r1__Qwen3",
+      "item_id": "calibration-shortest_path-01",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "19",
+        "B": "20"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 19], [0, 4, 28], [0, 6, 8], [0, 7, 15], [1, 2, 13], [1, 5, 14], [1, 6, 21], [1, 7, 17], [1, 8, 14], [2, 3, 10], [2, 5, 30], [2, 7, 5], [3, 4, 9], [3, 7, 18], [3, 8, 10], [4, 5, 29], [4, 6, 24], [4, 7, 18], [4, 8, 24], [5, 6, 5], [6, 7, 7], [6, 8, 11], [7, 8, 14]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 19\nB. 20"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-01__r2__Qwen3",
+      "item_id": "calibration-shortest_path-01",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "19",
+        "B": "20"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 19], [0, 4, 28], [0, 6, 8], [0, 7, 15], [1, 2, 13], [1, 5, 14], [1, 6, 21], [1, 7, 17], [1, 8, 14], [2, 3, 10], [2, 5, 30], [2, 7, 5], [3, 4, 9], [3, 7, 18], [3, 8, 10], [4, 5, 29], [4, 6, 24], [4, 7, 18], [4, 8, 24], [5, 6, 5], [6, 7, 7], [6, 8, 11], [7, 8, 14]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 19\nB. 20"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-01__r2__gpt-oss",
+      "item_id": "calibration-shortest_path-01",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "19",
+        "B": "20"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 19], [0, 4, 28], [0, 6, 8], [0, 7, 15], [1, 2, 13], [1, 5, 14], [1, 6, 21], [1, 7, 17], [1, 8, 14], [2, 3, 10], [2, 5, 30], [2, 7, 5], [3, 4, 9], [3, 7, 18], [3, 8, 10], [4, 5, 29], [4, 6, 24], [4, 7, 18], [4, 8, 24], [5, 6, 5], [6, 7, 7], [6, 8, 11], [7, 8, 14]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 19\nB. 20"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-02__r1__Qwen3",
+      "item_id": "calibration-shortest_path-02",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "20",
+        "B": "21"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 2], [0, 2, 17], [1, 2, 4], [1, 3, 18], [1, 4, 26], [1, 7, 16], [1, 8, 20], [2, 3, 19], [2, 4, 17], [2, 7, 28], [3, 4, 15], [3, 5, 21], [3, 7, 8], [3, 8, 11], [4, 5, 20], [4, 7, 9], [5, 6, 14], [5, 8, 17], [6, 7, 13], [6, 8, 19], [7, 8, 3]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 20\nB. 21"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-02__r1__gpt-oss",
+      "item_id": "calibration-shortest_path-02",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "20",
+        "B": "21"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 2], [0, 2, 17], [1, 2, 4], [1, 3, 18], [1, 4, 26], [1, 7, 16], [1, 8, 20], [2, 3, 19], [2, 4, 17], [2, 7, 28], [3, 4, 15], [3, 5, 21], [3, 7, 8], [3, 8, 11], [4, 5, 20], [4, 7, 9], [5, 6, 14], [5, 8, 17], [6, 7, 13], [6, 8, 19], [7, 8, 3]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 20\nB. 21"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-02__r2__gpt-oss",
+      "item_id": "calibration-shortest_path-02",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "20",
+        "B": "21"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 2], [0, 2, 17], [1, 2, 4], [1, 3, 18], [1, 4, 26], [1, 7, 16], [1, 8, 20], [2, 3, 19], [2, 4, 17], [2, 7, 28], [3, 4, 15], [3, 5, 21], [3, 7, 8], [3, 8, 11], [4, 5, 20], [4, 7, 9], [5, 6, 14], [5, 8, 17], [6, 7, 13], [6, 8, 19], [7, 8, 3]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 20\nB. 21"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-02__r2__Qwen3",
+      "item_id": "calibration-shortest_path-02",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "20",
+        "B": "21"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 2], [0, 2, 17], [1, 2, 4], [1, 3, 18], [1, 4, 26], [1, 7, 16], [1, 8, 20], [2, 3, 19], [2, 4, 17], [2, 7, 28], [3, 4, 15], [3, 5, 21], [3, 7, 8], [3, 8, 11], [4, 5, 20], [4, 7, 9], [5, 6, 14], [5, 8, 17], [6, 7, 13], [6, 8, 19], [7, 8, 3]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 20\nB. 21"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-03__r1__gpt-oss",
+      "item_id": "calibration-shortest_path-03",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "30",
+        "B": "31"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 25], [0, 3, 6], [0, 4, 24], [0, 7, 23], [1, 2, 2], [1, 3, 13], [1, 5, 14], [1, 6, 7], [1, 8, 5], [2, 3, 13], [3, 4, 6], [3, 6, 20], [4, 5, 18], [4, 7, 16], [4, 8, 21], [5, 6, 5], [5, 8, 5], [6, 7, 14], [7, 8, 13]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 30\nB. 31"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-03__r1__Qwen3",
+      "item_id": "calibration-shortest_path-03",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "30",
+        "B": "31"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 25], [0, 3, 6], [0, 4, 24], [0, 7, 23], [1, 2, 2], [1, 3, 13], [1, 5, 14], [1, 6, 7], [1, 8, 5], [2, 3, 13], [3, 4, 6], [3, 6, 20], [4, 5, 18], [4, 7, 16], [4, 8, 21], [5, 6, 5], [5, 8, 5], [6, 7, 14], [7, 8, 13]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 30\nB. 31"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-03__r2__Qwen3",
+      "item_id": "calibration-shortest_path-03",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "30",
+        "B": "31"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 25], [0, 3, 6], [0, 4, 24], [0, 7, 23], [1, 2, 2], [1, 3, 13], [1, 5, 14], [1, 6, 7], [1, 8, 5], [2, 3, 13], [3, 4, 6], [3, 6, 20], [4, 5, 18], [4, 7, 16], [4, 8, 21], [5, 6, 5], [5, 8, 5], [6, 7, 14], [7, 8, 13]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 30\nB. 31"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-03__r2__gpt-oss",
+      "item_id": "calibration-shortest_path-03",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "30",
+        "B": "31"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 25], [0, 3, 6], [0, 4, 24], [0, 7, 23], [1, 2, 2], [1, 3, 13], [1, 5, 14], [1, 6, 7], [1, 8, 5], [2, 3, 13], [3, 4, 6], [3, 6, 20], [4, 5, 18], [4, 7, 16], [4, 8, 21], [5, 6, 5], [5, 8, 5], [6, 7, 14], [7, 8, 13]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 30\nB. 31"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-04__r1__Qwen3",
+      "item_id": "calibration-shortest_path-04",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "40",
+        "B": "41"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 15], [1, 2, 17], [1, 3, 21], [1, 4, 8], [1, 5, 7], [1, 6, 3], [2, 3, 14], [2, 4, 11], [2, 5, 8], [2, 6, 13], [2, 8, 23], [3, 4, 7], [3, 7, 16], [4, 5, 23], [4, 6, 13], [5, 6, 12], [6, 7, 4], [7, 8, 19]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 40\nB. 41"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-04__r1__gpt-oss",
+      "item_id": "calibration-shortest_path-04",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "40",
+        "B": "41"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 15], [1, 2, 17], [1, 3, 21], [1, 4, 8], [1, 5, 7], [1, 6, 3], [2, 3, 14], [2, 4, 11], [2, 5, 8], [2, 6, 13], [2, 8, 23], [3, 4, 7], [3, 7, 16], [4, 5, 23], [4, 6, 13], [5, 6, 12], [6, 7, 4], [7, 8, 19]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 40\nB. 41"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-04__r2__gpt-oss",
+      "item_id": "calibration-shortest_path-04",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "40",
+        "B": "41"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 15], [1, 2, 17], [1, 3, 21], [1, 4, 8], [1, 5, 7], [1, 6, 3], [2, 3, 14], [2, 4, 11], [2, 5, 8], [2, 6, 13], [2, 8, 23], [3, 4, 7], [3, 7, 16], [4, 5, 23], [4, 6, 13], [5, 6, 12], [6, 7, 4], [7, 8, 19]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 40\nB. 41"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-04__r2__Qwen3",
+      "item_id": "calibration-shortest_path-04",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "40",
+        "B": "41"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 15], [1, 2, 17], [1, 3, 21], [1, 4, 8], [1, 5, 7], [1, 6, 3], [2, 3, 14], [2, 4, 11], [2, 5, 8], [2, 6, 13], [2, 8, 23], [3, 4, 7], [3, 7, 16], [4, 5, 23], [4, 6, 13], [5, 6, 12], [6, 7, 4], [7, 8, 19]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 40\nB. 41"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-05__r1__gpt-oss",
+      "item_id": "calibration-shortest_path-05",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "16",
+        "B": "17"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 13], [0, 2, 6], [1, 2, 3], [1, 3, 14], [2, 3, 9], [2, 5, 25], [2, 8, 11], [3, 4, 23], [3, 5, 13], [3, 6, 12], [3, 8, 5], [4, 5, 9], [4, 7, 2], [5, 6, 16], [5, 7, 10], [5, 8, 25], [6, 7, 19], [6, 8, 12], [7, 8, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 16\nB. 17"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-05__r1__Qwen3",
+      "item_id": "calibration-shortest_path-05",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "16",
+        "B": "17"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 13], [0, 2, 6], [1, 2, 3], [1, 3, 14], [2, 3, 9], [2, 5, 25], [2, 8, 11], [3, 4, 23], [3, 5, 13], [3, 6, 12], [3, 8, 5], [4, 5, 9], [4, 7, 2], [5, 6, 16], [5, 7, 10], [5, 8, 25], [6, 7, 19], [6, 8, 12], [7, 8, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 16\nB. 17"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-05__r2__Qwen3",
+      "item_id": "calibration-shortest_path-05",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "16",
+        "B": "17"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 13], [0, 2, 6], [1, 2, 3], [1, 3, 14], [2, 3, 9], [2, 5, 25], [2, 8, 11], [3, 4, 23], [3, 5, 13], [3, 6, 12], [3, 8, 5], [4, 5, 9], [4, 7, 2], [5, 6, 16], [5, 7, 10], [5, 8, 25], [6, 7, 19], [6, 8, 12], [7, 8, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 16\nB. 17"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-05__r2__gpt-oss",
+      "item_id": "calibration-shortest_path-05",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "16",
+        "B": "17"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 13], [0, 2, 6], [1, 2, 3], [1, 3, 14], [2, 3, 9], [2, 5, 25], [2, 8, 11], [3, 4, 23], [3, 5, 13], [3, 6, 12], [3, 8, 5], [4, 5, 9], [4, 7, 2], [5, 6, 16], [5, 7, 10], [5, 8, 25], [6, 7, 19], [6, 8, 12], [7, 8, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 16\nB. 17"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-06__r1__Qwen3",
+      "item_id": "calibration-shortest_path-06",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "29",
+        "B": "28"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 26], [0, 5, 18], [0, 6, 30], [0, 8, 29], [1, 2, 9], [1, 4, 11], [1, 7, 21], [1, 8, 27], [2, 3, 17], [2, 5, 24], [2, 6, 24], [2, 7, 3], [3, 4, 14], [3, 5, 25], [3, 7, 11], [3, 8, 30], [4, 5, 10], [4, 8, 16], [5, 6, 18], [5, 7, 16], [5, 8, 18], [6, 7, 4], [7, 8, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 29\nB. 28"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-06__r1__gpt-oss",
+      "item_id": "calibration-shortest_path-06",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "29",
+        "B": "28"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 26], [0, 5, 18], [0, 6, 30], [0, 8, 29], [1, 2, 9], [1, 4, 11], [1, 7, 21], [1, 8, 27], [2, 3, 17], [2, 5, 24], [2, 6, 24], [2, 7, 3], [3, 4, 14], [3, 5, 25], [3, 7, 11], [3, 8, 30], [4, 5, 10], [4, 8, 16], [5, 6, 18], [5, 7, 16], [5, 8, 18], [6, 7, 4], [7, 8, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 29\nB. 28"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-06__r2__gpt-oss",
+      "item_id": "calibration-shortest_path-06",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "29",
+        "B": "28"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 26], [0, 5, 18], [0, 6, 30], [0, 8, 29], [1, 2, 9], [1, 4, 11], [1, 7, 21], [1, 8, 27], [2, 3, 17], [2, 5, 24], [2, 6, 24], [2, 7, 3], [3, 4, 14], [3, 5, 25], [3, 7, 11], [3, 8, 30], [4, 5, 10], [4, 8, 16], [5, 6, 18], [5, 7, 16], [5, 8, 18], [6, 7, 4], [7, 8, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 29\nB. 28"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-shortest_path-06__r2__Qwen3",
+      "item_id": "calibration-shortest_path-06",
+      "family": "shortest_path",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "29",
+        "B": "28"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 26], [0, 5, 18], [0, 6, 30], [0, 8, 29], [1, 2, 9], [1, 4, 11], [1, 7, 21], [1, 8, 27], [2, 3, 17], [2, 5, 24], [2, 6, 24], [2, 7, 3], [3, 4, 14], [3, 5, 25], [3, 7, 11], [3, 8, 30], [4, 5, 10], [4, 8, 16], [5, 6, 18], [5, 7, 16], [5, 8, 18], [6, 7, 4], [7, 8, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 8?\n\nA. 29\nB. 28"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-01__r1__gpt-oss",
+      "item_id": "calibration-urn_posterior-01",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "4720/37019",
+        "B": "4719/37019"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 2/7, otherwise urn V. U has 12 red and 9 blue balls; V has 5 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 2 red and 4 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 4720/37019\nB. 4719/37019"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-01__r1__Qwen3",
+      "item_id": "calibration-urn_posterior-01",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "4720/37019",
+        "B": "4719/37019"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 2/7, otherwise urn V. U has 12 red and 9 blue balls; V has 5 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 2 red and 4 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 4720/37019\nB. 4719/37019"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-01__r2__Qwen3",
+      "item_id": "calibration-urn_posterior-01",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "4720/37019",
+        "B": "4719/37019"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 2/7, otherwise urn V. U has 12 red and 9 blue balls; V has 5 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 2 red and 4 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 4720/37019\nB. 4719/37019"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-01__r2__gpt-oss",
+      "item_id": "calibration-urn_posterior-01",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "4720/37019",
+        "B": "4719/37019"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 2/7, otherwise urn V. U has 12 red and 9 blue balls; V has 5 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 2 red and 4 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 4720/37019\nB. 4719/37019"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-02__r1__Qwen3",
+      "item_id": "calibration-urn_posterior-02",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "20348/36079",
+        "B": "20349/36079"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 3/7, otherwise urn V. U has 8 red and 8 blue balls; V has 8 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 20348/36079\nB. 20349/36079"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-02__r1__gpt-oss",
+      "item_id": "calibration-urn_posterior-02",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "20348/36079",
+        "B": "20349/36079"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 3/7, otherwise urn V. U has 8 red and 8 blue balls; V has 8 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 20348/36079\nB. 20349/36079"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-02__r2__gpt-oss",
+      "item_id": "calibration-urn_posterior-02",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "20348/36079",
+        "B": "20349/36079"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 3/7, otherwise urn V. U has 8 red and 8 blue balls; V has 8 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 20348/36079\nB. 20349/36079"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-02__r2__Qwen3",
+      "item_id": "calibration-urn_posterior-02",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "20348/36079",
+        "B": "20349/36079"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 3/7, otherwise urn V. U has 8 red and 8 blue balls; V has 8 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 20348/36079\nB. 20349/36079"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-03__r1__gpt-oss",
+      "item_id": "calibration-urn_posterior-03",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "9690/11263",
+        "B": "9689/11263"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 4/7, otherwise urn V. U has 10 red and 6 blue balls; V has 7 red and 12 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 9690/11263\nB. 9689/11263"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-03__r1__Qwen3",
+      "item_id": "calibration-urn_posterior-03",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "9690/11263",
+        "B": "9689/11263"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 4/7, otherwise urn V. U has 10 red and 6 blue balls; V has 7 red and 12 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 9690/11263\nB. 9689/11263"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-03__r2__Qwen3",
+      "item_id": "calibration-urn_posterior-03",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "9690/11263",
+        "B": "9689/11263"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 4/7, otherwise urn V. U has 10 red and 6 blue balls; V has 7 red and 12 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 9690/11263\nB. 9689/11263"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-03__r2__gpt-oss",
+      "item_id": "calibration-urn_posterior-03",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "9690/11263",
+        "B": "9689/11263"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 4/7, otherwise urn V. U has 10 red and 6 blue balls; V has 7 red and 12 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 9690/11263\nB. 9689/11263"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-04__r1__Qwen3",
+      "item_id": "calibration-urn_posterior-04",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "605/622",
+        "B": "607/622"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 4/7, otherwise urn V. U has 12 red and 5 blue balls; V has 4 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 605/622\nB. 607/622"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-04__r1__gpt-oss",
+      "item_id": "calibration-urn_posterior-04",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "605/622",
+        "B": "607/622"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 4/7, otherwise urn V. U has 12 red and 5 blue balls; V has 4 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 605/622\nB. 607/622"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-04__r2__gpt-oss",
+      "item_id": "calibration-urn_posterior-04",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "605/622",
+        "B": "607/622"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 4/7, otherwise urn V. U has 12 red and 5 blue balls; V has 4 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 605/622\nB. 607/622"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-04__r2__Qwen3",
+      "item_id": "calibration-urn_posterior-04",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "605/622",
+        "B": "607/622"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 4/7, otherwise urn V. U has 12 red and 5 blue balls; V has 4 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 605/622\nB. 607/622"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-05__r1__gpt-oss",
+      "item_id": "calibration-urn_posterior-05",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "337/347",
+        "B": "336/347"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 5/7, otherwise urn V. U has 10 red and 5 blue balls; V has 5 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 337/347\nB. 336/347"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-05__r1__Qwen3",
+      "item_id": "calibration-urn_posterior-05",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "337/347",
+        "B": "336/347"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 5/7, otherwise urn V. U has 10 red and 5 blue balls; V has 5 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 337/347\nB. 336/347"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-05__r2__Qwen3",
+      "item_id": "calibration-urn_posterior-05",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "337/347",
+        "B": "336/347"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 5/7, otherwise urn V. U has 10 red and 5 blue balls; V has 5 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 337/347\nB. 336/347"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-05__r2__gpt-oss",
+      "item_id": "calibration-urn_posterior-05",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "337/347",
+        "B": "336/347"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 5/7, otherwise urn V. U has 10 red and 5 blue balls; V has 5 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 337/347\nB. 336/347"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-06__r1__Qwen3",
+      "item_id": "calibration-urn_posterior-06",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "1311/1727",
+        "B": "1310/1727"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 3/7, otherwise urn V. U has 7 red and 6 blue balls; V has 8 red and 15 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 1311/1727\nB. 1310/1727"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-06__r1__gpt-oss",
+      "item_id": "calibration-urn_posterior-06",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "1311/1727",
+        "B": "1310/1727"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 3/7, otherwise urn V. U has 7 red and 6 blue balls; V has 8 red and 15 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 1311/1727\nB. 1310/1727"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-06__r2__gpt-oss",
+      "item_id": "calibration-urn_posterior-06",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "1311/1727",
+        "B": "1310/1727"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 3/7, otherwise urn V. U has 7 red and 6 blue balls; V has 8 red and 15 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 1311/1727\nB. 1310/1727"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "calibration-urn_posterior-06__r2__Qwen3",
+      "item_id": "calibration-urn_posterior-06",
+      "family": "urn_posterior",
+      "repeat": 2,
+      "model": "Qwen3",
+      "expected_provider": "DeepInfra",
+      "options": {
+        "A": "1311/1727",
+        "B": "1310/1727"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with prior probability 3/7, otherwise urn V. U has 7 red and 6 blue balls; V has 8 red and 15 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?\n\nA. 1311/1727\nB. 1310/1727"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        }
+      }
+    }
+  ],
+  "execution_authorization": "User: do that (independent review, reliable alternative and no-advice calibration)",
+  "endpoint_snapshot": {
+    "gpt-oss": {
+      "name": "DekaLLM | openai/gpt-oss-120b",
+      "model_id": "openai/gpt-oss-120b",
+      "model_name": "OpenAI: gpt-oss-120b",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0.00000003",
+        "completion": "0.00000018",
+        "input_cache_read": "0.00000003",
+        "discount": 0
+      },
+      "provider_name": "DekaLLM",
+      "tag": "dekallm/bf16",
+      "service_tier": null,
+      "quantization": "bf16",
+      "max_completion_tokens": 117964,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "presence_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "top_p",
+        "response_format",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "logprobs",
+        "top_logprobs",
+        "reasoning_effort"
+      ],
+      "supports_tool_choice": {
+        "none": false,
+        "auto": true,
+        "required": false,
+        "function": false
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 100,
+      "supports_implicit_caching": true,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    },
+    "Qwen3": {
+      "name": "DeepInfra | qwen/qwen3-32b-04-28",
+      "model_id": "qwen/qwen3-32b",
+      "model_name": "Qwen: Qwen3 32B",
+      "context_length": 40960,
+      "pricing": {
+        "prompt": "0.00000008",
+        "completion": "0.00000028",
+        "discount": 0
+      },
+      "provider_name": "DeepInfra",
+      "tag": "deepinfra/fp8",
+      "service_tier": null,
+      "quantization": "fp8",
+      "max_completion_tokens": 16384,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "stop",
+        "frequency_penalty",
+        "presence_penalty",
+        "repetition_penalty",
+        "top_k",
+        "seed",
+        "min_p",
+        "tools",
+        "tool_choice",
+        "structured_outputs",
+        "logit_bias",
+        "response_format"
+      ],
+      "supports_tool_choice": {
+        "none": true,
+        "auto": true,
+        "required": false,
+        "function": false
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 98.68055555555556,
+      "supports_implicit_caching": false,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    }
+  },
+  "maximum_cost_usd": "0.12139456",
+  "cost_cap_usd": "1.00",
+  "max_attempts_per_trial": 1,
+  "automatic_retries": 0,
+  "min_interval_seconds": 20,
+  "independent_review_complete": true,
+  "delivery_canary_passed": true,
+  "original_study_remains_paused": true,
+  "input_hashes": {
+    "scripts/60_calibrate_reviewed_packet.py": "e55913bc1001c85b4572af738fad73e2a5861829ab3bd22f29dd2969526f894d",
+    "scripts/61_analyze_baseline_calibration.py": "be9ce07462f97adbaef29be2ce7a853c6976c59ba29ce5397f5ef283ca1cd081",
+    "scripts/58_alternate_provider_canary.py": "08e5ebb79db0dc17ac78bad2b3b805973649d76d01cf5aae6762e23e4d7134a0",
+    "scripts/56_reliance_canary.py": "efa96df014f012e7103f622366f3082e352c029b032c774b328e6a35f2dd686a",
+    "scripts/54_reliance_calibration.py": "6ff677727db294daa91e4dc89b791419a477dfa2be5daf87a072dbd79b8c23e4",
+    "scripts/50_open_dataset_feasibility.py": "4a9c10639e27400851e71d181bed006229a04d00b643665a4a56bcb1311b482a",
+    "docs/BASELINE_CALIBRATION_PROTOCOL.md": "fa4ba5c4c0df4a3fafd89b14cfb21201c429f678a52fe538a4b38f3d71662d51",
+    "results/research_directions/reliance_calibration_v2/reviewed_calibration/position_revision/packet.json": "49c17f6b0e2780c5a38d4e11fc455dc50238621cdd64347bf92db4e7131c3997",
+    "results/research_directions/reliance_calibration_v2/reviewed_calibration/position_revision/artifact_hashes.json": "896227db7d2f3244cb96801bbf97e0bf5964a095d63a6019c5ef217c18e15af0",
+    "results/research_directions/reliance_calibration_v2/independent_review/POSTREPAIR_SHA256_LOCK.json": "733e7da9d3ddf70f66c04e2a358ebc0516aa092b0d6a8e124f7851d20ee44080",
+    "results/research_directions/reliance_calibration_v2/independent_review/postrepair_judgments.json": "5ebb8ee9d1bb126343ec7f01574533560260268ab887b316fc7fca72192341ad",
+    "results/research_directions/reliance_calibration_v2/alternate_provider_canary/manifest.json": "7252224a644c39fcbdfe38f363bda8b7efe16feffd34916034dde9e8a9e1e411"
+  }
+}

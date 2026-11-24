@@ -1,0 +1,4 @@
+target,component,model,elpd,se,per_trial,n,n_questions,se_unit,verdict
+within-question repeats,joint,two_process - baseline,-4.332535966906617,3.1987649620933882,-0.021662679834533086,200,50,question,inconclusive
+within-question repeats,length,two_process - baseline,-4.599679458409774,3.1144833964318273,-0.02299839729204887,200,50,question,inconclusive
+within-question repeats,correctness_given_length,two_process - baseline,0.2671434915031551,0.6128949574118375,0.0013357174575157754,200,50,question,inconclusive

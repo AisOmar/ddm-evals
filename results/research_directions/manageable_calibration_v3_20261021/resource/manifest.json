@@ -1,0 +1,477 @@
+{
+  "created_at": "2026-10-22T00:01:30.834170+00:00",
+  "phase": "resource",
+  "n_planned": 8,
+  "preflight_started_at": "2026-10-22T00:01:19.330443+00:00",
+  "trials": [
+    {
+      "sample_id": "resource-recurrence-01__r1__gpt-oss",
+      "item_id": "resource-recurrence-01",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "9",
+        "B": "15"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence starts x_0=5, x_1=4. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 3*x_(n-2) modulo 23. What is x_10?\n\nA. 9\nB. 15"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "resource-recurrence-01__r1__Qwen3",
+      "item_id": "resource-recurrence-01",
+      "family": "recurrence",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "9",
+        "B": "15"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nAn integer sequence starts x_0=5, x_1=4. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 3*x_(n-2) modulo 23. What is x_10?\n\nA. 9\nB. 15"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "resource-subset_count-01__r1__Qwen3",
+      "item_id": "resource-subset_count-01",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "2",
+        "B": "1"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nSix distinct labeled objects have weights [3, 4, 10, 12, 14, 15] in label order. How many unordered subsets of exactly three objects have total weight at most 23 and congruent to 1 modulo 3? Each object is available once; count subsets, not ordered selections.\n\nA. 2\nB. 1"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "resource-subset_count-01__r1__gpt-oss",
+      "item_id": "resource-subset_count-01",
+      "family": "subset_count",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "2",
+        "B": "1"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nSix distinct labeled objects have weights [3, 4, 10, 12, 14, 15] in label order. How many unordered subsets of exactly three objects have total weight at most 23 and congruent to 1 modulo 3? Each object is available once; count subsets, not ordered selections.\n\nA. 2\nB. 1"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "resource-shortest_path-01__r1__gpt-oss",
+      "item_id": "resource-shortest_path-01",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "11",
+        "B": "13"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 6], [0, 3, 4], [0, 5, 11], [1, 2, 3], [1, 4, 9], [1, 5, 8], [2, 3, 7], [3, 4, 8], [4, 5, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 5?\n\nA. 11\nB. 13"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "resource-shortest_path-01__r1__Qwen3",
+      "item_id": "resource-shortest_path-01",
+      "family": "shortest_path",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "11",
+        "B": "13"
+      },
+      "correct_letter": "A",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 6], [0, 3, 4], [0, 5, 11], [1, 2, 3], [1, 4, 9], [1, 5, 8], [2, 3, 7], [3, 4, 8], [4, 5, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 5?\n\nA. 11\nB. 13"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "resource-urn_posterior-01__r1__Qwen3",
+      "item_id": "resource-urn_posterior-01",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "Qwen3",
+      "expected_provider": "Tenstorrent",
+      "options": {
+        "A": "72%",
+        "B": "74%"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with probability 2/3, otherwise urn V. U contains 3 red and 6 blue balls; V contains 7 red and 6 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?\n\nA. 72%\nB. 74%"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "tenstorrent/fp8"
+          ],
+          "only": [
+            "tenstorrent/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.14,
+            "completion": 0.4
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "resource-urn_posterior-01__r1__gpt-oss",
+      "item_id": "resource-urn_posterior-01",
+      "family": "urn_posterior",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "expected_provider": "DekaLLM",
+      "options": {
+        "A": "72%",
+        "B": "74%"
+      },
+      "correct_letter": "B",
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nChoose urn U with probability 2/3, otherwise urn V. U contains 3 red and 6 blue balls; V contains 7 red and 6 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?\n\nA. 72%\nB. 74%"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 2048,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        }
+      }
+    }
+  ],
+  "execution_authorization": "User: okay lets do it (shorter tasks, independent review, resource checks and small calibration)",
+  "endpoint_snapshot": {
+    "gpt-oss": {
+      "name": "DekaLLM | openai/gpt-oss-120b",
+      "model_id": "openai/gpt-oss-120b",
+      "model_name": "OpenAI: gpt-oss-120b",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0.00000003",
+        "completion": "0.00000018",
+        "input_cache_read": "0.00000003",
+        "discount": 0
+      },
+      "provider_name": "DekaLLM",
+      "tag": "dekallm/bf16",
+      "service_tier": null,
+      "quantization": "bf16",
+      "max_completion_tokens": 117964,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "presence_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "top_p",
+        "response_format",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "logprobs",
+        "top_logprobs",
+        "reasoning_effort"
+      ],
+      "supports_tool_choice": {
+        "none": false,
+        "auto": true,
+        "required": false,
+        "function": false
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 100,
+      "supports_implicit_caching": true,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    },
+    "Qwen3": {
+      "name": "Tenstorrent | qwen/qwen3-32b-04-28",
+      "model_id": "qwen/qwen3-32b",
+      "model_name": "Qwen: Qwen3 32B",
+      "context_length": 20000,
+      "pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.0000004",
+        "input_cache_read": "0.00000009",
+        "discount": 0
+      },
+      "provider_name": "Tenstorrent",
+      "tag": "tenstorrent/fp8",
+      "service_tier": null,
+      "quantization": "fp8",
+      "max_completion_tokens": 16400,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "temperature",
+        "repetition_penalty",
+        "top_p",
+        "stop",
+        "top_k",
+        "seed",
+        "min_p",
+        "max_tokens",
+        "top_a",
+        "frequency_penalty",
+        "logit_bias",
+        "presence_penalty",
+        "logprobs",
+        "top_logprobs",
+        "tools",
+        "tool_choice"
+      ],
+      "supports_tool_choice": {
+        "none": true,
+        "auto": true,
+        "required": true,
+        "function": true
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 99.37629937629939,
+      "supports_implicit_caching": true,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    }
+  },
+  "maximum_cost_usd": "0.00864300",
+  "cost_cap_usd": "0.10",
+  "max_attempts_per_trial": 1,
+  "automatic_retries": 0,
+  "min_interval_seconds": 5,
+  "timeout_seconds": 180,
+  "independent_review_complete": true,
+  "original_study_remains_paused": true,
+  "input_hashes": {
+    "scripts/63_manageable_collect.py": "a8683c10ac4f39b821c3e35ebd8645f13122ad12ef5fff9b5dc049870030b738",
+    "scripts/64_manageable_analysis.py": "ea0dadd5c200c25f4030701c92d81b129a86d9227abd92edd45d4126f25fffd9",
+    "scripts/60_calibrate_reviewed_packet.py": "e55913bc1001c85b4572af738fad73e2a5861829ab3bd22f29dd2969526f894d",
+    "scripts/61_analyze_baseline_calibration.py": "be9ce07462f97adbaef29be2ce7a853c6976c59ba29ce5397f5ef283ca1cd081",
+    "scripts/58_alternate_provider_canary.py": "08e5ebb79db0dc17ac78bad2b3b805973649d76d01cf5aae6762e23e4d7134a0",
+    "scripts/56_reliance_canary.py": "efa96df014f012e7103f622366f3082e352c029b032c774b328e6a35f2dd686a",
+    "scripts/54_reliance_calibration.py": "6ff677727db294daa91e4dc89b791419a477dfa2be5daf87a072dbd79b8c23e4",
+    "scripts/50_open_dataset_feasibility.py": "4a9c10639e27400851e71d181bed006229a04d00b643665a4a56bcb1311b482a",
+    "docs/MANAGEABLE_CALIBRATION_V3_PROTOCOL.md": "75a3f9364bc29ba5c910fa090c6e89ff4f7c10266863a274a8fbc5b9dfe1699f",
+    "results/research_directions/manageable_calibration_v3_20261021/packet.json": "4664c403b7d66004f2f3973dd5869aa000ec36fb3f37d5b45474d39b97c2d4a1",
+    "results/research_directions/manageable_calibration_v3_20261021/packet_hashes.json": "6d2e346c1df4d15bef0dea12199f0e16a3d721b15215ded6247f3c921b0ef498",
+    "results/research_directions/manageable_calibration_v3_20261021/independent_review/INITIAL_SHA256_LOCK.json": "be99828d566992683513c8ced10055371c7fba4e56b02c3db33e3cd8a1916b01",
+    "results/research_directions/manageable_calibration_v3_20261021/independent_review/initial_judgments.json": "f85a5abc79bd0a89cbb11a0450543ad37bbdac209a746aae6a7c1eb7f8e766c7",
+    "scripts/65_manageable_tenstorrent.py": "2b62cfe6d63c18b0119370f7409dab81cabcf67a5e3bd86c5c158cbcdc8da94c",
+    "docs/MANAGEABLE_DEPLOYMENT_AMENDMENT.md": "6fcd28cdd30acb7c5e4fe3f531feae474f13a5922e697a8b599d07e3773ec48b",
+    "results/research_directions/manageable_calibration_v3_20261021/gpt_endpoint_selection.json": "05cf4b8f38fcf65c57e37024cf00668ae7beba26f47d2ef4d0085b7b3d452af3",
+    "results/research_directions/manageable_calibration_v3_20261021/qwen_endpoint_selection.json": "f1b39a04c55513c36657f4afed787a20902c61e7943597b9e4011467cd2ef5d1"
+  }
+}

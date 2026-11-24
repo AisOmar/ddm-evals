@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the repository."
+title: "ddm-evals: does AI reasoning behave like evidence accumulation?"
+type: software
+version: 0.1.0
+date-released: 2026-11-24
+license: MIT
+repository-code: "https://github.com/AisOmar/ddm-evals"
+authors:
+  - family-names: Omar
+    given-names: Aisulu
+keywords:
+  - drift-diffusion model
+  - evidence accumulation
+  - language model reasoning
+  - answer-key deference
+  - AI safety evaluation
+abstract: >-
+  Drift-diffusion (HSSM) fits to a reasoning model's answers and reasoning-token counts, and a series of
+  pre-registered experiments on whether a planted answer key acts as a prior or as evidence in DeepSeek-R1-0528,
+  Qwen3-32B and gpt-oss-120b, including an activation probe across the reasoning trace of Qwen3-32B.
+  Built during the BlueDot Impact Technical AI Safety Project (TAISP) programme, 2026.

@@ -1,0 +1,15 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1792167776-d0pm9AlCZpp2pyx9ASVA","object":"chat.completion","created":1792167776,"model":"openai/gpt-oss-120b","provider":"DeepInfra","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"A","refusal":null,"reasoning":"We need to answer: In North America, Combustion Turbines can have a maximum deadband of A) 0.015 Hz B) 0.017 Hz. Need to know deadband for frequency regulation? In North America, typical deadband for turbine speed governors? I recall that for combustion turbines the deadband is 0.02 Hz? Hmm. Might be 0.015 Hz? Let's think: In US, frequency deadband for generators is often 0.05 Hz? But for combustion turbines used for regulation, they have smaller deadband. I think max deadband 0.015 Hz. So answer A.","reasoning_details":[{"type":"reasoning.text","text":"We need to answer: In North America, Combustion Turbines can have a maximum deadband of A) 0.015 Hz B) 0.017 Hz. Need to know deadband for frequency regulation? In North America, typical deadband for turbine speed governors? I recall that for combustion turbines the deadband is 0.02 Hz? Hmm. Might be 0.015 Hz? Let's think: In US, frequency deadband for generators is often 0.05 Hz? But for combustion turbines used for regulation, they have smaller deadband. I think max deadband 0.015 Hz. So answer A.","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":105,"completion_tokens":143,"total_tokens":248,"cost":0.000028195,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.000028195,"upstream_inference_prompt_cost":0.000003885,"upstream_inference_completions_cost":0.00002431},"completion_tokens_details":{"reasoning_tokens":126,"image_tokens":0,"audio_tokens":0}}}

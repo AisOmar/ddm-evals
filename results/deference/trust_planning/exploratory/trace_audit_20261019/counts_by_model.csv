@@ -1,0 +1,4 @@
+model,aligned_with_key,defer_to_key,not_discussed,reject_key
+Qwen3,1,2,5,4
+R1,4,2,0,6
+gpt-oss,2,0,8,2

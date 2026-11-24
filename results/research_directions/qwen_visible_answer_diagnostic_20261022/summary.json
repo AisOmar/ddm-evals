@@ -1,0 +1,56 @@
+{
+  "complete": true,
+  "n_planned": 18,
+  "n_attempted": 18,
+  "modes": [
+    {
+      "mode": "default",
+      "planned": 6,
+      "attempted": 6,
+      "visible_recognized": 5,
+      "strict_format": 2,
+      "empty_visible_content": 0,
+      "reasoning_present": 6,
+      "outcomes": {
+        "answered": 5,
+        "ambiguous_format": 1
+      },
+      "candidate_for_new_qualification": false
+    },
+    {
+      "mode": "reasoning_disabled",
+      "planned": 6,
+      "attempted": 6,
+      "visible_recognized": 3,
+      "strict_format": 0,
+      "empty_visible_content": 0,
+      "reasoning_present": 0,
+      "outcomes": {
+        "ambiguous_format": 3,
+        "answered": 3
+      },
+      "candidate_for_new_qualification": false
+    },
+    {
+      "mode": "soft_no_think",
+      "planned": 6,
+      "attempted": 6,
+      "visible_recognized": 3,
+      "strict_format": 0,
+      "empty_visible_content": 0,
+      "reasoning_present": 6,
+      "outcomes": {
+        "answered": 3,
+        "ambiguous_format": 3
+      },
+      "candidate_for_new_qualification": false
+    }
+  ],
+  "recorded_cost_usd": "0.00104148",
+  "missing_cost_metadata": 0,
+  "interpretation": "operational development diagnostic; no original-run rescue, accuracy inference, or verified root cause",
+  "verified_at": "2026-10-22T23:14:48.096139+00:00",
+  "manifest_sha256": "da9a1a575120d91f43fa2379312983b322abc7ab5152fa5d8bfb3c4665b8451a",
+  "unsent_ids": [],
+  "full_reserve_usd": "0.02764464"
+}

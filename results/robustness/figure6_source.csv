@@ -1,0 +1,9 @@
+phase,bin,correct,n,accuracy
+"Step 1: completed by the 8,192 cap",≤1k,96,97,0.9896907216494846
+"Step 1: completed by the 8,192 cap",1–2k,39,42,0.9285714285714286
+"Step 1: completed by the 8,192 cap",2–4k,30,33,0.9090909090909091
+"Step 1: completed by the 8,192 cap",4–8.2k,54,57,0.9473684210526315
+Cap experiment: selected slow cells,≤12k,10,10,1.0
+Cap experiment: selected slow cells,12–16k,12,15,0.8
+Cap experiment: selected slow cells,16–20k,10,15,0.6666666666666666
+Cap experiment: selected slow cells,20–24.6k,6,10,0.6

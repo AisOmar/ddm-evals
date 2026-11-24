@@ -1,0 +1,12 @@
+{
+  "planned": 2100,
+  "completed": 2100,
+  "missing": 0,
+  "missing_ids": [],
+  "failed_or_inflight_trials": 0,
+  "unattempted_trials": 0,
+  "failed_ids": [],
+  "updated_utc": "2026-10-16T18:51:26.441665+00:00",
+  "complete": true,
+  "manifest_sha256": "1db7aaae1fb278da04aaf6d7d51224df98351d960168847d5fa5a2b433666c06"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "POSTREPAIR BLIND VALIDATION LOCKED; NO KEYS OPENED",
+  "input_sha256": {
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/semantic_revision/calibration_masked_review.json": "259e401931c2bd9230bd7c73965f5cbe29b82757076344b0de7622cde786f161",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/semantic_revision/reserved_masked_review.json": "9aa235c4493f336713ffc49d1cd3e080d6f8385cd025727c225339512bafdd1f",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/reviewed_calibration/position_revision/calibration_masked_review.json": "37a1ec5f0cb9499f7332506dcff5d1276dd63d492320c940f91702fa35b92fb9",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/reviewed_calibration/position_revision/reserved_masked_review.json": "2e3c74f2eb84f59a897ff4b69a23cc657ea90c86798fd815bafbf3ab84301313",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/independent_review/initial_judgments.json": "94a5b5cf6dd2e0c55f317ef0eff6c4ad7aac61a1e87827c9378ae239e9b3c8eb"
+  },
+  "output_sha256": {
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/independent_review/postrepair_judgments.json": "5ebb8ee9d1bb126343ec7f01574533560260268ab887b316fc7fca72192341ad",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/independent_review/postrepair_summary.json": "fab7b4fb20820093938e2950a647d7126ec6d2135cb2d1a477a7dd47f03d51da",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/independent_review/postrepair_validator.py": "0a6dfc60c3960d3a6503f64ed20a64edbbe0345ffe575774e98ef71473715369"
+  },
+  "previous_lock_sha256": {
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/independent_review/INITIAL_SHA256_LOCK.json": "381bd2099b469cebff5c74f927eff3edbf6eb91777f51afcf57f96cb82b2c325",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/independent_review/ADDENDUM_SHA256_LOCK.json": "73f23734198fd02e42556349516e5e42381c65b16c4d6be40e364c8e8cd30b3e",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/independent_review/FINAL_AUDIT_SHA256_LOCK.json": "4d6b2f5395ab1bff3baa19db7783d4c2246cdfba186ee0f40fd2af59f6821a26",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/independent_review/CORRECTION_SHA256_LOCK.json": "efa0cf12d89370e7a4e779f5e68175306d082a980d9cf49d3c1e28ca5e6799b3"
+  }
+}

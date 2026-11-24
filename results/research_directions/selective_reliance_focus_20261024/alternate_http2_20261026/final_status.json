@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-26T17:49:02.285754+00:00",
+  "stage": "stopped_no_qualified_live_pair",
+  "no_active_requests": true,
+  "client_stream_parser_implemented": true,
+  "http2_qualification_original_pair": {
+    "planned": 12,
+    "recognized": 12,
+    "passed": true
+  },
+  "original_calibration": {
+    "planned": 48,
+    "distinct_slots_attempted": 18,
+    "recognized": 13,
+    "outcomes": {
+      "rate_limited": 2,
+      "uncertain_delivery": 2,
+      "answered": 13,
+      "ambiguous_format": 1
+    },
+    "unsent": 30,
+    "accuracy_analysis_performed": false
+  },
+  "alternate_pair": {
+    "gpt_oss": "AkashML BF16",
+    "qwen": "Tenstorrent FP8"
+  },
+  "alternate_qualification": {
+    "planned_slots": 12,
+    "attempted_slots": 3,
+    "http_attempts": 4,
+    "recognized": 2,
+    "empty_visible_answers": 1,
+    "passed": false,
+    "new_calibration_requests": 0
+  },
+  "advice_requests": 0,
+  "reported_and_reconciled_cost_usd": "0.3171648010000000000037779502",
+  "unreconciled_attempts": 5,
+  "missing_cost_reservation_usd": "0.004625032",
+  "cumulative_cost_upper_bound_usd": "0.3217898330000000000037779502",
+  "development_ceiling_usd": "1.00",
+  "tests_passed": 170,
+  "original_study_remains_paused": true,
+  "original_study_completed": 623,
+  "conclusion": "The client changes work on completed streams, but the tested live pairs do not reliably supply usable final answers. No complete calibration or intervention result."
+}

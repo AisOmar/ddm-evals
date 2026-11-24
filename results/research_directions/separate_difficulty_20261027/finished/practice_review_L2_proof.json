@@ -1,0 +1,96 @@
+{
+  "items": [
+    {
+      "item_id": "L2_F1_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Subset DP confirms minimum 9 bins needed; 8 infeasible."
+    },
+    {
+      "item_id": "L2_F1_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Subset DP confirms minimum 8 bins needed; 7 infeasible."
+    },
+    {
+      "item_id": "L2_F2_V0",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Huffman tree yields 1558 bits; exhaustive partition confirms optimum."
+    },
+    {
+      "item_id": "L2_F2_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Huffman tree yields 2535 bits; exhaustive partition confirms optimum."
+    },
+    {
+      "item_id": "L2_F3_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Permutation expansion and Gaussian elimination both yield 7360."
+    },
+    {
+      "item_id": "L2_F3_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Permutation expansion and Gaussian elimination both yield 6013."
+    },
+    {
+      "item_id": "L2_F4_V0",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Maximum matching DP yields 11; Hall deficiency confirms upper bound."
+    },
+    {
+      "item_id": "L2_F4_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Maximum matching DP yields 10; Hall deficiency confirms upper bound."
+    },
+    {
+      "item_id": "L2_F5_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Prefix automaton and overlap analysis yield 1086715/5184 flips."
+    },
+    {
+      "item_id": "L2_F5_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Prefix automaton and overlap analysis yield 919051/5184 flips."
+    },
+    {
+      "item_id": "L2_F6_V0",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Weighted interval DP yields 115; witness schedule confirms optimum."
+    },
+    {
+      "item_id": "L2_F6_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Weighted interval DP yields 150; witness schedule confirms optimum."
+    }
+  ],
+  "flagged_ids": [],
+  "review_gate_passed": true,
+  "input_tokens": 4482,
+  "output_tokens": 639,
+  "cost_usd": "0.007677",
+  "id": "practice_review_L2_proof",
+  "request_sha256": "b033ca8449ef0888b0f3540fe692b5df695ad5ce6905f878341871fc79839cb9",
+  "response_sha256": "b416fd2860160f84ecb71be3b84d195bd8578200af62ea95e1e8da8dae872153"
+}

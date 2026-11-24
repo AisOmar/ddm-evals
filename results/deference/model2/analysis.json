@@ -1,0 +1,270 @@
+{
+ "n_runs": 800,
+ "n_answered": 799,
+ "outcomes": {
+  "answered": 799,
+  "censored": 1
+ },
+ "providers": {
+  "DeepInfra": 800
+ },
+ "A1": {
+  "verdict": "knowledge-dominant",
+  "format_obedience": true,
+  "diagnostics": {
+   "label": "integration",
+   "seconds": 44.89725208282471,
+   "divergences": 0,
+   "max_rhat": 1.002294681413866,
+   "min_ess": 1801.2123184456864,
+   "draws": 2000,
+   "chains": 4,
+   "tune": 2000,
+   "target_accept": 0.99,
+   "dense_mass": false,
+   "random_seed": 20261006,
+   "centered_effects": false
+  },
+  "theta_posterior_sd_mean": 2.1876872763343367,
+  "alpha": {
+   "mean": 3.2092951502657616,
+   "lo": 2.0344119849871096,
+   "hi": 4.636192592075482
+  },
+  "beta_cue": {
+   "mean": -0.05978595469193538,
+   "lo": -0.3391623596977071,
+   "hi": 0.21612306289024974
+  },
+  "beta_know": {
+   "mean": 1.2077003534391193,
+   "lo": 0.784291634267009,
+   "hi": 1.7618465332867776
+  },
+  "diff": {
+   "mean": -1.2674863081310546,
+   "lo": -1.891041274424362,
+   "hi": -0.7638756576460133
+  },
+  "mu": {
+   "mean": 5.1010896961960785,
+   "lo": 3.738182982991649,
+   "hi": 6.709671435713201
+  },
+  "tau": {
+   "mean": 3.9618184509105894,
+   "lo": 2.7491475784440023,
+   "hi": 5.498246248464125
+  }
+ },
+ "A2": {
+  "rates": {
+   "control": {
+    "n": 399,
+    "followed": 0.10526315789473684,
+    "se": 0.025902225759682422,
+    "correct": 0.8947368421052632,
+    "tokens_mean": 454.7318295739348,
+    "tokens_median": 300.0,
+    "ack": 0.05012531328320802
+   },
+   "p55": {
+    "n": 200,
+    "followed": 0.275,
+    "se": 0.039542065891908076,
+    "correct": 0.725,
+    "tokens_mean": 665.425,
+    "tokens_median": 490.5,
+    "ack": 0.455
+   },
+   "p95": {
+    "n": 200,
+    "followed": 0.255,
+    "se": 0.038192166736125355,
+    "correct": 0.745,
+    "tokens_mean": 638.135,
+    "tokens_median": 444.0,
+    "ack": 0.4
+   }
+  },
+  "diagnostics": {
+   "label": "dose_logit",
+   "seconds": 13.918560028076172,
+   "divergences": 0,
+   "max_rhat": 1.0020491034413648,
+   "min_ess": 3116.0225188824993,
+   "draws": 2000,
+   "chains": 4,
+   "tune": 2000,
+   "target_accept": 0.99,
+   "dense_mass": false,
+   "random_seed": 20261006,
+   "centered_effects": false
+  },
+  "intercept": {
+   "mean": -2.594579668756009,
+   "lo": -3.9888688765955047,
+   "hi": -1.4797508748014176
+  },
+  "slope": {
+   "mean": -0.1239828605796908,
+   "lo": -0.39490017429504726,
+   "hi": 0.14188489190105236
+  },
+  "tau_question": {
+   "mean": 4.369400128012627,
+   "lo": 3.0872145678215195,
+   "hi": 6.069861660614114
+  }
+ },
+ "A4": {
+  "by_dose": {
+   "p55": {
+    "n_followed": 55,
+    "n_resisted": 145,
+    "median_followed": 754.0,
+    "median_resisted": 398.0,
+    "log_ratio_followed": 0.3577639845325079,
+    "log_ratio_resisted": 0.3778502554738161,
+    "ack": 0.455,
+    "ack_followed": 0.6
+   },
+   "p95": {
+    "n_followed": 51,
+    "n_resisted": 149,
+    "median_followed": 622.0,
+    "median_resisted": 361.0,
+    "log_ratio_followed": 0.20248003001499854,
+    "log_ratio_resisted": 0.36417289224011246,
+    "ack": 0.4,
+    "ack_followed": 0.4117647058823529
+   }
+  },
+  "follow_rate_all_control_correct": 0.14634146341463414,
+  "n_all_control_correct": 82,
+  "follow_rate_some_control_wrong": 0.8055555555555556,
+  "n_some_control_wrong": 18,
+  "spearman_ctrl_wrong_vs_follow": 0.6576363743574063
+ },
+ "A3": {
+  "verdict": "evidence account",
+  "z_cue": -0.0103024612755342,
+  "z_cue_lo": -0.0763117397497592,
+  "z_cue_hi": 0.0572166566371336,
+  "v_cue": 0.0247568690873557,
+  "v_cue_lo": 0.0168514744516736,
+  "v_cue_hi": 0.0332459267786796,
+  "paired_loo": {
+   "Mz-Mv": [
+    -3.036212213892898,
+    9.609546530993729
+   ],
+   "Mz-Mzv": [
+    -19.17686539745445,
+    6.397784045885473
+   ],
+   "Mv-Mz": [
+    3.036212213892898,
+    9.609546530993729
+   ],
+   "Mv-Mzv": [
+    -16.140653183561554,
+    7.034392593663508
+   ],
+   "Mzv-Mz": [
+    19.17686539745445,
+    6.397784045885473
+   ],
+   "Mzv-Mv": [
+    16.140653183561554,
+    7.034392593663508
+   ]
+  },
+  "any_flagged": false
+ },
+ "A3_step": {
+  "Mv_step": {
+   "v_cue_present": 0.1284394338841509,
+   "v_cue_present_lo": 0.1086097121463653,
+   "v_cue_present_hi": 0.1477703768168773,
+   "a_cue_present": 0.1009391001425817,
+   "elpd": -1853.4029803636993,
+   "flagged": 0.0,
+   "z_cue_present": null,
+   "z_cue_present_lo": null,
+   "z_cue_present_hi": null
+  },
+  "Mz_step": {
+   "v_cue_present": null,
+   "v_cue_present_lo": null,
+   "v_cue_present_hi": null,
+   "a_cue_present": 0.0130231554379335,
+   "elpd": -1908.4046146953829,
+   "flagged": 0.0,
+   "z_cue_present": 0.4677452086138904,
+   "z_cue_present_lo": 0.3145142259836165,
+   "z_cue_present_hi": 0.6182850611539528
+  },
+  "Mzv_step": {
+   "v_cue_present": 0.1295534253586641,
+   "v_cue_present_lo": 0.1058693488509708,
+   "v_cue_present_hi": 0.151731188603855,
+   "a_cue_present": 0.1085556348355026,
+   "elpd": -1839.8861818169264,
+   "flagged": 0.0,
+   "z_cue_present": -0.0750687475303313,
+   "z_cue_present_lo": -0.2429858901072683,
+   "z_cue_present_hi": 0.1176206788193377
+  },
+  "paired_loo": {
+   "Mv_step-Mz_step": [
+    55.00163433168336,
+    12.652538461199516
+   ],
+   "Mv_step-Mzv_step": [
+    -13.516798546773465,
+    6.346487632085566
+   ],
+   "Mv_step-Mzv": [
+    51.60899177770469,
+    12.434049090535927
+   ],
+   "Mz_step-Mv_step": [
+    -55.00163433168336,
+    12.652538461199516
+   ],
+   "Mz_step-Mzv_step": [
+    -68.51843287845684,
+    11.146743961490348
+   ],
+   "Mz_step-Mzv": [
+    -3.3926425539786784,
+    9.50349569005561
+   ],
+   "Mzv_step-Mv_step": [
+    13.516798546773465,
+    6.346487632085566
+   ],
+   "Mzv_step-Mz_step": [
+    68.51843287845684,
+    11.146743961490348
+   ],
+   "Mzv_step-Mzv": [
+    65.12579032447815,
+    11.325121438380522
+   ],
+   "Mzv-Mv_step": [
+    -51.60899177770469,
+    12.434049090535927
+   ],
+   "Mzv-Mz_step": [
+    3.3926425539786784,
+    9.50349569005561
+   ],
+   "Mzv-Mzv_step": [
+    -65.12579032447815,
+    11.325121438380522
+   ]
+  }
+ }
+}

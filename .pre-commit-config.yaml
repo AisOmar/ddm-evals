@@ -1,0 +1,11 @@
+# pre-commit install && pre-commit run --all-files
+# Only ruff is used, and only on new code: scripts/ and the top-level tests/ are hash-recorded research artifacts
+# (see pyproject.toml [tool.ruff]), so no whitespace or end-of-file fixers run here.
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.6
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+        files: ^(ddm_evals/|conftest\.py|tests/package/)

@@ -1,0 +1,36 @@
+{
+  "account_balance_remaining": 3.9802475820000005,
+  "key_allowance_remaining": 83.980247582,
+  "recorded_cost_at_check": 2.4048172900000027,
+  "conservative_max_cost": 17.55961339999999,
+  "provider_by_model": {
+    "R1": "DeepInfra",
+    "Qwen3": "DeepInfra",
+    "gpt-oss": "DekaLLM"
+  },
+  "endpoint_prices": {
+    "deepseek/deepseek-r1-0528": {
+      "prompt": "0.0000005",
+      "completion": "0.00000215",
+      "input_cache_read": "0.00000035",
+      "discount": 0
+    },
+    "qwen/qwen3-32b": {
+      "prompt": "0.00000008",
+      "completion": "0.00000028",
+      "discount": 0
+    },
+    "openai/gpt-oss-120b": {
+      "prompt": "0.00000003",
+      "completion": "0.00000018",
+      "input_cache_read": "0.00000003",
+      "discount": 0
+    }
+  },
+  "planned_calls": 2100,
+  "passed": false,
+  "key_allowance_check_passed": true,
+  "full_account_balance_check_passed": false,
+  "operations_sha256": "48d59a94ed3c325e7ecb26f737c2d45e8a9927a60bc01d8607a49375af6879bc",
+  "rate_limit_amendment_sha256": "cdbb1d08c2deb2c4f3728091fda7d3bc457f063e50eb7e01ceef3a8c0849ca08"
+}

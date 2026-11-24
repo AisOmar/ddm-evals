@@ -1,0 +1,2271 @@
+{
+  "created_at": "2026-10-27T01:48:53.060330+00:00",
+  "trials": [
+    {
+      "id": "L2_F4_V0",
+      "item_id": "L2_F4_V0",
+      "level": 2,
+      "family": "bipartite_matching_deficiency",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "12 workers A, B, C, D, E, F, G, H, I, J, K, L can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[6, 12]; B:[2, 6, 7, 12]; C:[2, 3, 7, 10]; D:[3, 10]; E:[2, 3, 7, 10]; F:[2, 6, 7]; G:[2, 3, 6, 10, 12]; H:[1, 5, 8, 9, 11]; I:[4, 5, 8]; J:[1, 4, 5, 9]; K:[1, 4, 8, 9, 11]; L:[4, 5, 9, 11]. What is the maximum number of tasks that can be assigned?\n\nA: 12\nB: 11\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 411,
+      "input_token_bound": 667,
+      "reservation_usd": "0.003921"
+    },
+    {
+      "id": "L0_F6_V0",
+      "item_id": "L0_F6_V0",
+      "level": 0,
+      "family": "weighted_interval_scheduling",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "One machine can run any subset of these jobs, given as (start,end,profit): [(5, 11, 23), (1, 7, 4), (7, 9, 27), (13, 15, 25), (2, 7, 28), (1, 2, 22), (4, 7, 18)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\n\nA: 103\nB: 102\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 312,
+      "input_token_bound": 568,
+      "reservation_usd": "0.003624"
+    },
+    {
+      "id": "L1_F4_V0",
+      "item_id": "L1_F4_V0",
+      "level": 1,
+      "family": "bipartite_matching_deficiency",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "9 workers A, B, C, D, E, F, G, H, I can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[6, 8]; B:[8, 9]; C:[7, 9]; D:[6, 7, 9]; E:[6, 8]; F:[2, 3, 5]; G:[1, 3, 5]; H:[2, 3, 4, 5]; I:[2, 3, 4]. What is the maximum number of tasks that can be assigned?\n\nA: 8\nB: 9\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 339,
+      "input_token_bound": 595,
+      "reservation_usd": "0.003705"
+    },
+    {
+      "id": "L2_F1_V0",
+      "item_id": "L2_F1_V0",
+      "level": 2,
+      "family": "integer_bin_packing",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "16 indivisible objects have weights 5, 5, 4, 5, 3, 4, 2, 8, 9, 4, 2, 3, 9, 9, 9, 2. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\n\nA: 9\nB: 8\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 277,
+      "input_token_bound": 533,
+      "reservation_usd": "0.003519"
+    },
+    {
+      "id": "L2_F3_V1",
+      "item_id": "L2_F3_V1",
+      "level": 2,
+      "family": "dense_determinant",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "What is the determinant of this 5 by 5 matrix? Rows: (-6, -7, -7, -6, -1), (-2, -4, -5, -2, -1), (5, -5, 8, 4, 2), (4, -5, -1, -3, 2), (-6, 2, 7, 4, -6).\n\nA: 6064\nB: 6013\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 292,
+      "input_token_bound": 548,
+      "reservation_usd": "0.003564"
+    },
+    {
+      "id": "L0_F2_V0",
+      "item_id": "L0_F2_V0",
+      "level": 0,
+      "family": "optimal_binary_prefix_code",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "5 symbols occur respectively 4, 15, 4, 10, 13 times (total 46 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\n\nA: 102\nB: 100\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 267,
+      "input_token_bound": 523,
+      "reservation_usd": "0.003489"
+    },
+    {
+      "id": "L2_F5_V0",
+      "item_id": "L2_F5_V0",
+      "level": 2,
+      "family": "overlapping_pattern_waiting_time",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Independent flips have P(H)=3/7 and P(T)=4/7. Starting with no flips, wait for the first consecutive occurrence of HTHTHTH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 7?\n\nA: 1086715/5184\nB: 823543/5184\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 270,
+      "input_token_bound": 526,
+      "reservation_usd": "0.003498"
+    },
+    {
+      "id": "L2_F6_V1",
+      "item_id": "L2_F6_V1",
+      "level": 2,
+      "family": "weighted_interval_scheduling",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "One machine can run any subset of these jobs, given as (start,end,profit): [(12, 18, 2), (27, 31, 9), (20, 26, 25), (23, 25, 4), (0, 3, 29), (24, 27, 8), (14, 17, 12), (10, 12, 27), (22, 23, 24), (30, 31, 2), (6, 7, 26), (11, 14, 19), (26, 32, 26), (12, 15, 14), (9, 12, 26)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\n\nA: 150\nB: 153\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 384,
+      "input_token_bound": 640,
+      "reservation_usd": "0.00384"
+    },
+    {
+      "id": "L1_F1_V1",
+      "item_id": "L1_F1_V1",
+      "level": 1,
+      "family": "integer_bin_packing",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "12 indivisible objects have weights 8, 5, 7, 3, 7, 5, 5, 2, 2, 6, 2, 5. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\n\nA: 6\nB: 5\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 265,
+      "input_token_bound": 521,
+      "reservation_usd": "0.003483"
+    },
+    {
+      "id": "L0_F3_V0",
+      "item_id": "L0_F3_V0",
+      "level": 0,
+      "family": "dense_determinant",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "What is the determinant of this 3 by 3 matrix? Rows: (-7, -7, 8), (8, -3, 2), (-7, 6, -4).\n\nA: 90\nB: 107\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 242,
+      "input_token_bound": 498,
+      "reservation_usd": "0.003414"
+    },
+    {
+      "id": "L1_F2_V1",
+      "item_id": "L1_F2_V1",
+      "level": 1,
+      "family": "optimal_binary_prefix_code",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "9 symbols occur respectively 5, 48, 7, 45, 11, 26, 19, 5, 40 times (total 206 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\n\nA: 584\nB: 580\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 279,
+      "input_token_bound": 535,
+      "reservation_usd": "0.003525"
+    },
+    {
+      "id": "L0_F6_V1",
+      "item_id": "L0_F6_V1",
+      "level": 0,
+      "family": "weighted_interval_scheduling",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "One machine can run any subset of these jobs, given as (start,end,profit): [(0, 4, 23), (3, 6, 15), (3, 8, 13), (7, 12, 13), (3, 7, 9), (7, 13, 22), (12, 15, 19)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\n\nA: 55\nB: 56\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 312,
+      "input_token_bound": 568,
+      "reservation_usd": "0.003624"
+    },
+    {
+      "id": "L1_F3_V0",
+      "item_id": "L1_F3_V0",
+      "level": 1,
+      "family": "dense_determinant",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "What is the determinant of this 4 by 4 matrix? Rows: (-5, -7, -4, 3), (0, 8, 4, -4), (5, 3, 1, 5), (-7, 2, -3, 4).\n\nA: -530\nB: -564\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 263,
+      "input_token_bound": 519,
+      "reservation_usd": "0.003477"
+    },
+    {
+      "id": "L1_F3_V1",
+      "item_id": "L1_F3_V1",
+      "level": 1,
+      "family": "dense_determinant",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "What is the determinant of this 4 by 4 matrix? Rows: (-6, 3, 7, -2), (2, 0, 0, -3), (2, -1, 5, -2), (3, 6, -3, 2).\n\nA: -982\nB: -948\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 263,
+      "input_token_bound": 519,
+      "reservation_usd": "0.003477"
+    },
+    {
+      "id": "L0_F4_V1",
+      "item_id": "L0_F4_V1",
+      "level": 0,
+      "family": "bipartite_matching_deficiency",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "6 workers A, B, C, D, E, F can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[2, 6]; B:[2, 5, 6]; C:[2, 5, 6]; D:[2, 6]; E:[1, 3, 4]; F:[1, 3, 4]. What is the maximum number of tasks that can be assigned?\n\nA: 5\nB: 6\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 306,
+      "input_token_bound": 562,
+      "reservation_usd": "0.003606"
+    },
+    {
+      "id": "L1_F1_V0",
+      "item_id": "L1_F1_V0",
+      "level": 1,
+      "family": "integer_bin_packing",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "12 indivisible objects have weights 8, 8, 3, 9, 3, 8, 8, 5, 5, 2, 4, 8. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\n\nA: 7\nB: 8\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 265,
+      "input_token_bound": 521,
+      "reservation_usd": "0.003483"
+    },
+    {
+      "id": "L1_F5_V1",
+      "item_id": "L1_F5_V1",
+      "level": 1,
+      "family": "overlapping_pattern_waiting_time",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Independent flips have P(H)=2/5 and P(T)=3/5. Starting with no flips, wait for the first consecutive occurrence of THTHT. Candidate occurrences may overlap. What is the expected total number of flips, including the final 5?\n\nA: 4055/108\nB: 3125/108\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 267,
+      "input_token_bound": 523,
+      "reservation_usd": "0.003489"
+    },
+    {
+      "id": "L2_F2_V0",
+      "item_id": "L2_F2_V0",
+      "level": 2,
+      "family": "optimal_binary_prefix_code",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "13 symbols occur respectively 30, 12, 9, 67, 18, 49, 3, 45, 5, 39, 44, 96, 48 times (total 465 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\n\nA: 1564\nB: 1558\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 293,
+      "input_token_bound": 549,
+      "reservation_usd": "0.003567"
+    },
+    {
+      "id": "L2_F2_V1",
+      "item_id": "L2_F2_V1",
+      "level": 2,
+      "family": "optimal_binary_prefix_code",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "13 symbols occur respectively 49, 44, 107, 87, 88, 92, 24, 60, 33, 24, 57, 12, 42 times (total 719 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\n\nA: 2535\nB: 2541\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 293,
+      "input_token_bound": 549,
+      "reservation_usd": "0.003567"
+    },
+    {
+      "id": "L2_F6_V0",
+      "item_id": "L2_F6_V0",
+      "level": 2,
+      "family": "weighted_interval_scheduling",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "One machine can run any subset of these jobs, given as (start,end,profit): [(23, 25, 6), (23, 27, 21), (23, 29, 5), (15, 20, 29), (21, 23, 10), (17, 23, 25), (27, 30, 12), (12, 17, 8), (24, 27, 20), (10, 13, 6), (23, 29, 25), (8, 14, 28), (24, 28, 7), (6, 10, 21), (2, 5, 15)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\n\nA: 118\nB: 115\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 384,
+      "input_token_bound": 640,
+      "reservation_usd": "0.00384"
+    },
+    {
+      "id": "L0_F1_V1",
+      "item_id": "L0_F1_V1",
+      "level": 0,
+      "family": "integer_bin_packing",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "8 indivisible objects have weights 6, 8, 9, 4, 7, 3, 4, 2. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\n\nA: 4\nB: 5\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 253,
+      "input_token_bound": 509,
+      "reservation_usd": "0.003447"
+    },
+    {
+      "id": "L0_F3_V1",
+      "item_id": "L0_F3_V1",
+      "level": 0,
+      "family": "dense_determinant",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "What is the determinant of this 3 by 3 matrix? Rows: (2, -3, -5), (7, -2, -3), (-7, -3, 8).\n\nA: 247\nB: 230\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 242,
+      "input_token_bound": 498,
+      "reservation_usd": "0.003414"
+    },
+    {
+      "id": "L1_F4_V1",
+      "item_id": "L1_F4_V1",
+      "level": 1,
+      "family": "bipartite_matching_deficiency",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "9 workers A, B, C, D, E, F, G, H, I can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[1, 3, 4, 9]; B:[3, 4, 9]; C:[3, 4, 9]; D:[1, 3, 4]; E:[1, 3, 4]; F:[3, 9]; G:[5, 6, 7]; H:[2, 5, 6]; I:[2, 5, 6]. What is the maximum number of tasks that can be assigned?\n\nA: 9\nB: 7\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 348,
+      "input_token_bound": 604,
+      "reservation_usd": "0.003732"
+    },
+    {
+      "id": "L1_F5_V0",
+      "item_id": "L1_F5_V0",
+      "level": 1,
+      "family": "overlapping_pattern_waiting_time",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Independent flips have P(H)=2/5 and P(T)=3/5. Starting with no flips, wait for the first consecutive occurrence of HHTHH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 5?\n\nA: 3125/48\nB: 3545/48\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 268,
+      "input_token_bound": 524,
+      "reservation_usd": "0.003492"
+    },
+    {
+      "id": "L1_F6_V1",
+      "item_id": "L1_F6_V1",
+      "level": 1,
+      "family": "weighted_interval_scheduling",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "One machine can run any subset of these jobs, given as (start,end,profit): [(12, 16, 12), (5, 8, 9), (8, 13, 4), (15, 19, 29), (9, 10, 5), (19, 24, 20), (18, 24, 30), (0, 1, 12), (20, 21, 28), (4, 10, 28), (6, 9, 17)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\n\nA: 99\nB: 97\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 348,
+      "input_token_bound": 604,
+      "reservation_usd": "0.003732"
+    },
+    {
+      "id": "L0_F5_V0",
+      "item_id": "L0_F5_V0",
+      "level": 0,
+      "family": "overlapping_pattern_waiting_time",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Independent flips have P(H)=1/2 and P(T)=1/2. Starting with no flips, wait for the first consecutive occurrence of HHH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 3?\n\nA: 14\nB: 8\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 260,
+      "input_token_bound": 516,
+      "reservation_usd": "0.003468"
+    },
+    {
+      "id": "L2_F5_V1",
+      "item_id": "L2_F5_V1",
+      "level": 2,
+      "family": "overlapping_pattern_waiting_time",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Independent flips have P(H)=3/7 and P(T)=4/7. Starting with no flips, wait for the first consecutive occurrence of THHTHHT. Candidate occurrences may overlap. What is the expected total number of flips, including the final 7?\n\nA: 823543/5184\nB: 919051/5184\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 270,
+      "input_token_bound": 526,
+      "reservation_usd": "0.003498"
+    },
+    {
+      "id": "L0_F5_V1",
+      "item_id": "L0_F5_V1",
+      "level": 0,
+      "family": "overlapping_pattern_waiting_time",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Independent flips have P(H)=1/2 and P(T)=1/2. Starting with no flips, wait for the first consecutive occurrence of HTH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 3?\n\nA: 8\nB: 10\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 259,
+      "input_token_bound": 515,
+      "reservation_usd": "0.003465"
+    },
+    {
+      "id": "L1_F2_V0",
+      "item_id": "L1_F2_V0",
+      "level": 1,
+      "family": "optimal_binary_prefix_code",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "9 symbols occur respectively 56, 43, 55, 19, 35, 23, 49, 32, 6 times (total 318 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\n\nA: 971\nB: 975\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 279,
+      "input_token_bound": 535,
+      "reservation_usd": "0.003525"
+    },
+    {
+      "id": "L0_F4_V0",
+      "item_id": "L0_F4_V0",
+      "level": 0,
+      "family": "bipartite_matching_deficiency",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "6 workers A, B, C, D, E, F can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[3, 4]; B:[4, 6]; C:[3, 6]; D:[3, 4]; E:[1, 5]; F:[1, 2]. What is the maximum number of tasks that can be assigned?\n\nA: 6\nB: 5\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 294,
+      "input_token_bound": 550,
+      "reservation_usd": "0.00357"
+    },
+    {
+      "id": "L2_F1_V1",
+      "item_id": "L2_F1_V1",
+      "level": 2,
+      "family": "integer_bin_packing",
+      "correct_letter": "B",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "16 indivisible objects have weights 5, 5, 2, 3, 6, 9, 7, 3, 4, 3, 2, 6, 8, 4, 4, 2. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\n\nA: 7\nB: 8\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 277,
+      "input_token_bound": 533,
+      "reservation_usd": "0.003519"
+    },
+    {
+      "id": "L0_F2_V1",
+      "item_id": "L0_F2_V1",
+      "level": 0,
+      "family": "optimal_binary_prefix_code",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "5 symbols occur respectively 6, 15, 10, 8, 4 times (total 43 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\n\nA: 96\nB: 98\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 267,
+      "input_token_bound": 523,
+      "reservation_usd": "0.003489"
+    },
+    {
+      "id": "L2_F3_V0",
+      "item_id": "L2_F3_V0",
+      "level": 2,
+      "family": "dense_determinant",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "What is the determinant of this 5 by 5 matrix? Rows: (0, -2, -5, 2, 2), (-2, 0, -3, 5, -6), (-4, 4, 3, 0, -1), (-2, 8, -2, 3, -4), (0, -3, 2, 8, -5).\n\nA: 7360\nB: 7411\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 292,
+      "input_token_bound": 548,
+      "reservation_usd": "0.003564"
+    },
+    {
+      "id": "L2_F4_V1",
+      "item_id": "L2_F4_V1",
+      "level": 2,
+      "family": "bipartite_matching_deficiency",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "12 workers A, B, C, D, E, F, G, H, I, J, K, L can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[2, 3, 8, 11]; B:[2, 10, 11]; C:[2, 5, 10, 11]; D:[3, 5, 10, 11]; E:[3, 8]; F:[2, 3, 5, 8, 11]; G:[2, 5, 10, 11]; H:[8, 10, 11]; I:[9, 12]; J:[6, 7, 9, 12]; K:[4, 6, 7, 9, 12]; L:[1, 6, 7, 9, 12]. What is the maximum number of tasks that can be assigned?\n\nA: 10\nB: 12\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 411,
+      "input_token_bound": 667,
+      "reservation_usd": "0.003921"
+    },
+    {
+      "id": "L1_F6_V0",
+      "item_id": "L1_F6_V0",
+      "level": 1,
+      "family": "weighted_interval_scheduling",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "One machine can run any subset of these jobs, given as (start,end,profit): [(17, 20, 15), (8, 9, 16), (15, 16, 10), (8, 10, 9), (12, 13, 11), (0, 3, 20), (4, 7, 19), (6, 10, 20), (10, 12, 15), (9, 12, 13), (8, 14, 13)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\n\nA: 106\nB: 108\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 348,
+      "input_token_bound": 604,
+      "reservation_usd": "0.003732"
+    },
+    {
+      "id": "L0_F1_V0",
+      "item_id": "L0_F1_V0",
+      "level": 0,
+      "family": "integer_bin_packing",
+      "correct_letter": "A",
+      "model": "Sonnet",
+      "request": {
+        "model": "claude-sonnet-4-5-20250929",
+        "max_tokens": 128,
+        "temperature": 0.7,
+        "messages": [
+          {
+            "role": "user",
+            "content": "8 indivisible objects have weights 5, 4, 2, 6, 4, 7, 8, 6. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\n\nA: 5\nB: 4\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "answer": {
+                  "type": "string",
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                }
+              },
+              "required": [
+                "answer"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 253,
+      "input_token_bound": 509,
+      "reservation_usd": "0.003447"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "practice_review_L0_blind",
+      "level": 0,
+      "model": "Haiku",
+      "item_ids": [
+        "L0_F1_V0",
+        "L0_F1_V1",
+        "L0_F2_V0",
+        "L0_F2_V1",
+        "L0_F3_V0",
+        "L0_F3_V1",
+        "L0_F4_V0",
+        "L0_F4_V1",
+        "L0_F5_V0",
+        "L0_F5_V1",
+        "L0_F6_V0",
+        "L0_F6_V1"
+      ],
+      "request": {
+        "model": "claude-haiku-4-5-20251001",
+        "max_tokens": 1024,
+        "temperature": 0,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Keep every reason to at most 12 words; return one entry for every supplied item.\nIndependently solve each binary question. Check whether exactly one option is supported by the stated assumptions. Set unique=false and explain blockers for ambiguity or an invalid key. Use an empty blockers string if none. Give a brief mathematical reason for every answer. Do not use external tools.\n[{\"item_id\": \"L0_F1_V0\", \"family\": \"integer_bin_packing\", \"stem\": \"8 indivisible objects have weights 5, 4, 2, 6, 4, 7, 8, 6. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"5\", \"B\": \"4\"}}, {\"item_id\": \"L0_F1_V1\", \"family\": \"integer_bin_packing\", \"stem\": \"8 indivisible objects have weights 6, 8, 9, 4, 7, 3, 4, 2. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"4\", \"B\": \"5\"}}, {\"item_id\": \"L0_F2_V0\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"5 symbols occur respectively 4, 15, 4, 10, 13 times (total 46 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"102\", \"B\": \"100\"}}, {\"item_id\": \"L0_F2_V1\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"5 symbols occur respectively 6, 15, 10, 8, 4 times (total 43 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"96\", \"B\": \"98\"}}, {\"item_id\": \"L0_F3_V0\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 3 by 3 matrix? Rows: (-7, -7, 8), (8, -3, 2), (-7, 6, -4).\", \"options\": {\"A\": \"90\", \"B\": \"107\"}}, {\"item_id\": \"L0_F3_V1\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 3 by 3 matrix? Rows: (2, -3, -5), (7, -2, -3), (-7, -3, 8).\", \"options\": {\"A\": \"247\", \"B\": \"230\"}}, {\"item_id\": \"L0_F4_V0\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"6 workers A, B, C, D, E, F can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[3, 4]; B:[4, 6]; C:[3, 6]; D:[3, 4]; E:[1, 5]; F:[1, 2]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"6\", \"B\": \"5\"}}, {\"item_id\": \"L0_F4_V1\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"6 workers A, B, C, D, E, F can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[2, 6]; B:[2, 5, 6]; C:[2, 5, 6]; D:[2, 6]; E:[1, 3, 4]; F:[1, 3, 4]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"5\", \"B\": \"6\"}}, {\"item_id\": \"L0_F5_V0\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=1/2 and P(T)=1/2. Starting with no flips, wait for the first consecutive occurrence of HHH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 3?\", \"options\": {\"A\": \"14\", \"B\": \"8\"}}, {\"item_id\": \"L0_F5_V1\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=1/2 and P(T)=1/2. Starting with no flips, wait for the first consecutive occurrence of HTH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 3?\", \"options\": {\"A\": \"8\", \"B\": \"10\"}}, {\"item_id\": \"L0_F6_V0\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(5, 11, 23), (1, 7, 4), (7, 9, 27), (13, 15, 25), (2, 7, 28), (1, 2, 22), (4, 7, 18)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"103\", \"B\": \"102\"}}, {\"item_id\": \"L0_F6_V1\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(0, 4, 23), (3, 6, 15), (3, 8, 13), (7, 12, 13), (3, 7, 9), (7, 13, 22), (12, 15, 19)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"55\", \"B\": \"56\"}}]"
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "item_id": {
+                        "type": "string"
+                      },
+                      "answer": {
+                        "type": "string",
+                        "enum": [
+                          "A",
+                          "B"
+                        ]
+                      },
+                      "unique": {
+                        "type": "boolean"
+                      },
+                      "blockers": {
+                        "type": "string"
+                      },
+                      "reason": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "item_id",
+                      "answer",
+                      "unique",
+                      "blockers",
+                      "reason"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "items"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 1885,
+      "input_token_bound": 2141,
+      "reservation_usd": "0.007261"
+    },
+    {
+      "id": "practice_review_L0_proof",
+      "level": 0,
+      "model": "Haiku",
+      "item_ids": [
+        "L0_F1_V0",
+        "L0_F1_V1",
+        "L0_F2_V0",
+        "L0_F2_V1",
+        "L0_F3_V0",
+        "L0_F3_V1",
+        "L0_F4_V0",
+        "L0_F4_V1",
+        "L0_F5_V0",
+        "L0_F5_V1",
+        "L0_F6_V0",
+        "L0_F6_V1"
+      ],
+      "request": {
+        "model": "claude-haiku-4-5-20251001",
+        "max_tokens": 1024,
+        "temperature": 0,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Keep every reason to at most 12 words; return one entry for every supplied item.\nIndependently solve each binary question. Check whether exactly one option is supported by the stated assumptions. Set unique=false and explain blockers for ambiguity or an invalid key. Use an empty blockers string if none. Give a brief mathematical reason for every answer. Do not use external tools.\n[{\"item_id\": \"L0_F1_V0\", \"family\": \"integer_bin_packing\", \"stem\": \"8 indivisible objects have weights 5, 4, 2, 6, 4, 7, 8, 6. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"5\", \"B\": \"4\"}}, {\"item_id\": \"L0_F1_V1\", \"family\": \"integer_bin_packing\", \"stem\": \"8 indivisible objects have weights 6, 8, 9, 4, 7, 3, 4, 2. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"4\", \"B\": \"5\"}}, {\"item_id\": \"L0_F2_V0\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"5 symbols occur respectively 4, 15, 4, 10, 13 times (total 46 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"102\", \"B\": \"100\"}}, {\"item_id\": \"L0_F2_V1\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"5 symbols occur respectively 6, 15, 10, 8, 4 times (total 43 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"96\", \"B\": \"98\"}}, {\"item_id\": \"L0_F3_V0\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 3 by 3 matrix? Rows: (-7, -7, 8), (8, -3, 2), (-7, 6, -4).\", \"options\": {\"A\": \"90\", \"B\": \"107\"}}, {\"item_id\": \"L0_F3_V1\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 3 by 3 matrix? Rows: (2, -3, -5), (7, -2, -3), (-7, -3, 8).\", \"options\": {\"A\": \"247\", \"B\": \"230\"}}, {\"item_id\": \"L0_F4_V0\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"6 workers A, B, C, D, E, F can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[3, 4]; B:[4, 6]; C:[3, 6]; D:[3, 4]; E:[1, 5]; F:[1, 2]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"6\", \"B\": \"5\"}}, {\"item_id\": \"L0_F4_V1\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"6 workers A, B, C, D, E, F can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[2, 6]; B:[2, 5, 6]; C:[2, 5, 6]; D:[2, 6]; E:[1, 3, 4]; F:[1, 3, 4]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"5\", \"B\": \"6\"}}, {\"item_id\": \"L0_F5_V0\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=1/2 and P(T)=1/2. Starting with no flips, wait for the first consecutive occurrence of HHH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 3?\", \"options\": {\"A\": \"14\", \"B\": \"8\"}}, {\"item_id\": \"L0_F5_V1\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=1/2 and P(T)=1/2. Starting with no flips, wait for the first consecutive occurrence of HTH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 3?\", \"options\": {\"A\": \"8\", \"B\": \"10\"}}, {\"item_id\": \"L0_F6_V0\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(5, 11, 23), (1, 7, 4), (7, 9, 27), (13, 15, 25), (2, 7, 28), (1, 2, 22), (4, 7, 18)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"103\", \"B\": \"102\"}}, {\"item_id\": \"L0_F6_V1\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(0, 4, 23), (3, 6, 15), (3, 8, 13), (7, 12, 13), (3, 7, 9), (7, 13, 22), (12, 15, 19)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"55\", \"B\": \"56\"}}]\nNow audit these author certificates; check their premises and computations rather than merely agreeing. Report any contradiction.\n[{\"item_id\": \"L0_F1_V0\", \"correct_letter\": \"A\", \"author_certificate\": {\"weights\": [5, 4, 2, 6, 4, 7, 8, 6], \"capacity\": 10, \"exact_subset_dp\": 5, \"exact_fixed_bin_feasibility_at_optimum\": true, \"exact_feasibility_one_less\": false}}, {\"item_id\": \"L0_F1_V1\", \"correct_letter\": \"B\", \"author_certificate\": {\"weights\": [6, 8, 9, 4, 7, 3, 4, 2], \"capacity\": 10, \"exact_subset_dp\": 5, \"exact_fixed_bin_feasibility_at_optimum\": true, \"exact_feasibility_one_less\": false}}, {\"item_id\": \"L0_F2_V0\", \"correct_letter\": \"B\", \"author_certificate\": {\"weights\": [4, 15, 4, 10, 13], \"huffman_merge_sums\": [8, 18, 28, 46], \"exhaustive_binary_partition_optimum\": 100}}, {\"item_id\": \"L0_F2_V1\", \"correct_letter\": \"A\", \"author_certificate\": {\"weights\": [6, 15, 10, 8, 4], \"huffman_merge_sums\": [10, 18, 25, 43], \"exhaustive_binary_partition_optimum\": 96}}, {\"item_id\": \"L0_F3_V0\", \"correct_letter\": \"A\", \"author_certificate\": {\"matrix\": [[-7, -7, 8], [8, -3, 2], [-7, 6, -4]], \"exact_permutation_expansion\": 90, \"rational_elimination\": \"90\"}}, {\"item_id\": \"L0_F3_V1\", \"correct_letter\": \"B\", \"author_certificate\": {\"matrix\": [[2, -3, -5], [7, -2, -3], [-7, -3, 8]], \"exact_permutation_expansion\": 230, \"rational_elimination\": \"230\"}}, {\"item_id\": \"L0_F4_V0\", \"correct_letter\": \"B\", \"author_certificate\": {\"exact_matching_dp\": 5, \"bottleneck_workers\": [\"A\", \"B\", \"C\", \"D\"], \"their_task_union\": [3, 4, 6], \"upper_bound\": 5, \"witness\": {\"A\": 3, \"B\": 4, \"C\": 6, \"E\": 1, \"F\": 2}}}, {\"item_id\": \"L0_F4_V1\", \"correct_letter\": \"A\", \"author_certificate\": {\"exact_matching_dp\": 5, \"bottleneck_workers\": [\"A\", \"B\", \"C\", \"D\"], \"their_task_union\": [2, 5, 6], \"upper_bound\": 5, \"witness\": {\"A\": 6, \"B\": 2, \"C\": 5, \"E\": 1, \"F\": 4}}}, {\"item_id\": \"L0_F5_V0\", \"correct_letter\": \"A\", \"author_certificate\": {\"pattern\": \"HHH\", \"probability_H\": \"1/2\", \"prefix_automaton\": [[1, 0], [2, 0], [3, 0]], \"exact_linear_solution\": \"14\", \"prefix_suffix_overlap_lengths\": [1, 2, 3], \"overlap_expectation\": \"14\"}}, {\"item_id\": \"L0_F5_V1\", \"correct_letter\": \"B\", \"author_certificate\": {\"pattern\": \"HTH\", \"probability_H\": \"1/2\", \"prefix_automaton\": [[1, 0], [1, 2], [3, 0]], \"exact_linear_solution\": \"10\", \"prefix_suffix_overlap_lengths\": [1, 3], \"overlap_expectation\": \"10\"}}, {\"item_id\": \"L0_F6_V0\", \"correct_letter\": \"B\", \"author_certificate\": {\"jobs\": [[5, 11, 23], [1, 7, 4], [7, 9, 27], [13, 15, 25], [2, 7, 28], [1, 2, 22], [4, 7, 18]], \"exhaustive_subset_optimum\": 102, \"weighted_interval_dp\": [0, 22, 22, 50, 50, 77, 77, 102], \"witness\": [[1, 2, 22], [2, 7, 28], [7, 9, 27], [13, 15, 25]]}}, {\"item_id\": \"L0_F6_V1\", \"correct_letter\": \"A\", \"author_certificate\": {\"jobs\": [[0, 4, 23], [3, 6, 15], [3, 8, 13], [7, 12, 13], [3, 7, 9], [7, 13, 22], [12, 15, 19]], \"exhaustive_subset_optimum\": 55, \"weighted_interval_dp\": [0, 23, 23, 23, 23, 36, 45, 55], \"witness\": [[0, 4, 23], [7, 12, 13], [12, 15, 19]]}}]"
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "item_id": {
+                        "type": "string"
+                      },
+                      "answer": {
+                        "type": "string",
+                        "enum": [
+                          "A",
+                          "B"
+                        ]
+                      },
+                      "unique": {
+                        "type": "boolean"
+                      },
+                      "blockers": {
+                        "type": "string"
+                      },
+                      "reason": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "item_id",
+                      "answer",
+                      "unique",
+                      "blockers",
+                      "reason"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "items"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 3222,
+      "input_token_bound": 3478,
+      "reservation_usd": "0.008598"
+    },
+    {
+      "id": "practice_review_L1_blind",
+      "level": 1,
+      "model": "Haiku",
+      "item_ids": [
+        "L1_F1_V0",
+        "L1_F1_V1",
+        "L1_F2_V0",
+        "L1_F2_V1",
+        "L1_F3_V0",
+        "L1_F3_V1",
+        "L1_F4_V0",
+        "L1_F4_V1",
+        "L1_F5_V0",
+        "L1_F5_V1",
+        "L1_F6_V0",
+        "L1_F6_V1"
+      ],
+      "request": {
+        "model": "claude-haiku-4-5-20251001",
+        "max_tokens": 1024,
+        "temperature": 0,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Keep every reason to at most 12 words; return one entry for every supplied item.\nIndependently solve each binary question. Check whether exactly one option is supported by the stated assumptions. Set unique=false and explain blockers for ambiguity or an invalid key. Use an empty blockers string if none. Give a brief mathematical reason for every answer. Do not use external tools.\n[{\"item_id\": \"L1_F1_V0\", \"family\": \"integer_bin_packing\", \"stem\": \"12 indivisible objects have weights 8, 8, 3, 9, 3, 8, 8, 5, 5, 2, 4, 8. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"7\", \"B\": \"8\"}}, {\"item_id\": \"L1_F1_V1\", \"family\": \"integer_bin_packing\", \"stem\": \"12 indivisible objects have weights 8, 5, 7, 3, 7, 5, 5, 2, 2, 6, 2, 5. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"6\", \"B\": \"5\"}}, {\"item_id\": \"L1_F2_V0\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"9 symbols occur respectively 56, 43, 55, 19, 35, 23, 49, 32, 6 times (total 318 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"971\", \"B\": \"975\"}}, {\"item_id\": \"L1_F2_V1\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"9 symbols occur respectively 5, 48, 7, 45, 11, 26, 19, 5, 40 times (total 206 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"584\", \"B\": \"580\"}}, {\"item_id\": \"L1_F3_V0\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 4 by 4 matrix? Rows: (-5, -7, -4, 3), (0, 8, 4, -4), (5, 3, 1, 5), (-7, 2, -3, 4).\", \"options\": {\"A\": \"-530\", \"B\": \"-564\"}}, {\"item_id\": \"L1_F3_V1\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 4 by 4 matrix? Rows: (-6, 3, 7, -2), (2, 0, 0, -3), (2, -1, 5, -2), (3, 6, -3, 2).\", \"options\": {\"A\": \"-982\", \"B\": \"-948\"}}, {\"item_id\": \"L1_F4_V0\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"9 workers A, B, C, D, E, F, G, H, I can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[6, 8]; B:[8, 9]; C:[7, 9]; D:[6, 7, 9]; E:[6, 8]; F:[2, 3, 5]; G:[1, 3, 5]; H:[2, 3, 4, 5]; I:[2, 3, 4]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"8\", \"B\": \"9\"}}, {\"item_id\": \"L1_F4_V1\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"9 workers A, B, C, D, E, F, G, H, I can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[1, 3, 4, 9]; B:[3, 4, 9]; C:[3, 4, 9]; D:[1, 3, 4]; E:[1, 3, 4]; F:[3, 9]; G:[5, 6, 7]; H:[2, 5, 6]; I:[2, 5, 6]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"9\", \"B\": \"7\"}}, {\"item_id\": \"L1_F5_V0\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=2/5 and P(T)=3/5. Starting with no flips, wait for the first consecutive occurrence of HHTHH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 5?\", \"options\": {\"A\": \"3125/48\", \"B\": \"3545/48\"}}, {\"item_id\": \"L1_F5_V1\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=2/5 and P(T)=3/5. Starting with no flips, wait for the first consecutive occurrence of THTHT. Candidate occurrences may overlap. What is the expected total number of flips, including the final 5?\", \"options\": {\"A\": \"4055/108\", \"B\": \"3125/108\"}}, {\"item_id\": \"L1_F6_V0\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(17, 20, 15), (8, 9, 16), (15, 16, 10), (8, 10, 9), (12, 13, 11), (0, 3, 20), (4, 7, 19), (6, 10, 20), (10, 12, 15), (9, 12, 13), (8, 14, 13)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"106\", \"B\": \"108\"}}, {\"item_id\": \"L1_F6_V1\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(12, 16, 12), (5, 8, 9), (8, 13, 4), (15, 19, 29), (9, 10, 5), (19, 24, 20), (18, 24, 30), (0, 1, 12), (20, 21, 28), (4, 10, 28), (6, 9, 17)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"99\", \"B\": \"97\"}}]"
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "item_id": {
+                        "type": "string"
+                      },
+                      "answer": {
+                        "type": "string",
+                        "enum": [
+                          "A",
+                          "B"
+                        ]
+                      },
+                      "unique": {
+                        "type": "boolean"
+                      },
+                      "blockers": {
+                        "type": "string"
+                      },
+                      "reason": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "item_id",
+                      "answer",
+                      "unique",
+                      "blockers",
+                      "reason"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "items"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 2150,
+      "input_token_bound": 2406,
+      "reservation_usd": "0.007526"
+    },
+    {
+      "id": "practice_review_L1_proof",
+      "level": 1,
+      "model": "Haiku",
+      "item_ids": [
+        "L1_F1_V0",
+        "L1_F1_V1",
+        "L1_F2_V0",
+        "L1_F2_V1",
+        "L1_F3_V0",
+        "L1_F3_V1",
+        "L1_F4_V0",
+        "L1_F4_V1",
+        "L1_F5_V0",
+        "L1_F5_V1",
+        "L1_F6_V0",
+        "L1_F6_V1"
+      ],
+      "request": {
+        "model": "claude-haiku-4-5-20251001",
+        "max_tokens": 1024,
+        "temperature": 0,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Keep every reason to at most 12 words; return one entry for every supplied item.\nIndependently solve each binary question. Check whether exactly one option is supported by the stated assumptions. Set unique=false and explain blockers for ambiguity or an invalid key. Use an empty blockers string if none. Give a brief mathematical reason for every answer. Do not use external tools.\n[{\"item_id\": \"L1_F1_V0\", \"family\": \"integer_bin_packing\", \"stem\": \"12 indivisible objects have weights 8, 8, 3, 9, 3, 8, 8, 5, 5, 2, 4, 8. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"7\", \"B\": \"8\"}}, {\"item_id\": \"L1_F1_V1\", \"family\": \"integer_bin_packing\", \"stem\": \"12 indivisible objects have weights 8, 5, 7, 3, 7, 5, 5, 2, 2, 6, 2, 5. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"6\", \"B\": \"5\"}}, {\"item_id\": \"L1_F2_V0\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"9 symbols occur respectively 56, 43, 55, 19, 35, 23, 49, 32, 6 times (total 318 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"971\", \"B\": \"975\"}}, {\"item_id\": \"L1_F2_V1\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"9 symbols occur respectively 5, 48, 7, 45, 11, 26, 19, 5, 40 times (total 206 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"584\", \"B\": \"580\"}}, {\"item_id\": \"L1_F3_V0\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 4 by 4 matrix? Rows: (-5, -7, -4, 3), (0, 8, 4, -4), (5, 3, 1, 5), (-7, 2, -3, 4).\", \"options\": {\"A\": \"-530\", \"B\": \"-564\"}}, {\"item_id\": \"L1_F3_V1\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 4 by 4 matrix? Rows: (-6, 3, 7, -2), (2, 0, 0, -3), (2, -1, 5, -2), (3, 6, -3, 2).\", \"options\": {\"A\": \"-982\", \"B\": \"-948\"}}, {\"item_id\": \"L1_F4_V0\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"9 workers A, B, C, D, E, F, G, H, I can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[6, 8]; B:[8, 9]; C:[7, 9]; D:[6, 7, 9]; E:[6, 8]; F:[2, 3, 5]; G:[1, 3, 5]; H:[2, 3, 4, 5]; I:[2, 3, 4]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"8\", \"B\": \"9\"}}, {\"item_id\": \"L1_F4_V1\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"9 workers A, B, C, D, E, F, G, H, I can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[1, 3, 4, 9]; B:[3, 4, 9]; C:[3, 4, 9]; D:[1, 3, 4]; E:[1, 3, 4]; F:[3, 9]; G:[5, 6, 7]; H:[2, 5, 6]; I:[2, 5, 6]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"9\", \"B\": \"7\"}}, {\"item_id\": \"L1_F5_V0\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=2/5 and P(T)=3/5. Starting with no flips, wait for the first consecutive occurrence of HHTHH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 5?\", \"options\": {\"A\": \"3125/48\", \"B\": \"3545/48\"}}, {\"item_id\": \"L1_F5_V1\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=2/5 and P(T)=3/5. Starting with no flips, wait for the first consecutive occurrence of THTHT. Candidate occurrences may overlap. What is the expected total number of flips, including the final 5?\", \"options\": {\"A\": \"4055/108\", \"B\": \"3125/108\"}}, {\"item_id\": \"L1_F6_V0\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(17, 20, 15), (8, 9, 16), (15, 16, 10), (8, 10, 9), (12, 13, 11), (0, 3, 20), (4, 7, 19), (6, 10, 20), (10, 12, 15), (9, 12, 13), (8, 14, 13)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"106\", \"B\": \"108\"}}, {\"item_id\": \"L1_F6_V1\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(12, 16, 12), (5, 8, 9), (8, 13, 4), (15, 19, 29), (9, 10, 5), (19, 24, 20), (18, 24, 30), (0, 1, 12), (20, 21, 28), (4, 10, 28), (6, 9, 17)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"99\", \"B\": \"97\"}}]\nNow audit these author certificates; check their premises and computations rather than merely agreeing. Report any contradiction.\n[{\"item_id\": \"L1_F1_V0\", \"correct_letter\": \"B\", \"author_certificate\": {\"weights\": [8, 8, 3, 9, 3, 8, 8, 5, 5, 2, 4, 8], \"capacity\": 10, \"exact_subset_dp\": 8, \"exact_fixed_bin_feasibility_at_optimum\": true, \"exact_feasibility_one_less\": false}}, {\"item_id\": \"L1_F1_V1\", \"correct_letter\": \"A\", \"author_certificate\": {\"weights\": [8, 5, 7, 3, 7, 5, 5, 2, 2, 6, 2, 5], \"capacity\": 10, \"exact_subset_dp\": 6, \"exact_fixed_bin_feasibility_at_optimum\": true, \"exact_feasibility_one_less\": false}}, {\"item_id\": \"L1_F2_V0\", \"correct_letter\": \"A\", \"author_certificate\": {\"weights\": [56, 43, 55, 19, 35, 23, 49, 32, 6], \"huffman_merge_sums\": [25, 48, 67, 91, 104, 123, 195, 318], \"exhaustive_binary_partition_optimum\": 971}}, {\"item_id\": \"L1_F2_V1\", \"correct_letter\": \"B\", \"author_certificate\": {\"weights\": [5, 48, 7, 45, 11, 26, 19, 5, 40], \"huffman_merge_sums\": [10, 17, 28, 45, 68, 90, 116, 206], \"exhaustive_binary_partition_optimum\": 580}}, {\"item_id\": \"L1_F3_V0\", \"correct_letter\": \"B\", \"author_certificate\": {\"matrix\": [[-5, -7, -4, 3], [0, 8, 4, -4], [5, 3, 1, 5], [-7, 2, -3, 4]], \"exact_permutation_expansion\": -564, \"rational_elimination\": \"-564\"}}, {\"item_id\": \"L1_F3_V1\", \"correct_letter\": \"A\", \"author_certificate\": {\"matrix\": [[-6, 3, 7, -2], [2, 0, 0, -3], [2, -1, 5, -2], [3, 6, -3, 2]], \"exact_permutation_expansion\": -982, \"rational_elimination\": \"-982\"}}, {\"item_id\": \"L1_F4_V0\", \"correct_letter\": \"A\", \"author_certificate\": {\"exact_matching_dp\": 8, \"bottleneck_workers\": [\"A\", \"B\", \"C\", \"D\", \"E\"], \"their_task_union\": [6, 7, 8, 9], \"upper_bound\": 8, \"witness\": {\"A\": 6, \"B\": 8, \"C\": 9, \"D\": 7, \"F\": 2, \"G\": 1, \"H\": 5, \"I\": 3}}}, {\"item_id\": \"L1_F4_V1\", \"correct_letter\": \"B\", \"author_certificate\": {\"exact_matching_dp\": 7, \"bottleneck_workers\": [\"A\", \"B\", \"C\", \"D\", \"E\", \"F\"], \"their_task_union\": [1, 3, 4, 9], \"upper_bound\": 7, \"witness\": {\"A\": 1, \"B\": 3, \"C\": 9, \"D\": 4, \"G\": 7, \"H\": 2, \"I\": 5}}}, {\"item_id\": \"L1_F5_V0\", \"correct_letter\": \"B\", \"author_certificate\": {\"pattern\": \"HHTHH\", \"probability_H\": \"2/5\", \"prefix_automaton\": [[1, 0], [2, 0], [2, 3], [4, 0], [5, 0]], \"exact_linear_solution\": \"3545/48\", \"prefix_suffix_overlap_lengths\": [1, 2, 5], \"overlap_expectation\": \"3545/48\"}}, {\"item_id\": \"L1_F5_V1\", \"correct_letter\": \"A\", \"author_certificate\": {\"pattern\": \"THTHT\", \"probability_H\": \"2/5\", \"prefix_automaton\": [[0, 1], [2, 1], [0, 3], [4, 1], [0, 5]], \"exact_linear_solution\": \"4055/108\", \"prefix_suffix_overlap_lengths\": [1, 3, 5], \"overlap_expectation\": \"4055/108\"}}, {\"item_id\": \"L1_F6_V0\", \"correct_letter\": \"A\", \"author_certificate\": {\"jobs\": [[17, 20, 15], [8, 9, 16], [15, 16, 10], [8, 10, 9], [12, 13, 11], [0, 3, 20], [4, 7, 19], [6, 10, 20], [10, 12, 15], [9, 12, 13], [8, 14, 13]], \"exhaustive_subset_optimum\": 106, \"weighted_interval_dp\": [0, 20, 39, 55, 55, 55, 70, 70, 81, 81, 91, 106], \"witness\": [[0, 3, 20], [4, 7, 19], [8, 9, 16], [10, 12, 15], [12, 13, 11], [15, 16, 10], [17, 20, 15]]}}, {\"item_id\": \"L1_F6_V1\", \"correct_letter\": \"B\", \"author_certificate\": {\"jobs\": [[12, 16, 12], [5, 8, 9], [8, 13, 4], [15, 19, 29], [9, 10, 5], [19, 24, 20], [18, 24, 30], [0, 1, 12], [20, 21, 28], [4, 10, 28], [6, 9, 17]], \"exhaustive_subset_optimum\": 97, \"weighted_interval_dp\": [0, 12, 21, 29, 34, 40, 40, 52, 69, 97, 97, 97], \"witness\": [[0, 1, 12], [4, 10, 28], [15, 19, 29], [20, 21, 28]]}}]"
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "item_id": {
+                        "type": "string"
+                      },
+                      "answer": {
+                        "type": "string",
+                        "enum": [
+                          "A",
+                          "B"
+                        ]
+                      },
+                      "unique": {
+                        "type": "boolean"
+                      },
+                      "blockers": {
+                        "type": "string"
+                      },
+                      "reason": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "item_id",
+                      "answer",
+                      "unique",
+                      "blockers",
+                      "reason"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "items"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 3822,
+      "input_token_bound": 4078,
+      "reservation_usd": "0.009198"
+    },
+    {
+      "id": "practice_review_L2_blind",
+      "level": 2,
+      "model": "Haiku",
+      "item_ids": [
+        "L2_F1_V0",
+        "L2_F1_V1",
+        "L2_F2_V0",
+        "L2_F2_V1",
+        "L2_F3_V0",
+        "L2_F3_V1",
+        "L2_F4_V0",
+        "L2_F4_V1",
+        "L2_F5_V0",
+        "L2_F5_V1",
+        "L2_F6_V0",
+        "L2_F6_V1"
+      ],
+      "request": {
+        "model": "claude-haiku-4-5-20251001",
+        "max_tokens": 1024,
+        "temperature": 0,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Keep every reason to at most 12 words; return one entry for every supplied item.\nIndependently solve each binary question. Check whether exactly one option is supported by the stated assumptions. Set unique=false and explain blockers for ambiguity or an invalid key. Use an empty blockers string if none. Give a brief mathematical reason for every answer. Do not use external tools.\n[{\"item_id\": \"L2_F1_V0\", \"family\": \"integer_bin_packing\", \"stem\": \"16 indivisible objects have weights 5, 5, 4, 5, 3, 4, 2, 8, 9, 4, 2, 3, 9, 9, 9, 2. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"9\", \"B\": \"8\"}}, {\"item_id\": \"L2_F1_V1\", \"family\": \"integer_bin_packing\", \"stem\": \"16 indivisible objects have weights 5, 5, 2, 3, 6, 9, 7, 3, 4, 3, 2, 6, 8, 4, 4, 2. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"7\", \"B\": \"8\"}}, {\"item_id\": \"L2_F2_V0\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"13 symbols occur respectively 30, 12, 9, 67, 18, 49, 3, 45, 5, 39, 44, 96, 48 times (total 465 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"1564\", \"B\": \"1558\"}}, {\"item_id\": \"L2_F2_V1\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"13 symbols occur respectively 49, 44, 107, 87, 88, 92, 24, 60, 33, 24, 57, 12, 42 times (total 719 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"2535\", \"B\": \"2541\"}}, {\"item_id\": \"L2_F3_V0\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 5 by 5 matrix? Rows: (0, -2, -5, 2, 2), (-2, 0, -3, 5, -6), (-4, 4, 3, 0, -1), (-2, 8, -2, 3, -4), (0, -3, 2, 8, -5).\", \"options\": {\"A\": \"7360\", \"B\": \"7411\"}}, {\"item_id\": \"L2_F3_V1\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 5 by 5 matrix? Rows: (-6, -7, -7, -6, -1), (-2, -4, -5, -2, -1), (5, -5, 8, 4, 2), (4, -5, -1, -3, 2), (-6, 2, 7, 4, -6).\", \"options\": {\"A\": \"6064\", \"B\": \"6013\"}}, {\"item_id\": \"L2_F4_V0\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"12 workers A, B, C, D, E, F, G, H, I, J, K, L can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[6, 12]; B:[2, 6, 7, 12]; C:[2, 3, 7, 10]; D:[3, 10]; E:[2, 3, 7, 10]; F:[2, 6, 7]; G:[2, 3, 6, 10, 12]; H:[1, 5, 8, 9, 11]; I:[4, 5, 8]; J:[1, 4, 5, 9]; K:[1, 4, 8, 9, 11]; L:[4, 5, 9, 11]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"12\", \"B\": \"11\"}}, {\"item_id\": \"L2_F4_V1\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"12 workers A, B, C, D, E, F, G, H, I, J, K, L can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[2, 3, 8, 11]; B:[2, 10, 11]; C:[2, 5, 10, 11]; D:[3, 5, 10, 11]; E:[3, 8]; F:[2, 3, 5, 8, 11]; G:[2, 5, 10, 11]; H:[8, 10, 11]; I:[9, 12]; J:[6, 7, 9, 12]; K:[4, 6, 7, 9, 12]; L:[1, 6, 7, 9, 12]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"10\", \"B\": \"12\"}}, {\"item_id\": \"L2_F5_V0\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=3/7 and P(T)=4/7. Starting with no flips, wait for the first consecutive occurrence of HTHTHTH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 7?\", \"options\": {\"A\": \"1086715/5184\", \"B\": \"823543/5184\"}}, {\"item_id\": \"L2_F5_V1\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=3/7 and P(T)=4/7. Starting with no flips, wait for the first consecutive occurrence of THHTHHT. Candidate occurrences may overlap. What is the expected total number of flips, including the final 7?\", \"options\": {\"A\": \"823543/5184\", \"B\": \"919051/5184\"}}, {\"item_id\": \"L2_F6_V0\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(23, 25, 6), (23, 27, 21), (23, 29, 5), (15, 20, 29), (21, 23, 10), (17, 23, 25), (27, 30, 12), (12, 17, 8), (24, 27, 20), (10, 13, 6), (23, 29, 25), (8, 14, 28), (24, 28, 7), (6, 10, 21), (2, 5, 15)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"118\", \"B\": \"115\"}}, {\"item_id\": \"L2_F6_V1\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(12, 18, 2), (27, 31, 9), (20, 26, 25), (23, 25, 4), (0, 3, 29), (24, 27, 8), (14, 17, 12), (10, 12, 27), (22, 23, 24), (30, 31, 2), (6, 7, 26), (11, 14, 19), (26, 32, 26), (12, 15, 14), (9, 12, 26)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"150\", \"B\": \"153\"}}]"
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "item_id": {
+                        "type": "string"
+                      },
+                      "answer": {
+                        "type": "string",
+                        "enum": [
+                          "A",
+                          "B"
+                        ]
+                      },
+                      "unique": {
+                        "type": "boolean"
+                      },
+                      "blockers": {
+                        "type": "string"
+                      },
+                      "reason": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "item_id",
+                      "answer",
+                      "unique",
+                      "blockers",
+                      "reason"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "items"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 2472,
+      "input_token_bound": 2728,
+      "reservation_usd": "0.007848"
+    },
+    {
+      "id": "practice_review_L2_proof",
+      "level": 2,
+      "model": "Haiku",
+      "item_ids": [
+        "L2_F1_V0",
+        "L2_F1_V1",
+        "L2_F2_V0",
+        "L2_F2_V1",
+        "L2_F3_V0",
+        "L2_F3_V1",
+        "L2_F4_V0",
+        "L2_F4_V1",
+        "L2_F5_V0",
+        "L2_F5_V1",
+        "L2_F6_V0",
+        "L2_F6_V1"
+      ],
+      "request": {
+        "model": "claude-haiku-4-5-20251001",
+        "max_tokens": 1024,
+        "temperature": 0,
+        "messages": [
+          {
+            "role": "user",
+            "content": "Keep every reason to at most 12 words; return one entry for every supplied item.\nIndependently solve each binary question. Check whether exactly one option is supported by the stated assumptions. Set unique=false and explain blockers for ambiguity or an invalid key. Use an empty blockers string if none. Give a brief mathematical reason for every answer. Do not use external tools.\n[{\"item_id\": \"L2_F1_V0\", \"family\": \"integer_bin_packing\", \"stem\": \"16 indivisible objects have weights 5, 5, 4, 5, 3, 4, 2, 8, 9, 4, 2, 3, 9, 9, 9, 2. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"9\", \"B\": \"8\"}}, {\"item_id\": \"L2_F1_V1\", \"family\": \"integer_bin_packing\", \"stem\": \"16 indivisible objects have weights 5, 5, 2, 3, 6, 9, 7, 3, 4, 3, 2, 6, 8, 4, 4, 2. Each bin holds total weight at most 10. No object may be split. What is the minimum number of bins?\", \"options\": {\"A\": \"7\", \"B\": \"8\"}}, {\"item_id\": \"L2_F2_V0\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"13 symbols occur respectively 30, 12, 9, 67, 18, 49, 3, 45, 5, 39, 44, 96, 48 times (total 465 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"1564\", \"B\": \"1558\"}}, {\"item_id\": \"L2_F2_V1\", \"family\": \"optimal_binary_prefix_code\", \"stem\": \"13 symbols occur respectively 49, 44, 107, 87, 88, 92, 24, 60, 33, 24, 57, 12, 42 times (total 719 occurrences). Assign distinct binary codewords with no codeword a prefix of another and no alphabetical-order constraint. What is the minimum total number of bits needed to encode all occurrences?\", \"options\": {\"A\": \"2535\", \"B\": \"2541\"}}, {\"item_id\": \"L2_F3_V0\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 5 by 5 matrix? Rows: (0, -2, -5, 2, 2), (-2, 0, -3, 5, -6), (-4, 4, 3, 0, -1), (-2, 8, -2, 3, -4), (0, -3, 2, 8, -5).\", \"options\": {\"A\": \"7360\", \"B\": \"7411\"}}, {\"item_id\": \"L2_F3_V1\", \"family\": \"dense_determinant\", \"stem\": \"What is the determinant of this 5 by 5 matrix? Rows: (-6, -7, -7, -6, -1), (-2, -4, -5, -2, -1), (5, -5, 8, 4, 2), (4, -5, -1, -3, 2), (-6, 2, 7, 4, -6).\", \"options\": {\"A\": \"6064\", \"B\": \"6013\"}}, {\"item_id\": \"L2_F4_V0\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"12 workers A, B, C, D, E, F, G, H, I, J, K, L can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[6, 12]; B:[2, 6, 7, 12]; C:[2, 3, 7, 10]; D:[3, 10]; E:[2, 3, 7, 10]; F:[2, 6, 7]; G:[2, 3, 6, 10, 12]; H:[1, 5, 8, 9, 11]; I:[4, 5, 8]; J:[1, 4, 5, 9]; K:[1, 4, 8, 9, 11]; L:[4, 5, 9, 11]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"12\", \"B\": \"11\"}}, {\"item_id\": \"L2_F4_V1\", \"family\": \"bipartite_matching_deficiency\", \"stem\": \"12 workers A, B, C, D, E, F, G, H, I, J, K, L can each take at most one task. Each task can have at most one worker; workers may remain unassigned. Eligible task sets: A:[2, 3, 8, 11]; B:[2, 10, 11]; C:[2, 5, 10, 11]; D:[3, 5, 10, 11]; E:[3, 8]; F:[2, 3, 5, 8, 11]; G:[2, 5, 10, 11]; H:[8, 10, 11]; I:[9, 12]; J:[6, 7, 9, 12]; K:[4, 6, 7, 9, 12]; L:[1, 6, 7, 9, 12]. What is the maximum number of tasks that can be assigned?\", \"options\": {\"A\": \"10\", \"B\": \"12\"}}, {\"item_id\": \"L2_F5_V0\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=3/7 and P(T)=4/7. Starting with no flips, wait for the first consecutive occurrence of HTHTHTH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 7?\", \"options\": {\"A\": \"1086715/5184\", \"B\": \"823543/5184\"}}, {\"item_id\": \"L2_F5_V1\", \"family\": \"overlapping_pattern_waiting_time\", \"stem\": \"Independent flips have P(H)=3/7 and P(T)=4/7. Starting with no flips, wait for the first consecutive occurrence of THHTHHT. Candidate occurrences may overlap. What is the expected total number of flips, including the final 7?\", \"options\": {\"A\": \"823543/5184\", \"B\": \"919051/5184\"}}, {\"item_id\": \"L2_F6_V0\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(23, 25, 6), (23, 27, 21), (23, 29, 5), (15, 20, 29), (21, 23, 10), (17, 23, 25), (27, 30, 12), (12, 17, 8), (24, 27, 20), (10, 13, 6), (23, 29, 25), (8, 14, 28), (24, 28, 7), (6, 10, 21), (2, 5, 15)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"118\", \"B\": \"115\"}}, {\"item_id\": \"L2_F6_V1\", \"family\": \"weighted_interval_scheduling\", \"stem\": \"One machine can run any subset of these jobs, given as (start,end,profit): [(12, 18, 2), (27, 31, 9), (20, 26, 25), (23, 25, 4), (0, 3, 29), (24, 27, 8), (14, 17, 12), (10, 12, 27), (22, 23, 24), (30, 31, 2), (6, 7, 26), (11, 14, 19), (26, 32, 26), (12, 15, 14), (9, 12, 26)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\", \"options\": {\"A\": \"150\", \"B\": \"153\"}}]\nNow audit these author certificates; check their premises and computations rather than merely agreeing. Report any contradiction.\n[{\"item_id\": \"L2_F1_V0\", \"correct_letter\": \"A\", \"author_certificate\": {\"weights\": [5, 5, 4, 5, 3, 4, 2, 8, 9, 4, 2, 3, 9, 9, 9, 2], \"capacity\": 10, \"exact_subset_dp\": 9, \"exact_fixed_bin_feasibility_at_optimum\": true, \"exact_feasibility_one_less\": false}}, {\"item_id\": \"L2_F1_V1\", \"correct_letter\": \"B\", \"author_certificate\": {\"weights\": [5, 5, 2, 3, 6, 9, 7, 3, 4, 3, 2, 6, 8, 4, 4, 2], \"capacity\": 10, \"exact_subset_dp\": 8, \"exact_fixed_bin_feasibility_at_optimum\": true, \"exact_feasibility_one_less\": false}}, {\"item_id\": \"L2_F2_V0\", \"correct_letter\": \"B\", \"author_certificate\": {\"weights\": [30, 12, 9, 67, 18, 49, 3, 45, 5, 39, 44, 96, 48], \"huffman_merge_sums\": [8, 17, 29, 47, 69, 89, 95, 116, 158, 191, 274, 465], \"exhaustive_binary_partition_optimum\": 1558}}, {\"item_id\": \"L2_F2_V1\", \"correct_letter\": \"A\", \"author_certificate\": {\"weights\": [49, 44, 107, 87, 88, 92, 24, 60, 33, 24, 57, 12, 42], \"huffman_merge_sums\": [36, 57, 78, 93, 114, 138, 175, 185, 221, 313, 406, 719], \"exhaustive_binary_partition_optimum\": 2535}}, {\"item_id\": \"L2_F3_V0\", \"correct_letter\": \"A\", \"author_certificate\": {\"matrix\": [[0, -2, -5, 2, 2], [-2, 0, -3, 5, -6], [-4, 4, 3, 0, -1], [-2, 8, -2, 3, -4], [0, -3, 2, 8, -5]], \"exact_permutation_expansion\": 7360, \"rational_elimination\": \"7360\"}}, {\"item_id\": \"L2_F3_V1\", \"correct_letter\": \"B\", \"author_certificate\": {\"matrix\": [[-6, -7, -7, -6, -1], [-2, -4, -5, -2, -1], [5, -5, 8, 4, 2], [4, -5, -1, -3, 2], [-6, 2, 7, 4, -6]], \"exact_permutation_expansion\": 6013, \"rational_elimination\": \"6013\"}}, {\"item_id\": \"L2_F4_V0\", \"correct_letter\": \"B\", \"author_certificate\": {\"exact_matching_dp\": 11, \"bottleneck_workers\": [\"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\"], \"their_task_union\": [2, 3, 6, 7, 10, 12], \"upper_bound\": 11, \"witness\": {\"A\": 6, \"B\": 12, \"C\": 2, \"D\": 10, \"E\": 3, \"F\": 7, \"H\": 1, \"I\": 5, \"J\": 4, \"K\": 8, \"L\": 9}}}, {\"item_id\": \"L2_F4_V1\", \"correct_letter\": \"A\", \"author_certificate\": {\"exact_matching_dp\": 10, \"bottleneck_workers\": [\"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\", \"H\"], \"their_task_union\": [2, 3, 5, 8, 10, 11], \"upper_bound\": 10, \"witness\": {\"A\": 2, \"B\": 11, \"C\": 10, \"D\": 5, \"E\": 3, \"F\": 8, \"I\": 12, \"J\": 7, \"K\": 9, \"L\": 1}}}, {\"item_id\": \"L2_F5_V0\", \"correct_letter\": \"A\", \"author_certificate\": {\"pattern\": \"HTHTHTH\", \"probability_H\": \"3/7\", \"prefix_automaton\": [[1, 0], [1, 2], [3, 0], [1, 4], [5, 0], [1, 6], [7, 0]], \"exact_linear_solution\": \"1086715/5184\", \"prefix_suffix_overlap_lengths\": [1, 3, 5, 7], \"overlap_expectation\": \"1086715/5184\"}}, {\"item_id\": \"L2_F5_V1\", \"correct_letter\": \"B\", \"author_certificate\": {\"pattern\": \"THHTHHT\", \"probability_H\": \"3/7\", \"prefix_automaton\": [[0, 1], [2, 1], [3, 1], [0, 4], [5, 1], [6, 1], [0, 7]], \"exact_linear_solution\": \"919051/5184\", \"prefix_suffix_overlap_lengths\": [1, 4, 7], \"overlap_expectation\": \"919051/5184\"}}, {\"item_id\": \"L2_F6_V0\", \"correct_letter\": \"B\", \"author_certificate\": {\"jobs\": [[23, 25, 6], [23, 27, 21], [23, 29, 5], [15, 20, 29], [21, 23, 10], [17, 23, 25], [27, 30, 12], [12, 17, 8], [24, 27, 20], [10, 13, 6], [23, 29, 25], [8, 14, 28], [24, 28, 7], [6, 10, 21], [2, 5, 15]], \"exhaustive_subset_optimum\": 115, \"weighted_interval_dp\": [0, 15, 36, 42, 43, 44, 72, 82, 82, 88, 103, 103, 103, 103, 107, 115], \"witness\": [[2, 5, 15], [8, 14, 28], [15, 20, 29], [21, 23, 10], [23, 27, 21], [27, 30, 12]]}}, {\"item_id\": \"L2_F6_V1\", \"correct_letter\": \"A\", \"author_certificate\": {\"jobs\": [[12, 18, 2], [27, 31, 9], [20, 26, 25], [23, 25, 4], [0, 3, 29], [24, 27, 8], [14, 17, 12], [10, 12, 27], [22, 23, 24], [30, 31, 2], [6, 7, 26], [11, 14, 19], [26, 32, 26], [12, 15, 14], [9, 12, 26]], \"exhaustive_subset_optimum\": 150, \"weighted_interval_dp\": [0, 29, 55, 82, 82, 82, 96, 96, 96, 120, 124, 124, 128, 137, 137, 150], \"witness\": [[0, 3, 29], [6, 7, 26], [10, 12, 27], [12, 15, 14], [22, 23, 24], [23, 25, 4], [26, 32, 26]]}}]"
+          }
+        ],
+        "output_config": {
+          "format": {
+            "type": "json_schema",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "item_id": {
+                        "type": "string"
+                      },
+                      "answer": {
+                        "type": "string",
+                        "enum": [
+                          "A",
+                          "B"
+                        ]
+                      },
+                      "unique": {
+                        "type": "boolean"
+                      },
+                      "blockers": {
+                        "type": "string"
+                      },
+                      "reason": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "item_id",
+                      "answer",
+                      "unique",
+                      "blockers",
+                      "reason"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "items"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "counted_input_tokens": 4482,
+      "input_token_bound": 4738,
+      "reservation_usd": "0.009858"
+    }
+  ],
+  "selection_rule": "Single level nearest 70%, 55\u201385% range; otherwise preset family-vector fallback",
+  "practice_ids": [
+    "L2_F4_V0",
+    "L0_F6_V0",
+    "L1_F4_V0",
+    "L2_F1_V0",
+    "L2_F3_V1",
+    "L0_F2_V0",
+    "L2_F5_V0",
+    "L2_F6_V1",
+    "L1_F1_V1",
+    "L0_F3_V0",
+    "L1_F2_V1",
+    "L0_F6_V1",
+    "L1_F3_V0",
+    "L1_F3_V1",
+    "L0_F4_V1",
+    "L1_F1_V0",
+    "L1_F5_V1",
+    "L2_F2_V0",
+    "L2_F2_V1",
+    "L2_F6_V0",
+    "L0_F1_V1",
+    "L0_F3_V1",
+    "L1_F4_V1",
+    "L1_F5_V0",
+    "L1_F6_V1",
+    "L0_F5_V0",
+    "L2_F5_V1",
+    "L0_F5_V1",
+    "L1_F2_V0",
+    "L0_F4_V0",
+    "L2_F1_V1",
+    "L0_F2_V1",
+    "L2_F3_V0",
+    "L2_F4_V1",
+    "L1_F6_V0",
+    "L0_F1_V0"
+  ],
+  "reserved_ids": [
+    "L0_F1_V2",
+    "L0_F1_V3",
+    "L0_F2_V2",
+    "L0_F2_V3",
+    "L0_F3_V2",
+    "L0_F3_V3",
+    "L0_F4_V2",
+    "L0_F4_V3",
+    "L0_F5_V2",
+    "L0_F5_V3",
+    "L0_F6_V2",
+    "L0_F6_V3",
+    "L1_F1_V2",
+    "L1_F1_V3",
+    "L1_F2_V2",
+    "L1_F2_V3",
+    "L1_F3_V2",
+    "L1_F3_V3",
+    "L1_F4_V2",
+    "L1_F4_V3",
+    "L1_F5_V2",
+    "L1_F5_V3",
+    "L1_F6_V2",
+    "L1_F6_V3",
+    "L2_F1_V2",
+    "L2_F1_V3",
+    "L2_F2_V2",
+    "L2_F2_V3",
+    "L2_F3_V2",
+    "L2_F3_V3",
+    "L2_F4_V2",
+    "L2_F4_V3",
+    "L2_F5_V2",
+    "L2_F5_V3",
+    "L2_F6_V2",
+    "L2_F6_V3"
+  ],
+  "reserved_review_input_bound": 12000,
+  "reserved_review_cap": 1024,
+  "reserved_review_each_usd": "0.01712",
+  "reservation_usd": "0.213256",
+  "prior_cost_upper_usd": "0.7353948330000000000037779502",
+  "cumulative_reserved_bound_usd": "0.9486508330000000000037779502",
+  "input_hashes": {
+    "scripts/108_separate_difficulty.py": "32609a683011f7e074edcbc3833129a88b623ba8646bc3dc0a379c324f643f97",
+    "scripts/107_separate_difficulty_packet.py": "104b82e8334d53711d47c702317851e4e296cca0074a8cc1ac6a3bf96f984e0c",
+    "scripts/106_advice_timing.py": "47d3f0b83c12219ebfda50993e581dda4261975c26c5159d9efc87012c2a251f",
+    "scripts/104_verification_transfer.py": "0fff99601141ff9e5e9c187282e5167f6b5ee155ac7cdcabff124cbebf180894",
+    "scripts/103_verification_transfer_packet.py": "41f578463501123b365defc88524af31a30866ddba3b6be2a4691fb2ef00b3ac",
+    "scripts/102_sonnet_advice_pilot.py": "94a7e9670cbb75d7b49717ee4e67bc406d127d14cf18979c1be70b8ebd092497",
+    "scripts/101_direct_claude_baseline.py": "3175bbb9c649b5128238529e3dfb4328b3807e2f2b4f993a9953859e34059d4f",
+    "docs/SEPARATE_DIFFICULTY_PROTOCOL.md": "f4d1b9e14bb880efdf7b1251d23ba20f8244ba252890e4009c93182ff1eda2b5",
+    "results/research_directions/separate_difficulty_20261027/author_pool.json": "d56d51f2f6e7e253438ec30b4e62d31c85e6b38681fe031e7ec58a779d0d7827",
+    "results/research_directions/separate_difficulty_20261027/local_nonuse_check.json": "d96143dff634423502d93a4ce5c1ee95ee544d728d35d9a48a9cf7c1715751b3",
+    "results/research_directions/advice_timing_20261027/final_status.json": "2d186df56bae2cb60102abaec480811559989be652b0df21ee68bbba1c746e0d",
+    "results/research_directions/advice_timing_20261027/final_artifact_hashes.json": "6f1ffd35259e35e399fcd3c6cb1d24cc384738736e0f239246310d36bed2e603",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F2_V1.response.json": "ee0b742f55a7f48b5dce1d7d832361eb3fd1a5524e684426dabe84e09a698671",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F4_V0.transport.json": "98dedc7b2825b79aee79f68ff13b4e135156852ec55d67e670ff1c68c20323d0",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F5_V0.response.json": "835761ae1ae3947545570b3b3655722c2db12da49ef621cbc4331c1b08a62acd",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F2_V0.request.json": "b981f3782612e6fe97fcef302a1f24c3fc5a5410d9b66f1efa2c85a5739005a6",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F2_V1.response.json": "72d506b63b704a451149c1fc0a38a261b38d59d877f7d9611f90a8117bbb5e2c",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F5_V0.response.json": "c09b46439b418fef8626e44aca9dd3482c3e5ec189cb7438160eaab9a6e2e08a",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F5_V0.request.json": "7a04496cc909e3a98d9f7bdd269c1edb3110d21d01775685ee4908775d4d503f",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F1_V0.transport.json": "be1fde788e87f2219d260c730cd65b4d388dfdd391c89bd022f01263c8f7f23d",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L1_blind.request.json": "f1a6990b8855e8db94cc7f079c3b18e2167299d0adc061fa9ea982607f3bae87",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F2_V1.request.json": "babf0fb04c559f9f915c633a0d9508dffdbf1d720be2c918a1430254e34fab40",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F5_V0.response.json": "214927b0fcc955d61b3e6fc6d45f294d0b0a3859e5bf33ca02015b02ccfe9226",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F5_V1.request.json": "84c76002fa66ccad0edd51e16272489caaf541191d9c0baab4c3b252623eae95",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F2_V1.response.json": "9b17ba0c6295a34ee886d1303a50c3f2b9abe2be9e708a796403565dff2f38a2",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L1_proof.request.json": "e25d91ca845e6e47e12d6d8542730ba8ec4cfe8186a9e620cf5990753e3713ba",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F5_V1.transport.json": "ac65a12a28b8ce288fe6b0baf1c0ed448ab8383f73d0339448340f29941c8442",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F1_V0.response.json": "c2b9460e6d5150347744e84d1cbac6ab8c5506b03dcee6e3c58400559aeca3d4",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L2_blind.response.json": "c9107b2af3abfc8938150de9163bd659b35fe96f791a337c85269d18bf50fab7",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L2_blind.request.json": "96c9e921145d3fbdfeb430505affb6cdbae9a547cf09e29058cb988b86b5c45b",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F2_V1.request.json": "3a9574b163fe615509911b880f9e84eac80f99dcfe426070b93e9abb72d60ae2",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F5_V0.transport.json": "8b66e7a583cfa318b1f667041983e7aff6169cd007851cdf75d13246ef0a69f5",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F5_V1.request.json": "e807331b56e2ef5fa325bb16878e400a62fa4b7585a9a7cb0e4776ee440eeedb",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F6_V1.response.json": "5411df9602a27ed3da3fa02a4a6d810f7159679d8611a3ee7c113e43d0333b06",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L2_proof.request.json": "cc7b58cd18306932ecd08561a33208a120c8101c601d729f01a8123cb6f6359c",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L2_proof.response.json": "e0f3bab6a602863efae54ccfbd4d6d5c7736379ad67ba2c942786e667e30629a",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F1_V1.transport.json": "2b0ca406e772ff1747fd7fe9b6aa4ddda9b44bee31597d4642050f307a2c44c4",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F6_V1.response.json": "ffdf0708576c3175550c388c8905b73c50ff63a0c2b23de5bdaa5d67ca58668d",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F2_V0.request.json": "add5f430ed3cc6b7b978f023cb25da0fbb93ab912a51b6b373356badf3d0987d",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L0_blind.response.json": "636e326928f31a0f6ed5c1af288d0f1e72a4fa311674c2c050469c7ef382fac1",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L1_proof.response.json": "ca7ca8f92571762dede53cec7b4a4cd7682ff8e975d53821886382336d76b8a9",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F5_V0.request.json": "eee3e659c069df585343b59a8a1ca52cd99e34de1c2fa7fc424a8de074b1754c",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F1_V0.response.json": "8c0de27466da59f5a2ab9bbfa97ade5bcc3015c96af64dc81a04735bde779de8",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F6_V1.response.json": "37794d7b544a1566b25c33553b8c6f1b867605ccb4b3beb364c36ad424b01f77",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L0_proof.response.json": "8ffb6da07ec82cd04bae9cd96634e2c01ecfe7e345f1401f6e929047bbbee253",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F1_V0.response.json": "e3116a17317dbca73e08cc51fd02a616d8e50231c4dcaf3003a38e229d4b4faf",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L0_proof.transport.json": "fef8d50bc28d34768c7cd67fa49f857cde595d6a7768c043c80ba814dda904d5",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F4_V1.transport.json": "8e73f70bbb45bb7e24a91df46a0664713982ed7c0f99fcc27c855af81c2d3bca",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L1_blind.response.json": "1628d3908ec48dd18ffc10e93f2c5377e113c640cfdcbb7e0c271a221a57189f",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F4_V0.response.json": "761ffc59e1b70ee440c850e17b26000dd42da476c43ba240a151212170b25522",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F4_V1.request.json": "812f64f6141e18b35b1fbab16304d34746c92b05f274603b4d13fee0d1132d35",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F6_V0.transport.json": "2865526670c830d4c3f5afd5a15b5f3219703bb286ea90de715cedfff7babe9e",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F3_V1.response.json": "b0e5cd21a21bc73c201c7699dac1950c4609d94c51a9ff30e0a4b930ff02c260",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F3_V1.request.json": "05bd4d90cabfdf5767e22acff958aee0ff92a079ae55cd23d3ad34ccee04bd5f",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F4_V0.response.json": "d42409487a8ab3b09f8283d70b81d35588b34740c3b0afe12a4ad17d89ada498",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F1_V0.request.json": "1034ff25303ab5ec4ff2941e2f8f5ec3c560f280601790d11cf6f72a2583c74b",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F2_V1.transport.json": "754e5e0eabb31561ead0491647bc5224df40f4d6fdaf165658345ba980f08b13",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F3_V1.response.json": "b8da3ad4125fa6638d430f9a31dbcde2778538045bba015c9601a5e4bd3d9179",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F3_V1.response.json": "59ee3cd21fe2d60780f32b0aca9a32e825a7288f9023aa8ede7c9ddfd9432e6a",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F4_V0.request.json": "b24e8b3819f47d62dfed4d000347a1959ae1c3a10212e8c91134a2f0e2e46d35",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F4_V0.response.json": "be55f1eb18eda38eaced94bec9b56e273fcbb84c0e8063ffd7236759bb75c345",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F3_V0.transport.json": "1d7a23901f8be52ebdbe3f8cd5c4f7a64d627e4e8046ce648dc7803e4868426e",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F3_V0.request.json": "40deeaf88668deb94d080d5c189b6b43059396f7701af6a0a0452f671936dff1",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F6_V1.request.json": "1662144246781a1c0aab2423abc3f349fbe8d88cc71f01bb1eb8c4235ac48a7a",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L2_blind.transport.json": "01bf023fdc5d943136552252fccd4c08830e35983cfba66e9eea3e23a2d75c88",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F1_V1.request.json": "e8ef29baa4ca021e55460f8a4d09be1635f869671cd65a3d3188ea71d06b773b",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L1_proof.transport.json": "4e875b5cac7917157eabce03eae1e296ba58168cc8d009cde5b2b182368f145d",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F4_V0.request.json": "557690748950a4943f49e8dabfa751af905d3f67b62d627250de6b267794a629",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F3_V0.request.json": "d9b7562408fbce8d8ab8f03259424b65bb0493ca75407886001b6d01d63ce4a3",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F3_V1.transport.json": "815122a3a07bc2fa8891ccaf85079f96e77d1eb7250ebfcc503dd7a6dbb39532",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F6_V0.request.json": "ee49f493ef7625c1a8cfbf7d21be2d1c41ab15c4ba83dca747e0c9dfd9e95545",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F2_V0.transport.json": "00ee9dd8b78a4084e12d933dc9d25b53d8c35aaab7c98decddec746bcd54de1d",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F4_V1.request.json": "b583b22556c70fc9fd1c7ffdfa3bfacaee6aaebde7adac324910f7640027a949",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F3_V1.request.json": "3eedfacef03b634acf05e953afb93356cb38e8cd0ebcac2bfb17f5ee346b6133",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F6_V1.transport.json": "5cd5c846d55b2f5316a049b5118b0867192cd6279546065109bfc20febebcd47",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F1_V1.transport.json": "295b407935db3d3d6c67c110e5c306818c4d4d473a42ec94e5ba39627c6d79ba",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F3_V0.request.json": "42a62e89b88a66443bb6b26dc2f858e417a87d2d53bdcd2df4409b2d38212bdc",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F6_V1.transport.json": "ab704d3219e40aa495d230000a51ded50a201b84ceacd1efdd5c2bb8636ba3f6",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F6_V1.request.json": "42ee646b30d8446ce2088f91e4bf988d2c83e49dcf57b7005a9d25860924adec",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F5_V0.transport.json": "8d6006c6ade9897ef5d717a8df2040dfa7f2a13fbe297055951932698f9975b4",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F1_V1.request.json": "fb054e70f6a118361173e136f9941d977fbd1e52712b4686b49d274f73cef9a6",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F2_V0.transport.json": "38e86172122cf05d30a0acab74a445e3737f36d1e4d11c5077f4a43b559eb4af",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L2_proof.transport.json": "ba299a25919f87cac8ee5ed162af65afb4ed859dc317d90b0c9ea2ef3cd736ba",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F4_V1.transport.json": "b7bac6520b00556ab5f4769cd2e4efadcd82e6f1dfefde3f14ffda8bac62ef79",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F4_V1.request.json": "aa25f5858413f825c10ea140e2d0566f5db98bdd58804c14df164ed6c53ae4c6",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F3_V1.transport.json": "bde24d11d4b003e7549b93ad1f7fd7f17405426066fea497a0a2fe1875fdef64",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L1_blind.transport.json": "2655328d0e3a277971ff74ae46eed45fbfd6b84ec6c0eb1055d90504127bf88c",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F6_V0.request.json": "17588c00e85cd6af62ee5b6615301a5003fd275e2d447ea5614d74dad8e3e8d6",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F1_V0.request.json": "50ba640f679ec7ee23c4f9aa247121871c04e069d063cada950f3eb7e61ec1ae",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F6_V0.request.json": "ed1fe647d8a54b9f36478b020eb943c1a5abc95438aef7223aff32a734926ecd",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F3_V0.response.json": "b8da3ad4125fa6638d430f9a31dbcde2778538045bba015c9601a5e4bd3d9179",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F1_V0.request.json": "20068e604d1a4ad1e5e88b274b1c8249438ab574a55dc3b69d56ad47d1c1200b",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F4_V1.response.json": "37794d7b544a1566b25c33553b8c6f1b867605ccb4b3beb364c36ad424b01f77",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F3_V0.response.json": "b0e5cd21a21bc73c201c7699dac1950c4609d94c51a9ff30e0a4b930ff02c260",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F4_V0.transport.json": "baaac96309453c7ab7a9b27ffe831931c30489570911633f256cf19039b4e260",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F4_V1.response.json": "31cf25fd53ac3e635dd76d25b7fbeeb3ac5e103bc280cbb3ce15d41d5487ad77",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F3_V1.request.json": "0350571cfeadfada5ff4878fe208edc1bffeb910a438ac2e0b2182b33351fff7",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F3_V0.transport.json": "d05ee68cf6a04bbbc343a22e066c096448ddb031f5935d3b797704a819d2e3c4",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F5_V1.transport.json": "c74fd1b331db248743dcd65007805191875804b192487c517ba5c832808341b1",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F6_V1.request.json": "6113c8117d9a4b452b97be547bd832e44656b8cec143fa6bfb46f5ac99671ef7",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F2_V1.transport.json": "afc8886615f2ba5404a7eb321173091d3d885ea83117a69372686e34310cad6d",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F1_V1.request.json": "76207669a1b5d5577dff273e19b6455f4fc985ec3a2533843916945360bb0308",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F1_V0.transport.json": "efb587da80fc452869a4ca1f4e92f106c7592d9a4eab743a7ee86f0e855f9b08",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F4_V0.request.json": "ee984c9878ce2c4f2a0c5058e6120234f83ea5c2382bf117fd7bf6fcddf52107",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F4_V1.response.json": "be55f1eb18eda38eaced94bec9b56e273fcbb84c0e8063ffd7236759bb75c345",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F3_V0.response.json": "59ee3cd21fe2d60780f32b0aca9a32e825a7288f9023aa8ede7c9ddfd9432e6a",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F6_V0.transport.json": "3fa60d3012313a8c4a3a66c432d7aad6df8fb64207d7b0d6ec00a7a85df64cb4",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F3_V1.transport.json": "7335086b3e05fd584494725e5fd4ccc20218ee61558d125978b08c0ce50d712e",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F4_V1.transport.json": "5fb1b5bb7fed24a0d76efea89a3a728e06276735415141882f9350c4eab52685",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F6_V0.response.json": "5411df9602a27ed3da3fa02a4a6d810f7159679d8611a3ee7c113e43d0333b06",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F2_V1.request.json": "732fd40c272121488a844aa113b6e357daae14cdbc98445f487636091794234a",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L0_blind.transport.json": "fd26eeb91004ecde133eec67da724d8f95b42ff0d584759e170aee5f28799545",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F1_V1.response.json": "c2b9460e6d5150347744e84d1cbac6ab8c5506b03dcee6e3c58400559aeca3d4",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F6_V1.transport.json": "4c967a969b47a89cdd788dce127ba84aa3a99e7788b1b1cf36c4800ecc4c3692",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F1_V1.response.json": "e3116a17317dbca73e08cc51fd02a616d8e50231c4dcaf3003a38e229d4b4faf",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F6_V0.response.json": "37794d7b544a1566b25c33553b8c6f1b867605ccb4b3beb364c36ad424b01f77",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F1_V1.transport.json": "cab5eeb639ca49d7c6ced08005f0b76fe180b0a24e481619c79234f1cca1c787",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F2_V0.transport.json": "96f1fc4915bd3528732ac9bdbae767a3a1a1908d7c0a358739a8902b2fd298cc",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F1_V1.response.json": "8c0de27466da59f5a2ab9bbfa97ade5bcc3015c96af64dc81a04735bde779de8",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F5_V0.transport.json": "f33a4e5251de8a57e0b2edc1b25acaa9f78231b454f70025e56bac9e7f988578",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F5_V0.request.json": "bb22bbb2b6fa2e1ec03cf39869e294e6e98b13574f83d36f13e72d33dc32b6cd",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F6_V0.response.json": "ffdf0708576c3175550c388c8905b73c50ff63a0c2b23de5bdaa5d67ca58668d",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F2_V0.request.json": "bb1f4dfeafae8b1491efcc8aeb416645e572e618d22a651ee54cbe41f95a67fd",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F5_V1.response.json": "a82ffb097c2d9c0ecadd41f55029863aeb67a1013deadd01c97a2c2651268981",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F2_V1.transport.json": "03a6d94f70afcb3a23148cf7c314737c617372b2867c099f29e41b6bef9701f7",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F2_V0.response.json": "72d506b63b704a451149c1fc0a38a261b38d59d877f7d9611f90a8117bbb5e2c",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F5_V1.transport.json": "c707fdff9cafafe79be82a8687bee316b11854f5290aaaa67ec2f046c4b349ce",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F5_V1.response.json": "72d506b63b704a451149c1fc0a38a261b38d59d877f7d9611f90a8117bbb5e2c",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F6_V0.transport.json": "e2736f7a38906d947a82dd81510551bb12549a18a2f7d663677b36fd1bbe6cfc",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F1_V0.transport.json": "2683146c04528b6c46cc1e9af6028d18b8643e8f7e3c551a9921ef8fff4d8859",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F2_V0.response.json": "ee0b742f55a7f48b5dce1d7d832361eb3fd1a5524e684426dabe84e09a698671",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L0_blind.request.json": "a4dc4568d1e3a37d01b77a162edd245d62d5266aa5941782158450a53192e472",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F2_V0.response.json": "9b17ba0c6295a34ee886d1303a50c3f2b9abe2be9e708a796403565dff2f38a2",
+    "results/research_directions/separate_difficulty_20261027/counts/practice_review_L0_proof.request.json": "e97c3d5aed6947aab2861face5bc18b029321e65577d67a69fedda4b176f731e",
+    "results/research_directions/separate_difficulty_20261027/counts/L2_F5_V1.response.json": "214927b0fcc955d61b3e6fc6d45f294d0b0a3859e5bf33ca02015b02ccfe9226",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F5_V1.request.json": "d29845481d4a0f6f0ac8cfbe9567cfcdb703b98de5376e843195c2fe41b15067",
+    "results/research_directions/separate_difficulty_20261027/counts/L0_F3_V0.transport.json": "12197915e6c7bc5d0c8bcc7cae0de1589308c7a14911fab72b11843b7355a5f9",
+    "results/research_directions/separate_difficulty_20261027/counts/L1_F4_V0.transport.json": "6e2903b844aaf84a5b7197789872e8c8704ba411981c8badc61c533c01684a86"
+  },
+  "evaluated_model_reserved_calls": 0
+}

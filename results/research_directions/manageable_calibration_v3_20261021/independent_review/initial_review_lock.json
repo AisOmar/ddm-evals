@@ -1,0 +1,13 @@
+{
+  "lock_type": "SHA256 initial masked-only review lock, before any author-key comparison",
+  "created_utc": "2026-10-21T23:58:50.247900+00:00",
+  "reviewer_statement": "Fresh-context AI reviewer. Never opened author keys. Not human expert or independent training.",
+  "sha256": {
+    "resource_masked_review.json": "4bb2e83b04edb4900db01363360a041eaa0c19dfd5629f78decb6e53ff459d2e",
+    "calibration_masked_review.json": "857175a1c2520e5b2675de1db60bef798f85363e381079509f7ac8014cd36aff",
+    "reserved_masked_review.json": "5f2801eb66aeba6ae219804473a630ff4b8a455e0464c96ed3279eec2a193dcc",
+    "independent_review/fresh_solver.py": "49af89313dc75a82fabe0960df38e22043481b72b3b560813dd43026476b8ec8",
+    "independent_review/initial_judgments.json": "814c03bca5d977bdbb95d01a824a9ff6697a7d78fe58dc3d7b16a32609e04ba2",
+    "independent_review/initial_summary.json": "b2c13446dfea2c4f4a9bfd05f9b9a724679ec8f42acd08bb89464db5de964031"
+  }
+}

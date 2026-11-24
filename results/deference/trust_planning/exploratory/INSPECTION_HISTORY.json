@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-10-19T21:23:37.729530+00:00",
+  "collection_status": "paused_by_user",
+  "saved_responses": 623,
+  "confirmatory_analysis_run": false,
+  "interim_inspection_before_planned_completion": true,
+  "authorization": "Explicit user requests for interim analysis, deep dive, and report/audit work",
+  "inspections": [
+    {
+      "snapshot": "exploratory/20261019T205736Z",
+      "responses": 550,
+      "purpose": "First requested exploratory rates"
+    },
+    {
+      "snapshot": "exploratory/deep_20261019T210911Z",
+      "responses": 623,
+      "purpose": "Exploratory paused-study deep dive"
+    },
+    {
+      "snapshot": "exploratory/trace_audit_20261019",
+      "responses_selected": 36,
+      "purpose": "Balanced qualitative audit; single AI analyst; no independent validation"
+    }
+  ],
+  "disclosure": "The frozen design specified full collection before effect inspection. These user-requested exploratory inspections depart from that timing and must be disclosed if collection resumes. The frozen prompts and sample size remain unchanged.",
+  "runner_field_note": "collection_status.json effects_analyzed describes only the collection runner/final analysis path; it is not an authoritative record of separate exploratory inspections."
+}

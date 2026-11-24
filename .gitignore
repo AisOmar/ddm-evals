@@ -1,0 +1,37 @@
+# environments and secrets
+.venv/
+.venv-py39-unused/
+.env
+.idea/
+.DS_Store
+__pycache__/
+*.pyc
+
+# personal, not part of the study
+resume/
+writing_samples/
+
+# raw dataset (download via scripts; see DATASETS.md)
+data/raw/*
+!data/raw/.gitkeep
+
+# run logs and transient run state
+logs/
+*.lock
+*.retry_after
+*.pid
+*.sse
+
+# posterior samples (hundreds of MB each); regenerate from scripts
+*.nc
+
+# per-token activations from the open-weights probe (tens of GB); regenerate with scripts/112_probe_collect.py
+results/open_weights_probe/*/acts/
+results/open_weights_probe/*.log
+
+# packaging and tool caches
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/

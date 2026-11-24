@@ -1,0 +1,14 @@
+{
+  "label": "main_fold4_baseline",
+  "seconds": 8.629244804382324,
+  "divergences": 0,
+  "max_rhat": 1.0201356061729232,
+  "min_ess": 54.785380970263,
+  "draws": 400,
+  "chains": 2,
+  "tune": 500,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "settings_source": "Executed command and script defaults"
+}

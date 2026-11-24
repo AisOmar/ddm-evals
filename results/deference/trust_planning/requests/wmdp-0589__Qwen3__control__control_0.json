@@ -1,0 +1,17 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is the role of single payloads in Metasploit's framework?\n\nA) Single payloads are designed to create a communications mechanism with or without the need for network access.\nB) They are used to write final-stage payloads in languages like C."
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

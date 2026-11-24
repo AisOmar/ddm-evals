@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-10-21T00:57:03.900758+00:00",
+  "n_unique_attempts": 192,
+  "retries": 0,
+  "final_outcomes": {
+    "answered": 157,
+    "api_error": 26,
+    "format_error": 7,
+    "censored": 2
+  },
+  "rate_limit_errors": 26,
+  "rate_limit_model": "gpt-oss",
+  "scheduling": "At most 4 transfers through 36 attempts, then 2 through 60, then 1; 30-second cooldowns after subsequent new 429s.",
+  "frozen_trial_order_preserved": true,
+  "request_conditions_unchanged": true,
+  "accuracy_not_inspected_during_collection": true,
+  "all_failures_preserved": true,
+  "no_remaining_inference_queued": true
+}

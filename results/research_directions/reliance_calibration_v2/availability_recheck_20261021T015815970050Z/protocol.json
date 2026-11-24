@@ -1,0 +1,13 @@
+{
+  "purpose": "Single newly authorized availability check; not the twelve-trial delivery gate",
+  "authorization": "User: can yoi check now",
+  "max_attempts": 1,
+  "automatic_retries": 0,
+  "cost_cap_usd": ".01",
+  "model": "openai/gpt-oss-120b",
+  "provider": "DeepInfra",
+  "quantization": "bf16",
+  "completion_cap": 512,
+  "old_attempts_preserved": true,
+  "original_study_remains_paused": true
+}

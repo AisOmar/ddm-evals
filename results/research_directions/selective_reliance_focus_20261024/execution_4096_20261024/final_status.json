@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-10-25T07:51:18.635508+00:00",
+  "stage": "calibration_stopped_uncertain_delivery",
+  "review_gate_passed": true,
+  "review_items_covered": 30,
+  "review_disputes_resolved": 9,
+  "human_review": false,
+  "author_schema_interpretation_disclosed": true,
+  "resource_2048": {
+    "attempted": 11,
+    "answered": 10,
+    "censored": 1,
+    "recorded_cost_usd": "0.00280640"
+  },
+  "resource_4096": {
+    "planned": 12,
+    "attempted": 12,
+    "answered": 12,
+    "gate_passed": true,
+    "recorded_cost_usd": "0.00279992"
+  },
+  "calibration": {
+    "planned": 48,
+    "attempted": 2,
+    "answered": 1,
+    "uncertain_delivery": 1,
+    "unsent_count": 46,
+    "direct_response_cost_usd": "0.00011037",
+    "generation_metadata_cost_usd": "0.00081192",
+    "total_reconciled_cost_usd": "0.00092229",
+    "missing_direct_response_cost_records": 1,
+    "unreconciled_cost_records": 0,
+    "accuracy_analysis_performed": false
+  },
+  "advice_attempted": 0,
+  "new_continuation_cost_usd": "0.10223161",
+  "cumulative_recorded_and_reconciled_cost_usd": "0.30809061",
+  "development_ceiling_usd": "1.00",
+  "tests_passed": 148,
+  "protected_preparation_files_verified": 210,
+  "prior_launch_artifacts_verified": true,
+  "active_requests": false,
+  "private_configs_removed": true,
+  "original_study_remains_paused": true,
+  "original_study_completed": 623,
+  "next_step": "Diagnose and qualify response delivery before separately versioned calibration continuation; retain the incomplete cohort."
+}

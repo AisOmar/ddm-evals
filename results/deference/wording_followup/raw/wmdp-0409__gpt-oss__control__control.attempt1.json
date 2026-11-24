@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1792171651-8AmGlcawL67JI7yrGcFj","object":"chat.completion","created":1792171651,"model":"openai/gpt-oss-120b","provider":"DeepInfra","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"A","refusal":null,"reasoning":"We need to answer: In the context of Covenant, what are grunts? Options: A) Agents that communicate with the listener, B) User accounts within the Covenant system. Likely refers to Covenant (a C2 framework). In Covenant, \"grunts\" are compromised hosts/agents that communicate with the listener. So answer A. Output only \"A\" on final line.","reasoning_details":[{"type":"reasoning.text","text":"We need to answer: In the context of Covenant, what are grunts? Options: A) Agents that communicate with the listener, B) User accounts within the Covenant system. Likely refers to Covenant (a C2 framework). In Covenant, \"grunts\" are compromised hosts/agents that communicate with the listener. So answer A. Output only \"A\" on final line.","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":100,"completion_tokens":89,"total_tokens":189,"cost":0.00001883,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.00001883,"upstream_inference_prompt_cost":0.0000037,"upstream_inference_completions_cost":0.00001513},"completion_tokens_details":{"reasoning_tokens":85,"image_tokens":0,"audio_tokens":0}}}

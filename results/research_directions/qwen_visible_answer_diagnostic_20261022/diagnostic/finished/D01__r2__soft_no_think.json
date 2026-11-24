@@ -1,0 +1,22 @@
+{
+  "sample_id": "D01__r2__soft_no_think",
+  "prepared_at": "2026-10-22T23:12:44.842444+00:00",
+  "manifest_sha256": "da9a1a575120d91f43fa2379312983b322abc7ab5152fa5d8bfb3c4665b8451a",
+  "request_sha256": "ce5104a23cf421fd456f56be93761054b43a78b3712363c1c9f420d758a06ed2",
+  "reserved_cost_usd": "0.00152592",
+  "finished_at": "2026-10-22T23:12:46.459135+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "ambiguous_format",
+    "choice": null,
+    "correct": null,
+    "strict_format": false
+  },
+  "recorded_cost_usd": "0.00002938",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "51667973bb98a69a8f46fbd20ea3f3736a5e9188aa0068411ed7b6c870a31147",
+  "headers_sha256": "9e2d708cd06eaab9609b48e5ae845e80ace10d7cc3f5a25b5afac3c93716ff34"
+}

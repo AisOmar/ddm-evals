@@ -1,0 +1,87 @@
+{
+  "model": "anthropic/claude-sonnet-4.5",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Independently solve and review all nine masked questions below. No author keys, prior judgments, solutions, or other research context are supplied. First derive the mathematical model from each literal stem. Use exact_rational_calculator ONCE to compute final numerical answers for ALL nine items, labeling each final expression with the exact item_id. You may add intermediate calculations with other labels. Use integer fractions, +,-,*,/,parentheses only; no code, functions or decimals. For decision problems compare conditional expected action payoffs and subtract the stated certain fees. For conditional sampling, model the stated selection protocol. Derive answers before selecting options. After the tool result, check both options and uniqueness and provide a final review; do not force an answer if the stem is ambiguous. These are development questions; identify assumptions and template dependence without claiming general validation.\nQuestions:\n[{\"item_id\":\"F001\",\"stem\":\"Exactly one of 4 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 4 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?\",\"options\":{\"A\":\"1/4\",\"B\":\"1/3\"}},{\"item_id\":\"F004\",\"stem\":\"Program K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 1/4 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?\",\"options\":{\"A\":\"-26/55\",\"B\":\"1/10\"}},{\"item_id\":\"F007\",\"stem\":\"A state is good or bad with equal probability. A risky action pays 12 credits in the good state and loses 6 credits in the bad state; a safe action pays 2 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 1 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\",\"options\":{\"A\":\"19/4\",\"B\":\"15/4\"}},{\"item_id\":\"F011\",\"stem\":\"A randomly chosen part is defective with probability 1/5. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?\",\"options\":{\"A\":\"3/11\",\"B\":\"3/7\"}},{\"item_id\":\"F016\",\"stem\":\"A state is good or bad with equal probability. A risky action pays 20 credits in the good state and loses 10 credits in the bad state; a safe action pays 4 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 2 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\",\"options\":{\"A\":\"25/4\",\"B\":\"33/4\"}},{\"item_id\":\"F021\",\"stem\":\"Program K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 2/3 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?\",\"options\":{\"A\":\"-26/55\",\"B\":\"1/10\"}},{\"item_id\":\"F024\",\"stem\":\"A randomly chosen part is defective with probability 1/3. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?\",\"options\":{\"A\":\"3/7\",\"B\":\"3/5\"}},{\"item_id\":\"F028\",\"stem\":\"A state is good or bad with equal probability. A risky action pays 24 credits in the good state and loses 12 credits in the bad state; a safe action pays 5 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 2 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\",\"options\":{\"A\":\"10\",\"B\":\"8\"}},{\"item_id\":\"F029\",\"stem\":\"Program K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 1/3 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?\",\"options\":{\"A\":\"-26/55\",\"B\":\"1/10\"}}]"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "type": "function",
+          "index": 0,
+          "id": "toolu_012NxqDgC2AUeV51HJHqdovs",
+          "function": {
+            "name": "exact_rational_calculator",
+            "arguments": "{\"calculations\": [{\"label\":\"F001_P_prize_in_1\",\"expression\":\"(1/4) / ((1/4) + (1/4) + (1/4))\"},{\"label\":\"F001_final\",\"expression\":\"1/3\"},{\"label\":\"F004_K_easy_rate\",\"expression\":\"9/10\"},{\"label\":\"F004_K_hard_rate\",\"expression\":\"20/100\"},{\"label\":\"F004_L_easy_rate\",\"expression\":\"80/100\"},{\"label\":\"F004_L_hard_rate\",\"expression\":\"1/10\"},{\"label\":\"F004_K_success\",\"expression\":\"(1/4)*(9/10) + (3/4)*(20/100)\"},{\"label\":\"F004_L_success\",\"expression\":\"(1/4)*(80/100) + (3/4)*(1/10)\"},{\"label\":\"F004_final\",\"expression\":\"((1/4)*(9/10) + (3/4)*(20/100)) - ((1/4)*(80/100) + (3/4)*(1/10))\"},{\"label\":\"F007_P_good_given_pos\",\"expression\":\"((1/2)*(3/4)) / ((1/2)*(3/4) + (1/2)*(1/4))\"},{\"label\":\"F007_P_bad_given_pos\",\"expression\":\"((1/2)*(1/4)) / ((1/2)*(3/4) + (1/2)*(1/4))\"},{\"label\":\"F007_risky_given_pos\",\"expression\":\"(3/4)*12 + (1/4)*(-6)\"},{\"label\":\"F007_safe_given_pos\",\"expression\":\"2\"},{\"label\":\"F007_P_good_given_neg\",\"expression\":\"((1/2)*(1/4)) / ((1/2)*(1/4) + (1/2)*(3/4))\"},{\"label\":\"F007_P_bad_given_neg\",\"expression\":\"((1/2)*(3/4)) / ((1/2)*(1/4) + (1/2)*(3/4))\"},{\"label\":\"F007_risky_given_neg\",\"expression\":\"(1/4)*12 + (3/4)*(-6)\"},{\"label\":\"F007_safe_given_neg\",\"expression\":\"2\"},{\"label\":\"F007_P_pos\",\"expression\":\"(1/2)*(3/4) + (1/2)*(1/4)\"},{\"label\":\"F007_P_neg\",\"expression\":\"(1/2)*(1/4) + (1/2)*(3/4)\"},{\"label\":\"F007_expected_payoff\",\"expression\":\"(1/2)*((3/4)*12 + (1/4)*(-6)) + (1/2)*2\"},{\"label\":\"F007_final\",\"expression\":\"(1/2)*((3/4)*12 + (1/4)*(-6)) + (1/2)*2 - 1\"},{\"label\":\"F011_P_X_pos_Y_neg_given_def\",\"expression\":\"(3/4)*(1 - 2/3)\"},{\"label\":\"F011_P_X_pos_Y_neg_given_ok\",\"expression\":\"(1/4)*(1 - 1/3)\"},{\"label\":\"F011_numerator\",\"expression\":\"(1/5)*(3/4)*(1/3)\"},{\"label\":\"F011_denominator\",\"expression\":\"(1/5)*(3/4)*(1/3) + (4/5)*(1/4)*(2/3)\"},{\"label\":\"F011_final\",\"expression\":\"((1/5)*(3/4)*(1/3)) / ((1/5)*(3/4)*(1/3) + (4/5)*(1/4)*(2/3))\"},{\"label\":\"F016_P_good_given_pos\",\"expression\":\"((1/2)*(3/4)) / ((1/2)*(3/4) + (1/2)*(1/4))\"},{\"label\":\"F016_risky_given_pos\",\"expression\":\"(3/4)*20 + (1/4)*(-10)\"},{\"label\":\"F016_safe_given_pos\",\"expression\":\"4\"},{\"label\":\"F016_risky_given_neg\",\"expression\":\"(1/4)*20 + (3/4)*(-10)\"},{\"label\":\"F016_safe_given_neg\",\"expression\":\"4\"},{\"label\":\"F016_expected_payoff\",\"expression\":\"(1/2)*((3/4)*20 + (1/4)*(-10)) + (1/2)*4\"},{\"label\":\"F016_final\",\"expression\":\"(1/2)*((3/4)*20 + (1/4)*(-10)) + (1/2)*4 - 2\"},{\"label\":\"F021_K_success\",\"expression\":\"(2/3)*(9/10) + (1/3)*(20/100)\"},{\"label\":\"F021_L_success\",\"expression\":\"(2/3)*(80/100) + (1/3)*(1/10)\"},{\"label\":\"F021_final\",\"expression\":\"((2/3)*(9/10) + (1/3)*(20/100)) - ((2/3)*(80/100) + (1/3)*(1/10))\"},{\"label\":\"F024_numerator\",\"expression\":\"(1/3)*(3/4)*(1/3)\"},{\"label\":\"F024_denominator\",\"expression\":\"(1/3)*(3/4)*(1/3) + (2/3)*(1/4)*(2/3)\"},{\"label\":\"F024_final\",\"expression\":\"((1/3)*(3/4)*(1/3)) / ((1/3)*(3/4)*(1/3) + (2/3)*(1/4)*(2/3))\"},{\"label\":\"F028_risky_given_pos\",\"expression\":\"(3/4)*24 + (1/4)*(-12)\"},{\"label\":\"F028_safe_given_pos\",\"expression\":\"5\"},{\"label\":\"F028_risky_given_neg\",\"expression\":\"(1/4)*24 + (3/4)*(-12)\"},{\"label\":\"F028_safe_given_neg\",\"expression\":\"5\"},{\"label\":\"F028_expected_payoff\",\"expression\":\"(1/2)*((3/4)*24 + (1/4)*(-12)) + (1/2)*5\"},{\"label\":\"F028_final\",\"expression\":\"(1/2)*((3/4)*24 + (1/4)*(-12)) + (1/2)*5 - 2\"},{\"label\":\"F029_K_success\",\"expression\":\"(1/3)*(9/10) + (2/3)*(20/100)\"},{\"label\":\"F029_L_success\",\"expression\":\"(1/3)*(80/100) + (2/3)*(1/10)\"},{\"label\":\"F029_final\",\"expression\":\"((1/3)*(9/10) + (2/3)*(20/100)) - ((1/3)*(80/100) + (2/3)*(1/10))\"}]}"
+          }
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "toolu_012NxqDgC2AUeV51HJHqdovs",
+      "content": "{\"F001_P_prize_in_1\":\"1/3\",\"F001_final\":\"1/3\",\"F004_K_easy_rate\":\"9/10\",\"F004_K_hard_rate\":\"1/5\",\"F004_L_easy_rate\":\"4/5\",\"F004_L_hard_rate\":\"1/10\",\"F004_K_success\":\"3/8\",\"F004_L_success\":\"11/40\",\"F004_final\":\"1/10\",\"F007_P_good_given_pos\":\"3/4\",\"F007_P_bad_given_pos\":\"1/4\",\"F007_risky_given_pos\":\"15/2\",\"F007_safe_given_pos\":\"2\",\"F007_P_good_given_neg\":\"1/4\",\"F007_P_bad_given_neg\":\"3/4\",\"F007_risky_given_neg\":\"-3/2\",\"F007_safe_given_neg\":\"2\",\"F007_P_pos\":\"1/2\",\"F007_P_neg\":\"1/2\",\"F007_expected_payoff\":\"19/4\",\"F007_final\":\"15/4\",\"F011_P_X_pos_Y_neg_given_def\":\"1/4\",\"F011_P_X_pos_Y_neg_given_ok\":\"1/6\",\"F011_numerator\":\"1/20\",\"F011_denominator\":\"11/60\",\"F011_final\":\"3/11\",\"F016_P_good_given_pos\":\"3/4\",\"F016_risky_given_pos\":\"25/2\",\"F016_safe_given_pos\":\"4\",\"F016_risky_given_neg\":\"-5/2\",\"F016_safe_given_neg\":\"4\",\"F016_expected_payoff\":\"33/4\",\"F016_final\":\"25/4\",\"F021_K_success\":\"2/3\",\"F021_L_success\":\"17/30\",\"F021_final\":\"1/10\",\"F024_numerator\":\"1/12\",\"F024_denominator\":\"7/36\",\"F024_final\":\"3/7\",\"F028_risky_given_pos\":\"15\",\"F028_safe_given_pos\":\"5\",\"F028_risky_given_neg\":\"-3\",\"F028_safe_given_neg\":\"5\",\"F028_expected_payoff\":\"10\",\"F028_final\":\"8\",\"F029_K_success\":\"13/30\",\"F029_L_success\":\"1/3\",\"F029_final\":\"1/10\"}"
+    },
+    {
+      "role": "user",
+      "content": "Return JSON: items,overall_execution_blockers. Each item: item_id,chosen_letter,derived_answer,derivation,unique_supported_answer,alternative_assessment,concerns,disposition,must_fix_before_execution. All nine IDs."
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "exact_rational_calculator",
+        "description": "Compute exact fractions. Expressions use integer constants, parentheses, +, -, *, / only. Include one final-answer expression per item labeled with its exact item_id; additional intermediate calculations may use other labels.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "calculations": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string"
+                  },
+                  "expression": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "label",
+                  "expression"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "required": [
+            "calculations"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "tool_choice": "none",
+  "temperature": 0,
+  "max_tokens": 4000,
+  "provider": {
+    "order": [
+      "anthropic"
+    ],
+    "only": [
+      "anthropic"
+    ],
+    "allow_fallbacks": false,
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 3,
+      "completion": 15
+    }
+  }
+}

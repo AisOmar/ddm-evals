@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ddm-evals"
+version = "0.1.0"
+description = "Does AI reasoning behave like evidence accumulation? Drift-diffusion fits and pre-registered deference experiments on reasoning models."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Aisulu Omar" }]
+keywords = ["drift-diffusion", "evidence-accumulation", "language-models", "reasoning", "AI-safety", "evaluation", "HSSM"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+]
+# Core: enough to import the package, run the offline analyses and the test-suite.
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "pyyaml",
+    "matplotlib",
+    "scikit-learn",
+    "tabulate",
+    "python-dotenv",
+]
+
+[project.optional-dependencies]
+# Collection through Inspect and the provider SDKs (scripts 02, 22, 24, 25, 29, 31 ...).
+collect = ["inspect_ai>=0.3.277", "inspect_evals", "anthropic", "openai", "datasets", "tokenizers"]
+# Hierarchical DDM fits and the offline robustness, power and recovery drivers (scripts 05-21, 23, 110, 111).
+fit = ["hssm>=0.5.0", "arviz", "numpyro"]
+# Open-weights activation probe on a local GPU (scripts 112-114); see requirements-probe.txt for the bare box.
+probe = ["torch", "transformers>=5", "accelerate", "huggingface_hub"]
+dev = ["pytest>=8", "ruff>=0.6", "build", "pre-commit"]
+all = ["ddm-evals[collect,fit,probe,dev]"]
+
+[project.scripts]
+ddm-evals = "ddm_evals.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/AisOmar/ddm-evals"
+Repository = "https://github.com/AisOmar/ddm-evals"
+Issues = "https://github.com/AisOmar/ddm-evals/issues"
+Changelog = "https://github.com/AisOmar/ddm-evals/blob/main/CHANGELOG.md"
+"Final report" = "https://github.com/AisOmar/ddm-evals/blob/main/docs/FINAL_REPORT.md"
+
+[tool.setuptools]
+packages = ["ddm_evals"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra"
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+# scripts/ and the top-level tests/ are frozen research artifacts: their SHA-256 hashes are recorded in the
+# manifests under results/research_directions, so they are not reformatted. New code (the package, conftest.py and
+# tests/package/) is linted in full.
+extend-exclude = ["scripts", "tests/test_*.py", ".venv*", "data", "results", "logs"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM", "RUF"]
+ignore = ["E501"]
+
+[tool.ruff.format]
+quote-style = "double"

@@ -1,0 +1,21 @@
+{
+  "stage": "awaiting_independent_review",
+  "counts": {
+    "calibration": 12,
+    "resource": 6,
+    "reserved": 12
+  },
+  "author_checks_passed": 30,
+  "independent_review_complete": false,
+  "resource_calls_planned": 12,
+  "calibration_calls_proposed": 48,
+  "advice_calls_proposed": 288,
+  "paid_requests_launched": 0,
+  "original_study_remains_paused": true,
+  "execution_ready": false,
+  "families": 6,
+  "independence_warning": "Variants share templates; these are development items.",
+  "exact_stem_overlap_checked": 72,
+  "exact_stem_matches": [],
+  "overlap_limit": "Literal checks on two named local packets only; no semantic or training-nonexposure claim."
+}

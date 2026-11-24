@@ -1,0 +1,24 @@
+{
+  "reviewed_at": "2026-10-20T00:07:55.889751+00:00",
+  "n_reviewed": 20,
+  "dispositions": {
+    "repair": 9,
+    "retain_candidate": 8,
+    "exclude": 2,
+    "unresolved": 1
+  },
+  "independence": false,
+  "independent_review_complete": false,
+  "reviewer_choice_pending": true,
+  "keys_and_model_outputs_consulted_in_this_review": false,
+  "prior_exposure": true,
+  "sources_are_primary": true,
+  "full_primary_checks_with_uncertainty": true,
+  "unresolved_item": "R16 requires context-specific primary evidence beyond ordinary command documentation",
+  "candidate_bank_ready_for_collection": false,
+  "collection_remains_paused": true,
+  "inputs": {
+    "masked_items.jsonl": "8e974d77caa81178859bd07faf681acb71abe58944760e98e7b250c5450c2342",
+    "script": "024b632663aec0d47c63f9f8472308e3e6e7dfece32d5a7c36b50f70fa7b9815"
+  }
+}

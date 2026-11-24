@@ -1,0 +1,14 @@
+{
+  "label": "power_sdv_fit_q400_s3_fold0_baseline",
+  "seconds": 31.27570104598999,
+  "divergences": 0,
+  "max_rhat": 1.0213947873057947,
+  "min_ess": 77.22959923015722,
+  "draws": 400,
+  "chains": 2,
+  "tune": 500,
+  "target_accept": 0.95,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

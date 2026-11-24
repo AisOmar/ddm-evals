@@ -1,0 +1,961 @@
+case,profile,replicate,cap,truth,component,delta,se,winner,correct_decisive,wrong_decisive,valid
+ddm_calibrated_00_cap32768,ddm_calibrated,0,32768,ddm,joint,509.4237150520065,65.53047787430123,ddm,True,False,True
+ddm_calibrated_00_cap32768,ddm_calibrated,0,32768,ddm,length,468.33751867543594,59.32023924062926,ddm,True,False,True
+ddm_calibrated_00_cap32768,ddm_calibrated,0,32768,ddm,correctness_given_length,41.0861963765705,22.011373991316635,inconclusive,False,False,True
+ddm_calibrated_00_cap8192,ddm_calibrated,0,8192,ddm,joint,426.4117142083354,62.18102565235529,ddm,True,False,True
+ddm_calibrated_00_cap8192,ddm_calibrated,0,8192,ddm,length,379.15108879833116,56.273673781333,ddm,True,False,True
+ddm_calibrated_00_cap8192,ddm_calibrated,0,8192,ddm,correctness_given_length,47.260625410004295,19.981005953810996,ddm,True,False,True
+ddm_calibrated_01_cap32768,ddm_calibrated,1,32768,ddm,joint,645.2349307235538,69.00747709813508,ddm,True,False,True
+ddm_calibrated_01_cap32768,ddm_calibrated,1,32768,ddm,length,536.2438291919703,60.02651277456758,ddm,True,False,True
+ddm_calibrated_01_cap32768,ddm_calibrated,1,32768,ddm,correctness_given_length,108.99110153158345,22.749491611773344,ddm,True,False,True
+ddm_calibrated_01_cap8192,ddm_calibrated,1,8192,ddm,joint,608.1239120019866,70.23170814315938,ddm,True,False,True
+ddm_calibrated_01_cap8192,ddm_calibrated,1,8192,ddm,length,498.96493632983874,62.82779630411546,ddm,True,False,True
+ddm_calibrated_01_cap8192,ddm_calibrated,1,8192,ddm,correctness_given_length,109.15897567214776,23.549903301344116,ddm,True,False,True
+ddm_calibrated_02_cap32768,ddm_calibrated,2,32768,ddm,joint,533.4270695627368,61.09604865527329,ddm,True,False,True
+ddm_calibrated_02_cap32768,ddm_calibrated,2,32768,ddm,length,429.76400478937103,54.46253520156809,ddm,True,False,True
+ddm_calibrated_02_cap32768,ddm_calibrated,2,32768,ddm,correctness_given_length,103.66306477336582,24.73583211543487,ddm,True,False,True
+ddm_calibrated_02_cap8192,ddm_calibrated,2,8192,ddm,joint,429.31132024139697,58.88654994392267,ddm,True,False,True
+ddm_calibrated_02_cap8192,ddm_calibrated,2,8192,ddm,length,331.66866849866733,51.371245420120204,ddm,True,False,True
+ddm_calibrated_02_cap8192,ddm_calibrated,2,8192,ddm,correctness_given_length,97.64265174272963,23.85254155227173,ddm,True,False,True
+ddm_calibrated_03_cap32768,ddm_calibrated,3,32768,ddm,joint,518.1774271496708,67.08282148479645,ddm,True,False,True
+ddm_calibrated_03_cap32768,ddm_calibrated,3,32768,ddm,length,400.57319272084465,57.19367168366379,ddm,True,False,True
+ddm_calibrated_03_cap32768,ddm_calibrated,3,32768,ddm,correctness_given_length,117.60423442882615,23.58092292432373,ddm,True,False,True
+ddm_calibrated_03_cap8192,ddm_calibrated,3,8192,ddm,joint,467.8290709805666,60.927721313441616,ddm,True,False,True
+ddm_calibrated_03_cap8192,ddm_calibrated,3,8192,ddm,length,351.50474755727004,53.73016930415276,ddm,True,False,True
+ddm_calibrated_03_cap8192,ddm_calibrated,3,8192,ddm,correctness_given_length,116.32432342329656,21.465706634284892,ddm,True,False,True
+ddm_calibrated_04_cap32768,ddm_calibrated,4,32768,ddm,joint,565.4516423563081,56.8087133824178,ddm,True,False,True
+ddm_calibrated_04_cap32768,ddm_calibrated,4,32768,ddm,length,522.7180179737571,51.44615091163302,ddm,True,False,True
+ddm_calibrated_04_cap32768,ddm_calibrated,4,32768,ddm,correctness_given_length,42.73362438255094,20.20298161729743,ddm,True,False,True
+ddm_calibrated_04_cap8192,ddm_calibrated,4,8192,ddm,joint,515.4395042235378,56.053739486097314,ddm,True,False,True
+ddm_calibrated_04_cap8192,ddm_calibrated,4,8192,ddm,length,466.48993884891274,50.71513563816985,ddm,True,False,True
+ddm_calibrated_04_cap8192,ddm_calibrated,4,8192,ddm,correctness_given_length,48.94956537462524,21.404758156193374,ddm,True,False,True
+ddm_calibrated_05_cap32768,ddm_calibrated,5,32768,ddm,joint,543.3176527252812,61.82371489450467,ddm,True,False,True
+ddm_calibrated_05_cap32768,ddm_calibrated,5,32768,ddm,length,410.1581731498062,53.412078293522185,ddm,True,False,True
+ddm_calibrated_05_cap32768,ddm_calibrated,5,32768,ddm,correctness_given_length,133.15947957547496,23.822950575916995,ddm,True,False,True
+ddm_calibrated_05_cap8192,ddm_calibrated,5,8192,ddm,joint,467.1154947205262,60.902450585025164,ddm,True,False,True
+ddm_calibrated_05_cap8192,ddm_calibrated,5,8192,ddm,length,343.41998036178416,50.41117405561204,ddm,True,False,True
+ddm_calibrated_05_cap8192,ddm_calibrated,5,8192,ddm,correctness_given_length,123.69551435874209,23.886595713949326,ddm,True,False,True
+ddm_calibrated_06_cap32768,ddm_calibrated,6,32768,ddm,joint,485.67935062411556,59.5094183979941,ddm,True,False,True
+ddm_calibrated_06_cap32768,ddm_calibrated,6,32768,ddm,length,404.0372386528587,52.15195120854582,ddm,True,False,True
+ddm_calibrated_06_cap32768,ddm_calibrated,6,32768,ddm,correctness_given_length,81.64211197125684,20.13222892494736,ddm,True,False,True
+ddm_calibrated_06_cap8192,ddm_calibrated,6,8192,ddm,joint,433.08670092819267,58.84819449480261,ddm,True,False,True
+ddm_calibrated_06_cap8192,ddm_calibrated,6,8192,ddm,length,356.9308295043982,52.03285162443815,ddm,True,False,True
+ddm_calibrated_06_cap8192,ddm_calibrated,6,8192,ddm,correctness_given_length,76.15587142379445,19.22640379250544,ddm,True,False,True
+ddm_calibrated_07_cap32768,ddm_calibrated,7,32768,ddm,joint,537.1183267472426,62.198965516428764,ddm,True,False,True
+ddm_calibrated_07_cap32768,ddm_calibrated,7,32768,ddm,length,427.83252124981175,52.07667852699304,ddm,True,False,True
+ddm_calibrated_07_cap32768,ddm_calibrated,7,32768,ddm,correctness_given_length,109.28580549743089,26.035051172090903,ddm,True,False,True
+ddm_calibrated_07_cap8192,ddm_calibrated,7,8192,ddm,joint,482.1253016766053,60.978433211607616,ddm,True,False,True
+ddm_calibrated_07_cap8192,ddm_calibrated,7,8192,ddm,length,391.2943703719228,52.24875273295837,ddm,True,False,True
+ddm_calibrated_07_cap8192,ddm_calibrated,7,8192,ddm,correctness_given_length,90.83093130468257,26.954050147694897,ddm,True,False,True
+ddm_calibrated_08_cap32768,ddm_calibrated,8,32768,ddm,joint,480.4403846644941,55.78969623493971,ddm,True,False,True
+ddm_calibrated_08_cap32768,ddm_calibrated,8,32768,ddm,length,383.6855932480549,48.667926326892115,ddm,True,False,True
+ddm_calibrated_08_cap32768,ddm_calibrated,8,32768,ddm,correctness_given_length,96.7547914164393,18.791758045346707,ddm,True,False,True
+ddm_calibrated_08_cap8192,ddm_calibrated,8,8192,ddm,joint,407.84026200522146,57.386626678936956,ddm,True,False,True
+ddm_calibrated_08_cap8192,ddm_calibrated,8,8192,ddm,length,320.16625861758234,48.6113265462535,ddm,True,False,True
+ddm_calibrated_08_cap8192,ddm_calibrated,8,8192,ddm,correctness_given_length,87.67400338763916,19.803045960177233,ddm,True,False,True
+ddm_calibrated_09_cap32768,ddm_calibrated,9,32768,ddm,joint,293.61290601819246,45.583378848933464,ddm,True,False,True
+ddm_calibrated_09_cap32768,ddm_calibrated,9,32768,ddm,length,279.8295637314752,41.564354958430876,ddm,True,False,True
+ddm_calibrated_09_cap32768,ddm_calibrated,9,32768,ddm,correctness_given_length,13.783342286717257,20.242568888995834,inconclusive,False,False,True
+ddm_calibrated_09_cap8192,ddm_calibrated,9,8192,ddm,joint,246.22503720203215,41.468471652283235,ddm,True,False,True
+ddm_calibrated_09_cap8192,ddm_calibrated,9,8192,ddm,length,224.14404390541887,38.46211141534032,ddm,True,False,True
+ddm_calibrated_09_cap8192,ddm_calibrated,9,8192,ddm,correctness_given_length,22.0809932966133,15.12064579278156,inconclusive,False,False,True
+ddm_calibrated_10_cap32768,ddm_calibrated,10,32768,ddm,joint,479.58415444873367,66.83501849512689,ddm,True,False,True
+ddm_calibrated_10_cap32768,ddm_calibrated,10,32768,ddm,length,371.8897743831677,57.61982677782827,ddm,True,False,True
+ddm_calibrated_10_cap32768,ddm_calibrated,10,32768,ddm,correctness_given_length,107.69438006556592,23.943850586267768,ddm,True,False,True
+ddm_calibrated_10_cap8192,ddm_calibrated,10,8192,ddm,joint,391.65845205538255,68.51105072777618,ddm,True,False,True
+ddm_calibrated_10_cap8192,ddm_calibrated,10,8192,ddm,length,291.76468443946277,56.132869270094325,ddm,True,False,True
+ddm_calibrated_10_cap8192,ddm_calibrated,10,8192,ddm,correctness_given_length,99.89376761591984,25.936778486915223,ddm,True,False,True
+ddm_calibrated_11_cap32768,ddm_calibrated,11,32768,ddm,joint,384.63624923361704,50.526106950103056,ddm,True,False,True
+ddm_calibrated_11_cap32768,ddm_calibrated,11,32768,ddm,length,338.30394290838154,42.7268540539887,ddm,True,False,True
+ddm_calibrated_11_cap32768,ddm_calibrated,11,32768,ddm,correctness_given_length,46.332306325235486,18.26839160380513,ddm,True,False,True
+ddm_calibrated_11_cap8192,ddm_calibrated,11,8192,ddm,joint,354.11522111681086,51.617645431155836,ddm,True,False,True
+ddm_calibrated_11_cap8192,ddm_calibrated,11,8192,ddm,length,308.14637160168445,43.43135209792454,ddm,True,False,True
+ddm_calibrated_11_cap8192,ddm_calibrated,11,8192,ddm,correctness_given_length,45.96884951512641,17.612768256258285,ddm,True,False,True
+ddm_calibrated_12_cap32768,ddm_calibrated,12,32768,ddm,joint,478.8102458083099,61.70492793168252,ddm,True,False,True
+ddm_calibrated_12_cap32768,ddm_calibrated,12,32768,ddm,length,374.65760356743544,53.48885558774672,ddm,True,False,True
+ddm_calibrated_12_cap32768,ddm_calibrated,12,32768,ddm,correctness_given_length,104.15264224087443,24.756745459815836,ddm,True,False,True
+ddm_calibrated_12_cap8192,ddm_calibrated,12,8192,ddm,joint,426.74461959225863,58.87244342643938,ddm,True,False,True
+ddm_calibrated_12_cap8192,ddm_calibrated,12,8192,ddm,length,328.8212633162477,51.86984045490221,ddm,True,False,True
+ddm_calibrated_12_cap8192,ddm_calibrated,12,8192,ddm,correctness_given_length,97.92335627601096,23.02688878863258,ddm,True,False,True
+ddm_calibrated_13_cap32768,ddm_calibrated,13,32768,ddm,joint,513.2717232432253,55.03198429553995,ddm,True,False,True
+ddm_calibrated_13_cap32768,ddm_calibrated,13,32768,ddm,length,388.74499062385127,47.84435314010115,ddm,True,False,True
+ddm_calibrated_13_cap32768,ddm_calibrated,13,32768,ddm,correctness_given_length,124.52673261937393,23.66473571755241,ddm,True,False,True
+ddm_calibrated_13_cap8192,ddm_calibrated,13,8192,ddm,joint,432.1017854953404,49.83190378972969,ddm,True,False,True
+ddm_calibrated_13_cap8192,ddm_calibrated,13,8192,ddm,length,313.50219716447,41.45052603446559,ddm,True,False,True
+ddm_calibrated_13_cap8192,ddm_calibrated,13,8192,ddm,correctness_given_length,118.59958833087043,23.22350128022159,ddm,True,False,True
+ddm_calibrated_14_cap32768,ddm_calibrated,14,32768,ddm,joint,523.7656252141535,69.48796085495573,ddm,True,False,True
+ddm_calibrated_14_cap32768,ddm_calibrated,14,32768,ddm,length,396.47160036332036,60.134794879313645,ddm,True,False,True
+ddm_calibrated_14_cap32768,ddm_calibrated,14,32768,ddm,correctness_given_length,127.29402485083308,26.11633077423031,ddm,True,False,True
+ddm_calibrated_14_cap8192,ddm_calibrated,14,8192,ddm,joint,458.9678989420008,69.09618425672265,ddm,True,False,True
+ddm_calibrated_14_cap8192,ddm_calibrated,14,8192,ddm,length,341.9437469031018,60.29807432079057,ddm,True,False,True
+ddm_calibrated_14_cap8192,ddm_calibrated,14,8192,ddm,correctness_given_length,117.024152038899,25.19424550779158,ddm,True,False,True
+ddm_calibrated_15_cap32768,ddm_calibrated,15,32768,ddm,joint,479.70402220557116,59.265777420735326,ddm,True,False,True
+ddm_calibrated_15_cap32768,ddm_calibrated,15,32768,ddm,length,389.97699428127703,54.445766766491126,ddm,True,False,True
+ddm_calibrated_15_cap32768,ddm_calibrated,15,32768,ddm,correctness_given_length,89.72702792429409,19.905470070439453,ddm,True,False,True
+ddm_calibrated_15_cap8192,ddm_calibrated,15,8192,ddm,joint,373.0605299385214,56.99433812789385,ddm,True,False,True
+ddm_calibrated_15_cap8192,ddm_calibrated,15,8192,ddm,length,303.60121644916524,51.601373442902776,ddm,True,False,True
+ddm_calibrated_15_cap8192,ddm_calibrated,15,8192,ddm,correctness_given_length,69.45931348935616,16.66149117092117,ddm,True,False,True
+ddm_calibrated_16_cap32768,ddm_calibrated,16,32768,ddm,joint,410.6748107414385,60.40703971628311,ddm,True,False,True
+ddm_calibrated_16_cap32768,ddm_calibrated,16,32768,ddm,length,350.70036705421745,52.89385620526762,ddm,True,False,True
+ddm_calibrated_16_cap32768,ddm_calibrated,16,32768,ddm,correctness_given_length,59.974443687220955,21.92431124844846,ddm,True,False,True
+ddm_calibrated_16_cap8192,ddm_calibrated,16,8192,ddm,joint,337.2341114078033,52.459941095461616,ddm,True,False,True
+ddm_calibrated_16_cap8192,ddm_calibrated,16,8192,ddm,length,284.9287955226539,46.43463555152355,ddm,True,False,True
+ddm_calibrated_16_cap8192,ddm_calibrated,16,8192,ddm,correctness_given_length,52.30531588514941,18.863840484021996,ddm,True,False,True
+ddm_calibrated_17_cap32768,ddm_calibrated,17,32768,ddm,joint,533.2425990896757,63.39849538797797,ddm,True,False,True
+ddm_calibrated_17_cap32768,ddm_calibrated,17,32768,ddm,length,456.236175415243,56.981285790936504,ddm,True,False,True
+ddm_calibrated_17_cap32768,ddm_calibrated,17,32768,ddm,correctness_given_length,77.00642367443265,21.185698535019515,ddm,True,False,True
+ddm_calibrated_17_cap8192,ddm_calibrated,17,8192,ddm,joint,478.8544923982368,62.3826710681066,ddm,True,False,True
+ddm_calibrated_17_cap8192,ddm_calibrated,17,8192,ddm,length,405.0936544481249,56.37777708613141,ddm,True,False,True
+ddm_calibrated_17_cap8192,ddm_calibrated,17,8192,ddm,correctness_given_length,73.76083795011196,19.374445201470426,ddm,True,False,True
+ddm_calibrated_18_cap32768,ddm_calibrated,18,32768,ddm,joint,410.3580457694814,58.71091238953408,ddm,True,False,True
+ddm_calibrated_18_cap32768,ddm_calibrated,18,32768,ddm,length,362.11859736292126,53.274599400316546,ddm,True,False,True
+ddm_calibrated_18_cap32768,ddm_calibrated,18,32768,ddm,correctness_given_length,48.23944840656012,21.83202550635798,ddm,True,False,True
+ddm_calibrated_18_cap8192,ddm_calibrated,18,8192,ddm,joint,357.4496180869715,59.703242022577065,ddm,True,False,True
+ddm_calibrated_18_cap8192,ddm_calibrated,18,8192,ddm,length,312.31476073017757,53.78266511483764,ddm,True,False,True
+ddm_calibrated_18_cap8192,ddm_calibrated,18,8192,ddm,correctness_given_length,45.134857356793916,21.468070370578666,ddm,True,False,True
+ddm_calibrated_19_cap32768,ddm_calibrated,19,32768,ddm,joint,612.636998107417,66.66828945691657,ddm,True,False,True
+ddm_calibrated_19_cap32768,ddm_calibrated,19,32768,ddm,length,508.76957518517503,55.631918226138794,ddm,True,False,True
+ddm_calibrated_19_cap32768,ddm_calibrated,19,32768,ddm,correctness_given_length,103.86742292224187,29.169448823921375,ddm,True,False,True
+ddm_calibrated_19_cap8192,ddm_calibrated,19,8192,ddm,joint,552.8433561185168,64.23829340140311,ddm,True,False,True
+ddm_calibrated_19_cap8192,ddm_calibrated,19,8192,ddm,length,447.1938531223083,51.71445385542231,ddm,True,False,True
+ddm_calibrated_19_cap8192,ddm_calibrated,19,8192,ddm,correctness_given_length,105.64950299620844,35.54033424403167,ddm,True,False,True
+ddm_question_time_00_cap32768,ddm_question_time,0,32768,ddm,joint,620.8587003867597,62.13500215681447,ddm,True,False,True
+ddm_question_time_00_cap32768,ddm_question_time,0,32768,ddm,length,497.4618925458314,55.57800217792394,ddm,True,False,True
+ddm_question_time_00_cap32768,ddm_question_time,0,32768,ddm,correctness_given_length,123.39680784092829,25.58216096144564,ddm,True,False,True
+ddm_question_time_00_cap8192,ddm_question_time,0,8192,ddm,joint,539.5513376149481,56.344017149064356,ddm,True,False,True
+ddm_question_time_00_cap8192,ddm_question_time,0,8192,ddm,length,420.2561593754216,49.60894316231263,ddm,True,False,True
+ddm_question_time_00_cap8192,ddm_question_time,0,8192,ddm,correctness_given_length,119.29517823952662,24.217463737140402,ddm,True,False,True
+ddm_question_time_01_cap32768,ddm_question_time,1,32768,ddm,joint,649.0032341489932,76.7694672974253,ddm,True,False,True
+ddm_question_time_01_cap32768,ddm_question_time,1,32768,ddm,length,542.2678823171318,64.77126452756558,ddm,True,False,True
+ddm_question_time_01_cap32768,ddm_question_time,1,32768,ddm,correctness_given_length,106.7353518318614,26.135538633736456,ddm,True,False,True
+ddm_question_time_01_cap8192,ddm_question_time,1,8192,ddm,joint,570.4223546762673,74.6320429523183,ddm,True,False,True
+ddm_question_time_01_cap8192,ddm_question_time,1,8192,ddm,length,469.27186390279854,65.3597331764487,ddm,True,False,True
+ddm_question_time_01_cap8192,ddm_question_time,1,8192,ddm,correctness_given_length,101.15049077346879,22.428739262015462,ddm,True,False,True
+ddm_question_time_02_cap32768,ddm_question_time,2,32768,ddm,joint,738.8018475159795,67.84736200653711,ddm,True,False,True
+ddm_question_time_02_cap32768,ddm_question_time,2,32768,ddm,length,644.0523934221416,62.26823146600241,ddm,True,False,True
+ddm_question_time_02_cap32768,ddm_question_time,2,32768,ddm,correctness_given_length,94.74945409383793,18.483254656137156,ddm,True,False,True
+ddm_question_time_02_cap8192,ddm_question_time,2,8192,ddm,joint,671.1667420287454,67.22451864935336,ddm,True,False,True
+ddm_question_time_02_cap8192,ddm_question_time,2,8192,ddm,length,575.4430451557114,62.36506211833787,ddm,True,False,True
+ddm_question_time_02_cap8192,ddm_question_time,2,8192,ddm,correctness_given_length,95.72369687303394,16.3251001871926,ddm,True,False,True
+ddm_question_time_03_cap32768,ddm_question_time,3,32768,ddm,joint,602.4554670021123,64.06642826264395,ddm,True,False,True
+ddm_question_time_03_cap32768,ddm_question_time,3,32768,ddm,length,481.5404619379658,55.83988691591358,ddm,True,False,True
+ddm_question_time_03_cap32768,ddm_question_time,3,32768,ddm,correctness_given_length,120.91500506414647,24.02108727308517,ddm,True,False,True
+ddm_question_time_03_cap8192,ddm_question_time,3,8192,ddm,joint,487.48019417992487,60.115999838577274,ddm,True,False,True
+ddm_question_time_03_cap8192,ddm_question_time,3,8192,ddm,length,386.0861111703784,53.66372425662064,ddm,True,False,True
+ddm_question_time_03_cap8192,ddm_question_time,3,8192,ddm,correctness_given_length,101.39408300954645,21.141654819766117,ddm,True,False,True
+ddm_question_time_04_cap32768,ddm_question_time,4,32768,ddm,joint,511.43179767434447,52.72139601300348,ddm,True,False,True
+ddm_question_time_04_cap32768,ddm_question_time,4,32768,ddm,length,429.1310980147796,50.915617427030746,ddm,True,False,True
+ddm_question_time_04_cap32768,ddm_question_time,4,32768,ddm,correctness_given_length,82.30069965956486,17.69864127192106,ddm,True,False,True
+ddm_question_time_04_cap8192,ddm_question_time,4,8192,ddm,joint,376.6148446111978,48.0012431472216,ddm,True,False,True
+ddm_question_time_04_cap8192,ddm_question_time,4,8192,ddm,length,319.2836810185727,44.21391515197673,ddm,True,False,True
+ddm_question_time_04_cap8192,ddm_question_time,4,8192,ddm,correctness_given_length,57.33116359262507,17.001879873732943,ddm,True,False,True
+ddm_question_time_05_cap32768,ddm_question_time,5,32768,ddm,joint,774.5811385235138,79.60150444968961,ddm,True,False,True
+ddm_question_time_05_cap32768,ddm_question_time,5,32768,ddm,length,637.2529017552237,71.97656807721327,ddm,True,False,True
+ddm_question_time_05_cap32768,ddm_question_time,5,32768,ddm,correctness_given_length,137.32823676829005,32.97885783617146,ddm,True,False,True
+ddm_question_time_05_cap8192,ddm_question_time,5,8192,ddm,joint,620.3556271592884,74.73940804334596,ddm,True,False,True
+ddm_question_time_05_cap8192,ddm_question_time,5,8192,ddm,length,526.0482239137987,70.04776218012348,ddm,True,False,True
+ddm_question_time_05_cap8192,ddm_question_time,5,8192,ddm,correctness_given_length,94.3074032454897,28.594287304042123,ddm,True,False,True
+ddm_question_time_06_cap32768,ddm_question_time,6,32768,ddm,joint,486.3586044017916,66.36773745994815,ddm,True,False,True
+ddm_question_time_06_cap32768,ddm_question_time,6,32768,ddm,length,418.9853460057834,61.21474721710164,ddm,True,False,True
+ddm_question_time_06_cap32768,ddm_question_time,6,32768,ddm,correctness_given_length,67.37325839600825,19.34972395905847,ddm,True,False,True
+ddm_question_time_06_cap8192,ddm_question_time,6,8192,ddm,joint,455.41363910059425,68.45920240999409,ddm,True,False,True
+ddm_question_time_06_cap8192,ddm_question_time,6,8192,ddm,length,384.7189750845513,62.777477867775154,ddm,True,False,True
+ddm_question_time_06_cap8192,ddm_question_time,6,8192,ddm,correctness_given_length,70.69466401604294,19.658180786812586,ddm,True,False,True
+ddm_question_time_07_cap32768,ddm_question_time,7,32768,ddm,joint,562.0544536070623,64.36524788986999,ddm,True,False,True
+ddm_question_time_07_cap32768,ddm_question_time,7,32768,ddm,length,469.12388331633497,58.16971457963576,ddm,True,False,True
+ddm_question_time_07_cap32768,ddm_question_time,7,32768,ddm,correctness_given_length,92.93057029072745,21.119197508173954,ddm,True,False,True
+ddm_question_time_07_cap8192,ddm_question_time,7,8192,ddm,joint,511.1131526441735,63.55509927507197,ddm,True,False,True
+ddm_question_time_07_cap8192,ddm_question_time,7,8192,ddm,length,437.6191435674234,60.04639695978174,ddm,True,False,True
+ddm_question_time_07_cap8192,ddm_question_time,7,8192,ddm,correctness_given_length,73.4940090767501,19.77223914224375,ddm,True,False,True
+ddm_question_time_08_cap32768,ddm_question_time,8,32768,ddm,joint,682.9689079818072,75.75721351827497,ddm,True,False,True
+ddm_question_time_08_cap32768,ddm_question_time,8,32768,ddm,length,530.1606199710088,64.13024210196288,ddm,True,False,True
+ddm_question_time_08_cap32768,ddm_question_time,8,32768,ddm,correctness_given_length,152.80828801079826,30.484112979790343,ddm,True,False,True
+ddm_question_time_08_cap8192,ddm_question_time,8,8192,ddm,joint,618.9570246603632,71.2608001745776,ddm,True,False,True
+ddm_question_time_08_cap8192,ddm_question_time,8,8192,ddm,length,499.5073998793112,65.7381854705404,ddm,True,False,True
+ddm_question_time_08_cap8192,ddm_question_time,8,8192,ddm,correctness_given_length,119.44962478105205,24.077352755320632,ddm,True,False,True
+ddm_question_time_09_cap32768,ddm_question_time,9,32768,ddm,joint,504.7079854305009,59.81514234714352,ddm,True,False,True
+ddm_question_time_09_cap32768,ddm_question_time,9,32768,ddm,length,418.87440962316884,53.008596516291455,ddm,True,False,True
+ddm_question_time_09_cap32768,ddm_question_time,9,32768,ddm,correctness_given_length,85.83357580733212,23.373582231450442,ddm,True,False,True
+ddm_question_time_09_cap8192,ddm_question_time,9,8192,ddm,joint,454.46036707659044,58.09401762600482,ddm,True,False,True
+ddm_question_time_09_cap8192,ddm_question_time,9,8192,ddm,length,381.3489857639264,51.53629784212527,ddm,True,False,True
+ddm_question_time_09_cap8192,ddm_question_time,9,8192,ddm,correctness_given_length,73.11138131266397,23.55103913336106,ddm,True,False,True
+ddm_question_time_10_cap32768,ddm_question_time,10,32768,ddm,joint,417.95508266267836,60.36188281255928,ddm,True,False,True
+ddm_question_time_10_cap32768,ddm_question_time,10,32768,ddm,length,368.5061932293104,52.40016599870154,ddm,True,False,True
+ddm_question_time_10_cap32768,ddm_question_time,10,32768,ddm,correctness_given_length,49.44888943336796,28.332089094064234,inconclusive,False,False,True
+ddm_question_time_10_cap8192,ddm_question_time,10,8192,ddm,joint,359.92358492707933,56.45130515117452,ddm,True,False,True
+ddm_question_time_10_cap8192,ddm_question_time,10,8192,ddm,length,304.9390150472793,49.391930194312316,ddm,True,False,True
+ddm_question_time_10_cap8192,ddm_question_time,10,8192,ddm,correctness_given_length,54.98456987979998,24.21473067473166,ddm,True,False,True
+ddm_question_time_11_cap32768,ddm_question_time,11,32768,ddm,joint,899.9577108024771,77.37829749221898,ddm,True,False,True
+ddm_question_time_11_cap32768,ddm_question_time,11,32768,ddm,length,755.9032943838645,67.88267141491852,ddm,True,False,True
+ddm_question_time_11_cap32768,ddm_question_time,11,32768,ddm,correctness_given_length,144.05441641861267,26.45822693840584,ddm,True,False,True
+ddm_question_time_11_cap8192,ddm_question_time,11,8192,ddm,joint,821.8733248996821,74.75213783091021,ddm,True,False,True
+ddm_question_time_11_cap8192,ddm_question_time,11,8192,ddm,length,685.6182988629612,68.57874961187252,ddm,True,False,True
+ddm_question_time_11_cap8192,ddm_question_time,11,8192,ddm,correctness_given_length,136.25502603672092,25.347847950088465,ddm,True,False,True
+ddm_question_time_12_cap32768,ddm_question_time,12,32768,ddm,joint,718.7439020770569,70.47497660224953,ddm,True,False,True
+ddm_question_time_12_cap32768,ddm_question_time,12,32768,ddm,length,555.6615667039837,60.55387641167269,ddm,True,False,True
+ddm_question_time_12_cap32768,ddm_question_time,12,32768,ddm,correctness_given_length,163.08233537307322,24.190301083345428,ddm,True,False,True
+ddm_question_time_12_cap8192,ddm_question_time,12,8192,ddm,joint,612.5850504150109,65.47457088458256,ddm,True,False,True
+ddm_question_time_12_cap8192,ddm_question_time,12,8192,ddm,length,468.6972758816463,58.8304715032715,ddm,True,False,True
+ddm_question_time_12_cap8192,ddm_question_time,12,8192,ddm,correctness_given_length,143.8877745333646,22.862968247797582,ddm,True,False,True
+ddm_question_time_13_cap32768,ddm_question_time,13,32768,ddm,joint,466.2646378220162,56.610782369004,ddm,True,False,True
+ddm_question_time_13_cap32768,ddm_question_time,13,32768,ddm,length,401.89996251408405,52.16108667782554,ddm,True,False,True
+ddm_question_time_13_cap32768,ddm_question_time,13,32768,ddm,correctness_given_length,64.36467530793209,16.853940937863207,ddm,True,False,True
+ddm_question_time_13_cap8192,ddm_question_time,13,8192,ddm,joint,421.72798533943615,56.364083018231746,ddm,True,False,True
+ddm_question_time_13_cap8192,ddm_question_time,13,8192,ddm,length,366.6252062086028,52.46301872307603,ddm,True,False,True
+ddm_question_time_13_cap8192,ddm_question_time,13,8192,ddm,correctness_given_length,55.10277913083338,14.85705412929531,ddm,True,False,True
+ddm_question_time_14_cap32768,ddm_question_time,14,32768,ddm,joint,703.895093081213,68.22589793508787,ddm,True,False,True
+ddm_question_time_14_cap32768,ddm_question_time,14,32768,ddm,length,564.2278320620603,60.4857647556583,ddm,True,False,True
+ddm_question_time_14_cap32768,ddm_question_time,14,32768,ddm,correctness_given_length,139.66726101915256,21.909907351532247,ddm,True,False,True
+ddm_question_time_14_cap8192,ddm_question_time,14,8192,ddm,joint,636.7915431771768,62.592566918133386,ddm,True,False,True
+ddm_question_time_14_cap8192,ddm_question_time,14,8192,ddm,length,512.5193797693446,57.270151295845736,ddm,True,False,True
+ddm_question_time_14_cap8192,ddm_question_time,14,8192,ddm,correctness_given_length,124.27216340783218,19.670527357828483,ddm,True,False,True
+ddm_question_time_15_cap32768,ddm_question_time,15,32768,ddm,joint,538.0192625934341,63.54894568891201,ddm,True,False,True
+ddm_question_time_15_cap32768,ddm_question_time,15,32768,ddm,length,476.4887425887423,58.72119088888739,ddm,True,False,True
+ddm_question_time_15_cap32768,ddm_question_time,15,32768,ddm,correctness_given_length,61.53052000469174,21.047913186641075,ddm,True,False,True
+ddm_question_time_15_cap8192,ddm_question_time,15,8192,ddm,joint,457.2947174454629,65.90070777542972,ddm,True,False,True
+ddm_question_time_15_cap8192,ddm_question_time,15,8192,ddm,length,402.3764981367681,60.18054518660977,ddm,True,False,True
+ddm_question_time_15_cap8192,ddm_question_time,15,8192,ddm,correctness_given_length,54.918219308694816,19.128343333279663,ddm,True,False,True
+ddm_question_time_16_cap32768,ddm_question_time,16,32768,ddm,joint,643.2700145617576,64.47524378449805,ddm,True,False,True
+ddm_question_time_16_cap32768,ddm_question_time,16,32768,ddm,length,552.5648018265123,57.59320196566352,ddm,True,False,True
+ddm_question_time_16_cap32768,ddm_question_time,16,32768,ddm,correctness_given_length,90.70521273524544,25.25966999246193,ddm,True,False,True
+ddm_question_time_16_cap8192,ddm_question_time,16,8192,ddm,joint,520.2538516873387,62.423361858770896,ddm,True,False,True
+ddm_question_time_16_cap8192,ddm_question_time,16,8192,ddm,length,435.75641366822373,56.22928941283266,ddm,True,False,True
+ddm_question_time_16_cap8192,ddm_question_time,16,8192,ddm,correctness_given_length,84.49743801911498,22.26172824813424,ddm,True,False,True
+ddm_question_time_17_cap32768,ddm_question_time,17,32768,ddm,joint,442.9068611332823,65.0212131962015,ddm,True,False,True
+ddm_question_time_17_cap32768,ddm_question_time,17,32768,ddm,length,367.7672971206706,54.74817941108829,ddm,True,False,True
+ddm_question_time_17_cap32768,ddm_question_time,17,32768,ddm,correctness_given_length,75.13956401261171,29.15364103007899,ddm,True,False,True
+ddm_question_time_17_cap8192,ddm_question_time,17,8192,ddm,joint,388.3785443557329,61.666812194263436,ddm,True,False,True
+ddm_question_time_17_cap8192,ddm_question_time,17,8192,ddm,length,311.6383332972847,53.766565866636064,ddm,True,False,True
+ddm_question_time_17_cap8192,ddm_question_time,17,8192,ddm,correctness_given_length,76.74021105844822,26.183045032665316,ddm,True,False,True
+ddm_question_time_18_cap32768,ddm_question_time,18,32768,ddm,joint,532.5852782356866,54.47476729446678,ddm,True,False,True
+ddm_question_time_18_cap32768,ddm_question_time,18,32768,ddm,length,465.23159694499236,50.22962910920163,ddm,True,False,True
+ddm_question_time_18_cap32768,ddm_question_time,18,32768,ddm,correctness_given_length,67.35368129069421,18.971855715388806,ddm,True,False,True
+ddm_question_time_18_cap8192,ddm_question_time,18,8192,ddm,joint,507.11630367640583,54.28769354482524,ddm,True,False,True
+ddm_question_time_18_cap8192,ddm_question_time,18,8192,ddm,length,439.2914782574469,50.33466205504095,ddm,True,False,True
+ddm_question_time_18_cap8192,ddm_question_time,18,8192,ddm,correctness_given_length,67.824825418959,18.880065909057215,ddm,True,False,True
+ddm_question_time_19_cap32768,ddm_question_time,19,32768,ddm,joint,593.6872245803638,59.22379622622857,ddm,True,False,True
+ddm_question_time_19_cap32768,ddm_question_time,19,32768,ddm,length,479.7866082162102,52.11037544188619,ddm,True,False,True
+ddm_question_time_19_cap32768,ddm_question_time,19,32768,ddm,correctness_given_length,113.90061636415366,22.633837560218893,ddm,True,False,True
+ddm_question_time_19_cap8192,ddm_question_time,19,8192,ddm,joint,531.2601729538014,55.15605159691264,ddm,True,False,True
+ddm_question_time_19_cap8192,ddm_question_time,19,8192,ddm,length,431.7650594566166,48.97980569021671,ddm,True,False,True
+ddm_question_time_19_cap8192,ddm_question_time,19,8192,ddm,correctness_given_length,99.49511349718486,21.229076664097096,ddm,True,False,True
+ddm_high_sdv_00_cap32768,ddm_high_sdv,0,32768,ddm,joint,560.0002562329371,54.70589107442757,ddm,True,False,True
+ddm_high_sdv_00_cap32768,ddm_high_sdv,0,32768,ddm,length,495.27570125740004,47.77064989371553,ddm,True,False,True
+ddm_high_sdv_00_cap32768,ddm_high_sdv,0,32768,ddm,correctness_given_length,64.72455497553713,20.77816822822884,ddm,True,False,True
+ddm_high_sdv_00_cap8192,ddm_high_sdv,0,8192,ddm,joint,496.12809554611283,60.13075041722597,ddm,True,False,True
+ddm_high_sdv_00_cap8192,ddm_high_sdv,0,8192,ddm,length,433.97059203319054,51.27376497212595,ddm,True,False,True
+ddm_high_sdv_00_cap8192,ddm_high_sdv,0,8192,ddm,correctness_given_length,62.15750351292232,20.472554082345614,ddm,True,False,True
+ddm_high_sdv_01_cap32768,ddm_high_sdv,1,32768,ddm,joint,381.10825750550265,49.64388656835595,ddm,True,False,True
+ddm_high_sdv_01_cap32768,ddm_high_sdv,1,32768,ddm,length,315.7916136250899,41.7883447399508,ddm,True,False,True
+ddm_high_sdv_01_cap32768,ddm_high_sdv,1,32768,ddm,correctness_given_length,65.31664388041273,17.9874633896437,ddm,True,False,True
+ddm_high_sdv_01_cap8192,ddm_high_sdv,1,8192,ddm,joint,308.89969345459895,50.65789103262473,ddm,True,False,True
+ddm_high_sdv_01_cap8192,ddm_high_sdv,1,8192,ddm,length,246.93531068898943,42.40573639401557,ddm,True,False,True
+ddm_high_sdv_01_cap8192,ddm_high_sdv,1,8192,ddm,correctness_given_length,61.964382765609514,16.99772668930546,ddm,True,False,True
+ddm_high_sdv_02_cap32768,ddm_high_sdv,2,32768,ddm,joint,626.5673041762371,61.35812728166732,ddm,True,False,True
+ddm_high_sdv_02_cap32768,ddm_high_sdv,2,32768,ddm,length,532.5494315078358,56.657476583478925,ddm,True,False,True
+ddm_high_sdv_02_cap32768,ddm_high_sdv,2,32768,ddm,correctness_given_length,94.01787266840148,20.17401582794781,ddm,True,False,True
+ddm_high_sdv_02_cap8192,ddm_high_sdv,2,8192,ddm,joint,561.7712281131742,65.47813552140813,ddm,True,False,True
+ddm_high_sdv_02_cap8192,ddm_high_sdv,2,8192,ddm,length,465.6721666864041,59.87184738332765,ddm,True,False,True
+ddm_high_sdv_02_cap8192,ddm_high_sdv,2,8192,ddm,correctness_given_length,96.09906142677008,20.79624323787788,ddm,True,False,True
+ddm_high_sdv_03_cap32768,ddm_high_sdv,3,32768,ddm,joint,489.3820478602677,45.11711219543842,ddm,True,False,True
+ddm_high_sdv_03_cap32768,ddm_high_sdv,3,32768,ddm,length,399.7057318539417,39.26208756215153,ddm,True,False,True
+ddm_high_sdv_03_cap32768,ddm_high_sdv,3,32768,ddm,correctness_given_length,89.67631600632598,18.799404711110643,ddm,True,False,True
+ddm_high_sdv_03_cap8192,ddm_high_sdv,3,8192,ddm,joint,389.9391586233862,45.18642773438315,ddm,True,False,True
+ddm_high_sdv_03_cap8192,ddm_high_sdv,3,8192,ddm,length,302.0620620480139,38.64509351095057,ddm,True,False,True
+ddm_high_sdv_03_cap8192,ddm_high_sdv,3,8192,ddm,correctness_given_length,87.87709657537232,18.62202456631235,ddm,True,False,True
+ddm_high_sdv_04_cap32768,ddm_high_sdv,4,32768,ddm,joint,460.7338907723106,60.103120501633704,ddm,True,False,True
+ddm_high_sdv_04_cap32768,ddm_high_sdv,4,32768,ddm,length,427.5526364493917,54.84805468861001,ddm,True,False,True
+ddm_high_sdv_04_cap32768,ddm_high_sdv,4,32768,ddm,correctness_given_length,33.18125432291896,22.172095967097203,inconclusive,False,False,True
+ddm_high_sdv_04_cap8192,ddm_high_sdv,4,8192,ddm,joint,404.9935385602106,57.72227832411879,ddm,True,False,True
+ddm_high_sdv_04_cap8192,ddm_high_sdv,4,8192,ddm,length,383.13022089493427,52.23391975734366,ddm,True,False,True
+ddm_high_sdv_04_cap8192,ddm_high_sdv,4,8192,ddm,correctness_given_length,21.863317665276398,20.104597633838534,inconclusive,False,False,True
+ddm_high_sdv_05_cap32768,ddm_high_sdv,5,32768,ddm,joint,449.16911749620795,46.49619525414949,ddm,True,False,True
+ddm_high_sdv_05_cap32768,ddm_high_sdv,5,32768,ddm,length,399.91084484381736,40.776619623543816,ddm,True,False,True
+ddm_high_sdv_05_cap32768,ddm_high_sdv,5,32768,ddm,correctness_given_length,49.2582726523906,18.288521375634566,ddm,True,False,True
+ddm_high_sdv_05_cap8192,ddm_high_sdv,5,8192,ddm,joint,350.0428781059712,44.62936079513191,ddm,True,False,True
+ddm_high_sdv_05_cap8192,ddm_high_sdv,5,8192,ddm,length,299.00156582555553,37.671850516633526,ddm,True,False,True
+ddm_high_sdv_05_cap8192,ddm_high_sdv,5,8192,ddm,correctness_given_length,51.041312280415596,17.995465607192177,ddm,True,False,True
+ddm_high_sdv_06_cap32768,ddm_high_sdv,6,32768,ddm,joint,477.55932042245627,44.838450759096396,ddm,True,False,True
+ddm_high_sdv_06_cap32768,ddm_high_sdv,6,32768,ddm,length,378.5135618498816,38.598056888501645,ddm,True,False,True
+ddm_high_sdv_06_cap32768,ddm_high_sdv,6,32768,ddm,correctness_given_length,99.04575857257473,18.155648058402114,ddm,True,False,True
+ddm_high_sdv_06_cap8192,ddm_high_sdv,6,8192,ddm,joint,421.0693897952117,44.92552074355768,ddm,True,False,True
+ddm_high_sdv_06_cap8192,ddm_high_sdv,6,8192,ddm,length,323.82849092178697,37.90805395514518,ddm,True,False,True
+ddm_high_sdv_06_cap8192,ddm_high_sdv,6,8192,ddm,correctness_given_length,97.24089887342475,17.67481907370482,ddm,True,False,True
+ddm_high_sdv_07_cap32768,ddm_high_sdv,7,32768,ddm,joint,459.1309845962905,55.02545829022606,ddm,True,False,True
+ddm_high_sdv_07_cap32768,ddm_high_sdv,7,32768,ddm,length,333.77749320637105,45.89780369255953,ddm,True,False,True
+ddm_high_sdv_07_cap32768,ddm_high_sdv,7,32768,ddm,correctness_given_length,125.35349138991943,22.367428801200273,ddm,True,False,True
+ddm_high_sdv_07_cap8192,ddm_high_sdv,7,8192,ddm,joint,410.9941548796593,55.483416808949876,ddm,True,False,True
+ddm_high_sdv_07_cap8192,ddm_high_sdv,7,8192,ddm,length,288.7439902969558,45.822345429218096,ddm,True,False,True
+ddm_high_sdv_07_cap8192,ddm_high_sdv,7,8192,ddm,correctness_given_length,122.25016458270345,21.576040843924986,ddm,True,False,True
+ddm_high_sdv_08_cap32768,ddm_high_sdv,8,32768,ddm,joint,468.79035077303377,49.75818175342428,ddm,True,False,True
+ddm_high_sdv_08_cap32768,ddm_high_sdv,8,32768,ddm,length,381.55589696846414,42.671073098072355,ddm,True,False,True
+ddm_high_sdv_08_cap32768,ddm_high_sdv,8,32768,ddm,correctness_given_length,87.2344538045696,17.369052379857077,ddm,True,False,True
+ddm_high_sdv_08_cap8192,ddm_high_sdv,8,8192,ddm,joint,414.68631978437475,47.37447440674902,ddm,True,False,True
+ddm_high_sdv_08_cap8192,ddm_high_sdv,8,8192,ddm,length,335.6668766552315,40.41239507989106,ddm,True,False,True
+ddm_high_sdv_08_cap8192,ddm_high_sdv,8,8192,ddm,correctness_given_length,79.01944312914327,15.754844380898643,ddm,True,False,True
+ddm_high_sdv_09_cap32768,ddm_high_sdv,9,32768,ddm,joint,340.13421106720864,44.08887580893562,ddm,True,False,True
+ddm_high_sdv_09_cap32768,ddm_high_sdv,9,32768,ddm,length,284.8754481090841,39.619972390699076,ddm,True,False,True
+ddm_high_sdv_09_cap32768,ddm_high_sdv,9,32768,ddm,correctness_given_length,55.25876295812449,17.006227368796445,ddm,True,False,True
+ddm_high_sdv_09_cap8192,ddm_high_sdv,9,8192,ddm,joint,295.01830523828863,41.25864581194494,ddm,True,False,True
+ddm_high_sdv_09_cap8192,ddm_high_sdv,9,8192,ddm,length,238.055763027784,36.480524005196564,ddm,True,False,True
+ddm_high_sdv_09_cap8192,ddm_high_sdv,9,8192,ddm,correctness_given_length,56.962542210504665,16.13360138437284,ddm,True,False,True
+ddm_high_sdv_10_cap32768,ddm_high_sdv,10,32768,ddm,joint,565.8405556865266,53.72653202074535,ddm,True,False,True
+ddm_high_sdv_10_cap32768,ddm_high_sdv,10,32768,ddm,length,439.75311010174016,45.47121533203522,ddm,True,False,True
+ddm_high_sdv_10_cap32768,ddm_high_sdv,10,32768,ddm,correctness_given_length,126.08744558478628,19.868067185033297,ddm,True,False,True
+ddm_high_sdv_10_cap8192,ddm_high_sdv,10,8192,ddm,joint,504.2522040827138,51.53287917666014,ddm,True,False,True
+ddm_high_sdv_10_cap8192,ddm_high_sdv,10,8192,ddm,length,384.34912090062414,43.73647186832877,ddm,True,False,True
+ddm_high_sdv_10_cap8192,ddm_high_sdv,10,8192,ddm,correctness_given_length,119.90308318208963,20.687468811139407,ddm,True,False,True
+ddm_high_sdv_11_cap32768,ddm_high_sdv,11,32768,ddm,joint,460.6835744316903,49.6212165931635,ddm,True,False,True
+ddm_high_sdv_11_cap32768,ddm_high_sdv,11,32768,ddm,length,364.52467728000977,42.67558967304713,ddm,True,False,True
+ddm_high_sdv_11_cap32768,ddm_high_sdv,11,32768,ddm,correctness_given_length,96.15889715168058,22.286394391658362,ddm,True,False,True
+ddm_high_sdv_11_cap8192,ddm_high_sdv,11,8192,ddm,joint,414.3047129665529,50.79114534018194,ddm,True,False,True
+ddm_high_sdv_11_cap8192,ddm_high_sdv,11,8192,ddm,length,324.3792694018761,41.39376623350551,ddm,True,False,True
+ddm_high_sdv_11_cap8192,ddm_high_sdv,11,8192,ddm,correctness_given_length,89.92544356467684,23.142519488092013,ddm,True,False,True
+ddm_high_sdv_12_cap32768,ddm_high_sdv,12,32768,ddm,joint,348.95487672749164,46.17849615490562,ddm,True,False,True
+ddm_high_sdv_12_cap32768,ddm_high_sdv,12,32768,ddm,length,290.6199849634911,43.39516355479963,ddm,True,False,True
+ddm_high_sdv_12_cap32768,ddm_high_sdv,12,32768,ddm,correctness_given_length,58.33489176400053,16.099690715364968,ddm,True,False,True
+ddm_high_sdv_12_cap8192,ddm_high_sdv,12,8192,ddm,joint,279.0511632702287,42.793818793698534,ddm,True,False,True
+ddm_high_sdv_12_cap8192,ddm_high_sdv,12,8192,ddm,length,226.05096851774118,39.46086279292602,ddm,True,False,True
+ddm_high_sdv_12_cap8192,ddm_high_sdv,12,8192,ddm,correctness_given_length,53.000194752487516,15.494405865816692,ddm,True,False,True
+ddm_high_sdv_13_cap32768,ddm_high_sdv,13,32768,ddm,joint,350.1031144200373,38.02808708988422,ddm,True,False,True
+ddm_high_sdv_13_cap32768,ddm_high_sdv,13,32768,ddm,length,327.74708685437446,36.17199441282416,ddm,True,False,True
+ddm_high_sdv_13_cap32768,ddm_high_sdv,13,32768,ddm,correctness_given_length,22.35602756566283,13.015014810477405,inconclusive,False,False,True
+ddm_high_sdv_13_cap8192,ddm_high_sdv,13,8192,ddm,joint,297.88324723219705,39.39041862412879,ddm,True,False,True
+ddm_high_sdv_13_cap8192,ddm_high_sdv,13,8192,ddm,length,283.2493008464014,37.370844406852555,ddm,True,False,True
+ddm_high_sdv_13_cap8192,ddm_high_sdv,13,8192,ddm,correctness_given_length,14.633946385795651,13.70796565773637,inconclusive,False,False,True
+ddm_high_sdv_14_cap32768,ddm_high_sdv,14,32768,ddm,joint,490.76132651399513,48.20447517419084,ddm,True,False,True
+ddm_high_sdv_14_cap32768,ddm_high_sdv,14,32768,ddm,length,362.8049487093792,40.90262325911581,ddm,True,False,True
+ddm_high_sdv_14_cap32768,ddm_high_sdv,14,32768,ddm,correctness_given_length,127.95637780461598,19.783323415437238,ddm,True,False,True
+ddm_high_sdv_14_cap8192,ddm_high_sdv,14,8192,ddm,joint,448.34726253303893,46.57199601492433,ddm,True,False,True
+ddm_high_sdv_14_cap8192,ddm_high_sdv,14,8192,ddm,length,331.0826384699629,40.42313008723796,ddm,True,False,True
+ddm_high_sdv_14_cap8192,ddm_high_sdv,14,8192,ddm,correctness_given_length,117.26462406307604,18.348335023254307,ddm,True,False,True
+ddm_high_sdv_15_cap32768,ddm_high_sdv,15,32768,ddm,joint,659.3303651937506,59.544264440890366,ddm,True,False,True
+ddm_high_sdv_15_cap32768,ddm_high_sdv,15,32768,ddm,length,521.4972285621241,51.710911770296036,ddm,True,False,True
+ddm_high_sdv_15_cap32768,ddm_high_sdv,15,32768,ddm,correctness_given_length,137.83313663162645,23.89485259188516,ddm,True,False,True
+ddm_high_sdv_15_cap8192,ddm_high_sdv,15,8192,ddm,joint,578.5557277353377,60.55807895891645,ddm,True,False,True
+ddm_high_sdv_15_cap8192,ddm_high_sdv,15,8192,ddm,length,447.39629731623137,53.74314360244601,ddm,True,False,True
+ddm_high_sdv_15_cap8192,ddm_high_sdv,15,8192,ddm,correctness_given_length,131.15943041910626,22.549673047853037,ddm,True,False,True
+ddm_high_sdv_16_cap32768,ddm_high_sdv,16,32768,ddm,joint,602.8740154701463,57.23598787918122,ddm,True,False,True
+ddm_high_sdv_16_cap32768,ddm_high_sdv,16,32768,ddm,length,463.7181780439081,45.0611997075677,ddm,True,False,True
+ddm_high_sdv_16_cap32768,ddm_high_sdv,16,32768,ddm,correctness_given_length,139.15583742623824,24.965614270978037,ddm,True,False,True
+ddm_high_sdv_16_cap8192,ddm_high_sdv,16,8192,ddm,joint,514.8110580590986,55.3339071273006,ddm,True,False,True
+ddm_high_sdv_16_cap8192,ddm_high_sdv,16,8192,ddm,length,398.74060698933965,45.114421140331345,ddm,True,False,True
+ddm_high_sdv_16_cap8192,ddm_high_sdv,16,8192,ddm,correctness_given_length,116.07045106975905,20.915892647938602,ddm,True,False,True
+ddm_high_sdv_17_cap32768,ddm_high_sdv,17,32768,ddm,joint,579.1976590846732,55.76480985052685,ddm,True,False,True
+ddm_high_sdv_17_cap32768,ddm_high_sdv,17,32768,ddm,length,462.14332824146146,48.77818614435476,ddm,True,False,True
+ddm_high_sdv_17_cap32768,ddm_high_sdv,17,32768,ddm,correctness_given_length,117.05433084321167,19.206789039027758,ddm,True,False,True
+ddm_high_sdv_17_cap8192,ddm_high_sdv,17,8192,ddm,joint,497.9250476734071,53.56114134067825,ddm,True,False,True
+ddm_high_sdv_17_cap8192,ddm_high_sdv,17,8192,ddm,length,389.7681193226419,47.51742229737926,ddm,True,False,True
+ddm_high_sdv_17_cap8192,ddm_high_sdv,17,8192,ddm,correctness_given_length,108.15692835076523,17.101173449223406,ddm,True,False,True
+ddm_high_sdv_18_cap32768,ddm_high_sdv,18,32768,ddm,joint,537.6046121527439,53.17963650750083,ddm,True,False,True
+ddm_high_sdv_18_cap32768,ddm_high_sdv,18,32768,ddm,length,420.39848409754404,44.455821216256815,ddm,True,False,True
+ddm_high_sdv_18_cap32768,ddm_high_sdv,18,32768,ddm,correctness_given_length,117.20612805519983,20.97572056527163,ddm,True,False,True
+ddm_high_sdv_18_cap8192,ddm_high_sdv,18,8192,ddm,joint,486.7786136694771,53.086107378962794,ddm,True,False,True
+ddm_high_sdv_18_cap8192,ddm_high_sdv,18,8192,ddm,length,376.64748499454595,46.34528198668615,ddm,True,False,True
+ddm_high_sdv_18_cap8192,ddm_high_sdv,18,8192,ddm,correctness_given_length,110.13112867493109,18.57806524011079,ddm,True,False,True
+ddm_high_sdv_19_cap32768,ddm_high_sdv,19,32768,ddm,joint,352.33505267890587,45.10266146467569,ddm,True,False,True
+ddm_high_sdv_19_cap32768,ddm_high_sdv,19,32768,ddm,length,314.7322945781445,40.88589036310713,ddm,True,False,True
+ddm_high_sdv_19_cap32768,ddm_high_sdv,19,32768,ddm,correctness_given_length,37.60275810076138,17.844001878150866,ddm,True,False,True
+ddm_high_sdv_19_cap8192,ddm_high_sdv,19,8192,ddm,joint,299.6375886754092,41.49578749332803,ddm,True,False,True
+ddm_high_sdv_19_cap8192,ddm_high_sdv,19,8192,ddm,length,257.4421913881855,36.59176100890916,ddm,True,False,True
+ddm_high_sdv_19_cap8192,ddm_high_sdv,19,8192,ddm,correctness_given_length,42.195397287223656,15.93789053548362,ddm,True,False,True
+baseline_calibrated_00_cap32768,baseline_calibrated,0,32768,baseline,joint,-721.7767893952023,77.62553434978172,baseline,True,False,True
+baseline_calibrated_00_cap32768,baseline_calibrated,0,32768,baseline,length,-353.3479519837202,57.595012720651766,baseline,True,False,True
+baseline_calibrated_00_cap32768,baseline_calibrated,0,32768,baseline,correctness_given_length,-368.42883741148205,37.55704423472228,baseline,True,False,True
+baseline_calibrated_00_cap8192,baseline_calibrated,0,8192,baseline,joint,-554.0975486828638,63.786525841918944,baseline,True,False,True
+baseline_calibrated_00_cap8192,baseline_calibrated,0,8192,baseline,length,-282.05625147165506,46.21608316306509,baseline,True,False,True
+baseline_calibrated_00_cap8192,baseline_calibrated,0,8192,baseline,correctness_given_length,-272.0412972112087,31.785333093482944,baseline,True,False,True
+baseline_calibrated_01_cap32768,baseline_calibrated,1,32768,baseline,joint,-793.2359133063328,80.14660292158968,baseline,True,False,True
+baseline_calibrated_01_cap32768,baseline_calibrated,1,32768,baseline,length,-378.1323587887253,62.54552247841878,baseline,True,False,True
+baseline_calibrated_01_cap32768,baseline_calibrated,1,32768,baseline,correctness_given_length,-415.10355451760745,33.985241218533005,baseline,True,False,True
+baseline_calibrated_01_cap8192,baseline_calibrated,1,8192,baseline,joint,-568.7549689977078,65.02304315341867,baseline,True,False,True
+baseline_calibrated_01_cap8192,baseline_calibrated,1,8192,baseline,length,-292.46900363748,54.315563587379806,baseline,True,False,True
+baseline_calibrated_01_cap8192,baseline_calibrated,1,8192,baseline,correctness_given_length,-276.2859653602278,30.113978125456544,baseline,True,False,True
+baseline_calibrated_02_cap32768,baseline_calibrated,2,32768,baseline,joint,-873.590430474233,83.36069700223338,baseline,True,False,True
+baseline_calibrated_02_cap32768,baseline_calibrated,2,32768,baseline,length,-381.75572132111324,60.62179482078524,baseline,True,False,True
+baseline_calibrated_02_cap32768,baseline_calibrated,2,32768,baseline,correctness_given_length,-491.8347091531198,41.48368155931369,baseline,True,False,True
+baseline_calibrated_02_cap8192,baseline_calibrated,2,8192,baseline,joint,-713.7197244463412,74.46104814245986,baseline,True,False,True
+baseline_calibrated_02_cap8192,baseline_calibrated,2,8192,baseline,length,-338.7417687200682,53.61547874350569,baseline,True,False,True
+baseline_calibrated_02_cap8192,baseline_calibrated,2,8192,baseline,correctness_given_length,-374.9779557262731,35.650431976779934,baseline,True,False,True
+baseline_calibrated_03_cap32768,baseline_calibrated,3,32768,baseline,joint,-555.656208030155,81.19356325808731,baseline,True,False,True
+baseline_calibrated_03_cap32768,baseline_calibrated,3,32768,baseline,length,-302.70019405169006,61.73332834336062,baseline,True,False,True
+baseline_calibrated_03_cap32768,baseline_calibrated,3,32768,baseline,correctness_given_length,-252.9560139784649,39.06758077269333,baseline,True,False,True
+baseline_calibrated_03_cap8192,baseline_calibrated,3,8192,baseline,joint,-442.3218117356129,68.67385698570523,baseline,True,False,True
+baseline_calibrated_03_cap8192,baseline_calibrated,3,8192,baseline,length,-229.85029196591793,52.59419618938805,baseline,True,False,True
+baseline_calibrated_03_cap8192,baseline_calibrated,3,8192,baseline,correctness_given_length,-212.471519769695,32.72702307211034,baseline,True,False,True
+baseline_calibrated_04_cap32768,baseline_calibrated,4,32768,baseline,joint,-662.5060616814766,73.86401850744465,baseline,True,False,True
+baseline_calibrated_04_cap32768,baseline_calibrated,4,32768,baseline,length,-410.78046747679934,62.27258864836927,baseline,True,False,True
+baseline_calibrated_04_cap32768,baseline_calibrated,4,32768,baseline,correctness_given_length,-251.7255942046773,28.442975035907903,baseline,True,False,True
+baseline_calibrated_04_cap8192,baseline_calibrated,4,8192,baseline,joint,-491.9360249807278,65.03021448055043,baseline,True,False,True
+baseline_calibrated_04_cap8192,baseline_calibrated,4,8192,baseline,length,-300.3461100949162,56.68276152300462,baseline,True,False,True
+baseline_calibrated_04_cap8192,baseline_calibrated,4,8192,baseline,correctness_given_length,-191.5899148858116,22.87509244573211,baseline,True,False,True
+baseline_calibrated_05_cap32768,baseline_calibrated,5,32768,baseline,joint,-782.3808851708027,76.5895576936246,baseline,True,False,True
+baseline_calibrated_05_cap32768,baseline_calibrated,5,32768,baseline,length,-399.5469995678849,62.36680088160513,baseline,True,False,True
+baseline_calibrated_05_cap32768,baseline_calibrated,5,32768,baseline,correctness_given_length,-382.83388560291803,36.040305732857384,baseline,True,False,True
+baseline_calibrated_05_cap8192,baseline_calibrated,5,8192,baseline,joint,-635.689339246031,66.73734677106539,baseline,True,False,True
+baseline_calibrated_05_cap8192,baseline_calibrated,5,8192,baseline,length,-329.0884890413654,57.212856929679816,baseline,True,False,True
+baseline_calibrated_05_cap8192,baseline_calibrated,5,8192,baseline,correctness_given_length,-306.60085020466556,32.102326272229554,baseline,True,False,True
+baseline_calibrated_06_cap32768,baseline_calibrated,6,32768,baseline,joint,-789.3116090736694,76.01744652192612,baseline,True,False,True
+baseline_calibrated_06_cap32768,baseline_calibrated,6,32768,baseline,length,-392.92539408226315,62.33325867196424,baseline,True,False,True
+baseline_calibrated_06_cap32768,baseline_calibrated,6,32768,baseline,correctness_given_length,-396.3862149914063,31.18567914857275,baseline,True,False,True
+baseline_calibrated_06_cap8192,baseline_calibrated,6,8192,baseline,joint,-560.9815864781845,60.03038826587547,baseline,True,False,True
+baseline_calibrated_06_cap8192,baseline_calibrated,6,8192,baseline,length,-325.2808871992595,49.06957433309994,baseline,True,False,True
+baseline_calibrated_06_cap8192,baseline_calibrated,6,8192,baseline,correctness_given_length,-235.70069927892496,26.801589013433606,baseline,True,False,True
+baseline_calibrated_07_cap32768,baseline_calibrated,7,32768,baseline,joint,-861.3935808066466,79.08449921056594,baseline,True,False,True
+baseline_calibrated_07_cap32768,baseline_calibrated,7,32768,baseline,length,-440.6436192626047,62.11529201656591,baseline,True,False,True
+baseline_calibrated_07_cap32768,baseline_calibrated,7,32768,baseline,correctness_given_length,-420.74996154404187,30.594658108445138,baseline,True,False,True
+baseline_calibrated_07_cap8192,baseline_calibrated,7,8192,baseline,joint,-573.7499798592224,62.40330771639104,baseline,True,False,True
+baseline_calibrated_07_cap8192,baseline_calibrated,7,8192,baseline,length,-328.4217137251725,52.93127290163199,baseline,True,False,True
+baseline_calibrated_07_cap8192,baseline_calibrated,7,8192,baseline,correctness_given_length,-245.3282661340499,24.528633040596375,baseline,True,False,True
+baseline_calibrated_08_cap32768,baseline_calibrated,8,32768,baseline,joint,-272.5696853737184,55.70615744767222,baseline,True,False,True
+baseline_calibrated_08_cap32768,baseline_calibrated,8,32768,baseline,length,-200.49372182212628,45.72998942890639,baseline,True,False,True
+baseline_calibrated_08_cap32768,baseline_calibrated,8,32768,baseline,correctness_given_length,-72.07596355159211,26.931200077288477,baseline,True,False,True
+baseline_calibrated_08_cap8192,baseline_calibrated,8,8192,baseline,joint,-192.01638033910066,48.910687789051046,baseline,True,False,True
+baseline_calibrated_08_cap8192,baseline_calibrated,8,8192,baseline,length,-131.97041628067836,41.88546561757729,baseline,True,False,True
+baseline_calibrated_08_cap8192,baseline_calibrated,8,8192,baseline,correctness_given_length,-60.0459640584223,20.853525173115763,baseline,True,False,True
+baseline_calibrated_09_cap32768,baseline_calibrated,9,32768,baseline,joint,-864.0806870668936,81.0865933398091,baseline,True,False,True
+baseline_calibrated_09_cap32768,baseline_calibrated,9,32768,baseline,length,-383.33185542622454,62.5066314366315,baseline,True,False,True
+baseline_calibrated_09_cap32768,baseline_calibrated,9,32768,baseline,correctness_given_length,-480.7488316406691,41.01985357480279,baseline,True,False,True
+baseline_calibrated_09_cap8192,baseline_calibrated,9,8192,baseline,joint,-678.4557379282487,71.22167041896142,baseline,True,False,True
+baseline_calibrated_09_cap8192,baseline_calibrated,9,8192,baseline,length,-348.78383192719537,58.62776855134108,baseline,True,False,True
+baseline_calibrated_09_cap8192,baseline_calibrated,9,8192,baseline,correctness_given_length,-329.6719060010533,36.777771730249874,baseline,True,False,True
+baseline_calibrated_10_cap32768,baseline_calibrated,10,32768,baseline,joint,-521.1605629091728,72.0736746257597,baseline,True,False,True
+baseline_calibrated_10_cap32768,baseline_calibrated,10,32768,baseline,length,-283.1610287511737,58.534967568814295,baseline,True,False,True
+baseline_calibrated_10_cap32768,baseline_calibrated,10,32768,baseline,correctness_given_length,-237.9995341579992,35.37671010519692,baseline,True,False,True
+baseline_calibrated_10_cap8192,baseline_calibrated,10,8192,baseline,joint,-406.48421189984134,61.267250924121186,baseline,True,False,True
+baseline_calibrated_10_cap8192,baseline_calibrated,10,8192,baseline,length,-234.79146262283427,51.55624969194547,baseline,True,False,True
+baseline_calibrated_10_cap8192,baseline_calibrated,10,8192,baseline,correctness_given_length,-171.6927492770071,29.41774904788353,baseline,True,False,True
+baseline_calibrated_11_cap32768,baseline_calibrated,11,32768,baseline,joint,-998.4724732682747,82.2644750756559,baseline,True,False,True
+baseline_calibrated_11_cap32768,baseline_calibrated,11,32768,baseline,length,-369.53882650111314,66.90895700036204,baseline,True,False,True
+baseline_calibrated_11_cap32768,baseline_calibrated,11,32768,baseline,correctness_given_length,-628.9336467671616,34.385695775992936,baseline,True,False,True
+baseline_calibrated_11_cap8192,baseline_calibrated,11,8192,baseline,joint,-773.6241805097911,67.36070482120401,baseline,True,False,True
+baseline_calibrated_11_cap8192,baseline_calibrated,11,8192,baseline,length,-332.5873972193192,57.36929324287168,baseline,True,False,True
+baseline_calibrated_11_cap8192,baseline_calibrated,11,8192,baseline,correctness_given_length,-441.03678329047193,31.58486157108011,baseline,True,False,True
+baseline_calibrated_12_cap32768,baseline_calibrated,12,32768,baseline,joint,-459.4717196740171,81.80919231023704,baseline,True,False,True
+baseline_calibrated_12_cap32768,baseline_calibrated,12,32768,baseline,length,-155.687382606079,64.44525834937926,baseline,True,False,True
+baseline_calibrated_12_cap32768,baseline_calibrated,12,32768,baseline,correctness_given_length,-303.7843370679381,39.56020539752302,baseline,True,False,True
+baseline_calibrated_12_cap8192,baseline_calibrated,12,8192,baseline,joint,-356.5274337218891,71.19435128755762,baseline,True,False,True
+baseline_calibrated_12_cap8192,baseline_calibrated,12,8192,baseline,length,-134.60103320770514,59.9545094144173,baseline,True,False,True
+baseline_calibrated_12_cap8192,baseline_calibrated,12,8192,baseline,correctness_given_length,-221.92640051418408,33.74448414963123,baseline,True,False,True
+baseline_calibrated_13_cap32768,baseline_calibrated,13,32768,baseline,joint,-684.9286170009907,78.1547542514175,baseline,True,False,True
+baseline_calibrated_13_cap32768,baseline_calibrated,13,32768,baseline,length,-346.6666600517545,63.46544698849767,baseline,True,False,True
+baseline_calibrated_13_cap32768,baseline_calibrated,13,32768,baseline,correctness_given_length,-338.26195694923615,28.246403958113675,baseline,True,False,True
+baseline_calibrated_13_cap8192,baseline_calibrated,13,8192,baseline,joint,-496.47545619486846,64.28223532790253,baseline,True,False,True
+baseline_calibrated_13_cap8192,baseline_calibrated,13,8192,baseline,length,-265.3848130969441,54.88349172087984,baseline,True,False,True
+baseline_calibrated_13_cap8192,baseline_calibrated,13,8192,baseline,correctness_given_length,-231.0906430979244,24.985147512392594,baseline,True,False,True
+baseline_calibrated_14_cap32768,baseline_calibrated,14,32768,baseline,joint,-967.0411502425341,83.4057261140636,baseline,True,False,True
+baseline_calibrated_14_cap32768,baseline_calibrated,14,32768,baseline,length,-508.97256304447,68.77078377464103,baseline,True,False,True
+baseline_calibrated_14_cap32768,baseline_calibrated,14,32768,baseline,correctness_given_length,-458.068587198064,36.86456536278286,baseline,True,False,True
+baseline_calibrated_14_cap8192,baseline_calibrated,14,8192,baseline,joint,-668.1689488466563,72.98203572873142,baseline,True,False,True
+baseline_calibrated_14_cap8192,baseline_calibrated,14,8192,baseline,length,-330.4546039204378,57.728173088127726,baseline,True,False,True
+baseline_calibrated_14_cap8192,baseline_calibrated,14,8192,baseline,correctness_given_length,-337.7143449262185,31.695521417057844,baseline,True,False,True
+baseline_calibrated_15_cap32768,baseline_calibrated,15,32768,baseline,joint,-533.5520978630218,69.00791808247796,baseline,True,False,True
+baseline_calibrated_15_cap32768,baseline_calibrated,15,32768,baseline,length,-372.61786701592547,58.0981022750417,baseline,True,False,True
+baseline_calibrated_15_cap32768,baseline_calibrated,15,32768,baseline,correctness_given_length,-160.93423084709633,30.140129276444167,baseline,True,False,True
+baseline_calibrated_15_cap8192,baseline_calibrated,15,8192,baseline,joint,-320.4211434130041,52.6022759032435,baseline,True,False,True
+baseline_calibrated_15_cap8192,baseline_calibrated,15,8192,baseline,length,-256.26399435286083,45.77666663799324,baseline,True,False,True
+baseline_calibrated_15_cap8192,baseline_calibrated,15,8192,baseline,correctness_given_length,-64.15714906014327,25.61004980206055,baseline,True,False,True
+baseline_calibrated_16_cap32768,baseline_calibrated,16,32768,baseline,joint,-473.1571711710924,57.933607767121565,baseline,True,False,True
+baseline_calibrated_16_cap32768,baseline_calibrated,16,32768,baseline,length,-315.7438940859321,48.13902239599031,baseline,True,False,True
+baseline_calibrated_16_cap32768,baseline_calibrated,16,32768,baseline,correctness_given_length,-157.4132770851603,22.570304525085625,baseline,True,False,True
+baseline_calibrated_16_cap8192,baseline_calibrated,16,8192,baseline,joint,-306.90017581627933,45.37064813765264,baseline,True,False,True
+baseline_calibrated_16_cap8192,baseline_calibrated,16,8192,baseline,length,-219.45757082385728,39.79712217987685,baseline,True,False,True
+baseline_calibrated_16_cap8192,baseline_calibrated,16,8192,baseline,correctness_given_length,-87.4426049924221,17.93002607775415,baseline,True,False,True
+baseline_calibrated_17_cap32768,baseline_calibrated,17,32768,baseline,joint,-1134.144607808965,70.53306288898449,baseline,True,False,True
+baseline_calibrated_17_cap32768,baseline_calibrated,17,32768,baseline,length,-614.2278502768925,56.996625782494164,baseline,True,False,True
+baseline_calibrated_17_cap32768,baseline_calibrated,17,32768,baseline,correctness_given_length,-519.9167575320727,35.592176864614174,baseline,True,False,True
+baseline_calibrated_17_cap8192,baseline_calibrated,17,8192,baseline,joint,-846.3440449335263,65.1263279660041,baseline,True,False,True
+baseline_calibrated_17_cap8192,baseline_calibrated,17,8192,baseline,length,-453.19926741185986,52.07775237105465,baseline,True,False,True
+baseline_calibrated_17_cap8192,baseline_calibrated,17,8192,baseline,correctness_given_length,-393.1447775216665,32.119216683920826,baseline,True,False,True
+baseline_calibrated_18_cap32768,baseline_calibrated,18,32768,baseline,joint,-740.5032696212821,73.18463760773427,baseline,True,False,True
+baseline_calibrated_18_cap32768,baseline_calibrated,18,32768,baseline,length,-428.87169529975483,60.61638370595244,baseline,True,False,True
+baseline_calibrated_18_cap32768,baseline_calibrated,18,32768,baseline,correctness_given_length,-311.63157432152735,40.812725812648964,baseline,True,False,True
+baseline_calibrated_18_cap8192,baseline_calibrated,18,8192,baseline,joint,-484.9629532425397,59.21414750996737,baseline,True,False,True
+baseline_calibrated_18_cap8192,baseline_calibrated,18,8192,baseline,length,-286.33969298640204,47.860143462033925,baseline,True,False,True
+baseline_calibrated_18_cap8192,baseline_calibrated,18,8192,baseline,correctness_given_length,-198.62326025613774,30.70320897969984,baseline,True,False,True
+baseline_calibrated_19_cap32768,baseline_calibrated,19,32768,baseline,joint,-624.6526716496833,76.08565626710502,baseline,True,False,True
+baseline_calibrated_19_cap32768,baseline_calibrated,19,32768,baseline,length,-278.6938802143394,59.4092960933606,baseline,True,False,True
+baseline_calibrated_19_cap32768,baseline_calibrated,19,32768,baseline,correctness_given_length,-345.95879143534387,32.005821470259164,baseline,True,False,True
+baseline_calibrated_19_cap8192,baseline_calibrated,19,8192,baseline,joint,-485.9257952158389,62.1263619564062,baseline,True,False,True
+baseline_calibrated_19_cap8192,baseline_calibrated,19,8192,baseline,length,-220.14240264375172,46.37379369849978,baseline,True,False,True
+baseline_calibrated_19_cap8192,baseline_calibrated,19,8192,baseline,correctness_given_length,-265.7833925720872,28.986088043345433,baseline,True,False,True
+baseline_correlated_00_cap32768,baseline_correlated,0,32768,baseline,joint,-1042.7615802907967,74.41162095480857,baseline,True,False,True
+baseline_correlated_00_cap32768,baseline_correlated,0,32768,baseline,length,-374.39775773668407,57.58961210172994,baseline,True,False,True
+baseline_correlated_00_cap32768,baseline_correlated,0,32768,baseline,correctness_given_length,-668.3638225541126,39.360739060568406,baseline,True,False,True
+baseline_correlated_00_cap8192,baseline_correlated,0,8192,baseline,joint,-874.1949175178444,64.57881882076465,baseline,True,False,True
+baseline_correlated_00_cap8192,baseline_correlated,0,8192,baseline,length,-385.36575196147237,53.1335114693506,baseline,True,False,True
+baseline_correlated_00_cap8192,baseline_correlated,0,8192,baseline,correctness_given_length,-488.82916555637206,36.835470823048944,baseline,True,False,True
+baseline_correlated_01_cap32768,baseline_correlated,1,32768,baseline,joint,-614.0418308309056,65.85017156666665,baseline,True,False,True
+baseline_correlated_01_cap32768,baseline_correlated,1,32768,baseline,length,-261.68161842438144,46.78583473901103,baseline,True,False,True
+baseline_correlated_01_cap32768,baseline_correlated,1,32768,baseline,correctness_given_length,-352.3602124065242,41.717550667238186,baseline,True,False,True
+baseline_correlated_01_cap8192,baseline_correlated,1,8192,baseline,joint,-420.3451648263597,57.323071968322296,baseline,True,False,True
+baseline_correlated_01_cap8192,baseline_correlated,1,8192,baseline,length,-162.16396899806773,34.98144765833252,baseline,True,False,True
+baseline_correlated_01_cap8192,baseline_correlated,1,8192,baseline,correctness_given_length,-258.181195828292,39.78984657326739,baseline,True,False,True
+baseline_correlated_02_cap32768,baseline_correlated,2,32768,baseline,joint,-779.9782080233484,77.88013276739073,baseline,True,False,True
+baseline_correlated_02_cap32768,baseline_correlated,2,32768,baseline,length,-204.818524432069,62.462952358478184,baseline,True,False,True
+baseline_correlated_02_cap32768,baseline_correlated,2,32768,baseline,correctness_given_length,-575.1596835912794,35.54353081415426,baseline,True,False,True
+baseline_correlated_02_cap8192,baseline_correlated,2,8192,baseline,joint,-641.8975926685303,71.02979058294694,baseline,True,False,True
+baseline_correlated_02_cap8192,baseline_correlated,2,8192,baseline,length,-161.86098276982162,57.31945545348444,baseline,True,False,True
+baseline_correlated_02_cap8192,baseline_correlated,2,8192,baseline,correctness_given_length,-480.0366098987088,34.24107910389978,baseline,True,False,True
+baseline_correlated_03_cap32768,baseline_correlated,3,32768,baseline,joint,-515.3377168024001,69.13063050915464,baseline,True,False,True
+baseline_correlated_03_cap32768,baseline_correlated,3,32768,baseline,length,-302.8535516397641,59.78426097352965,baseline,True,False,True
+baseline_correlated_03_cap32768,baseline_correlated,3,32768,baseline,correctness_given_length,-212.48416516263603,24.15966206506811,baseline,True,False,True
+baseline_correlated_03_cap8192,baseline_correlated,3,8192,baseline,joint,-324.37096714734395,50.392318133564984,baseline,True,False,True
+baseline_correlated_03_cap8192,baseline_correlated,3,8192,baseline,length,-219.49777772869294,45.923855213114784,baseline,True,False,True
+baseline_correlated_03_cap8192,baseline_correlated,3,8192,baseline,correctness_given_length,-104.87318941865104,17.77813694751179,baseline,True,False,True
+baseline_correlated_04_cap32768,baseline_correlated,4,32768,baseline,joint,-958.5705316098965,77.69356060015274,baseline,True,False,True
+baseline_correlated_04_cap32768,baseline_correlated,4,32768,baseline,length,-347.8032165915033,62.62120421181316,baseline,True,False,True
+baseline_correlated_04_cap32768,baseline_correlated,4,32768,baseline,correctness_given_length,-610.7673150183932,36.53855905110659,baseline,True,False,True
+baseline_correlated_04_cap8192,baseline_correlated,4,8192,baseline,joint,-788.5843492883187,70.76037440317174,baseline,True,False,True
+baseline_correlated_04_cap8192,baseline_correlated,4,8192,baseline,length,-298.3793378695003,57.94396540413574,baseline,True,False,True
+baseline_correlated_04_cap8192,baseline_correlated,4,8192,baseline,correctness_given_length,-490.20501141881834,34.994273557192415,baseline,True,False,True
+baseline_correlated_05_cap32768,baseline_correlated,5,32768,baseline,joint,-893.8375272477867,82.43506482303044,baseline,True,False,True
+baseline_correlated_05_cap32768,baseline_correlated,5,32768,baseline,length,-437.85854995488967,66.55765028186836,baseline,True,False,True
+baseline_correlated_05_cap32768,baseline_correlated,5,32768,baseline,correctness_given_length,-455.97897729289707,33.961836151608715,baseline,True,False,True
+baseline_correlated_05_cap8192,baseline_correlated,5,8192,baseline,joint,-680.0849418644059,68.37818770155975,baseline,True,False,True
+baseline_correlated_05_cap8192,baseline_correlated,5,8192,baseline,length,-361.3676723006561,57.67107836675725,baseline,True,False,True
+baseline_correlated_05_cap8192,baseline_correlated,5,8192,baseline,correctness_given_length,-318.7172695637497,28.870417078059415,baseline,True,False,True
+baseline_correlated_06_cap32768,baseline_correlated,6,32768,baseline,joint,-521.9462682391459,66.71696558311979,baseline,True,False,True
+baseline_correlated_06_cap32768,baseline_correlated,6,32768,baseline,length,-313.81882393146486,55.2730484175084,baseline,True,False,True
+baseline_correlated_06_cap32768,baseline_correlated,6,32768,baseline,correctness_given_length,-208.12744430768097,24.683136469886968,baseline,True,False,True
+baseline_correlated_06_cap8192,baseline_correlated,6,8192,baseline,joint,-348.50296579435866,53.883015842788154,baseline,True,False,True
+baseline_correlated_06_cap8192,baseline_correlated,6,8192,baseline,length,-234.7849684892067,47.51407761651636,baseline,True,False,True
+baseline_correlated_06_cap8192,baseline_correlated,6,8192,baseline,correctness_given_length,-113.71799730515195,18.97998041586667,baseline,True,False,True
+baseline_correlated_07_cap32768,baseline_correlated,7,32768,baseline,joint,-988.7403567919554,75.91121817592325,fit failure,False,False,False
+baseline_correlated_07_cap32768,baseline_correlated,7,32768,baseline,length,-351.35322180722926,52.36517625902549,fit failure,False,False,False
+baseline_correlated_07_cap32768,baseline_correlated,7,32768,baseline,correctness_given_length,-637.3871349847262,47.42351202160885,fit failure,False,False,False
+baseline_correlated_07_cap8192,baseline_correlated,7,8192,baseline,joint,-844.8559160253819,63.659703912437784,fit failure,False,False,False
+baseline_correlated_07_cap8192,baseline_correlated,7,8192,baseline,length,-301.4568476179374,44.99921790018358,fit failure,False,False,False
+baseline_correlated_07_cap8192,baseline_correlated,7,8192,baseline,correctness_given_length,-543.3990684074447,42.905729041569224,fit failure,False,False,False
+baseline_correlated_08_cap32768,baseline_correlated,8,32768,baseline,joint,-323.8438045763461,49.26390534734362,baseline,True,False,True
+baseline_correlated_08_cap32768,baseline_correlated,8,32768,baseline,length,-229.562588476043,42.79786612234855,baseline,True,False,True
+baseline_correlated_08_cap32768,baseline_correlated,8,32768,baseline,correctness_given_length,-94.28121610030311,15.946120505558952,baseline,True,False,True
+baseline_correlated_08_cap8192,baseline_correlated,8,8192,baseline,joint,-197.8188132015089,36.41569646787101,baseline,True,False,True
+baseline_correlated_08_cap8192,baseline_correlated,8,8192,baseline,length,-156.60937642301482,33.18482112857269,baseline,True,False,True
+baseline_correlated_08_cap8192,baseline_correlated,8,8192,baseline,correctness_given_length,-41.20943677849411,11.190591428342294,baseline,True,False,True
+baseline_correlated_09_cap32768,baseline_correlated,9,32768,baseline,joint,-648.9816224496313,66.7777172916836,baseline,True,False,True
+baseline_correlated_09_cap32768,baseline_correlated,9,32768,baseline,length,-344.7611777639478,51.70329179279719,baseline,True,False,True
+baseline_correlated_09_cap32768,baseline_correlated,9,32768,baseline,correctness_given_length,-304.22044468568356,30.528443775854385,baseline,True,False,True
+baseline_correlated_09_cap8192,baseline_correlated,9,8192,baseline,joint,-467.8475333788227,52.67962270756172,baseline,True,False,True
+baseline_correlated_09_cap8192,baseline_correlated,9,8192,baseline,length,-271.0249152974377,42.32768209070718,baseline,True,False,True
+baseline_correlated_09_cap8192,baseline_correlated,9,8192,baseline,correctness_given_length,-196.82261808138503,24.387620119520793,baseline,True,False,True
+baseline_correlated_10_cap32768,baseline_correlated,10,32768,baseline,joint,-677.2855752972108,84.81637693173701,baseline,True,False,True
+baseline_correlated_10_cap32768,baseline_correlated,10,32768,baseline,length,-389.48904893143845,74.63091242572895,baseline,True,False,True
+baseline_correlated_10_cap32768,baseline_correlated,10,32768,baseline,correctness_given_length,-287.79652636577237,31.747147116307556,baseline,True,False,True
+baseline_correlated_10_cap8192,baseline_correlated,10,8192,baseline,joint,-413.4850058712534,70.42971741239316,baseline,True,False,True
+baseline_correlated_10_cap8192,baseline_correlated,10,8192,baseline,length,-301.45470053786676,67.13105541435658,baseline,True,False,True
+baseline_correlated_10_cap8192,baseline_correlated,10,8192,baseline,correctness_given_length,-112.03030533338661,21.725662426185444,baseline,True,False,True
+baseline_correlated_11_cap32768,baseline_correlated,11,32768,baseline,joint,-657.5498661790022,79.5625580023906,baseline,True,False,True
+baseline_correlated_11_cap32768,baseline_correlated,11,32768,baseline,length,-337.57585606063986,60.686801330943254,baseline,True,False,True
+baseline_correlated_11_cap32768,baseline_correlated,11,32768,baseline,correctness_given_length,-319.97401011836234,31.75291034060974,baseline,True,False,True
+baseline_correlated_11_cap8192,baseline_correlated,11,8192,baseline,joint,-425.3720294883853,61.49777973156712,baseline,True,False,True
+baseline_correlated_11_cap8192,baseline_correlated,11,8192,baseline,length,-249.95902133004034,45.976185303679216,baseline,True,False,True
+baseline_correlated_11_cap8192,baseline_correlated,11,8192,baseline,correctness_given_length,-175.413008158345,28.95942357324144,baseline,True,False,True
+baseline_correlated_12_cap32768,baseline_correlated,12,32768,baseline,joint,-968.4781155331777,81.40548402710519,baseline,True,False,True
+baseline_correlated_12_cap32768,baseline_correlated,12,32768,baseline,length,-451.4652062086725,62.406884180907745,baseline,True,False,True
+baseline_correlated_12_cap32768,baseline_correlated,12,32768,baseline,correctness_given_length,-517.0129093245052,31.00260168599335,baseline,True,False,True
+baseline_correlated_12_cap8192,baseline_correlated,12,8192,baseline,joint,-744.3078335155687,63.24677613712389,baseline,True,False,True
+baseline_correlated_12_cap8192,baseline_correlated,12,8192,baseline,length,-394.3867984567311,52.09724665453176,baseline,True,False,True
+baseline_correlated_12_cap8192,baseline_correlated,12,8192,baseline,correctness_given_length,-349.92103505883756,25.85552130476801,baseline,True,False,True
+baseline_correlated_13_cap32768,baseline_correlated,13,32768,baseline,joint,-1304.6771039928153,115.43985805224244,fit failure,False,False,False
+baseline_correlated_13_cap32768,baseline_correlated,13,32768,baseline,length,-628.648180598055,108.78109577472944,fit failure,False,False,False
+baseline_correlated_13_cap32768,baseline_correlated,13,32768,baseline,correctness_given_length,-676.0289233947603,41.61165584107518,fit failure,False,False,False
+baseline_correlated_13_cap8192,baseline_correlated,13,8192,baseline,joint,-1061.5080004114498,106.97599391379303,fit failure,False,False,False
+baseline_correlated_13_cap8192,baseline_correlated,13,8192,baseline,length,-587.8019131501816,100.87832671701254,fit failure,False,False,False
+baseline_correlated_13_cap8192,baseline_correlated,13,8192,baseline,correctness_given_length,-473.70608726126807,37.165207888489405,fit failure,False,False,False
+baseline_correlated_14_cap32768,baseline_correlated,14,32768,baseline,joint,-670.8189524823454,79.37815603695475,baseline,True,False,True
+baseline_correlated_14_cap32768,baseline_correlated,14,32768,baseline,length,-395.3828286622356,66.73404838353406,baseline,True,False,True
+baseline_correlated_14_cap32768,baseline_correlated,14,32768,baseline,correctness_given_length,-275.43612382010974,25.31391222780529,baseline,True,False,True
+baseline_correlated_14_cap8192,baseline_correlated,14,8192,baseline,joint,-393.679594637391,62.1087340437091,baseline,True,False,True
+baseline_correlated_14_cap8192,baseline_correlated,14,8192,baseline,length,-281.0280883670162,59.46979015914142,baseline,True,False,True
+baseline_correlated_14_cap8192,baseline_correlated,14,8192,baseline,correctness_given_length,-112.65150627037485,16.123216298859784,baseline,True,False,True
+baseline_correlated_15_cap32768,baseline_correlated,15,32768,baseline,joint,-1253.6907808528495,91.76407364763864,fit failure,False,False,False
+baseline_correlated_15_cap32768,baseline_correlated,15,32768,baseline,length,-375.07234938794636,75.91129072975824,fit failure,False,False,False
+baseline_correlated_15_cap32768,baseline_correlated,15,32768,baseline,correctness_given_length,-878.6184314649031,40.89727126435991,fit failure,False,False,False
+baseline_correlated_15_cap8192,baseline_correlated,15,8192,baseline,joint,-957.5871955771892,82.90733936581748,fit failure,False,False,False
+baseline_correlated_15_cap8192,baseline_correlated,15,8192,baseline,length,-289.6786077086818,68.4687992453936,fit failure,False,False,False
+baseline_correlated_15_cap8192,baseline_correlated,15,8192,baseline,correctness_given_length,-667.9085878685073,38.76172064227139,fit failure,False,False,False
+baseline_correlated_16_cap32768,baseline_correlated,16,32768,baseline,joint,-249.45031907334223,48.15860866588231,baseline,True,False,True
+baseline_correlated_16_cap32768,baseline_correlated,16,32768,baseline,length,-177.06615776901026,43.396343315088636,baseline,True,False,True
+baseline_correlated_16_cap32768,baseline_correlated,16,32768,baseline,correctness_given_length,-72.38416130433201,16.887065713707553,baseline,True,False,True
+baseline_correlated_16_cap8192,baseline_correlated,16,8192,baseline,joint,-160.08870989138398,38.29978101744652,baseline,True,False,True
+baseline_correlated_16_cap8192,baseline_correlated,16,8192,baseline,length,-133.52561852344363,35.63570417530323,baseline,True,False,True
+baseline_correlated_16_cap8192,baseline_correlated,16,8192,baseline,correctness_given_length,-26.56309136794038,15.83285001069768,inconclusive,False,False,True
+baseline_correlated_17_cap32768,baseline_correlated,17,32768,baseline,joint,-602.3209184825289,72.52528266528621,baseline,True,False,True
+baseline_correlated_17_cap32768,baseline_correlated,17,32768,baseline,length,-385.65043826993855,61.94882625184827,baseline,True,False,True
+baseline_correlated_17_cap32768,baseline_correlated,17,32768,baseline,correctness_given_length,-216.67048021259046,23.9013052900282,baseline,True,False,True
+baseline_correlated_17_cap8192,baseline_correlated,17,8192,baseline,joint,-415.7528018564634,57.73027824305002,baseline,True,False,True
+baseline_correlated_17_cap8192,baseline_correlated,17,8192,baseline,length,-277.87810398233114,51.38385230941634,baseline,True,False,True
+baseline_correlated_17_cap8192,baseline_correlated,17,8192,baseline,correctness_given_length,-137.87469787413232,19.20786374622718,baseline,True,False,True
+baseline_correlated_18_cap32768,baseline_correlated,18,32768,baseline,joint,-791.55654736149,74.34969807295278,baseline,True,False,True
+baseline_correlated_18_cap32768,baseline_correlated,18,32768,baseline,length,-391.0333834050596,58.49933750908313,baseline,True,False,True
+baseline_correlated_18_cap32768,baseline_correlated,18,32768,baseline,correctness_given_length,-400.52316395643027,32.07897330603347,baseline,True,False,True
+baseline_correlated_18_cap8192,baseline_correlated,18,8192,baseline,joint,-523.8401565317224,56.19164821871091,baseline,True,False,True
+baseline_correlated_18_cap8192,baseline_correlated,18,8192,baseline,length,-302.40272179180795,48.596613001911194,baseline,True,False,True
+baseline_correlated_18_cap8192,baseline_correlated,18,8192,baseline,correctness_given_length,-221.43743473991458,24.3171932055652,baseline,True,False,True
+baseline_correlated_19_cap32768,baseline_correlated,19,32768,baseline,joint,-652.9879345213998,80.76998123016664,baseline,True,False,True
+baseline_correlated_19_cap32768,baseline_correlated,19,32768,baseline,length,-332.904415253508,67.51791691081883,baseline,True,False,True
+baseline_correlated_19_cap32768,baseline_correlated,19,32768,baseline,correctness_given_length,-320.0835192678919,26.49917492293066,baseline,True,False,True
+baseline_correlated_19_cap8192,baseline_correlated,19,8192,baseline,joint,-421.2371848772967,64.26825153906341,baseline,True,False,True
+baseline_correlated_19_cap8192,baseline_correlated,19,8192,baseline,length,-249.69883065765146,57.903830721549184,baseline,True,False,True
+baseline_correlated_19_cap8192,baseline_correlated,19,8192,baseline,correctness_given_length,-171.53835421964527,20.917226831008783,baseline,True,False,True
+baseline_contaminated_00_cap32768,baseline_contaminated,0,32768,baseline,joint,-336.65152029019225,66.1807613234274,baseline,True,False,True
+baseline_contaminated_00_cap32768,baseline_contaminated,0,32768,baseline,length,-207.847569549203,52.305073187765956,baseline,True,False,True
+baseline_contaminated_00_cap32768,baseline_contaminated,0,32768,baseline,correctness_given_length,-128.80395074098925,25.151916162559154,baseline,True,False,True
+baseline_contaminated_00_cap8192,baseline_contaminated,0,8192,baseline,joint,-242.20286765589213,56.692436897306415,baseline,True,False,True
+baseline_contaminated_00_cap8192,baseline_contaminated,0,8192,baseline,length,-153.35281898623168,46.414055005605924,baseline,True,False,True
+baseline_contaminated_00_cap8192,baseline_contaminated,0,8192,baseline,correctness_given_length,-88.85004866966044,20.53843356527821,baseline,True,False,True
+baseline_contaminated_01_cap32768,baseline_contaminated,1,32768,baseline,joint,-545.134517685879,72.00136099361443,baseline,True,False,True
+baseline_contaminated_01_cap32768,baseline_contaminated,1,32768,baseline,length,-325.4855123300935,54.199468373840986,baseline,True,False,True
+baseline_contaminated_01_cap32768,baseline_contaminated,1,32768,baseline,correctness_given_length,-219.64900535578548,36.5491420338484,baseline,True,False,True
+baseline_contaminated_01_cap8192,baseline_contaminated,1,8192,baseline,joint,-464.7892631054667,63.14243682428337,baseline,True,False,True
+baseline_contaminated_01_cap8192,baseline_contaminated,1,8192,baseline,length,-278.1454213871216,48.92021231536018,baseline,True,False,True
+baseline_contaminated_01_cap8192,baseline_contaminated,1,8192,baseline,correctness_given_length,-186.64384171834524,31.06488688566512,baseline,True,False,True
+baseline_contaminated_02_cap32768,baseline_contaminated,2,32768,baseline,joint,-524.765973079875,75.32472695580816,baseline,True,False,True
+baseline_contaminated_02_cap32768,baseline_contaminated,2,32768,baseline,length,-273.37235200315973,60.34871009535448,baseline,True,False,True
+baseline_contaminated_02_cap32768,baseline_contaminated,2,32768,baseline,correctness_given_length,-251.39362107671522,31.559888466238007,baseline,True,False,True
+baseline_contaminated_02_cap8192,baseline_contaminated,2,8192,baseline,joint,-369.98076662628256,63.00532651503022,baseline,True,False,True
+baseline_contaminated_02_cap8192,baseline_contaminated,2,8192,baseline,length,-207.70524147628328,55.31262488454119,baseline,True,False,True
+baseline_contaminated_02_cap8192,baseline_contaminated,2,8192,baseline,correctness_given_length,-162.27552514999937,24.37796197207766,baseline,True,False,True
+baseline_contaminated_03_cap32768,baseline_contaminated,3,32768,baseline,joint,-425.98763524167066,72.45379625325543,baseline,True,False,True
+baseline_contaminated_03_cap32768,baseline_contaminated,3,32768,baseline,length,-239.32160528417432,57.03646228682446,baseline,True,False,True
+baseline_contaminated_03_cap32768,baseline_contaminated,3,32768,baseline,correctness_given_length,-186.66602995749628,30.902940015577332,baseline,True,False,True
+baseline_contaminated_03_cap8192,baseline_contaminated,3,8192,baseline,joint,-312.5799901216347,59.70452196414101,baseline,True,False,True
+baseline_contaminated_03_cap8192,baseline_contaminated,3,8192,baseline,length,-179.01682775266892,50.608274738451065,baseline,True,False,True
+baseline_contaminated_03_cap8192,baseline_contaminated,3,8192,baseline,correctness_given_length,-133.5631623689658,24.29635713006826,baseline,True,False,True
+baseline_contaminated_04_cap32768,baseline_contaminated,4,32768,baseline,joint,-1058.9966766339116,85.4656214760912,fit failure,False,False,False
+baseline_contaminated_04_cap32768,baseline_contaminated,4,32768,baseline,length,-371.5067484404077,63.46023674655163,fit failure,False,False,False
+baseline_contaminated_04_cap32768,baseline_contaminated,4,32768,baseline,correctness_given_length,-687.489928193504,37.989414452140885,fit failure,False,False,False
+baseline_contaminated_04_cap8192,baseline_contaminated,4,8192,baseline,joint,-827.9987247810981,75.38775867490708,fit failure,False,False,False
+baseline_contaminated_04_cap8192,baseline_contaminated,4,8192,baseline,length,-306.88361944125404,54.75258777586995,fit failure,False,False,False
+baseline_contaminated_04_cap8192,baseline_contaminated,4,8192,baseline,correctness_given_length,-521.1151053398441,36.011345896640975,fit failure,False,False,False
+baseline_contaminated_05_cap32768,baseline_contaminated,5,32768,baseline,joint,-437.45189097144623,63.13003976160524,fit failure,False,False,False
+baseline_contaminated_05_cap32768,baseline_contaminated,5,32768,baseline,length,-196.11164288313608,49.04843381283294,fit failure,False,False,False
+baseline_contaminated_05_cap32768,baseline_contaminated,5,32768,baseline,correctness_given_length,-241.34024808831018,32.76870990713578,fit failure,False,False,False
+baseline_contaminated_05_cap8192,baseline_contaminated,5,8192,baseline,joint,-269.2110201923583,49.987276045880925,baseline,True,False,True
+baseline_contaminated_05_cap8192,baseline_contaminated,5,8192,baseline,length,-136.83708179157625,41.74399844533444,baseline,True,False,True
+baseline_contaminated_05_cap8192,baseline_contaminated,5,8192,baseline,correctness_given_length,-132.37393840078207,25.169883561058494,baseline,True,False,True
+baseline_contaminated_06_cap32768,baseline_contaminated,6,32768,baseline,joint,-618.6958722831771,70.96238051227787,baseline,True,False,True
+baseline_contaminated_06_cap32768,baseline_contaminated,6,32768,baseline,length,-326.99133897286515,55.94006660162691,baseline,True,False,True
+baseline_contaminated_06_cap32768,baseline_contaminated,6,32768,baseline,correctness_given_length,-291.70453331031194,36.837616465575515,baseline,True,False,True
+baseline_contaminated_06_cap8192,baseline_contaminated,6,8192,baseline,joint,-312.41583682890894,53.85972525931738,baseline,True,False,True
+baseline_contaminated_06_cap8192,baseline_contaminated,6,8192,baseline,length,-207.36691101030453,48.26535687781968,baseline,True,False,True
+baseline_contaminated_06_cap8192,baseline_contaminated,6,8192,baseline,correctness_given_length,-105.0489258186044,26.69474838630782,baseline,True,False,True
+baseline_contaminated_07_cap32768,baseline_contaminated,7,32768,baseline,joint,-343.50935128293975,72.6066414283885,baseline,True,False,True
+baseline_contaminated_07_cap32768,baseline_contaminated,7,32768,baseline,length,-148.81504114404783,58.45178288280203,baseline,True,False,True
+baseline_contaminated_07_cap32768,baseline_contaminated,7,32768,baseline,correctness_given_length,-194.69431013889192,26.907200930002304,baseline,True,False,True
+baseline_contaminated_07_cap8192,baseline_contaminated,7,8192,baseline,joint,-244.7316277678844,58.02127116861099,baseline,True,False,True
+baseline_contaminated_07_cap8192,baseline_contaminated,7,8192,baseline,length,-113.0200510540646,48.85454163515067,baseline,True,False,True
+baseline_contaminated_07_cap8192,baseline_contaminated,7,8192,baseline,correctness_given_length,-131.7115767138198,20.594829061493872,baseline,True,False,True
+baseline_contaminated_08_cap32768,baseline_contaminated,8,32768,baseline,joint,-321.18726545062907,67.57132685081079,baseline,True,False,True
+baseline_contaminated_08_cap32768,baseline_contaminated,8,32768,baseline,length,-227.28619703679612,56.54071432341509,baseline,True,False,True
+baseline_contaminated_08_cap32768,baseline_contaminated,8,32768,baseline,correctness_given_length,-93.90106841383295,28.14043002045648,baseline,True,False,True
+baseline_contaminated_08_cap8192,baseline_contaminated,8,8192,baseline,joint,-267.4549502097021,59.968365274451045,baseline,True,False,True
+baseline_contaminated_08_cap8192,baseline_contaminated,8,8192,baseline,length,-209.38504869750642,52.716910006068396,baseline,True,False,True
+baseline_contaminated_08_cap8192,baseline_contaminated,8,8192,baseline,correctness_given_length,-58.069901512195656,21.4748551495409,baseline,True,False,True
+baseline_contaminated_09_cap32768,baseline_contaminated,9,32768,baseline,joint,-625.2680562839082,69.47827308132925,fit failure,False,False,False
+baseline_contaminated_09_cap32768,baseline_contaminated,9,32768,baseline,length,-301.7525228008036,54.23451542247918,fit failure,False,False,False
+baseline_contaminated_09_cap32768,baseline_contaminated,9,32768,baseline,correctness_given_length,-323.5155334831046,36.92311675763033,fit failure,False,False,False
+baseline_contaminated_09_cap8192,baseline_contaminated,9,8192,baseline,joint,-469.2540475001014,60.279988805849705,baseline,True,False,True
+baseline_contaminated_09_cap8192,baseline_contaminated,9,8192,baseline,length,-220.02924352314415,46.57564487732068,baseline,True,False,True
+baseline_contaminated_09_cap8192,baseline_contaminated,9,8192,baseline,correctness_given_length,-249.22480397695733,32.60085955758598,baseline,True,False,True
+baseline_contaminated_10_cap32768,baseline_contaminated,10,32768,baseline,joint,-371.75642145967,74.03176276720701,baseline,True,False,True
+baseline_contaminated_10_cap32768,baseline_contaminated,10,32768,baseline,length,-238.8339217985097,57.241041505976796,baseline,True,False,True
+baseline_contaminated_10_cap32768,baseline_contaminated,10,32768,baseline,correctness_given_length,-132.92249966116032,32.766048233992116,baseline,True,False,True
+baseline_contaminated_10_cap8192,baseline_contaminated,10,8192,baseline,joint,-238.36256894795034,63.32236512620482,baseline,True,False,True
+baseline_contaminated_10_cap8192,baseline_contaminated,10,8192,baseline,length,-143.79028844416973,51.5555013708162,baseline,True,False,True
+baseline_contaminated_10_cap8192,baseline_contaminated,10,8192,baseline,correctness_given_length,-94.57228050378058,25.346541644072857,baseline,True,False,True
+baseline_contaminated_11_cap32768,baseline_contaminated,11,32768,baseline,joint,-22.092362702054313,54.9805770369011,inconclusive,False,False,True
+baseline_contaminated_11_cap32768,baseline_contaminated,11,32768,baseline,length,-26.70224597488418,44.18224210611118,inconclusive,False,False,True
+baseline_contaminated_11_cap32768,baseline_contaminated,11,32768,baseline,correctness_given_length,4.609883272829862,22.785883558343816,inconclusive,False,False,True
+baseline_contaminated_11_cap8192,baseline_contaminated,11,8192,baseline,joint,-9.180467927650596,46.606491326366516,inconclusive,False,False,True
+baseline_contaminated_11_cap8192,baseline_contaminated,11,8192,baseline,length,-3.4427813106316485,38.65342446125583,inconclusive,False,False,True
+baseline_contaminated_11_cap8192,baseline_contaminated,11,8192,baseline,correctness_given_length,-5.73768661701894,17.6689538061356,inconclusive,False,False,True
+baseline_contaminated_12_cap32768,baseline_contaminated,12,32768,baseline,joint,-587.9571481790422,80.03718856201928,baseline,True,False,True
+baseline_contaminated_12_cap32768,baseline_contaminated,12,32768,baseline,length,-293.63699583680557,63.424108230253864,baseline,True,False,True
+baseline_contaminated_12_cap32768,baseline_contaminated,12,32768,baseline,correctness_given_length,-294.3201523422366,35.20422125922254,baseline,True,False,True
+baseline_contaminated_12_cap8192,baseline_contaminated,12,8192,baseline,joint,-439.1965102696023,68.39561079610009,baseline,True,False,True
+baseline_contaminated_12_cap8192,baseline_contaminated,12,8192,baseline,length,-213.5664723075848,56.74042469808871,baseline,True,False,True
+baseline_contaminated_12_cap8192,baseline_contaminated,12,8192,baseline,correctness_given_length,-225.63003796201755,28.67418839106188,baseline,True,False,True
+baseline_contaminated_13_cap32768,baseline_contaminated,13,32768,baseline,joint,-740.0505828254486,71.55952279792832,fit failure,False,False,False
+baseline_contaminated_13_cap32768,baseline_contaminated,13,32768,baseline,length,-362.54088451117616,53.889182912808984,fit failure,False,False,False
+baseline_contaminated_13_cap32768,baseline_contaminated,13,32768,baseline,correctness_given_length,-377.5096983142724,36.51546656901421,fit failure,False,False,False
+baseline_contaminated_13_cap8192,baseline_contaminated,13,8192,baseline,joint,-642.5398103082682,62.63656250529327,fit failure,False,False,False
+baseline_contaminated_13_cap8192,baseline_contaminated,13,8192,baseline,length,-331.22506558902825,48.327280084679046,fit failure,False,False,False
+baseline_contaminated_13_cap8192,baseline_contaminated,13,8192,baseline,correctness_given_length,-311.31474471923997,33.977823389028195,fit failure,False,False,False
+baseline_contaminated_14_cap32768,baseline_contaminated,14,32768,baseline,joint,-959.8933242715534,76.62659397186926,fit failure,False,False,False
+baseline_contaminated_14_cap32768,baseline_contaminated,14,32768,baseline,length,-421.73895616965314,56.89867932845039,fit failure,False,False,False
+baseline_contaminated_14_cap32768,baseline_contaminated,14,32768,baseline,correctness_given_length,-538.1543681019003,38.45040522022526,fit failure,False,False,False
+baseline_contaminated_14_cap8192,baseline_contaminated,14,8192,baseline,joint,-780.4024176232102,70.59302792113766,fit failure,False,False,False
+baseline_contaminated_14_cap8192,baseline_contaminated,14,8192,baseline,length,-376.9884589084278,54.62869462943892,fit failure,False,False,False
+baseline_contaminated_14_cap8192,baseline_contaminated,14,8192,baseline,correctness_given_length,-403.4139587147825,35.82068309610213,fit failure,False,False,False
+baseline_contaminated_15_cap32768,baseline_contaminated,15,32768,baseline,joint,-405.63401282182497,69.05694372265486,baseline,True,False,True
+baseline_contaminated_15_cap32768,baseline_contaminated,15,32768,baseline,length,-223.70777059385904,53.502382913706214,baseline,True,False,True
+baseline_contaminated_15_cap32768,baseline_contaminated,15,32768,baseline,correctness_given_length,-181.926242227966,31.098689725936282,baseline,True,False,True
+baseline_contaminated_15_cap8192,baseline_contaminated,15,8192,baseline,joint,-251.48741658399507,57.03452588847851,baseline,True,False,True
+baseline_contaminated_15_cap8192,baseline_contaminated,15,8192,baseline,length,-148.80567326457057,46.9921503288439,baseline,True,False,True
+baseline_contaminated_15_cap8192,baseline_contaminated,15,8192,baseline,correctness_given_length,-102.68174331942447,24.561761463663384,baseline,True,False,True
+baseline_contaminated_16_cap32768,baseline_contaminated,16,32768,baseline,joint,-681.9894196781706,76.71963177927378,baseline,True,False,True
+baseline_contaminated_16_cap32768,baseline_contaminated,16,32768,baseline,length,-330.05792447386796,58.32641216472066,baseline,True,False,True
+baseline_contaminated_16_cap32768,baseline_contaminated,16,32768,baseline,correctness_given_length,-351.9314952043026,32.2958181401206,baseline,True,False,True
+baseline_contaminated_16_cap8192,baseline_contaminated,16,8192,baseline,joint,-421.7461805583497,59.24139748166988,baseline,True,False,True
+baseline_contaminated_16_cap8192,baseline_contaminated,16,8192,baseline,length,-240.61111081894475,49.064753936739216,baseline,True,False,True
+baseline_contaminated_16_cap8192,baseline_contaminated,16,8192,baseline,correctness_given_length,-181.13506973940494,25.744381984885415,baseline,True,False,True
+baseline_contaminated_17_cap32768,baseline_contaminated,17,32768,baseline,joint,-423.21844916561525,72.11743662394422,baseline,True,False,True
+baseline_contaminated_17_cap32768,baseline_contaminated,17,32768,baseline,length,-240.484557661781,57.15919644502674,baseline,True,False,True
+baseline_contaminated_17_cap32768,baseline_contaminated,17,32768,baseline,correctness_given_length,-182.73389150383434,30.159208349543274,baseline,True,False,True
+baseline_contaminated_17_cap8192,baseline_contaminated,17,8192,baseline,joint,-278.4244288777393,56.36664106774536,baseline,True,False,True
+baseline_contaminated_17_cap8192,baseline_contaminated,17,8192,baseline,length,-175.5550000249239,46.62929977086953,baseline,True,False,True
+baseline_contaminated_17_cap8192,baseline_contaminated,17,8192,baseline,correctness_given_length,-102.86942885281539,23.586048141573563,baseline,True,False,True
+baseline_contaminated_18_cap32768,baseline_contaminated,18,32768,baseline,joint,-345.7122178932447,71.47629644833101,baseline,True,False,True
+baseline_contaminated_18_cap32768,baseline_contaminated,18,32768,baseline,length,-169.55377672418257,56.59614091431797,baseline,True,False,True
+baseline_contaminated_18_cap32768,baseline_contaminated,18,32768,baseline,correctness_given_length,-176.15844116906214,25.73766015627192,baseline,True,False,True
+baseline_contaminated_18_cap8192,baseline_contaminated,18,8192,baseline,joint,-232.95695743027812,58.62884281218971,baseline,True,False,True
+baseline_contaminated_18_cap8192,baseline_contaminated,18,8192,baseline,length,-113.62021951506857,47.38173334013548,baseline,True,False,True
+baseline_contaminated_18_cap8192,baseline_contaminated,18,8192,baseline,correctness_given_length,-119.33673791520957,21.51590754035775,baseline,True,False,True
+baseline_contaminated_19_cap32768,baseline_contaminated,19,32768,baseline,joint,-780.7039319807919,68.49863072559222,fit failure,False,False,False
+baseline_contaminated_19_cap32768,baseline_contaminated,19,32768,baseline,length,-427.4305537763413,58.185616477047716,fit failure,False,False,False
+baseline_contaminated_19_cap32768,baseline_contaminated,19,32768,baseline,correctness_given_length,-353.27337820445064,37.49545380201488,fit failure,False,False,False
+baseline_contaminated_19_cap8192,baseline_contaminated,19,8192,baseline,joint,-493.816864059422,50.95204495060121,fit failure,False,False,False
+baseline_contaminated_19_cap8192,baseline_contaminated,19,8192,baseline,length,-324.20360666792243,44.58820191294046,fit failure,False,False,False
+baseline_contaminated_19_cap8192,baseline_contaminated,19,8192,baseline,correctness_given_length,-169.6132573914996,28.817351939294255,fit failure,False,False,False
+ddm_lognormal_questions_00_cap32768,ddm_lognormal_questions,0,32768,ddm,joint,132.03823556346276,65.17494151041282,ddm,True,False,True
+ddm_lognormal_questions_00_cap32768,ddm_lognormal_questions,0,32768,ddm,length,126.83585512450104,59.383677834953474,ddm,True,False,True
+ddm_lognormal_questions_00_cap32768,ddm_lognormal_questions,0,32768,ddm,correctness_given_length,5.202380438961757,17.608639202095294,inconclusive,False,False,True
+ddm_lognormal_questions_00_cap8192,ddm_lognormal_questions,0,8192,ddm,joint,158.38476453978294,57.727230991409016,ddm,True,False,True
+ddm_lognormal_questions_00_cap8192,ddm_lognormal_questions,0,8192,ddm,length,154.54477326534038,54.080934263158916,ddm,True,False,True
+ddm_lognormal_questions_00_cap8192,ddm_lognormal_questions,0,8192,ddm,correctness_given_length,3.8399912744425637,10.86410730902688,inconclusive,False,False,True
+ddm_lognormal_questions_01_cap32768,ddm_lognormal_questions,1,32768,ddm,joint,-66.70897857029155,71.13412032897023,fit failure,False,False,False
+ddm_lognormal_questions_01_cap32768,ddm_lognormal_questions,1,32768,ddm,length,21.826828439357506,62.79574207078927,fit failure,False,False,False
+ddm_lognormal_questions_01_cap32768,ddm_lognormal_questions,1,32768,ddm,correctness_given_length,-88.53580700964902,19.652543137302235,fit failure,False,False,False
+ddm_lognormal_questions_01_cap8192,ddm_lognormal_questions,1,8192,ddm,joint,7.825242345707991,58.96569349461939,inconclusive,False,False,True
+ddm_lognormal_questions_01_cap8192,ddm_lognormal_questions,1,8192,ddm,length,68.51329413808058,54.065260432204354,inconclusive,False,False,True
+ddm_lognormal_questions_01_cap8192,ddm_lognormal_questions,1,8192,ddm,correctness_given_length,-60.688051792372605,13.02530789197925,baseline,False,True,True
+ddm_lognormal_questions_02_cap32768,ddm_lognormal_questions,2,32768,ddm,joint,362.62777783783383,72.09951595984124,ddm,True,False,True
+ddm_lognormal_questions_02_cap32768,ddm_lognormal_questions,2,32768,ddm,length,299.3029742633871,63.39046886233207,ddm,True,False,True
+ddm_lognormal_questions_02_cap32768,ddm_lognormal_questions,2,32768,ddm,correctness_given_length,63.32480357444671,21.48587723730892,ddm,True,False,True
+ddm_lognormal_questions_02_cap8192,ddm_lognormal_questions,2,8192,ddm,joint,293.85726022196025,61.32132932110189,ddm,True,False,True
+ddm_lognormal_questions_02_cap8192,ddm_lognormal_questions,2,8192,ddm,length,315.7474671733444,58.582411922958215,ddm,True,False,True
+ddm_lognormal_questions_02_cap8192,ddm_lognormal_questions,2,8192,ddm,correctness_given_length,-21.890206951384158,14.152935305003194,inconclusive,False,False,True
+ddm_lognormal_questions_03_cap32768,ddm_lognormal_questions,3,32768,ddm,joint,-144.00237924319447,70.72785841596662,baseline,False,True,True
+ddm_lognormal_questions_03_cap32768,ddm_lognormal_questions,3,32768,ddm,length,-55.44467221450293,56.876049767591105,inconclusive,False,False,True
+ddm_lognormal_questions_03_cap32768,ddm_lognormal_questions,3,32768,ddm,correctness_given_length,-88.55770702869154,25.598112830358556,baseline,False,True,True
+ddm_lognormal_questions_03_cap8192,ddm_lognormal_questions,3,8192,ddm,joint,-123.89049374987553,58.53522328555759,baseline,False,True,True
+ddm_lognormal_questions_03_cap8192,ddm_lognormal_questions,3,8192,ddm,length,-37.244157282983224,49.70214409546852,inconclusive,False,False,True
+ddm_lognormal_questions_03_cap8192,ddm_lognormal_questions,3,8192,ddm,correctness_given_length,-86.64633646689232,20.685852890903433,baseline,False,True,True
+ddm_lognormal_questions_04_cap32768,ddm_lognormal_questions,4,32768,ddm,joint,-53.220201968532805,70.20701742697543,inconclusive,False,False,True
+ddm_lognormal_questions_04_cap32768,ddm_lognormal_questions,4,32768,ddm,length,-50.459413901918296,59.366670645137226,inconclusive,False,False,True
+ddm_lognormal_questions_04_cap32768,ddm_lognormal_questions,4,32768,ddm,correctness_given_length,-2.7607880666145306,23.485049324444162,inconclusive,False,False,True
+ddm_lognormal_questions_04_cap8192,ddm_lognormal_questions,4,8192,ddm,joint,-6.896510580430633,54.13788027936447,inconclusive,False,False,True
+ddm_lognormal_questions_04_cap8192,ddm_lognormal_questions,4,8192,ddm,length,16.550650514540987,49.09007666321133,inconclusive,False,False,True
+ddm_lognormal_questions_04_cap8192,ddm_lognormal_questions,4,8192,ddm,correctness_given_length,-23.44716109497163,16.15307585024075,inconclusive,False,False,True
+ddm_lognormal_questions_05_cap32768,ddm_lognormal_questions,5,32768,ddm,joint,230.23500378270006,72.90302125801728,fit failure,False,False,False
+ddm_lognormal_questions_05_cap32768,ddm_lognormal_questions,5,32768,ddm,length,239.29572995878058,65.15294116470764,fit failure,False,False,False
+ddm_lognormal_questions_05_cap32768,ddm_lognormal_questions,5,32768,ddm,correctness_given_length,-9.060726176080541,20.756072054566076,fit failure,False,False,False
+ddm_lognormal_questions_05_cap8192,ddm_lognormal_questions,5,8192,ddm,joint,264.8565775456966,64.57057459873894,ddm,True,False,True
+ddm_lognormal_questions_05_cap8192,ddm_lognormal_questions,5,8192,ddm,length,268.62437627504596,62.19215493666697,ddm,True,False,True
+ddm_lognormal_questions_05_cap8192,ddm_lognormal_questions,5,8192,ddm,correctness_given_length,-3.7677987293492716,13.220498027545814,inconclusive,False,False,True
+ddm_lognormal_questions_06_cap32768,ddm_lognormal_questions,6,32768,ddm,joint,375.3176730385839,71.15217369217973,ddm,True,False,True
+ddm_lognormal_questions_06_cap32768,ddm_lognormal_questions,6,32768,ddm,length,314.4040369790979,60.41306827933177,ddm,True,False,True
+ddm_lognormal_questions_06_cap32768,ddm_lognormal_questions,6,32768,ddm,correctness_given_length,60.91363605948598,23.716359791771076,ddm,True,False,True
+ddm_lognormal_questions_06_cap8192,ddm_lognormal_questions,6,8192,ddm,joint,300.4730531846647,60.82884868136916,ddm,True,False,True
+ddm_lognormal_questions_06_cap8192,ddm_lognormal_questions,6,8192,ddm,length,262.36191644874566,53.25851263383502,ddm,True,False,True
+ddm_lognormal_questions_06_cap8192,ddm_lognormal_questions,6,8192,ddm,correctness_given_length,38.11113673591905,18.371367155159366,ddm,True,False,True
+ddm_lognormal_questions_07_cap32768,ddm_lognormal_questions,7,32768,ddm,joint,3.389025271793244,75.01380431828396,inconclusive,False,False,True
+ddm_lognormal_questions_07_cap32768,ddm_lognormal_questions,7,32768,ddm,length,11.049619443876015,64.7258409795111,inconclusive,False,False,True
+ddm_lognormal_questions_07_cap32768,ddm_lognormal_questions,7,32768,ddm,correctness_given_length,-7.660594172082739,22.101514116653206,inconclusive,False,False,True
+ddm_lognormal_questions_07_cap8192,ddm_lognormal_questions,7,8192,ddm,joint,-10.403336460671817,65.12653831055867,inconclusive,False,False,True
+ddm_lognormal_questions_07_cap8192,ddm_lognormal_questions,7,8192,ddm,length,35.205007081445274,58.99284197918048,inconclusive,False,False,True
+ddm_lognormal_questions_07_cap8192,ddm_lognormal_questions,7,8192,ddm,correctness_given_length,-45.60834354211711,15.56585827120672,baseline,False,True,True
+ddm_lognormal_questions_08_cap32768,ddm_lognormal_questions,8,32768,ddm,joint,146.2115676208624,68.11657407631961,ddm,True,False,True
+ddm_lognormal_questions_08_cap32768,ddm_lognormal_questions,8,32768,ddm,length,122.99757800632369,59.77211461877781,ddm,True,False,True
+ddm_lognormal_questions_08_cap32768,ddm_lognormal_questions,8,32768,ddm,correctness_given_length,23.213989614538697,20.52053214329655,inconclusive,False,False,True
+ddm_lognormal_questions_08_cap8192,ddm_lognormal_questions,8,8192,ddm,joint,108.66884912173248,61.24999883269964,inconclusive,False,False,True
+ddm_lognormal_questions_08_cap8192,ddm_lognormal_questions,8,8192,ddm,length,115.7372534795065,56.279589973110866,ddm,True,False,True
+ddm_lognormal_questions_08_cap8192,ddm_lognormal_questions,8,8192,ddm,correctness_given_length,-7.06840435777406,14.831969036137156,inconclusive,False,False,True
+ddm_lognormal_questions_09_cap32768,ddm_lognormal_questions,9,32768,ddm,joint,-88.84982113439891,76.98837498438822,inconclusive,False,False,True
+ddm_lognormal_questions_09_cap32768,ddm_lognormal_questions,9,32768,ddm,length,17.63906831490318,63.65821852565629,inconclusive,False,False,True
+ddm_lognormal_questions_09_cap32768,ddm_lognormal_questions,9,32768,ddm,correctness_given_length,-106.48888944930209,24.605835807907464,baseline,False,True,True
+ddm_lognormal_questions_09_cap8192,ddm_lognormal_questions,9,8192,ddm,joint,-36.62472693255427,66.28706075529715,inconclusive,False,False,True
+ddm_lognormal_questions_09_cap8192,ddm_lognormal_questions,9,8192,ddm,length,40.47959998169861,57.29004853932116,inconclusive,False,False,True
+ddm_lognormal_questions_09_cap8192,ddm_lognormal_questions,9,8192,ddm,correctness_given_length,-77.10432691425288,19.42178387476967,baseline,False,True,True
+ddm_lognormal_questions_10_cap32768,ddm_lognormal_questions,10,32768,ddm,joint,201.4386261486813,76.16395394488664,ddm,True,False,True
+ddm_lognormal_questions_10_cap32768,ddm_lognormal_questions,10,32768,ddm,length,231.1954992556022,70.06812296668012,ddm,True,False,True
+ddm_lognormal_questions_10_cap32768,ddm_lognormal_questions,10,32768,ddm,correctness_given_length,-29.756873106920878,22.168318610681304,inconclusive,False,False,True
+ddm_lognormal_questions_10_cap8192,ddm_lognormal_questions,10,8192,ddm,joint,309.13171240607574,66.65020373948497,ddm,True,False,True
+ddm_lognormal_questions_10_cap8192,ddm_lognormal_questions,10,8192,ddm,length,305.56401103647454,63.7528407064998,ddm,True,False,True
+ddm_lognormal_questions_10_cap8192,ddm_lognormal_questions,10,8192,ddm,correctness_given_length,3.567701369601197,12.967139631938085,inconclusive,False,False,True
+ddm_lognormal_questions_11_cap32768,ddm_lognormal_questions,11,32768,ddm,joint,310.2361660276289,67.0968115801214,ddm,True,False,True
+ddm_lognormal_questions_11_cap32768,ddm_lognormal_questions,11,32768,ddm,length,258.93452466049604,61.38508430292588,ddm,True,False,True
+ddm_lognormal_questions_11_cap32768,ddm_lognormal_questions,11,32768,ddm,correctness_given_length,51.30164136713279,17.507891609749677,ddm,True,False,True
+ddm_lognormal_questions_11_cap8192,ddm_lognormal_questions,11,8192,ddm,joint,247.34002029302172,63.7499780547265,ddm,True,False,True
+ddm_lognormal_questions_11_cap8192,ddm_lognormal_questions,11,8192,ddm,length,212.46551566816964,59.92393984368481,ddm,True,False,True
+ddm_lognormal_questions_11_cap8192,ddm_lognormal_questions,11,8192,ddm,correctness_given_length,34.87450462485204,13.237514795519425,ddm,True,False,True
+ddm_lognormal_questions_12_cap32768,ddm_lognormal_questions,12,32768,ddm,joint,344.3468034142694,79.89506834562441,ddm,True,False,True
+ddm_lognormal_questions_12_cap32768,ddm_lognormal_questions,12,32768,ddm,length,370.36190056351177,75.04468852708072,ddm,True,False,True
+ddm_lognormal_questions_12_cap32768,ddm_lognormal_questions,12,32768,ddm,correctness_given_length,-26.01509714924241,14.638644221428837,inconclusive,False,False,True
+ddm_lognormal_questions_12_cap8192,ddm_lognormal_questions,12,8192,ddm,joint,301.52781572907656,73.3635724001118,ddm,True,False,True
+ddm_lognormal_questions_12_cap8192,ddm_lognormal_questions,12,8192,ddm,length,325.7646198057274,69.83094282328865,ddm,True,False,True
+ddm_lognormal_questions_12_cap8192,ddm_lognormal_questions,12,8192,ddm,correctness_given_length,-24.236804076650838,11.550111392177884,baseline,False,True,True
+ddm_lognormal_questions_13_cap32768,ddm_lognormal_questions,13,32768,ddm,joint,63.04946628791354,75.30020242181506,fit failure,False,False,False
+ddm_lognormal_questions_13_cap32768,ddm_lognormal_questions,13,32768,ddm,length,103.87064973581451,67.02324807803222,fit failure,False,False,False
+ddm_lognormal_questions_13_cap32768,ddm_lognormal_questions,13,32768,ddm,correctness_given_length,-40.82118344790099,19.248410717720997,fit failure,False,False,False
+ddm_lognormal_questions_13_cap8192,ddm_lognormal_questions,13,8192,ddm,joint,110.15518941649282,64.6441660042718,inconclusive,False,False,True
+ddm_lognormal_questions_13_cap8192,ddm_lognormal_questions,13,8192,ddm,length,141.51508884590066,60.1025194048523,ddm,True,False,True
+ddm_lognormal_questions_13_cap8192,ddm_lognormal_questions,13,8192,ddm,correctness_given_length,-31.359899429407875,11.477656757074294,baseline,False,True,True
+ddm_lognormal_questions_14_cap32768,ddm_lognormal_questions,14,32768,ddm,joint,-55.27142778627338,80.114514372189,inconclusive,False,False,True
+ddm_lognormal_questions_14_cap32768,ddm_lognormal_questions,14,32768,ddm,length,-3.139481579325036,65.52470906713721,inconclusive,False,False,True
+ddm_lognormal_questions_14_cap32768,ddm_lognormal_questions,14,32768,ddm,correctness_given_length,-52.131946206948406,27.674168142511764,inconclusive,False,False,True
+ddm_lognormal_questions_14_cap8192,ddm_lognormal_questions,14,8192,ddm,joint,-65.63585185173902,68.35507990199446,inconclusive,False,False,True
+ddm_lognormal_questions_14_cap8192,ddm_lognormal_questions,14,8192,ddm,length,11.4955254067415,59.681803257430026,inconclusive,False,False,True
+ddm_lognormal_questions_14_cap8192,ddm_lognormal_questions,14,8192,ddm,correctness_given_length,-77.13137725848057,18.275226976708108,baseline,False,True,True
+ddm_lognormal_questions_15_cap32768,ddm_lognormal_questions,15,32768,ddm,joint,36.08570725340598,71.15189093567241,inconclusive,False,False,True
+ddm_lognormal_questions_15_cap32768,ddm_lognormal_questions,15,32768,ddm,length,106.56180165268563,63.97653303492019,inconclusive,False,False,True
+ddm_lognormal_questions_15_cap32768,ddm_lognormal_questions,15,32768,ddm,correctness_given_length,-70.47609439927962,22.475180084245174,baseline,False,True,True
+ddm_lognormal_questions_15_cap8192,ddm_lognormal_questions,15,8192,ddm,joint,126.35948919733809,59.80073660589756,ddm,True,False,True
+ddm_lognormal_questions_15_cap8192,ddm_lognormal_questions,15,8192,ddm,length,178.458961208789,55.918814329224645,ddm,True,False,True
+ddm_lognormal_questions_15_cap8192,ddm_lognormal_questions,15,8192,ddm,correctness_given_length,-52.099472011450885,16.653056403659477,baseline,False,True,True
+ddm_lognormal_questions_16_cap32768,ddm_lognormal_questions,16,32768,ddm,joint,168.47088211733896,69.73933583701056,fit failure,False,False,False
+ddm_lognormal_questions_16_cap32768,ddm_lognormal_questions,16,32768,ddm,length,197.0609357899817,64.49746062334003,fit failure,False,False,False
+ddm_lognormal_questions_16_cap32768,ddm_lognormal_questions,16,32768,ddm,correctness_given_length,-28.590053672642767,17.81774143891115,fit failure,False,False,False
+ddm_lognormal_questions_16_cap8192,ddm_lognormal_questions,16,8192,ddm,joint,146.40949556471276,66.03719530741049,ddm,True,False,True
+ddm_lognormal_questions_16_cap8192,ddm_lognormal_questions,16,8192,ddm,length,175.52706524261657,60.41742264609307,ddm,True,False,True
+ddm_lognormal_questions_16_cap8192,ddm_lognormal_questions,16,8192,ddm,correctness_given_length,-29.117569677903845,16.330985121075837,inconclusive,False,False,True
+ddm_lognormal_questions_17_cap32768,ddm_lognormal_questions,17,32768,ddm,joint,156.02043783498607,79.48140806694174,inconclusive,False,False,True
+ddm_lognormal_questions_17_cap32768,ddm_lognormal_questions,17,32768,ddm,length,105.26241991968108,70.22342474789966,inconclusive,False,False,True
+ddm_lognormal_questions_17_cap32768,ddm_lognormal_questions,17,32768,ddm,correctness_given_length,50.758017915305025,23.386031783458243,ddm,True,False,True
+ddm_lognormal_questions_17_cap8192,ddm_lognormal_questions,17,8192,ddm,joint,130.0302733949677,69.03383585160361,inconclusive,False,False,True
+ddm_lognormal_questions_17_cap8192,ddm_lognormal_questions,17,8192,ddm,length,138.53392683505433,65.51102200594804,ddm,True,False,True
+ddm_lognormal_questions_17_cap8192,ddm_lognormal_questions,17,8192,ddm,correctness_given_length,-8.503653440086651,15.073607731919097,inconclusive,False,False,True
+ddm_lognormal_questions_18_cap32768,ddm_lognormal_questions,18,32768,ddm,joint,347.6286931391387,68.90103081158631,ddm,True,False,True
+ddm_lognormal_questions_18_cap32768,ddm_lognormal_questions,18,32768,ddm,length,316.0042662810605,64.65128540582835,ddm,True,False,True
+ddm_lognormal_questions_18_cap32768,ddm_lognormal_questions,18,32768,ddm,correctness_given_length,31.624426858078316,17.132007692010326,inconclusive,False,False,True
+ddm_lognormal_questions_18_cap8192,ddm_lognormal_questions,18,8192,ddm,joint,298.307677388577,64.10671447270418,ddm,True,False,True
+ddm_lognormal_questions_18_cap8192,ddm_lognormal_questions,18,8192,ddm,length,292.7927381797705,60.96561302845282,ddm,True,False,True
+ddm_lognormal_questions_18_cap8192,ddm_lognormal_questions,18,8192,ddm,correctness_given_length,5.514939208806567,10.065819748292418,inconclusive,False,False,True
+ddm_lognormal_questions_19_cap32768,ddm_lognormal_questions,19,32768,ddm,joint,6.442462825172694,75.3556827442501,inconclusive,False,False,True
+ddm_lognormal_questions_19_cap32768,ddm_lognormal_questions,19,32768,ddm,length,23.10409084241405,66.7935272950265,inconclusive,False,False,True
+ddm_lognormal_questions_19_cap32768,ddm_lognormal_questions,19,32768,ddm,correctness_given_length,-16.661628017241345,22.10517462096778,inconclusive,False,False,True
+ddm_lognormal_questions_19_cap8192,ddm_lognormal_questions,19,8192,ddm,joint,25.847750612120382,64.19751758368339,inconclusive,False,False,True
+ddm_lognormal_questions_19_cap8192,ddm_lognormal_questions,19,8192,ddm,length,56.04795450719445,60.02697784970432,inconclusive,False,False,True
+ddm_lognormal_questions_19_cap8192,ddm_lognormal_questions,19,8192,ddm,correctness_given_length,-30.200203895074093,15.025193947601075,baseline,False,True,True
+ddm_low_variation_00_cap32768,ddm_low_variation,0,32768,ddm,joint,50.8934268455717,12.606120139574605,fit failure,False,False,False
+ddm_low_variation_00_cap32768,ddm_low_variation,0,32768,ddm,length,44.951285034324776,12.61873199666184,fit failure,False,False,False
+ddm_low_variation_00_cap32768,ddm_low_variation,0,32768,ddm,correctness_given_length,5.942141811246797,0.10305942072400838,fit failure,False,False,False
+ddm_low_variation_00_cap8192,ddm_low_variation,0,8192,ddm,joint,20.02052903018518,5.963499695040776,ddm,True,False,True
+ddm_low_variation_00_cap8192,ddm_low_variation,0,8192,ddm,length,13.280011447835633,5.9529434796952865,ddm,True,False,True
+ddm_low_variation_00_cap8192,ddm_low_variation,0,8192,ddm,correctness_given_length,6.740517582349464,0.2844847253486563,ddm,True,False,True
+ddm_low_variation_01_cap32768,ddm_low_variation,1,32768,ddm,joint,32.67667536145609,9.221585080989817,fit failure,False,False,False
+ddm_low_variation_01_cap32768,ddm_low_variation,1,32768,ddm,length,26.83081269402105,9.224820948138579,fit failure,False,False,False
+ddm_low_variation_01_cap32768,ddm_low_variation,1,32768,ddm,correctness_given_length,5.845862667434872,0.09123038439626194,fit failure,False,False,False
+ddm_low_variation_01_cap8192,ddm_low_variation,1,8192,ddm,joint,24.90430858319271,7.986489250192866,fit failure,False,False,False
+ddm_low_variation_01_cap8192,ddm_low_variation,1,8192,ddm,length,18.517784056695344,7.9826651892138125,fit failure,False,False,False
+ddm_low_variation_01_cap8192,ddm_low_variation,1,8192,ddm,correctness_given_length,6.386524526497243,0.16184225877625955,fit failure,False,False,False
+ddm_low_variation_02_cap32768,ddm_low_variation,2,32768,ddm,joint,107.19712817839775,21.905002703592295,ddm,True,False,True
+ddm_low_variation_02_cap32768,ddm_low_variation,2,32768,ddm,length,101.47019668651805,21.89583348706061,ddm,True,False,True
+ddm_low_variation_02_cap32768,ddm_low_variation,2,32768,ddm,correctness_given_length,5.726931491879581,0.08980074720020649,ddm,True,False,True
+ddm_low_variation_02_cap8192,ddm_low_variation,2,8192,ddm,joint,10.798794364376146,4.174123244190253,ddm,True,False,True
+ddm_low_variation_02_cap8192,ddm_low_variation,2,8192,ddm,length,4.047738964564335,4.183139529496436,inconclusive,False,False,True
+ddm_low_variation_02_cap8192,ddm_low_variation,2,8192,ddm,correctness_given_length,6.751055399811731,0.2771621879366614,ddm,True,False,True
+ddm_low_variation_03_cap32768,ddm_low_variation,3,32768,ddm,joint,133.6020385757805,26.924831554753066,ddm,True,False,True
+ddm_low_variation_03_cap32768,ddm_low_variation,3,32768,ddm,length,128.15113446133077,26.92527888648406,ddm,True,False,True
+ddm_low_variation_03_cap32768,ddm_low_variation,3,32768,ddm,correctness_given_length,5.450904114449601,0.1182183346362308,ddm,True,False,True
+ddm_low_variation_03_cap8192,ddm_low_variation,3,8192,ddm,joint,14.359231257117026,6.964061680163163,ddm,True,False,True
+ddm_low_variation_03_cap8192,ddm_low_variation,3,8192,ddm,length,7.80905779323685,6.905692763579626,inconclusive,False,False,True
+ddm_low_variation_03_cap8192,ddm_low_variation,3,8192,ddm,correctness_given_length,6.550173463880112,0.30395281669573215,ddm,True,False,True
+ddm_low_variation_04_cap32768,ddm_low_variation,4,32768,ddm,joint,34.242947955805974,11.467884290871735,fit failure,False,False,False
+ddm_low_variation_04_cap32768,ddm_low_variation,4,32768,ddm,length,28.156852721961723,11.47025429731932,fit failure,False,False,False
+ddm_low_variation_04_cap32768,ddm_low_variation,4,32768,ddm,correctness_given_length,6.086095233844115,0.08746849529084742,fit failure,False,False,False
+ddm_low_variation_04_cap8192,ddm_low_variation,4,8192,ddm,joint,18.350622526042383,6.896990454568891,ddm,True,False,True
+ddm_low_variation_04_cap8192,ddm_low_variation,4,8192,ddm,length,11.533125842892577,6.897161969015035,inconclusive,False,False,True
+ddm_low_variation_04_cap8192,ddm_low_variation,4,8192,ddm,correctness_given_length,6.8174966831497,0.21677222650700348,ddm,True,False,True
+ddm_low_variation_05_cap32768,ddm_low_variation,5,32768,ddm,joint,90.52344722866214,27.82217021960594,ddm,True,False,True
+ddm_low_variation_05_cap32768,ddm_low_variation,5,32768,ddm,length,84.58860727989176,27.829573837679597,ddm,True,False,True
+ddm_low_variation_05_cap32768,ddm_low_variation,5,32768,ddm,correctness_given_length,5.934839948770247,0.1038832504627844,ddm,True,False,True
+ddm_low_variation_05_cap8192,ddm_low_variation,5,8192,ddm,joint,13.145646452638166,5.532874321544465,ddm,True,False,True
+ddm_low_variation_05_cap8192,ddm_low_variation,5,8192,ddm,length,6.379446213303434,5.524578803456968,inconclusive,False,False,True
+ddm_low_variation_05_cap8192,ddm_low_variation,5,8192,ddm,correctness_given_length,6.766200239334658,0.24612923681680532,ddm,True,False,True
+ddm_low_variation_06_cap32768,ddm_low_variation,6,32768,ddm,joint,382.7646601501715,39.00306488053038,fit failure,False,False,False
+ddm_low_variation_06_cap32768,ddm_low_variation,6,32768,ddm,length,376.7951834604104,39.032093900975376,fit failure,False,False,False
+ddm_low_variation_06_cap32768,ddm_low_variation,6,32768,ddm,correctness_given_length,5.969476689760937,0.18242877633259463,fit failure,False,False,False
+ddm_low_variation_06_cap8192,ddm_low_variation,6,8192,ddm,joint,203.28446829372336,22.436069309658233,fit failure,False,False,False
+ddm_low_variation_06_cap8192,ddm_low_variation,6,8192,ddm,length,196.7246519304647,22.501612664854807,fit failure,False,False,False
+ddm_low_variation_06_cap8192,ddm_low_variation,6,8192,ddm,correctness_given_length,6.559816363258557,0.32185218134896515,fit failure,False,False,False
+ddm_low_variation_07_cap32768,ddm_low_variation,7,32768,ddm,joint,128.61082934509352,19.165206804149964,ddm,True,False,True
+ddm_low_variation_07_cap32768,ddm_low_variation,7,32768,ddm,length,122.07330044768106,19.334890411975767,ddm,True,False,True
+ddm_low_variation_07_cap32768,ddm_low_variation,7,32768,ddm,correctness_given_length,6.537528897412377,1.3651009499371791,ddm,True,False,True
+ddm_low_variation_07_cap8192,ddm_low_variation,7,8192,ddm,joint,6.68856973305217,4.529378699898271,inconclusive,False,False,True
+ddm_low_variation_07_cap8192,ddm_low_variation,7,8192,ddm,length,0.18691205325193838,4.487409004650886,inconclusive,False,False,True
+ddm_low_variation_07_cap8192,ddm_low_variation,7,8192,ddm,correctness_given_length,6.501657679800159,0.2969500632723136,ddm,True,False,True
+ddm_low_variation_08_cap32768,ddm_low_variation,8,32768,ddm,joint,191.7532340349814,23.019341114295184,fit failure,False,False,False
+ddm_low_variation_08_cap32768,ddm_low_variation,8,32768,ddm,length,185.8493235093317,23.031164343845322,fit failure,False,False,False
+ddm_low_variation_08_cap32768,ddm_low_variation,8,32768,ddm,correctness_given_length,5.903910525649574,0.08966919891363775,fit failure,False,False,False
+ddm_low_variation_08_cap8192,ddm_low_variation,8,8192,ddm,joint,36.59846813900977,7.589140561975194,ddm,True,False,True
+ddm_low_variation_08_cap8192,ddm_low_variation,8,8192,ddm,length,29.809011890604214,7.606165652527005,ddm,True,False,True
+ddm_low_variation_08_cap8192,ddm_low_variation,8,8192,ddm,correctness_given_length,6.789456248405479,0.2819834217360859,ddm,True,False,True
+ddm_low_variation_09_cap32768,ddm_low_variation,9,32768,ddm,joint,149.87350872605094,19.708962677143585,ddm,True,False,True
+ddm_low_variation_09_cap32768,ddm_low_variation,9,32768,ddm,length,143.94609772507442,19.733148307795535,ddm,True,False,True
+ddm_low_variation_09_cap32768,ddm_low_variation,9,32768,ddm,correctness_given_length,5.9274110009763605,0.08644058060505197,ddm,True,False,True
+ddm_low_variation_09_cap8192,ddm_low_variation,9,8192,ddm,joint,110.30803373648064,15.722353537129308,fit failure,False,False,False
+ddm_low_variation_09_cap8192,ddm_low_variation,9,8192,ddm,length,104.0021446873594,15.747175675494868,fit failure,False,False,False
+ddm_low_variation_09_cap8192,ddm_low_variation,9,8192,ddm,correctness_given_length,6.305889049121134,0.15063249763250255,fit failure,False,False,False
+ddm_low_variation_10_cap32768,ddm_low_variation,10,32768,ddm,joint,73.32234716712011,12.54194349025933,fit failure,False,False,False
+ddm_low_variation_10_cap32768,ddm_low_variation,10,32768,ddm,length,66.98934148534374,12.547760842278999,fit failure,False,False,False
+ddm_low_variation_10_cap32768,ddm_low_variation,10,32768,ddm,correctness_given_length,6.33300568177623,0.16001890234507435,fit failure,False,False,False
+ddm_low_variation_10_cap8192,ddm_low_variation,10,8192,ddm,joint,73.43428932719044,12.340454130999188,ddm,True,False,True
+ddm_low_variation_10_cap8192,ddm_low_variation,10,8192,ddm,length,67.03794873803483,12.342463158605149,ddm,True,False,True
+ddm_low_variation_10_cap8192,ddm_low_variation,10,8192,ddm,correctness_given_length,6.396340589155478,0.16805514770167165,ddm,True,False,True
+ddm_low_variation_11_cap32768,ddm_low_variation,11,32768,ddm,joint,128.59619130933663,19.667622988819467,fit failure,False,False,False
+ddm_low_variation_11_cap32768,ddm_low_variation,11,32768,ddm,length,122.91095140483115,19.688748990106436,fit failure,False,False,False
+ddm_low_variation_11_cap32768,ddm_low_variation,11,32768,ddm,correctness_given_length,5.6852399045053055,0.1732729095276012,fit failure,False,False,False
+ddm_low_variation_11_cap8192,ddm_low_variation,11,8192,ddm,joint,111.53260131623098,17.27688306178485,fit failure,False,False,False
+ddm_low_variation_11_cap8192,ddm_low_variation,11,8192,ddm,length,105.46650571816201,17.295471766263155,fit failure,False,False,False
+ddm_low_variation_11_cap8192,ddm_low_variation,11,8192,ddm,correctness_given_length,6.066095598068843,0.17792564206886413,fit failure,False,False,False
+ddm_low_variation_12_cap32768,ddm_low_variation,12,32768,ddm,joint,61.93849228815821,12.680927323250994,ddm,True,False,True
+ddm_low_variation_12_cap32768,ddm_low_variation,12,32768,ddm,length,56.41641811218955,12.681468210727013,ddm,True,False,True
+ddm_low_variation_12_cap32768,ddm_low_variation,12,32768,ddm,correctness_given_length,5.522074175968511,0.10548756531345788,ddm,True,False,True
+ddm_low_variation_12_cap8192,ddm_low_variation,12,8192,ddm,joint,2.7286765434935027,6.504902476934925,inconclusive,False,False,True
+ddm_low_variation_12_cap8192,ddm_low_variation,12,8192,ddm,length,-3.917164717364137,6.439302532646895,inconclusive,False,False,True
+ddm_low_variation_12_cap8192,ddm_low_variation,12,8192,ddm,correctness_given_length,6.645841260857574,0.3214397558101632,ddm,True,False,True
+ddm_low_variation_13_cap32768,ddm_low_variation,13,32768,ddm,joint,66.08652720166299,13.67341905836352,fit failure,False,False,False
+ddm_low_variation_13_cap32768,ddm_low_variation,13,32768,ddm,length,59.94081864752707,13.684538587554346,fit failure,False,False,False
+ddm_low_variation_13_cap32768,ddm_low_variation,13,32768,ddm,correctness_given_length,6.145708554135789,0.09825266858927882,fit failure,False,False,False
+ddm_low_variation_13_cap8192,ddm_low_variation,13,8192,ddm,joint,59.65333612777448,11.564032045776491,fit failure,False,False,False
+ddm_low_variation_13_cap8192,ddm_low_variation,13,8192,ddm,length,53.12968159985756,11.567969862959156,fit failure,False,False,False
+ddm_low_variation_13_cap8192,ddm_low_variation,13,8192,ddm,correctness_given_length,6.523654527916813,0.14761342073528055,fit failure,False,False,False
+ddm_low_variation_14_cap32768,ddm_low_variation,14,32768,ddm,joint,309.67955038123614,35.98748876901772,fit failure,False,False,False
+ddm_low_variation_14_cap32768,ddm_low_variation,14,32768,ddm,length,303.60603670802766,35.99999501812988,fit failure,False,False,False
+ddm_low_variation_14_cap32768,ddm_low_variation,14,32768,ddm,correctness_given_length,6.07351367320841,0.09558691416457293,fit failure,False,False,False
+ddm_low_variation_14_cap8192,ddm_low_variation,14,8192,ddm,joint,59.93206066138356,10.076703802655667,ddm,True,False,True
+ddm_low_variation_14_cap8192,ddm_low_variation,14,8192,ddm,length,53.079025965298484,10.123028498736963,ddm,True,False,True
+ddm_low_variation_14_cap8192,ddm_low_variation,14,8192,ddm,correctness_given_length,6.853034696085002,0.25822527106571225,ddm,True,False,True
+ddm_low_variation_15_cap32768,ddm_low_variation,15,32768,ddm,joint,205.37485321584717,24.94781128579158,ddm,True,False,True
+ddm_low_variation_15_cap32768,ddm_low_variation,15,32768,ddm,length,199.28160513137377,24.951745700342695,ddm,True,False,True
+ddm_low_variation_15_cap32768,ddm_low_variation,15,32768,ddm,correctness_given_length,6.093248084473293,0.11905633279989469,ddm,True,False,True
+ddm_low_variation_15_cap8192,ddm_low_variation,15,8192,ddm,joint,116.32883590787077,17.224161091814064,ddm,True,False,True
+ddm_low_variation_15_cap8192,ddm_low_variation,15,8192,ddm,length,109.63968065383983,17.240208180639478,ddm,True,False,True
+ddm_low_variation_15_cap8192,ddm_low_variation,15,8192,ddm,correctness_given_length,6.689155254030877,0.21167727992381247,ddm,True,False,True
+ddm_low_variation_16_cap32768,ddm_low_variation,16,32768,ddm,joint,597.7055773111492,46.64585733360177,fit failure,False,False,False
+ddm_low_variation_16_cap32768,ddm_low_variation,16,32768,ddm,length,593.0113936496089,46.59237683808455,fit failure,False,False,False
+ddm_low_variation_16_cap32768,ddm_low_variation,16,32768,ddm,correctness_given_length,4.694183661540444,1.9576888152326037,fit failure,False,False,False
+ddm_low_variation_16_cap8192,ddm_low_variation,16,8192,ddm,joint,139.87067609961463,19.11674173815887,ddm,True,False,True
+ddm_low_variation_16_cap8192,ddm_low_variation,16,8192,ddm,length,135.2169443837521,18.96432947464997,ddm,True,False,True
+ddm_low_variation_16_cap8192,ddm_low_variation,16,8192,ddm,correctness_given_length,4.653731715862477,2.2331516096148962,ddm,True,False,True
+ddm_low_variation_17_cap32768,ddm_low_variation,17,32768,ddm,joint,33.30831871447218,11.77150380088762,ddm,True,False,True
+ddm_low_variation_17_cap32768,ddm_low_variation,17,32768,ddm,length,27.722321522979698,11.778394481095777,ddm,True,False,True
+ddm_low_variation_17_cap32768,ddm_low_variation,17,32768,ddm,correctness_given_length,5.58599719149235,0.10466524690685582,ddm,True,False,True
+ddm_low_variation_17_cap8192,ddm_low_variation,17,8192,ddm,joint,5.469969119127374,5.3965903017574055,inconclusive,False,False,True
+ddm_low_variation_17_cap8192,ddm_low_variation,17,8192,ddm,length,-1.074369078992286,5.34977574772752,inconclusive,False,False,True
+ddm_low_variation_17_cap8192,ddm_low_variation,17,8192,ddm,correctness_given_length,6.5443381981196085,0.2936613886931655,ddm,True,False,True
+ddm_low_variation_18_cap32768,ddm_low_variation,18,32768,ddm,joint,212.76657282061848,24.4294838385435,fit failure,False,False,False
+ddm_low_variation_18_cap32768,ddm_low_variation,18,32768,ddm,length,206.9534005729264,24.438122147867702,fit failure,False,False,False
+ddm_low_variation_18_cap32768,ddm_low_variation,18,32768,ddm,correctness_given_length,5.813172247691937,0.08039185114513502,fit failure,False,False,False
+ddm_low_variation_18_cap8192,ddm_low_variation,18,8192,ddm,joint,47.952292245252536,8.81875521881556,ddm,True,False,True
+ddm_low_variation_18_cap8192,ddm_low_variation,18,8192,ddm,length,41.19790975250427,8.858949622030595,ddm,True,False,True
+ddm_low_variation_18_cap8192,ddm_low_variation,18,8192,ddm,correctness_given_length,6.754382492748174,0.2671875844898762,ddm,True,False,True
+ddm_low_variation_19_cap32768,ddm_low_variation,19,32768,ddm,joint,89.34333084965266,22.861023635732558,ddm,True,False,True
+ddm_low_variation_19_cap32768,ddm_low_variation,19,32768,ddm,length,83.57376780932178,22.863008181130485,ddm,True,False,True
+ddm_low_variation_19_cap32768,ddm_low_variation,19,32768,ddm,correctness_given_length,5.769563040330772,0.13029886958532147,ddm,True,False,True
+ddm_low_variation_19_cap8192,ddm_low_variation,19,8192,ddm,joint,-0.9535326515089562,5.075212471376983,inconclusive,False,False,True
+ddm_low_variation_19_cap8192,ddm_low_variation,19,8192,ddm,length,-7.650543989461725,5.043154291194954,inconclusive,False,False,True
+ddm_low_variation_19_cap8192,ddm_low_variation,19,8192,ddm,correctness_given_length,6.69701133795269,0.2841967507668193,ddm,True,False,True

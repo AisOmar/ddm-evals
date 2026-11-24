@@ -1,0 +1,14 @@
+{
+  "label": "augmented_task_fold3_two_process",
+  "seconds": 409.23813700675964,
+  "divergences": 0,
+  "max_rhat": 1.0283653690200314,
+  "min_ess": 86.701036141868,
+  "draws": 2000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

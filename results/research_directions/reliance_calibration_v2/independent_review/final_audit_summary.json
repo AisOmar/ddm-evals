@@ -1,0 +1,59 @@
+{
+  "review_type": "Fresh-context AI review, not a human expert review or an independently trained model. The reviewer received the two masked packets and task instructions only, and did not read any answer keys, author audits, generator code, protocol/revision logs, or other question artifacts.",
+  "input_sha256": {
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/semantic_revision/calibration_masked_review.json": "259e401931c2bd9230bd7c73965f5cbe29b82757076344b0de7622cde786f161",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/semantic_revision/reserved_masked_review.json": "9aa235c4493f336713ffc49d1cd3e080d6f8385cd025727c225339512bafdd1f"
+  },
+  "items_reviewed": 48,
+  "unique_answer_count": 48,
+  "chosen_letters": {
+    "B": 24,
+    "A": 24
+  },
+  "dispositions": {
+    "repair": 48
+  },
+  "by_packet": {
+    "calibration": {
+      "chosen_letters": {
+        "B": 12,
+        "A": 12
+      },
+      "count": 24
+    },
+    "reserved": {
+      "chosen_letters": {
+        "B": 12,
+        "A": 12
+      },
+      "count": 24
+    }
+  },
+  "summary": [
+    "All 48 visible stems define a unique numerical answer and exactly one of the two alternatives matches an independent solution. No answer-key comparison was performed.",
+    "Two different computational procedures agreed per item. This verifies numerical correctness while leaving empirical human/model difficulty unmeasured.",
+    "All 48 tasks are mostly computation. Four procedural templates account for all items; within-family questions are parameter substitutions, and reserved items reproduce the calibration procedures. This is narrow numerical-task coverage, with likely learning and family clustering.",
+    "Difficulty is markedly heterogeneous: subset counting is very burdensome without tools; recurrence needs many routine updates; urn questions need exact rational arithmetic; shortest-path questions are substantially easier, with forward-only graphs and some optimal direct edges.",
+    "All 48 option pairs are numerical near-neighbours (integer or numerator gap 1 or 2). Distractors mostly represent small arithmetic errors rather than alternative reasoning. This may fit exact numerical reliance but is weak coverage of broader judgment or conceptual reasoning.",
+    "Recommend diversifying task structures, using plausible conceptual/procedural distractors, balancing answer positions independently of family/packet, and piloting without tools. Rewriting changes item difficulty and must precede calibration.",
+    "All eight packet-by-family sequences are B,A,B,A,B,A. Suffix parity predicts 48/48 derived answers despite balanced 24/24 marginal letter counts. Independently assign irregular option positions and remap keys before calibration."
+  ],
+  "audit_status": "BLIND REVIEW COMPLETE; NO KEYS OPENED; POSITION REPAIR REQUIRED BEFORE CALIBRATION",
+  "initial_dispositions": {
+    "repair": 36,
+    "retain": 12
+  },
+  "arithmetic_validity": "All 48 answers are unique, match one displayed alternative, and agree between two independent computational methods per family. No substantive ambiguity found.",
+  "critical_option_cue": "All eight packet-by-family sequences are B,A,B,A,B,A. Suffix parity predicts 48/48 derived answers despite balanced 24/24 marginal letter counts. Independently assign irregular option positions and remap keys before calibration.",
+  "expected_difficulty_without_tools": {
+    "recurrence": "High arithmetic workload: 38\u201360 updates for index 40\u201362, standard method, error prone.",
+    "subset_count": "Very high bookkeeping workload: 2002 candidate subsets per item; dynamic programming is possible but demanding by hand.",
+    "shortest_path": "Low to moderate: nine-node directed acyclic graphs with increasing vertex labels; three items have an optimal direct 0-to-8 edge.",
+    "urn_posterior": "Moderate to high: routine hypergeometric/Bayes setup with substantial exact-fraction arithmetic; near-neighbour alternatives make precision decisive."
+  },
+  "overlap_and_scope": "All 48 are mostly computation. Four repeated families, each with six calibration and six reserved variants, offer narrow structural coverage. Calibrating on one half may train the procedure needed in the reserved half; family clustering and transfer should be considered in interpretation.",
+  "recommendation_for_current_scope": "Repair displayed option positions on all 48. Stems are arithmetically valid, so text changes are not required for correctness. The original 36 repair judgments were construct/difficulty design concerns, not mathematical failures; they remain interpretation limits if stems are retained.",
+  "pilot_limit": "Human/model tool-free difficulty was not empirically tested; expectations are qualitative. Computational agreement is not a substitute for a calibration pilot.",
+  "lowest_terms_option_cue": "None found: all 24 urn option fractions are reduced.",
+  "initial_and_addendum_preserved": true
+}

@@ -1,0 +1,120 @@
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+                              wrong (n=22)  correct (n=275)
+hidden_tokens                    11127.955         4481.029
+n_segments                         273.136          116.244
+n_flips                              4.636            4.425
+n_backtrack                         28.591           13.011
+n_reconsider                        48.182           13.953
+n_check                              3.955            2.713
+n_stuck                              4.091            0.825
+commit_frac                          0.790            0.766
+correct_value_mentioned              0.864            0.916
+final_leaning_matches_answer         0.773            0.960
+stuck_per_k                          0.756            0.256
+back_per_k                           3.340            2.426
+{'answered_runs': 297, 'unanswered_runs': 165, 'unanswered_with_leaning': 0.5151515151515151, 'unanswered_leaning_correct': 0.4588235294117647, 'first_leaning_correct_then_correct': 0.9315789473684211, 'first_leaning_wrong_then_correct': 0.9158878504672897, 'wrong_answers_with_correct_value_in_trace': 0.8636363636363636}
+                  term   mean     lo     hi  odds_ratio  p_positive
+0            intercept -3.289 -4.333 -2.332       0.037       0.000
+1          log_ktokens  1.143  0.764  1.544       3.135       1.000
+2              compute -4.386 -5.668 -3.192       0.012       0.000
+3             scaffold -0.605 -0.908 -0.297       0.546       0.000
+4             thorough -0.357 -0.664 -0.048       0.700       0.011
+5            backtrack -0.670 -0.997 -0.352       0.512       0.000
+6           reconsider -0.394 -0.792 -0.006       0.675       0.023
+7                check -0.652 -1.059 -0.247       0.521       0.001
+8                stuck -1.128 -1.851 -0.479       0.324       0.000
+9          has_leaning  3.125  2.631  3.636      22.756       1.000
+10       flip_in_block -0.888 -1.242 -0.527       0.412       0.000
+11  log1p_flips_so_far  1.530  1.253  1.813       4.618       1.000
+       kbin  blocks  stops  obs_hazard  pred_hazard  stuck_rate  backtrack_rate  leaning_rate
+0    (0, 2]    2482    142       0.057        0.049       0.044           0.351         0.266
+1    (2, 4]    2078     40       0.019        0.038       0.033           0.489         0.197
+2    (4, 8]    3374     48       0.014        0.026       0.035           0.493         0.152
+3   (8, 12]    1264     25       0.020        0.038       0.037           0.487         0.191
+4  (12, 16]     706     17       0.024        0.067       0.084           0.449         0.232
+5  (16, 24]     654     25       0.038        0.144       0.063           0.411         0.344
+6  (24, 33]      28      0       0.000        0.273       0.036           0.214         0.357
+{'label': 'flip_blocks', 'seconds': 44.57386589050293, 'divergences': 0, 'max_rhat': 1.0043780419683075, 'min_ess': 1185.1479385704183, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+                 term   mean     lo     hi  odds_ratio  p_positive
+0           intercept -1.338 -1.871 -0.801       0.262       0.000
+1         log_ktokens -0.096 -0.323  0.136       0.908       0.212
+2             compute  0.009 -0.689  0.753       1.009       0.502
+3            scaffold  0.088 -0.119  0.301       1.092       0.794
+4            thorough  0.040 -0.173  0.255       1.041       0.646
+5           backtrack  0.211 -0.011  0.438       1.235       0.967
+6          reconsider  0.206 -0.062  0.479       1.229       0.938
+7               check  0.073 -0.208  0.339       1.076       0.690
+8               stuck  0.410 -0.019  0.826       1.507       0.970
+9  log1p_flips_so_far  0.309  0.139  0.478       1.362       1.000
+{'label': 'monitor_length_fold0', 'seconds': 9.074671745300293, 'divergences': 0, 'max_rhat': 1.0023222633706628, 'min_ess': 2177.4667415156073, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_length_fold1', 'seconds': 5.802193880081177, 'divergences': 0, 'max_rhat': 1.0058774185114683, 'min_ess': 2172.500104034326, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_length_fold2', 'seconds': 8.722958087921143, 'divergences': 0, 'max_rhat': 1.0025672671560808, 'min_ess': 2317.7839884423206, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_length_fold3', 'seconds': 8.60041880607605, 'divergences': 0, 'max_rhat': 1.0048787586219952, 'min_ess': 2852.294593741632, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_length_fold4', 'seconds': 9.277206897735596, 'divergences': 0, 'max_rhat': 1.006066699338548, 'min_ess': 2345.379680604119, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_trace_fold0', 'seconds': 9.54332685470581, 'divergences': 0, 'max_rhat': 1.0043384865296432, 'min_ess': 1351.3361227031294, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_trace_fold1', 'seconds': 9.238411903381348, 'divergences': 0, 'max_rhat': 1.0067195820476504, 'min_ess': 2445.957998415954, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_trace_fold2', 'seconds': 6.863202095031738, 'divergences': 0, 'max_rhat': 1.005235297857548, 'min_ess': 1224.326017113501, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_trace_fold3', 'seconds': 9.140789031982422, 'divergences': 0, 'max_rhat': 1.004000225482563, 'min_ess': 1153.6576372973402, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_trace_fold4', 'seconds': 11.469236850738525, 'divergences': 0, 'max_rhat': 1.0081561265569794, 'min_ess': 1131.4883064908583, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_prefix_fold0', 'seconds': 8.780011653900146, 'divergences': 0, 'max_rhat': 1.0045998656527038, 'min_ess': 1908.4130677611156, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_prefix_fold1', 'seconds': 9.145980834960938, 'divergences': 0, 'max_rhat': 1.0066457779060227, 'min_ess': 1377.4722782749398, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_prefix_fold2', 'seconds': 8.13569712638855, 'divergences': 0, 'max_rhat': 1.0031882441889832, 'min_ess': 1742.5137958907785, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_prefix_fold3', 'seconds': 8.301583051681519, 'divergences': 0, 'max_rhat': 1.0050879072353809, 'min_ess': 1943.0109280612028, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+/Users/aisuluomar/Downloads/ddm-evals/scripts/08_robustness.py:209: FutureWarning: `nuts_sampler_kwargs` is deprecated. Pass NUTS keyword arguments via the `nuts={...}` argument to `pm.sample`.
+  idata=pm.sample(draws=args.draws,tune=args.tune,chains=chains,cores=chains,
+NUTS[numpyro]: [intercept, beta, tau_question, u]
+{'label': 'monitor_prefix_fold4', 'seconds': 5.45004415512085, 'divergences': 0, 'max_rhat': 1.0052699793864432, 'min_ess': 1751.9782884455353, 'draws': 1000, 'chains': 4, 'tune': 1000, 'target_accept': 0.95, 'dense_mass': False, 'random_seed': 20261006, 'centered_effects': False}
+                 monitor    n  errors  log_score  log_score_per_run  brier    auc
+0                 length  297      22    -76.104             -0.256  0.065  0.697
+1                  trace  297      22    -57.574             -0.194  0.057  0.873
+2                 prefix  297      22    -91.533             -0.308  0.076  0.503
+3  constant (prevalence)  297      22    -78.423             -0.264  0.069  0.500
+        comparison  diff    se
+0   trace - length  18.5  14.6
+1  prefix - length -15.4   3.5
+2   trace - prefix  34.0  16.1
+wrote /Users/aisuluomar/Downloads/ddm-evals/results/within_trace/REPORT.md

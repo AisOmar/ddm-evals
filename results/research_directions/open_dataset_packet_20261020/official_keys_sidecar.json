@@ -1,0 +1,142 @@
+[
+  {
+    "review_id": "G01",
+    "source_index_zero_based": 1102,
+    "official_solution": "She charged $85.00 on her card and just returned a $15.00 purchase so right now, her credit card has 85-15 = $<<85-15=70.00>>70.00 balance\nThe frying pan is 20% off of $20.00 so .20*20.00 = $<<20*.01*20=4.00>>4.00\nThe frying pan costs $20.00 and the discount price is $4.00 so the new price is 20-4=$<<20-4=16.00>>16.00\nThe towel set is 10% off of $30.00 so .10*30 = $<<10*.01*30=3.00>>3.00\nThe towel set costs $30.00 and the discount price is $3.00 so the new price is 30-3= $<<30-3=27.00>>27.00\nHer new purchases total 16+27 = $$<<16+27=43.00>>43.00\nAfter the return, her card balance was $70.00 and she just added $43.00 in purchases so her new balance is 70+43 = $<<70+43=113.00>>113.00\n#### 113",
+    "source_file": "gsm8k_test.jsonl",
+    "source_url": "https://github.com/openai/grade-school-math/blob/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl"
+  },
+  {
+    "review_id": "G02",
+    "source_index_zero_based": 1221,
+    "official_solution": "To make 80 meatballs, Aiden will need 80 / 16 = <<80/16=5>>5 pounds of meat.\nAiden will need 5 * 2 = <<5*2=10>>10 tablespoons of his secret steakhouse seasoning to make 80 meatballs.\n#### 10",
+    "source_file": "gsm8k_test.jsonl",
+    "source_url": "https://github.com/openai/grade-school-math/blob/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl"
+  },
+  {
+    "review_id": "G03",
+    "source_index_zero_based": 1041,
+    "official_solution": "Multiply the number of people who want chicken salad by the cost per person, so the cost is 10 x $6.50 = $<<10*6.5=65>>65.\nMultiply the amount of people who want pasta salad by the cost per person, so the cost is 6 x $6.00 = $<<6*6=36>>36.\nThe total cost of chicken salad and pasta salad is $65 + $36 = $<<65+36=101>>101.\n#### 101",
+    "source_file": "gsm8k_test.jsonl",
+    "source_url": "https://github.com/openai/grade-school-math/blob/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl"
+  },
+  {
+    "review_id": "G04",
+    "source_index_zero_based": 750,
+    "official_solution": "During weekdays, a total of 60 x 5 = <<60*5=300>>300 chairs are rented.\nDuring the weekends, a total of 100 x 2 = <<100*2=200>>200 chairs are rented.\nIn a week, 300 + 200 = <<300+200=500>>500 chairs are rented.\nSince there are 4 weeks in a month, 500 x 4 = <<500*4=2000>>2000 chairs are rented in a month.\nThus, a total of 2000 x 2 = <<2000*2=4000>>4000 chairs are rented in two months.\n#### 4000",
+    "source_file": "gsm8k_test.jsonl",
+    "source_url": "https://github.com/openai/grade-school-math/blob/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl"
+  },
+  {
+    "review_id": "G05",
+    "source_index_zero_based": 322,
+    "official_solution": "There are a total of 26 - 2 = <<26-2=24>>24 pencils in the three boxes.\nThus, each box can contain 24 / 3 = <<24/3=8>>8 pencils.\nTogether, Jam and Meg have 26 + 46 = <<26+46=72>>72 pencils.\nTherefore, they need 72 / 8 = <<72/8=9>>9 boxes to put in all their pencils.\n#### 9",
+    "source_file": "gsm8k_test.jsonl",
+    "source_url": "https://github.com/openai/grade-school-math/blob/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl"
+  },
+  {
+    "review_id": "G06",
+    "source_index_zero_based": 369,
+    "official_solution": "The cost per picture frame is $20 * 1.20 = $<<20*1.20=24>>24.\nTotal cost for the senior's picture frames is 44 seniors * $24 = $<<44*24=1056>>1056.\nThe cost for pins will be 2 seniors * $5 = $<<2*5=10>>10.\nThe number of seniors receiving cords is 1/4 * 44 = <<1/4*44=11>>11 seniors.\nThe total cost of cords is 11 seniors * $12 = $<<11*12=132>>132.\nThe total cost of gifts for seniors is $1056 + $10 + $132 = $<<1056+10+132=1198>>1198.\n#### 1198",
+    "source_file": "gsm8k_test.jsonl",
+    "source_url": "https://github.com/openai/grade-school-math/blob/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl"
+  },
+  {
+    "review_id": "G07",
+    "source_index_zero_based": 1298,
+    "official_solution": "There are 32/4 = <<32/4=8>>8 dollars in quarters.\nThere are 95/10 = <<95/10=9.5>>9.5 dollars in dimes.\nThere are 120/20 = <<120/20=6>>6 dollars in nickels.\nThere are 750/100 = <<750/100=7.5>>7.5 dollars in pennies.\nAltogether there are 8+9.5+6+7.5 = <<8+9.5+6+7.5=31>>31 dollars in the jar.\n#### 31",
+    "source_file": "gsm8k_test.jsonl",
+    "source_url": "https://github.com/openai/grade-school-math/blob/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl"
+  },
+  {
+    "review_id": "G08",
+    "source_index_zero_based": 247,
+    "official_solution": "Isabelle spent 12 + 43 + 15 + 4 + 22 = $<<12+43+15+4+22=96>>96 on party supplies.\nThe cost was evenly split 3 ways, so each person paid 96 / 3 = $<<96/3=32>>32.\n#### 32",
+    "source_file": "gsm8k_test.jsonl",
+    "source_url": "https://github.com/openai/grade-school-math/blob/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl"
+  },
+  {
+    "review_id": "G09",
+    "source_index_zero_based": 1229,
+    "official_solution": "In November, the toy's price was $<<40=40>>40.\nThe 80% increment represents 40*0.8=$32\nIn December, the toy's price was 40 + 32 = $<<40+32=72>>72.\nThe 50% increment from January represents 72*0.5=<<72*0.5=36>>36\nIn January, the toy's price is 72 - 36 = $<<72-36=36>>36.\n#### 36",
+    "source_file": "gsm8k_test.jsonl",
+    "source_url": "https://github.com/openai/grade-school-math/blob/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl"
+  },
+  {
+    "review_id": "G10",
+    "source_index_zero_based": 61,
+    "official_solution": "The total cost of the broch was 500+800=$<<500+800=1300>>1300\nThe insurance was 1300*.1=$<<1300*.1=130>>130\nSo she pays 1300+130=$<<1300+130=1430>>1430\n#### 1430",
+    "source_file": "gsm8k_test.jsonl",
+    "source_url": "https://github.com/openai/grade-school-math/blob/3101c7d5072418e28b9008a6636bde82a006892c/grade_school_math/data/test.jsonl"
+  },
+  {
+    "review_id": "B01",
+    "source_index_zero_based": 145,
+    "official_target": "True",
+    "source_file": "boolean_expressions.json",
+    "source_url": "https://github.com/suzgunmirac/BIG-Bench-Hard/blob/9ee07bd481feebf959a6b59d61ea57bdcf30964d/bbh/boolean_expressions.json"
+  },
+  {
+    "review_id": "B02",
+    "source_index_zero_based": 183,
+    "official_target": "(F)",
+    "source_file": "date_understanding.json",
+    "source_url": "https://github.com/suzgunmirac/BIG-Bench-Hard/blob/9ee07bd481feebf959a6b59d61ea57bdcf30964d/bbh/date_understanding.json"
+  },
+  {
+    "review_id": "B03",
+    "source_index_zero_based": 155,
+    "official_target": "> >",
+    "source_file": "dyck_languages.json",
+    "source_url": "https://github.com/suzgunmirac/BIG-Bench-Hard/blob/9ee07bd481feebf959a6b59d61ea57bdcf30964d/bbh/dyck_languages.json"
+  },
+  {
+    "review_id": "B04",
+    "source_index_zero_based": 9,
+    "official_target": "(C)",
+    "source_file": "logical_deduction_five_objects.json",
+    "source_url": "https://github.com/suzgunmirac/BIG-Bench-Hard/blob/9ee07bd481feebf959a6b59d61ea57bdcf30964d/bbh/logical_deduction_five_objects.json"
+  },
+  {
+    "review_id": "B05",
+    "source_index_zero_based": 8,
+    "official_target": "702",
+    "source_file": "multistep_arithmetic_two.json",
+    "source_url": "https://github.com/suzgunmirac/BIG-Bench-Hard/blob/9ee07bd481feebf959a6b59d61ea57bdcf30964d/bbh/multistep_arithmetic_two.json"
+  },
+  {
+    "review_id": "B06",
+    "source_index_zero_based": 6,
+    "official_target": "Yes",
+    "source_file": "navigate.json",
+    "source_url": "https://github.com/suzgunmirac/BIG-Bench-Hard/blob/9ee07bd481feebf959a6b59d61ea57bdcf30964d/bbh/navigate.json"
+  },
+  {
+    "review_id": "B07",
+    "source_index_zero_based": 124,
+    "official_target": "13",
+    "source_file": "object_counting.json",
+    "source_url": "https://github.com/suzgunmirac/BIG-Bench-Hard/blob/9ee07bd481feebf959a6b59d61ea57bdcf30964d/bbh/object_counting.json"
+  },
+  {
+    "review_id": "B08",
+    "source_index_zero_based": 24,
+    "official_target": "(A)",
+    "source_file": "reasoning_about_colored_objects.json",
+    "source_url": "https://github.com/suzgunmirac/BIG-Bench-Hard/blob/9ee07bd481feebf959a6b59d61ea57bdcf30964d/bbh/reasoning_about_colored_objects.json"
+  },
+  {
+    "review_id": "B09",
+    "source_index_zero_based": 164,
+    "official_target": "(C)",
+    "source_file": "tracking_shuffled_objects_five_objects.json",
+    "source_url": "https://github.com/suzgunmirac/BIG-Bench-Hard/blob/9ee07bd481feebf959a6b59d61ea57bdcf30964d/bbh/tracking_shuffled_objects_five_objects.json"
+  },
+  {
+    "review_id": "B10",
+    "source_index_zero_based": 72,
+    "official_target": "blest buxton consternate proximity quizzes sound tariff xerxes",
+    "source_file": "word_sorting.json",
+    "source_url": "https://github.com/suzgunmirac/BIG-Bench-Hard/blob/9ee07bd481feebf959a6b59d61ea57bdcf30964d/bbh/word_sorting.json"
+  }
+]

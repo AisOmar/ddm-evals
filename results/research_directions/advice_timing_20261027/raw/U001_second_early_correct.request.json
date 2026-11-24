@@ -1,0 +1,40 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "max_tokens": 128,
+  "temperature": 0.7,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Ten indivisible objects have weights 11, 11, 8, 8, 5, 5, 4, 4, 4, 4. A bin holds total weight at most 13. What is the minimum number of bins? No object can be split.\n\nA: 6\nB: 5\n\nAdvice source: an answer key.\nA supplied assessment assigns this source's recommendations a 0.95 probability of being correct and a 0.05 probability of being incorrect.\nRecommendation: A\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+    },
+    {
+      "role": "assistant",
+      "content": "{\"answer\":\"A\"}"
+    },
+    {
+      "role": "user",
+      "content": "Check the original question and your initial answer. Choose the answer best supported by the evidence. Return your selected option as the answer field of the required JSON object."
+    }
+  ],
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          }
+        },
+        "required": [
+          "answer"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

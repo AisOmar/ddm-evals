@@ -1,0 +1,32 @@
+[
+  {
+    "generation_id": "gen-1793034803-JVOcZVx7fDVPLfNzNPe4",
+    "source_finished": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration_completion/finished/F008__gpt-oss__ordinary__none__r2.json",
+    "reserved_cost_usd": "0.00092472"
+  },
+  {
+    "generation_id": "gen-1793035514-owwlhEP5aQW66v1o7seV",
+    "source_finished": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration_rate_recovery/finished/004__F001__gpt-oss__ordinary__none__r1__a2.json",
+    "reserved_cost_usd": "0.00091752"
+  },
+  {
+    "generation_id": "gen-1793035453-4FuBu5qOuSX1aJP8YV2L",
+    "source_finished": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration_rate_recovery/finished/003__F001__gpt-oss__ordinary__none__r1__a1.json",
+    "reserved_cost_usd": "0.00091752"
+  },
+  {
+    "generation_id": "gen-1793035337-Fgabhw9HPimOkjGMzYT9",
+    "source_finished": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration_rate_recovery/finished/001__F008__gpt-oss__ordinary__none__r2__a2.json",
+    "reserved_cost_usd": "0.00092472"
+  },
+  {
+    "generation_id": "gen-1793035644-IG2cTjY4hXvcTZpEUCFA",
+    "source_finished": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration_rate_recovery/finished/008__F027__Qwen3__ordinary__none__r1__a1.json",
+    "reserved_cost_usd": "0.00161248"
+  },
+  {
+    "generation_id": "gen-1793036442-NqmDlS69eeTQyjDwjDGq",
+    "source_finished": "results/research_directions/selective_reliance_focus_20261024/alternate_http2_20261026/qualification/finished/001__F005__gpt-oss__ordinary__none__r1__a1.json",
+    "reserved_cost_usd": "0.000940552"
+  }
+]

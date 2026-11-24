@@ -1,0 +1,19 @@
+target,component,model,elpd,se,per_trial,n,n_questions,se_unit,verdict,dataset
+held-out questions,joint,ddm - baseline,70.23719688355965,13.102764387167872,0.03511859844177982,2000,50,question,candidate better,cv_model_gen_answer_flip
+held-out questions,length,ddm - baseline,68.79393487055611,10.954092783030584,0.03439696743527806,2000,50,question,candidate better,cv_model_gen_answer_flip
+held-out questions,correctness_given_length,ddm - baseline,1.4432620130035259,3.8958518786491023,0.0007216310065017629,2000,50,question,inconclusive,cv_model_gen_answer_flip
+held-out questions,joint,ddm - baseline,48.48332115397824,17.206762616837164,0.025584866044315695,1895,50,question,candidate better,cv_model_gen_ddm_truth
+held-out questions,length,ddm - baseline,48.35227980404394,12.480683833061036,0.025515714936170945,1895,50,question,candidate better,cv_model_gen_ddm_truth
+held-out questions,correctness_given_length,ddm - baseline,0.13104134993429906,9.280991219462488,6.915110814474884e-05,1895,50,question,inconclusive,cv_model_gen_ddm_truth
+held-out questions,joint,ddm - baseline,-2179.7093902151946,390.7891335062948,-1.0898546951075974,2000,50,question,baseline better,cv_model_gen_fixed_budget
+held-out questions,length,ddm - baseline,-2166.1277504910754,389.3059466817087,-1.0830638752455377,2000,50,question,baseline better,cv_model_gen_fixed_budget
+held-out questions,correctness_given_length,ddm - baseline,-13.581639724119412,9.515046831448247,-0.006790819862059707,2000,50,question,inconclusive,cv_model_gen_fixed_budget
+held-out questions,joint,ddm - baseline,-206.9022746411598,97.4726683603115,-0.10345113732057991,2000,50,question,baseline better,cv_model_gen_lognormal_logistic
+held-out questions,length,ddm - baseline,-178.88163369412072,96.59945458751547,-0.08944081684706036,2000,50,question,inconclusive,cv_model_gen_lognormal_logistic
+held-out questions,correctness_given_length,ddm - baseline,-28.020640947039055,13.14612823084233,-0.014010320473519527,2000,50,question,baseline better,cv_model_gen_lognormal_logistic
+held-out questions,joint,ddm - baseline,-2419.864070743786,1216.276197036792,-1.3045089330155182,1855,50,question,inconclusive,cv_pilot
+held-out questions,length,ddm - baseline,-2369.366363035072,1221.905570341375,-1.2772864490755105,1855,50,question,inconclusive,cv_pilot
+held-out questions,correctness_given_length,ddm - baseline,-50.497707708714216,26.541585622686664,-0.027222483940007664,1855,50,question,inconclusive,cv_pilot
+held-out questions,joint,ddm - baseline,-1053.7581956090116,187.0521170765084,-2.634395489022529,400,50,question,baseline better,cv_pilot_r1
+held-out questions,length,ddm - baseline,-1029.4441339788368,184.93953402415858,-2.5736103349470922,400,50,question,baseline better,cv_pilot_r1
+held-out questions,correctness_given_length,ddm - baseline,-24.314061630174717,13.955006825997941,-0.06078515407543679,400,50,question,inconclusive,cv_pilot_r1

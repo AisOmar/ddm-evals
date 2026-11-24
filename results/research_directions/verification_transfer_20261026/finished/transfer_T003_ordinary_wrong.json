@@ -1,0 +1,12 @@
+{
+  "status": "answered",
+  "answer": "A",
+  "correct": false,
+  "cost_usd": "0.001071",
+  "input_tokens": 307,
+  "output_tokens": 10,
+  "stop_reason": "end_turn",
+  "id": "transfer_T003_ordinary_wrong",
+  "response_sha256": "f629144e168f4dfa2520009881e4d717b97568881de735d467d48aa61b1851b4",
+  "request_sha256": "02e015843b7cbd2cf98096eec59293ea948ed916023507ff9f29adecfc9fa236"
+}

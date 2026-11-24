@@ -1,0 +1,43 @@
+{
+  "verified_at": "2026-10-22T23:22:51.362729+00:00",
+  "comparison_planned": 12,
+  "comparison_attempted": 12,
+  "comparison_complete": true,
+  "providers": [
+    {
+      "provider": "DeepInfra",
+      "planned": 6,
+      "attempted": 6,
+      "recognized": 6,
+      "strict_format": 3,
+      "empty_content": 0,
+      "outcomes": {
+        "answered": 6
+      },
+      "candidate_for_new_resource_gate": true
+    },
+    {
+      "provider": "Tenstorrent",
+      "planned": 6,
+      "attempted": 6,
+      "recognized": 6,
+      "strict_format": 4,
+      "empty_content": 0,
+      "outcomes": {
+        "answered": 6
+      },
+      "candidate_for_new_resource_gate": true
+    }
+  ],
+  "recorded_new_cost_usd": "0.00118016",
+  "missing_cost_metadata": 0,
+  "reasoning_token_accounting_inconsistencies": 4,
+  "prior_artifact_hashes_verified": true,
+  "offline_tests_passed": 110,
+  "no_active_requests": true,
+  "private_configs_removed": true,
+  "new_resource_calls": 0,
+  "wording_pilot_calls": 0,
+  "original_study_remains_paused": true,
+  "permanent_fix_established": false
+}

@@ -1,0 +1,30 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Independent flips have P(H)=2/5 and P(T)=3/5. Starting with no flips, wait for the first consecutive occurrence of HHTHH. Candidate occurrences may overlap. What is the expected total number of flips, including the final 5?\n\nA: 3125/48\nB: 3545/48\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+    }
+  ],
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          }
+        },
+        "required": [
+          "answer"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "sample_id": "Qwen3__canary-6",
+  "prepared_at": "2026-10-21T03:05:32.383915+00:00",
+  "manifest_sha256": "7252224a644c39fcbdfe38f363bda8b7efe16feffd34916034dde9e8a9e1e411",
+  "request_sha256": "7294e1ae91fd84e0feb8aa355dd8fb02b22ae3cbdd36d1b9014bf7641064746e",
+  "reserved_cost_usd": "0.00051616",
+  "finished_at": "2026-10-21T03:05:38.273288+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "A",
+    "correct": true,
+    "strict_format": true
+  },
+  "recorded_cost_usd": "0.0000538",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "raw_sha256": "17153ac0cceb133ebacc361b2f15402bd8614dacc61d3cd621836a151636654b",
+  "headers_sha256": "daad8e16a06de8ff90bd4bd6ad3a34f74cc1284d4d95698cecf6b82eb8355895",
+  "gate_passed": true,
+  "retry_permitted": false,
+  "minimum_429_cooldown_seconds": null
+}

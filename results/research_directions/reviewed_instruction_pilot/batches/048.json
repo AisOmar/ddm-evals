@@ -1,0 +1,78 @@
+{
+  "prepared_at": "2026-10-20T00:26:29.015805+00:00",
+  "config": "/private/tmp/ddm-reviewed-x88cjv14.curl",
+  "trials": [
+    {
+      "sample_id": "P09__gpt-oss__ordinary__correct"
+    },
+    {
+      "sample_id": "P09__gpt-oss__explicit__none"
+    },
+    {
+      "sample_id": "P09__gpt-oss__explicit__wrong"
+    },
+    {
+      "sample_id": "P09__gpt-oss__ordinary__wrong"
+    },
+    {
+      "sample_id": "P09__gpt-oss__ordinary__none"
+    },
+    {
+      "sample_id": "P09__Qwen3__explicit__correct"
+    },
+    {
+      "sample_id": "P09__Qwen3__explicit__none"
+    },
+    {
+      "sample_id": "P09__gpt-oss__explicit__correct"
+    },
+    {
+      "sample_id": "P09__Qwen3__ordinary__correct"
+    },
+    {
+      "sample_id": "P09__Qwen3__ordinary__none"
+    },
+    {
+      "sample_id": "P09__Qwen3__ordinary__wrong"
+    },
+    {
+      "sample_id": "P09__Qwen3__explicit__wrong"
+    },
+    {
+      "sample_id": "P12__Qwen3__explicit__wrong"
+    },
+    {
+      "sample_id": "P12__Qwen3__ordinary__wrong"
+    },
+    {
+      "sample_id": "P12__Qwen3__explicit__correct"
+    },
+    {
+      "sample_id": "P12__gpt-oss__ordinary__correct"
+    },
+    {
+      "sample_id": "P12__gpt-oss__explicit__correct"
+    },
+    {
+      "sample_id": "P12__Qwen3__explicit__none"
+    },
+    {
+      "sample_id": "P12__Qwen3__ordinary__correct"
+    },
+    {
+      "sample_id": "P12__Qwen3__ordinary__none"
+    },
+    {
+      "sample_id": "P12__gpt-oss__explicit__none"
+    },
+    {
+      "sample_id": "P12__gpt-oss__explicit__wrong"
+    },
+    {
+      "sample_id": "P12__gpt-oss__ordinary__wrong"
+    },
+    {
+      "sample_id": "P12__gpt-oss__ordinary__none"
+    }
+  ]
+}

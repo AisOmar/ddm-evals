@@ -1,0 +1,7 @@
+target,component,model,elpd,se,per_trial,n,n_questions,se_unit,verdict
+held-out questions,joint,ddm_sdv_lapse - baseline,-18.52057422971257,18.05919566290625,-0.040087823008035865,462,50,question,inconclusive
+held-out questions,length,ddm_sdv_lapse - baseline,-21.808379093383376,17.225659568435773,-0.04720428375191207,462,50,question,inconclusive
+held-out questions,correctness_given_length,ddm_sdv_lapse - baseline,3.2878048636707997,6.341802381608804,0.00711646074387619,462,50,question,inconclusive
+held-out questions,joint,two_process - baseline,-7.300584591353157,12.238210721362012,-0.01580213115011506,462,50,question,inconclusive
+held-out questions,length,two_process - baseline,-1.8370002152979445,11.413422056583718,-0.003976190942203343,462,50,question,inconclusive
+held-out questions,correctness_given_length,two_process - baseline,-5.463584376055211,2.682852192333597,-0.011825940207911712,462,50,question,baseline better

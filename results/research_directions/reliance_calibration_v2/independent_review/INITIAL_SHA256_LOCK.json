@@ -1,0 +1,12 @@
+{
+  "status": "INITIAL REVIEW LOCKED BEFORE ANY ANSWER-KEY COMPARISON",
+  "input_sha256": {
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/semantic_revision/calibration_masked_review.json": "259e401931c2bd9230bd7c73965f5cbe29b82757076344b0de7622cde786f161",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/semantic_revision/reserved_masked_review.json": "9aa235c4493f336713ffc49d1cd3e080d6f8385cd025727c225339512bafdd1f"
+  },
+  "output_sha256": {
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/independent_review/initial_judgments.json": "94a5b5cf6dd2e0c55f317ef0eff6c4ad7aac61a1e87827c9378ae239e9b3c8eb",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/independent_review/initial_summary.json": "044d2a1fb99c012733ae822df3b60cf45bfe83bd05c613e6d6888005a8b9a7d9",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/independent_review/independent_solver.py": "31cb323b83e4bfb423243d8a660817bdd2c35c65ad85c6df3cde24ccf8268c02"
+  }
+}

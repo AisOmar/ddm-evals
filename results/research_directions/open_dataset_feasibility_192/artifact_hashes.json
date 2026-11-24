@@ -1,0 +1,10 @@
+{
+  "gpt_endpoints.json": "96d2f7c2e9f82af00280b297cf9bbe65d030e2ce85033daf6ece63f1b5595df1",
+  "manifest.json": "0470ae1ed02ce9cc60a9811a4c2bb0d3958d7781fad562d4ddb7c2e99721b00b",
+  "preflight.json": "2329a3ccce60dfb2bcaf2444b78e4bf8e1e20b112045baf30cbb276d1973a31b",
+  "preflight_history/a9aa77390aed3bb17d6271bbd116425f602a824f021243cd309dedbe30f6a83e.json": "2329a3ccce60dfb2bcaf2444b78e4bf8e1e20b112045baf30cbb276d1973a31b",
+  "protected_inputs_before.json": "695e875bb107b10adcae059cacccf55b507599be16a0698a727acf5e7ae39c97",
+  "qwen_endpoints.json": "98c619e729bc2607ba8784cacf5294b45fe3184f405aea724906f6b87f821b52",
+  "readiness.json": "49e13ddb0c3595f10a71b3e925c546811bff233fe9f903dc105dabf04ebda047",
+  "verification.json": "63e577c4449a9262acc55842f4d17d2c3cd9fdbe7cd95f3ff065818ef886834e"
+}

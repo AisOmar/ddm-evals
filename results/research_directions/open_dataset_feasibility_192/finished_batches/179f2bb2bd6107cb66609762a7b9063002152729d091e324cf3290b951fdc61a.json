@@ -1,0 +1,31 @@
+{
+  "finished_at": "2026-10-21T00:13:01.115619+00:00",
+  "attempted": [
+    "gpt-oss__B06__ordinary__incorrect",
+    "Qwen3__B06__ordinary__none",
+    "gpt-oss__B06__explicit__none",
+    "Qwen3__B06__explicit__incorrect",
+    "Qwen3__B06__explicit__none",
+    "gpt-oss__B06__explicit__correct",
+    "gpt-oss__B06__ordinary__correct",
+    "Qwen3__B06__explicit__correct",
+    "gpt-oss__B06__explicit__incorrect",
+    "Qwen3__B06__ordinary__incorrect",
+    "gpt-oss__B06__ordinary__none",
+    "Qwen3__B06__ordinary__correct"
+  ],
+  "raw_exists": {
+    "gpt-oss__B06__ordinary__incorrect": true,
+    "Qwen3__B06__ordinary__none": true,
+    "gpt-oss__B06__explicit__none": true,
+    "Qwen3__B06__explicit__incorrect": true,
+    "Qwen3__B06__explicit__none": true,
+    "gpt-oss__B06__explicit__correct": true,
+    "gpt-oss__B06__ordinary__correct": true,
+    "Qwen3__B06__explicit__correct": true,
+    "gpt-oss__B06__explicit__incorrect": true,
+    "Qwen3__B06__ordinary__incorrect": true,
+    "gpt-oss__B06__ordinary__none": true,
+    "Qwen3__B06__ordinary__correct": true
+  }
+}

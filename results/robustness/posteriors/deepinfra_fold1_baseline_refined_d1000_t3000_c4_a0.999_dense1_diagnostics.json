@@ -1,0 +1,14 @@
+{
+  "label": "deepinfra_fold1_baseline_refined_d1000_t3000_c4_a0.999_dense1",
+  "seconds": 131.20012521743774,
+  "divergences": 11,
+  "max_rhat": 1.0121199717857514,
+  "min_ess": 281.79515958249067,
+  "draws": 1000,
+  "chains": 4,
+  "tune": 3000,
+  "target_accept": 0.999,
+  "dense_mass": true,
+  "random_seed": 20261006,
+  "settings_source": "Executed command and script defaults"
+}

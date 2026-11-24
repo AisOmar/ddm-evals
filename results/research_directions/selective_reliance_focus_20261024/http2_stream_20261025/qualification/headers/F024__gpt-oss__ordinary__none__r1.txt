@@ -1,0 +1,14 @@
+HTTP/2 200 
+date: Mon, 26 Oct 2026 16:57:00 GMT
+content-type: text/event-stream
+access-control-allow-origin: *
+cache-control: no-cache
+x-generation-id: gen-1793033820-nXGlGXtFstMsfdvM6I2l
+access-control-expose-headers: X-Generation-Id,X-Provider-Name,request-id,cf-ray
+set-cookie: __cf_bm=Fw.NOFH5vOf3tMrhn8CTaXBb0l2NwsBuLamwSz0xYdE-1793033820.2862384-1.0.1.1-EHLPg0PSe.A8Eef4RlOB.AO4GsafejuwdOKhEfWsTPuiS1XG7NwKkMWffSRMYrQ3xDbmDpG71a011QPqLJJDUJHTT.pD3XqqdXIN9_6r5NxCEUveUIKQkDO7ZpylcGeX; HttpOnly; SameSite=None; Secure; Path=/; Domain=openrouter.ai; Expires=Mon, 26 Oct 2026 17:27:00 GMT
+permissions-policy: payment=(self "https://checkout.stripe.com" "https://connect-js.stripe.com" "https://js.stripe.com" "https://*.js.stripe.com" "https://hooks.stripe.com")
+referrer-policy: no-referrer, strict-origin-when-cross-origin
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: a50aff60c955720c-SJC
+

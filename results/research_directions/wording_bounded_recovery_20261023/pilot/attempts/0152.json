@@ -1,0 +1,10 @@
+{
+  "sample_id": "a0152",
+  "logical_sample_id": "W01__plain__correct__r2__Qwen3",
+  "total_attempt_number": 1,
+  "is_retry": false,
+  "prepared_at": "2026-10-23T01:41:43.231160+00:00",
+  "manifest_sha256": "44e06618dfb78a9f7b036446d4bd8451a3d10d51d77a7c23e392327f7816d957",
+  "request_sha256": "b230d5b55c9e2295340a4d9fbf4ea56f9a7b45dedc06decd178c7b8778714a21",
+  "reserved_cost_usd": "0.00101536"
+}

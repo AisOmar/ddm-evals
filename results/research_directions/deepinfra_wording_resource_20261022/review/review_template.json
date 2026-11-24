@@ -1,0 +1,87 @@
+{
+  "reviewer": null,
+  "date": null,
+  "prior_exposure": null,
+  "items": [
+    {
+      "review_id": "V001",
+      "chosen_letter": null,
+      "derived_answer": null,
+      "unique_answer": null,
+      "must_fix": null,
+      "derivation": null,
+      "alternative_assessment": null,
+      "wording_concerns": null
+    },
+    {
+      "review_id": "V002",
+      "chosen_letter": null,
+      "derived_answer": null,
+      "unique_answer": null,
+      "must_fix": null,
+      "derivation": null,
+      "alternative_assessment": null,
+      "wording_concerns": null
+    },
+    {
+      "review_id": "V003",
+      "chosen_letter": null,
+      "derived_answer": null,
+      "unique_answer": null,
+      "must_fix": null,
+      "derivation": null,
+      "alternative_assessment": null,
+      "wording_concerns": null
+    },
+    {
+      "review_id": "V004",
+      "chosen_letter": null,
+      "derived_answer": null,
+      "unique_answer": null,
+      "must_fix": null,
+      "derivation": null,
+      "alternative_assessment": null,
+      "wording_concerns": null
+    },
+    {
+      "review_id": "V005",
+      "chosen_letter": null,
+      "derived_answer": null,
+      "unique_answer": null,
+      "must_fix": null,
+      "derivation": null,
+      "alternative_assessment": null,
+      "wording_concerns": null
+    },
+    {
+      "review_id": "V006",
+      "chosen_letter": null,
+      "derived_answer": null,
+      "unique_answer": null,
+      "must_fix": null,
+      "derivation": null,
+      "alternative_assessment": null,
+      "wording_concerns": null
+    },
+    {
+      "review_id": "V007",
+      "chosen_letter": null,
+      "derived_answer": null,
+      "unique_answer": null,
+      "must_fix": null,
+      "derivation": null,
+      "alternative_assessment": null,
+      "wording_concerns": null
+    },
+    {
+      "review_id": "V008",
+      "chosen_letter": null,
+      "derived_answer": null,
+      "unique_answer": null,
+      "must_fix": null,
+      "derivation": null,
+      "alternative_assessment": null,
+      "wording_concerns": null
+    }
+  ]
+}

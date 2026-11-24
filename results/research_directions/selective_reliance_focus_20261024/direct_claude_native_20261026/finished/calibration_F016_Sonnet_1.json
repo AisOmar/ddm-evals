@@ -1,0 +1,12 @@
+{
+  "status": "answered",
+  "answer": "B",
+  "correct": false,
+  "cost_usd": "0.001047",
+  "input_tokens": 299,
+  "output_tokens": 10,
+  "stop_reason": "end_turn",
+  "id": "calibration_F016_Sonnet_1",
+  "response_sha256": "cc6d81cc46bdcd2cda8ad32060a2e638c53498e30cdbf9fed0342871673850ec",
+  "request_sha256": "96d5786d46f2fd9bae427377fea4cb43c33396306e1356e5e81cf6aef69c6472"
+}

@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-21T00:13:35.170699+00:00",
+  "n_attempted": 60,
+  "n_upstream_rate_limits": 7,
+  "action": "Continue only unattempted trials with one concurrent transfer, after cooldown. No retry, reordering, provider/model/price/condition changes.",
+  "previous_concurrency": 2,
+  "new_concurrency": 1,
+  "protocol_allows_at_most_four_concurrent_transfers": true,
+  "treatment_accuracy_not_inspected": true
+}

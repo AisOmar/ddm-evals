@@ -1,0 +1,30 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "messages": [
+    {
+      "role": "user",
+      "content": "One machine can run any subset of these jobs, given as (start,end,profit): [(5, 11, 23), (1, 7, 4), (7, 9, 27), (13, 15, 25), (2, 7, 28), (1, 2, 22), (4, 7, 18)]. A job occupies [start,end), so ending exactly when another starts is allowed. Jobs cannot move, split or repeat. What is the maximum total profit?\n\nA: 103\nB: 102\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+    }
+  ],
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          }
+        },
+        "required": [
+          "answer"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

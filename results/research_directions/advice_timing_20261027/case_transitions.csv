@@ -1,0 +1,7 @@
+item_id,family,correct_letter,initial_no_advice,ordinary_wrong_advice,early_advice_then_check_wrong,late_wrong_advice_final
+U001,integer_bin_packing,A,A,B,A,B
+U002,optimal_binary_prefix_code,B,B,A,A,A
+U003,rank_one_determinant,A,A,A,A,B
+U004,bipartite_matching_deficiency,B,B,A,A,A
+U005,overlapping_pattern_waiting_time,A,A,A,A,B
+U006,weighted_interval_scheduling,B,B,A,A,A

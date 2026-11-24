@@ -1,0 +1,43 @@
+{
+  "review_type": "Fresh-context AI review, not a human expert review or an independently trained model. The reviewer received the two masked packets and task instructions only, and did not read any answer keys, author audits, generator code, protocol/revision logs, or other question artifacts.",
+  "input_sha256": {
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/semantic_revision/calibration_masked_review.json": "259e401931c2bd9230bd7c73965f5cbe29b82757076344b0de7622cde786f161",
+    "/Users/aisuluomar/Downloads/ddm-evals/results/research_directions/reliance_calibration_v2/semantic_revision/reserved_masked_review.json": "9aa235c4493f336713ffc49d1cd3e080d6f8385cd025727c225339512bafdd1f"
+  },
+  "items_reviewed": 48,
+  "unique_answer_count": 48,
+  "chosen_letters": {
+    "B": 24,
+    "A": 24
+  },
+  "dispositions": {
+    "repair": 36,
+    "retain": 12
+  },
+  "by_packet": {
+    "calibration": {
+      "chosen_letters": {
+        "B": 12,
+        "A": 12
+      },
+      "count": 24
+    },
+    "reserved": {
+      "chosen_letters": {
+        "B": 12,
+        "A": 12
+      },
+      "count": 24
+    }
+  },
+  "summary": [
+    "All 48 visible stems define a unique numerical answer and exactly one of the two alternatives matches an independent solution. No answer-key comparison was performed.",
+    "Two different computational procedures agreed per item. This verifies numerical correctness while leaving empirical human/model difficulty unmeasured.",
+    "All 48 tasks are mostly computation. Four procedural templates account for all items; within-family questions are parameter substitutions, and reserved items reproduce the calibration procedures. This is narrow numerical-task coverage, with likely learning and family clustering.",
+    "Difficulty is markedly heterogeneous: subset counting is very burdensome without tools; recurrence needs many routine updates; urn questions need exact rational arithmetic; shortest-path questions are substantially easier, with forward-only graphs and some optimal direct edges.",
+    "All 48 option pairs are numerical near-neighbours (integer or numerator gap 1 or 2). Distractors mostly represent small arithmetic errors rather than alternative reasoning. This may fit exact numerical reliance but is weak coverage of broader judgment or conceptual reasoning.",
+    "No systematic answer-position cue is asserted until the independently solved letter distribution is inspected; distributions are provided above. The option ordering and reducibility diagnostics should be considered before calibration.",
+    "Disposition policy: retain the 12 mathematically sound shortest-path items as possible accessible anchors; repair the 36 exact-arithmetic-heavy items and/or their alternatives if calibration targets reasoning beyond computation. These are design judgments, not claims that any answer is wrong. Packet-level family and cue concerns apply even to retained items.",
+    "Recommend diversifying task structures, using plausible conceptual/procedural distractors, balancing answer positions independently of family/packet, and piloting without tools. Rewriting changes item difficulty and must precede calibration."
+  ]
+}

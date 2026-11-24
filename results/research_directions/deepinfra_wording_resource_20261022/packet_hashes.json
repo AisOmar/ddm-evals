@@ -1,0 +1,8 @@
+{
+  "scripts/76_deepinfra_resource_packet.py": "f1bcab763935e71940ad792e36bb4b0ddb9b7f75b402f75f176e2397f0835a7b",
+  "docs/DEEPINFRA_WORDING_RESOURCE_PROTOCOL.md": "4f852641ca6c80770a59c32c626bea628951683e9d6f7a7ebd7f0ce1bf5fbc40",
+  "results/research_directions/deepinfra_wording_resource_20261022/packet.json": "a202735143b1a90d6c7eb97c4262c21da994c42aa60d9d9829eb631a9da273ef",
+  "results/research_directions/deepinfra_wording_resource_20261022/review/masked_items.json": "58f6bbd8ba1832dc76032dbb3177b79c3919237583efdcdd88ba1b69eef202ed",
+  "results/research_directions/deepinfra_wording_resource_20261022/review/review_template.json": "09e9d4d414df40f0f5c4a4bf9c30e2b2d476b0bfa51bca909d39d602ed57222e",
+  "results/research_directions/deepinfra_wording_resource_20261022/design.json": "f282553d7cce2117b72dac87c5341784a6e385991c9d88e391fe21047802c16a"
+}

@@ -1,0 +1,17 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nYou are performing forensics on a recovered file. The filesize is 0x6000 bytes. You see the string IEND at offset 0x32AF. What can be deduced from this?\n\nA) This is an image file with hidden audio data\nB) This is an image file that has been shortened artificially"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "provider": {
+    "order": [
+      "DeepInfra"
+    ],
+    "allow_fallbacks": false
+  }
+}

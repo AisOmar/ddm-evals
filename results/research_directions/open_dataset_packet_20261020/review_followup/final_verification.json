@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-10-20T23:52:55.087981+00:00",
+  "protected_inputs_checked": 2620,
+  "protected_inputs_changed": [],
+  "fresh_initial_review_sha256": "5cd4c35d1534d2891ffd5912e6da6e4527f2b327b4553a2e843220f812d624d4",
+  "fresh_initial_lock_valid": true,
+  "initial_input_hashes_valid": true,
+  "adjudication_artifact_hashes_valid": true,
+  "n_answer_agreements": 20,
+  "n_new_repairs": 0,
+  "n_conservative_local_groups": 16,
+  "n_draft_prompts": 192,
+  "offline_tests_passed": 48,
+  "frozen_manifests_verify": true,
+  "old_study_status": "paused_by_user",
+  "no_active_collection_batches": true,
+  "n_model_calls_launched": 0,
+  "independent_ai_review_complete": true,
+  "human_expert_validation": false,
+  "collection_ready": false
+}

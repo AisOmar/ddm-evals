@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-10-21T00:03:01.854609+00:00",
+  "protected_files_checked": 2633,
+  "protected_files_changed": [],
+  "current_manifest_hashes_match": true,
+  "manifest_sha256": "0470ae1ed02ce9cc60a9811a4c2bb0d3958d7781fad562d4ddb7c2e99721b00b",
+  "preflight_matches_manifest": true,
+  "n_frozen_requests": 192,
+  "n_families": 16,
+  "live_preflight_passed": true,
+  "conservative_full_run_reserve_usd": "0.247093848",
+  "private_read_only_config_removed": true,
+  "preflight_pointer_removed": true,
+  "paid_attempt_ledger_absent": true,
+  "paid_request_and_raw_directories_absent": true,
+  "n_model_calls_launched": 0,
+  "offline_tests_passed": 55,
+  "frozen_previous_manifests_verified": true,
+  "old_study_status": "paused_by_user",
+  "no_active_collection_batches": true,
+  "execution_authorized": false,
+  "collection_ready": false
+}

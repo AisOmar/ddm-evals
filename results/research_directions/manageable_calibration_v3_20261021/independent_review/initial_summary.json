@@ -1,0 +1,52 @@
+{
+  "review_type": "Fresh-context AI review; not a human expert review and not independent training. Reviewer initially read only the three named masked input files. No author keys, generators, protocols, previous packets, or author judgments were accessed.",
+  "items_reviewed": 36,
+  "unique_answer_items": 36,
+  "unresolved": 0,
+  "must_fix_blockers": [],
+  "option_position_counts": {
+    "B": 18,
+    "A": 18
+  },
+  "position_counts_by_split": {
+    "resource": {
+      "B": 2,
+      "A": 2
+    },
+    "calibration": {
+      "B": 8,
+      "A": 8
+    },
+    "reserved": {
+      "B": 8,
+      "A": 8
+    }
+  },
+  "position_counts_by_family": {
+    "recurrence": {
+      "B": 5,
+      "A": 4
+    },
+    "shortest_path": {
+      "A": 5,
+      "B": 4
+    },
+    "subset_count": {
+      "A": 5,
+      "B": 4
+    },
+    "urn_posterior": {
+      "B": 5,
+      "A": 4
+    }
+  },
+  "assessment": {
+    "correctness_ambiguity": "All numerical alternatives explicitly checked. Each item has exactly one correct option. Wording disambiguates subset labeling, selection order, graph direction, replacement and rounding. No correctness or ambiguity blocker found.",
+    "rounding": "All nine urn posteriors computed as exact fractions; half-up nearest whole percentage point independently checked by exact interval membership. Adjacent percentage alternatives remain uniquely resolvable.",
+    "difficulty_status": "No response data were inspected. Difficulty labels are qualitative forecasts, not empirical calibration. Actual model error rates and benefit from added computation remain unknown.",
+    "option_cues": "Both options have matched formatting and no answer-explanation leakage. Small two-option sets permit 50% chance performance. Incorrect alternatives are numerically nearby; no universal higher/lower shortcut or positional shortcut is supported. Position counts are balanced within each split and near-balanced by family. The calibration and reserved urn blocks both follow A-B-A-B, a visible local pattern when solutions are exposed; this is not a logically valid stem-only answer cue and does not block the narrow numerical calibration, but item order should not be treated as an independent difficulty signal.",
+    "computation_scope": "Narrow arithmetic templates: recurrences require 6-9 dependent modular steps; subsets require at most 20 triples; shortest paths are very small positive-weight DAGs, frequently solved by a direct edge or visible two-edge route; urns use two likelihoods and a Bayes update. These are valid manageable resource/calibration tasks but do not alone establish broad difficult-reasoning ability.",
+    "template_overlap": "All three splits reuse the same four exact verbal templates with parameter changes. This is intended-looking within-family transfer and a material limitation on claims of novel-template generalization. No exact duplicate full stem was found. Repeated urn evidence structure, fixed six-object subsets, six-vertex DAGs, and fixed-order recurrences make solution strategies reusable.",
+    "recommended_disposition": "Proceed with resource tests and calibration if claims remain limited to these four computational templates. No must-fix item blocker. Consider separate novel-template evaluation if broader generalization is the target."
+  }
+}

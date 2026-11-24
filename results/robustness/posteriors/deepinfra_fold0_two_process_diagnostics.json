@@ -1,0 +1,14 @@
+{
+  "label": "deepinfra_fold0_two_process",
+  "seconds": 118.24157214164734,
+  "divergences": 0,
+  "max_rhat": 1.0755626928198372,
+  "min_ess": 39.36415065092897,
+  "draws": 2000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

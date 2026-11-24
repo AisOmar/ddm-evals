@@ -1,0 +1,29 @@
+{
+  "model": "qwen/qwen3-32b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIndependent binary inputs U and V satisfy P(U=1)=1/2 and P(V=1)=1/2. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?\n\nA. 2/3\nB. 1"
+    }
+  ],
+  "temperature": 0.7,
+  "max_tokens": 4096,
+  "provider": {
+    "order": [
+      "tenstorrent/fp8"
+    ],
+    "only": [
+      "tenstorrent/fp8"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "fp8"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.14,
+      "completion": 0.4
+    }
+  },
+  "stream": true
+}

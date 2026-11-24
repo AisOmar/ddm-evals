@@ -1,0 +1,9 @@
+{
+  "label": "provider_adjusted_fold1_baseline",
+  "seconds": 8.150238990783691,
+  "divergences": 0,
+  "max_rhat": 1.0504110483696294,
+  "min_ess": 65.05767188709747,
+  "draws": 400,
+  "chains": 2
+}

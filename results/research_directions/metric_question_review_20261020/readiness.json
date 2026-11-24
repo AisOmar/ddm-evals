@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-10-20T21:02:03.899401+00:00",
+  "n_candidates": 1447,
+  "n_structurally_screened": 1447,
+  "n_detailed_analyst_reviews": 36,
+  "n_first_pass_pending": 1411,
+  "analyst_dispositions": {
+    "repair": 23,
+    "retain_candidate": 6,
+    "unresolved": 5,
+    "exclude_source_incomplete": 2
+  },
+  "n_independently_reviewed": 0,
+  "n_collection_approved": 0,
+  "n_draft_repairs": 5,
+  "independent_review_complete": false,
+  "collection_ready": false,
+  "next_first_pass_review_id": "F0037",
+  "study_size_decision": "deferred until eligibility/family review and cost planning",
+  "blockers": [
+    "Detailed first-pass answer review incomplete.",
+    "Fresh-context independent review not performed for this packet.",
+    "Repairs await independent validation.",
+    "Semantic families and difficulty balance not adjudicated.",
+    "Exact collection manifest and live full-budget checks not available."
+  ],
+  "no_experiments_launched": true,
+  "old_study_status": "paused_by_user"
+}

@@ -1,0 +1,10 @@
+{
+  "results/research_directions/wording_pilot_20261022/packet.json": "c88ed33481514c2c0f7eb359c7a495725577070ec4bc6c68b09a99087ac34476",
+  "results/research_directions/wording_pilot_20261022/draft_revisions.json": "e53f53f261fa1b26c1e21c442575e7729596cbe6869a1e23acdcfff9f05fd818",
+  "results/research_directions/wording_pilot_20261022/design.json": "a8746b2c09979b6b12ca2fa71846197d8b26d895ae2ddc31f4df0ce2f6106b5d",
+  "results/research_directions/wording_pilot_20261022/review/masked_items.json": "bf78be4eab0696cdafa831718ddac431640ad3163bdc5d87461137881fa51203",
+  "results/research_directions/wording_pilot_20261022/review/matched_sets.json": "8fce70e106ff8505963fd49f8427051e5b949635316a6ca3dadd890c6daca0bd",
+  "results/research_directions/wording_pilot_20261022/review/review_template.json": "e94de9bfcb79d06d4437b7ddf66324c60186d76d7671996e553ae458d3276a38",
+  "docs/WORDING_AND_TRICK_QUESTION_PROPOSAL.md": "664928ac3577e0520aa31bcf27bf96c4e4497b7a0bf3af34739aa354d5fa5484",
+  "scripts/68_wording_packet.py": "73986621e1678f472dfbc32d5202189f7cbc248d6f12ce5b2794ef185216039b"
+}

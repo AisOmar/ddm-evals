@@ -1,0 +1,27 @@
+{
+  "review_status": "truncated",
+  "items": [],
+  "flagged_ids": [
+    "L0_F1_V2",
+    "L0_F1_V3",
+    "L0_F2_V2",
+    "L0_F2_V3",
+    "L0_F3_V2",
+    "L0_F3_V3",
+    "L0_F4_V2",
+    "L0_F4_V3",
+    "L0_F5_V2",
+    "L0_F5_V3",
+    "L0_F6_V2",
+    "L0_F6_V3"
+  ],
+  "review_gate_passed": false,
+  "input_tokens": 3230,
+  "output_tokens": 1024,
+  "cost_usd": "0.00835",
+  "stop_reason": "max_tokens",
+  "no_partial_judgments_used": true,
+  "id": "reserved_review_proof",
+  "request_sha256": "171665bd46b5ddbdbb802952d064e660f676a92d1fcb05500920548ae9380b66",
+  "response_sha256": "7be8b1e21d70ef2fe09100f8da2614c9a909f53a341aa78249af121dff4879f1"
+}

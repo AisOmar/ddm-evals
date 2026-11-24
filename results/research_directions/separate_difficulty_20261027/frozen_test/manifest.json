@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-10-27T01:55:57.724440+00:00",
+  "ready": true,
+  "items": 12,
+  "families": 6,
+  "practice_items_included": 0,
+  "evaluated_model_test_responses": 0,
+  "review_model": "Haiku 4.5, fresh API context; may have seen author certificates",
+  "selection_mode": "single_level",
+  "levels_by_family": {
+    "integer_bin_packing": 0,
+    "optimal_binary_prefix_code": 0,
+    "dense_determinant": 0,
+    "bipartite_matching_deficiency": 0,
+    "overlapping_pattern_waiting_time": 0,
+    "weighted_interval_scheduling": 0
+  },
+  "sha256": {
+    "results/research_directions/separate_difficulty_20261027/calibration_manifest.json": "e37fc316571cbca831456166c793c1ee5e4590e66ea4d76f18620e4e165796d8",
+    "results/research_directions/separate_difficulty_20261027/author_pool.json": "d56d51f2f6e7e253438ec30b4e62d31c85e6b38681fe031e7ec58a779d0d7827",
+    "results/research_directions/separate_difficulty_20261027/selection.json": "047a9633b461fbd63ce1d1a9a6e841a71415dd621a820e97185e5d9576799bc1",
+    "results/research_directions/separate_difficulty_20261027/practice_analysis.json": "5746cce339841a9bd4f563984d4411185c70727a4fd2f63e8501208e9d988ced",
+    "results/research_directions/separate_difficulty_20261027/reserved_review_gate.json": "5c6d094c51ad04c2f48fbc40d9c96baed0f9dccc9a133b061a10f98a8911c483",
+    "results/research_directions/separate_difficulty_20261027/frozen_test/questions.json": "01bbd29b845ee92dfa55412676acd1e942de41bdbb17543e79524f4da456f685",
+    "results/research_directions/separate_difficulty_20261027/frozen_test/answer_key.json": "cfc4424ae36cc7fb6d49889062aa7519fe589328752e7e1cef23ec0b6dd69679",
+    "results/research_directions/separate_difficulty_20261027/frozen_test/questions.md": "a7f0b9ce41fea719e24d2efd318e5060f2182940c6d7e9283f286e8036c46d14"
+  },
+  "held_out_difficulty": "Unknown until a separately authorized test; no guarantee against ceiling",
+  "next_experiment_launched": false
+}

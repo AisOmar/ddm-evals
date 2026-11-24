@@ -1,0 +1,156 @@
+{
+  "created_at": "2026-10-20T16:24:56.601213+00:00",
+  "seed": 20261020,
+  "recommendation_questions": 1000,
+  "recommendation_calls": 56000,
+  "recommendation_conditions": "Assumed 10pp baseline-adjusted gain, zero true correct/baseline loss, 10pp explicit correct-advice benefit, 5pp research preservation margin, two waves, eight primary contrasts",
+  "scientific_status": "Conditional approximate power; not a guarantee or validation of a safety threshold",
+  "assumptions": [
+    {
+      "name": "planning_10pp",
+      "gain": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "correct_change": 0.0,
+      "baseline_change": 0.0,
+      "sigma": 1.0
+    },
+    {
+      "name": "small_5pp",
+      "gain": [
+        0.05,
+        0.05,
+        0.05
+      ],
+      "correct_change": 0.0,
+      "baseline_change": 0.0,
+      "sigma": 1.0
+    },
+    {
+      "name": "large_15pp",
+      "gain": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "correct_change": 0.0,
+      "baseline_change": 0.0,
+      "sigma": 1.0
+    },
+    {
+      "name": "correct_cost_3pp",
+      "gain": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "correct_change": -0.03,
+      "baseline_change": 0.0,
+      "sigma": 1.0
+    },
+    {
+      "name": "baseline_cost_3pp",
+      "gain": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "correct_change": 0.0,
+      "baseline_change": -0.03,
+      "sigma": 1.0
+    },
+    {
+      "name": "source_heterogeneity",
+      "gain": [
+        0.15,
+        0.05,
+        0.0
+      ],
+      "correct_change": 0.0,
+      "baseline_change": 0.0,
+      "sigma": 1.0
+    },
+    {
+      "name": "high_item_variation",
+      "gain": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "correct_change": 0.0,
+      "baseline_change": 0.0,
+      "sigma": 2.0
+    },
+    {
+      "name": "no_instruction_effect",
+      "gain": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correct_change": 0.0,
+      "baseline_change": 0.0,
+      "sigma": 1.0
+    }
+  ],
+  "models": [
+    "Qwen3",
+    "gpt-oss"
+  ],
+  "sources": [
+    "answer_key",
+    "ai_peer",
+    "domain_expert"
+  ],
+  "waves": 2,
+  "primary_family_size": 8,
+  "alpha": 0.05,
+  "interval": "two-sided Bonferroni t approximation for planning",
+  "planning_donors_per_scenario": 30000,
+  "power_mc_reps": 20000,
+  "simulation_method": "Logistic-normal persistent item/cell probabilities; binary repeat draws; item-level covariance; asymptotic multivariate-normal sample-mean simulation",
+  "limitations": [
+    "Pilot cannot estimate source transfer, temporal reliability, or general-population effect size.",
+    "No fitted pilot-sized 50pp effect extrapolation; fixed smaller scenario gains.",
+    "Question-template clustering and nonresponse may increase requirements; listed n means independent question units.",
+    "Power for source-average gains is not power for every source.",
+    "No API calls, live cost quote, executable collection manifest, or ready-to-collect question validation."
+  ],
+  "pilot_descriptive_profile": [
+    {
+      "model": "Qwen3",
+      "n_items": 20,
+      "baseline_ordinary": 0.95,
+      "baseline_explicit": 0.95,
+      "harm_ordinary": 0.1,
+      "harm_explicit": 0.05,
+      "benefit_ordinary": 0.05,
+      "benefit_explicit": 0.0,
+      "baseline_adjusted_harm_reduction": 0.05,
+      "correct_advice_accuracy_change": -0.05,
+      "baseline_accuracy_change": 0.0,
+      "limitation": "Descriptive only; one wave, one source, 20 selected items. No reliability estimate."
+    },
+    {
+      "model": "gpt-oss",
+      "n_items": 20,
+      "baseline_ordinary": 0.95,
+      "baseline_explicit": 1.0,
+      "harm_ordinary": 0.45,
+      "harm_explicit": 0.0,
+      "benefit_ordinary": 0.05,
+      "benefit_explicit": 0.0,
+      "baseline_adjusted_harm_reduction": 0.45,
+      "correct_advice_accuracy_change": 0.0,
+      "baseline_accuracy_change": 0.05,
+      "limitation": "Descriptive only; one wave, one source, 20 selected items. No reliability estimate."
+    }
+  ],
+  "inputs": {
+    "results/research_directions/reviewed_instruction_pilot/runs.json": "acf7982ff5aac80fe9393482776c8d15e0c1275698d7c9d174c46a1c9445f048",
+    "results/research_directions/reviewed_instruction_pilot/manifest.json": "6aa31c15386d4db6b7b0608b4db7ee6c0144bf3eb0f3f46f5c9a17e05a32baf7",
+    "scripts/42_metric_validation_plan.py": "bf7348b59404d626054dcbb0da0b00ca2a541265a52c3c9771ca6a01b194bf18"
+  }
+}

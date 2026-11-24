@@ -1,0 +1,22 @@
+{
+  "sample_id": "W03__neutral__none__r1__gpt-oss",
+  "prepared_at": "2026-10-23T00:03:16.815549+00:00",
+  "manifest_sha256": "f24fad8f3b011c3619904fb06e77a7b125f6b6dee15099ad89d491ec85cf1c4a",
+  "request_sha256": "0b32dc0a45cf6a7d181bda7ab40edb63e3ef2729b116828345b31a62514dc25f",
+  "reserved_cost_usd": "0.00053304",
+  "finished_at": "2026-10-23T00:03:18.587757+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "A",
+    "correct": true,
+    "strict_format": true
+  },
+  "recorded_cost_usd": "0.00002322",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "40e932e18f65dde13a30dfa7c888a0363e4149d017bc47e3a604739084aff49f",
+  "headers_sha256": "2521d5cbce1f35f59c05db0a0cb792992e3b4e213eee93529c31e86f2e16c9f1"
+}

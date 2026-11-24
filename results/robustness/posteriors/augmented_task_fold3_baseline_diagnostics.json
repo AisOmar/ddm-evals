@@ -1,0 +1,14 @@
+{
+  "label": "augmented_task_fold3_baseline",
+  "seconds": 45.45843696594238,
+  "divergences": 0,
+  "max_rhat": 1.005281661005511,
+  "min_ess": 833.5368849401292,
+  "draws": 2000,
+  "chains": 4,
+  "tune": 2000,
+  "target_accept": 0.99,
+  "dense_mass": false,
+  "random_seed": 20261006,
+  "centered_effects": false
+}

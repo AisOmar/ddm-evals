@@ -1,0 +1,11 @@
+{
+  "scripts/62_manageable_packet.py": "0ce3d35a36f0d891f543a0ad3e31093a91dc6d1f3ade737eb4ecaa3f636e67dc",
+  "scripts/54_reliance_calibration.py": "6ff677727db294daa91e4dc89b791419a477dfa2be5daf87a072dbd79b8c23e4",
+  "docs/MANAGEABLE_CALIBRATION_V3_PROTOCOL.md": "75a3f9364bc29ba5c910fa090c6e89ff4f7c10266863a274a8fbc5b9dfe1699f",
+  "results/research_directions/manageable_calibration_v3_20261021/packet.json": "4664c403b7d66004f2f3973dd5869aa000ec36fb3f37d5b45474d39b97c2d4a1",
+  "results/research_directions/manageable_calibration_v3_20261021/generation_record.json": "3e046b769f8b7b0952a290f2ce8235541a3229f29ce6e5d3b28ad1ee01353a38",
+  "results/research_directions/manageable_calibration_v3_20261021/resource_masked_review.json": "4bb2e83b04edb4900db01363360a041eaa0c19dfd5629f78decb6e53ff459d2e",
+  "results/research_directions/manageable_calibration_v3_20261021/calibration_masked_review.json": "857175a1c2520e5b2675de1db60bef798f85363e381079509f7ac8014cd36aff",
+  "results/research_directions/manageable_calibration_v3_20261021/reserved_masked_review.json": "5f2801eb66aeba6ae219804473a630ff4b8a455e0464c96ed3279eec2a193dcc",
+  "results/research_directions/manageable_calibration_v3_20261021/readiness.json": "5ccd92af486715a39982a449e5b60ffc12205b5f5bff8918d36817dd58957877"
+}

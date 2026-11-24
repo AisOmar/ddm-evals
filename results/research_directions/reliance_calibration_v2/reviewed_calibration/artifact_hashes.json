@@ -1,0 +1,12 @@
+{
+  "scripts/59_adjudicate_calibration_review.py": "8f1443f050cc32118c5059b1d7375ed3643c472ac6f27a2ee01181d79d1f3f85",
+  "results/research_directions/reliance_calibration_v2/semantic_revision/packet.json": "593ed705bd72c00277916e8f65e7691f583a7cef31f69873c2e621cfc364a33b",
+  "results/research_directions/reliance_calibration_v2/independent_review/INITIAL_SHA256_LOCK.json": "381bd2099b469cebff5c74f927eff3edbf6eb91777f51afcf57f96cb82b2c325",
+  "results/research_directions/reliance_calibration_v2/independent_review/FINAL_AUDIT_SHA256_LOCK.json": "4d6b2f5395ab1bff3baa19db7783d4c2246cdfba186ee0f40fd2af59f6821a26",
+  "results/research_directions/reliance_calibration_v2/independent_review/CORRECTION_SHA256_LOCK.json": "efa0cf12d89370e7a4e779f5e68175306d082a980d9cf49d3c1e28ca5e6799b3",
+  "results/research_directions/reliance_calibration_v2/reviewed_calibration/packet.json": "204f298ec7e5d4be09879398b613e079f46acdaa2813ccd6fed8eda9e4a07a6c",
+  "results/research_directions/reliance_calibration_v2/reviewed_calibration/adjudication.json": "f2e39ee605795ea87dd451adcf1088de59a2524f39ea7b74042679dac2b251bd",
+  "results/research_directions/reliance_calibration_v2/reviewed_calibration/readiness.json": "61d919d2a386d55ac8ad396754477910aea4065de39aef54b4fc96e0cc65345b",
+  "results/research_directions/reliance_calibration_v2/reviewed_calibration/calibration_masked_review.json": "30f15b513fbd543f61999fbb1a61b30c2a86d355ff35de2f5f41ecfce06eb35a",
+  "results/research_directions/reliance_calibration_v2/reviewed_calibration/reserved_masked_review.json": "fcac27e7ca42ecab40c3a07dc98c5efbcb5ad3abdf6f69b592a92a6417fd6b83"
+}

@@ -1,0 +1,22 @@
+{
+  "sample_id": "resource-recurrence-01__r1__gpt-oss",
+  "prepared_at": "2026-10-22T00:06:03.826461+00:00",
+  "manifest_sha256": "38666d95a3879fbdd1500df86eb98dddbe73ac083252fb366d14267bff6ccade",
+  "request_sha256": "d91380d1548500b7b9fb01f3715827efc55680d6eeb01b8e5191bc54a6f58762",
+  "reserved_cost_usd": "0.00089196",
+  "finished_at": "2026-10-22T00:06:27.797417+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "B",
+    "correct": true,
+    "strict_format": true
+  },
+  "recorded_cost_usd": "0.0000636",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "d86b5e2635ce42de06bb5f264cb55d53f2f88819e6ca878f78f32ceca7ee7b77",
+  "headers_sha256": "712c31970aba4eb867c8c8ee82355e85d3ab6bec0ad60c132c4ef0f007e89caf"
+}

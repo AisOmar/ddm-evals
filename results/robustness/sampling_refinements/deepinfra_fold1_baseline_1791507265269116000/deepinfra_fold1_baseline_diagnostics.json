@@ -1,0 +1,9 @@
+{
+  "label": "deepinfra_fold1_baseline",
+  "seconds": 18.409297943115234,
+  "divergences": 33,
+  "max_rhat": 1.0413400272123476,
+  "min_ess": 49.0201647344545,
+  "draws": 400,
+  "chains": 2
+}

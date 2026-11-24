@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-10-26T23:54:39.966140+00:00",
+  "development_complete": 54,
+  "transfer_complete": 54,
+  "review_calls": 2,
+  "new_usage_based_cost_usd": "0.137174",
+  "prior_cost_upper_usd": "0.5301708330000000000037779502",
+  "cumulative_cost_upper_usd": "0.6673448330000000000037779502",
+  "remaining_to_one_dollar_usd": "0.3326551669999999999962220498",
+  "pending_requests": 0,
+  "original_study_remains_paused": true,
+  "verification_meets_development_full_pattern": false,
+  "verification_meets_transfer_full_pattern": false,
+  "prompt_changed_after_development": false,
+  "old_observations_pooled": false
+}

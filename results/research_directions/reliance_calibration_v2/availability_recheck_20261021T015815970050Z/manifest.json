@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-10-21T01:58:21.933573+00:00",
+  "trial": {
+    "sample_id": "gpt-oss__canary-1",
+    "model": "gpt-oss",
+    "correct_letter": "A",
+    "options": {
+      "A": "5",
+      "B": "6"
+    },
+    "request": {
+      "model": "openai/gpt-oss-120b",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 2 + 3?\n\nA. 5\nB. 6"
+        }
+      ],
+      "temperature": 0,
+      "max_tokens": 512,
+      "provider": {
+        "order": [
+          "DeepInfra"
+        ],
+        "only": [
+          "DeepInfra"
+        ],
+        "allow_fallbacks": false,
+        "quantizations": [
+          "bf16"
+        ],
+        "require_parameters": true,
+        "max_price": {
+          "prompt": 0.037,
+          "completion": 0.17
+        }
+      }
+    }
+  },
+  "maximum_cost_usd": "0.000259164",
+  "preflight_passed": true,
+  "previous_manifest_sha256": "b896ac41283f6a403f19192c65e8e13d56c031ba0fc3eb225533ec6b1575e0ec",
+  "protocol_sha256": "2167cf487a47ab60d22f9913b32467b9a577a53b6c7f58299c4790ff41c38b68",
+  "runner_sha256": "0263b38cda2ba1aa6bc2d6bef526c943d24c92d347918e13978a2646c15f22cb",
+  "inherited_runner_sha256": "efa96df014f012e7103f622366f3082e352c029b032c774b328e6a35f2dd686a"
+}

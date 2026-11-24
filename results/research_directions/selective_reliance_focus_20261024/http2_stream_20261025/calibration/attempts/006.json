@@ -1,0 +1,9 @@
+{
+  "sample_id": "F019__Qwen3__ordinary__none__r2",
+  "prepared_at": "2026-10-26T17:04:23.337986+00:00",
+  "manifest_sha256": "f4d3f02d396a63d3a187e4b203d102af95a26fbcb42fd5fe22f7a27fc91f6e49",
+  "request_sha256": "a6ec328e72b1b0b3acb67b534f7af322783fba465a3720875b3e7ae0fc68e0e6",
+  "reserved_cost_usd": "0.00163488",
+  "curl_no_buffer": true,
+  "http_version_required": "2"
+}

@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-10-21T00:36:43.437691+00:00",
+  "full_set_behavior_not_yet_inspected": true,
+  "purpose": "Posthoc exploratory diagnostics; primary frozen scoring unchanged",
+  "script": "scripts/53_open_feasibility_analysis.py",
+  "sha256": "dd5c5b5fb2420ca949f17e7c3e13a9e4c4cb09904acd13c93e27afd5ae6120a0"
+}

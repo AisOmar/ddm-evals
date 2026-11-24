@@ -1,0 +1,2306 @@
+[
+  {
+    "sample_id": "W08__trap__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__correct__r2__gpt-oss.json",
+    "final_sha256": "0b7173c0186636321054d467eb2d5ebb7b61d37805787fbd7c4cd7b1b629c42e",
+    "retained_original": true,
+    "attempt_id": "W08__trap__correct__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__wrong__r1__Qwen3.json",
+    "final_sha256": "b2ebb37cbb6cb1253db8d17577484495295d9af849526887d8384d1bc7bb7ec0",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__wrong__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__none__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__none__r1__gpt-oss.json",
+    "final_sha256": "28f727432a21ffb580a79804cd06e53542d302e71e882be8ba4a525bcb5c92fe",
+    "retained_original": true,
+    "attempt_id": "W08__plain__none__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__none__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__none__r1__gpt-oss.json",
+    "final_sha256": "a9bc64d83cda9f793f008bf3500eda091b58cdfd85ce04b2351367f66136c821",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__none__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__wrong__r1__Qwen3.json",
+    "final_sha256": "42f7df47329326b9c9828819f5af07c527359f839fec7b6f5185836cbac0ea1d",
+    "retained_original": true,
+    "attempt_id": "W08__plain__wrong__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__correct__r2__gpt-oss.json",
+    "final_sha256": "1e3fbb0434ddcde24101e23f53bbac86d47fb483c9f2e95c6fd62d48b430f5b7",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__correct__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__wrong__r1__gpt-oss.json",
+    "final_sha256": "a839e7801308bc655dbe527deae19f21007b7f37074fe2b69216851a9c797af0",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__wrong__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__none__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__none__r1__Qwen3.json",
+    "final_sha256": "c70c71b5536fb324f63f4797a646bacb7983f80c0267fa63bb836c82ad6be79a",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__none__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__wrong__r2__Qwen3.json",
+    "final_sha256": "e98a6c2474dcc9abbdabb9f78e97e6c415118e41f9a9302d562b271f73e2bf42",
+    "retained_original": true,
+    "attempt_id": "W08__plain__wrong__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__wrong__r2__gpt-oss.json",
+    "final_sha256": "745b3806de17fb0a10cdeb3dc9f1b556c4206ff3c9f6c43c606b2474dd6651a4",
+    "retained_original": true,
+    "attempt_id": "W08__plain__wrong__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__correct__r1__gpt-oss.json",
+    "final_sha256": "a5f7bb610883c682d0511fe876bd42e86ce0553311077cee8f1d1c320b145d8c",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__correct__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__correct__r2__gpt-oss.json",
+    "final_sha256": "fdf715ce409ddde2bf278a38c8a2ded326c539df0f6042ef137267be2f85b0af",
+    "retained_original": true,
+    "attempt_id": "W08__plain__correct__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__none__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__none__r1__Qwen3.json",
+    "final_sha256": "7fb01e1f4bd068eb2618edf6f924cadb5f50a9e5b2dc9a09ae415704fdf9c672",
+    "retained_original": true,
+    "attempt_id": "W08__plain__none__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__none__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__none__r2__gpt-oss.json",
+    "final_sha256": "b63a90b8713e5173562f3b0ee573e2918d13df1178a5298e41db906c52543e6e",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__none__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__trap__correct__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__correct__r1__Qwen3.json",
+    "final_sha256": "789f8967aa7babd8b09c724091454555891656228e334473a3d4d544e365f3d1",
+    "retained_original": true,
+    "attempt_id": "W08__trap__correct__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__correct__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__correct__r2__Qwen3.json",
+    "final_sha256": "f639a44570db8e2b99c812cd047d71a6cb4e0c52ab4dce80aebdd19aeddb2e47",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__correct__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__none__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__none__r2__Qwen3.json",
+    "final_sha256": "01b67a7c50199df479cbc9aeaa57ce075a66ac6ad7826e646dd5bb0d6d83f51e",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__none__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__correct__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__correct__r1__Qwen3.json",
+    "final_sha256": "967b84405c8f8de32504de80bdcf4ce567a326a1a7f0abae5690a6db02019fa3",
+    "retained_original": true,
+    "attempt_id": "W08__plain__correct__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__trap__none__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__none__r2__Qwen3.json",
+    "final_sha256": "8c281b146daf55b1c033c4d3aa869b1421dc39649225f60895e21df5381a06b8",
+    "retained_original": true,
+    "attempt_id": "W08__trap__none__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__trap__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__wrong__r2__Qwen3.json",
+    "final_sha256": "398ae0d6c90fa8784a06d37a519c8408ae38df2aff0fcb86cc1f0ea9536f716d",
+    "retained_original": true,
+    "attempt_id": "W08__trap__wrong__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__trap__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__wrong__r2__gpt-oss.json",
+    "final_sha256": "98bf4d4b3c41ad1415bf585300f5f5be095ed372da2b7b0e90b1dcc12bca43cd",
+    "retained_original": true,
+    "attempt_id": "W08__trap__wrong__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__trap__none__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__none__r1__gpt-oss.json",
+    "final_sha256": "b6bc352141a153ac3dc5d40d030e4a819067df5ef845c1b4eb0a3b3fc1feb2ec",
+    "retained_original": true,
+    "attempt_id": "W08__trap__none__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__correct__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__correct__r1__Qwen3.json",
+    "final_sha256": "5c8646546e79312586d11bd5deebc86e5733e537ca8fb26847b8520020c90c72",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__correct__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__wrong__r2__Qwen3.json",
+    "final_sha256": "0f44b90cd4e439bf8161e57b5e6ca08d9cc73d7bbf92dcb15b697e5aa9c418f7",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__wrong__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__none__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__none__r2__gpt-oss.json",
+    "final_sha256": "3071abb7400fdef96eb1cd7f61fb27a9986acd6597997372889acba2b6ec1b09",
+    "retained_original": true,
+    "attempt_id": "W08__plain__none__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__neutral__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__neutral__wrong__r2__gpt-oss.json",
+    "final_sha256": "e3c2235b58a8fd977e9aeccee0f5933fa1ae1145262c5c0d5d78e38c96a04a1d",
+    "retained_original": true,
+    "attempt_id": "W08__neutral__wrong__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__trap__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__wrong__r1__gpt-oss.json",
+    "final_sha256": "c6ce041465a3cf5c60c0bdc5298bcdee317e42210b9cf56e1b7108408757d419",
+    "retained_original": true,
+    "attempt_id": "W08__trap__wrong__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__trap__correct__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__correct__r2__Qwen3.json",
+    "final_sha256": "1fc516005adf1693bdc0fb562cff347f378d85feb8fd03e6b9950648c601fde0",
+    "retained_original": true,
+    "attempt_id": "W08__trap__correct__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__wrong__r1__gpt-oss.json",
+    "final_sha256": "c7f415323deae9b1fb44e01a14709a3acf08984973730df936e9f20c075a6a61",
+    "retained_original": true,
+    "attempt_id": "W08__plain__wrong__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__correct__r1__gpt-oss.json",
+    "final_sha256": "7c66ce267e1883bf15af88b01e65075f6d24ab84446fa07943b9f57d8f3d316f",
+    "retained_original": true,
+    "attempt_id": "W08__plain__correct__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__trap__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__correct__r1__gpt-oss.json",
+    "final_sha256": "82442a2313527e2779c9e2c839671aa75c1edad4591f86380df425645b019dd6",
+    "retained_original": true,
+    "attempt_id": "W08__trap__correct__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__trap__none__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__none__r1__Qwen3.json",
+    "final_sha256": "1e1fec47c399829c22c5e35047a8483220462301efb9b434df2ab27bed774d8f",
+    "retained_original": true,
+    "attempt_id": "W08__trap__none__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__trap__none__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__none__r2__gpt-oss.json",
+    "final_sha256": "0fe3d713b9ef5418f6e64c6aa54a92d91ec4cb9742d0cf4d15ef860e1e6219dc",
+    "retained_original": true,
+    "attempt_id": "W08__trap__none__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__trap__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__trap__wrong__r1__Qwen3.json",
+    "final_sha256": "f1a75458ae8f63ba0740f255257af75a6901656508ab92f8a81d6cdf89f4a1a4",
+    "retained_original": true,
+    "attempt_id": "W08__trap__wrong__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__correct__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__correct__r2__Qwen3.json",
+    "final_sha256": "d06052a1013308b24c93deb48e9bbc110b88a176cd8cbf13d862422b166340e1",
+    "retained_original": true,
+    "attempt_id": "W08__plain__correct__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W08__plain__none__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W08__plain__none__r2__Qwen3.json",
+    "final_sha256": "07f683d7ad30908b217ea5de52fa1a0bac24a0b19beb5a40f7807a20b05ef927",
+    "retained_original": true,
+    "attempt_id": "W08__plain__none__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__wrong__r1__gpt-oss.json",
+    "final_sha256": "a1d7ce218eb23056d54b176fcdd0b4bc00528d18a9634532a67ba8da2f4813c0",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__wrong__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__correct__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__correct__r2__Qwen3.json",
+    "final_sha256": "68914a521b5c7b294ea82cb9cfb9603cea6690ca53c666e3d0a2dfe6ccb54d5c",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__correct__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__none__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__none__r2__gpt-oss.json",
+    "final_sha256": "d150ba89f163d9f370cfebc1a459ab62b434320ff702c8b3c9bbe41137194852",
+    "retained_original": true,
+    "attempt_id": "W02__trap__none__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__none__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__none__r2__gpt-oss.json",
+    "final_sha256": "59faf064f1f0fb75dd0cb7089e2f1c67cbc458730b115a97936859035b2b79af",
+    "retained_original": true,
+    "attempt_id": "W02__plain__none__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__correct__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__correct__r1__Qwen3.json",
+    "final_sha256": "da84fa6fc2f4c2bb9dd7edd3ed79ba6f916a684c6fbdc0264665d9280d842033",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__correct__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__none__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__none__r1__Qwen3.json",
+    "final_sha256": "fdc1b780a54527e96827e2330c28b64579a354fdaaf18d066d4802a63071b021",
+    "retained_original": true,
+    "attempt_id": "W02__trap__none__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__wrong__r2__gpt-oss.json",
+    "final_sha256": "5f3db53c515fbfaed153df03cda3003f1d8f7898a7bc629dc0823a4cbcd050fc",
+    "retained_original": true,
+    "attempt_id": "W02__plain__wrong__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__correct__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__correct__r1__Qwen3.json",
+    "final_sha256": "be4026a942458e47259c78a8f387aa461190ab1dfd50571b909413099ac5fdf0",
+    "retained_original": true,
+    "attempt_id": "W02__plain__correct__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__correct__r1__gpt-oss.json",
+    "final_sha256": "e4ec23924a583604b0ceb7a52c99fa52f2f9a59a706541795df61117839ff51b",
+    "retained_original": true,
+    "attempt_id": "W02__plain__correct__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__correct__r2__gpt-oss.json",
+    "final_sha256": "a066c9d97d5bc0fabbe77bdc6f38198277ea41d4de9cef4872e23e21654f924a",
+    "retained_original": true,
+    "attempt_id": "W02__plain__correct__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__none__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__none__r1__gpt-oss.json",
+    "final_sha256": "9ff4bebca40dcc12a50adfec52d3bfd2f1be0118d4da249cfba82e47f065296c",
+    "retained_original": true,
+    "attempt_id": "W02__trap__none__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__correct__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__correct__r2__Qwen3.json",
+    "final_sha256": "ee15640e0d5d17696d38c95c3bf986cc3100dcb1278bef395a9aa28b680a3c36",
+    "retained_original": true,
+    "attempt_id": "W02__plain__correct__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__wrong__r2__Qwen3.json",
+    "final_sha256": "011be65349e1850cf23fbc1a10bf61c49abfbbf4a15e7f568201964b577fc7c3",
+    "retained_original": true,
+    "attempt_id": "W02__trap__wrong__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__correct__r2__gpt-oss.json",
+    "final_sha256": "4aee1acf5c6acfc0fd6faaa78aebe0abc2ecd13c4411b1c0ea71f249c9c78148",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__correct__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__correct__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__correct__r2__Qwen3.json",
+    "final_sha256": "65f256c1e140e930ce3841947641d4bc1ae3439285c81af5cb26b5e144400cf3",
+    "retained_original": true,
+    "attempt_id": "W02__trap__correct__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__none__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__none__r2__gpt-oss.json",
+    "final_sha256": "98cda5c8a781f279ae54097be70d8f541aaeb8ab4e8a4673053d2f5c233b6afb",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__none__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__correct__r2__gpt-oss.json",
+    "final_sha256": "85559b29fb8460c70bf45be66468ce88a28e97a7102a73b789368395f897984a",
+    "retained_original": true,
+    "attempt_id": "W02__trap__correct__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__wrong__r1__Qwen3.json",
+    "final_sha256": "31c2ebb75d35b4c9eca8aeb82e074698cce2cf382c928ad70a5dec9e57136fa8",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__wrong__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__none__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__none__r1__Qwen3.json",
+    "final_sha256": "f6211276edcf1d421c626dd89100aa3c7af26ff392f84fbce22d67b5e4ed221c",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__none__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__wrong__r2__gpt-oss.json",
+    "final_sha256": "e8608e67bd78383c185eb5a49c7d428f1edd6ee5b8fcf37478c25eeb19915b60",
+    "retained_original": true,
+    "attempt_id": "W02__trap__wrong__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__wrong__r1__gpt-oss.json",
+    "final_sha256": "e00ad653744ffdde17fac758f09cf0874287cb2ef890d0243fe057cf012f4ad0",
+    "retained_original": true,
+    "attempt_id": "W02__trap__wrong__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__wrong__r2__Qwen3.json",
+    "final_sha256": "346ff327b7de6ce3cfa628d3e44e1b5c0330b037aa15711a418d97dcab7bea92",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__wrong__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__none__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__none__r1__Qwen3.json",
+    "final_sha256": "972a2078eec919d34b49b882004b42e3c0d5e9528b305b6da0b83e526c2e0435",
+    "retained_original": true,
+    "attempt_id": "W02__plain__none__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__correct__r1__gpt-oss.json",
+    "final_sha256": "1c41dc88ef360ec3cb57cbd83fdf7068d2d8388209d4f9f2dfb8d8238fe2d16d",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__correct__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__none__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__none__r2__Qwen3.json",
+    "final_sha256": "234dee6706595f04850981a78bdc9a6d726c43adc805fdeea427791a2306b424",
+    "retained_original": true,
+    "attempt_id": "W02__trap__none__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__correct__r1__gpt-oss.json",
+    "final_sha256": "89877b67dccf09df23485a2a11668c9bcb1ee527ce5488873724be4b51e1a6c0",
+    "retained_original": true,
+    "attempt_id": "W02__trap__correct__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__wrong__r1__Qwen3.json",
+    "final_sha256": "4083744a4c2f2d834968ad0d4aaa80bdd48bc0bfa2e71c0ded5e0253fd374a34",
+    "retained_original": true,
+    "attempt_id": "W02__plain__wrong__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__wrong__r1__Qwen3.json",
+    "final_sha256": "ad628b0db455bd7a1e90104604d3cbbc1a78b830aea9dde3a1dc5db9015dcd13",
+    "retained_original": true,
+    "attempt_id": "W02__trap__wrong__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__none__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__none__r2__Qwen3.json",
+    "final_sha256": "2dbf3e3720400db9a5ad9c488a5b6cb0138eed2eff52db5fa447ceb6341bd400",
+    "retained_original": true,
+    "attempt_id": "W02__plain__none__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__wrong__r1__gpt-oss.json",
+    "final_sha256": "e9b1b1ae5248fac9e999b103e437d4115e5d2a6325edb995edccd9dbe156c94e",
+    "retained_original": true,
+    "attempt_id": "W02__plain__wrong__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__none__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__none__r2__Qwen3.json",
+    "final_sha256": "b9eda2b8395a879ecad477a59177aab8ab898304b303667ff1c4a959cf0ca377",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__none__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__wrong__r2__gpt-oss.json",
+    "final_sha256": "bfd66abaad00ee6e82f849518dd718328f4cbe5068f805b605c0e07792a2aca2",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__wrong__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__wrong__r2__Qwen3.json",
+    "final_sha256": "7c7911f0387e19b0557a68ef0c65d6fc9be0510a41c7a277507ea140353fa92f",
+    "retained_original": true,
+    "attempt_id": "W02__plain__wrong__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__neutral__none__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__neutral__none__r1__gpt-oss.json",
+    "final_sha256": "e53bcb83131477489f1a10cec3e5cbe2d29462c89eb6d219e0628664e1dd27af",
+    "retained_original": true,
+    "attempt_id": "W02__neutral__none__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__trap__correct__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__trap__correct__r1__Qwen3.json",
+    "final_sha256": "18cc776783fa7136a8b34d9eb0e46947468006cfa6907cd5e521270c96dbce45",
+    "retained_original": true,
+    "attempt_id": "W02__trap__correct__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W02__plain__none__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W02__plain__none__r1__gpt-oss.json",
+    "final_sha256": "11299aff54812073f34d758a4b59a3282410bdbc8b02001af872f0fec602219d",
+    "retained_original": true,
+    "attempt_id": "W02__plain__none__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__none__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__none__r2__Qwen3.json",
+    "final_sha256": "57d1249339357f89007e77917f2c99fc9fb4b9e65051e19af1ba0870eb4ddf27",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__none__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__correct__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__correct__r1__Qwen3.json",
+    "final_sha256": "3abd2fc0110ff27bd39e523457e79d728ff41bdccda8b287a3943f5703077fbf",
+    "retained_original": true,
+    "attempt_id": "W03__trap__correct__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__correct__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__correct__r2__Qwen3.json",
+    "final_sha256": "77c5c13486354348ddbe4786da8e46554895df02c72129fc5abcfe43569d5b6b",
+    "retained_original": true,
+    "attempt_id": "W03__trap__correct__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__wrong__r1__Qwen3.json",
+    "final_sha256": "6819151e24b3b4cc455fe824d93c19f7eb088e38674a4b90486125666852b90e",
+    "retained_original": true,
+    "attempt_id": "W03__trap__wrong__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__correct__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__correct__r1__Qwen3.json",
+    "final_sha256": "30a9768ab3ea8802066c27dd38a2973fa667084ab2ade84011ddeda28439f075",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__correct__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__none__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__none__r1__gpt-oss.json",
+    "final_sha256": "ea3ac192082490759d7ffa9a26eff1f1028a0cd94a137b107d0547bb6151d621",
+    "retained_original": true,
+    "attempt_id": "W03__plain__none__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__wrong__r1__Qwen3.json",
+    "final_sha256": "312525c93be9ddceee1c5ac7fee2539384222d24e3717c50b242cd90f6c19515",
+    "retained_original": true,
+    "attempt_id": "W03__plain__wrong__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__wrong__r2__Qwen3.json",
+    "final_sha256": "450e5b63f4c5efc77b152d663c9991ba62c2fb8923c3fa260523b0cc6589708e",
+    "retained_original": true,
+    "attempt_id": "W03__trap__wrong__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__correct__r2__gpt-oss.json",
+    "final_sha256": "4c01887d9388cfae3a1e913367812a18618d2306703b3ef628b38dfbbaf37507",
+    "retained_original": true,
+    "attempt_id": "W03__plain__correct__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__correct__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__correct__r1__Qwen3.json",
+    "final_sha256": "889dc6ce4f37f385132fb26e8fb7bdd74d7a9af40fe28c1657f48eae81048a60",
+    "retained_original": true,
+    "attempt_id": "W03__plain__correct__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__correct__r1__gpt-oss.json",
+    "final_sha256": "ddfd919631b08d263082b62c1a5b9b5c83931551123e8994da3e595bacc00919",
+    "retained_original": true,
+    "attempt_id": "W03__plain__correct__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__wrong__r2__gpt-oss.json",
+    "final_sha256": "ec548a14cdb79d86f7d795ce588415d5cdd540f39a816c7a2407e30a15c1ab82",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__wrong__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__none__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__none__r2__Qwen3.json",
+    "final_sha256": "b41c8fd64abae8e5c46d2eaea9879d1e7f087d5dcfaf462884d398f26a9f4a14",
+    "retained_original": true,
+    "attempt_id": "W03__plain__none__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__wrong__r2__gpt-oss.json",
+    "final_sha256": "603d9896cdc1d181362b958582546419e47673630e4b2178618fa91eb105150a",
+    "retained_original": true,
+    "attempt_id": "W03__trap__wrong__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__correct__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__correct__r2__Qwen3.json",
+    "final_sha256": "a48dd66cfffac011786be42cfb8c9d00c50295093f84661434d1c23326184ee9",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__correct__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__wrong__r1__gpt-oss.json",
+    "final_sha256": "f555afe2fcb217ab5ab15fb2445188e345ec529c20c2c8800543c1e350357bf0",
+    "retained_original": true,
+    "attempt_id": "W03__trap__wrong__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__correct__r1__gpt-oss.json",
+    "final_sha256": "cc85160ebf9502c7b654b072242a0c3c2bfcdc3642b8c61d44be61e71e6560bb",
+    "retained_original": true,
+    "attempt_id": "W03__trap__correct__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__wrong__r1__gpt-oss.json",
+    "final_sha256": "79322d6f5a89d3751b31fa1b1a9e4fc6ab881acb54f3833b0daa48ca5c3745f7",
+    "retained_original": true,
+    "attempt_id": "W03__plain__wrong__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__none__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__none__r1__Qwen3.json",
+    "final_sha256": "d1345f3b31613e1e416907b420f13fedd3c6506339aec7af1745a103793335a1",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__none__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__wrong__r1__gpt-oss.json",
+    "final_sha256": "1b55d09eedb28718c99c53819a384aa531232778c939421b740e218a1f041b1d",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__wrong__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__none__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__none__r2__gpt-oss.json",
+    "final_sha256": "d36b520e742bbaba6a6463498de5ace7c6c612c20697c35ca7007af51fe05143",
+    "retained_original": true,
+    "attempt_id": "W03__plain__none__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__correct__r1__gpt-oss.json",
+    "final_sha256": "73b40a7bf209afd35395a8a440e4e186a4b9232f208730029479a9071bd14139",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__correct__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__correct__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__correct__r2__Qwen3.json",
+    "final_sha256": "1410902145c72015501ab50334986f1137daabc8369ab8b9b558e7a5199417e4",
+    "retained_original": true,
+    "attempt_id": "W03__plain__correct__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__none__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__none__r1__Qwen3.json",
+    "final_sha256": "01dd3816b8631994f207e775ef267528e6e7d3b8001a26d5a6f765c0fbb67e38",
+    "retained_original": true,
+    "attempt_id": "W03__plain__none__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__none__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__none__r2__gpt-oss.json",
+    "final_sha256": "03e3b82ebfb16c3dff5051492df23fb2083a9bd612921a13f58380c70304bb8b",
+    "retained_original": true,
+    "attempt_id": "W03__trap__none__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__wrong__r1__Qwen3.json",
+    "final_sha256": "b1fec05086b61df733fc8d839b508feebf41bb58e1f7c25aa24bdd58f06071b0",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__wrong__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__correct__r2__gpt-oss.json",
+    "final_sha256": "aa43f3262453d7319f29307e96dfcbaa39150a7bee41c8be20736ee441ebf2c9",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__correct__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__none__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__none__r1__Qwen3.json",
+    "final_sha256": "0f72c4b4071611af01b3cee9806ccd426ee8ea4a10ad8472b6f752bb3af214ad",
+    "retained_original": true,
+    "attempt_id": "W03__trap__none__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__wrong__r2__gpt-oss.json",
+    "final_sha256": "68252765e30c906cbf1b6c252f95fe50844d1940eef35c52a9ca1a00a57da578",
+    "retained_original": true,
+    "attempt_id": "W03__plain__wrong__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__none__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__none__r1__gpt-oss.json",
+    "final_sha256": "5afda3dafe83671cc4623878f68d7b6744eb4b1b96ed573657c13b35f05e9b9b",
+    "retained_original": true,
+    "attempt_id": "W03__trap__none__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__none__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__none__r2__Qwen3.json",
+    "final_sha256": "f41411eb36c3dd31c0597ef3b9d63f0410070034b595883e7a986ffeb44283d8",
+    "retained_original": true,
+    "attempt_id": "W03__trap__none__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__none__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__none__r2__gpt-oss.json",
+    "final_sha256": "ff7abc3c800564fe44d659a0245bd7d37ea8463e0da64eb215911bf14ae0c073",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__none__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__plain__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__plain__wrong__r2__Qwen3.json",
+    "final_sha256": "f17ba72afddb1fd24d91d88812f927b22cb670d896c07a5f4faa3a833a5f5863",
+    "retained_original": true,
+    "attempt_id": "W03__plain__wrong__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__none__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__none__r1__gpt-oss.json",
+    "final_sha256": "5480e765d6110677b6d6dbe4dc74ab9d9b3463021f8d84c5956ed05011eeb087",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__none__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__neutral__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__neutral__wrong__r2__Qwen3.json",
+    "final_sha256": "b305a164d4698a81e319c3119230ebee5386ca1aa85068979dfb12f202499232",
+    "retained_original": true,
+    "attempt_id": "W03__neutral__wrong__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W03__trap__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W03__trap__correct__r2__gpt-oss.json",
+    "final_sha256": "1ab5d01eaa743430f84c8078ce83619533bc772b784b95349059aa69a9d58026",
+    "retained_original": true,
+    "attempt_id": "W03__trap__correct__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__neutral__wrong__r2__gpt-oss.json",
+    "final_sha256": "dec97944138b055b6160c1fb376e0cb61ff4fb7855561edf8bae082e6f91983c",
+    "retained_original": true,
+    "attempt_id": "W05__neutral__wrong__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__none__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__neutral__none__r1__gpt-oss.json",
+    "final_sha256": "0c1f4db4088e2515991791e44e431840c7c6cbd9d782b59ef169b26b3f7061ba",
+    "retained_original": true,
+    "attempt_id": "W05__neutral__none__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__trap__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__trap__correct__r1__gpt-oss.json",
+    "final_sha256": "92c42e0ef4e4e382f524d0fc687c238502b338da9fb77ae009f6c1a5851f879b",
+    "retained_original": true,
+    "attempt_id": "W05__trap__correct__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__trap__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__trap__wrong__r1__Qwen3.json",
+    "final_sha256": "bbd9afffc642536868ce11419cc3fb1124d5346f7a33b7ab3722e9885391db0d",
+    "retained_original": true,
+    "attempt_id": "W05__trap__wrong__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__trap__none__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__trap__none__r1__Qwen3.json",
+    "final_sha256": "5d11db49bf62b19a2f68bbb2823fef421444198731df5a08fb0245021bf9b460",
+    "retained_original": true,
+    "attempt_id": "W05__trap__none__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__correct__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__neutral__correct__r2__Qwen3.json",
+    "final_sha256": "4c6524cd9d2515f13a5873a701fbc6b489659dc4554c49252a8e5e24474884b4",
+    "retained_original": true,
+    "attempt_id": "W05__neutral__correct__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__neutral__wrong__r1__Qwen3.json",
+    "final_sha256": "b6ec6c83a851d88b4bd1f25ac5505990db8819c41ea9e001303bcc2477e3c947",
+    "retained_original": true,
+    "attempt_id": "W05__neutral__wrong__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__none__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__plain__none__r1__Qwen3.json",
+    "final_sha256": "ba4f25ae133ebc05fc0d96c0b75a10402df5e5787f94c699fafd972970643427",
+    "retained_original": true,
+    "attempt_id": "W05__plain__none__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__none__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__plain__none__r2__gpt-oss.json",
+    "final_sha256": "ecfb3e1ab97ac2cb6b8aecda5f5672630dd5b6e291399623aa8b5d4577ad0d7c",
+    "retained_original": true,
+    "attempt_id": "W05__plain__none__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__trap__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__trap__wrong__r1__gpt-oss.json",
+    "final_sha256": "8278dab9e596477d6b5624a79d3e07d8fd29f7efba9f52e1e297e2ec22cee8fa",
+    "retained_original": true,
+    "attempt_id": "W05__trap__wrong__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__neutral__wrong__r2__Qwen3.json",
+    "final_sha256": "e72e463a4d96465c28c3ab4a003b0dbde91d2d4c7972350f5a71c70e7a911ccc",
+    "retained_original": true,
+    "attempt_id": "W05__neutral__wrong__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__trap__correct__r1__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__trap__correct__r1__Qwen3.json",
+    "final_sha256": "03869953fcdc4fdbc355b23d553891918555256a614496e0b1336f4c1fe466f3",
+    "retained_original": true,
+    "attempt_id": "W05__trap__correct__r1__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__trap__none__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__trap__none__r2__Qwen3.json",
+    "final_sha256": "d1b2bff7a8b284dcaaaeed615a52c6e940a7d197022ae45707cd235123d81065",
+    "retained_original": true,
+    "attempt_id": "W05__trap__none__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__trap__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__trap__wrong__r2__gpt-oss.json",
+    "final_sha256": "02e02587ed7d50db2f32e02d389aea1bd7331ad1cb3e3f2dc3bae43a5f10de04",
+    "retained_original": true,
+    "attempt_id": "W05__trap__wrong__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__none__r2__Qwen3",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__plain__none__r2__Qwen3.json",
+    "final_sha256": "8ea5d9e5313758a0308d191d9a7a8b149f2c833803ed6e037b7e913e014d1f51",
+    "retained_original": true,
+    "attempt_id": "W05__plain__none__r2__Qwen3",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__trap__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__trap__correct__r2__gpt-oss.json",
+    "final_sha256": "55dcd6208e93832155bb53af645978c12ef8af857bb326b94696b2177ba4b444",
+    "retained_original": true,
+    "attempt_id": "W05__trap__correct__r2__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/deepinfra_wording_pilot_20261022/pilot/finished/W05__plain__wrong__r1__gpt-oss.json",
+    "final_sha256": "0235258dd9989c06fdc3bd7c958b0bcd3e92369320c86d065839bb6e56a7209c",
+    "retained_original": true,
+    "attempt_id": "W05__plain__wrong__r1__gpt-oss",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0001.json",
+    "final_sha256": "c07d519a7d72b2537cf363c5f0a73fab9000db9dda5cd43281b63fe99e36ad1c",
+    "retained_original": false,
+    "attempt_id": "a0001",
+    "total_attempts": 2
+  },
+  {
+    "sample_id": "W05__trap__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0002.json",
+    "final_sha256": "361c4b9b7694ceec62521ab5b8bf38983edcc21b1e1232d92df67113c49f965c",
+    "retained_original": false,
+    "attempt_id": "a0002",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0003.json",
+    "final_sha256": "f6db42d8a7ed2ac70243d42c5223fd0a51b3703af6fa5bbe4d34608521ada618",
+    "retained_original": false,
+    "attempt_id": "a0003",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0004.json",
+    "final_sha256": "c224956a53e52c73b65bb4f7409159d5ada354b33fbe25bdf345e38d512dbdae",
+    "retained_original": false,
+    "attempt_id": "a0004",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0005.json",
+    "final_sha256": "86d10823a6bd02b18d6e77dd1b70c12398dbbf72e6634a2288495e6f0a1eb32f",
+    "retained_original": false,
+    "attempt_id": "a0005",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0006.json",
+    "final_sha256": "a9c7abfb0f5aa5aabf0d10045c526687fab5ab804e0b9d5de22f54cd9376a73b",
+    "retained_original": false,
+    "attempt_id": "a0006",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0007.json",
+    "final_sha256": "214ad8f8edb20943150dfb518b9cc9f9fc650be53bc2f7a991fc1a8bf7175755",
+    "retained_original": false,
+    "attempt_id": "a0007",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0008.json",
+    "final_sha256": "f6c6cd9157755e3670fb59af5d6636fcfac8440f9c2bd6c66335d9fd339110c7",
+    "retained_original": false,
+    "attempt_id": "a0008",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__trap__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0009.json",
+    "final_sha256": "432ef61ac76f0107df3d2617cda05b9eb9e91ded9fd9428b531e75c83236701b",
+    "retained_original": false,
+    "attempt_id": "a0009",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__trap__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0010.json",
+    "final_sha256": "f9ec04cfdb21eb25d1aeb6da54e482c02f484e7f1cf0efee79ae1fc0a6f573fc",
+    "retained_original": false,
+    "attempt_id": "a0010",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0011.json",
+    "final_sha256": "0f9eed95a31fe5c2f12b0dfb4befc95e3cbd0bc521cb199eed2846c312f9ea71",
+    "retained_original": false,
+    "attempt_id": "a0011",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0012.json",
+    "final_sha256": "104348d82d28d93936885274298bc36299acd7ec8999097eb31d99968b02a841",
+    "retained_original": false,
+    "attempt_id": "a0012",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__trap__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0013.json",
+    "final_sha256": "b6f66e7458c0eca79d555bef9f98bac1c268f4a4d653c3daf5f375ea23ee2c5e",
+    "retained_original": false,
+    "attempt_id": "a0013",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0014.json",
+    "final_sha256": "92074ca8693ee74e465564789c4041e5c461bc8649bb6210d1fd44b98e8d6412",
+    "retained_original": false,
+    "attempt_id": "a0014",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0015.json",
+    "final_sha256": "7f263fb53c8b4347a5b005a04a32c764d369ff48d34ecc9c0ae0f141e917c4b4",
+    "retained_original": false,
+    "attempt_id": "a0015",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__plain__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0016.json",
+    "final_sha256": "7d28823745d85ed574b3766fbe8a08cc4e4686cd2dcf5c68d20c585e2976076d",
+    "retained_original": false,
+    "attempt_id": "a0016",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0017.json",
+    "final_sha256": "0cfb5272efe298baef85a6f5d0a10f2c55d6b341ad42b34816e0a6dd2577061b",
+    "retained_original": false,
+    "attempt_id": "a0017",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0018.json",
+    "final_sha256": "ee331196abe89fbc93ba518f2fb073251f9c3b342ac51c8335bfb4f0debfa030",
+    "retained_original": false,
+    "attempt_id": "a0018",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W05__neutral__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0019.json",
+    "final_sha256": "9ac17394bf0bbb1dbdfc1fb7d0eb8486984b994f4d2afacad136d136ae5e41dc",
+    "retained_original": false,
+    "attempt_id": "a0019",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0020.json",
+    "final_sha256": "3e43872fe59f88f717042d5ca13392db1dbfb4987bd31a82faa4186cd63861c8",
+    "retained_original": false,
+    "attempt_id": "a0020",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0021.json",
+    "final_sha256": "41aa367e4eee94be60615982dc6f96970db55d9544f8c4e5be2d60c5bbb7f957",
+    "retained_original": false,
+    "attempt_id": "a0021",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0022.json",
+    "final_sha256": "1a602968a7ec4ae4ffd880a47117f1903500ed5af00cf90436e8906e29efc387",
+    "retained_original": false,
+    "attempt_id": "a0022",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0023.json",
+    "final_sha256": "f289d9b0e5dbd47eaa35d6202173c1b96dc4bd3da1471299fae9b377faa6bf71",
+    "retained_original": false,
+    "attempt_id": "a0023",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0024.json",
+    "final_sha256": "b592a83f0fc1892df778d09099e4eaec7366ed15e6bb5a5979ee166de9b89dc2",
+    "retained_original": false,
+    "attempt_id": "a0024",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0025.json",
+    "final_sha256": "c9de8a79f89399e2577e378ccd6fa32ff8c67ca06d3d03792a6de8170b5f78f5",
+    "retained_original": false,
+    "attempt_id": "a0025",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0026.json",
+    "final_sha256": "37049f9daaf342f41eb96ed866053bdc3280c7bf3b31b169163fcdb654067b6a",
+    "retained_original": false,
+    "attempt_id": "a0026",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0027.json",
+    "final_sha256": "9487d5a7432cec14609936758666421be8aa78870ac59a3422fff3de5a44f75c",
+    "retained_original": false,
+    "attempt_id": "a0027",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0028.json",
+    "final_sha256": "f4121bd66a53a265cebed58622e19cc828d0d29e2addea48854dd71aade4fe35",
+    "retained_original": false,
+    "attempt_id": "a0028",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0029.json",
+    "final_sha256": "9b98e8872f4fbe9ea294129131d2ae733d89c5b90df949484ffb23827f65e72b",
+    "retained_original": false,
+    "attempt_id": "a0029",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0030.json",
+    "final_sha256": "c9ce450d3c9670722d26dd67867d894f7cfb5d060d850e497bdd4223773971b0",
+    "retained_original": false,
+    "attempt_id": "a0030",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0031.json",
+    "final_sha256": "3f29b8e72bfc69a09a6bf97313b01442540daad876cf5803e7a68b19a28be948",
+    "retained_original": false,
+    "attempt_id": "a0031",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0032.json",
+    "final_sha256": "67b5585d4ea5802f15cf1be416a3dd3c82878e6861487e897fbab983106f19fd",
+    "retained_original": false,
+    "attempt_id": "a0032",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0033.json",
+    "final_sha256": "fa420c1093ceece1d85667de5cc515e70321f0eaa6d55d949066c189eb9751b5",
+    "retained_original": false,
+    "attempt_id": "a0033",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0034.json",
+    "final_sha256": "ddff492214f1375d5e27dc67987cdd6a599595064a31e5f59c9ed3a16115121c",
+    "retained_original": false,
+    "attempt_id": "a0034",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0035.json",
+    "final_sha256": "d0869614814005a6f682e9ad3406014f1ea18b089e58f06d4e42bb2a1f1857c2",
+    "retained_original": false,
+    "attempt_id": "a0035",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0036.json",
+    "final_sha256": "881eb3cf0659925fa66627b57844a9f2b2eb2fd3cdb3f3b1bbb8c90982fce040",
+    "retained_original": false,
+    "attempt_id": "a0036",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0037.json",
+    "final_sha256": "7c89ff483d1b8fbdb6aa88d8cbf0b987c2ca1b929b3bc3c6c4307c89a04c8866",
+    "retained_original": false,
+    "attempt_id": "a0037",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0038.json",
+    "final_sha256": "b7eb27e5ba4e8940aecea7792325838f3a5ce6a26be5c1c5ed42efdf60161a2e",
+    "retained_original": false,
+    "attempt_id": "a0038",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0039.json",
+    "final_sha256": "dbba6486f3da883a30331e91de864f8a5aee8e55f8c365acc9272f9e675603e3",
+    "retained_original": false,
+    "attempt_id": "a0039",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0040.json",
+    "final_sha256": "3be85697840ff958ea68f87583228a3cb729361f6e486863bd9293e63428e099",
+    "retained_original": false,
+    "attempt_id": "a0040",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0041.json",
+    "final_sha256": "09dff505e2f068a729305ffa31258e8d200a01dda4ca055d160b24fac4904dae",
+    "retained_original": false,
+    "attempt_id": "a0041",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0042.json",
+    "final_sha256": "f63dc8ec6618000fb87bb0f93af399475aba4343f8af601d92cb1729cc3744c1",
+    "retained_original": false,
+    "attempt_id": "a0042",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__plain__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0043.json",
+    "final_sha256": "ce9995b82b8196bb00045b5e54de0b72ac5f4ca097c69c1afada5762f5917dae",
+    "retained_original": false,
+    "attempt_id": "a0043",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0044.json",
+    "final_sha256": "4f905f58840963e73a411e641f894ba0352b423fad7411a0738dafb867d4a84e",
+    "retained_original": false,
+    "attempt_id": "a0044",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0045.json",
+    "final_sha256": "40a52cd0fcaa44b103ac5e9c0bd20a7d74bccab68f455b4a0a21ab3cd1d32943",
+    "retained_original": false,
+    "attempt_id": "a0045",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0046.json",
+    "final_sha256": "69f6aa038ada153b724074dc3a0bb81f857cb2700458f5a5f75e7bd3b2b3e54c",
+    "retained_original": false,
+    "attempt_id": "a0046",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0047.json",
+    "final_sha256": "a04731e022f49d33cbb6d7a49250cf416e9b538e4c2ce6f32b9e9a2eef698382",
+    "retained_original": false,
+    "attempt_id": "a0047",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0048.json",
+    "final_sha256": "cd41950bd30f5a6ba049cf1aaad70b908239c0dbaed61a810805616eec85d4cc",
+    "retained_original": false,
+    "attempt_id": "a0048",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0049.json",
+    "final_sha256": "49c30df303ed1cf0930e25f0e569fe5f4593882bbe808522922cb2d90e3e4d34",
+    "retained_original": false,
+    "attempt_id": "a0049",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0050.json",
+    "final_sha256": "2cd7942e538febb09c30c9d6cc8a4431e989bd1e0362c7860446be69ba652e64",
+    "retained_original": false,
+    "attempt_id": "a0050",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0051.json",
+    "final_sha256": "8e623c0f72e05db315040d6ddcef064425012a121b97607eaa807d7c5407d832",
+    "retained_original": false,
+    "attempt_id": "a0051",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0052.json",
+    "final_sha256": "490ec15e06a57b887f66045a3f29a88725f4c79a322179ae4a8b345d0b4a20fb",
+    "retained_original": false,
+    "attempt_id": "a0052",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0053.json",
+    "final_sha256": "939e40327a616f4d0d9add6271bc120ed5772f8f9ba5a486f40483f97b06edb7",
+    "retained_original": false,
+    "attempt_id": "a0053",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__trap__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0054.json",
+    "final_sha256": "b0f5c9846e1405bbded95657c3f7684ea4dabcc7fb0b78d4f6afbbe1a3ea2959",
+    "retained_original": false,
+    "attempt_id": "a0054",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W07__neutral__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0055.json",
+    "final_sha256": "2919e93d577dbe6aaf94235a44406ef1ba58d82cadfaa7049ba411878ce7dc83",
+    "retained_original": false,
+    "attempt_id": "a0055",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0056.json",
+    "final_sha256": "9b8720592614b9521bfa1e0ea5b733d9b6edf87a7d1227ff2588b7560570d95d",
+    "retained_original": false,
+    "attempt_id": "a0056",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0057.json",
+    "final_sha256": "5ae4f340fb4f6db496a1bec0ac26a97967172e05d5c305e9cb6464d8af1136d4",
+    "retained_original": false,
+    "attempt_id": "a0057",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0058.json",
+    "final_sha256": "f5c581d5540f71d206d295704be65559a9617576e964ac3831f54006d567e5e4",
+    "retained_original": false,
+    "attempt_id": "a0058",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0059.json",
+    "final_sha256": "8766bfca9a6190e37808f5846f062147619cf6b81c5d742bbed38a01c6f342b8",
+    "retained_original": false,
+    "attempt_id": "a0059",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0060.json",
+    "final_sha256": "9e523e690ad443045694feb074c2292d2681214eb8dbdfbec936201e3b625cb4",
+    "retained_original": false,
+    "attempt_id": "a0060",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0061.json",
+    "final_sha256": "09dafd3ca82048e695394987a7dd1f63c6d745ecb1a58e331e441f6ac972b78b",
+    "retained_original": false,
+    "attempt_id": "a0061",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0062.json",
+    "final_sha256": "8aa0bb0af5176b862e85f96c3523f16ab4f22a1dae368f73501e3c8f18c66f7c",
+    "retained_original": false,
+    "attempt_id": "a0062",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0063.json",
+    "final_sha256": "fcdbc4a5ec2fba931c72ecbe8202b08f6e8af7f793f099107a5161521e9adb4e",
+    "retained_original": false,
+    "attempt_id": "a0063",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0064.json",
+    "final_sha256": "3a9a888c34fe6d8383771b6033cefd2cc435a7b8c50c03c89f1a3072a9da59b9",
+    "retained_original": false,
+    "attempt_id": "a0064",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0065.json",
+    "final_sha256": "d569768f30e3bb14487f7e47520d1a739aeef09ad6aae0563a5bd902de10d01d",
+    "retained_original": false,
+    "attempt_id": "a0065",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0066.json",
+    "final_sha256": "383933a5b76293fae3617da79414411ede7f84953e0ae0625afc4baf24711a13",
+    "retained_original": false,
+    "attempt_id": "a0066",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0067.json",
+    "final_sha256": "81365cc2465eff13bc805c4d5beec26f84019f9a113a6e7f3c47cde23c9318d3",
+    "retained_original": false,
+    "attempt_id": "a0067",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0068.json",
+    "final_sha256": "02ee9015e7146be65e507fae5ed44a889f4508c9372aebb72ae150295b67f739",
+    "retained_original": false,
+    "attempt_id": "a0068",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0069.json",
+    "final_sha256": "d0c3aaf90bbce415c56f9064f4e571822ddedba67f764cc3b45d0e9dc07669a7",
+    "retained_original": false,
+    "attempt_id": "a0069",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0070.json",
+    "final_sha256": "c8c9579d2e908a1c6aec6015857395c09c663cd096efd532df9f3a9e904c5c1b",
+    "retained_original": false,
+    "attempt_id": "a0070",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0071.json",
+    "final_sha256": "dab94c8a57c21d67cd352658309c3ee310ba4b6cffb8fe32e05492ccb8d536df",
+    "retained_original": false,
+    "attempt_id": "a0071",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0072.json",
+    "final_sha256": "1b947ca269e6bbf30330b2d3bf376bb834ef80f7025fe7bf94fbdb9fe9617fe0",
+    "retained_original": false,
+    "attempt_id": "a0072",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0073.json",
+    "final_sha256": "4b2d00a2902db3b87537c6d64ab6aac38b351b191800b547ecbc65c159d56a51",
+    "retained_original": false,
+    "attempt_id": "a0073",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0074.json",
+    "final_sha256": "a467d19e5fa75aecf263dd016c6d0d0a909e89f29450de2e5de838b63a217b32",
+    "retained_original": false,
+    "attempt_id": "a0074",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0075.json",
+    "final_sha256": "4d0de40424a8865fc60d45e0607d8f2598a492d9bf32627bc04b84d267c9770a",
+    "retained_original": false,
+    "attempt_id": "a0075",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0076.json",
+    "final_sha256": "eac07ffcab213be2f94941bd7e658e453739d70f99382d0330ced9a330bf39b3",
+    "retained_original": false,
+    "attempt_id": "a0076",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0077.json",
+    "final_sha256": "2cdaf58697508f2eb047c3aa11f6124c2c4c5b0484bf44cf888a54f62cc23cd7",
+    "retained_original": false,
+    "attempt_id": "a0077",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0078.json",
+    "final_sha256": "522463dc7498117b0a24f1ce95ac6bd3a7d48f20147cfdf1ab556d854d7fcb99",
+    "retained_original": false,
+    "attempt_id": "a0078",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0079.json",
+    "final_sha256": "c5b6528803465a9060e439068b41af520d40d07437b5ea90f88a4f86b5872fcf",
+    "retained_original": false,
+    "attempt_id": "a0079",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0080.json",
+    "final_sha256": "af01a49a9b6a05acd037e531689729e1029dd08deccec11847ccc587e69474cf",
+    "retained_original": false,
+    "attempt_id": "a0080",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0081.json",
+    "final_sha256": "0c1f900c4946051213dfbd0333d06f503fc6f1780e5e3c09757472604cecec7d",
+    "retained_original": false,
+    "attempt_id": "a0081",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0082.json",
+    "final_sha256": "3ac64d7e16b70122a46e7673a0cf2968f307cec7e32c8d0d1caccc04fdad94a2",
+    "retained_original": false,
+    "attempt_id": "a0082",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0083.json",
+    "final_sha256": "92e79648199e3e2feb32eeaf5d32953bd9b66f15a5be9e0afea46686d4ca28ec",
+    "retained_original": false,
+    "attempt_id": "a0083",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0084.json",
+    "final_sha256": "d6fff31b5feff4bf9379eb383e250e7a41ec5ac94ce3aaf56090b85e8d6f0341",
+    "retained_original": false,
+    "attempt_id": "a0084",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0085.json",
+    "final_sha256": "bdbaf0fb2d36a200a2287cd7ae789ff77628a4bb3a769006d863793db25469b1",
+    "retained_original": false,
+    "attempt_id": "a0085",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0086.json",
+    "final_sha256": "123648ae3b0f8265b19c5c091b00805347e2df8634be4b6a44bb28abe50fa1e5",
+    "retained_original": false,
+    "attempt_id": "a0086",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0087.json",
+    "final_sha256": "594f05db363c0eb69129871036e671c0222338ad14fbcdacd1f8f728e45e1b80",
+    "retained_original": false,
+    "attempt_id": "a0087",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0088.json",
+    "final_sha256": "fec964bb1df9f6ee65e618236052ee1b98fb1685e96148c81d9dc6bdd58bf0b7",
+    "retained_original": false,
+    "attempt_id": "a0088",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__plain__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0089.json",
+    "final_sha256": "da0c98c9d80d6340e6e135cb9e6b3aaff54551583d92c7f487e4654c9d98822f",
+    "retained_original": false,
+    "attempt_id": "a0089",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__trap__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0090.json",
+    "final_sha256": "47fa1ffcb11597ab0e6f5d27bc9e83208fa286f48ebc757f9079a4b577edb577",
+    "retained_original": false,
+    "attempt_id": "a0090",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W04__neutral__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0091.json",
+    "final_sha256": "ca03a4db70be218145051aae9a343e08ca531c1323cd811b2bc7af7dd59f3232",
+    "retained_original": false,
+    "attempt_id": "a0091",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0092.json",
+    "final_sha256": "69ecc23a810626d4a945272f6579dba80a86be3513939cd269d8533c705054da",
+    "retained_original": false,
+    "attempt_id": "a0092",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0093.json",
+    "final_sha256": "971385dffbcf32060596603603656be3fdd79b2cb165ce6bde8dc52222ccebb6",
+    "retained_original": false,
+    "attempt_id": "a0093",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0094.json",
+    "final_sha256": "f183c1aa68064a32e162cd4a00ac05217dbcc0586fffdcefbd1d36b6a508da02",
+    "retained_original": false,
+    "attempt_id": "a0094",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0095.json",
+    "final_sha256": "52ed63c4543cec42e68d3d7865899543f54eec44cfbb708593c390df3ca9d261",
+    "retained_original": false,
+    "attempt_id": "a0095",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0096.json",
+    "final_sha256": "921ea869352096ed68641a58e494d3833aa8a969d3b35875da85e1f936c2d696",
+    "retained_original": false,
+    "attempt_id": "a0096",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0097.json",
+    "final_sha256": "85cd6a62efa4a3c4096c66ed1971dcdbedf005b0ce4fa6cccd248da91bc965b1",
+    "retained_original": false,
+    "attempt_id": "a0097",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0098.json",
+    "final_sha256": "39d8e9c2f82c155ab97f03c41b1293e904af78b3f489408c697e285d8fce43a7",
+    "retained_original": false,
+    "attempt_id": "a0098",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0099.json",
+    "final_sha256": "05d07366c5eb3a825bce75ec5ff2e3d82a160e64cd300719a5db3de9816e4d17",
+    "retained_original": false,
+    "attempt_id": "a0099",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0100.json",
+    "final_sha256": "b2be7feae06e85b41ceb93d9dee2f7207a972bab75a5d66b593400551ac9cbe5",
+    "retained_original": false,
+    "attempt_id": "a0100",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0101.json",
+    "final_sha256": "e4ab8a176805378a84bd05621707a000d316a226539e5b75121b0b4325dc9243",
+    "retained_original": false,
+    "attempt_id": "a0101",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0102.json",
+    "final_sha256": "301942a069f1e1c626d045c7d8865f2bfbf48541a3ce8eb7c7cb4910caff2ecf",
+    "retained_original": false,
+    "attempt_id": "a0102",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0103.json",
+    "final_sha256": "2fbaa21cc8f88f7eefe722aaa4bd8a148d6d2eb9a631c0e8ee5292824811216f",
+    "retained_original": false,
+    "attempt_id": "a0103",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0104.json",
+    "final_sha256": "c446a763608488bbc2f822ece2d4da23e0bd1cb45fa119de517c8b6040fd0600",
+    "retained_original": false,
+    "attempt_id": "a0104",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0105.json",
+    "final_sha256": "3da5a32eafdd3153fe500f5f22be13c0e02c84fc2997ca0fe8f6712345976f46",
+    "retained_original": false,
+    "attempt_id": "a0105",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0106.json",
+    "final_sha256": "71535ee2029bb484d7f05bf576ed4e0297a9eab721fc5a8a10d3a706dabaf06c",
+    "retained_original": false,
+    "attempt_id": "a0106",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0107.json",
+    "final_sha256": "707142f514960df234fe2a5902661ee41a7c988732152f73fc529689b1923d14",
+    "retained_original": false,
+    "attempt_id": "a0107",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0108.json",
+    "final_sha256": "559e1b7c277c666b36b42ee08b8a38ad1c7e1bdda6d171a6fc6ff2c80a3429e3",
+    "retained_original": false,
+    "attempt_id": "a0108",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0109.json",
+    "final_sha256": "83373d93efcca75182b9f4f92f9165e4f04f4696cde8ec941fe24dd942f5e9e3",
+    "retained_original": false,
+    "attempt_id": "a0109",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0110.json",
+    "final_sha256": "e46db446cb751b619a96696efd106bd6975682b5a23c9fe5ceaf761ae0576343",
+    "retained_original": false,
+    "attempt_id": "a0110",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0111.json",
+    "final_sha256": "4b479ab5418d0c4aa7100be6b7f4484b39c36732cc1706708690ca7cdde78e4a",
+    "retained_original": false,
+    "attempt_id": "a0111",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0112.json",
+    "final_sha256": "dbd9bdce4e4af31ca37912bfc43c6278ee255b5de9caeb88403cb3856d7abb59",
+    "retained_original": false,
+    "attempt_id": "a0112",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0113.json",
+    "final_sha256": "5042c2b07fe914ce5e19baf62ff7a3228062316486306957d270e16f543788e8",
+    "retained_original": false,
+    "attempt_id": "a0113",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0114.json",
+    "final_sha256": "a465564b6a031b82fc7a5cb843a8827e74a0e286947b83b7188e90f2fbf7af46",
+    "retained_original": false,
+    "attempt_id": "a0114",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0115.json",
+    "final_sha256": "b3d1a11420a875b3cc047593b5f0b731262fdb9f9dfcf9070f2ea244a67960be",
+    "retained_original": false,
+    "attempt_id": "a0115",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0116.json",
+    "final_sha256": "acac89f3a6353cce07c0f7fefe2039a4a7a7a5d2e20509ba5f4177fd1af8b65c",
+    "retained_original": false,
+    "attempt_id": "a0116",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0117.json",
+    "final_sha256": "59600d0b041fcffc8e5635a631a5195ffa74e90026d3edb2eae889fcb8e1abcf",
+    "retained_original": false,
+    "attempt_id": "a0117",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0118.json",
+    "final_sha256": "2cbff2333c2a84c8959dd337b45a00c0561d1f350fd6ee6cc2bcb0aa548b3977",
+    "retained_original": false,
+    "attempt_id": "a0118",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0119.json",
+    "final_sha256": "9d7d0826ab682a1a4e08c28f328be4a8e7fc928205dd1292bdbd672de921a10c",
+    "retained_original": false,
+    "attempt_id": "a0119",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0120.json",
+    "final_sha256": "006f7d312a427ff04f911159fc4ffff20f6e260487e08b8d48ae0cab02972447",
+    "retained_original": false,
+    "attempt_id": "a0120",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0121.json",
+    "final_sha256": "56f69a265ddfe883968a438eb07ffb228796e7622884f3f3a6cbe3ac8f997817",
+    "retained_original": false,
+    "attempt_id": "a0121",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0122.json",
+    "final_sha256": "99e1725aa9ba4f556548474e66acdc56a24d371098c33b0834b47638e648386c",
+    "retained_original": false,
+    "attempt_id": "a0122",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__plain__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0123.json",
+    "final_sha256": "924b3d19501af5342209289f4b0c25d311fd669a0849201529da6e3842ac498b",
+    "retained_original": false,
+    "attempt_id": "a0123",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0124.json",
+    "final_sha256": "b410cd56004e81b8b525cc563174fd29263f695993ac6b32467b79afde5977c0",
+    "retained_original": false,
+    "attempt_id": "a0124",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0125.json",
+    "final_sha256": "752167283bf193c91cec096fd454d2d2c42f4ce29273eb269d330c3bd59ef025",
+    "retained_original": false,
+    "attempt_id": "a0125",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__neutral__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0126.json",
+    "final_sha256": "4db854901bae6c0fe37ae08f515f7439fa3982bfe79dca625d8bcbf4ff7b1985",
+    "retained_original": false,
+    "attempt_id": "a0126",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W06__trap__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0127.json",
+    "final_sha256": "3e17dbe42cde55ee7f44efe13d3ea0805d06f369cd9109452024e7554cb88aa9",
+    "retained_original": false,
+    "attempt_id": "a0127",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0128.json",
+    "final_sha256": "0f05a947ce2f5e1fa9868296899db31a47acf8b5ae585c0ac87b5df5d3ca225a",
+    "retained_original": false,
+    "attempt_id": "a0128",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0129.json",
+    "final_sha256": "6a377d3f17ecd536121b670a45a067abe5f4b86d101a8c5fc753b8517bd5ec4b",
+    "retained_original": false,
+    "attempt_id": "a0129",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0130.json",
+    "final_sha256": "5e849f72fa54ad53af616048434b57809aee44b63d2bd5e774824bbd7a25c2c3",
+    "retained_original": false,
+    "attempt_id": "a0130",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0131.json",
+    "final_sha256": "6ece9b7507bce9176d48205d19210663b24d93f777f7153253d7f5074af7025a",
+    "retained_original": false,
+    "attempt_id": "a0131",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0132.json",
+    "final_sha256": "fb99d5ce2e2dc957b23e7e6266bcfc72346f6bc89c092b9bab8232a8dc55f322",
+    "retained_original": false,
+    "attempt_id": "a0132",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0133.json",
+    "final_sha256": "ada64484105ee0fea2c8931227c45a3775f465260d9cd6297e0a699f7e92ff22",
+    "retained_original": false,
+    "attempt_id": "a0133",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0134.json",
+    "final_sha256": "7c1c787daaf0aab1109ece9233a2920b45e55838c3da9a16782cbedefd029504",
+    "retained_original": false,
+    "attempt_id": "a0134",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0135.json",
+    "final_sha256": "90dcc90864b7cd47509601a637e7d7e180d28a20270cf1a32c838e0227a67da5",
+    "retained_original": false,
+    "attempt_id": "a0135",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0136.json",
+    "final_sha256": "d37f9a88d2275eda9f5af8bff292193e2a134f62aafc4cc470fe41d6e36f087e",
+    "retained_original": false,
+    "attempt_id": "a0136",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0137.json",
+    "final_sha256": "05301592bc1ce449bce3a1a829c1dd2dc3edcd47e8198f269578457644b4a8d4",
+    "retained_original": false,
+    "attempt_id": "a0137",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0138.json",
+    "final_sha256": "ec0c6abd0f7d3cd75f3c1d77e3a09bab7b3bc38088a5455b039dd2ac03d858c5",
+    "retained_original": false,
+    "attempt_id": "a0138",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0139.json",
+    "final_sha256": "558c3497e3b5e2403debe9e03c60de3afe3ce7fb98ab68aede0a9f70dce48986",
+    "retained_original": false,
+    "attempt_id": "a0139",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0140.json",
+    "final_sha256": "5fb0fb7138be844ca6c82eda2a441ba3b9684627f9266a451f6d7c84c11ec4bd",
+    "retained_original": false,
+    "attempt_id": "a0140",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0141.json",
+    "final_sha256": "cd98f7f82f341cb3372b7a08997cc60e3a6150bd22056d14b2baaba218b2d820",
+    "retained_original": false,
+    "attempt_id": "a0141",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__wrong__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0142.json",
+    "final_sha256": "c7244dfefbe88b8ceb518e8b753a04421a84a507bf3a0a27d997172ea5096292",
+    "retained_original": false,
+    "attempt_id": "a0142",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0143.json",
+    "final_sha256": "1025826d92b047b4aaba4f9590282e44e18e62eb096758920796c6bedcc5a12b",
+    "retained_original": false,
+    "attempt_id": "a0143",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0144.json",
+    "final_sha256": "ef20843bac8408f0661a26c776da17ac1ff3642322db55ba15caf5414a81aa4e",
+    "retained_original": false,
+    "attempt_id": "a0144",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__correct__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0145.json",
+    "final_sha256": "2531b006606ed5d64673795499856a96fa06529df78a2dee2e937c4a08d09f92",
+    "retained_original": false,
+    "attempt_id": "a0145",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__correct__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0146.json",
+    "final_sha256": "8f479bf0a5a539df5075e942802c7f39275443b7ad7552cdd67d9fda4bed5f92",
+    "retained_original": false,
+    "attempt_id": "a0146",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0147.json",
+    "final_sha256": "c7dca63405019cf67ac80460a9103a20cfdbc976153e8e3d309453f9db871f85",
+    "retained_original": false,
+    "attempt_id": "a0147",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0148.json",
+    "final_sha256": "991f7e79add26267ef754ca8240b5b4b7011af7cc8fd875c6f87bc41fafa615c",
+    "retained_original": false,
+    "attempt_id": "a0148",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0149.json",
+    "final_sha256": "fecfbd2c42be407a5a8fa337217c0f4a051f2ea8902067c4f2cde3925827d069",
+    "retained_original": false,
+    "attempt_id": "a0149",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0150.json",
+    "final_sha256": "08d0f525aab0f58c868dfbe351746381050cfb80ff8596d54e6ab1b00d383014",
+    "retained_original": false,
+    "attempt_id": "a0150",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__none__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0151.json",
+    "final_sha256": "2ba7204f2162cc7a0c861fa89aeeefeda961398d6cff8d21bf1e4f4abf9441d3",
+    "retained_original": false,
+    "attempt_id": "a0151",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0152.json",
+    "final_sha256": "d4bd9d2badfde2655bb2a489ce2e0900671cbe95b33a11415c7193725a037372",
+    "retained_original": false,
+    "attempt_id": "a0152",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__wrong__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0153.json",
+    "final_sha256": "83cf29b0da9ca596645e11e805e8c90369847ef737cc531800a8c8742f74fb9d",
+    "retained_original": false,
+    "attempt_id": "a0153",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0154.json",
+    "final_sha256": "5e14ad248b64a70228ae59a9f0decbdc0df45c947490f317b7bdd68e8bf5b540",
+    "retained_original": false,
+    "attempt_id": "a0154",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0155.json",
+    "final_sha256": "87a9aec502cc4630ea52f845c181866eca95ebeb8de6ae9ebe4470d4a2781b69",
+    "retained_original": false,
+    "attempt_id": "a0155",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__wrong__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0156.json",
+    "final_sha256": "7967476fcc9f1216ca620ca441af2ce7b9682cc9124e7db17b6eaa09941ff340",
+    "retained_original": false,
+    "attempt_id": "a0156",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__wrong__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0157.json",
+    "final_sha256": "01fbf74706b5721f504e2eef5bb7fb105dac0b5003a32a8bcd8d5aed983f0806",
+    "retained_original": false,
+    "attempt_id": "a0157",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__none__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0158.json",
+    "final_sha256": "c5f1fe20580c4c71e9df41c27e03e5d535f660cabe3870ff7b09a5826be4c9f0",
+    "retained_original": false,
+    "attempt_id": "a0158",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__none__r1__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0159.json",
+    "final_sha256": "4cdae57dbc1e49dd7d4fd4b23df1f984033f3f65a21e07e25a8802134bad1b64",
+    "retained_original": false,
+    "attempt_id": "a0159",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__none__r2__gpt-oss",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0160.json",
+    "final_sha256": "8f1442c0ff3d3efb72a2d6a17d184727d866bcef53625eb6411daf9816c9d85e",
+    "retained_original": false,
+    "attempt_id": "a0160",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__plain__correct__r1__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0161.json",
+    "final_sha256": "7c98982d0a83896b886e168c768fb69d67d0ef98ca37229ea0a2f2171bfb5a72",
+    "retained_original": false,
+    "attempt_id": "a0161",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__neutral__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0162.json",
+    "final_sha256": "e65e43dc5eab8aa3ab612dae7c74270738f8e7e7bebf23fd79d425bc75101678",
+    "retained_original": false,
+    "attempt_id": "a0162",
+    "total_attempts": 1
+  },
+  {
+    "sample_id": "W01__trap__correct__r2__Qwen3",
+    "final_path": "results/research_directions/wording_bounded_recovery_20261023/pilot/finished/a0163.json",
+    "final_sha256": "15399c0a059d27ecfc35bb366b0f3879d3b8701b09bb96063aec77935dd85220",
+    "retained_original": false,
+    "attempt_id": "a0163",
+    "total_attempts": 1
+  }
+]

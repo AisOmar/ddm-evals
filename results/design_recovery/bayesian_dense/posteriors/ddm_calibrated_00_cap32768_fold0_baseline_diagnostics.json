@@ -1,0 +1,14 @@
+{
+  "label": "ddm_calibrated_00_cap32768_fold0_baseline",
+  "seconds": 2740.5874140262604,
+  "divergences": 0,
+  "max_rhat": 1.0042039361309374,
+  "min_ess": 1649.2463467916589,
+  "draws": 600,
+  "chains": 4,
+  "tune": 1200,
+  "target_accept": 0.95,
+  "dense_mass": true,
+  "random_seed": 20261009,
+  "centered_effects": true
+}

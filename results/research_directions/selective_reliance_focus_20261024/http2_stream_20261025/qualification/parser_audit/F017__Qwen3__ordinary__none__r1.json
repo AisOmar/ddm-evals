@@ -1,0 +1,11 @@
+{
+  "sse_events": 1550,
+  "accounting_frames": 1,
+  "done_received": true,
+  "terminal_reason": "stop",
+  "visible_characters": 6,
+  "reasoning_characters": 5292,
+  "reasoning_used_as_answer": false,
+  "reported_model": "qwen/qwen3-32b",
+  "model_alias_applied": false
+}

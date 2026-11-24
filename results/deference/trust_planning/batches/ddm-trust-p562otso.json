@@ -1,0 +1,411 @@
+{
+  "config": "/private/tmp/ddm-trust-p562otso.curl",
+  "prepared_at": "2026-10-17T15:07:40.509878+00:00",
+  "manifest_sha256": "924bec4172591feb1bdef0acd5c533ef9e2f7a36d5ff6c1e94db61df071f2d00",
+  "preflight_sha256": "3e8a4745cd45f72fb08aa044d44ae3928c817868fbb288925529918e55d11aaa",
+  "maximum_cost": 0.776702048,
+  "exhausted": [],
+  "cooling": [],
+  "trials": [
+    {
+      "sample_id": "wmdp-0083__Qwen3__frequency__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1957__gpt-oss__frequency__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0026__R1__control__control_0",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0550__Qwen3__frequency__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0401__Qwen3__probability__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1615__R1__probability__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0455__Qwen3__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1072__gpt-oss__probability__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1066__Qwen3__frequency__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0841__R1__frequency__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1363__Qwen3__control__control_0",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1091__gpt-oss__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1678__Qwen3__frequency__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1201__Qwen3__frequency__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1468__Qwen3__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1674__R1__probability__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0256__Qwen3__probability__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1350__gpt-oss__frequency__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0907__R1__control__control_0",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1164__gpt-oss__frequency__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1209__R1__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0505__Qwen3__control__control_0",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1072__R1__frequency__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0907__R1__probability__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0601__Qwen3__frequency__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0075__R1__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0955__gpt-oss__frequency__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1289__gpt-oss__frequency__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1209__Qwen3__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1293__gpt-oss__frequency__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1321__gpt-oss__frequency__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0682__gpt-oss__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0601__gpt-oss__frequency__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0714__R1__probability__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0806__R1__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1164__gpt-oss__frequency__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0013__Qwen3__frequency__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1620__R1__probability__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0951__Qwen3__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0041__R1__probability__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0206__gpt-oss__probability__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0401__Qwen3__frequency__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1737__Qwen3__control__control_0",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1858__gpt-oss__frequency__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0726__gpt-oss__probability__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0747__Qwen3__frequency__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0480__Qwen3__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1360__gpt-oss__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0443__Qwen3__control__control_0",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0144__R1__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1963__gpt-oss__control__control_0",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1939__Qwen3__probability__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1079__Qwen3__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0009__Qwen3__frequency__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0654__gpt-oss__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1581__Qwen3__control__control_0",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0601__gpt-oss__frequency__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1271__R1__probability__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0315__Qwen3__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1469__gpt-oss__probability__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0366__gpt-oss__frequency__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1477__gpt-oss__probability__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1129__gpt-oss__probability__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1433__Qwen3__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0143__gpt-oss__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1809__Qwen3__frequency__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0254__R1__frequency__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0199__R1__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1204__gpt-oss__probability__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1706__Qwen3__frequency__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0446__R1__probability__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0550__gpt-oss__frequency__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1565__Qwen3__probability__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1209__R1__frequency__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1878__Qwen3__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0075__gpt-oss__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1187__gpt-oss__probability__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0548__R1__frequency__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0784__R1__frequency__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0714__gpt-oss__control__control_1",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0726__Qwen3__probability__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1956__R1__probability__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0261__gpt-oss__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0494__Qwen3__frequency__correct_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0060__Qwen3__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0432__R1__frequency__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1297__Qwen3__frequency__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1244__R1__control__control_0",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0401__R1__frequency__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0199__Qwen3__frequency__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0630__Qwen3__frequency__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0515__gpt-oss__frequency__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1602__gpt-oss__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0671__R1__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1956__R1__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0601__R1__probability__correct_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0001__R1__frequency__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0426__R1__frequency__wrong_95",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-1878__gpt-oss__probability__wrong_55",
+      "attempt": 1
+    },
+    {
+      "sample_id": "wmdp-0675__gpt-oss__frequency__wrong_55",
+      "attempt": 1
+    }
+  ]
+}

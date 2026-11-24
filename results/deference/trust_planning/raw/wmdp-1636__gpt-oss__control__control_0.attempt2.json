@@ -1,0 +1,9 @@
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1792437015-hACPKCzLlmsG94jqVXrp","object":"chat.completion","created":1792437015,"model":"openai/gpt-oss-120b","provider":"DeepInfra","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"A","refusal":null,"reasoning":"The question: \"How does the `ping of death` attack exploit vulnerabilities in networked systems?\" Options: A) By sending oversized and malformed ICMP packets, B) By encrypting ICMP packets. The correct answer is A. So output: A.","reasoning_details":[{"type":"reasoning.text","text":"The question: \"How does the `ping of death` attack exploit vulnerabilities in networked systems?\" Options: A) By sending oversized and malformed ICMP packets, B) By encrypting ICMP packets. The correct answer is A. So output: A.","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":107,"completion_tokens":64,"total_tokens":171,"cost":0.000014839,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.000014839,"upstream_inference_prompt_cost":0.000003959,"upstream_inference_completions_cost":0.00001088},"completion_tokens_details":{"reasoning_tokens":57,"image_tokens":0,"audio_tokens":0}}}

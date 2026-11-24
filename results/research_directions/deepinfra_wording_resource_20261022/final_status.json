@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-10-22T23:36:59.021222+00:00",
+  "independently_reviewed_items": 8,
+  "independent_answer_agreements": 8,
+  "must_fix_blockers": 0,
+  "planned": 16,
+  "attempted": 16,
+  "resource_gate_passed": true,
+  "recognized": 16,
+  "strict_format": 16,
+  "recorded_new_cost_usd": "0.00094809",
+  "missing_cost_metadata": 0,
+  "reasoning_count_inconsistencies": 2,
+  "full_reserve_usd": "0.01210120",
+  "offline_tests_passed": 113,
+  "prior_artifact_hashes_verified": true,
+  "no_active_requests": true,
+  "private_configs_removed": true,
+  "pilot_calls": 0,
+  "original_study_remains_paused": true,
+  "factual_correctness_not_used_for_gate": true
+}

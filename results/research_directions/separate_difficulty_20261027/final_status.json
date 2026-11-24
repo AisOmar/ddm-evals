@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-10-27T01:57:06.466930+00:00",
+  "practice_evaluations": 36,
+  "quality_review_calls": 9,
+  "review_truncations": 1,
+  "selected_level": 0,
+  "selection_mode": "single_level",
+  "selected_practice_correct": 8,
+  "selected_practice_total": 12,
+  "frozen_test_items": 12,
+  "frozen_test_families": 6,
+  "evaluated_model_test_responses": 0,
+  "practice_items_in_test": 0,
+  "new_usage_based_cost_usd": "0.102523",
+  "cumulative_cost_upper_usd": "0.8379178330000000000037779502",
+  "full_reserved_bound_usd": "0.9623948330000000000037779502",
+  "pending_requests": 0,
+  "next_experiment_launched": false,
+  "original_study_remains_paused": true
+}

@@ -1,0 +1,4034 @@
+[
+  {
+    "sample_id": "W08__trap__correct__r2__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__neutral__wrong__r1__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W08__plain__none__r1__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__neutral__none__r1__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__plain__wrong__r1__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W08__neutral__correct__r2__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__neutral__wrong__r1__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__neutral__none__r1__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__plain__wrong__r2__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__plain__wrong__r2__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__neutral__correct__r1__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__plain__correct__r2__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__plain__none__r1__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__neutral__none__r2__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__trap__correct__r1__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__neutral__correct__r2__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W08__neutral__none__r2__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__plain__correct__r1__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W08__trap__none__r2__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__trap__wrong__r2__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W08__trap__wrong__r2__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__trap__none__r1__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__neutral__correct__r1__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W08__neutral__wrong__r2__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W08__plain__none__r2__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__neutral__wrong__r2__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__trap__wrong__r1__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__trap__correct__r2__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__plain__wrong__r1__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__plain__correct__r1__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__trap__correct__r1__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__trap__none__r1__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__trap__none__r2__gpt-oss",
+    "item_id": "W08",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W08__trap__wrong__r1__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W08__plain__correct__r2__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W08__plain__none__r2__Qwen3",
+    "item_id": "W08",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W02__neutral__wrong__r1__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__neutral__correct__r2__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W02__trap__none__r2__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__plain__none__r2__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__neutral__correct__r1__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W02__trap__none__r1__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__plain__wrong__r2__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__plain__correct__r1__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W02__plain__correct__r1__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__plain__correct__r2__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__trap__none__r1__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__plain__correct__r2__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W02__trap__wrong__r2__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__neutral__correct__r2__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__trap__correct__r2__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W02__neutral__none__r2__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__trap__correct__r2__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__neutral__wrong__r1__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W02__neutral__none__r1__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__trap__wrong__r2__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__trap__wrong__r1__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__neutral__wrong__r2__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W02__plain__none__r1__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__neutral__correct__r1__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__trap__none__r2__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__trap__correct__r1__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__plain__wrong__r1__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__trap__wrong__r1__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__plain__none__r2__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__plain__wrong__r1__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__neutral__none__r2__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__neutral__wrong__r2__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__plain__wrong__r2__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W02__neutral__none__r1__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W02__trap__correct__r1__Qwen3",
+    "item_id": "W02",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W02__plain__none__r1__gpt-oss",
+    "item_id": "W02",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__neutral__none__r2__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__trap__correct__r1__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__trap__correct__r2__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__trap__wrong__r1__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__neutral__correct__r1__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__plain__none__r1__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__plain__wrong__r1__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__trap__wrong__r2__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__plain__correct__r2__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__plain__correct__r1__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__plain__correct__r1__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__neutral__wrong__r2__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__plain__none__r2__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__trap__wrong__r2__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__neutral__correct__r2__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__trap__wrong__r1__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__trap__correct__r1__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__plain__wrong__r1__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__neutral__none__r1__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__neutral__wrong__r1__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__plain__none__r2__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__neutral__correct__r1__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__plain__correct__r2__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__plain__none__r1__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__trap__none__r2__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__neutral__wrong__r1__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__neutral__correct__r2__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__trap__none__r1__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__plain__wrong__r2__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__trap__none__r1__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__trap__none__r2__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__neutral__none__r2__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__plain__wrong__r2__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__neutral__none__r1__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W03__neutral__wrong__r2__Qwen3",
+    "item_id": "W03",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W03__trap__correct__r2__gpt-oss",
+    "item_id": "W03",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__neutral__wrong__r2__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__neutral__none__r1__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__trap__correct__r1__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__trap__wrong__r1__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W05__trap__none__r1__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__neutral__correct__r2__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W05__neutral__wrong__r1__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__plain__none__r1__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__plain__none__r2__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__trap__wrong__r1__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__neutral__wrong__r2__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W05__trap__correct__r1__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__trap__none__r2__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__trap__wrong__r2__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__plain__none__r2__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W05__trap__correct__r2__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__plain__wrong__r1__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__plain__correct__r1__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__trap__wrong__r2__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W05__neutral__none__r2__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W05__plain__wrong__r2__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W05__plain__correct__r2__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W05__neutral__none__r1__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__neutral__correct__r1__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W05__neutral__correct__r2__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__trap__correct__r2__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W05__trap__none__r2__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__plain__correct__r1__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W05__plain__wrong__r1__Qwen3",
+    "item_id": "W05",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__trap__none__r1__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__plain__wrong__r2__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__plain__correct__r2__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__plain__none__r1__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__neutral__wrong__r1__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__neutral__none__r2__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W05__neutral__correct__r1__gpt-oss",
+    "item_id": "W05",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__plain__none__r1__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__plain__none__r1__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__plain__wrong__r1__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__neutral__wrong__r1__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W07__neutral__none__r2__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__plain__wrong__r2__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__neutral__none__r1__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__neutral__none__r1__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__trap__wrong__r1__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W07__trap__correct__r2__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__plain__none__r2__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__neutral__wrong__r2__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__plain__wrong__r1__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W07__plain__wrong__r2__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W07__plain__correct__r1__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W07__neutral__wrong__r2__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__plain__none__r2__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__neutral__correct__r2__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__trap__wrong__r2__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__plain__correct__r1__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__neutral__correct__r1__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__trap__wrong__r1__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__plain__correct__r2__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__plain__correct__r2__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__neutral__correct__r1__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__trap__none__r2__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__neutral__correct__r2__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__trap__none__r1__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__trap__correct__r2__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W07__trap__wrong__r2__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__trap__correct__r1__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__neutral__none__r2__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__trap__correct__r1__Qwen3",
+    "item_id": "W07",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__trap__none__r2__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__trap__none__r1__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W07__neutral__wrong__r1__gpt-oss",
+    "item_id": "W07",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__trap__wrong__r1__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__trap__wrong__r1__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__neutral__wrong__r2__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__trap__wrong__r2__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__neutral__correct__r1__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__trap__correct__r1__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__plain__wrong__r2__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__trap__correct__r1__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__neutral__none__r2__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__neutral__none__r1__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__neutral__wrong__r1__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__trap__correct__r2__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__plain__correct__r2__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__neutral__correct__r2__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__trap__wrong__r2__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__neutral__wrong__r1__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__plain__wrong__r2__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__plain__none__r1__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__neutral__correct__r2__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__plain__wrong__r1__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__trap__none__r1__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__neutral__none__r1__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__plain__correct__r1__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__plain__correct__r2__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__plain__wrong__r1__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__plain__none__r2__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__trap__none__r2__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__plain__none__r1__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__plain__none__r2__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__neutral__wrong__r2__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__neutral__correct__r1__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__trap__none__r2__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__trap__none__r1__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__plain__correct__r1__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W04__trap__correct__r2__gpt-oss",
+    "item_id": "W04",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W04__neutral__none__r2__Qwen3",
+    "item_id": "W04",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W06__trap__none__r2__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__trap__none__r2__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__neutral__correct__r2__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W06__neutral__wrong__r2__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W06__neutral__wrong__r2__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__neutral__none__r2__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__plain__none__r1__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__trap__none__r1__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__neutral__none__r1__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__trap__wrong__r2__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__trap__wrong__r1__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__neutral__correct__r1__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__plain__wrong__r2__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__trap__correct__r1__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__plain__wrong__r2__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W06__trap__correct__r2__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__plain__none__r2__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__trap__correct__r2__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W06__plain__correct__r2__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__neutral__wrong__r1__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W06__neutral__correct__r1__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__plain__none__r1__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__neutral__none__r2__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__plain__correct__r1__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__plain__wrong__r1__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W06__neutral__none__r1__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__neutral__correct__r2__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__plain__correct__r1__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__plain__correct__r2__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W06__plain__wrong__r1__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__trap__correct__r1__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__plain__none__r2__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__trap__wrong__r2__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__trap__wrong__r1__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W06__neutral__wrong__r1__gpt-oss",
+    "item_id": "W06",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W06__trap__none__r1__Qwen3",
+    "item_id": "W06",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__plain__wrong__r1__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__neutral__wrong__r2__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__plain__correct__r2__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__neutral__wrong__r1__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__trap__none__r2__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__trap__wrong__r1__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W01__neutral__none__r1__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__neutral__correct__r1__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W01__neutral__correct__r2__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__trap__none__r1__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__neutral__wrong__r2__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__neutral__correct__r1__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__plain__none__r2__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__plain__wrong__r2__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__plain__wrong__r1__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W01__trap__correct__r1__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__trap__correct__r1__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W01__plain__correct__r1__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__trap__correct__r2__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__plain__none__r1__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__trap__none__r1__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W01__plain__wrong__r2__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__plain__none__r2__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__plain__none__r1__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__plain__correct__r2__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W01__trap__wrong__r2__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": false
+    }
+  },
+  {
+    "sample_id": "W01__neutral__none__r2__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__neutral__wrong__r1__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__trap__wrong__r2__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__trap__wrong__r1__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "trap",
+    "advice": "wrong",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__trap__none__r2__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__neutral__none__r1__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__neutral__none__r2__gpt-oss",
+    "item_id": "W01",
+    "model": "gpt-oss",
+    "version": "neutral",
+    "advice": "none",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__plain__correct__r1__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "plain",
+    "advice": "correct",
+    "repeat": 1,
+    "outcome": {
+      "status": "answered",
+      "choice": "B",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__neutral__correct__r2__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "neutral",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  },
+  {
+    "sample_id": "W01__trap__correct__r2__Qwen3",
+    "item_id": "W01",
+    "model": "Qwen3",
+    "version": "trap",
+    "advice": "correct",
+    "repeat": 2,
+    "outcome": {
+      "status": "answered",
+      "choice": "A",
+      "correct": true,
+      "strict_format": true
+    }
+  }
+]

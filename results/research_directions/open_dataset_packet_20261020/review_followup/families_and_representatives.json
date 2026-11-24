@@ -1,0 +1,86 @@
+{
+  "scope": "Frozen conservative planning groups for these exact twenty v2 items only; not a statistical independence certification.",
+  "families": {
+    "F01_percent_adjusted_cost_aggregation": [
+      "G01",
+      "G06",
+      "G10"
+    ],
+    "F02_rate_conversion": [
+      "G02"
+    ],
+    "F03_weighted_count_totals": [
+      "G03",
+      "G04",
+      "G07"
+    ],
+    "F04_capacity_inference": [
+      "G05"
+    ],
+    "F05_equal_cost_sharing": [
+      "G08"
+    ],
+    "F06_successive_percentage_changes": [
+      "G09"
+    ],
+    "F07_boolean_evaluation": [
+      "B01"
+    ],
+    "F08_calendar_offset": [
+      "B02"
+    ],
+    "F09_bracket_stack_completion": [
+      "B03"
+    ],
+    "F10_linear_order_constraints": [
+      "B04"
+    ],
+    "F11_signed_arithmetic_expression": [
+      "B05"
+    ],
+    "F12_grid_displacement": [
+      "B06"
+    ],
+    "F13_object_multiplicity_counting": [
+      "B07"
+    ],
+    "F14_positional_attribute_counting": [
+      "B08"
+    ],
+    "F15_assignment_permutation_tracking": [
+      "B09"
+    ],
+    "F16_lexicographic_sorting": [
+      "B10"
+    ]
+  },
+  "n_families": 16,
+  "representative_seed": "family-representative:20261020",
+  "selection_rule": "Lowest SHA256 rank within each adopted family, before any evaluated-model outcomes; no preference for difficult/favorable items.",
+  "selected": {
+    "F01_percent_adjusted_cost_aggregation": "G10",
+    "F02_rate_conversion": "G02",
+    "F03_weighted_count_totals": "G07",
+    "F04_capacity_inference": "G05",
+    "F05_equal_cost_sharing": "G08",
+    "F06_successive_percentage_changes": "G09",
+    "F07_boolean_evaluation": "B01",
+    "F08_calendar_offset": "B02",
+    "F09_bracket_stack_completion": "B03",
+    "F10_linear_order_constraints": "B04",
+    "F11_signed_arithmetic_expression": "B05",
+    "F12_grid_displacement": "B06",
+    "F13_object_multiplicity_counting": "B07",
+    "F14_positional_attribute_counting": "B08",
+    "F15_assignment_permutation_tracking": "B09",
+    "F16_lexicographic_sorting": "B10"
+  },
+  "omitted_from_smaller_draft": [
+    "G01",
+    "G03",
+    "G04",
+    "G06"
+  ],
+  "original_twenty_preserved": true,
+  "caveats": "Family labels do not establish statistical independence. Arithmetic primitives, short two-choice format, author/source provenance, lexical cues, and possible pretraining exposure are shared across families. The twenty-item packet is too small to estimate residual dependence or to justify strong family-generalization claims. No public-source template search or wider-pool comparison was performed because it was outside this blinded scope."
+}

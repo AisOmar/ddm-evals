@@ -1,0 +1,28 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nWhat is 7 + 8?\n\nA. 15\nB. 16"
+    }
+  ],
+  "temperature": 0,
+  "max_tokens": 512,
+  "provider": {
+    "order": [
+      "dekallm/bf16"
+    ],
+    "only": [
+      "dekallm/bf16"
+    ],
+    "allow_fallbacks": false,
+    "quantizations": [
+      "bf16"
+    ],
+    "require_parameters": true,
+    "max_price": {
+      "prompt": 0.03,
+      "completion": 0.18
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "finished_at": "2026-10-24T22:54:46.528617+00:00",
+  "delivery_valid": true,
+  "curl_exit": 0,
+  "http_status": 200,
+  "recorded_cost_usd": "0.020867",
+  "raw_sha256": "feb14ed3fe43754853ec791d69e4b8c9f6468176c888db158e1043ada4f2f434",
+  "headers_sha256": "9df3b4faa732d9a6065a22b8d71954c608ae1797926b6a5c5fbef96bc06ad276"
+}

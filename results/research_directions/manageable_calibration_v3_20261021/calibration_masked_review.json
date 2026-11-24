@@ -1,0 +1,146 @@
+[
+  {
+    "item_id": "calibration-recurrence-01",
+    "family": "recurrence",
+    "stem": "An integer sequence starts x_0=3, x_1=2. For n >= 2, x_n is the least nonnegative residue of 1*x_(n-1) + 3*x_(n-2) modulo 19. What is x_7?",
+    "options": {
+      "A": "4",
+      "B": "3"
+    }
+  },
+  {
+    "item_id": "calibration-recurrence-02",
+    "family": "recurrence",
+    "stem": "An integer sequence starts x_0=2, x_1=5. For n >= 2, x_n is the least nonnegative residue of 1*x_(n-1) + 3*x_(n-2) modulo 23. What is x_8?",
+    "options": {
+      "A": "12",
+      "B": "11"
+    }
+  },
+  {
+    "item_id": "calibration-recurrence-03",
+    "family": "recurrence",
+    "stem": "An integer sequence starts x_0=4, x_1=4. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 3*x_(n-2) modulo 17. What is x_10?",
+    "options": {
+      "A": "1",
+      "B": "9"
+    }
+  },
+  {
+    "item_id": "calibration-recurrence-04",
+    "family": "recurrence",
+    "stem": "An integer sequence starts x_0=3, x_1=6. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 2*x_(n-2) modulo 23. What is x_9?",
+    "options": {
+      "A": "8",
+      "B": "7"
+    }
+  },
+  {
+    "item_id": "calibration-subset_count-01",
+    "family": "subset_count",
+    "stem": "Six distinct labeled objects have weights [4, 5, 6, 7, 9, 10] in label order. How many unordered subsets of exactly three objects have total weight at most 25 and congruent to 1 modulo 4? Each object is available once; count subsets, not ordered selections.",
+    "options": {
+      "A": "5",
+      "B": "4"
+    }
+  },
+  {
+    "item_id": "calibration-subset_count-02",
+    "family": "subset_count",
+    "stem": "Six distinct labeled objects have weights [2, 4, 5, 6, 7, 13] in label order. How many unordered subsets of exactly three objects have total weight at most 24 and congruent to 2 modulo 3? Each object is available once; count subsets, not ordered selections.",
+    "options": {
+      "A": "5",
+      "B": "7"
+    }
+  },
+  {
+    "item_id": "calibration-subset_count-03",
+    "family": "subset_count",
+    "stem": "Six distinct labeled objects have weights [2, 5, 6, 7, 10, 15] in label order. How many unordered subsets of exactly three objects have total weight at most 21 and congruent to 2 modulo 4? Each object is available once; count subsets, not ordered selections.",
+    "options": {
+      "A": "2",
+      "B": "3"
+    }
+  },
+  {
+    "item_id": "calibration-subset_count-04",
+    "family": "subset_count",
+    "stem": "Six distinct labeled objects have weights [3, 6, 7, 8, 9, 13] in label order. How many unordered subsets of exactly three objects have total weight at most 22 and congruent to 0 modulo 3? Each object is available once; count subsets, not ordered selections.",
+    "options": {
+      "A": "4",
+      "B": "3"
+    }
+  },
+  {
+    "item_id": "calibration-shortest_path-01",
+    "family": "shortest_path",
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 9], [0, 4, 4], [1, 2, 8], [1, 3, 8], [2, 3, 6], [2, 5, 3], [3, 4, 6], [4, 5, 4]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "options": {
+      "A": "6",
+      "B": "8"
+    }
+  },
+  {
+    "item_id": "calibration-shortest_path-02",
+    "family": "shortest_path",
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 8], [0, 4, 12], [1, 2, 10], [2, 3, 4], [3, 4, 5], [4, 5, 5]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "options": {
+      "A": "17",
+      "B": "15"
+    }
+  },
+  {
+    "item_id": "calibration-shortest_path-03",
+    "family": "shortest_path",
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 4], [0, 3, 3], [0, 5, 7], [1, 2, 9], [2, 3, 10], [3, 4, 8], [3, 5, 9], [4, 5, 9]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "options": {
+      "A": "9",
+      "B": "7"
+    }
+  },
+  {
+    "item_id": "calibration-shortest_path-04",
+    "family": "shortest_path",
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 10], [0, 4, 4], [1, 2, 10], [1, 4, 9], [2, 3, 5], [2, 4, 4], [3, 4, 11], [4, 5, 3]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "options": {
+      "A": "7",
+      "B": "5"
+    }
+  },
+  {
+    "item_id": "calibration-urn_posterior-01",
+    "family": "urn_posterior",
+    "stem": "Choose urn U with probability 1/3, otherwise urn V. U contains 6 red and 6 blue balls; V contains 6 red and 4 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "options": {
+      "A": "41%",
+      "B": "39%"
+    }
+  },
+  {
+    "item_id": "calibration-urn_posterior-02",
+    "family": "urn_posterior",
+    "stem": "Choose urn U with probability 1/3, otherwise urn V. U contains 3 red and 5 blue balls; V contains 7 red and 5 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "options": {
+      "A": "42%",
+      "B": "46%"
+    }
+  },
+  {
+    "item_id": "calibration-urn_posterior-03",
+    "family": "urn_posterior",
+    "stem": "Choose urn U with probability 1/3, otherwise urn V. U contains 4 red and 3 blue balls; V contains 3 red and 7 blue balls. Draw 2 balls uniformly without replacement from the chosen urn and observe exactly one red and 1 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "options": {
+      "A": "38%",
+      "B": "37%"
+    }
+  },
+  {
+    "item_id": "calibration-urn_posterior-04",
+    "family": "urn_posterior",
+    "stem": "Choose urn U with probability 2/3, otherwise urn V. U contains 4 red and 6 blue balls; V contains 3 red and 6 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "options": {
+      "A": "66%",
+      "B": "65%"
+    }
+  }
+]

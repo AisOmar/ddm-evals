@@ -1,0 +1,24 @@
+{
+  "sample_id": "gpt-oss__canary-3",
+  "prepared_at": "2026-10-21T02:59:04.790959+00:00",
+  "manifest_sha256": "7252224a644c39fcbdfe38f363bda8b7efe16feffd34916034dde9e8a9e1e411",
+  "request_sha256": "239f7ce46c5fd08ba45f2593696021b12f17f82ee7d9905787e74a525121ae8d",
+  "reserved_cost_usd": "0.00023184",
+  "finished_at": "2026-10-21T02:59:06.284081+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "A",
+    "correct": true,
+    "strict_format": true
+  },
+  "recorded_cost_usd": "0.00002574",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "raw_sha256": "b76ed924653637eed6b5c6f91ce0f715061d61885ab0b681c15726b6fcdfb26b",
+  "headers_sha256": "98bf7c2a9ba303305c3aef6408683f11d29ddebeeef3fe8e697b05d349a6190c",
+  "gate_passed": true,
+  "retry_permitted": false,
+  "minimum_429_cooldown_seconds": null
+}

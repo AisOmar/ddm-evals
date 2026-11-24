@@ -1,0 +1,30 @@
+{
+  "model": "claude-sonnet-4-5-20250929",
+  "messages": [
+    {
+      "role": "user",
+      "content": "A state is good or bad with equal probability. A risky action pays 20 credits in the good state and loses 10 credits in the bad state; a safe action pays 4 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 2 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\n\nA: 25/4\nB: 33/4\n\nSolve the question. Return your selected option as the answer field of the required JSON object."
+    }
+  ],
+  "output_config": {
+    "format": {
+      "type": "json_schema",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "answer": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B"
+            ]
+          }
+        },
+        "required": [
+          "answer"
+        ],
+        "additionalProperties": false
+      }
+    }
+  }
+}

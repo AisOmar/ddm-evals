@@ -1,0 +1,1352 @@
+[
+  {
+    "item_id": "resource-recurrence-01",
+    "split": "resource",
+    "family": "recurrence",
+    "seed": 202610210000,
+    "stem": "An integer sequence starts x_0=5, x_1=4. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 3*x_(n-2) modulo 23. What is x_10?",
+    "answer": "15",
+    "wrong_answer": "9",
+    "parameters": {
+      "a": 2,
+      "b": 3,
+      "x0": 5,
+      "x1": 4,
+      "n": 10,
+      "mod": 23
+    },
+    "computational_agreement": true,
+    "derivation": "Direct iteration and matrix exponentiation; distractor is the preceding term.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "9",
+      "B": "15"
+    }
+  },
+  {
+    "item_id": "resource-subset_count-01",
+    "split": "resource",
+    "family": "subset_count",
+    "seed": 202610220001,
+    "stem": "Six distinct labeled objects have weights [3, 4, 10, 12, 14, 15] in label order. How many unordered subsets of exactly three objects have total weight at most 23 and congruent to 1 modulo 3? Each object is available once; count subsets, not ordered selections.",
+    "answer": "2",
+    "wrong_answer": "1",
+    "parameters": {
+      "weights": [
+        3,
+        4,
+        10,
+        12,
+        14,
+        15
+      ],
+      "k": 3,
+      "threshold": 23,
+      "mod": 3,
+      "residue": 1
+    },
+    "computational_agreement": true,
+    "derivation": "Enumerate 20 triples and cross-check by dynamic programming; distractor uses the next residue.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "2",
+      "B": "1"
+    }
+  },
+  {
+    "item_id": "resource-shortest_path-01",
+    "split": "resource",
+    "family": "shortest_path",
+    "seed": 202610230000,
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 6], [0, 3, 4], [0, 5, 11], [1, 2, 3], [1, 4, 9], [1, 5, 8], [2, 3, 7], [3, 4, 8], [4, 5, 11]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "answer": "11",
+    "wrong_answer": "13",
+    "parameters": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          0,
+          5,
+          11
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          9
+        ],
+        [
+          1,
+          5,
+          8
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          3,
+          4,
+          8
+        ],
+        [
+          4,
+          5,
+          11
+        ]
+      ]
+    },
+    "computational_agreement": true,
+    "derivation": "Topological relaxation and exhaustive path enumeration; distractor comes from changing one edge price.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "11",
+      "B": "13"
+    }
+  },
+  {
+    "item_id": "resource-urn_posterior-01",
+    "split": "resource",
+    "family": "urn_posterior",
+    "seed": 202610240000,
+    "stem": "Choose urn U with probability 2/3, otherwise urn V. U contains 3 red and 6 blue balls; V contains 7 red and 6 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "answer": "74%",
+    "wrong_answer": "72%",
+    "parameters": {
+      "r1": 3,
+      "b1": 6,
+      "r2": 7,
+      "b2": 6,
+      "draws": 3,
+      "red": 1,
+      "prior": "2/3",
+      "exact_posterior": "143/192"
+    },
+    "computational_agreement": true,
+    "derivation": "Hypergeometric Bayes and ordered-draw products; distractor incorrectly samples with replacement, then rounds.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "72%",
+      "B": "74%"
+    }
+  },
+  {
+    "item_id": "calibration-recurrence-01",
+    "split": "calibration",
+    "family": "recurrence",
+    "seed": 202610310000,
+    "stem": "An integer sequence starts x_0=3, x_1=2. For n >= 2, x_n is the least nonnegative residue of 1*x_(n-1) + 3*x_(n-2) modulo 19. What is x_7?",
+    "answer": "3",
+    "wrong_answer": "4",
+    "parameters": {
+      "a": 1,
+      "b": 3,
+      "x0": 3,
+      "x1": 2,
+      "n": 7,
+      "mod": 19
+    },
+    "computational_agreement": true,
+    "derivation": "Direct iteration and matrix exponentiation; distractor is the preceding term.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "4",
+      "B": "3"
+    }
+  },
+  {
+    "item_id": "calibration-recurrence-02",
+    "split": "calibration",
+    "family": "recurrence",
+    "seed": 202610310100,
+    "stem": "An integer sequence starts x_0=2, x_1=5. For n >= 2, x_n is the least nonnegative residue of 1*x_(n-1) + 3*x_(n-2) modulo 23. What is x_8?",
+    "answer": "11",
+    "wrong_answer": "12",
+    "parameters": {
+      "a": 1,
+      "b": 3,
+      "x0": 2,
+      "x1": 5,
+      "n": 8,
+      "mod": 23
+    },
+    "computational_agreement": true,
+    "derivation": "Direct iteration and matrix exponentiation; distractor is the preceding term.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "12",
+      "B": "11"
+    }
+  },
+  {
+    "item_id": "calibration-recurrence-03",
+    "split": "calibration",
+    "family": "recurrence",
+    "seed": 202610310200,
+    "stem": "An integer sequence starts x_0=4, x_1=4. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 3*x_(n-2) modulo 17. What is x_10?",
+    "answer": "1",
+    "wrong_answer": "9",
+    "parameters": {
+      "a": 2,
+      "b": 3,
+      "x0": 4,
+      "x1": 4,
+      "n": 10,
+      "mod": 17
+    },
+    "computational_agreement": true,
+    "derivation": "Direct iteration and matrix exponentiation; distractor is the preceding term.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "1",
+      "B": "9"
+    }
+  },
+  {
+    "item_id": "calibration-recurrence-04",
+    "split": "calibration",
+    "family": "recurrence",
+    "seed": 202610310300,
+    "stem": "An integer sequence starts x_0=3, x_1=6. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 2*x_(n-2) modulo 23. What is x_9?",
+    "answer": "8",
+    "wrong_answer": "7",
+    "parameters": {
+      "a": 2,
+      "b": 2,
+      "x0": 3,
+      "x1": 6,
+      "n": 9,
+      "mod": 23
+    },
+    "computational_agreement": true,
+    "derivation": "Direct iteration and matrix exponentiation; distractor is the preceding term.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "8",
+      "B": "7"
+    }
+  },
+  {
+    "item_id": "calibration-subset_count-01",
+    "split": "calibration",
+    "family": "subset_count",
+    "seed": 202610320000,
+    "stem": "Six distinct labeled objects have weights [4, 5, 6, 7, 9, 10] in label order. How many unordered subsets of exactly three objects have total weight at most 25 and congruent to 1 modulo 4? Each object is available once; count subsets, not ordered selections.",
+    "answer": "5",
+    "wrong_answer": "4",
+    "parameters": {
+      "weights": [
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "k": 3,
+      "threshold": 25,
+      "mod": 4,
+      "residue": 1
+    },
+    "computational_agreement": true,
+    "derivation": "Enumerate 20 triples and cross-check by dynamic programming; distractor uses the next residue.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "5",
+      "B": "4"
+    }
+  },
+  {
+    "item_id": "calibration-subset_count-02",
+    "split": "calibration",
+    "family": "subset_count",
+    "seed": 202610320101,
+    "stem": "Six distinct labeled objects have weights [2, 4, 5, 6, 7, 13] in label order. How many unordered subsets of exactly three objects have total weight at most 24 and congruent to 2 modulo 3? Each object is available once; count subsets, not ordered selections.",
+    "answer": "5",
+    "wrong_answer": "7",
+    "parameters": {
+      "weights": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        13
+      ],
+      "k": 3,
+      "threshold": 24,
+      "mod": 3,
+      "residue": 2
+    },
+    "computational_agreement": true,
+    "derivation": "Enumerate 20 triples and cross-check by dynamic programming; distractor uses the next residue.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "5",
+      "B": "7"
+    }
+  },
+  {
+    "item_id": "calibration-subset_count-03",
+    "split": "calibration",
+    "family": "subset_count",
+    "seed": 202610320206,
+    "stem": "Six distinct labeled objects have weights [2, 5, 6, 7, 10, 15] in label order. How many unordered subsets of exactly three objects have total weight at most 21 and congruent to 2 modulo 4? Each object is available once; count subsets, not ordered selections.",
+    "answer": "3",
+    "wrong_answer": "2",
+    "parameters": {
+      "weights": [
+        2,
+        5,
+        6,
+        7,
+        10,
+        15
+      ],
+      "k": 3,
+      "threshold": 21,
+      "mod": 4,
+      "residue": 2
+    },
+    "computational_agreement": true,
+    "derivation": "Enumerate 20 triples and cross-check by dynamic programming; distractor uses the next residue.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "2",
+      "B": "3"
+    }
+  },
+  {
+    "item_id": "calibration-subset_count-04",
+    "split": "calibration",
+    "family": "subset_count",
+    "seed": 202610320306,
+    "stem": "Six distinct labeled objects have weights [3, 6, 7, 8, 9, 13] in label order. How many unordered subsets of exactly three objects have total weight at most 22 and congruent to 0 modulo 3? Each object is available once; count subsets, not ordered selections.",
+    "answer": "3",
+    "wrong_answer": "4",
+    "parameters": {
+      "weights": [
+        3,
+        6,
+        7,
+        8,
+        9,
+        13
+      ],
+      "k": 3,
+      "threshold": 22,
+      "mod": 3,
+      "residue": 0
+    },
+    "computational_agreement": true,
+    "derivation": "Enumerate 20 triples and cross-check by dynamic programming; distractor uses the next residue.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "4",
+      "B": "3"
+    }
+  },
+  {
+    "item_id": "calibration-shortest_path-01",
+    "split": "calibration",
+    "family": "shortest_path",
+    "seed": 202610330000,
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 9], [0, 4, 4], [1, 2, 8], [1, 3, 8], [2, 3, 6], [2, 5, 3], [3, 4, 6], [4, 5, 4]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "answer": "8",
+    "wrong_answer": "6",
+    "parameters": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          1,
+          2,
+          8
+        ],
+        [
+          1,
+          3,
+          8
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          5,
+          3
+        ],
+        [
+          3,
+          4,
+          6
+        ],
+        [
+          4,
+          5,
+          4
+        ]
+      ]
+    },
+    "computational_agreement": true,
+    "derivation": "Topological relaxation and exhaustive path enumeration; distractor comes from changing one edge price.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "6",
+      "B": "8"
+    }
+  },
+  {
+    "item_id": "calibration-shortest_path-02",
+    "split": "calibration",
+    "family": "shortest_path",
+    "seed": 202610330100,
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 8], [0, 4, 12], [1, 2, 10], [2, 3, 4], [3, 4, 5], [4, 5, 5]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "answer": "17",
+    "wrong_answer": "15",
+    "parameters": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1,
+          8
+        ],
+        [
+          0,
+          4,
+          12
+        ],
+        [
+          1,
+          2,
+          10
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          4,
+          5,
+          5
+        ]
+      ]
+    },
+    "computational_agreement": true,
+    "derivation": "Topological relaxation and exhaustive path enumeration; distractor comes from changing one edge price.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "17",
+      "B": "15"
+    }
+  },
+  {
+    "item_id": "calibration-shortest_path-03",
+    "split": "calibration",
+    "family": "shortest_path",
+    "seed": 202610330200,
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 4], [0, 3, 3], [0, 5, 7], [1, 2, 9], [2, 3, 10], [3, 4, 8], [3, 5, 9], [4, 5, 9]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "answer": "7",
+    "wrong_answer": "9",
+    "parameters": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          0,
+          5,
+          7
+        ],
+        [
+          1,
+          2,
+          9
+        ],
+        [
+          2,
+          3,
+          10
+        ],
+        [
+          3,
+          4,
+          8
+        ],
+        [
+          3,
+          5,
+          9
+        ],
+        [
+          4,
+          5,
+          9
+        ]
+      ]
+    },
+    "computational_agreement": true,
+    "derivation": "Topological relaxation and exhaustive path enumeration; distractor comes from changing one edge price.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "9",
+      "B": "7"
+    }
+  },
+  {
+    "item_id": "calibration-shortest_path-04",
+    "split": "calibration",
+    "family": "shortest_path",
+    "seed": 202610330300,
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 10], [0, 4, 4], [1, 2, 10], [1, 4, 9], [2, 3, 5], [2, 4, 4], [3, 4, 11], [4, 5, 3]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "answer": "7",
+    "wrong_answer": "5",
+    "parameters": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          1,
+          2,
+          10
+        ],
+        [
+          1,
+          4,
+          9
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          2,
+          4,
+          4
+        ],
+        [
+          3,
+          4,
+          11
+        ],
+        [
+          4,
+          5,
+          3
+        ]
+      ]
+    },
+    "computational_agreement": true,
+    "derivation": "Topological relaxation and exhaustive path enumeration; distractor comes from changing one edge price.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "7",
+      "B": "5"
+    }
+  },
+  {
+    "item_id": "calibration-urn_posterior-01",
+    "split": "calibration",
+    "family": "urn_posterior",
+    "seed": 202610340000,
+    "stem": "Choose urn U with probability 1/3, otherwise urn V. U contains 6 red and 6 blue balls; V contains 6 red and 4 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "answer": "41%",
+    "wrong_answer": "39%",
+    "parameters": {
+      "r1": 6,
+      "b1": 6,
+      "r2": 6,
+      "b2": 4,
+      "draws": 3,
+      "red": 1,
+      "prior": "1/3",
+      "exact_posterior": "15/37"
+    },
+    "computational_agreement": true,
+    "derivation": "Hypergeometric Bayes and ordered-draw products; distractor incorrectly samples with replacement, then rounds.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "41%",
+      "B": "39%"
+    }
+  },
+  {
+    "item_id": "calibration-urn_posterior-02",
+    "split": "calibration",
+    "family": "urn_posterior",
+    "seed": 202610340102,
+    "stem": "Choose urn U with probability 1/3, otherwise urn V. U contains 3 red and 5 blue balls; V contains 7 red and 5 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "answer": "46%",
+    "wrong_answer": "42%",
+    "parameters": {
+      "r1": 3,
+      "b1": 5,
+      "r2": 7,
+      "b2": 5,
+      "draws": 3,
+      "red": 1,
+      "prior": "1/3",
+      "exact_posterior": "165/361"
+    },
+    "computational_agreement": true,
+    "derivation": "Hypergeometric Bayes and ordered-draw products; distractor incorrectly samples with replacement, then rounds.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "42%",
+      "B": "46%"
+    }
+  },
+  {
+    "item_id": "calibration-urn_posterior-03",
+    "split": "calibration",
+    "family": "urn_posterior",
+    "seed": 202610340200,
+    "stem": "Choose urn U with probability 1/3, otherwise urn V. U contains 4 red and 3 blue balls; V contains 3 red and 7 blue balls. Draw 2 balls uniformly without replacement from the chosen urn and observe exactly one red and 1 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "answer": "38%",
+    "wrong_answer": "37%",
+    "parameters": {
+      "r1": 4,
+      "b1": 3,
+      "r2": 3,
+      "b2": 7,
+      "draws": 2,
+      "red": 1,
+      "prior": "1/3",
+      "exact_posterior": "30/79"
+    },
+    "computational_agreement": true,
+    "derivation": "Hypergeometric Bayes and ordered-draw products; distractor incorrectly samples with replacement, then rounds.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "38%",
+      "B": "37%"
+    }
+  },
+  {
+    "item_id": "calibration-urn_posterior-04",
+    "split": "calibration",
+    "family": "urn_posterior",
+    "seed": 202610340301,
+    "stem": "Choose urn U with probability 2/3, otherwise urn V. U contains 4 red and 6 blue balls; V contains 3 red and 6 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "answer": "65%",
+    "wrong_answer": "66%",
+    "parameters": {
+      "r1": 4,
+      "b1": 6,
+      "r2": 3,
+      "b2": 6,
+      "draws": 3,
+      "red": 1,
+      "prior": "2/3",
+      "exact_posterior": "28/43"
+    },
+    "computational_agreement": true,
+    "derivation": "Hypergeometric Bayes and ordered-draw products; distractor incorrectly samples with replacement, then rounds.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "66%",
+      "B": "65%"
+    }
+  },
+  {
+    "item_id": "reserved-recurrence-01",
+    "split": "reserved",
+    "family": "recurrence",
+    "seed": 202610410000,
+    "stem": "An integer sequence starts x_0=6, x_1=5. For n >= 2, x_n is the least nonnegative residue of 1*x_(n-1) + 2*x_(n-2) modulo 23. What is x_9?",
+    "answer": "12",
+    "wrong_answer": "21",
+    "parameters": {
+      "a": 1,
+      "b": 2,
+      "x0": 6,
+      "x1": 5,
+      "n": 9,
+      "mod": 23
+    },
+    "computational_agreement": true,
+    "derivation": "Direct iteration and matrix exponentiation; distractor is the preceding term.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "21",
+      "B": "12"
+    }
+  },
+  {
+    "item_id": "reserved-recurrence-02",
+    "split": "reserved",
+    "family": "recurrence",
+    "seed": 202610410102,
+    "stem": "An integer sequence starts x_0=3, x_1=2. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 2*x_(n-2) modulo 17. What is x_10?",
+    "answer": "14",
+    "wrong_answer": "4",
+    "parameters": {
+      "a": 2,
+      "b": 2,
+      "x0": 3,
+      "x1": 2,
+      "n": 10,
+      "mod": 17
+    },
+    "computational_agreement": true,
+    "derivation": "Direct iteration and matrix exponentiation; distractor is the preceding term.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "14",
+      "B": "4"
+    }
+  },
+  {
+    "item_id": "reserved-recurrence-03",
+    "split": "reserved",
+    "family": "recurrence",
+    "seed": 202610410200,
+    "stem": "An integer sequence starts x_0=1, x_1=4. For n >= 2, x_n is the least nonnegative residue of 3*x_(n-1) + 1*x_(n-2) modulo 19. What is x_10?",
+    "answer": "18",
+    "wrong_answer": "4",
+    "parameters": {
+      "a": 3,
+      "b": 1,
+      "x0": 1,
+      "x1": 4,
+      "n": 10,
+      "mod": 19
+    },
+    "computational_agreement": true,
+    "derivation": "Direct iteration and matrix exponentiation; distractor is the preceding term.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "18",
+      "B": "4"
+    }
+  },
+  {
+    "item_id": "reserved-recurrence-04",
+    "split": "reserved",
+    "family": "recurrence",
+    "seed": 202610410300,
+    "stem": "An integer sequence starts x_0=2, x_1=2. For n >= 2, x_n is the least nonnegative residue of 3*x_(n-1) + 1*x_(n-2) modulo 19. What is x_8?",
+    "answer": "10",
+    "wrong_answer": "1",
+    "parameters": {
+      "a": 3,
+      "b": 1,
+      "x0": 2,
+      "x1": 2,
+      "n": 8,
+      "mod": 19
+    },
+    "computational_agreement": true,
+    "derivation": "Direct iteration and matrix exponentiation; distractor is the preceding term.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "1",
+      "B": "10"
+    }
+  },
+  {
+    "item_id": "reserved-subset_count-01",
+    "split": "reserved",
+    "family": "subset_count",
+    "seed": 202610420002,
+    "stem": "Six distinct labeled objects have weights [3, 4, 6, 9, 11, 13] in label order. How many unordered subsets of exactly three objects have total weight at most 23 and congruent to 0 modulo 4? Each object is available once; count subsets, not ordered selections.",
+    "answer": "3",
+    "wrong_answer": "2",
+    "parameters": {
+      "weights": [
+        3,
+        4,
+        6,
+        9,
+        11,
+        13
+      ],
+      "k": 3,
+      "threshold": 23,
+      "mod": 4,
+      "residue": 0
+    },
+    "computational_agreement": true,
+    "derivation": "Enumerate 20 triples and cross-check by dynamic programming; distractor uses the next residue.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "2",
+      "B": "3"
+    }
+  },
+  {
+    "item_id": "reserved-subset_count-02",
+    "split": "reserved",
+    "family": "subset_count",
+    "seed": 202610420100,
+    "stem": "Six distinct labeled objects have weights [3, 4, 6, 8, 10, 14] in label order. How many unordered subsets of exactly three objects have total weight at most 20 and congruent to 2 modulo 3? Each object is available once; count subsets, not ordered selections.",
+    "answer": "3",
+    "wrong_answer": "2",
+    "parameters": {
+      "weights": [
+        3,
+        4,
+        6,
+        8,
+        10,
+        14
+      ],
+      "k": 3,
+      "threshold": 20,
+      "mod": 3,
+      "residue": 2
+    },
+    "computational_agreement": true,
+    "derivation": "Enumerate 20 triples and cross-check by dynamic programming; distractor uses the next residue.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "3",
+      "B": "2"
+    }
+  },
+  {
+    "item_id": "reserved-subset_count-03",
+    "split": "reserved",
+    "family": "subset_count",
+    "seed": 202610420200,
+    "stem": "Six distinct labeled objects have weights [3, 4, 8, 13, 14, 15] in label order. How many unordered subsets of exactly three objects have total weight at most 25 and congruent to 1 modulo 4? Each object is available once; count subsets, not ordered selections.",
+    "answer": "3",
+    "wrong_answer": "1",
+    "parameters": {
+      "weights": [
+        3,
+        4,
+        8,
+        13,
+        14,
+        15
+      ],
+      "k": 3,
+      "threshold": 25,
+      "mod": 4,
+      "residue": 1
+    },
+    "computational_agreement": true,
+    "derivation": "Enumerate 20 triples and cross-check by dynamic programming; distractor uses the next residue.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "1",
+      "B": "3"
+    }
+  },
+  {
+    "item_id": "reserved-subset_count-04",
+    "split": "reserved",
+    "family": "subset_count",
+    "seed": 202610420301,
+    "stem": "Six distinct labeled objects have weights [2, 3, 8, 9, 11, 13] in label order. How many unordered subsets of exactly three objects have total weight at most 27 and congruent to 1 modulo 3? Each object is available once; count subsets, not ordered selections.",
+    "answer": "6",
+    "wrong_answer": "5",
+    "parameters": {
+      "weights": [
+        2,
+        3,
+        8,
+        9,
+        11,
+        13
+      ],
+      "k": 3,
+      "threshold": 27,
+      "mod": 3,
+      "residue": 1
+    },
+    "computational_agreement": true,
+    "derivation": "Enumerate 20 triples and cross-check by dynamic programming; distractor uses the next residue.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "6",
+      "B": "5"
+    }
+  },
+  {
+    "item_id": "reserved-shortest_path-01",
+    "split": "reserved",
+    "family": "shortest_path",
+    "seed": 202610430000,
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 2], [0, 5, 3], [1, 2, 7], [1, 4, 8], [2, 3, 6], [2, 5, 5], [3, 4, 9], [3, 5, 11], [4, 5, 8]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "answer": "3",
+    "wrong_answer": "5",
+    "parameters": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          5,
+          3
+        ],
+        [
+          1,
+          2,
+          7
+        ],
+        [
+          1,
+          4,
+          8
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          5,
+          5
+        ],
+        [
+          3,
+          4,
+          9
+        ],
+        [
+          3,
+          5,
+          11
+        ],
+        [
+          4,
+          5,
+          8
+        ]
+      ]
+    },
+    "computational_agreement": true,
+    "derivation": "Topological relaxation and exhaustive path enumeration; distractor comes from changing one edge price.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "3",
+      "B": "5"
+    }
+  },
+  {
+    "item_id": "reserved-shortest_path-02",
+    "split": "reserved",
+    "family": "shortest_path",
+    "seed": 202610430100,
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 9], [0, 3, 10], [0, 4, 7], [1, 2, 12], [2, 3, 8], [3, 4, 12], [3, 5, 5], [4, 5, 5]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "answer": "12",
+    "wrong_answer": "10",
+    "parameters": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1,
+          9
+        ],
+        [
+          0,
+          3,
+          10
+        ],
+        [
+          0,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          12
+        ],
+        [
+          2,
+          3,
+          8
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          5,
+          5
+        ],
+        [
+          4,
+          5,
+          5
+        ]
+      ]
+    },
+    "computational_agreement": true,
+    "derivation": "Topological relaxation and exhaustive path enumeration; distractor comes from changing one edge price.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "10",
+      "B": "12"
+    }
+  },
+  {
+    "item_id": "reserved-shortest_path-03",
+    "split": "reserved",
+    "family": "shortest_path",
+    "seed": 202610430200,
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 6], [0, 2, 8], [0, 3, 12], [0, 4, 4], [1, 2, 9], [1, 3, 7], [1, 4, 2], [2, 3, 10], [2, 4, 7], [2, 5, 5], [3, 4, 11], [4, 5, 8]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "answer": "12",
+    "wrong_answer": "10",
+    "parameters": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          2,
+          8
+        ],
+        [
+          0,
+          3,
+          12
+        ],
+        [
+          0,
+          4,
+          4
+        ],
+        [
+          1,
+          2,
+          9
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          1,
+          4,
+          2
+        ],
+        [
+          2,
+          3,
+          10
+        ],
+        [
+          2,
+          4,
+          7
+        ],
+        [
+          2,
+          5,
+          5
+        ],
+        [
+          3,
+          4,
+          11
+        ],
+        [
+          4,
+          5,
+          8
+        ]
+      ]
+    },
+    "computational_agreement": true,
+    "derivation": "Topological relaxation and exhaustive path enumeration; distractor comes from changing one edge price.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "10",
+      "B": "12"
+    }
+  },
+  {
+    "item_id": "reserved-shortest_path-04",
+    "split": "reserved",
+    "family": "shortest_path",
+    "seed": 202610430300,
+    "stem": "A directed graph has vertices 0 through 5. Each [u,v,w] entry is an edge u -> v with cost w. There are no other edges; reverse edges are not implied. Edges: [[0, 1, 10], [0, 2, 9], [0, 3, 5], [0, 4, 12], [0, 5, 2], [1, 2, 3], [1, 4, 6], [2, 3, 8], [2, 4, 7], [2, 5, 2], [3, 4, 4], [3, 5, 8], [4, 5, 9]]. What is the minimum total cost of a path from vertex 0 to vertex 5?",
+    "answer": "2",
+    "wrong_answer": "4",
+    "parameters": {
+      "n": 6,
+      "edges": [
+        [
+          0,
+          1,
+          10
+        ],
+        [
+          0,
+          2,
+          9
+        ],
+        [
+          0,
+          3,
+          5
+        ],
+        [
+          0,
+          4,
+          12
+        ],
+        [
+          0,
+          5,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          4,
+          6
+        ],
+        [
+          2,
+          3,
+          8
+        ],
+        [
+          2,
+          4,
+          7
+        ],
+        [
+          2,
+          5,
+          2
+        ],
+        [
+          3,
+          4,
+          4
+        ],
+        [
+          3,
+          5,
+          8
+        ],
+        [
+          4,
+          5,
+          9
+        ]
+      ]
+    },
+    "computational_agreement": true,
+    "derivation": "Topological relaxation and exhaustive path enumeration; distractor comes from changing one edge price.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "2",
+      "B": "4"
+    }
+  },
+  {
+    "item_id": "reserved-urn_posterior-01",
+    "split": "reserved",
+    "family": "urn_posterior",
+    "seed": 202610440000,
+    "stem": "Choose urn U with probability 1/3, otherwise urn V. U contains 5 red and 6 blue balls; V contains 3 red and 3 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "answer": "34%",
+    "wrong_answer": "35%",
+    "parameters": {
+      "r1": 5,
+      "b1": 6,
+      "r2": 3,
+      "b2": 3,
+      "draws": 3,
+      "red": 1,
+      "prior": "1/3",
+      "exact_posterior": "50/149"
+    },
+    "computational_agreement": true,
+    "derivation": "Hypergeometric Bayes and ordered-draw products; distractor incorrectly samples with replacement, then rounds.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "34%",
+      "B": "35%"
+    }
+  },
+  {
+    "item_id": "reserved-urn_posterior-02",
+    "split": "reserved",
+    "family": "urn_posterior",
+    "seed": 202610440101,
+    "stem": "Choose urn U with probability 1/3, otherwise urn V. U contains 3 red and 3 blue balls; V contains 6 red and 4 blue balls. Draw 2 balls uniformly without replacement from the chosen urn and observe exactly one red and 1 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "answer": "36%",
+    "wrong_answer": "34%",
+    "parameters": {
+      "r1": 3,
+      "b1": 3,
+      "r2": 6,
+      "b2": 4,
+      "draws": 2,
+      "red": 1,
+      "prior": "1/3",
+      "exact_posterior": "9/25"
+    },
+    "computational_agreement": true,
+    "derivation": "Hypergeometric Bayes and ordered-draw products; distractor incorrectly samples with replacement, then rounds.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "34%",
+      "B": "36%"
+    }
+  },
+  {
+    "item_id": "reserved-urn_posterior-03",
+    "split": "reserved",
+    "family": "urn_posterior",
+    "seed": 202610440204,
+    "stem": "Choose urn U with probability 1/3, otherwise urn V. U contains 7 red and 3 blue balls; V contains 4 red and 7 blue balls. Draw 3 balls uniformly without replacement from the chosen urn and observe exactly one red and 2 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "answer": "15%",
+    "wrong_answer": "18%",
+    "parameters": {
+      "r1": 7,
+      "b1": 3,
+      "r2": 4,
+      "b2": 7,
+      "draws": 3,
+      "red": 1,
+      "prior": "1/3",
+      "exact_posterior": "11/75"
+    },
+    "computational_agreement": true,
+    "derivation": "Hypergeometric Bayes and ordered-draw products; distractor incorrectly samples with replacement, then rounds.",
+    "difficulty": "unmeasured",
+    "correct_letter": "A",
+    "options": {
+      "A": "15%",
+      "B": "18%"
+    }
+  },
+  {
+    "item_id": "reserved-urn_posterior-04",
+    "split": "reserved",
+    "family": "urn_posterior",
+    "seed": 202610440302,
+    "stem": "Choose urn U with probability 2/3, otherwise urn V. U contains 6 red and 6 blue balls; V contains 6 red and 4 blue balls. Draw 2 balls uniformly without replacement from the chosen urn and observe exactly one red and 1 blue, with order unobserved. Which option is the posterior probability that U was chosen, rounded to the nearest whole percentage point (round a half percentage point upward)?",
+    "answer": "67%",
+    "wrong_answer": "68%",
+    "parameters": {
+      "r1": 6,
+      "b1": 6,
+      "r2": 6,
+      "b2": 4,
+      "draws": 2,
+      "red": 1,
+      "prior": "2/3",
+      "exact_posterior": "45/67"
+    },
+    "computational_agreement": true,
+    "derivation": "Hypergeometric Bayes and ordered-draw products; distractor incorrectly samples with replacement, then rounds.",
+    "difficulty": "unmeasured",
+    "correct_letter": "B",
+    "options": {
+      "A": "68%",
+      "B": "67%"
+    }
+  }
+]

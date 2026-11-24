@@ -1,0 +1,11 @@
+{
+  "sse_events": 662,
+  "accounting_frames": 1,
+  "done_received": true,
+  "terminal_reason": "stop",
+  "visible_characters": 1,
+  "reasoning_characters": 2273,
+  "reasoning_used_as_answer": false,
+  "reported_model": "openai/gpt-oss-120b",
+  "model_alias_applied": false
+}

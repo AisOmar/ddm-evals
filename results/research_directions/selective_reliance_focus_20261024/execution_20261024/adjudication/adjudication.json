@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-10-24T23:43:02.443053+00:00",
+  "adjudicated_items": 9,
+  "unflagged_prior_items": 21,
+  "total_items_covered": 30,
+  "adjudication_issues": [
+    "F001",
+    "F004",
+    "F007",
+    "F011",
+    "F016",
+    "F021",
+    "F024",
+    "F028",
+    "F029"
+  ],
+  "prior_unflagged_issues": [],
+  "overall_execution_blockers": "None. All nine problems have clear mathematical models, unambiguous derivations, and unique answers that match exactly one of the two provided options. The problems follow consistent templates: F001 is a probability update with an uninformed inspector; F004, F021, F029 are weighted success rate comparisons; F007, F016, F028 are decision problems with test information and fees; F011, F024 are Bayesian updates with independent tests.",
+  "review_gate_passed": false,
+  "independent_tool_assisted_context": true,
+  "human_review": false,
+  "keys_changed": false,
+  "recorded_new_cost_usd": "0.095703",
+  "cumulative_recorded_cost_usd": "0.301562",
+  "original_study_remains_paused": true
+}

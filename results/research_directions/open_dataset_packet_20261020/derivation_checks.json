@@ -1,0 +1,152 @@
+{
+  "created_at": "2026-10-20T21:23:30.664946+00:00",
+  "evidence_kind": "Programmatic cross-checks authored by the same analyst; not independent review",
+  "script_sha256": "22a6ac4b6ff42585e28ddf8e4ae27e5c37347f6c41e4bde888a47c20b05dfc70",
+  "masked_source_sha256": "5e7c036070a209b72582e3c985a347296811c2d104a617f6b5a2f0f907a3767f",
+  "items": {
+    "G01": {
+      "answer": "113",
+      "method": "Exact rational evaluation of analyst-grounded word-problem reduction"
+    },
+    "G02": {
+      "answer": "10",
+      "method": "Exact rational evaluation of analyst-grounded word-problem reduction"
+    },
+    "G03": {
+      "answer": "101",
+      "method": "Exact rational evaluation of analyst-grounded word-problem reduction"
+    },
+    "G04": {
+      "answer": "4000",
+      "method": "Exact rational evaluation of analyst-grounded word-problem reduction"
+    },
+    "G05": {
+      "answer": "9",
+      "method": "Exact rational evaluation of analyst-grounded word-problem reduction"
+    },
+    "G06": {
+      "answer": "1198",
+      "method": "Exact rational evaluation of analyst-grounded word-problem reduction"
+    },
+    "G07": {
+      "answer": "31",
+      "method": "Exact rational evaluation of analyst-grounded word-problem reduction"
+    },
+    "G08": {
+      "answer": "32",
+      "method": "Exact rational evaluation of analyst-grounded word-problem reduction"
+    },
+    "G09": {
+      "answer": "36",
+      "method": "Exact rational evaluation of analyst-grounded word-problem reduction"
+    },
+    "G10": {
+      "answer": "1430",
+      "method": "Exact rational evaluation of analyst-grounded word-problem reduction"
+    },
+    "B01": {
+      "answer": "True",
+      "method": "Whitelisted Boolean AST"
+    },
+    "B02": {
+      "answer": "03/12/1973",
+      "method": "Gregorian date plus seven days"
+    },
+    "B03": {
+      "answer": "> >",
+      "method": "Stack matching; shortest closing-only suffix"
+    },
+    "B04": {
+      "answer": "The tractor is the second-oldest",
+      "method": "All 120 permutations checked against analyst-grounded constraints",
+      "oldest_to_newest": [
+        "minivan",
+        "tractor",
+        "limousine",
+        "convertible",
+        "sedan"
+      ]
+    },
+    "B05": {
+      "answer": "702",
+      "method": "Whitelisted integer AST with standard precedence"
+    },
+    "B06": {
+      "answer": "Yes",
+      "method": "Fixed-heading vector sum",
+      "displacement": [
+        0,
+        0
+      ]
+    },
+    "B07": {
+      "answer": "13",
+      "method": "Sum individual object counts",
+      "counts": [
+        1,
+        1,
+        5,
+        1,
+        1,
+        2,
+        1,
+        1
+      ]
+    },
+    "B08": {
+      "answer": "zero",
+      "method": "Count non-teal colors before unique yellow object",
+      "colors": [
+        "yellow",
+        "pink",
+        "silver",
+        "brown"
+      ]
+    },
+    "B09": {
+      "answer": "left midfielder",
+      "method": "Apply five swaps to complete assignment mapping",
+      "trace": [
+        {
+          "Alice": "cheerleader",
+          "Bob": "right midfielder",
+          "Claire": "goalkeeper",
+          "Dave": "left winger",
+          "Eve": "left midfielder"
+        },
+        {
+          "Alice": "left winger",
+          "Bob": "right midfielder",
+          "Claire": "goalkeeper",
+          "Dave": "cheerleader",
+          "Eve": "left midfielder"
+        },
+        {
+          "Alice": "left winger",
+          "Bob": "left midfielder",
+          "Claire": "goalkeeper",
+          "Dave": "cheerleader",
+          "Eve": "right midfielder"
+        },
+        {
+          "Alice": "left winger",
+          "Bob": "cheerleader",
+          "Claire": "goalkeeper",
+          "Dave": "left midfielder",
+          "Eve": "right midfielder"
+        },
+        {
+          "Alice": "left winger",
+          "Bob": "right midfielder",
+          "Claire": "goalkeeper",
+          "Dave": "left midfielder",
+          "Eve": "cheerleader"
+        }
+      ]
+    },
+    "B10": {
+      "answer": "blest buxton consternate proximity quizzes sound tariff xerxes",
+      "method": "Lexicographic sort of distinct lowercase ASCII words"
+    }
+  }
+}

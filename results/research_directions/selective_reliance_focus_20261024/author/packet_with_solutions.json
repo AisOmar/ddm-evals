@@ -1,0 +1,572 @@
+[
+  {
+    "family": "random_reveal",
+    "variant": 1,
+    "split": "calibration",
+    "stem": "Exactly one of 4 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 4 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?",
+    "answer": "1/3",
+    "distractor": "1/4",
+    "author_derivation": "After excluding prize/opened coincidences, box 1 appears in 3 of 9 equiprobable worlds.",
+    "intended_error": "Use the unchanged probability from a knowledgeable host who deliberately avoids the prize.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "1/4",
+      "B": "1/3"
+    },
+    "item_id": "F001"
+  },
+  {
+    "family": "logical_constraints",
+    "variant": 0,
+    "split": "resource",
+    "stem": "Four switches P, Q, R, S are each on or off. Exactly two are on. If P is on, Q is on. If Q is on, R is off. S is on if and only if exactly one of P and R is on. Which statement must be true in every configuration satisfying these rules?",
+    "answer": "R and S are both on.",
+    "distractor": "P and Q are both on.",
+    "author_derivation": "P on would force Q and S on, violating exactly two. With P off, S=R; hence R,S on and Q off.",
+    "intended_error": "Stop after satisfying the first implication without checking the global count and biconditional.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "P and Q are both on.",
+      "B": "R and S are both on."
+    },
+    "item_id": "F002"
+  },
+  {
+    "family": "logical_constraints",
+    "variant": 3,
+    "split": "reserved",
+    "stem": "Four switches C, D, E, F are each on or off. Exactly two are on. If C is on, D is on. If D is on, E is off. F is on if and only if exactly one of C and E is on. Which statement must be true in every configuration satisfying these rules?",
+    "answer": "E and F are both on.",
+    "distractor": "C and D are both on.",
+    "author_derivation": "C on would force D and F on, violating exactly two. With C off, F=E; hence E,F on and D off.",
+    "intended_error": "Stop after satisfying the first implication without checking the global count and biconditional.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "E and F are both on.",
+      "B": "C and D are both on."
+    },
+    "item_id": "F003"
+  },
+  {
+    "family": "standardized_rates",
+    "variant": 1,
+    "split": "calibration",
+    "stem": "Program K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 1/4 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?",
+    "answer": "1/10",
+    "distractor": "-26/55",
+    "author_derivation": "Weight within-stratum differences by the target mix: 1/4*(1/10)+(1-1/4)*(1/10)=1/10.",
+    "intended_error": "Reuse the two programs' incompatible observed case mixes.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "-26/55",
+      "B": "1/10"
+    },
+    "item_id": "F004"
+  },
+  {
+    "family": "observed_then_intervened",
+    "variant": 0,
+    "split": "resource",
+    "stem": "Independent binary inputs U and V satisfy P(U=1)=1/2 and P(V=1)=1/2. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?",
+    "answer": "2/3",
+    "distractor": "1",
+    "author_derivation": "The intervention preserves V; retain original evidence. P(V=1|original alarm)= (1/2)/3/4=2/3.",
+    "intended_error": "Replace the intervention with observing U=0 while the original alarm is 1.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "2/3",
+      "B": "1"
+    },
+    "item_id": "F005"
+  },
+  {
+    "family": "logical_constraints",
+    "variant": 4,
+    "split": "reserved",
+    "stem": "Four switches G, H, I, J are each on or off. Exactly two are on. If G is on, H is on. If H is on, I is off. J is on if and only if exactly one of G and I is on. Which statement must be true in every configuration satisfying these rules?",
+    "answer": "I and J are both on.",
+    "distractor": "G and H are both on.",
+    "author_derivation": "G on would force H and J on, violating exactly two. With G off, J=I; hence I,J on and H off.",
+    "intended_error": "Stop after satisfying the first implication without checking the global count and biconditional.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "I and J are both on.",
+      "B": "G and H are both on."
+    },
+    "item_id": "F006"
+  },
+  {
+    "family": "value_of_information",
+    "variant": 0,
+    "split": "resource",
+    "stem": "A state is good or bad with equal probability. A risky action pays 12 credits in the good state and loses 6 credits in the bad state; a safe action pays 2 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 1 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?",
+    "answer": "15/4",
+    "distractor": "19/4",
+    "author_derivation": "Optimize separately after each report, then subtract the certain fee: 15/4+1-1=15/4.",
+    "intended_error": "Optimize the action correctly but omit the guaranteed test fee.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "19/4",
+      "B": "15/4"
+    },
+    "item_id": "F007"
+  },
+  {
+    "family": "value_of_information",
+    "variant": 1,
+    "split": "calibration",
+    "stem": "A state is good or bad with equal probability. A risky action pays 16 credits in the good state and loses 8 credits in the bad state; a safe action pays 3 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 1 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?",
+    "answer": "11/2",
+    "distractor": "13/2",
+    "author_derivation": "Optimize separately after each report, then subtract the certain fee: 5+3/2-1=11/2.",
+    "intended_error": "Optimize the action correctly but omit the guaranteed test fee.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "11/2",
+      "B": "13/2"
+    },
+    "item_id": "F008"
+  },
+  {
+    "family": "observed_then_intervened",
+    "variant": 4,
+    "split": "reserved",
+    "stem": "Independent binary inputs U and V satisfy P(U=1)=1/4 and P(V=1)=1/3. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?",
+    "answer": "2/3",
+    "distractor": "1",
+    "author_derivation": "The intervention preserves V; retain original evidence. P(V=1|original alarm)= (1/3)/1/2=2/3.",
+    "intended_error": "Replace the intervention with observing U=0 while the original alarm is 1.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "2/3",
+      "B": "1"
+    },
+    "item_id": "F009"
+  },
+  {
+    "family": "logical_constraints",
+    "variant": 2,
+    "split": "calibration",
+    "stem": "Four switches W, X, Y, Z are each on or off. Exactly two are on. If W is on, X is on. If X is on, Y is off. Z is on if and only if exactly one of W and Y is on. Which statement must be true in every configuration satisfying these rules?",
+    "answer": "Y and Z are both on.",
+    "distractor": "W and X are both on.",
+    "author_derivation": "W on would force X and Z on, violating exactly two. With W off, Z=Y; hence Y,Z on and X off.",
+    "intended_error": "Stop after satisfying the first implication without checking the global count and biconditional.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "Y and Z are both on.",
+      "B": "W and X are both on."
+    },
+    "item_id": "F010"
+  },
+  {
+    "family": "two_tests",
+    "variant": 2,
+    "split": "calibration",
+    "stem": "A randomly chosen part is defective with probability 1/5. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?",
+    "answer": "3/11",
+    "distractor": "3/7",
+    "author_derivation": "Use joint likelihoods for both observations: 1/20/(1/20+2/15)=3/11.",
+    "intended_error": "Condition on X alone, ignoring the negative Y result.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "3/11",
+      "B": "3/7"
+    },
+    "item_id": "F011"
+  },
+  {
+    "family": "observed_then_intervened",
+    "variant": 1,
+    "split": "calibration",
+    "stem": "Independent binary inputs U and V satisfy P(U=1)=1/2 and P(V=1)=1/3. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?",
+    "answer": "1/2",
+    "distractor": "1",
+    "author_derivation": "The intervention preserves V; retain original evidence. P(V=1|original alarm)= (1/3)/2/3=1/2.",
+    "intended_error": "Replace the intervention with observing U=0 while the original alarm is 1.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "1",
+      "B": "1/2"
+    },
+    "item_id": "F012"
+  },
+  {
+    "family": "random_reveal",
+    "variant": 4,
+    "split": "reserved",
+    "stem": "Exactly one of 7 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 7 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?",
+    "answer": "1/6",
+    "distractor": "1/7",
+    "author_derivation": "After excluding prize/opened coincidences, box 1 appears in 6 of 36 equiprobable worlds.",
+    "intended_error": "Use the unchanged probability from a knowledgeable host who deliberately avoids the prize.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "1/7",
+      "B": "1/6"
+    },
+    "item_id": "F013"
+  },
+  {
+    "family": "two_tests",
+    "variant": 1,
+    "split": "calibration",
+    "stem": "A randomly chosen part is defective with probability 1/4. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?",
+    "answer": "1/3",
+    "distractor": "1/2",
+    "author_derivation": "Use joint likelihoods for both observations: 1/16/(1/16+1/8)=1/3.",
+    "intended_error": "Condition on X alone, ignoring the negative Y result.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "1/2",
+      "B": "1/3"
+    },
+    "item_id": "F014"
+  },
+  {
+    "family": "random_reveal",
+    "variant": 2,
+    "split": "calibration",
+    "stem": "Exactly one of 5 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 5 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?",
+    "answer": "1/4",
+    "distractor": "1/5",
+    "author_derivation": "After excluding prize/opened coincidences, box 1 appears in 4 of 16 equiprobable worlds.",
+    "intended_error": "Use the unchanged probability from a knowledgeable host who deliberately avoids the prize.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "1/4",
+      "B": "1/5"
+    },
+    "item_id": "F015"
+  },
+  {
+    "family": "value_of_information",
+    "variant": 2,
+    "split": "calibration",
+    "stem": "A state is good or bad with equal probability. A risky action pays 20 credits in the good state and loses 10 credits in the bad state; a safe action pays 4 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 2 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?",
+    "answer": "25/4",
+    "distractor": "33/4",
+    "author_derivation": "Optimize separately after each report, then subtract the certain fee: 25/4+2-2=25/4.",
+    "intended_error": "Optimize the action correctly but omit the guaranteed test fee.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "25/4",
+      "B": "33/4"
+    },
+    "item_id": "F016"
+  },
+  {
+    "family": "random_reveal",
+    "variant": 0,
+    "split": "resource",
+    "stem": "Exactly one of 3 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 3 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?",
+    "answer": "1/2",
+    "distractor": "1/3",
+    "author_derivation": "After excluding prize/opened coincidences, box 1 appears in 2 of 4 equiprobable worlds.",
+    "intended_error": "Use the unchanged probability from a knowledgeable host who deliberately avoids the prize.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "1/2",
+      "B": "1/3"
+    },
+    "item_id": "F017"
+  },
+  {
+    "family": "random_reveal",
+    "variant": 3,
+    "split": "reserved",
+    "stem": "Exactly one of 6 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 6 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?",
+    "answer": "1/5",
+    "distractor": "1/6",
+    "author_derivation": "After excluding prize/opened coincidences, box 1 appears in 5 of 25 equiprobable worlds.",
+    "intended_error": "Use the unchanged probability from a knowledgeable host who deliberately avoids the prize.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "1/5",
+      "B": "1/6"
+    },
+    "item_id": "F018"
+  },
+  {
+    "family": "standardized_rates",
+    "variant": 2,
+    "split": "calibration",
+    "stem": "Program K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 3/4 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?",
+    "answer": "1/10",
+    "distractor": "-26/55",
+    "author_derivation": "Weight within-stratum differences by the target mix: 3/4*(1/10)+(1-3/4)*(1/10)=1/10.",
+    "intended_error": "Reuse the two programs' incompatible observed case mixes.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "-26/55",
+      "B": "1/10"
+    },
+    "item_id": "F019"
+  },
+  {
+    "family": "logical_constraints",
+    "variant": 1,
+    "split": "calibration",
+    "stem": "Four switches J, K, L, M are each on or off. Exactly two are on. If J is on, K is on. If K is on, L is off. M is on if and only if exactly one of J and L is on. Which statement must be true in every configuration satisfying these rules?",
+    "answer": "L and M are both on.",
+    "distractor": "J and K are both on.",
+    "author_derivation": "J on would force K and M on, violating exactly two. With J off, M=L; hence L,M on and K off.",
+    "intended_error": "Stop after satisfying the first implication without checking the global count and biconditional.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "J and K are both on.",
+      "B": "L and M are both on."
+    },
+    "item_id": "F020"
+  },
+  {
+    "family": "standardized_rates",
+    "variant": 4,
+    "split": "reserved",
+    "stem": "Program K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 2/3 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?",
+    "answer": "1/10",
+    "distractor": "-26/55",
+    "author_derivation": "Weight within-stratum differences by the target mix: 2/3*(1/10)+(1-2/3)*(1/10)=1/10.",
+    "intended_error": "Reuse the two programs' incompatible observed case mixes.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "-26/55",
+      "B": "1/10"
+    },
+    "item_id": "F021"
+  },
+  {
+    "family": "value_of_information",
+    "variant": 4,
+    "split": "reserved",
+    "stem": "A state is good or bad with equal probability. A risky action pays 28 credits in the good state and loses 14 credits in the bad state; a safe action pays 6 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 3 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?",
+    "answer": "35/4",
+    "distractor": "47/4",
+    "author_derivation": "Optimize separately after each report, then subtract the certain fee: 35/4+3-3=35/4.",
+    "intended_error": "Optimize the action correctly but omit the guaranteed test fee.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "47/4",
+      "B": "35/4"
+    },
+    "item_id": "F022"
+  },
+  {
+    "family": "two_tests",
+    "variant": 3,
+    "split": "reserved",
+    "stem": "A randomly chosen part is defective with probability 1/6. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?",
+    "answer": "3/13",
+    "distractor": "3/8",
+    "author_derivation": "Use joint likelihoods for both observations: 1/24/(1/24+5/36)=3/13.",
+    "intended_error": "Condition on X alone, ignoring the negative Y result.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "3/13",
+      "B": "3/8"
+    },
+    "item_id": "F023"
+  },
+  {
+    "family": "two_tests",
+    "variant": 0,
+    "split": "resource",
+    "stem": "A randomly chosen part is defective with probability 1/3. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?",
+    "answer": "3/7",
+    "distractor": "3/5",
+    "author_derivation": "Use joint likelihoods for both observations: 1/12/(1/12+1/9)=3/7.",
+    "intended_error": "Condition on X alone, ignoring the negative Y result.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "3/7",
+      "B": "3/5"
+    },
+    "item_id": "F024"
+  },
+  {
+    "family": "standardized_rates",
+    "variant": 0,
+    "split": "resource",
+    "stem": "Program K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 1/2 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?",
+    "answer": "1/10",
+    "distractor": "-26/55",
+    "author_derivation": "Weight within-stratum differences by the target mix: 1/2*(1/10)+(1-1/2)*(1/10)=1/10.",
+    "intended_error": "Reuse the two programs' incompatible observed case mixes.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "-26/55",
+      "B": "1/10"
+    },
+    "item_id": "F025"
+  },
+  {
+    "family": "two_tests",
+    "variant": 4,
+    "split": "reserved",
+    "stem": "A randomly chosen part is defective with probability 1/7. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?",
+    "answer": "1/5",
+    "distractor": "1/3",
+    "author_derivation": "Use joint likelihoods for both observations: 1/28/(1/28+1/7)=1/5.",
+    "intended_error": "Condition on X alone, ignoring the negative Y result.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "1/3",
+      "B": "1/5"
+    },
+    "item_id": "F026"
+  },
+  {
+    "family": "observed_then_intervened",
+    "variant": 2,
+    "split": "calibration",
+    "stem": "Independent binary inputs U and V satisfy P(U=1)=1/3 and P(V=1)=1/2. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?",
+    "answer": "3/4",
+    "distractor": "1",
+    "author_derivation": "The intervention preserves V; retain original evidence. P(V=1|original alarm)= (1/2)/2/3=3/4.",
+    "intended_error": "Replace the intervention with observing U=0 while the original alarm is 1.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "3/4",
+      "B": "1"
+    },
+    "item_id": "F027"
+  },
+  {
+    "family": "value_of_information",
+    "variant": 3,
+    "split": "reserved",
+    "stem": "A state is good or bad with equal probability. A risky action pays 24 credits in the good state and loses 12 credits in the bad state; a safe action pays 5 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 2 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?",
+    "answer": "8",
+    "distractor": "10",
+    "author_derivation": "Optimize separately after each report, then subtract the certain fee: 15/2+5/2-2=8.",
+    "intended_error": "Optimize the action correctly but omit the guaranteed test fee.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "10",
+      "B": "8"
+    },
+    "item_id": "F028"
+  },
+  {
+    "family": "standardized_rates",
+    "variant": 3,
+    "split": "reserved",
+    "stem": "Program K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 1/3 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?",
+    "answer": "1/10",
+    "distractor": "-26/55",
+    "author_derivation": "Weight within-stratum differences by the target mix: 1/3*(1/10)+(1-1/3)*(1/10)=1/10.",
+    "intended_error": "Reuse the two programs' incompatible observed case mixes.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "B",
+    "options": {
+      "A": "-26/55",
+      "B": "1/10"
+    },
+    "item_id": "F029"
+  },
+  {
+    "family": "observed_then_intervened",
+    "variant": 3,
+    "split": "reserved",
+    "stem": "Independent binary inputs U and V satisfy P(U=1)=1/3 and P(V=1)=1/4. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?",
+    "answer": "1/2",
+    "distractor": "1",
+    "author_derivation": "The intervention preserves V; retain original evidence. P(V=1|original alarm)= (1/4)/1/2=1/2.",
+    "intended_error": "Replace the intervention with observing U=0 while the original alarm is 1.",
+    "author_checks_agree": true,
+    "independent_review_complete": false,
+    "empirical_difficulty": "unknown",
+    "correct_letter": "A",
+    "options": {
+      "A": "1/2",
+      "B": "1"
+    },
+    "item_id": "F030"
+  }
+]

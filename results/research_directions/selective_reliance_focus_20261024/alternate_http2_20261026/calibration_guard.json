@@ -1,0 +1,6 @@
+{
+  "checked_at": "2026-10-26T17:49:02.232181+00:00",
+  "calibration_blocked": true,
+  "reason": "Alternate deployment qualification did not pass",
+  "new_calibration_requests": 0
+}

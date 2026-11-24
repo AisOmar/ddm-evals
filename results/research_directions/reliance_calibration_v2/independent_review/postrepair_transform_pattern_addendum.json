@@ -1,0 +1,43 @@
+{
+  "status": "POSITION REPAIR TRANSFORM-PATTERN ADDENDUM; NO KEYS OPENED",
+  "specific_prior_parity_cue_resolved": true,
+  "all_requested_exact_checks_pass": true,
+  "complementary_blocks_within_splits": [
+    {
+      "block_1": "calibration-recurrence",
+      "block_2": "calibration-urn_posterior"
+    },
+    {
+      "block_1": "calibration-subset_count",
+      "block_2": "calibration-shortest_path"
+    },
+    {
+      "block_1": "reserved-recurrence",
+      "block_2": "reserved-subset_count"
+    },
+    {
+      "block_1": "reserved-shortest_path",
+      "block_2": "reserved-urn_posterior"
+    }
+  ],
+  "reversed_blocks_across_splits": [
+    {
+      "calibration_block": "calibration-recurrence",
+      "reserved_block": "reserved-recurrence"
+    },
+    {
+      "calibration_block": "calibration-subset_count",
+      "reserved_block": "reserved-urn_posterior"
+    },
+    {
+      "calibration_block": "calibration-shortest_path",
+      "reserved_block": "reserved-shortest_path"
+    },
+    {
+      "calibration_block": "calibration-urn_posterior",
+      "reserved_block": "reserved-subset_count"
+    }
+  ],
+  "interpretation": "The eight exact block strings are all distinct and none is fully alternating. However, the layout has complementary pairs within each split and reversed reuse across splits. These do not recreate the universal odd/even rule. They are residual structure that could support inference if another related block is known, so the claim should remain limited to resolving the specific original parity cue and passing the requested exact checks. Broad absence of positional cues is not established.",
+  "scope_note": "All earlier arithmetic validity, computation burden, difficulty, and family-overlap judgments remain unchanged."
+}

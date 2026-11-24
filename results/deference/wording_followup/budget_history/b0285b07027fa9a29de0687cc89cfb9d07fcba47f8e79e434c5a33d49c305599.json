@@ -1,0 +1,29 @@
+{
+  "key_allowance_remaining": 85.241648435,
+  "conservative_max_cost": 17.532023179999978,
+  "provider": "DeepInfra",
+  "endpoint_prices": {
+    "deepseek/deepseek-r1-0528": {
+      "prompt": "0.0000005",
+      "completion": "0.00000215",
+      "input_cache_read": "0.00000035",
+      "discount": 0
+    },
+    "qwen/qwen3-32b": {
+      "prompt": "0.00000008",
+      "completion": "0.00000028",
+      "discount": 0
+    },
+    "openai/gpt-oss-120b": {
+      "prompt": "0.000000037",
+      "completion": "0.00000017",
+      "discount": 0
+    }
+  },
+  "planned_calls": 2100,
+  "passed": false,
+  "account_balance_remaining": 5.241648435,
+  "key_allowance_check_passed": true,
+  "full_account_balance_check_passed": false,
+  "operations_sha256": "48d59a94ed3c325e7ecb26f737c2d45e8a9927a60bc01d8607a49375af6879bc"
+}

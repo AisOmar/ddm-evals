@@ -1,0 +1,68 @@
+{
+  "reason": "Initial probability distractors had systematically longer denominators",
+  "first_draft_preserved": true,
+  "repairs": [
+    {
+      "item_id": "calibration-urn_posterior-01",
+      "before": "494762/3590843",
+      "after": "4720/37019"
+    },
+    {
+      "item_id": "calibration-urn_posterior-02",
+      "before": "2009932/3499663",
+      "after": "20348/36079"
+    },
+    {
+      "item_id": "calibration-urn_posterior-03",
+      "before": "951193/1092511",
+      "after": "9689/11263"
+    },
+    {
+      "item_id": "calibration-urn_posterior-04",
+      "before": "59307/60334",
+      "after": "607/622"
+    },
+    {
+      "item_id": "calibration-urn_posterior-05",
+      "before": "32939/33659",
+      "after": "337/347"
+    },
+    {
+      "item_id": "calibration-urn_posterior-06",
+      "before": "128894/167519",
+      "after": "1310/1727"
+    },
+    {
+      "item_id": "reserved-urn_posterior-01",
+      "before": "940297/2162033",
+      "after": "9465/22289"
+    },
+    {
+      "item_id": "reserved-urn_posterior-02",
+      "before": "3931/4947",
+      "after": "41/51"
+    },
+    {
+      "item_id": "reserved-urn_posterior-03",
+      "before": "2241/10379",
+      "after": "21/107"
+    },
+    {
+      "item_id": "reserved-urn_posterior-04",
+      "before": "28181/42583",
+      "after": "287/439"
+    },
+    {
+      "item_id": "reserved-urn_posterior-05",
+      "before": "187027/650288",
+      "after": "1861/6704"
+    },
+    {
+      "item_id": "reserved-urn_posterior-06",
+      "before": "282913/570457",
+      "after": "2855/5881"
+    }
+  ],
+  "independent_review_complete": false,
+  "model_calls_launched": 0
+}

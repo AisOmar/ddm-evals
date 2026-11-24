@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-10-24T23:42:18.409277+00:00",
+  "mapping": {
+    "F001": "F001_final",
+    "F004": "F004_final",
+    "F007": "F007_final",
+    "F011": "F011_final",
+    "F016": "F016_final",
+    "F021": "F021_final",
+    "F024": "F024_final",
+    "F028": "F028_final",
+    "F029": "F029_final"
+  },
+  "original_expressions_changed": false,
+  "author_keys_consulted": false,
+  "calculation_count": 48,
+  "final_count": 9
+}

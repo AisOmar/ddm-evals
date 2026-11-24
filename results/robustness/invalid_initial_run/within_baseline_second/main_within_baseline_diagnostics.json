@@ -1,0 +1,9 @@
+{
+  "label": "main_within_baseline",
+  "seconds": 44.83596205711365,
+  "divergences": 8,
+  "max_rhat": 1.0140487568745769,
+  "min_ess": 273.80043905735795,
+  "draws": 1000,
+  "chains": 4
+}

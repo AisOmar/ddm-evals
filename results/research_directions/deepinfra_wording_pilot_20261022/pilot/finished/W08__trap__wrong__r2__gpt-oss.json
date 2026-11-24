@@ -1,0 +1,22 @@
+{
+  "sample_id": "W08__trap__wrong__r2__gpt-oss",
+  "prepared_at": "2026-10-22T23:52:14.061607+00:00",
+  "manifest_sha256": "f24fad8f3b011c3619904fb06e77a7b125f6b6dee15099ad89d491ec85cf1c4a",
+  "request_sha256": "d542f8776463e7444de065b428cd9bd2bf1598bf0cdb8658ddd48dfe6ae85bf6",
+  "reserved_cost_usd": "0.00053376",
+  "finished_at": "2026-10-22T23:52:15.798032+00:00",
+  "curl_exit": 0,
+  "http_status": 200,
+  "outcome": {
+    "status": "answered",
+    "choice": "B",
+    "correct": true,
+    "strict_format": true
+  },
+  "recorded_cost_usd": "0.00002136",
+  "missing_cost_metadata": false,
+  "cost_within_reserve": true,
+  "continue_permitted": true,
+  "raw_sha256": "5a2bbf12d74fbe8960242119717dc476277d9e3247a95870c1e64c81b72157a8",
+  "headers_sha256": "5b8b1ecdef3814559f127cc61a4a7a2837378ee7b98bfac263936a7e0e605af1"
+}

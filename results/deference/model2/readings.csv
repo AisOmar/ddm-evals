@@ -1,0 +1,3 @@
+cell,n,mentions_number,difficulty_reading,unreliable_reading,trust_reading,key_reading,follow_if_unreliable,n_unreliable,follow_if_not_unreliable
+p55,200,0.53,0.07,0.16,0.05,0.6,0.25,32,0.27976190476190477
+p95,200,0.35,0.11,0.055,0.04,0.47,0.09090909090909091,11,0.26455026455026454

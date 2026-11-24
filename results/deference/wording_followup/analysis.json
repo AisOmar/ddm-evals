@@ -1,0 +1,226 @@
+{
+  "primary": {
+    "n_questions": 97,
+    "omnibus": {
+      "wald": 9.367550333325903,
+      "df": 2,
+      "p": 0.009244050101756555
+    },
+    "pairs": [
+      {
+        "pair": "R1 minus Qwen3",
+        "estimate": 0.1082474226804124,
+        "lo": 0.025773195876288624,
+        "hi": 0.19587628865979384
+      },
+      {
+        "pair": "R1 minus gpt-oss",
+        "estimate": 0.005154639175257714,
+        "lo": -0.07216494845360824,
+        "hi": 0.08762886597938141
+      },
+      {
+        "pair": "Qwen3 minus gpt-oss",
+        "estimate": -0.10309278350515466,
+        "lo": -0.20103092783505155,
+        "hi": -0.005154639175257741
+      }
+    ],
+    "effects": [
+      {
+        "model": "R1",
+        "estimate": 0.09793814432989689,
+        "lo": 0.0515463917525773,
+        "hi": 0.14948453608247425
+      },
+      {
+        "model": "Qwen3",
+        "estimate": -0.010309278350515427,
+        "lo": -0.07216494845360827,
+        "hi": 0.05154639175257733
+      },
+      {
+        "model": "gpt-oss",
+        "estimate": 0.09278350515463918,
+        "lo": 0.041237113402061876,
+        "hi": 0.14432989690721654
+      }
+    ]
+  },
+  "available_answer_sensitivity": {
+    "n_questions": 100,
+    "omnibus": {
+      "wald": 9.386173733940755,
+      "df": 2,
+      "p": 0.00915837180198756
+    },
+    "pairs": [
+      {
+        "pair": "R1 minus Qwen3",
+        "estimate": 0.10666666666666669,
+        "lo": 0.022140306122448987,
+        "hi": 0.1916346801346802
+      },
+      {
+        "pair": "R1 minus gpt-oss",
+        "estimate": 0.009090909090909122,
+        "lo": -0.0667516835016835,
+        "hi": 0.08956716651046547
+      },
+      {
+        "pair": "Qwen3 minus gpt-oss",
+        "estimate": -0.09757575757575757,
+        "lo": -0.19378391912320486,
+        "hi": -0.0022554713804713565
+      }
+    ],
+    "effects": [
+      {
+        "model": "R1",
+        "estimate": 0.09666666666666668,
+        "lo": 0.04999999999999999,
+        "hi": 0.1490816326530612
+      },
+      {
+        "model": "Qwen3",
+        "estimate": -0.010000000000000009,
+        "lo": -0.07,
+        "hi": 0.050000000000000044
+      },
+      {
+        "model": "gpt-oss",
+        "estimate": 0.08757575757575756,
+        "lo": 0.03823157596371876,
+        "hi": 0.1413131313131313
+      }
+    ]
+  },
+  "missing_outcome_bounds": {
+    "R1": [
+      0.09,
+      0.10500000000000001
+    ],
+    "Qwen3": [
+      -0.010000000000000009,
+      -0.010000000000000009
+    ],
+    "gpt-oss": [
+      0.08499999999999999,
+      0.095
+    ]
+  },
+  "separate_wordings": [
+    {
+      "contrast": "frequency: R1 minus Qwen3",
+      "estimate": 0.0922222222222222,
+      "lo": -0.019534511784511772,
+      "hi": 0.20503486394557827
+    },
+    {
+      "contrast": "frequency: R1 minus gpt-oss",
+      "estimate": -0.00030303030303033274,
+      "lo": -0.12477684792025735,
+      "hi": 0.122087962962963
+    },
+    {
+      "contrast": "frequency: Qwen3 minus gpt-oss",
+      "estimate": -0.09252525252525254,
+      "lo": -0.23,
+      "hi": 0.03
+    },
+    {
+      "contrast": "probability: R1 minus Qwen3",
+      "estimate": 0.12111111111111114,
+      "lo": -0.009292929292929233,
+      "hi": 0.25162722462722464
+    },
+    {
+      "contrast": "probability: R1 minus gpt-oss",
+      "estimate": 0.018484848484848493,
+      "lo": -0.11990178416467076,
+      "hi": 0.16020328282828292
+    },
+    {
+      "contrast": "probability: Qwen3 minus gpt-oss",
+      "estimate": -0.10262626262626265,
+      "lo": -0.25,
+      "hi": 0.04
+    }
+  ],
+  "wording_vs_reference": [
+    {
+      "contrast": "R1: frequency minus reference",
+      "estimate": -0.0490909090909091,
+      "lo": -0.14149072356215214,
+      "hi": 0.03131313131313133
+    },
+    {
+      "contrast": "R1: probability minus reference",
+      "estimate": -0.020202020202020166,
+      "lo": -0.12481900904691776,
+      "hi": 0.08077483164983165
+    },
+    {
+      "contrast": "Qwen3: frequency minus reference",
+      "estimate": -0.06,
+      "lo": -0.19,
+      "hi": 0.06999999999999995
+    },
+    {
+      "contrast": "Qwen3: probability minus reference",
+      "estimate": -0.06,
+      "lo": -0.19999999999999998,
+      "hi": 0.07999999999999996
+    },
+    {
+      "contrast": "gpt-oss: frequency minus reference",
+      "estimate": 0.01010101010101011,
+      "lo": -0.11801298701298703,
+      "hi": 0.1348714955679242
+    },
+    {
+      "contrast": "gpt-oss: probability minus reference",
+      "estimate": 0.02020202020202022,
+      "lo": -0.10080808080808079,
+      "hi": 0.13184943719755945
+    }
+  ],
+  "excluded_questions": [
+    "wmdp-0272",
+    "wmdp-0611",
+    "wmdp-1618"
+  ],
+  "status": "complete",
+  "manifest_sha256": "1db7aaae1fb278da04aaf6d7d51224df98351d960168847d5fa5a2b433666c06",
+  "runs_sha256": "8fc2c54a31a25a04fc77e48aa20da99b019d46bc02aa39f8e9bf817991f1c4ee",
+  "rate_limit_amendment_sha256": "cdbb1d08c2deb2c4f3728091fda7d3bc457f063e50eb7e01ceef3a8c0849ca08",
+  "collection_variant": "primary",
+  "providers": {
+    "Qwen3": [
+      "DeepInfra"
+    ],
+    "R1": [
+      "DeepInfra"
+    ],
+    "gpt-oss": [
+      "DeepInfra"
+    ]
+  },
+  "n_reused": 0,
+  "api_cost_new": 2.427760977,
+  "capacity_recovery_sha256": "306e63913b706535ab73bcacf1731ce1230069f3742210fe56b4b96c461f459f",
+  "collection_quality": {
+    "saved_attempt_files": 2393,
+    "api_error_attempts": {
+      "429": 191
+    },
+    "partial_attempt_files": 102,
+    "trials_with_successful_retry": 230,
+    "maximum_successful_attempt": 6,
+    "outcomes": {
+      "answered": 2089,
+      "censored": 6,
+      "refusal": 5
+    }
+  }
+}

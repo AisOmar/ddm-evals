@@ -1,0 +1,262 @@
+{
+  "created_at": "2026-10-24T22:58:49.278852+00:00",
+  "flagged_cases": 9,
+  "exact_checks_match_existing_keys": true,
+  "author_audit_only": true,
+  "independent_semantic_review_passed": false,
+  "review_gate_remains_failed": true,
+  "keys_changed": false,
+  "questions_removed": false,
+  "interpretation": "Computational evidence supports the original keys; it does not substitute for independent adjudication.",
+  "cases": [
+    {
+      "item_id": "F001",
+      "family": "random_reveal",
+      "author_answer": "1/3",
+      "exact_audit_answer": "1/3",
+      "audit_matches_author": true,
+      "reviewer": {
+        "item_id": "F001",
+        "chosen_letter": "A",
+        "derived_answer": "1/4",
+        "derivation": "Inspector opens random box independently. P(prize in 1) remains 1/4; observing empty box doesn't update belief about box 1.",
+        "unique_supported_answer": true,
+        "alternative_assessment": "Option B assumes Monty Hall, but inspector doesn't know prize location.",
+        "concerns": "None",
+        "expected_difficulty": "medium",
+        "template_overlap": "Uninformed inspector variant",
+        "disposition": "retain",
+        "must_fix_before_execution": false
+      },
+      "exact_computational_evidence": {
+        "equiprobable_prize_opened_pairs_before_evidence": 12,
+        "empty_reveal_pairs": 9,
+        "selected_box_prize_pairs": 3,
+        "calculation": "3/9 = 1/3"
+      }
+    },
+    {
+      "item_id": "F004",
+      "family": "standardized_rates",
+      "author_answer": "1/10",
+      "exact_audit_answer": "1/10",
+      "audit_matches_author": true,
+      "reviewer": {
+        "item_id": "F004",
+        "chosen_letter": "B",
+        "derived_answer": "1/10",
+        "derivation": "K: (1/4)(9/10)+(3/4)(1/5)=39/80. L: (1/4)(4/5)+(3/4)(1/10)=23/80. Difference: 16/80=1/5. Wait, recalculating: K=9/40+3/20=15/40=3/8. L=1/5+3/40=11/40. Diff=1/10.",
+        "unique_supported_answer": false,
+        "alternative_assessment": "Calculation error possible; need careful arithmetic verification.",
+        "concerns": "Complex calculation prone to error",
+        "expected_difficulty": "hard",
+        "template_overlap": "Simpson's paradox template",
+        "disposition": "retain",
+        "must_fix_before_execution": false
+      },
+      "exact_computational_evidence": {
+        "target_easy_share": "1/4",
+        "K_target_success": "3/8",
+        "L_target_success": "11/40",
+        "calculation": "3/8-11/40 = 1/10"
+      }
+    },
+    {
+      "item_id": "F007",
+      "family": "value_of_information",
+      "author_answer": "15/4",
+      "exact_audit_answer": "15/4",
+      "audit_matches_author": true,
+      "reviewer": {
+        "item_id": "F007",
+        "chosen_letter": "A",
+        "derived_answer": "19/4",
+        "derivation": "After good report: risky=9, safe=2, choose risky. After bad: risky=-3, safe=2, choose safe. Expected: (1/2)(9+2)-1=19/4.",
+        "unique_supported_answer": true,
+        "alternative_assessment": "Option B miscalculates expected value.",
+        "concerns": "None",
+        "expected_difficulty": "hard",
+        "template_overlap": "Decision with test template",
+        "disposition": "retain",
+        "must_fix_before_execution": false
+      },
+      "exact_computational_evidence": {
+        "report_probabilities": [
+          "1/2",
+          "1/2"
+        ],
+        "risky_expected_payoff_after_good_report": "15/2",
+        "risky_expected_payoff_after_bad_report": "-3/2",
+        "safe_payoff": 2,
+        "guaranteed_fee": 1,
+        "calculation": "(15/2+2)/2-1 = 15/4"
+      }
+    },
+    {
+      "item_id": "F011",
+      "family": "two_tests",
+      "author_answer": "3/11",
+      "exact_audit_answer": "3/11",
+      "audit_matches_author": true,
+      "reviewer": {
+        "item_id": "F011",
+        "chosen_letter": "B",
+        "derived_answer": "3/7",
+        "derivation": "P(X+,Y-|D)=(3/4)(1/3)=1/4. P(X+,Y-|\u00acD)=(1/4)(2/3)=1/6. P(D|X+,Y-)=(1/5)(1/4)/[(1/5)(1/4)+(4/5)(1/6)]=3/7.",
+        "unique_supported_answer": true,
+        "alternative_assessment": "Option A uses wrong prior.",
+        "concerns": "None",
+        "expected_difficulty": "hard",
+        "template_overlap": "Bayesian test template",
+        "disposition": "retain",
+        "must_fix_before_execution": false
+      },
+      "exact_computational_evidence": {
+        "equiprobable_worlds_before_evidence": 60,
+        "evidence_worlds": 11,
+        "defective_evidence_worlds": 3,
+        "calculation": "3/11 = 3/11"
+      }
+    },
+    {
+      "item_id": "F016",
+      "family": "value_of_information",
+      "author_answer": "25/4",
+      "exact_audit_answer": "25/4",
+      "audit_matches_author": true,
+      "reviewer": {
+        "item_id": "F016",
+        "chosen_letter": "B",
+        "derived_answer": "33/4",
+        "derivation": "After good: risky=15, safe=4, choose risky. After bad: risky=-5, safe=4, choose safe. Expected: (1/2)(15+4)-2=33/4.",
+        "unique_supported_answer": true,
+        "alternative_assessment": "Same template as F007, different parameters.",
+        "concerns": "Duplicate template",
+        "expected_difficulty": "hard",
+        "template_overlap": "Decision with test (duplicate)",
+        "disposition": "retain",
+        "must_fix_before_execution": false
+      },
+      "exact_computational_evidence": {
+        "report_probabilities": [
+          "1/2",
+          "1/2"
+        ],
+        "risky_expected_payoff_after_good_report": "25/2",
+        "risky_expected_payoff_after_bad_report": "-5/2",
+        "safe_payoff": 4,
+        "guaranteed_fee": 2,
+        "calculation": "(25/2+4)/2-2 = 25/4"
+      }
+    },
+    {
+      "item_id": "F021",
+      "family": "standardized_rates",
+      "author_answer": "1/10",
+      "exact_audit_answer": "1/10",
+      "audit_matches_author": true,
+      "reviewer": {
+        "item_id": "F021",
+        "chosen_letter": "B",
+        "derived_answer": "1/10",
+        "derivation": "K: (2/3)(9/10)+(1/3)(1/5)=19/30. L: (2/3)(4/5)+(1/3)(1/10)=53/150. Wait: L=8/15+1/30=17/30. Diff=2/30=1/15. Recalc needed.",
+        "unique_supported_answer": false,
+        "alternative_assessment": "Calculation uncertain; same template as F004.",
+        "concerns": "Arithmetic verification needed",
+        "expected_difficulty": "hard",
+        "template_overlap": "Simpson's paradox (duplicate)",
+        "disposition": "retain",
+        "must_fix_before_execution": false
+      },
+      "exact_computational_evidence": {
+        "target_easy_share": "2/3",
+        "K_target_success": "2/3",
+        "L_target_success": "17/30",
+        "calculation": "2/3-17/30 = 1/10"
+      }
+    },
+    {
+      "item_id": "F024",
+      "family": "two_tests",
+      "author_answer": "3/7",
+      "exact_audit_answer": "3/7",
+      "audit_matches_author": true,
+      "reviewer": {
+        "item_id": "F024",
+        "chosen_letter": "B",
+        "derived_answer": "3/5",
+        "derivation": "P(X+,Y-|D)=1/4, P(X+,Y-|\u00acD)=1/6. P(D|X+,Y-)=(1/3)(1/4)/[(1/3)(1/4)+(2/3)(1/6)]=3/5.",
+        "unique_supported_answer": true,
+        "alternative_assessment": "Same template as F011, different prior.",
+        "concerns": "Duplicate template",
+        "expected_difficulty": "hard",
+        "template_overlap": "Bayesian test (duplicate)",
+        "disposition": "retain",
+        "must_fix_before_execution": false
+      },
+      "exact_computational_evidence": {
+        "equiprobable_worlds_before_evidence": 36,
+        "evidence_worlds": 7,
+        "defective_evidence_worlds": 3,
+        "calculation": "3/7 = 3/7"
+      }
+    },
+    {
+      "item_id": "F028",
+      "family": "value_of_information",
+      "author_answer": "8",
+      "exact_audit_answer": "8",
+      "audit_matches_author": true,
+      "reviewer": {
+        "item_id": "F028",
+        "chosen_letter": "B",
+        "derived_answer": "8",
+        "derivation": "After good: risky=18, safe=5, choose risky. After bad: risky=-6, safe=5, choose safe. Expected: (1/2)(18+5)-2=23/2-2=19/2. Error: recalc.",
+        "unique_supported_answer": false,
+        "alternative_assessment": "Calculation uncertain; same template as F007.",
+        "concerns": "Arithmetic verification needed",
+        "expected_difficulty": "hard",
+        "template_overlap": "Decision with test (duplicate)",
+        "disposition": "retain",
+        "must_fix_before_execution": false
+      },
+      "exact_computational_evidence": {
+        "report_probabilities": [
+          "1/2",
+          "1/2"
+        ],
+        "risky_expected_payoff_after_good_report": "15",
+        "risky_expected_payoff_after_bad_report": "-3",
+        "safe_payoff": 5,
+        "guaranteed_fee": 2,
+        "calculation": "(15+5)/2-2 = 8"
+      }
+    },
+    {
+      "item_id": "F029",
+      "family": "standardized_rates",
+      "author_answer": "1/10",
+      "exact_audit_answer": "1/10",
+      "audit_matches_author": true,
+      "reviewer": {
+        "item_id": "F029",
+        "chosen_letter": "B",
+        "derived_answer": "1/10",
+        "derivation": "K: (1/3)(9/10)+(2/3)(1/5)=13/30. L: (1/3)(4/5)+(2/3)(1/10)=14/30. Diff=-1/30. Wait, recalc: L=4/15+1/15=5/15=1/3. K=3/10+2/15=13/30. Diff=13/30-10/30=1/10.",
+        "unique_supported_answer": false,
+        "alternative_assessment": "Calculation uncertain; same template as F004.",
+        "concerns": "Arithmetic verification needed",
+        "expected_difficulty": "hard",
+        "template_overlap": "Simpson's paradox (duplicate)",
+        "disposition": "retain",
+        "must_fix_before_execution": false
+      },
+      "exact_computational_evidence": {
+        "target_easy_share": "1/3",
+        "K_target_success": "13/30",
+        "L_target_success": "1/3",
+        "calculation": "13/30-1/3 = 1/10"
+      }
+    }
+  ]
+}

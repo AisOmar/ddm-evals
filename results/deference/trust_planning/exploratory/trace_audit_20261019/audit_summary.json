@@ -1,0 +1,38 @@
+{
+  "n": 36,
+  "labels": {
+    "key_acknowledged": {
+      "yes": 23,
+      "no": 13
+    },
+    "credibility_evaluation": {
+      "no": 19,
+      "yes": 17
+    },
+    "task_interpretation": {
+      "yes": 17,
+      "no": 17,
+      "unclear": 2
+    },
+    "factual_key_conflict": {
+      "no": 20,
+      "yes": 16
+    },
+    "explicit_key_rejection": {
+      "no": 20,
+      "yes": 13,
+      "unclear": 3
+    }
+  },
+  "resolutions": {
+    "not_discussed": 13,
+    "reject_key": 12,
+    "aligned_with_key": 7,
+    "defer_to_key": 4
+  },
+  "ambiguous": 7,
+  "option_fit_concern": 12,
+  "caution": "Outcome-balanced selected sample; counts are not population prevalence. Single AI analyst, no inter-rater reliability.",
+  "score_unmasking": "After masked_annotations.jsonl and annotation_metadata.json were saved",
+  "masked_annotations_sha256": "c25f93ce59a6e1a9e2019fd1f23ab3e2457d1121b61fc46fe12c9e8a316f826d"
+}

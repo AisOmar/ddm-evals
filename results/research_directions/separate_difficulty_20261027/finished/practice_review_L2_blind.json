@@ -1,0 +1,101 @@
+{
+  "items": [
+    {
+      "item_id": "L2_F1_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "First Fit Decreasing yields 9 bins; lower bound is 8.9, so 9 minimum."
+    },
+    {
+      "item_id": "L2_F1_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Total weight 64; capacity 10 gives lower bound 6.4. FFD packing requires 8 bins."
+    },
+    {
+      "item_id": "L2_F2_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Huffman tree construction yields optimal code length 1564 bits."
+    },
+    {
+      "item_id": "L2_F2_V1",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Huffman coding minimizes expected length; optimal is 2535 bits."
+    },
+    {
+      "item_id": "L2_F3_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Cofactor expansion and row reduction yield determinant 7360."
+    },
+    {
+      "item_id": "L2_F3_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Gaussian elimination with determinant tracking gives 6013."
+    },
+    {
+      "item_id": "L2_F4_V0",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Maximum matching via augmenting paths yields 11 tasks assigned."
+    },
+    {
+      "item_id": "L2_F4_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Bipartite matching algorithm finds perfect matching of 12 tasks."
+    },
+    {
+      "item_id": "L2_F5_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Conway leading number method for HTHTHTH gives 1086715/5184."
+    },
+    {
+      "item_id": "L2_F5_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Pattern THHTHHT expected waiting time is 919051/5184 flips."
+    },
+    {
+      "item_id": "L2_F6_V0",
+      "answer": "A",
+      "unique": true,
+      "blockers": "",
+      "reason": "Dynamic programming on sorted intervals yields maximum profit 118."
+    },
+    {
+      "item_id": "L2_F6_V1",
+      "answer": "B",
+      "unique": true,
+      "blockers": "",
+      "reason": "Weighted interval scheduling DP computes optimal profit 153."
+    }
+  ],
+  "flagged_ids": [
+    "L2_F2_V0",
+    "L2_F4_V1",
+    "L2_F6_V0",
+    "L2_F6_V1"
+  ],
+  "review_gate_passed": false,
+  "input_tokens": 2472,
+  "output_tokens": 642,
+  "cost_usd": "0.005682",
+  "id": "practice_review_L2_blind",
+  "request_sha256": "7f87eaab7ef837666fc919c7a75a2ee31ddd7fb4a194aca7a92889ab8595c116",
+  "response_sha256": "7765926a23646d2bdf0f5e48e394a7e0d9cd21ee482218431aec10976cef5755"
+}

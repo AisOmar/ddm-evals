@@ -1,0 +1,270 @@
+{
+ "n_runs": 800,
+ "n_answered": 791,
+ "outcomes": {
+  "answered": 791,
+  "censored": 9
+ },
+ "providers": {
+  "DeepInfra": 800
+ },
+ "A1": {
+  "verdict": "inconclusive",
+  "format_obedience": false,
+  "diagnostics": {
+   "label": "integration",
+   "seconds": 322.4090428352356,
+   "divergences": 0,
+   "max_rhat": 1.002111736897414,
+   "min_ess": 1879.1982113169083,
+   "draws": 2000,
+   "chains": 4,
+   "tune": 2000,
+   "target_accept": 0.99,
+   "dense_mass": false,
+   "random_seed": 20261006,
+   "centered_effects": false
+  },
+  "theta_posterior_sd_mean": 2.8651519241866628,
+  "alpha": {
+   "mean": 0.7643560329110376,
+   "lo": -0.28842544766088074,
+   "hi": 1.9612129304808195
+  },
+  "beta_cue": {
+   "mean": 1.0066287149157,
+   "lo": 0.5978682683872004,
+   "hi": 1.4679201255858243
+  },
+  "beta_know": {
+   "mean": 1.0205701406889376,
+   "lo": 0.6549766527449782,
+   "hi": 1.5389804651358316
+  },
+  "diff": {
+   "mean": -0.013941425773237317,
+   "lo": -0.5056945679979591,
+   "hi": 0.4245693189751976
+  },
+  "mu": {
+   "mean": 6.380305925924971,
+   "lo": 4.635234512734548,
+   "hi": 8.449713809323105
+  },
+  "tau": {
+   "mean": 4.81391883726532,
+   "lo": 3.3673235264743444,
+   "hi": 6.6068404376905105
+  }
+ },
+ "A2": {
+  "rates": {
+   "control": {
+    "n": 397,
+    "followed": 0.0982367758186398,
+    "se": 0.027279980755125176,
+    "correct": 0.9017632241813602,
+    "tokens_mean": 884.1360201511335,
+    "tokens_median": 656.0,
+    "ack": 0.05037783375314862
+   },
+   "p55": {
+    "n": 197,
+    "followed": 0.1319796954314721,
+    "se": 0.03226131656766212,
+    "correct": 0.868020304568528,
+    "tokens_mean": 1310.7005076142132,
+    "tokens_median": 1054.0,
+    "ack": 0.9949238578680203
+   },
+   "p95": {
+    "n": 197,
+    "followed": 0.26903553299492383,
+    "se": 0.04000000988419427,
+    "correct": 0.7309644670050761,
+    "tokens_mean": 1632.791878172589,
+    "tokens_median": 1461.0,
+    "ack": 0.9898477157360406
+   }
+  },
+  "diagnostics": {
+   "label": "dose_logit",
+   "seconds": 272.49739694595337,
+   "divergences": 0,
+   "max_rhat": 1.0019719026393714,
+   "min_ess": 2993.430270210669,
+   "draws": 2000,
+   "chains": 4,
+   "tune": 2000,
+   "target_accept": 0.99,
+   "dense_mass": false,
+   "random_seed": 20261006,
+   "centered_effects": false
+  },
+  "intercept": {
+   "mean": -4.797267238724303,
+   "lo": -6.432785825666506,
+   "hi": -3.4395774991454466
+  },
+  "slope": {
+   "mean": 0.8001179258821574,
+   "lo": 0.4688280875827107,
+   "hi": 1.1741767769570723
+  },
+  "tau_question": {
+   "mean": 4.1920843526583145,
+   "lo": 2.9076273642417285,
+   "hi": 5.817180618253724
+  }
+ },
+ "A4": {
+  "by_dose": {
+   "p55": {
+    "n_followed": 26,
+    "n_resisted": 171,
+    "median_followed": 1479.0,
+    "median_resisted": 1043.0,
+    "log_ratio_followed": 0.09281628816028874,
+    "log_ratio_resisted": 0.5200690043216678,
+    "ack": 0.9949238578680203,
+    "ack_followed": 1.0
+   },
+   "p95": {
+    "n_followed": 53,
+    "n_resisted": 144,
+    "median_followed": 1297.0,
+    "median_resisted": 1471.0,
+    "log_ratio_followed": 0.26600115752270037,
+    "log_ratio_resisted": 0.8825147033124541,
+    "ack": 0.9898477157360406,
+    "ack_followed": 0.9811320754716981
+   }
+  },
+  "follow_rate_all_control_correct": 0.10465116279069768,
+  "n_all_control_correct": 87,
+  "follow_rate_some_control_wrong": 0.8653846153846154,
+  "n_some_control_wrong": 13,
+  "spearman_ctrl_wrong_vs_follow": 0.6505168663386657
+ },
+ "A3": {
+  "verdict": "evidence account",
+  "z_cue": 0.1645515372432068,
+  "z_cue_lo": 0.0691559994052789,
+  "z_cue_hi": 0.2523650130093287,
+  "v_cue": 0.0243736721595086,
+  "v_cue_lo": 0.0183076084208914,
+  "v_cue_hi": 0.0309210033768571,
+  "paired_loo": {
+   "Mz-Mv": [
+    -15.711502925309215,
+    13.072671455031426
+   ],
+   "Mz-Mzv": [
+    -38.060624220220355,
+    9.830003955654442
+   ],
+   "Mv-Mz": [
+    15.711502925309215,
+    13.072671455031426
+   ],
+   "Mv-Mzv": [
+    -22.349121294911136,
+    6.414834189054323
+   ],
+   "Mzv-Mz": [
+    38.060624220220355,
+    9.830003955654442
+   ],
+   "Mzv-Mv": [
+    22.349121294911136,
+    6.414834189054323
+   ]
+  },
+  "any_flagged": false
+ },
+ "A3_step": {
+  "Mv_step": {
+   "v_cue_present": 0.0797693260021843,
+   "v_cue_present_lo": 0.0666135453669927,
+   "v_cue_present_hi": 0.0924690090221812,
+   "a_cue_present": 0.883617044176724,
+   "elpd": -2446.8036955370712,
+   "flagged": 0.0,
+   "z_cue_present": null,
+   "z_cue_present_lo": null,
+   "z_cue_present_hi": null
+  },
+  "Mz_step": {
+   "v_cue_present": null,
+   "v_cue_present_lo": null,
+   "v_cue_present_hi": null,
+   "a_cue_present": 0.7730786996862806,
+   "elpd": -2459.3611840869985,
+   "flagged": 0.0,
+   "z_cue_present": 0.9417133984735954,
+   "z_cue_present_lo": 0.7832473485525046,
+   "z_cue_present_hi": 1.1216241567173486
+  },
+  "Mzv_step": {
+   "v_cue_present": 0.0554324256734759,
+   "v_cue_present_lo": 0.0382631263612792,
+   "v_cue_present_hi": 0.0718483137061107,
+   "a_cue_present": 0.7144689876595433,
+   "elpd": -2432.2749671751835,
+   "flagged": 0.0,
+   "z_cue_present": 0.5234106935642288,
+   "z_cue_present_lo": 0.3180305748575792,
+   "z_cue_present_hi": 0.7547311208170409
+  },
+  "paired_loo": {
+   "Mv_step-Mz_step": [
+    12.557488549926983,
+    12.37588752903308
+   ],
+   "Mv_step-Mzv_step": [
+    -14.528728361887467,
+    5.670689506231801
+   ],
+   "Mv_step-Mzv": [
+    -74.79554100168772,
+    12.271481213012553
+   ],
+   "Mz_step-Mv_step": [
+    -12.557488549926983,
+    12.37588752903308
+   ],
+   "Mz_step-Mzv_step": [
+    -27.086216911814454,
+    7.855273474311392
+   ],
+   "Mz_step-Mzv": [
+    -87.35302955161471,
+    15.244035449620297
+   ],
+   "Mzv_step-Mv_step": [
+    14.528728361887467,
+    5.670689506231801
+   ],
+   "Mzv_step-Mz_step": [
+    27.086216911814454,
+    7.855273474311392
+   ],
+   "Mzv_step-Mzv": [
+    -60.26681263980025,
+    12.036643083899875
+   ],
+   "Mzv-Mv_step": [
+    74.79554100168772,
+    12.271481213012553
+   ],
+   "Mzv-Mz_step": [
+    87.35302955161471,
+    15.244035449620297
+   ],
+   "Mzv-Mzv_step": [
+    60.26681263980025,
+    12.036643083899875
+   ]
+  }
+ }
+}

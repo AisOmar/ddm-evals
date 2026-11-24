@@ -1,0 +1,188 @@
+{
+  "candidate_selection": [
+    {
+      "item_id": "resource-recurrence-01",
+      "seed": 202610210000,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "resource-subset_count-01",
+      "seed": 202610220001,
+      "rejected_offsets": 1
+    },
+    {
+      "item_id": "resource-shortest_path-01",
+      "seed": 202610230000,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "resource-urn_posterior-01",
+      "seed": 202610240000,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-recurrence-01",
+      "seed": 202610310000,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-recurrence-02",
+      "seed": 202610310100,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-recurrence-03",
+      "seed": 202610310200,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-recurrence-04",
+      "seed": 202610310300,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-subset_count-01",
+      "seed": 202610320000,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-subset_count-02",
+      "seed": 202610320101,
+      "rejected_offsets": 1
+    },
+    {
+      "item_id": "calibration-subset_count-03",
+      "seed": 202610320206,
+      "rejected_offsets": 6
+    },
+    {
+      "item_id": "calibration-subset_count-04",
+      "seed": 202610320306,
+      "rejected_offsets": 6
+    },
+    {
+      "item_id": "calibration-shortest_path-01",
+      "seed": 202610330000,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-shortest_path-02",
+      "seed": 202610330100,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-shortest_path-03",
+      "seed": 202610330200,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-shortest_path-04",
+      "seed": 202610330300,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-urn_posterior-01",
+      "seed": 202610340000,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-urn_posterior-02",
+      "seed": 202610340102,
+      "rejected_offsets": 2
+    },
+    {
+      "item_id": "calibration-urn_posterior-03",
+      "seed": 202610340200,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "calibration-urn_posterior-04",
+      "seed": 202610340301,
+      "rejected_offsets": 1
+    },
+    {
+      "item_id": "reserved-recurrence-01",
+      "seed": 202610410000,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "reserved-recurrence-02",
+      "seed": 202610410102,
+      "rejected_offsets": 2
+    },
+    {
+      "item_id": "reserved-recurrence-03",
+      "seed": 202610410200,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "reserved-recurrence-04",
+      "seed": 202610410300,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "reserved-subset_count-01",
+      "seed": 202610420002,
+      "rejected_offsets": 2
+    },
+    {
+      "item_id": "reserved-subset_count-02",
+      "seed": 202610420100,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "reserved-subset_count-03",
+      "seed": 202610420200,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "reserved-subset_count-04",
+      "seed": 202610420301,
+      "rejected_offsets": 1
+    },
+    {
+      "item_id": "reserved-shortest_path-01",
+      "seed": 202610430000,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "reserved-shortest_path-02",
+      "seed": 202610430100,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "reserved-shortest_path-03",
+      "seed": 202610430200,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "reserved-shortest_path-04",
+      "seed": 202610430300,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "reserved-urn_posterior-01",
+      "seed": 202610440000,
+      "rejected_offsets": 0
+    },
+    {
+      "item_id": "reserved-urn_posterior-02",
+      "seed": 202610440101,
+      "rejected_offsets": 1
+    },
+    {
+      "item_id": "reserved-urn_posterior-03",
+      "seed": 202610440204,
+      "rejected_offsets": 4
+    },
+    {
+      "item_id": "reserved-urn_posterior-04",
+      "seed": 202610440302,
+      "rejected_offsets": 2
+    }
+  ],
+  "position_seed": 20261021062,
+  "model_outcomes_used": false,
+  "number_of_templates": 4,
+  "independent_families_not_established": true
+}

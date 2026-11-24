@@ -1,0 +1,2463 @@
+{
+  "created_at": "2026-10-26T17:12:11.640997+00:00",
+  "preflight_started_at": "2026-10-26T17:11:24.912632+00:00",
+  "phase": "calibration_completion",
+  "n_new_planned": 38,
+  "cohort_planned": 48,
+  "trials": [
+    {
+      "sample_id": "F008__Qwen3__ordinary__none__r2",
+      "item_id": "F008",
+      "family": "value_of_information",
+      "repeat": 2,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "A",
+      "options": {
+        "A": "11/2",
+        "B": "13/2"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA state is good or bad with equal probability. A risky action pays 16 credits in the good state and loses 8 credits in the bad state; a safe action pays 3 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 1 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\n\nA. 11/2\nB. 13/2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F008__gpt-oss__ordinary__none__r2",
+      "item_id": "F008",
+      "family": "value_of_information",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "A",
+      "options": {
+        "A": "11/2",
+        "B": "13/2"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA state is good or bad with equal probability. A risky action pays 16 credits in the good state and loses 8 credits in the bad state; a safe action pays 3 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 1 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\n\nA. 11/2\nB. 13/2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F001__Qwen3__ordinary__none__r1",
+      "item_id": "F001",
+      "family": "random_reveal",
+      "repeat": 1,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "B",
+      "options": {
+        "A": "1/4",
+        "B": "1/3"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nExactly one of 4 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 4 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?\n\nA. 1/4\nB. 1/3"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F001__gpt-oss__ordinary__none__r1",
+      "item_id": "F001",
+      "family": "random_reveal",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "B",
+      "options": {
+        "A": "1/4",
+        "B": "1/3"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nExactly one of 4 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 4 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?\n\nA. 1/4\nB. 1/3"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F001__gpt-oss__ordinary__none__r2",
+      "item_id": "F001",
+      "family": "random_reveal",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "B",
+      "options": {
+        "A": "1/4",
+        "B": "1/3"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nExactly one of 4 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 4 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?\n\nA. 1/4\nB. 1/3"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F001__Qwen3__ordinary__none__r2",
+      "item_id": "F001",
+      "family": "random_reveal",
+      "repeat": 2,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "B",
+      "options": {
+        "A": "1/4",
+        "B": "1/3"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nExactly one of 4 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 4 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?\n\nA. 1/4\nB. 1/3"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F027__gpt-oss__ordinary__none__r1",
+      "item_id": "F027",
+      "family": "observed_then_intervened",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "A",
+      "options": {
+        "A": "3/4",
+        "B": "1"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIndependent binary inputs U and V satisfy P(U=1)=1/3 and P(V=1)=1/2. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?\n\nA. 3/4\nB. 1"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F027__Qwen3__ordinary__none__r1",
+      "item_id": "F027",
+      "family": "observed_then_intervened",
+      "repeat": 1,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "A",
+      "options": {
+        "A": "3/4",
+        "B": "1"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIndependent binary inputs U and V satisfy P(U=1)=1/3 and P(V=1)=1/2. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?\n\nA. 3/4\nB. 1"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F027__Qwen3__ordinary__none__r2",
+      "item_id": "F027",
+      "family": "observed_then_intervened",
+      "repeat": 2,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "A",
+      "options": {
+        "A": "3/4",
+        "B": "1"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIndependent binary inputs U and V satisfy P(U=1)=1/3 and P(V=1)=1/2. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?\n\nA. 3/4\nB. 1"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F027__gpt-oss__ordinary__none__r2",
+      "item_id": "F027",
+      "family": "observed_then_intervened",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "A",
+      "options": {
+        "A": "3/4",
+        "B": "1"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIndependent binary inputs U and V satisfy P(U=1)=1/3 and P(V=1)=1/2. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?\n\nA. 3/4\nB. 1"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F012__Qwen3__ordinary__none__r1",
+      "item_id": "F012",
+      "family": "observed_then_intervened",
+      "repeat": 1,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "B",
+      "options": {
+        "A": "1",
+        "B": "1/2"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIndependent binary inputs U and V satisfy P(U=1)=1/2 and P(V=1)=1/3. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?\n\nA. 1\nB. 1/2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F012__gpt-oss__ordinary__none__r1",
+      "item_id": "F012",
+      "family": "observed_then_intervened",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "B",
+      "options": {
+        "A": "1",
+        "B": "1/2"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIndependent binary inputs U and V satisfy P(U=1)=1/2 and P(V=1)=1/3. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?\n\nA. 1\nB. 1/2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F012__gpt-oss__ordinary__none__r2",
+      "item_id": "F012",
+      "family": "observed_then_intervened",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "B",
+      "options": {
+        "A": "1",
+        "B": "1/2"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIndependent binary inputs U and V satisfy P(U=1)=1/2 and P(V=1)=1/3. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?\n\nA. 1\nB. 1/2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F012__Qwen3__ordinary__none__r2",
+      "item_id": "F012",
+      "family": "observed_then_intervened",
+      "repeat": 2,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "B",
+      "options": {
+        "A": "1",
+        "B": "1/2"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nIndependent binary inputs U and V satisfy P(U=1)=1/2 and P(V=1)=1/3. An alarm is 1 exactly when U=1 or V=1. You first observe alarm=1. You then force U to 0, without changing V or selecting cases based on the new alarm. Given the original observation, what is the probability V=1 after this intervention?\n\nA. 1\nB. 1/2"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F010__gpt-oss__ordinary__none__r1",
+      "item_id": "F010",
+      "family": "logical_constraints",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "A",
+      "options": {
+        "A": "Y and Z are both on.",
+        "B": "W and X are both on."
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFour switches W, X, Y, Z are each on or off. Exactly two are on. If W is on, X is on. If X is on, Y is off. Z is on if and only if exactly one of W and Y is on. Which statement must be true in every configuration satisfying these rules?\n\nA. Y and Z are both on.\nB. W and X are both on."
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F010__Qwen3__ordinary__none__r1",
+      "item_id": "F010",
+      "family": "logical_constraints",
+      "repeat": 1,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "A",
+      "options": {
+        "A": "Y and Z are both on.",
+        "B": "W and X are both on."
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFour switches W, X, Y, Z are each on or off. Exactly two are on. If W is on, X is on. If X is on, Y is off. Z is on if and only if exactly one of W and Y is on. Which statement must be true in every configuration satisfying these rules?\n\nA. Y and Z are both on.\nB. W and X are both on."
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F010__Qwen3__ordinary__none__r2",
+      "item_id": "F010",
+      "family": "logical_constraints",
+      "repeat": 2,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "A",
+      "options": {
+        "A": "Y and Z are both on.",
+        "B": "W and X are both on."
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFour switches W, X, Y, Z are each on or off. Exactly two are on. If W is on, X is on. If X is on, Y is off. Z is on if and only if exactly one of W and Y is on. Which statement must be true in every configuration satisfying these rules?\n\nA. Y and Z are both on.\nB. W and X are both on."
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F010__gpt-oss__ordinary__none__r2",
+      "item_id": "F010",
+      "family": "logical_constraints",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "A",
+      "options": {
+        "A": "Y and Z are both on.",
+        "B": "W and X are both on."
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFour switches W, X, Y, Z are each on or off. Exactly two are on. If W is on, X is on. If X is on, Y is off. Z is on if and only if exactly one of W and Y is on. Which statement must be true in every configuration satisfying these rules?\n\nA. Y and Z are both on.\nB. W and X are both on."
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F016__Qwen3__ordinary__none__r1",
+      "item_id": "F016",
+      "family": "value_of_information",
+      "repeat": 1,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "A",
+      "options": {
+        "A": "25/4",
+        "B": "33/4"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA state is good or bad with equal probability. A risky action pays 20 credits in the good state and loses 10 credits in the bad state; a safe action pays 4 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 2 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\n\nA. 25/4\nB. 33/4"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F016__gpt-oss__ordinary__none__r1",
+      "item_id": "F016",
+      "family": "value_of_information",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "A",
+      "options": {
+        "A": "25/4",
+        "B": "33/4"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA state is good or bad with equal probability. A risky action pays 20 credits in the good state and loses 10 credits in the bad state; a safe action pays 4 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 2 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\n\nA. 25/4\nB. 33/4"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F016__gpt-oss__ordinary__none__r2",
+      "item_id": "F016",
+      "family": "value_of_information",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "A",
+      "options": {
+        "A": "25/4",
+        "B": "33/4"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA state is good or bad with equal probability. A risky action pays 20 credits in the good state and loses 10 credits in the bad state; a safe action pays 4 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 2 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\n\nA. 25/4\nB. 33/4"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F016__Qwen3__ordinary__none__r2",
+      "item_id": "F016",
+      "family": "value_of_information",
+      "repeat": 2,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "A",
+      "options": {
+        "A": "25/4",
+        "B": "33/4"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA state is good or bad with equal probability. A risky action pays 20 credits in the good state and loses 10 credits in the bad state; a safe action pays 4 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 2 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\n\nA. 25/4\nB. 33/4"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F014__gpt-oss__ordinary__none__r1",
+      "item_id": "F014",
+      "family": "two_tests",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "B",
+      "options": {
+        "A": "1/2",
+        "B": "1/3"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA randomly chosen part is defective with probability 1/4. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?\n\nA. 1/2\nB. 1/3"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F014__Qwen3__ordinary__none__r1",
+      "item_id": "F014",
+      "family": "two_tests",
+      "repeat": 1,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "B",
+      "options": {
+        "A": "1/2",
+        "B": "1/3"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA randomly chosen part is defective with probability 1/4. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?\n\nA. 1/2\nB. 1/3"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F014__Qwen3__ordinary__none__r2",
+      "item_id": "F014",
+      "family": "two_tests",
+      "repeat": 2,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "B",
+      "options": {
+        "A": "1/2",
+        "B": "1/3"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA randomly chosen part is defective with probability 1/4. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?\n\nA. 1/2\nB. 1/3"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F014__gpt-oss__ordinary__none__r2",
+      "item_id": "F014",
+      "family": "two_tests",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "B",
+      "options": {
+        "A": "1/2",
+        "B": "1/3"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA randomly chosen part is defective with probability 1/4. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?\n\nA. 1/2\nB. 1/3"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F015__Qwen3__ordinary__none__r1",
+      "item_id": "F015",
+      "family": "random_reveal",
+      "repeat": 1,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "A",
+      "options": {
+        "A": "1/4",
+        "B": "1/5"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nExactly one of 5 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 5 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?\n\nA. 1/4\nB. 1/5"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F015__gpt-oss__ordinary__none__r1",
+      "item_id": "F015",
+      "family": "random_reveal",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "A",
+      "options": {
+        "A": "1/4",
+        "B": "1/5"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nExactly one of 5 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 5 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?\n\nA. 1/4\nB. 1/5"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F015__gpt-oss__ordinary__none__r2",
+      "item_id": "F015",
+      "family": "random_reveal",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "A",
+      "options": {
+        "A": "1/4",
+        "B": "1/5"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nExactly one of 5 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 5 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?\n\nA. 1/4\nB. 1/5"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F015__Qwen3__ordinary__none__r2",
+      "item_id": "F015",
+      "family": "random_reveal",
+      "repeat": 2,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "A",
+      "options": {
+        "A": "1/4",
+        "B": "1/5"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nExactly one of 5 numbered boxes contains a prize, uniformly at random. You select box 1 without opening it. An inspector who does not know the prize location chooses one of boxes 2 through 5 uniformly at random, independently of the prize, and opens it. The opened box is empty. Given this observation, what is the probability the prize is in box 1?\n\nA. 1/4\nB. 1/5"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F011__gpt-oss__ordinary__none__r1",
+      "item_id": "F011",
+      "family": "two_tests",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "A",
+      "options": {
+        "A": "3/11",
+        "B": "3/7"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA randomly chosen part is defective with probability 1/5. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?\n\nA. 3/11\nB. 3/7"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F011__Qwen3__ordinary__none__r1",
+      "item_id": "F011",
+      "family": "two_tests",
+      "repeat": 1,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "A",
+      "options": {
+        "A": "3/11",
+        "B": "3/7"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA randomly chosen part is defective with probability 1/5. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?\n\nA. 3/11\nB. 3/7"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F011__Qwen3__ordinary__none__r2",
+      "item_id": "F011",
+      "family": "two_tests",
+      "repeat": 2,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "A",
+      "options": {
+        "A": "3/11",
+        "B": "3/7"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA randomly chosen part is defective with probability 1/5. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?\n\nA. 3/11\nB. 3/7"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F011__gpt-oss__ordinary__none__r2",
+      "item_id": "F011",
+      "family": "two_tests",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "A",
+      "options": {
+        "A": "3/11",
+        "B": "3/7"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA randomly chosen part is defective with probability 1/5. Two tests are independent conditional on whether the part is defective. Test X is positive with probability 3/4 for defective parts and 1/4 otherwise. Test Y is positive with probability 2/3 for defective parts and 1/3 otherwise. X is positive and Y is negative. What is the probability the part is defective?\n\nA. 3/11\nB. 3/7"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F004__Qwen3__ordinary__none__r1",
+      "item_id": "F004",
+      "family": "standardized_rates",
+      "repeat": 1,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "B",
+      "options": {
+        "A": "-26/55",
+        "B": "1/10"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nProgram K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 1/4 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?\n\nA. -26/55\nB. 1/10"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    },
+    {
+      "sample_id": "F004__gpt-oss__ordinary__none__r1",
+      "item_id": "F004",
+      "family": "standardized_rates",
+      "repeat": 1,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "B",
+      "options": {
+        "A": "-26/55",
+        "B": "1/10"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nProgram K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 1/4 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?\n\nA. -26/55\nB. 1/10"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F004__gpt-oss__ordinary__none__r2",
+      "item_id": "F004",
+      "family": "standardized_rates",
+      "repeat": 2,
+      "model": "gpt-oss",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DekaLLM",
+      "correct_letter": "B",
+      "options": {
+        "A": "-26/55",
+        "B": "1/10"
+      },
+      "request": {
+        "model": "openai/gpt-oss-120b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nProgram K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 1/4 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?\n\nA. -26/55\nB. 1/10"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "dekallm/bf16"
+          ],
+          "only": [
+            "dekallm/bf16"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "bf16"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.03,
+            "completion": 0.18
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": []
+    },
+    {
+      "sample_id": "F004__Qwen3__ordinary__none__r2",
+      "item_id": "F004",
+      "family": "standardized_rates",
+      "repeat": 2,
+      "model": "Qwen3",
+      "instruction": "ordinary",
+      "advice": "none",
+      "expected_provider": "DeepInfra",
+      "correct_letter": "B",
+      "options": {
+        "A": "-26/55",
+        "B": "1/10"
+      },
+      "request": {
+        "model": "qwen/qwen3-32b",
+        "messages": [
+          {
+            "role": "user",
+            "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nProgram K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 1/4 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?\n\nA. -26/55\nB. 1/10"
+          }
+        ],
+        "temperature": 0.7,
+        "max_tokens": 4096,
+        "provider": {
+          "order": [
+            "deepinfra/fp8"
+          ],
+          "only": [
+            "deepinfra/fp8"
+          ],
+          "allow_fallbacks": false,
+          "quantizations": [
+            "fp8"
+          ],
+          "require_parameters": true,
+          "max_price": {
+            "prompt": 0.08,
+            "completion": 0.28
+          }
+        },
+        "stream": true
+      },
+      "model_aliases": [
+        "qwen/qwen3-32b-04-28"
+      ]
+    }
+  ],
+  "retained": [
+    {
+      "sample_id": "F020__gpt-oss__ordinary__none__r1",
+      "trial": {
+        "sample_id": "F020__gpt-oss__ordinary__none__r1",
+        "item_id": "F020",
+        "family": "logical_constraints",
+        "repeat": 1,
+        "model": "gpt-oss",
+        "instruction": "ordinary",
+        "advice": "none",
+        "expected_provider": "DekaLLM",
+        "correct_letter": "B",
+        "options": {
+          "A": "J and K are both on.",
+          "B": "L and M are both on."
+        },
+        "request": {
+          "model": "openai/gpt-oss-120b",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFour switches J, K, L, M are each on or off. Exactly two are on. If J is on, K is on. If K is on, L is off. M is on if and only if exactly one of J and L is on. Which statement must be true in every configuration satisfying these rules?\n\nA. J and K are both on.\nB. L and M are both on."
+            }
+          ],
+          "temperature": 0.7,
+          "max_tokens": 4096,
+          "provider": {
+            "order": [
+              "dekallm/bf16"
+            ],
+            "only": [
+              "dekallm/bf16"
+            ],
+            "allow_fallbacks": false,
+            "quantizations": [
+              "bf16"
+            ],
+            "require_parameters": true,
+            "max_price": {
+              "prompt": 0.03,
+              "completion": 0.18
+            }
+          }
+        }
+      },
+      "finished_path": "results/research_directions/selective_reliance_focus_20261024/execution_4096_20261024/calibration/finished/F020__gpt-oss__ordinary__none__r1.json",
+      "finished_sha256": "5a0404b097c6aad4d81267530a3b4718a629d34c18676da80b14e72eda72cac5",
+      "transport": "original_nonstreaming",
+      "resend_permitted": false
+    },
+    {
+      "sample_id": "F020__Qwen3__ordinary__none__r1",
+      "trial": {
+        "sample_id": "F020__Qwen3__ordinary__none__r1",
+        "item_id": "F020",
+        "family": "logical_constraints",
+        "repeat": 1,
+        "model": "Qwen3",
+        "instruction": "ordinary",
+        "advice": "none",
+        "expected_provider": "DeepInfra",
+        "correct_letter": "B",
+        "options": {
+          "A": "J and K are both on.",
+          "B": "L and M are both on."
+        },
+        "request": {
+          "model": "qwen/qwen3-32b",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFour switches J, K, L, M are each on or off. Exactly two are on. If J is on, K is on. If K is on, L is off. M is on if and only if exactly one of J and L is on. Which statement must be true in every configuration satisfying these rules?\n\nA. J and K are both on.\nB. L and M are both on."
+            }
+          ],
+          "temperature": 0.7,
+          "max_tokens": 4096,
+          "provider": {
+            "order": [
+              "deepinfra/fp8"
+            ],
+            "only": [
+              "deepinfra/fp8"
+            ],
+            "allow_fallbacks": false,
+            "quantizations": [
+              "fp8"
+            ],
+            "require_parameters": true,
+            "max_price": {
+              "prompt": 0.08,
+              "completion": 0.28
+            }
+          }
+        }
+      },
+      "finished_path": "results/research_directions/selective_reliance_focus_20261024/execution_4096_20261024/calibration/finished/F020__Qwen3__ordinary__none__r1.json",
+      "finished_sha256": "e6b39f8307ea6a749ab16f31dd29c39fa117a78e96636550a3680383a0aa0223",
+      "transport": "original_nonstreaming",
+      "resend_permitted": false
+    },
+    {
+      "sample_id": "F020__Qwen3__ordinary__none__r2",
+      "trial": {
+        "sample_id": "F020__Qwen3__ordinary__none__r2",
+        "item_id": "F020",
+        "family": "logical_constraints",
+        "repeat": 2,
+        "model": "Qwen3",
+        "instruction": "ordinary",
+        "advice": "none",
+        "expected_provider": "DeepInfra",
+        "correct_letter": "B",
+        "options": {
+          "A": "J and K are both on.",
+          "B": "L and M are both on."
+        },
+        "request": {
+          "model": "qwen/qwen3-32b",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFour switches J, K, L, M are each on or off. Exactly two are on. If J is on, K is on. If K is on, L is off. M is on if and only if exactly one of J and L is on. Which statement must be true in every configuration satisfying these rules?\n\nA. J and K are both on.\nB. L and M are both on."
+            }
+          ],
+          "temperature": 0.7,
+          "max_tokens": 4096,
+          "provider": {
+            "order": [
+              "deepinfra/fp8"
+            ],
+            "only": [
+              "deepinfra/fp8"
+            ],
+            "allow_fallbacks": false,
+            "quantizations": [
+              "fp8"
+            ],
+            "require_parameters": true,
+            "max_price": {
+              "prompt": 0.08,
+              "completion": 0.28
+            }
+          },
+          "stream": true
+        },
+        "model_aliases": [
+          "qwen/qwen3-32b-04-28"
+        ]
+      },
+      "finished_path": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F020__Qwen3__ordinary__none__r2.json",
+      "finished_sha256": "eddc78bf7baf8cf913f175fd4c7450b63553837daea9b41d10f453b638b18ce6",
+      "transport": "http2_streaming",
+      "resend_permitted": false
+    },
+    {
+      "sample_id": "F020__gpt-oss__ordinary__none__r2",
+      "trial": {
+        "sample_id": "F020__gpt-oss__ordinary__none__r2",
+        "item_id": "F020",
+        "family": "logical_constraints",
+        "repeat": 2,
+        "model": "gpt-oss",
+        "instruction": "ordinary",
+        "advice": "none",
+        "expected_provider": "DekaLLM",
+        "correct_letter": "B",
+        "options": {
+          "A": "J and K are both on.",
+          "B": "L and M are both on."
+        },
+        "request": {
+          "model": "openai/gpt-oss-120b",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nFour switches J, K, L, M are each on or off. Exactly two are on. If J is on, K is on. If K is on, L is off. M is on if and only if exactly one of J and L is on. Which statement must be true in every configuration satisfying these rules?\n\nA. J and K are both on.\nB. L and M are both on."
+            }
+          ],
+          "temperature": 0.7,
+          "max_tokens": 4096,
+          "provider": {
+            "order": [
+              "dekallm/bf16"
+            ],
+            "only": [
+              "dekallm/bf16"
+            ],
+            "allow_fallbacks": false,
+            "quantizations": [
+              "bf16"
+            ],
+            "require_parameters": true,
+            "max_price": {
+              "prompt": 0.03,
+              "completion": 0.18
+            }
+          },
+          "stream": true
+        },
+        "model_aliases": []
+      },
+      "finished_path": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F020__gpt-oss__ordinary__none__r2.json",
+      "finished_sha256": "9772588522227bca6cbfa232c5314992b87da42a3a3a7c8bfc5d0fbd6ab920d8",
+      "transport": "http2_streaming",
+      "resend_permitted": false
+    },
+    {
+      "sample_id": "F019__Qwen3__ordinary__none__r1",
+      "trial": {
+        "sample_id": "F019__Qwen3__ordinary__none__r1",
+        "item_id": "F019",
+        "family": "standardized_rates",
+        "repeat": 1,
+        "model": "Qwen3",
+        "instruction": "ordinary",
+        "advice": "none",
+        "expected_provider": "DeepInfra",
+        "correct_letter": "B",
+        "options": {
+          "A": "-26/55",
+          "B": "1/10"
+        },
+        "request": {
+          "model": "qwen/qwen3-32b",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nProgram K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 3/4 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?\n\nA. -26/55\nB. 1/10"
+            }
+          ],
+          "temperature": 0.7,
+          "max_tokens": 4096,
+          "provider": {
+            "order": [
+              "deepinfra/fp8"
+            ],
+            "only": [
+              "deepinfra/fp8"
+            ],
+            "allow_fallbacks": false,
+            "quantizations": [
+              "fp8"
+            ],
+            "require_parameters": true,
+            "max_price": {
+              "prompt": 0.08,
+              "completion": 0.28
+            }
+          },
+          "stream": true
+        },
+        "model_aliases": [
+          "qwen/qwen3-32b-04-28"
+        ]
+      },
+      "finished_path": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F019__Qwen3__ordinary__none__r1.json",
+      "finished_sha256": "267c9e731654459c837ee61389f8f334c92fff12b1f25ae8d8fcb3f749944f6a",
+      "transport": "http2_streaming",
+      "resend_permitted": false
+    },
+    {
+      "sample_id": "F019__gpt-oss__ordinary__none__r1",
+      "trial": {
+        "sample_id": "F019__gpt-oss__ordinary__none__r1",
+        "item_id": "F019",
+        "family": "standardized_rates",
+        "repeat": 1,
+        "model": "gpt-oss",
+        "instruction": "ordinary",
+        "advice": "none",
+        "expected_provider": "DekaLLM",
+        "correct_letter": "B",
+        "options": {
+          "A": "-26/55",
+          "B": "1/10"
+        },
+        "request": {
+          "model": "openai/gpt-oss-120b",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nProgram K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 3/4 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?\n\nA. -26/55\nB. 1/10"
+            }
+          ],
+          "temperature": 0.7,
+          "max_tokens": 4096,
+          "provider": {
+            "order": [
+              "dekallm/bf16"
+            ],
+            "only": [
+              "dekallm/bf16"
+            ],
+            "allow_fallbacks": false,
+            "quantizations": [
+              "bf16"
+            ],
+            "require_parameters": true,
+            "max_price": {
+              "prompt": 0.03,
+              "completion": 0.18
+            }
+          },
+          "stream": true
+        },
+        "model_aliases": []
+      },
+      "finished_path": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F019__gpt-oss__ordinary__none__r1.json",
+      "finished_sha256": "b085110316b86ddec3f8d4addfb5066f61ea40f44bf31b6ac33a22e8b519673f",
+      "transport": "http2_streaming",
+      "resend_permitted": false
+    },
+    {
+      "sample_id": "F019__gpt-oss__ordinary__none__r2",
+      "trial": {
+        "sample_id": "F019__gpt-oss__ordinary__none__r2",
+        "item_id": "F019",
+        "family": "standardized_rates",
+        "repeat": 2,
+        "model": "gpt-oss",
+        "instruction": "ordinary",
+        "advice": "none",
+        "expected_provider": "DekaLLM",
+        "correct_letter": "B",
+        "options": {
+          "A": "-26/55",
+          "B": "1/10"
+        },
+        "request": {
+          "model": "openai/gpt-oss-120b",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nProgram K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 3/4 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?\n\nA. -26/55\nB. 1/10"
+            }
+          ],
+          "temperature": 0.7,
+          "max_tokens": 4096,
+          "provider": {
+            "order": [
+              "dekallm/bf16"
+            ],
+            "only": [
+              "dekallm/bf16"
+            ],
+            "allow_fallbacks": false,
+            "quantizations": [
+              "bf16"
+            ],
+            "require_parameters": true,
+            "max_price": {
+              "prompt": 0.03,
+              "completion": 0.18
+            }
+          },
+          "stream": true
+        },
+        "model_aliases": []
+      },
+      "finished_path": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F019__gpt-oss__ordinary__none__r2.json",
+      "finished_sha256": "7170f8d6fb3e9a5a7a7c383d390d6825d1b3b6de2c08210c80585bdb37c7793d",
+      "transport": "http2_streaming",
+      "resend_permitted": false
+    },
+    {
+      "sample_id": "F019__Qwen3__ordinary__none__r2",
+      "trial": {
+        "sample_id": "F019__Qwen3__ordinary__none__r2",
+        "item_id": "F019",
+        "family": "standardized_rates",
+        "repeat": 2,
+        "model": "Qwen3",
+        "instruction": "ordinary",
+        "advice": "none",
+        "expected_provider": "DeepInfra",
+        "correct_letter": "B",
+        "options": {
+          "A": "-26/55",
+          "B": "1/10"
+        },
+        "request": {
+          "model": "qwen/qwen3-32b",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nProgram K succeeded on 9 of 10 easy cases and 20 of 100 hard cases. Program L succeeded on 80 of 100 easy cases and 1 of 10 hard cases. For a new population, the easy-case share is 3/4 and the rest are hard. Assume each program retains its observed success rate within each difficulty stratum. What is K's expected success probability minus L's in this new population?\n\nA. -26/55\nB. 1/10"
+            }
+          ],
+          "temperature": 0.7,
+          "max_tokens": 4096,
+          "provider": {
+            "order": [
+              "deepinfra/fp8"
+            ],
+            "only": [
+              "deepinfra/fp8"
+            ],
+            "allow_fallbacks": false,
+            "quantizations": [
+              "fp8"
+            ],
+            "require_parameters": true,
+            "max_price": {
+              "prompt": 0.08,
+              "completion": 0.28
+            }
+          },
+          "stream": true
+        },
+        "model_aliases": [
+          "qwen/qwen3-32b-04-28"
+        ]
+      },
+      "finished_path": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F019__Qwen3__ordinary__none__r2.json",
+      "finished_sha256": "b8323d6a1b756689bef1eada0f2a383594877005ecf313ca85cf554f2d1b1b63",
+      "transport": "http2_streaming",
+      "resend_permitted": false
+    },
+    {
+      "sample_id": "F008__gpt-oss__ordinary__none__r1",
+      "trial": {
+        "sample_id": "F008__gpt-oss__ordinary__none__r1",
+        "item_id": "F008",
+        "family": "value_of_information",
+        "repeat": 1,
+        "model": "gpt-oss",
+        "instruction": "ordinary",
+        "advice": "none",
+        "expected_provider": "DekaLLM",
+        "correct_letter": "A",
+        "options": {
+          "A": "11/2",
+          "B": "13/2"
+        },
+        "request": {
+          "model": "openai/gpt-oss-120b",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA state is good or bad with equal probability. A risky action pays 16 credits in the good state and loses 8 credits in the bad state; a safe action pays 3 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 1 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\n\nA. 11/2\nB. 13/2"
+            }
+          ],
+          "temperature": 0.7,
+          "max_tokens": 4096,
+          "provider": {
+            "order": [
+              "dekallm/bf16"
+            ],
+            "only": [
+              "dekallm/bf16"
+            ],
+            "allow_fallbacks": false,
+            "quantizations": [
+              "bf16"
+            ],
+            "require_parameters": true,
+            "max_price": {
+              "prompt": 0.03,
+              "completion": 0.18
+            }
+          },
+          "stream": true
+        },
+        "model_aliases": []
+      },
+      "finished_path": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F008__gpt-oss__ordinary__none__r1.json",
+      "finished_sha256": "deccde57d54ec7821898809aa20e8bc15181b3fa6b2c7e307ed500e84a0ad81b",
+      "transport": "http2_streaming",
+      "resend_permitted": false
+    },
+    {
+      "sample_id": "F008__Qwen3__ordinary__none__r1",
+      "trial": {
+        "sample_id": "F008__Qwen3__ordinary__none__r1",
+        "item_id": "F008",
+        "family": "value_of_information",
+        "repeat": 1,
+        "model": "Qwen3",
+        "instruction": "ordinary",
+        "advice": "none",
+        "expected_provider": "DeepInfra",
+        "correct_letter": "A",
+        "options": {
+          "A": "11/2",
+          "B": "13/2"
+        },
+        "request": {
+          "model": "qwen/qwen3-32b",
+          "messages": [
+            {
+              "role": "user",
+              "content": "Answer the question. Be concise. Reply with A or B only on the final line.\n\nA state is good or bad with equal probability. A risky action pays 16 credits in the good state and loses 8 credits in the bad state; a safe action pays 3 in either state. A test reports the true state with probability 3/4 in either state. You must buy one test for a guaranteed fee of 1 credits, then choose either action after seeing its report. What is the largest expected net payoff, including the fee?\n\nA. 11/2\nB. 13/2"
+            }
+          ],
+          "temperature": 0.7,
+          "max_tokens": 4096,
+          "provider": {
+            "order": [
+              "deepinfra/fp8"
+            ],
+            "only": [
+              "deepinfra/fp8"
+            ],
+            "allow_fallbacks": false,
+            "quantizations": [
+              "fp8"
+            ],
+            "require_parameters": true,
+            "max_price": {
+              "prompt": 0.08,
+              "completion": 0.28
+            }
+          },
+          "stream": true
+        },
+        "model_aliases": [
+          "qwen/qwen3-32b-04-28"
+        ]
+      },
+      "finished_path": "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F008__Qwen3__ordinary__none__r1.json",
+      "finished_sha256": "77f13ada23930638cd49c993b4ce20250524d6942a0eb56bd9b55d9588a0a08d",
+      "transport": "http2_streaming",
+      "resend_permitted": false
+    }
+  ],
+  "endpoint_snapshot": {
+    "gpt-oss": {
+      "name": "DekaLLM | openai/gpt-oss-120b",
+      "model_id": "openai/gpt-oss-120b",
+      "model_name": "OpenAI: gpt-oss-120b",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0.00000003",
+        "completion": "0.00000018",
+        "input_cache_read": "0.00000003",
+        "discount": 0
+      },
+      "provider_name": "DekaLLM",
+      "tag": "dekallm/bf16",
+      "service_tier": null,
+      "quantization": "bf16",
+      "max_completion_tokens": 117964,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "presence_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "top_p",
+        "response_format",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "logprobs",
+        "top_logprobs",
+        "reasoning_effort"
+      ],
+      "supports_tool_choice": {
+        "none": false,
+        "auto": true,
+        "required": false,
+        "function": false
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 100,
+      "supports_implicit_caching": true,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    },
+    "Qwen3": {
+      "name": "DeepInfra | qwen/qwen3-32b-04-28",
+      "model_id": "qwen/qwen3-32b",
+      "model_name": "Qwen: Qwen3 32B",
+      "context_length": 40960,
+      "pricing": {
+        "prompt": "0.00000008",
+        "completion": "0.00000028",
+        "discount": 0
+      },
+      "provider_name": "DeepInfra",
+      "tag": "deepinfra/fp8",
+      "service_tier": null,
+      "quantization": "fp8",
+      "max_completion_tokens": 16384,
+      "max_prompt_tokens": null,
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "stop",
+        "frequency_penalty",
+        "presence_penalty",
+        "repetition_penalty",
+        "top_k",
+        "seed",
+        "min_p",
+        "tools",
+        "tool_choice",
+        "structured_outputs",
+        "logit_bias",
+        "response_format"
+      ],
+      "supports_tool_choice": {
+        "none": true,
+        "auto": true,
+        "required": false,
+        "function": false
+      },
+      "status": 0,
+      "uptime_last_30m": 100,
+      "uptime_last_5m": 100,
+      "uptime_last_1d": 98.54166666666667,
+      "supports_implicit_caching": false,
+      "native_tools": {},
+      "supports_voice_cloning": false,
+      "supports_multiple_audio_references": false,
+      "supports_image_reference": false,
+      "supports_diarization": false,
+      "latency_last_30m": null,
+      "throughput_last_30m": null
+    }
+  },
+  "maximum_cost_usd": "0.04833640",
+  "cost_cap_usd": "0.10",
+  "previous_recorded_cost_usd": "0.31363078",
+  "total_development_ceiling_usd": "1.00",
+  "max_attempts_per_trial": 1,
+  "automatic_retries": 0,
+  "timeout_seconds": 180,
+  "minimum_start_interval_seconds": 5,
+  "authorization": "User: okay do that, referring to delivery qualification and calibration continuation.",
+  "input_hashes": {
+    "scripts/95_stream_collection.py": "e84869f3f5516958a5008b117bb3ce16ee8c156adfbeffb13fd94d53ea1e8c84",
+    "scripts/94_stream_transport.py": "541c8bb04f1c9f0a0a8cfe0053c38f5972476a60b836cd8f10590e6c9aff5c50",
+    "docs/SELECTIVE_RELIANCE_STREAM_RECOVERY.md": "19daef6acc95b8d91f0d7a22cd6848a88c7409364d40405021ad9f470dde3660",
+    "scripts/92_selective_reliance_4096.py": "206ddab0acf68045d15993a34a63864443874a34f4c405b6166dac04d15e6291",
+    "scripts/89_selective_reliance_continue.py": "c6c2bf97ed1a54b488b23afe43ac2f64762b8156dfef15ebe6a00269b7f647ce",
+    "scripts/85_selective_reliance_launch.py": "85cb3ce217666f3ef1de91daaece87bb16a18a88e60a7d610b47f23e25f511fb",
+    "scripts/84_selective_reliance_focus.py": "387c65a15870da48f53b7c00a6e6761a710b51cd5183336d1323930c5933d287",
+    "results/research_directions/selective_reliance_focus_20261024/execution_4096_20261024/final_artifact_hashes.json": "a7468ed4e0d349c2dddc6b11f14ff4983c789d3e5692a7005c40f29df0c3ac3e",
+    "results/research_directions/selective_reliance_focus_20261024/execution_4096_20261024/calibration/manifest.json": "6e4c2f88c4bb6b8e79da35df50b516416fb79414746ac1745528a988b8b3643c",
+    "results/research_directions/selective_reliance_focus_20261024/execution_4096_20261024/delivery_diagnostic/billing_reconciliation.json": "726ab43126355552eb863fe45400a3943b69d4e5db84c3baa29b1697f77842cb",
+    "results/research_directions/selective_reliance_focus_20261024/author/packet_with_solutions.json": "880b84018d6ada612c39e6d9a70aaa919830baab11a00f5b9e8e46fbb97a6f7f",
+    "results/research_directions/selective_reliance_focus_20261024/design_draft.json": "969a2295c9f5b664ce0dce9241270b65f75ef47a32fed85caa12fc6db392cd36",
+    "results/research_directions/selective_reliance_focus_20261024/execution_20261024/adjudication/schema_interpretation_lock.json": "be991bcfcbace85d6255749b2533def08545871edccacdceee13a8e993379af2",
+    "results/research_directions/selective_reliance_focus_20261024/execution_20261024/adjudication/review_readiness.json": "2d2c643fbadfba8c340860223412c94ac26a32a34b95a7c5fb411aa7d0521a22",
+    "scripts/54_reliance_calibration.py": "6ff677727db294daa91e4dc89b791419a477dfa2be5daf87a072dbd79b8c23e4",
+    "scripts/56_reliance_canary.py": "efa96df014f012e7103f622366f3082e352c029b032c774b328e6a35f2dd686a",
+    "scripts/58_alternate_provider_canary.py": "08e5ebb79db0dc17ac78bad2b3b805973649d76d01cf5aae6762e23e4d7134a0",
+    "scripts/50_open_dataset_feasibility.py": "4a9c10639e27400851e71d181bed006229a04d00b643665a4a56bcb1311b482a",
+    "scripts/60_calibrate_reviewed_packet.py": "e55913bc1001c85b4572af738fad73e2a5861829ab3bd22f29dd2969526f894d",
+    "results/research_directions/selective_reliance_focus_20261024/execution_4096_20261024/calibration/finished/F020__gpt-oss__ordinary__none__r1.json": "5a0404b097c6aad4d81267530a3b4718a629d34c18676da80b14e72eda72cac5",
+    "results/research_directions/selective_reliance_focus_20261024/execution_4096_20261024/calibration/finished/F020__Qwen3__ordinary__none__r1.json": "e6b39f8307ea6a749ab16f31dd29c39fa117a78e96636550a3680383a0aa0223",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F020__Qwen3__ordinary__none__r2.json": "eddc78bf7baf8cf913f175fd4c7450b63553837daea9b41d10f453b638b18ce6",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F020__gpt-oss__ordinary__none__r2.json": "9772588522227bca6cbfa232c5314992b87da42a3a3a7c8bfc5d0fbd6ab920d8",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F019__Qwen3__ordinary__none__r1.json": "267c9e731654459c837ee61389f8f334c92fff12b1f25ae8d8fcb3f749944f6a",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F019__gpt-oss__ordinary__none__r1.json": "b085110316b86ddec3f8d4addfb5066f61ea40f44bf31b6ac33a22e8b519673f",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F019__gpt-oss__ordinary__none__r2.json": "7170f8d6fb3e9a5a7a7c383d390d6825d1b3b6de2c08210c80585bdb37c7793d",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F019__Qwen3__ordinary__none__r2.json": "b8323d6a1b756689bef1eada0f2a383594877005ecf313ca85cf554f2d1b1b63",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F008__gpt-oss__ordinary__none__r1.json": "deccde57d54ec7821898809aa20e8bc15181b3fa6b2c7e307ed500e84a0ad81b",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/finished/F008__Qwen3__ordinary__none__r1.json": "77f13ada23930638cd49c993b4ce20250524d6942a0eb56bd9b55d9588a0a08d",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/manifest.json": "f466de95068edd93c5029cb59e8bfec4c8ec747a4b6140c103c02dfe45ced50e",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F002__Qwen3__ordinary__none__r1.json": "d3ad511fe2b4f5c519af85cd29280420ce5db7e4fdeeb713cd99c458e359b053",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F002__gpt-oss__ordinary__none__r1.json": "1724c3bc15e9b8e89b9878e4fc86bb171d00e27b6b03795e6bcb573b1d2eef3e",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F005__Qwen3__ordinary__none__r1.json": "2a69eb5edb8ba876d0d5af5edb11046f202379a31f92a925f160059d0e8e8b7b",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F005__gpt-oss__ordinary__none__r1.json": "c8abb2f3922fc2d1bc3c8b74d6580c50e4a8347725bfae7013ca0a5a413576a2",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F007__Qwen3__ordinary__none__r1.json": "3d1a90a9c7f044067dc2ead73f57063d95a0f20753cbff5ead819598891d8805",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F007__gpt-oss__ordinary__none__r1.json": "454b83dcd968dec609ed1ded7cb573d3a6e36059c21b37c929933ec4eff99fd1",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F017__Qwen3__ordinary__none__r1.json": "fc924411d279f653c17b636393012d9ea75fd37bb937c087a994eda7337703ad",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F017__gpt-oss__ordinary__none__r1.json": "ebea873346b0d02f138857a749aa26cedf194412b3e0048e36956cbe5cc3297d",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F024__Qwen3__ordinary__none__r1.json": "427ec118f871c9c0aa709ab5ecfb801870670dd9e7f2811bb2e43ed30c16d0c8",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F024__gpt-oss__ordinary__none__r1.json": "fd2d815143ffea687a991117c1cb53a362ce2c317792b6c301b620f44512f042",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F025__Qwen3__ordinary__none__r1.json": "93fceafedb49310f77c8155a38a3aef9d0c80ec38b51ebd9e1c37bc7da64aa9a",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/qualification/finished/F025__gpt-oss__ordinary__none__r1.json": "6d92766c0b580f38798212f040e0db93a4901135cc47652ef8afd2c1541165a3",
+    "scripts/97_http2_stream_collection.py": "ebcce8b97db0754a8a4e3f65e77ab069f70a1b7a8cd34b92f4996fb5ba1c6d87",
+    "docs/SELECTIVE_RELIANCE_HTTP2_RECOVERY.md": "fd75bec125c7941ce499b19ca329310b7514f239e3b892dbcab5b1fdc1ad197b",
+    "results/research_directions/selective_reliance_focus_20261024/stream_transport_20261025/qualification/manifest.json": "2c949e62ce03770df192f4f512a14f1d23454cd7aa54b95eac5a9f8e56aa9c6e",
+    "results/research_directions/selective_reliance_focus_20261024/stream_transport_20261025/diagnostic/generation.json": "ba20abc2cce13c0470193d5c916350bddf0f481dceb94a238e1119093c16db20",
+    "scripts/98_complete_calibration.py": "e30b0a8ddbefeadc9483c6c8044fd624a4f12dec8b3e823adbb8fb3558c512b8",
+    "docs/SELECTIVE_RELIANCE_CALIBRATION_COMPLETION.md": "6eb12500d9b32bdfd35da6196a7c0d8605a322f333bbe37c1a5e05caa631ba79",
+    "results/research_directions/selective_reliance_focus_20261024/http2_stream_20261025/calibration/manifest.json": "f4d3f02d396a63d3a187e4b203d102af95a26fbcb42fd5fe22f7a27fc91f6e49"
+  },
+  "original_study_remains_paused": true,
+  "http_version_required": "2",
+  "no_more_transport_candidates": true,
+  "previous_stream_cost_usd": ".00059654",
+  "cumulative_previous_cost_usd": "0.31363078",
+  "completion_only": true,
+  "advice_pilot_permitted": false,
+  "retained_count": 10,
+  "completed_behavioral_nonanswers_retained": true
+}

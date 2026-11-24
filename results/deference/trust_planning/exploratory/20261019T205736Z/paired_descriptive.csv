@@ -1,0 +1,13 @@
+model,key_correct,wording,n_pairs,accuracy_change
+R1,True,frequency,1,-1.0
+R1,True,probability,4,0.0
+R1,False,frequency,0,
+R1,False,probability,2,0.0
+Qwen3,True,frequency,0,
+Qwen3,True,probability,1,0.0
+Qwen3,False,frequency,1,0.0
+Qwen3,False,probability,1,0.0
+gpt-oss,True,frequency,2,0.0
+gpt-oss,True,probability,0,
+gpt-oss,False,frequency,5,0.0
+gpt-oss,False,probability,2,0.0

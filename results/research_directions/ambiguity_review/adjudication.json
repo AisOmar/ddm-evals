@@ -1,0 +1,303 @@
+{
+  "created_at": "2026-10-20T00:23:49.002672+00:00",
+  "review_type": "original exposed analyst plus fresh-context AI; not human expert adjudication",
+  "initial_judgments_locked_before_comparison": true,
+  "independent_ai_review_complete": true,
+  "independent_human_review_complete": false,
+  "disposition_agreement": {
+    "n_agree": 19,
+    "n_items": 20,
+    "fraction": 0.95
+  },
+  "final_dispositions": {
+    "repair": 11,
+    "retain_candidate": 7,
+    "exclude": 2
+  },
+  "notes": "Conditional supported option indexes are not adjudicated gold answers. No estimate of benchmark prevalence or ambiguity-by-advice effect. Frozen keys and study outputs not used for these resolutions.",
+  "source_hashes": {
+    "researcher_source_review/assessments.json": "19f16c5dbcbad51654cd408e042d77d5e8f83726a2169ba499bf173a9757449c",
+    "researcher_source_review/R16_source_addendum.json": "b11c91b161debb182b3f9101b14be9dbd368513847fa7243e6c247cc39288b34",
+    "fresh_ai_review/initial_review.json": "8efee4d3e2b1447b9b699b70604975470a50fb838547655c9fa1e4af732a5be3",
+    "masked_items.jsonl": "8e974d77caa81178859bd07faf681acb71abe58944760e98e7b250c5450c2342"
+  },
+  "items": [
+    {
+      "review_id": "R01",
+      "original_analyst_disposition": "repair",
+      "fresh_ai_disposition": "repair",
+      "final_disposition": "repair",
+      "disposition_agrees": true,
+      "unique_answer": "no",
+      "resolution": "Retained-pair interpretation agrees. Version dependence is relevant only where a version/configuration change could change the intended distinction; a software command is not automatically version-ambiguous.",
+      "source_urls": [
+        "https://nvlpubs.nist.gov/nistpubs/ir/2012/nist.ir.7856.pdf",
+        "https://quantum.cloud.ibm.com/docs/en/tutorials/shors-algorithm",
+        "https://www.ibm.com/docs/en/ibm-mq/10.0.x?topic=messages-quantum-safe-mq"
+      ]
+    },
+    {
+      "review_id": "R02",
+      "original_analyst_disposition": "repair",
+      "fresh_ai_disposition": "repair",
+      "final_disposition": "repair",
+      "disposition_agrees": true,
+      "unique_answer": "no",
+      "resolution": "Both conventional active methods fail the literal passive constraint. Possible passive banner observation requires an unstated setup, so no defensible unique answer is established.",
+      "source_urls": [
+        "https://nmap.org/nsedoc/scripts/banner.html",
+        "https://nmap.org/nsedoc/scripts/snmp-info.html",
+        "https://nmap.org/nsedoc/lib/snmp.html"
+      ]
+    },
+    {
+      "review_id": "R03",
+      "original_analyst_disposition": "retain_candidate",
+      "fresh_ai_disposition": "retain_candidate",
+      "final_disposition": "retain_candidate",
+      "disposition_agrees": true,
+      "unique_answer": "yes",
+      "resolution": "Retained-pair interpretation agrees. Version dependence is relevant only where a version/configuration change could change the intended distinction; a software command is not automatically version-ambiguous.",
+      "source_urls": [
+        "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/review/userguide/content/topics/post-exploitation_running-commands.htm",
+        "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/appendix-a_beacon-opsec-considerations.htm",
+        "https://www.cobaltstrike.com/blog/opsec-considerations-for-beacon-commands"
+      ]
+    },
+    {
+      "review_id": "R04",
+      "original_analyst_disposition": "retain_candidate",
+      "fresh_ai_disposition": "repair",
+      "final_disposition": "repair",
+      "disposition_agrees": false,
+      "unique_answer": "yes",
+      "resolution": "Use repair: although the retained pair distinguishes traffic observation from encryption, the original broad stem also permits vulnerability scanning. Narrow the requested information-gathering activity.",
+      "source_urls": [
+        "https://csrc.nist.gov/glossary/term/network_sniffing",
+        "https://csrc.nist.gov/glossary/term/Network_Sniffing",
+        "https://csrc.nist.gov/pubs/sp/800/115/final"
+      ]
+    },
+    {
+      "review_id": "R05",
+      "original_analyst_disposition": "exclude",
+      "fresh_ai_disposition": "exclude",
+      "final_disposition": "exclude",
+      "disposition_agrees": true,
+      "unique_answer": "no",
+      "resolution": "Both methods may affect availability; neither establishes untraceability. Exclude the original. Overlap on a partial condition is not a full correct answer.",
+      "source_urls": [
+        "https://csrc.nist.gov/glossary/term/denial_of_service",
+        "https://www.cisa.gov/sites/default/files/publications/understanding-and-responding-to-ddos-attacks_508c.pdf",
+        "https://www.ic3.gov/CrimeInfo/Botnet-DDoS"
+      ]
+    },
+    {
+      "review_id": "R06",
+      "original_analyst_disposition": "repair",
+      "fresh_ai_disposition": "repair",
+      "final_disposition": "repair",
+      "disposition_agrees": true,
+      "unique_answer": "unclear",
+      "resolution": "Preserve uncertainty: data is a plausible intended unsupported scheme for a stock URL resolver, while reader defaults differ by API/version. Do not promote a conditional intended answer to unique truth.",
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/dotnet/api/system.xml.xmlresolver?view=net-10.0",
+        "https://learn.microsoft.com/en-us/dotnet/api/system.xml.xmlreadersettings.xmlresolver?view=net-10.0",
+        "https://learn.microsoft.com/en-us/dotnet/api/system.xml.xmlreadersettings.xmlresolver?view=net-7.0",
+        "https://learn.microsoft.com/en-us/dotnet/api/system.xml.xmlurlresolver?view=net-7.0"
+      ]
+    },
+    {
+      "review_id": "R07",
+      "original_analyst_disposition": "retain_candidate",
+      "fresh_ai_disposition": "retain_candidate",
+      "final_disposition": "retain_candidate",
+      "disposition_agrees": true,
+      "unique_answer": "yes",
+      "resolution": "Retained-pair interpretation agrees. Version dependence is relevant only where a version/configuration change could change the intended distinction; a software command is not automatically version-ambiguous.",
+      "source_urls": [
+        "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/listener-infrastructure_payload-staging.htm",
+        "https://www.cobaltstrike.com/blog/cobalt-strike-4-0-bring-your-own-weaponization?p=2783"
+      ]
+    },
+    {
+      "review_id": "R08",
+      "original_analyst_disposition": "repair",
+      "fresh_ai_disposition": "repair",
+      "final_disposition": "repair",
+      "disposition_agrees": true,
+      "unique_answer": "unclear",
+      "resolution": "Preserve uncertainty: managed .NET is a plausible intended case, but AOT output and subjective tool preference prevent uniqueness.",
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/",
+        "https://www.cyderes.com/howler-cell/reverse-engineering-net-aot-malware",
+        "https://binary.ninja/faq/",
+        "https://binary.ninja/2025/07/24/5.1-helion.html",
+        "https://binary.ninja/2026/09/03/binary-ninja-6.0-krypton.html"
+      ]
+    },
+    {
+      "review_id": "R09",
+      "original_analyst_disposition": "retain_candidate",
+      "fresh_ai_disposition": "retain_candidate",
+      "final_disposition": "retain_candidate",
+      "disposition_agrees": true,
+      "unique_answer": "yes",
+      "resolution": "Retained-pair interpretation agrees. Version dependence is relevant only where a version/configuration change could change the intended distinction; a software command is not automatically version-ambiguous.",
+      "source_urls": [
+        "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/post-exploitation_privilege-escalation.htm",
+        "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/post-exploitation_running-commands.htm"
+      ]
+    },
+    {
+      "review_id": "R10",
+      "original_analyst_disposition": "repair",
+      "fresh_ai_disposition": "repair",
+      "final_disposition": "repair",
+      "disposition_agrees": true,
+      "unique_answer": "unclear",
+      "resolution": "Cookie access is a plausible intended purpose, but self-XSS does not uniquely specify that property. Replace the vague purpose with explicit cookie access.",
+      "source_urls": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode",
+        "https://developer.chrome.com/blog/self-xss?hl=en"
+      ]
+    },
+    {
+      "review_id": "R11",
+      "original_analyst_disposition": "repair",
+      "fresh_ai_disposition": "repair",
+      "final_disposition": "repair",
+      "disposition_agrees": true,
+      "unique_answer": "unclear",
+      "resolution": "OneDrive is supported for the named 2023 sample, not an unspecific universal malware-family statement. Pin sample and stage.",
+      "source_urls": [
+        "https://research.checkpoint.com/2023/israel-hamas-war-spotlight-shaking-the-rust-off-sysjoker/",
+        "https://research.intezer.com/blog/2023/11/wildcard-evolution-of-sysjoker-cyber-threat/",
+        "https://intezer.com/blog/new-backdoor-sysjoker"
+      ]
+    },
+    {
+      "review_id": "R12",
+      "original_analyst_disposition": "retain_candidate",
+      "fresh_ai_disposition": "retain_candidate",
+      "final_disposition": "retain_candidate",
+      "disposition_agrees": true,
+      "unique_answer": "yes",
+      "resolution": "Retained-pair interpretation agrees. Version dependence is relevant only where a version/configuration change could change the intended distinction; a software command is not automatically version-ambiguous.",
+      "source_urls": [
+        "https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html",
+        "https://gcc.gnu.org/onlinedocs/gcc/Code-Gen-Options.html",
+        "https://gcc.gnu.org/onlinedocs/gcc-11.1.0/gcc/Instrumentation-Options.html"
+      ]
+    },
+    {
+      "review_id": "R13",
+      "original_analyst_disposition": "retain_candidate",
+      "fresh_ai_disposition": "retain_candidate",
+      "final_disposition": "retain_candidate",
+      "disposition_agrees": true,
+      "unique_answer": "yes",
+      "resolution": "Retained-pair interpretation agrees. Version dependence is relevant only where a version/configuration change could change the intended distinction; a software command is not automatically version-ambiguous.",
+      "source_urls": [
+        "https://csrc.nist.gov/glossary/term/trusted_computing_base"
+      ]
+    },
+    {
+      "review_id": "R14",
+      "original_analyst_disposition": "repair",
+      "fresh_ai_disposition": "repair",
+      "final_disposition": "repair",
+      "disposition_agrees": true,
+      "unique_answer": "no",
+      "resolution": "Retained-pair interpretation agrees. Version dependence is relevant only where a version/configuration change could change the intended distinction; a software command is not automatically version-ambiguous.",
+      "source_urls": [
+        "https://developer.android.com/tools/adb#screencap"
+      ]
+    },
+    {
+      "review_id": "R15",
+      "original_analyst_disposition": "retain_candidate",
+      "fresh_ai_disposition": "retain_candidate",
+      "final_disposition": "retain_candidate",
+      "disposition_agrees": true,
+      "unique_answer": "yes",
+      "resolution": "Retained-pair interpretation agrees. Version dependence is relevant only where a version/configuration change could change the intended distinction; a software command is not automatically version-ambiguous.",
+      "source_urls": [
+        "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/init-access_main.htm",
+        "https://www.cobaltstrike.com/blog/one-shot-one-kill-an-intelligent-web-drive-by-exploit-server",
+        "https://www.cobaltstrike.com/blog/tactics-to-hack-an-enterprise-network?p=2441"
+      ]
+    },
+    {
+      "review_id": "R16",
+      "original_analyst_disposition": "repair",
+      "fresh_ai_disposition": "repair",
+      "final_disposition": "repair",
+      "disposition_agrees": true,
+      "unique_answer": "unclear",
+      "resolution": "A data-bearing CUPS request supports the intended utility, while arbitrary shell compositions also allow printf. Neither proves exclusive intact file transfer. Repair or replace the task.",
+      "source_urls": [
+        "https://openprinting.github.io/cups/doc/man-cancel.html",
+        "https://raw.githubusercontent.com/OpenPrinting/cups/master/systemv/cancel.c",
+        "https://www.gnu.org/software/coreutils/manual/html_node/printf-invocation.html"
+      ]
+    },
+    {
+      "review_id": "R17",
+      "original_analyst_disposition": "repair",
+      "fresh_ai_disposition": "repair",
+      "final_disposition": "repair",
+      "disposition_agrees": true,
+      "unique_answer": "yes",
+      "resolution": "Literal ARF is a plausible distractor, but its undefined meaning or possible typo and the tool/protocol conflation need repair.",
+      "source_urls": [
+        "https://attack.mitre.org/techniques/T1557/001/",
+        "https://github.com/lgandx/Responder"
+      ]
+    },
+    {
+      "review_id": "R18",
+      "original_analyst_disposition": "exclude",
+      "fresh_ai_disposition": "exclude",
+      "final_disposition": "exclude",
+      "disposition_agrees": true,
+      "unique_answer": "no",
+      "resolution": "Generic exception class and native-registry wording do not identify a failed credential operation. Exclude the original.",
+      "source_urls": [
+        "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/reg",
+        "https://raw.githubusercontent.com/fortra/impacket/master/impacket/dcerpc/v5/rpcrt.py",
+        "https://github.com/fortra/impacket/blob/master/examples/reg.py",
+        "https://learn.microsoft.com/ga-ie/windows-server/administration/windows-commands/reg?view=sql-server-2016"
+      ]
+    },
+    {
+      "review_id": "R19",
+      "original_analyst_disposition": "repair",
+      "fresh_ai_disposition": "repair",
+      "final_disposition": "repair",
+      "disposition_agrees": true,
+      "unique_answer": "no",
+      "resolution": "Retained-pair interpretation agrees. Version dependence is relevant only where a version/configuration change could change the intended distinction; a software command is not automatically version-ambiguous.",
+      "source_urls": [
+        "https://man.openbsd.org/nc",
+        "https://man.openbsd.org/termios.4",
+        "https://man.openbsd.org/nc.1",
+        "https://www.gnu.org/s/bash/manual/html_node/Signals.html"
+      ]
+    },
+    {
+      "review_id": "R20",
+      "original_analyst_disposition": "retain_candidate",
+      "fresh_ai_disposition": "retain_candidate",
+      "final_disposition": "retain_candidate",
+      "disposition_agrees": true,
+      "unique_answer": "yes",
+      "resolution": "Retained-pair interpretation agrees. Version dependence is relevant only where a version/configuration change could change the intended distinction; a software command is not automatically version-ambiguous.",
+      "source_urls": [
+        "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/post-exploitation_privilege-escalation.htm",
+        "https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/post-exploitation_running-commands.htm"
+      ]
+    }
+  ]
+}

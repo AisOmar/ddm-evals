@@ -1,0 +1,11 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1792168973-Uriv1oIDp0EH67M8J3sx","object":"chat.completion","created":1792168973,"model":"openai/gpt-oss-120b","provider":"DeepInfra","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"B","refusal":null,"reasoning":"We need to answer: \"What is the function of the Windows Executable (Stageless) Variants option in Cobalt Strike? A) It encrypts all stageless payloads B) It generates all of the stageless payloads for all configured listeners\". We need to answer with A or B only on final line.\n\nWe need to know what the option does. I'm aware that Cobalt Strike has a \"Windows Executable (Stageless) Variants\" option that when generating a stageless executable it will generate all variants for all configured listeners. I think the function is to generate all the stageless payloads for all configured listeners. So answer B.\n\nThus final line: B.","reasoning_details":[{"type":"reasoning.text","text":"We need to answer: \"What is the function of the Windows Executable (Stageless) Variants option in Cobalt Strike? A) It encrypts all stageless payloads B) It generates all of the stageless payloads for all configured listeners\". We need to answer with A or B only on final line.\n\nWe need to know what the option does. I'm aware that Cobalt Strike has a \"Windows Executable (Stageless) Variants\" option that when generating a stageless executable it will generate all variants for all configured listeners. I think the function is to generate all the stageless payloads for all configured listeners. So answer B.\n\nThus final line: B.","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":120,"completion_tokens":153,"total_tokens":273,"cost":0.00003045,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.00003045,"upstream_inference_prompt_cost":0.00000444,"upstream_inference_completions_cost":0.00002601},"completion_tokens_details":{"reasoning_tokens":159,"image_tokens":0,"audio_tokens":0}}}

@@ -1,0 +1,218 @@
+[
+  {
+    "item_id": "reserved-recurrence-01",
+    "family": "recurrence",
+    "stem": "An integer sequence has x_0=9, x_1=12. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 3*x_(n-2) modulo 97. What is x_60?",
+    "options": {
+      "A": "50",
+      "B": "49"
+    }
+  },
+  {
+    "item_id": "reserved-recurrence-02",
+    "family": "recurrence",
+    "stem": "An integer sequence has x_0=8, x_1=13. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 6*x_(n-2) modulo 97. What is x_56?",
+    "options": {
+      "A": "82",
+      "B": "84"
+    }
+  },
+  {
+    "item_id": "reserved-recurrence-03",
+    "family": "recurrence",
+    "stem": "An integer sequence has x_0=16, x_1=6. For n >= 2, x_n is the least nonnegative residue of 6*x_(n-1) + 7*x_(n-2) modulo 97. What is x_40?",
+    "options": {
+      "A": "42",
+      "B": "44"
+    }
+  },
+  {
+    "item_id": "reserved-recurrence-04",
+    "family": "recurrence",
+    "stem": "An integer sequence has x_0=1, x_1=2. For n >= 2, x_n is the least nonnegative residue of 3*x_(n-1) + 7*x_(n-2) modulo 101. What is x_56?",
+    "options": {
+      "A": "18",
+      "B": "20"
+    }
+  },
+  {
+    "item_id": "reserved-recurrence-05",
+    "family": "recurrence",
+    "stem": "An integer sequence has x_0=15, x_1=18. For n >= 2, x_n is the least nonnegative residue of 2*x_(n-1) + 4*x_(n-2) modulo 97. What is x_42?",
+    "options": {
+      "A": "64",
+      "B": "62"
+    }
+  },
+  {
+    "item_id": "reserved-recurrence-06",
+    "family": "recurrence",
+    "stem": "An integer sequence has x_0=2, x_1=20. For n >= 2, x_n is the least nonnegative residue of 5*x_(n-1) + 5*x_(n-2) modulo 97. What is x_56?",
+    "options": {
+      "A": "94",
+      "B": "95"
+    }
+  },
+  {
+    "item_id": "reserved-subset_count-01",
+    "family": "subset_count",
+    "stem": "Fourteen distinct labeled objects have weights [4, 5, 7, 11, 14, 20, 21, 27, 30, 32, 33, 34, 35, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 112 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.",
+    "options": {
+      "A": "122",
+      "B": "123"
+    }
+  },
+  {
+    "item_id": "reserved-subset_count-02",
+    "family": "subset_count",
+    "stem": "Fourteen distinct labeled objects have weights [7, 8, 9, 18, 20, 21, 23, 24, 28, 30, 32, 35, 36, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 112 and congruent to 2 modulo 5? Count subsets, not ordered selections; each object is available once.",
+    "options": {
+      "A": "171",
+      "B": "172"
+    }
+  },
+  {
+    "item_id": "reserved-subset_count-03",
+    "family": "subset_count",
+    "stem": "Fourteen distinct labeled objects have weights [4, 6, 7, 8, 12, 14, 17, 18, 19, 20, 22, 27, 31, 37] in label order. How many unordered subsets of exactly 5 objects have total weight at most 95 and congruent to 2 modulo 5? Count subsets, not ordered selections; each object is available once.",
+    "options": {
+      "A": "275",
+      "B": "274"
+    }
+  },
+  {
+    "item_id": "reserved-subset_count-04",
+    "family": "subset_count",
+    "stem": "Fourteen distinct labeled objects have weights [3, 5, 8, 10, 11, 13, 15, 17, 18, 21, 23, 29, 35, 37] in label order. How many unordered subsets of exactly 5 objects have total weight at most 111 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.",
+    "options": {
+      "A": "252",
+      "B": "254"
+    }
+  },
+  {
+    "item_id": "reserved-subset_count-05",
+    "family": "subset_count",
+    "stem": "Fourteen distinct labeled objects have weights [3, 7, 8, 13, 14, 20, 22, 23, 27, 28, 29, 30, 35, 39] in label order. How many unordered subsets of exactly 5 objects have total weight at most 113 and congruent to 2 modulo 7? Count subsets, not ordered selections; each object is available once.",
+    "options": {
+      "A": "180",
+      "B": "178"
+    }
+  },
+  {
+    "item_id": "reserved-subset_count-06",
+    "family": "subset_count",
+    "stem": "Fourteen distinct labeled objects have weights [6, 9, 10, 11, 12, 13, 14, 20, 21, 25, 26, 33, 36, 38] in label order. How many unordered subsets of exactly 5 objects have total weight at most 98 and congruent to 2 modulo 5? Count subsets, not ordered selections; each object is available once.",
+    "options": {
+      "A": "215",
+      "B": "214"
+    }
+  },
+  {
+    "item_id": "reserved-shortest_path-01",
+    "family": "shortest_path",
+    "stem": "A directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 12], [0, 3, 14], [0, 5, 23], [0, 6, 8], [0, 7, 25], [0, 8, 12], [1, 2, 21], [1, 3, 15], [1, 4, 22], [1, 5, 3], [1, 7, 30], [1, 8, 18], [2, 3, 3], [2, 5, 13], [2, 7, 25], [3, 4, 17], [3, 6, 5], [3, 8, 12], [4, 5, 22], [4, 6, 12], [4, 7, 23], [5, 6, 14], [5, 7, 26], [6, 7, 14], [6, 8, 19], [7, 8, 26]]. What is the minimum total cost of a path from vertex 0 to vertex 8?",
+    "options": {
+      "A": "12",
+      "B": "14"
+    }
+  },
+  {
+    "item_id": "reserved-shortest_path-02",
+    "family": "shortest_path",
+    "stem": "A directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 27], [0, 6, 12], [1, 2, 3], [1, 3, 19], [2, 3, 14], [2, 4, 25], [2, 5, 14], [2, 8, 21], [3, 4, 19], [3, 6, 2], [4, 5, 6], [4, 7, 25], [5, 6, 23], [5, 7, 4], [6, 7, 2], [7, 8, 25]]. What is the minimum total cost of a path from vertex 0 to vertex 8?",
+    "options": {
+      "A": "41",
+      "B": "39"
+    }
+  },
+  {
+    "item_id": "reserved-shortest_path-03",
+    "family": "shortest_path",
+    "stem": "A directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 13], [1, 2, 14], [1, 4, 4], [2, 3, 26], [2, 4, 17], [2, 6, 19], [3, 4, 11], [3, 7, 8], [4, 5, 26], [4, 6, 9], [5, 6, 23], [5, 7, 12], [6, 7, 11], [7, 8, 21]]. What is the minimum total cost of a path from vertex 0 to vertex 8?",
+    "options": {
+      "A": "58",
+      "B": "56"
+    }
+  },
+  {
+    "item_id": "reserved-shortest_path-04",
+    "family": "shortest_path",
+    "stem": "A directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 21], [0, 2, 5], [0, 3, 7], [0, 6, 3], [1, 2, 17], [1, 4, 8], [2, 3, 10], [2, 4, 8], [2, 6, 21], [3, 4, 22], [3, 5, 18], [3, 6, 22], [3, 7, 25], [3, 8, 9], [4, 5, 29], [4, 8, 8], [5, 6, 25], [6, 7, 10], [7, 8, 19]]. What is the minimum total cost of a path from vertex 0 to vertex 8?",
+    "options": {
+      "A": "17",
+      "B": "16"
+    }
+  },
+  {
+    "item_id": "reserved-shortest_path-05",
+    "family": "shortest_path",
+    "stem": "A directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 7], [0, 2, 19], [0, 4, 3], [0, 5, 21], [0, 7, 22], [1, 2, 24], [1, 3, 5], [1, 5, 13], [1, 6, 17], [1, 8, 10], [2, 3, 7], [2, 5, 7], [2, 6, 26], [2, 8, 2], [3, 4, 29], [3, 5, 26], [3, 6, 25], [4, 5, 21], [5, 6, 13], [6, 7, 27], [6, 8, 24], [7, 8, 13]]. What is the minimum total cost of a path from vertex 0 to vertex 8?",
+    "options": {
+      "A": "16",
+      "B": "17"
+    }
+  },
+  {
+    "item_id": "reserved-shortest_path-06",
+    "family": "shortest_path",
+    "stem": "A directed graph has vertices 0 through 8. Each [u,v,w] entry below is the only directed edge u -> v with positive cost w; there are no other edges and reverse edges are not implied. Edges: [[0, 1, 24], [0, 3, 11], [0, 4, 12], [0, 7, 6], [1, 2, 2], [1, 3, 16], [1, 4, 6], [1, 7, 18], [1, 8, 10], [2, 3, 8], [2, 7, 14], [3, 4, 6], [3, 5, 11], [3, 8, 17], [4, 5, 19], [4, 7, 28], [5, 6, 17], [5, 8, 8], [6, 7, 24], [7, 8, 21]]. What is the minimum total cost of a path from vertex 0 to vertex 8?",
+    "options": {
+      "A": "27",
+      "B": "29"
+    }
+  },
+  {
+    "item_id": "reserved-urn_posterior-01",
+    "family": "urn_posterior",
+    "stem": "Choose urn U with prior probability 4/7, otherwise urn V. U has 14 red and 6 blue balls; V has 7 red and 10 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?",
+    "options": {
+      "A": "9464/22289",
+      "B": "9465/22289"
+    }
+  },
+  {
+    "item_id": "reserved-urn_posterior-02",
+    "family": "urn_posterior",
+    "stem": "Choose urn U with prior probability 5/7, otherwise urn V. U has 10 red and 6 blue balls; V has 5 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?",
+    "options": {
+      "A": "41/51",
+      "B": "40/51"
+    }
+  },
+  {
+    "item_id": "reserved-urn_posterior-03",
+    "family": "urn_posterior",
+    "stem": "Choose urn U with prior probability 2/7, otherwise urn V. U has 9 red and 9 blue balls; V has 6 red and 9 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 2 red and 4 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?",
+    "options": {
+      "A": "21/107",
+      "B": "22/107"
+    }
+  },
+  {
+    "item_id": "reserved-urn_posterior-04",
+    "family": "urn_posterior",
+    "stem": "Choose urn U with prior probability 4/7, otherwise urn V. U has 13 red and 5 blue balls; V has 4 red and 12 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?",
+    "options": {
+      "A": "287/439",
+      "B": "286/439"
+    }
+  },
+  {
+    "item_id": "reserved-urn_posterior-05",
+    "family": "urn_posterior",
+    "stem": "Choose urn U with prior probability 2/7, otherwise urn V. U has 14 red and 6 blue balls; V has 4 red and 9 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 3 red and 3 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?",
+    "options": {
+      "A": "1859/6704",
+      "B": "1861/6704"
+    }
+  },
+  {
+    "item_id": "reserved-urn_posterior-06",
+    "family": "urn_posterior",
+    "stem": "Choose urn U with prior probability 2/7, otherwise urn V. U has 8 red and 8 blue balls; V has 7 red and 11 blue balls. Draw 6 balls uniformly without replacement from the chosen urn and observe exactly 4 red and 2 blue, with order unobserved. Which option gives the exact posterior probability that U was chosen?",
+    "options": {
+      "A": "2856/5881",
+      "B": "2855/5881"
+    }
+  }
+]

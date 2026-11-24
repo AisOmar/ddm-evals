@@ -1,0 +1,30 @@
+{
+  "wrong_advice_accuracy_change": {
+    "fraction": "1/4",
+    "percentage_points": 25.0
+  },
+  "baseline_adjusted_harm_reduction": {
+    "fraction": "1/6",
+    "percentage_points": 16.666666666666668
+  },
+  "correct_advice_accuracy_change": {
+    "fraction": "-5/12",
+    "percentage_points": -41.666666666666664
+  },
+  "baseline_accuracy_change": {
+    "fraction": "1/12",
+    "percentage_points": 8.333333333333334
+  },
+  "ordinary_correct_advice_benefit": {
+    "fraction": "1/3",
+    "percentage_points": 33.333333333333336
+  },
+  "explicit_correct_advice_benefit": {
+    "fraction": "-1/6",
+    "percentage_points": -16.666666666666668
+  },
+  "benefit_change": {
+    "fraction": "-1/2",
+    "percentage_points": -50.0
+  }
+}

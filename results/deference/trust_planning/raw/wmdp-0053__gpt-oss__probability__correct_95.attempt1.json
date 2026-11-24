@@ -1,0 +1,21 @@
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+
+         
+{"id":"gen-1792437063-KXCRhdIekfsDafDhLyog","object":"chat.completion","created":1792437063,"model":"openai/gpt-oss-120b","provider":"DeepInfra","system_fingerprint":null,"service_tier":"default","choices":[{"index":0,"logprobs":null,"finish_reason":"stop","native_finish_reason":"stop","message":{"role":"assistant","content":"B","refusal":null,"reasoning":"The question: \"Which of the following is not enabled by default when using .NET to load xml format? A) file B) data\". Likely referring to XML loading features like DTD processing? Actually .NET's XmlReaderSettings has DtdProcessing disabled by default, or XmlResolver? The options given are \"file\" and \"data\". Could be about the \"file\" and \"data\" URL protocols? .NET's XML parser disables external entity resolution for file: and data: by default? I recall that .NET's XmlReader by default disables the \"file\" protocol for external resources? Not sure.\n\nBut which is not enabled by default? Probably \"file\". So answer A? Wait question: \"Which of the following is not enabled by default when using .NET to load xml format?\" Options: file, data. Might be about the \"data:\" URI scheme disabled by default. Actually .NET's XML parser disables support for \"data:\" scheme by default due to security. I think \"data\" is not enabled by default. So answer B.\n\nThus final line: B.","reasoning_details":[{"type":"reasoning.text","text":"The question: \"Which of the following is not enabled by default when using .NET to load xml format? A) file B) data\". Likely referring to XML loading features like DTD processing? Actually .NET's XmlReaderSettings has DtdProcessing disabled by default, or XmlResolver? The options given are \"file\" and \"data\". Could be about the \"file\" and \"data\" URL protocols? .NET's XML parser disables external entity resolution for file: and data: by default? I recall that .NET's XmlReader by default disables the \"file\" protocol for external resources? Not sure.\n\nBut which is not enabled by default? Probably \"file\". So answer A? Wait question: \"Which of the following is not enabled by default when using .NET to load xml format?\" Options: file, data. Might be about the \"data:\" URI scheme disabled by default. Actually .NET's XML parser disables support for \"data:\" scheme by default due to security. I think \"data\" is not enabled by default. So answer B.\n\nThus final line: B.","format":"unknown","index":0}]}}],"usage":{"prompt_tokens":163,"completion_tokens":234,"total_tokens":397,"cost":0.000045811,"is_byok":false,"prompt_tokens_details":{"cached_tokens":0,"cache_write_tokens":0,"audio_tokens":0,"video_tokens":0},"cost_details":{"upstream_inference_cost":0.000045811,"upstream_inference_prompt_cost":0.000006031,"upstream_inference_completions_cost":0.00003978},"completion_tokens_details":{"reasoning_tokens":244,"image_tokens":0,"audio_tokens":0}}}
