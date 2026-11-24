@@ -39,4 +39,12 @@ jobs:
       - run: python -m pip install --upgrade pip
       - run: python -m pip install -e ".[dev]"
       - run: ddm-evals info
+      # Four frozen tests open absolute paths recorded in the hash-locked manifests under
+      # results/research_directions: the author's checkout path and macOS's /private/tmp. The manifests and the
+      # tests cannot be edited (their hashes are recorded in turn), so the runner recreates both paths as symlinks.
+      - name: Recreate the absolute paths recorded in the frozen manifests
+        run: |
+          sudo mkdir -p /Users/aisuluomar/Downloads /private
+          sudo ln -sfn "$GITHUB_WORKSPACE" /Users/aisuluomar/Downloads/ddm-evals
+          sudo ln -sfn /tmp /private/tmp
       - run: python -m pytest -q

@@ -22,7 +22,10 @@ make test            # or: python -m pytest -q
 ```
 
 Everything is offline. Two tests are marked as documented expected failures in `conftest.py`; the reason is written
-there and in `CHANGELOG.md` (2026-11-24). If you add code, add tests under `tests/package/` (or a new
+there and in `CHANGELOG.md` (2026-11-24). Four frozen tests open absolute paths recorded in the hash-locked manifests
+(the original checkout path `/Users/aisuluomar/Downloads/ddm-evals` and macOS's `/private/tmp`); on another machine
+create both as symlinks to your checkout and to `/tmp`, as `.github/workflows/ci.yml` does, or expect those four to
+fail with `FileNotFoundError`. If you add code, add tests under `tests/package/` (or a new
 `tests/test_<topic>.py` for a new script) and keep them offline: mock the provider, never call an API.
 
 ## Conventions that matter here

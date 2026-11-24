@@ -47,6 +47,8 @@ class FrozenInputTests(unittest.TestCase):
             self.assertTrue(path.is_file(), lock)
             for name, expected in _entries(json.loads(path.read_text(encoding="utf-8"))):
                 target = ddm_evals.ROOT / name
+                if name.startswith("data/raw/") and not target.exists():
+                    continue  # raw datasets are fetched, not committed (DATASETS.md); absent on a fresh clone
                 self.assertTrue(target.is_file(), f"{lock} names a missing file {name}")
                 checked += 1
                 if _sha(target) != expected:
